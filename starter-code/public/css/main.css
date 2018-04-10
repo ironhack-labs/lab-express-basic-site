@@ -1,0 +1,30 @@
+.title {
+  text-align: center; }
+
+.title {
+  text-align: center; }
+
+.center {
+  text-align: center; }
+
+body {
+  background-color: beige; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  display: inline;
+  margin: 0 20px; }
+
+h1 {
+  color: blue;
+  font-family: 'Roboto', sans-serif; }
+
+.title {
+  text-align: center; }
+
+.img-gallery {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
