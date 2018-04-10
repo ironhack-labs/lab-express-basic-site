@@ -1,0 +1,26 @@
+.title {
+  margin-top: 50px;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.car-img {
+  margin: 0 auto;
+  max-height: 400px;
+}
+.links-right {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  ul {
+    list-style-type: none;
+    li {
+      float: left;
+      padding: 50px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}

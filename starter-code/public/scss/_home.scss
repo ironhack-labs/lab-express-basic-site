@@ -1,0 +1,40 @@
+.main-logo {
+  img {
+    max-width: 100%;
+    position: relative;
+    height: 400px;
+    &:hover {
+      animation-name: bounce;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: both;
+      animation-direction: alternate;
+    }
+  }
+}
+.links {
+  margin-top: 60px;
+  ul {
+    list-style-type: none;
+    width: 10%;
+    margin: 0 auto;
+    li {
+      a {
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: $hover;
+        }
+      }
+    }
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 42px;
+  }
+}
