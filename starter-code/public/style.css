@@ -1,0 +1,10 @@
+.jumbotron {
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+
+.nav a {
+  text-transform: uppercase;
+  color: grey;
+}
