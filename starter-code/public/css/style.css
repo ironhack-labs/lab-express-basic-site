@@ -1,0 +1,74 @@
+header {
+  position: absolute;
+  background-color: black;
+  height: 100vh;
+  width: 200px;
+  display: inline-block;
+}
+
+header img {
+  width: 100%;
+}
+
+header li {
+  list-style: none;
+  padding: 25px;
+}
+
+header ul {
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;  
+}
+
+header a {
+  color: white;
+  font-size: 2em;
+}
+
+main {
+  height: 100vh;
+}
+
+main {
+  margin-left: 200px;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("/img/ft_escudo.jpg");
+  text-align: center;
+}
+
+main>div {
+  display:table-cell;
+  vertical-align:middle;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.darker {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  margin: 0;
+  padding: 40px;
+  font-size: 1.2em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 7em;
+}
+
+main img {
+  height: 100%;
+}
+
+.line {
+  width: 100%;
+  padding: 20px 0;
+  display: block;
+  height: 33vh;
+}
