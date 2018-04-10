@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.gif {
+  width: 500px;
+}
+p {
+  font-size: 1.5em;
+}
+.about {
+  padding-top: 50px;
+}
