@@ -1,0 +1,113 @@
+html {
+  height:100%;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  height: 100%;  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white
+}
+
+a:hover{
+  color: gold;
+}
+
+.nav {
+  box-sizing: content-box;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  box-shadow: black 0px 1px 3px;
+  text-align: center;
+}
+.nav ul{
+  margin: 0;
+  padding: 20px 40px;
+}
+.nav li {
+  color: #c5c5c5;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.wrapper {
+  height:calc(100%);
+  background-color: rgb(255, 255, 255);
+  background-image: url('../images/obama-portrait.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.wrapper-2 {
+  background-image: url('../images/barry.jpg') !important;
+  background-position: top right;
+}
+
+.overlay{
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#quote {
+  
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 160px 0 0 0;
+  margin: 0 auto;
+  height: 200px;
+  width: 80%;
+  font-size: 4vw;
+}
+
+.initial {
+  animation: slidein 1s;
+}
+
+.bio-text {
+  position: fixed;
+  height:100%;
+  padding: 20px;
+  max-width:300px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 80%;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+@keyframes slideout {
+  from {
+    margin-top: 0%;
+    width: 80%;
+    opacity: 1;
+  }
+
+  to {
+    margin-top: -100%;
+    width: 80%;
+    opacity: 0;
+  }
+}
