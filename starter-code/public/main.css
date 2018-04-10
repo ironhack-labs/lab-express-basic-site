@@ -1,0 +1,23 @@
+#main-content {
+  padding-top: 4%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button-div button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(240, 100, 100);
+  border: 2px solid rgb(228, 141, 141);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+.button-div p {
+ font-size: 18px;
+ font-family: helvetica;
+ text-align: center;
+}
