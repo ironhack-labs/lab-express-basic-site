@@ -19,6 +19,12 @@ app.get('/', (request, response, next) => {
   response.send('<h1>Welcome Ironhacker. :)</h1>');
 });
 
+app.get('/bio', (request, response, next) => {
+  console.log(request);
+  response.send('<h1>Welcome to the bio section :)</h1>');
+});
+
+
 
 
 
