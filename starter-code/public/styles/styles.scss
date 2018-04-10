@@ -1,0 +1,75 @@
+@import "variables";
+
+body {
+  font-size: $documentfont;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.navbar {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+%img_shared {
+  transition: width 5s;
+}
+
+%img_shared:hover {
+  height: 280px;
+}
+
+#bigtext {
+  font-size: 12em;
+  color: $text-two;
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 100%;
+  font-weight: bold;
+  padding: 50px 0;
+  height: 600px;
+}
+
+#discography {
+  background-color: $background-one;
+  color: $text-one;
+  #albums {
+    font-size: 1.5em;
+    font-weight: bold;
+    p {
+      padding: 20px;
+    }
+  }
+  .col-md-3 {
+    padding: 50px;
+    img {
+      @extend %img_shared;
+    }
+  }
+  .col-md-4 {
+    padding: 50px;
+    img {
+      @extend %img_shared;
+    }
+  }
+  h5 {
+    padding: 20px;
+  }
+}
+
+
+.row {
+  text-align: center;
+}
+
+.carousel-item {
+  img {
+   height: 800px;
+  }
+}

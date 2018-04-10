@@ -1,0 +1,51 @@
+body {
+  font-size: 14px; }
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em; }
+
+.navbar {
+  width: 100%;
+  font-size: 1.5em; }
+
+#discography .col-md-3 img, #discography .col-md-4 img {
+  transition: width 5s; }
+
+#discography .col-md-3 img:hover, #discography .col-md-4 img:hover {
+  height: 280px; }
+
+#bigtext {
+  font-size: 12em;
+  color: black;
+  padding-bottom: 40px; }
+
+.container {
+  width: 100%;
+  font-weight: bold;
+  padding: 50px 0;
+  height: 600px; }
+
+#discography {
+  background-color: black;
+  color: white; }
+  #discography #albums {
+    font-size: 1.5em;
+    font-weight: bold; }
+    #discography #albums p {
+      padding: 20px; }
+  #discography .col-md-3 {
+    padding: 50px; }
+  #discography .col-md-4 {
+    padding: 50px; }
+  #discography h5 {
+    padding: 20px; }
+
+.row {
+  text-align: center; }
+
+.carousel-item img {
+  height: 800px; }
+
+/*# sourceMappingURL=styles.css.map */
