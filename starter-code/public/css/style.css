@@ -1,0 +1,19 @@
+.jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -250px;
+}
+
+.container {
+  margin-bottom: -20px;
+}
+
+#main-h1 {
+  color: gainsboro;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.row {
+  margin: 10px 0;
+}
