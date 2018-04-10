@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Gaegu','cursive';
+    font-size:16px;
+}
+#contenedor{
+    margin: 0 10%;
+    height: 100vh;
+    text-align: center;
+
+}
+h1{
+    font-size: 6em;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+h2{
+    text-align: left;
+    font-size: 3.5em;
+}
+.img-frontal{
+    width: 50%;
+    height: 400px;
+}
+button{
+    background-color: rgb(90, 114, 67);
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    margin: 50px 60px;
+    font-size: 2em;
+    font-family: 'Gaegu',
+    'cursive';
+
+}
+
+p{
+    line-height: 1.5;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 25px 0;
+}
+.link-about{
+    padding-top: 100px;
+     text-decoration: none;
+     color:green;
+     font-family: 'Gaegu','cursive';
+     font-size: 2em;
+     margin: 80px 200px;
+     text-decoration: none;
+     
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+.images{
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
