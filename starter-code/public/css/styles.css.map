@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ,CACJ,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,gBAAgB,CCCC,oBAAuB,CDAxC,KAAK,CCHK,IAAK,CCDnB,MAAM,CACF,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,gBAAgB,CDDD,IAAK,CCEpB,KAAK,CDHK,IAAK,CEDnB,MAAM,CACF,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,gBAAgB,CFHD,IAAI,CEInB,KAAK,CFHK,IAAK",
+"sources": ["../scss/_gallery.scss","../scss/_variables.scss","../scss/_about.scss","../scss/_index.scss"],
+"names": [],
+"file": "styles.css"
+}
