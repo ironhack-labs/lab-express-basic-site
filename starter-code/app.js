@@ -18,9 +18,9 @@ app.get('/mr-x', (req, res) => {
   res.sendFile(__dirname + '/views/mr-x.html');
 });
 
-app.get('/photo', (req, res) => {
+app.get('/Contact', (req, res) => {
   console.log(req);
-  res.send('<h1>photo. :)</h1>');
+  res.sendFile(__dirname + '/views/contact.html');
 });
 
 // Server Started
