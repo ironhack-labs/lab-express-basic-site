@@ -1,0 +1,32 @@
+body{
+  font-family: 'Rock Salt', cursive;
+
+}
+
+.ga {
+  margin-top: 25em;
+}
+
+.one{
+  padding-right:5em;
+}
+
+.gu{
+margin-top:5em;
+}
+
+.text{
+  margin-top:8em;
+  color: navy;
+}
+
+.pickle{
+  margin:0 auto;
+  object-fit: contain;
+  width: 10%;
+  height:20px;
+}
+
+.carousel{
+  margin-top: 300px;
+}
