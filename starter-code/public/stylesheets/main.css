@@ -1,0 +1,99 @@
+/* -------------------------- reset -------------------------- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------------- layout -------------------------- */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 80px;
+  padding: 0px 80px 0px 40px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.nav-links {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#body {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#body h1  {
+  font-size: 50px;
+}
+
+#about-body {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-body h2  {
+  font-size: 30px;
+}
+
+#about-body img {
+  width: 600px;
+}
+
+#photo-gallery-body {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#photo-gallery-body .img-holder {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px; 
+}
+
+
+
+
+#footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
