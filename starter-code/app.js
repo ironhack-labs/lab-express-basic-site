@@ -29,26 +29,6 @@ app.get('/gallery', (req,res) => {
 
 });
 
-// our first Route
-/*app.get('/pepe', (req,res) => {
-    console.log(req);
-    let a = Math.random()*100
-    
-    let img;
-    if(a < 50){
-        img="/homer.png"
-    }else{
-        img="/maggie.png"
-    }
-    
-    res.send(`
-    
-    <h1>Welcome Juan. :) </h1>
-    <img src="${img}"/>
-    
-    `);
-});*/
-
 
 // Server Started
 app.listen(3000, () => {
