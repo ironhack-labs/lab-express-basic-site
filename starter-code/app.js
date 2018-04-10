@@ -10,8 +10,20 @@ app.use(express.static('public'));
 // our first Route
 app.get('/', (request, response, next) => {
   console.log(request);
-  response.send('<h1>Welcome Ironhacker. :)</h1>');
+  response.sendFile(__dirname + '/public/html/home.html');
 });
+
+app.get('/gallery', (request, response, next) => {
+    console.log(request);
+    response.sendFile(__dirname + '/public/html/gallery.html');
+  });
+
+app.get('/about', (request, response, next) => {
+console.log(request);
+response.sendFile(__dirname + '/public/html/about.html');
+});
+
+
 
 // Server Started
 app.listen(3000, () => {
