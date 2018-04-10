@@ -1,0 +1,25 @@
+body{
+    color: rgba(20, 20, 20, 0.8);
+}
+
+
+
+h1{
+    text-align: center;
+    margin: 10vh 0;
+}
+
+img{
+    width: 20vw;
+    height: auto;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
