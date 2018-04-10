@@ -1,0 +1,14 @@
+header {
+  height : 720px;
+ width : 100%;
+ color : blueviolet;
+ border : solid #4169E1 10px;
+ border-radius : 40px;
+ text-align : center;
+
+ background:rgba(255,255,255, 0.5);
+ font-size : 40px;
+ float : left;
+
+
+}
