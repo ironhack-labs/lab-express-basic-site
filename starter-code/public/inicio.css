@@ -1,0 +1,23 @@
+h1{
+    margin: 30px 0px 0px 422px;
+    color: white;
+    font-size: 70px;
+}
+.iradragonball{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+.iraabout{
+    margin: -17px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-end;}
+body{
+    background-image: url("http://www.hdfondos.eu/preview/get_photo/506983/1920/1200");
+}
+.video {
+    margin: 10px 0px 100px 240px;
+}
+.dbz{
+    margin:0px 0px 0px 120px;
+}
