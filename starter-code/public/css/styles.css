@@ -1,0 +1,23 @@
+body{
+  background-color: #2ECC71;
+  text-align: center;
+ 
+}
+h1{
+  color:blue;
+  text-align: center;
+}
+h2{
+  color:#2E4053;
+}
+.carousel-inner{
+  text-align: center;
+}
+img{
+  margin: 0 auto;
+  width: 30%
+}
+ul{
+  list-style: none;
+  font-size: 2em;
+}
