@@ -21,7 +21,7 @@ body {
       width: 500px;
       height: 250px;
       margin-bottom: 30px;
-      
+
   }
 
   .links a {
@@ -41,4 +41,10 @@ body {
       margin-left: 24px;
       padding-right: 30px;
       color: black;
+  }
+
+  a:hover {
+      font-size: 18px;
+      color: blue;
+      text-decoration: none;
   }
