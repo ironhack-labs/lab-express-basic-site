@@ -1,0 +1,44 @@
+body {
+    margin: 100px;
+    padding: 15px;
+    }
+
+  .photos {
+      height: 400px;
+      margin: 0 auto;
+      padding-top: 50px;
+  }
+
+  .kuva {
+      padding: 20px;
+  }
+
+  .gap-right {
+      margin-right: 30px;
+  }
+
+  .image-responsive {
+      width: 500px;
+      height: 250px;
+      margin-bottom: 30px;
+      
+  }
+
+  .links a {
+      padding: 30px;
+  }
+
+  .about h3 {
+      color:black;
+  }
+
+  .about a {
+    padding-right: 30px;
+    color: black;
+  }
+
+  .container-fluid a {
+      margin-left: 24px;
+      padding-right: 30px;
+      color: black;
+  }
