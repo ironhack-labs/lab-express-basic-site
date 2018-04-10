@@ -1,0 +1,18 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.index{
+  background-color: grey;
+}
+.about{
+  background-color: goldenrod;
+}
+.gallery{
+  background-color: forestgreen;
+}
+
+.fotos{
+  background-color: darkslategray;
+}
