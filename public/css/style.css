@@ -1,0 +1,226 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    /* background:#fff; */
+    font-family: oswald;
+    font-weight: 300;
+    background: rgb(21, 46, 21);
+    color:#fff;
+}
+
+header {
+    /* background: rgb(21, 46, 21); */
+    width:100%;
+    height:400px;
+    background-image: url("../images/alton-ellis-1.jpg");
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+.container {
+    width:1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.parag {
+    text-align: justify;
+    font-size:20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.parag-home {
+    text-align: center;
+    font-size:26px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-top:80px;
+    padding-bottom: 45px;
+}
+
+h1 {
+    text-align: center;
+    overflow: auto;
+    color:rgb(255, 208, 0);
+    font-size:80px;
+    padding-top:150px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+header p {
+    text-align: center;
+    color:#fff;
+    font-size:40px;
+    letter-spacing: 8px;
+    margin-top:-20px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+h2 {
+    padding-top:40px;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 30px;
+    width:100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    color:rgb(255, 208, 0);
+}
+
+h3 {
+    /* padding-top:30px; */
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+}
+
+li {
+    list-style:none;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.nav {
+    width:100%;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background: #fff;
+    position: fixed;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.438);
+    padding-top:20px;
+    padding-bottom: 20px;
+    z-index: 90;
+}
+
+.nav-container {
+    /* background: #f00; */
+    width:430px;
+    height:40px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    float: left;
+    margin-left:35px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    text-align: left;
+    font-size:28px;
+    /* color:rgb(0, 80, 0); */
+}
+
+.inactive {
+    color:rgb(0, 80, 0);
+}
+
+.active {
+    color:rgb(0, 192, 0);
+}
+
+.nav-link a:hover {
+    color:rgb(0, 192, 0);
+}
+
+.yellow {
+    color:rgb(255, 208, 0);
+}
+
+.images-row {
+    width:100%;
+    height:320px;
+    /* background-color: #f00; */
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.images-container {
+    width:2040px;
+    position: relative;
+    /* left:-340px; */
+}
+
+.images-row img {
+    width:320px;
+    height:320px;
+    background-color: #00f;
+    border: none;
+    float: left;
+}
+
+/* .images-container  img {
+    width:320px;
+    height:320px;
+    background-color: #00f;
+    border: none;
+    position: relative;
+    top:0px;
+} */
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+footer {
+    width:100%;
+    height: 200px;
+    margin-top:70px;
+    background: rgb(11, 24, 11);
+}
+
+.album-list {
+    /* background: #f0f; */
+    width:35%;
+    float: left;
+}
+
+.single-list {
+    /* background: #0ff; */
+    width:60%;
+    /* height:600px; */
+    float: right;
+}
+
+.single-row {
+    width:100%;
+    height:200px;
+    /* background: #0f0; */
+}
+
+.single-row img {
+    width:200px;
+    height:200px;
+    margin:0;
+    border:none;
+    float: left;
+}
+
+.single-title {
+    text-align: center;
+}
+
+.gallery-btn {
+    position: absolute;
+    z-index: 50;
+    top:135px;
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(255, 208, 0);
+}
+
+.left-button {
+    left:20px;
+}
+
+.right-button {
+    right:20px;
+}
