@@ -10,7 +10,7 @@ app.use(express.static("views"));
 
 // our first Route:
 app.get("/", (request, response, next) => {
-  response.sendFile(__dirname + "/views/index.html");
+  response.sendFile(__dirname + "/index.html");
 });
 
 app.get;
