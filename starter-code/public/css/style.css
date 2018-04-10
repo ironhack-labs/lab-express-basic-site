@@ -32,3 +32,13 @@ li a {
 #galeria {
   margin: 50px 80px;;
 }
+
+.story p {
+  color: white;
+  margin-top: 30px; 
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
