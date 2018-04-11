@@ -1,0 +1,40 @@
+    .container-nav{
+    display : flex;
+    width : 100vw;  
+    justify-content: flex-end;  
+    flex-direction: row;
+    align-content: center;
+    background-color:DarkSlateBlue;     
+  }
+  .row-nav{
+    display : flex;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5vw;   
+    font-size: 1.5em;   
+  }
+  #homeId , #aboutId, #photId {
+    padding: 0 20px;
+    margin : 0 30px;
+    border: 1px solid grey;
+    border-radius: 6%;
+    background-color: rgb(189, 180, 180);
+  }
+  
+  .container-header {
+    margin-top: 20px;
+    display: flex;
+    width:100vw;
+    height: 85vh;
+    font-size: 2.5em; 
+    justify-content : center;
+    text-shadow: 4px 3px;
+    
+  }
+  .imgBg {
+      background-image : url("http://localhost:3000/images/carte-caledonie.jpg");
+      background-repeat: repeat-x;
+      background-size: auto;
+    };
+
+   
