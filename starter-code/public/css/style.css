@@ -1,0 +1,56 @@
+body {
+  color: darkslategrey;
+  background-color: #BCD4E6;
+}
+
+nav {
+  font-size: 1.5vw;
+  width: 500px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1vw;
+}
+
+.navbbar {
+  width: 500px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1vw;
+}
+
+.navbar .navbar-brand {
+  font-size: 2vw;
+}
+
+#home h2 {
+  font-size: 2vw;
+  text-align: center;
+  margin-bottom: 1.5vw;
+}
+
+p {
+  font-size: 1.3vw;
+  line-height: 2.3vw;
+}
+
+#home img {
+  width: 50vw;
+  height: 45vw;
+  border: 0.5vw solid lightgray;
+  padding: 0.5vw;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about .intro {
+  padding: 2vw;
+}
+
+#photos .row {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
