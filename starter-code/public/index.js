@@ -1,0 +1,26 @@
+$("document").ready(function(){
+    $(".item__color1").click(function(){
+        window.location.replace("http://localhost:3000/white");
+    })
+    $(".item__color2").click(function(){
+        window.location.replace("http://localhost:3000/green");
+    })
+    $(".item__color3").click(function(){
+        window.location.replace("http://localhost:3000/yellow");
+    })
+    $(".item__color4").click(function(){
+        window.location.replace("http://localhost:3000/black");
+    })
+    $(".item__color5").click(function(){
+        window.location.replace("http://localhost:3000/red");
+    })
+    $(".item__color6").click(function(){
+        window.location.replace("http://localhost:3000/blue");
+    })
+    $(".back").click(function(){
+        window.location.replace("http://localhost:3000/");
+    })
+    $("#home__container").hover(function(){
+        $(".title").css("color", "#333")
+    })
+})
