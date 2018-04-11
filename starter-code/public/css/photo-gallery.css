@@ -1,0 +1,26 @@
+.container-nav{
+  display : flex;
+  width : 100vw;  
+  justify-content: flex-end;  
+  flex-direction: row;
+  align-content: center;
+  background-color:DarkSlateBlue;  
+}
+.row-nav{
+  display : flex;    
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 5vw; 
+  font-size: 1.5em;         
+}
+#homeId , #aboutId, #photId {
+  padding: 0 20px;
+  margin : 0 30px;
+  border: 1px solid grey;
+  border-radius: 6%;
+  background-color: rgb(189, 180, 180);
+}
+
+h1{
+  margin-left:350px
+}
