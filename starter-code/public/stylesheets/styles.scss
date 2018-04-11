@@ -1,0 +1,63 @@
+// Imports
+@import 'colors';
+@import 'fonts';
+@import 'schematics';
+@import 'mixins';
+@import 'media';
+
+
+body {
+	@include polka-dots($pastel-coffee, $coffee-milk , 45%, 50px, center, fixed);
+}
+.container{
+  @include box-shadow(0,0,20px,$coffee);
+}
+navbar{
+  @include box-shadow(5px,0,5px,$black)
+}
+a{
+  text-decoration: none;
+}
+nav{
+  transition: all 0.5s ease-out;
+  &:hover{
+    transform:rotate(180deg);
+    border-bottom: 2px dotted $white;
+  }
+}
+h1{
+  font-family: $main-title;
+  font-size: 5em;
+  font-weight: $skinny;
+  color: $amarante;
+  position: relative;
+  left: 5vw;
+  max-width: 30vw;
+  z-index: 1;
+
+  &::before{
+    position: absolute;
+    content: '';
+    z-index: -1;
+    background: white;
+    border-radius: 90%;
+    top: -40px;
+    left:-20px;
+    width: 30vw;
+    min-width: 450px;
+    height: 300px;
+    transform: rotate(-10deg);
+    @include box-shadow(0,5px, 2px, $dark-mint)
+  }
+  &::after{
+    position: absolute;
+    content: '';
+    z-index: -1;
+    background: white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    transform:translate(150%,50%);
+    @include box-shadow(0,5px, 2px, $dark-mint)
+  }
+}
