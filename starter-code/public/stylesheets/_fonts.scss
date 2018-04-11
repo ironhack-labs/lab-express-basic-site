@@ -1,0 +1,39 @@
+@font-face {
+  font-family: '3Dumb';
+  src: url("/fonts/3Dumb.ttf") format("truetype");
+}
+@font-face {
+  font-family: '2Dumb';
+  src: url("/fonts/2Dumb.ttf") format("truetype");
+}
+$skinny: 100;
+$slim: 300;
+$normal: 500;
+$bold: 700;
+
+$main-title: '3Dumb', sans-serif;
+.selector {
+    font-family: $main-title;
+}
+$nav-font: '2Dumb', sans-serif;
+.selector {
+  font-family: $nav-font;
+}
+
+nav{
+  font-family: $nav-font;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}

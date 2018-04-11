@@ -1,0 +1,35 @@
+$amarante: #cc6599;
+$white: white;
+$pastel-coffee: #ecd9c6;
+$coffee-milk: #f2e6d9;
+$coffee:#d9b38c;
+$black: black;
+$light-grey: #ebebe0;
+$mint: #00cc99;
+$dark-mint: #215346;
+$dark-grey: #333333;
+
+.container{
+  background-color: $light-grey;
+}
+navbar{
+  background-color: $amarante;
+
+  a{
+    color: $white;
+    &:link,&:active,&:visited{
+      color:white;
+    }
+  }
+}
+article{
+  color: $dark-grey;
+  a{
+    color: $amarante;
+    transition: all 0.5s ease-out;
+
+    &:hover{
+      color: $mint;
+    }
+  }
+}

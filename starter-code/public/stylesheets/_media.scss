@@ -1,0 +1,7 @@
+@media screen and (max-width: 970px) {
+  h1{
+    &::after{
+      display:none;
+    }
+  }
+}
