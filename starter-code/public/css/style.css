@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+body{
+    background-color: #AE8033;
+    height: 600px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 0 20%;
+}
+
+.home-main{
+    float: center;
+    margin: 70px;
+}
+
+h1{
+    float: center;
+}
+
+.plot{
+    text-align: justify;   
+}
+
+.gallery img{
+    margin: 150px 20px;
+    float: left;
+    width: 45%;
+}
+
+.gallery img:hover{
+    border-radius: 60%;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+ float: right;
+ font-size: 5vh;
+}
