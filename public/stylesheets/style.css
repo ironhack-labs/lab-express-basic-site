@@ -1,0 +1,31 @@
+body {
+  background-image: url('/images/anime-background.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-size: cover;
+  background-repeat:no-repeat; 
+}
+
+body a {
+  color: white;
+  background-color: gray;
+}
+body p{
+  background-color: gray;
+}
+body h1{
+  background-color: gray;
+}
+body h2{
+  background-color: gray;
+}
+.image{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin: 20px;
+
+}
