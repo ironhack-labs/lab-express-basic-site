@@ -1,0 +1,159 @@
+body {
+  background-color: black;
+}
+.home-title {
+  display: flex;
+  justify-content: center;
+}
+
+.kanye-west-title {
+  color: #e6dfcc;
+  font-size: 100px;
+  font-family: 'Comic Sans MS';
+}
+
+.kanye-west-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.div-about-kanye-west {
+  display: flex;
+  justify-content: space-between;
+}
+.about-kanye-west {
+  text-decoration: none;
+  color: #e6dfcc;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.gallery-kanye-west {
+  text-decoration: none;
+  color: #e6dfcc;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.about-title {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-titles {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.about-kanye-west-title {
+  font-size: 100px;
+  color: #e6dfcc;
+  font-family: 'Comic Sans MS';
+}
+
+.about-home{
+  text-decoration: none;
+  color: #e6dfcc;
+}
+
+.sub-titles-albums {
+  font-size: 40px;
+  color: #e6dfcc;
+  font-family: 'Comic Sans MS';
+  text-align:center;
+}
+
+.albums {
+  font-size: 20px;
+  font-family: 'Comic Sans MS';
+  list-style-type: none;
+}
+
+.dropout {
+  color: #ffa44a;
+}
+
+.registration {
+  color: #633119;
+}
+
+.graduation {
+  color: #b25186;
+}
+
+.heartbreaks {
+  color: #c2cece;
+}
+
+.dark-twisted {
+  color: red;
+}
+
+.yeezus {
+  color: silver;
+}
+
+.pablo {
+  color: #f58b57;
+}
+
+.about-container{
+  width:50%;
+}
+
+.sub-titles-about {
+  font-size: 40px;
+  color: #e6dfcc;
+  font-family: 'Comic Sans MS';
+  text-align:center;
+}
+
+.about-text {
+  color: #7acec2;
+  font-size:20px;
+  /* width:30%; */
+}
+
+/* ------------------------------------------------------------------------------- */
+.gallery-title{
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-kanye-west-title{
+  font-size: 100px;
+  color: #e6dfcc;
+  font-family: 'Comic Sans MS';
+}
+
+.images{
+   display:flex;
+  flex-direction:column;
+  /* align-self:center; */
+
+}
+
+.image-one{
+  width:20%;
+  align-self:center;
+}
+.image-two{
+  width:30%;
+  align-self:center;
+}
+.image-four{
+  width:30%;
+  align-self:center;
+}
+.image-three{
+  width:45%;
+  align-self:center;
+}
+
+
+
