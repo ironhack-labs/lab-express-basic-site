@@ -1,0 +1,36 @@
+body {
+  color:red;
+  background-color: lightpink;
+  text-align: center;
+}
+
+.myaligncenter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.aboutme {
+  margin: 0 auto;
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+
+.galleryspace {
+
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ball {
+  /* padding-left: 40px;
+  padding-right: 20px; */
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
