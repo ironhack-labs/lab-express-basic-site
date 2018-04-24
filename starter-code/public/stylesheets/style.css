@@ -1,0 +1,34 @@
+body{
+  background-color: #bdbdbd;
+}
+
+h1{
+  margin-left: 50px;
+}
+
+p{
+  margin-left: 75px;
+}
+
+.centered-profile-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profilepic{
+  width:550px;
+  height: auto;
+  margin-left: 75px;
+}
+
+.about-content{
+  margin-top: 50px;
+  margin-bottom: 50px; 
+}
+
+.footer{
+  color: grey;
+  margin-top: 15px;
+  margin-left: 50px;
+};
