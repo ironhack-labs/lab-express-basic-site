@@ -1,0 +1,27 @@
+body {
+  color: white;
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  color: white;
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  font-size: 28px
+}
+
+img {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: black solid 3px
+}
