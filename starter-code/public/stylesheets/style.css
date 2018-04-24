@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background-color: rgb(91, 67, 24);
+  /* text-align: center; */
+}
+
+a {
+  color: hotpink;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-page {
+  text-align: center;
+}
+
+.home-coffee {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid white;
+}
+
+.about-page {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-page li {
+  margin-left: 42%;
+  line-height: 20px;
+}
+
+.about-page h1, .about-page h2 {
+  text-align: center;
+}
+
+.gallery img{
+  width: 400px;
+  height: auto;
+  border: 1px solid white;
+  display: inline-block;
+  margin: 10px 100px;
+}
