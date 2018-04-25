@@ -1,0 +1,52 @@
+
+h1 {
+  color: brown;
+  font-family: Avenir;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 80px;
+}
+
+.imageFirst {
+  margin-left: 18%;
+  border-radius: 30px;
+}
+
+* {
+  background: cadetblue;
+}
+button {
+  background: brown;
+  color: whitesmoke;
+  font-family: Avenir;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+a {
+  color: white;
+  background: brown;
+  border-radius: 50px;
+  text-decoration-line: none;
+}
+
+p {
+  color: rgb(238, 229, 229);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.a {
+  margin-left: 33%;
+}
+.imgDos {
+  width: 25%;
+  height: 20%;
+  border-radius: 20px;
+  margin-left: 17%;
+}
