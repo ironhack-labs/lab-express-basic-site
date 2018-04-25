@@ -1,0 +1,25 @@
+*{
+  background-color: cornsilk;
+  color: darkgray;
+}
+
+.john {
+  width: 100%;
+  height: 700px;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+#containermedia img {
+
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+}
