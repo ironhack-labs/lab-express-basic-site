@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	background-image: url("../img/wallpaper.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+div{
+	top: 15%;
+	left: 25%;
+	position: absolute;
+	z-index: 1;
+}
+h1{
+	font-size: 4em;
+	color: white;
+}
+img{
+	width: 600px;
+	height: 400px;
+}
+
+#gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+h2{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 3%;
+	color: green;
+}
+h3{
+	font-size: 1.8em;
+	text-align: center;
+	margin-top: 3%;
+	color: green;
+}
+p{
+	font-size: 1.5em;
+}
+
+#about{
+	margin-left: 10%;
+	width: 80%;
+}
