@@ -1,0 +1,79 @@
+#about{
+    color:grey;
+    background: linear-gradient(to bottom right,white,black);
+    height:100px;
+    border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#shoots{
+    color:grey;
+    background: linear-gradient(to bottom right,white,black);
+    height:100px;
+    border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav{
+    color:grey;
+    background: linear-gradient(to bottom right,white,black);
+    height:100px;
+    border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav button{
+    color:silver;
+    background: linear-gradient(to bottom left,black,white);
+    height:30px;
+    width:100px;
+}
+
+#cuerpo1{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    background:linear-gradient(to bottom right,black,white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cuerpo1 p{
+    text-align:center;
+}
+#cuerpo1 h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#historia{
+    width: 30%;
+}
+#miembros{
+    width: 30%;
+}  
+#hitazo{
+    width: 30%;
+}
+
+#galeria{
+    display:flex;
+    justify-content: space-around;
+}
+
+#galeria2{
+    display:flex;
+    justify-content: space-around; 
+}
+
+#galeria img{
+    width:30%;
+    height:30%;
+    margin:5px;
+
+}
+#galeria2 img{
+    width:30%;
+    height:30%;
+    margin:5px;
+
+}
