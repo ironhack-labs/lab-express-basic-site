@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+.home-body {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.videoContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+iframe {
+    /* optional */
+    width: 100%;
+    height: 100%;
+}
+
+.videoContainer iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nav {
+    width: 1300px;
+    color: #42f4f1;
+    margin: 20px 22% 0 22%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+a {
+    color: #42f4f1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc1ea;
+    color: white;
+    text-decoration: underline wavy#ffc1ea;
+}
+
+li {
+    display: inline;
+    margin: 0 40px;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.about {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery p {
+    font-size: 40px;
+}
+
+.gallery-photos {
+    margin: 20px 10%;
+}
+
+.gallery-photos img {
+    width: 300px;
+    height: 300px;
+}
