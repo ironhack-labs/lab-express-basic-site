@@ -1,18 +1,21 @@
 
 body{ margin: auto 0;
-  color:red;
+  color:black;
+  font-family: 'Jua', sans-serif;
+
   
 }
 h1{
+  font-family: 'Monoton', cursive;
   text-align: center;
   padding-top:200px;
+  margin:0px 0px 0 0;
 }
-
-
 
 .text{
   padding-top:100px;
 display:flex;
+
 justify-content: center}
 
 #main{
@@ -22,5 +25,16 @@ justify-content: center}
 
 .content {
   width:100%;
-  text-align:center
+  text-align:center;
 }
+
+.about{
+  width:400px;
+  margin-left:450px;
+  text-align: center;
+}
+
+img{
+  margin-left:390px;
+width:500px;
+height:400px;}
