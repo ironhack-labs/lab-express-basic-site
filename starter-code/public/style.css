@@ -1,0 +1,37 @@
+body{
+    background-color: #3A3A3A;
+}
+
+.hero-body {
+    background-image: url('images/background1.jpg')
+}
+
+.specs {
+    color:white;
+    padding: 150px;
+}
+
+.specs h1{
+    color:white;
+}
+
+.title {
+    color: white;
+}
+.history {
+    color:white;
+    padding: 150px;
+}
+
+.history h1{
+    color:white;
+}
+
+.photos {
+    color:white;
+    padding: 150px;
+}
+
+.photos h1{
+    color:white;
+}
