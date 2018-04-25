@@ -1,0 +1,25 @@
+h1{
+    color: blue;
+}
+
+p{
+    color: yellow;
+
+}
+
+body{
+    background-color: gray;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+ 
+
+
+}
+
+li a{
+    color: peru;
+    text-decoration: none;
+}
