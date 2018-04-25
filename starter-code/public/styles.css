@@ -1,0 +1,26 @@
+
+body{ margin: auto 0;
+  color:red;
+  
+}
+h1{
+  text-align: center;
+  padding-top:200px;
+}
+
+
+
+.text{
+  padding-top:100px;
+display:flex;
+justify-content: center}
+
+#main{
+  justify-content: center;
+  width:600px;
+}
+
+.content {
+  width:100%;
+  text-align:center
+}
