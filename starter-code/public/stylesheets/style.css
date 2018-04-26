@@ -1,0 +1,27 @@
+body{
+  background-color: grey;
+}
+
+.container{
+  display: flex;
+  flex-flow: column;
+}
+
+h1{
+  text-align: center;
+}
+
+.home-image{
+  height: 50%;
+  width: 50%;
+  border: 2px solid black;
+  margin: 20px auto;
+
+}
+
+.gallery-image{
+  height: 50%;
+  width: 50%;
+  border: 2px solid white;
+  margin: 20px auto;
+}
