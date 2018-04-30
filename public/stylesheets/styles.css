@@ -1,0 +1,42 @@
+body {
+  color: black;
+  background-color: aqua;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center !important;
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
+div.gallery {
+  /* width: 30%; */
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
