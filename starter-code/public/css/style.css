@@ -2,25 +2,37 @@
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
-  color: #373942;
+  color: #35383d;
 }
 
 nav {
   position: fixed;
   display: flex;
+  padding-left: 5%;
   flex-direction: row;
   justify-content: flex-start;
-  width: 100%;
+  width: 95%;
   top: 0;
-  padding: 15px;
-  background-color: #d9deed;
+  color: #4b4e56;
+  height: 3.5rem;
+  background-color: #dbeef5;
+  align-items: center;
 }
 
 nav a {
   font-size: 20px;
-  padding: 0 10px;
+  padding: 0 15px;
   text-decoration: none;
   color: #779080;
+}
+
+nav a:hover {
+  color: #0f404b;
+}
+
+.current-page {
+  color: #276b79;
+  font-size: 25px;
 }
 
 h1 {
@@ -28,15 +40,39 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+h2 {
+  font-size: 2.5em;
+}
+
 header {
   display: flex;
-  margin-top: 40px;
-  padding: 5vh 20px;
   flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 35vh;
-  background-image: url("/images/header.png");
+  justify-content: flex-start;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header-content {
+  margin: 20vh 6%;
+}
+
+#header-about {
+  background-image: url("/images/about.jpg");
+}
+
+#header-home {
+  background-image: url("/images/header.png");
+}
+
+#gallery {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#gallery img {
+  width: 50%;
 }
