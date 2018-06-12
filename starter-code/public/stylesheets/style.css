@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(red, yellow, red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle {
+    text-align: center;
+}
+
+.nacho-img {
+    border-radius: 5px;
+}
