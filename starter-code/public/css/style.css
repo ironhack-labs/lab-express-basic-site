@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Changa+One&effect=anaglyph);
+
+body  {
+  background:lightblue;
+}
+
+div.font-effect-anaglyph  {
+  background: #A7C4A0;
+  font: 'Changa One';
+}
+
+.flex {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+img {
+  height: 100px;
+}
