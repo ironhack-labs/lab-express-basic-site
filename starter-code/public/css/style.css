@@ -20,3 +20,11 @@ body {
 	float: right;
 	font-size: 1.25em;
 }
+
+.gallery div {
+	float: left;
+	height: 30vh;
+	width: 30vw;
+	background-size: cover;
+	background-position: center center;
+}
