@@ -13,3 +13,10 @@ body {
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
 }
+
+.content {
+	width: 50%;
+	margin: 10%;
+	float: right;
+	font-size: 1.25em;
+}
