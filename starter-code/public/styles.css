@@ -1,0 +1,63 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  font-size: 4em;
+  color: black;
+  margin-left: 30px;
+}
+
+a:link, a:visited {
+  color:white
+}
+nav {
+  background-color: black;
+  color: white; 
+  height: 50px;
+  padding: 20px 50px;
+}
+
+#logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+home-main-section {
+  background-image: url('img/wenz1.jpeg')
+}
+
+.photos-img {
+  height: 200px;
+}
+
+button {
+  background-color: darkgreen;
+  width: 250px;
+  border: none;
+  height: 30px;
+  color: white;
+  font-size: 16px;
+}
+
+.home-button-text {
+  font-weight: bold;
+}
+
+.fact-box {
+  width: 400px;
+  height: 200px;
+  background-color: white; 
+  color: black;
+  padding: 0px 30px;
+  margin-left: 30px;
+}
