@@ -1,0 +1,35 @@
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+body{
+  background: #e7d3ad;
+}
+img{
+  width: 250px;
+  height: auto;
+  padding: 20px 20px;
+}
+h1{
+  text-align: center;
+  color: rgb(83, 57, 7);
+}
+p{
+  text-align: justify;
+  padding: 0% 10%;
+}
+.float{
+  float: left;
+  width: 25%;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin: 0% 10px;
+}
+a{
+  padding: 10px 10px;
+}
+
