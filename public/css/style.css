@@ -12,8 +12,9 @@
 figure {
   padding: 15px;
   padding-bottom: 35px;
-  margin: 10px;
+  margin: 4%;
   border: 1px solid #ccc;
+  text-align: center;
 }
 
 figure:hover {
