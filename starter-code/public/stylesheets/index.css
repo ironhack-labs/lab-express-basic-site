@@ -1,0 +1,46 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    line-height: 1.5;
+    text-align: center;
+}
+
+.spela{
+    background-color: lightpink;
+    font-family: 'Bangers', cursive;
+}
+
+.silvio{
+    background-color: lightseagreen;
+    font-family: 'Audiowide', cursive;
+}
+
+.meg{
+    background-color: lightcoral;
+    font-family: 'Special Elite', cursive;
+}
+
+.index{
+    background-color: lightgoldenrodyellow;
+    font-family: 'Fugaz One', cursive;
+}
+
+h1 {
+    font-size: 2em;}
+
+h2 {
+    font-size: 1.5em;}
+
+h3 {
+    font-size: 1.2em;}
+
+p {
+    margin: 1em 0;}
+
+a img {
+    border: none;}
+
+.pic{
+    width: 300px;
+}
