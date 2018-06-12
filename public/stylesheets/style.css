@@ -1,0 +1,17 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 350px;
+  height: auto;
+}
+
+
+
+
+.pic-container {
+  justify-content: center;
+}
