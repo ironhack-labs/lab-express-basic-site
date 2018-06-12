@@ -1,0 +1,15 @@
+body {
+	background-color: #CDEDFD;
+}
+
+#nav {
+	width: 100vw;
+	background-color: #85BDBF;
+}
+
+#nav a {
+	padding: 5%;
+	font-size: 2em;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
