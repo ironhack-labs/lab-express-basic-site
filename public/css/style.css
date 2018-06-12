@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+figure {
+  padding: 15px;
+  padding-bottom: 35px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+figure:hover {
+  box-shadow: 0 0 10px #000;
+}
