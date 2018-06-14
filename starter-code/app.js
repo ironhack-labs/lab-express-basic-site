@@ -9,11 +9,20 @@ app.use(express.static('public'));
 
 //First route
 app.get('/', (request, response, next) => {
-  console.log(request);
-  response.send('Anything here is ok');
-})
+  response.sendFile(__dirname + '/views/home.html');
+});
+
+//About route
+app.get('/about', (request, response, next) => {
+  response.sendFile(__dirname + '/views/about.html');
+});
+
+//Gallery route
+app.get('/gallery', (request, response, next) => {
+  response.sendFile(__dirname + '/views/gallery.html');
+});
 
 //Server started
 app.listen(3000, () => {
-  console.log("First app listening on port 3000");
-})
+  console.log('My first app listening on port 3000!');
+});
