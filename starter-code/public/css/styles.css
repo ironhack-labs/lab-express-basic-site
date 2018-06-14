@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-top: .5em;
+}
+
+#wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#wrapper > * {
+  flex: 1 100%;
+}
+
+.top-picture > img{
+  max-width: 100%;
+}
+
+.header {
+  text-align: center;
+  background-color: aqua;
+}
+
+.about {
+  background-color: blueviolet;
+  cursor: pointer;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+.gallery {
+  background-color: purple;
+  cursor: pointer;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+.about-picture > img{
+  max-width: 100%;
+}
+
+.content {
+  text-align: justify;
+  text-indent: 1em;
+  background-color: aquamarine;
+  padding: 2em;
+  font-size: 1.3em;
+}
+
+.content > p {
+  margin-bottom: 1em;
+}
+
+/*Larger Screens*/
+@media (min-width: 700px){
+  .content {
+    text-align: justify;
+    text-indent: 2em;
+    background-color: aquamarine;
+    padding: 1em;
+    font-size: 2.5em;
+  }
+  
+}
