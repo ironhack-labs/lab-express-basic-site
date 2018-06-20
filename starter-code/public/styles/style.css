@@ -1,0 +1,11 @@
+body{
+    
+    background-image: url("../pictures/slloth-bckgrnd.png");
+    background-size: 80%;
+    background-blend-mode: lighten;
+
+}
+
+h1 {
+    color: blue;
+}
