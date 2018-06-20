@@ -1,0 +1,23 @@
+body{
+    background-image: url("../images/home/picture01.jpeg");
+    background-repeat:no-repeat;
+    background-size: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.home-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.aboutImage{
+    background-image: url("../images/about/IMG_20180324_161113_760.jpg");
+}
