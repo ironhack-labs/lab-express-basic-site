@@ -1,0 +1,10 @@
+body {
+  background-color: greenyellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+}
+
