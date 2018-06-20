@@ -1,0 +1,25 @@
+.movie_list{
+    background: pink;
+}
+
+img{
+    width: 15%;
+    height:auto;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 20px 0px;
+}
+
+a{
+    color: orchid;
+    display: block;
+}
