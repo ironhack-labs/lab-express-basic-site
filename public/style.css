@@ -1,0 +1,43 @@
+body {
+    
+    font-family: 'Roboto Slab', serif;
+}
+
+.slide-section {
+    clear: both;
+}
+
+.main-look {
+    background-color: rgb(150, 190, 190);
+}
+
+.default {
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+    font-size: 20px;
+}
+
+.image-nav {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.img-slide {
+    height: 450px;
+}
+.content-home {
+    margin: 200px;
+    text-align: center;
+}
+
+.parag-final {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif; 
+}
