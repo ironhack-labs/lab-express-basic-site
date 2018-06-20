@@ -1,0 +1,31 @@
+nav {
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: 3.4px;
+    font-weight: normal;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+header {
+    background-image: url("../images/eyes.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+    width: 100%;
+}
+
+.avatar {
+    border-radius: 70%;
+    height: 250px;
+}
