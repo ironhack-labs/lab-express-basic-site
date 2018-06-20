@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+  font-family: 'Concert One', cursive;
+  }
+
+  .container {
+    margin-top: 10vh;
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    background-color: black;
+    padding-top: 7vh;
+  }
+
+h1 {
+    color: rgb(255, 0, 221);
+    font-size: 2em;
+  }
+
+h2 {
+  color: rgb(0, 174, 255);
+  font-size: 1.5em;
+  
+}
+
+.bottomLinks {
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: center;
+  padding: 2vh 0;
+}
+
+.resized {
+max-width: 20vw;
+max-height: 30vh;
+padding: 5px 5px 5px 5px;
+}
+
+.nopadnomarge {
+  padding-top: 0vh;
+  margin-top: 10;
+}
+
+.illustrate {
+  padding-top: 5vh;
+  width:60vw;
+  margin:auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  border: none;
+}
+a.button {
+  text-decoration: none;
+  color: white;
+}
