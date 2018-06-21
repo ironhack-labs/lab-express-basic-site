@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+}
+
+nav{
+    border-bottom: 2px solid #D8D8D8;
+    background-color: #FAFAFA;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    padding: 10px;
+    margin: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+nav li{
+    display: inline-block;
+    font-size: 18px;
+}
+
+a{
+    color: inherit;
+    padding: 0 10px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#hero{
+    height: 70vh;
+    background: rgba(0,0,0,.1) url("/images/music.jpg") no-repeat fixed center / cover;
+}
+
+#hero2{
+    height: 20vh;
+    background: rgba(0,0,0,.1) url("/images/about.jpg") no-repeat fixed center / cover;
+}
+
+section{
+    text-align: center;
+    margin: 30px 0;
+}
+
+h1{
+    margin-top: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+h2{
+    margin: 30px 0;
+}
+
+#artists img, #gallery img{
+    width: 90%;
+    border-radius: 3px;
+    
+}
+
+.row{
+    padding-bottom: 20px;
+}
+
+#artists img:hover, #gallery img:hover{
+    transform: scale(1.07);
+    transition: all .3s;
+}
+
+.reveal{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.8s;
+}
+
+.reveal.visible{
+    opacity:1;
+    transform: translateY(0);
+}
+
+.fondo-modal p{
+    padding: 10px;
+    font-size: 18px;
+}
