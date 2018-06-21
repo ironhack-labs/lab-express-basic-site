@@ -1,14 +1,16 @@
 const express = require ("express");
 const app = express();
 
-app.get("/", (req, res) => {
+app.use(express.static('public'));
+
+app.get("/", (req, response, next) => {
     console.log(req.url);
-    res.send ("<h1>HOLA MUNDO!</h1>");
+    response.sendFile(__dirname + '/views/home.html');
 })
 
-app.get("/about", (req, res) => {
+app.get("/about", (req, response, next) => {
     console.log(req.url);
-    res.send ("<h1>Hola de nuevo!</h1>");
+    response.sendFile(__dirname + '/views/about.html');
 });
 
 app.listen(3030, () => {
