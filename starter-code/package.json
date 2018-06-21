@@ -1,0 +1,14 @@
+{
+  "name": "06_express",
+  "version": "1.0.0",
+  "description": "express app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "francisco manrique de lara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
