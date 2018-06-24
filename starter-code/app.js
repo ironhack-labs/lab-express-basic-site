@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const PORT = 4040;
 
+app.use(express.static('public'));
+
 
 // ROUTES
 app.get('/', (req, res, next)=> {
