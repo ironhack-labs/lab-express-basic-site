@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "ncs";
+    src: url(../styles/fonts/CafeNeroM54.ttf) format("truetype");
+}
+body{
+    font-family: "ncs" !important;
+}
+.backg{
+    background: url("../img/headback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 922px;
+    text-align: center;
+}
+
+h2, h3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cont{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+footer{
+    font-family: sans-serif;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 15px;
+
+}
+.sectiongtop{
+    margin-top: 100px;
+}
+.left{
+    background-color: #bd3939;
+    padding: 30px;
+    color: white;
+    text-align: justify;
+}
+.right{
+    padding: 30px;
+    color: white;
+    background-color: #3868b1;
+    left: 540px;
+}
+.gri{
+    height: 130px;
+    vertical-align: middle;
+}
+.disgri{
+    display: inline-grid;
+    grid-gap: 10px;
+}
+.cent{
+    text-align: center;
+    padding: 100px;
+}
