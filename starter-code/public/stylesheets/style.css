@@ -1,0 +1,14 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace
+  }
+
+  a {
+      color: white;
+      padding: 5%;
+  }
+
+  h1 {
+      padding: 3%;
+  }
