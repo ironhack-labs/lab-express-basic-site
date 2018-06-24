@@ -1,0 +1,68 @@
+#main{
+    height: 1000px;
+    background-image: url('/images/bg.jpg');
+    background-size: 100%;
+  }
+
+  #header {
+    height: 90px;
+  }
+  #middle {
+    height: 350px;
+    background: #ed564b;
+  }
+  #features {
+    height: 314.74px;
+    background: #ed564b;
+  }
+  #latest {
+    height: 1124.1px;
+    background: white;
+  }
+  #map {
+    height: 350.49px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+  }
+  #footer {
+    height: 77.89px;
+    background: #292929;
+  }
+  .nav-link {
+    color: #606060;
+  }
+  .nav-link:hover {
+    color: #ed564b;
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+  .navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+  }
+  #headerrow{
+      height: 90px;
+  }
+  .gallery {
+    position: relative;
+    
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    transition: all .5s ease-in-out;
+  }
+
+  .gallery img {
+    width: 400px;
+  }
+  .gallery figure figcaption{
+      visibility: hidden;
+      width: 10px;
+      height: 10px;
+  }

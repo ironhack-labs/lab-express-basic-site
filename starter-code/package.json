@@ -1,0 +1,17 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "Lab 1 Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ironhack"
+  ],
+  "author": "César Hernández",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
