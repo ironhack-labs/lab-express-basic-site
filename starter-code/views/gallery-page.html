@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic Express Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheet/styles.css">
+</head>
+
+<body>
+  <div class="container h-100">
+    <div class="row align-self-center">
+      <div class="col-sm-4">
+        <h1 class="my-0 mh-100">Landscapes</h1>
+      </div>
+      <nav class="navbar justify-content-end navbar-expand-sm navbar-light col-sm-8">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/gallery">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="container-fluid third text col-sm">
+    <h2 class="about">Gallery</h2>
+    <br>
+    <div class="gallery">
+      <figure>
+        <img class="myImg" src="/images/bg-1.jpg" alt="Unknown location" width="300" height="200">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+      </figure>
+      <figure>
+        <img class="myImg" src="/images/bg-2.jpg" alt="San Quirico d'Orcia, Italy" width="300" height="200">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img02">
+          <div id="caption"></div>
+        </div>
+      </figure>
+      <figure>
+        <img class="myImg" src="/images/bg-3.jpg" alt="Santiago, Chile" width="300" height="200">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img03">
+          <div id="caption"></div>
+        </div>
+      </figure>
+    </div>
+    <a href="/" class="return2">Back to Home</a>
+  </div>
+  <footer class="footer mt-auto">
+    <h5>
+      Developed by Manu using ExpressJS and Bootstrap.
+    </h5>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = $('.myImg');
+    var modalImg = $("#img01");
+    var captionText = document.getElementById("caption");
+    $('.myImg').click(function(){
+        modal.style.display = "block";
+        var newSrc = this.src;
+        modalImg.attr('src', newSrc);
+        captionText.innerHTML = this.alt;
+    });
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    $(document).keyup(function(e) {
+     if (e.keyCode == 27) {
+      modal.style.display = "none";
+     }
+    });
+    var modal = document.getElementById('myModal');
+      modal.addEventListener('click',function(){
+      this.style.display="none";
+      })
+  </script>
+</body>
+
+</html>
