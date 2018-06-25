@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
 }
 
-main {
+main, aside {
     padding-top: 3em;
 }
 
@@ -78,4 +78,20 @@ h3 {
 
 .release img {
     width: 100%;
+}
+
+#tour-date {
+    font-size: 20px;
+    color: yellow;
+}
+
+.homepage-img {
+    width: 100%;
+}
+
+.ugly-aside {
+    background-color: grey; 
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
