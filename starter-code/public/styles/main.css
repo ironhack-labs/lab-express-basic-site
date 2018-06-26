@@ -1,0 +1,193 @@
+
+/* main css */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* globales */
+@font-face {
+  font-family: "Dead Kansas, Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: ("/style/Dead Kansas.ttf");
+}
+html{
+    background-color: black;
+    background:url("../images/ironman.jpg")fixed;
+    
+}
+h1{
+    font-family: 'Dead Kansas';
+    color: crimson;
+}
+p{
+    color:red;
+}
+
+/* navegacion */
+.menuextra{
+    border: solid whitesmoke;
+    border-radius: 20px;
+    /* line-height: 10px; */
+    font-size:25px;
+    width: 700px;
+    height: 650px;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor-nav {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+}
+.contenedor-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+ 
+img{
+  height: 350px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+.nav-ul {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-size: 6vh;
+  font-family: "Dead Kansas";
+}
+
+.nav-ul li a {
+  padding: 18px;
+  margin-left: 10px;
+  color: whitesmoke;
+  border: solid crimson;
+  border-color: crimson;
+  border-radius: 10px;
+  line-height: 30px;
+  transition: all 420ms;
+  background-color: #1e1e1e;
+}
+
+.nav-ul li a:hover {
+  color: crimson;
+  cursor: pointer;
+  background-color: black;
+}
+
+.nav-menu {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 20px;
+}
+.nav-menu2 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* botones */
+.botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button{
+    font-family: 'Dead Kansas';
+    padding: 15px;
+    margin: 18px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px;
+    margin-left: 10px;
+    color: whitesmoke;
+    transition: all 520ms;
+
+}
+.button:last-child{
+    margin: 0 auto;
+}
+
+.button:hover{
+    color: crimson;
+    cursor:pointer;
+    background-color: black;
+    border-radius:10px;
+}
+
+/* galeria  */
+#botones-gallery div{
+ margin-right: 20%;
+}
+.gallery{
+    background-color: red;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    max-width: 30%;
+    justify-content: space-around;
+}
+ul.lista-areas li {
+    padding: 10px;
+    float: left;
+  }
+
+  div.area{
+    position: relative;
+    overflow: hidden;
+  }
+  div.area img{
+    max-width: 100%;
+    filter: gray;
+    -webkit-filter:grayscale(1);
+    -webkit-transition: all .5s ease-in-out;
+  }
+  div.area:hover img {
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+  
+  }
+  div.area p {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    text-align: left;
+    font-family: 'Dead Kansas';
+    color: crimson;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease-in-out;
+  }
+  div.area:hover p{
+    bottom: -80px;
+    opacity: 0;
+  }
