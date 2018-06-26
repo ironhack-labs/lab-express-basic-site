@@ -17,8 +17,6 @@ app.get('/photo', (request, response, next) => {
     response.sendFile(__dirname + '/public/views/photo.html');
 });
 
-//our first route
-
 app.listen(3000,() => {}) 
 
 
