@@ -1,0 +1,81 @@
+body {
+  color: blue;
+  background-color: darkgray;
+  padding: 0px;
+  margin: 0px;
+  }
+.backgroundMain{
+  width: 100vw;
+  font-size: 2vw;
+}
+.backgroundMainImage{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  position: relative;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.return{
+  position: absolute;
+  align-items: flex-end;
+}
+.link{
+  margin-top: 5vh;
+  text-align: center;
+}
+.linkHolder{
+  margin-top: 5vh;
+  text-align: center;
+  width: 100%;
+}
+.textHistory{
+  position: absolute;
+  width: 40vw;
+  margin-left: 60vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  color: white;
+  width: 80%;
+  text-align: justify;
+}
+.imgGallery{
+  opacity: 0.6;
+}
+.imgHolder{
+  width: 20vw;
+  height: 25vh;
+  text-align: center;
+  flex-grow: 1;
+}
+.galleryElement{
+  height: 100%;
+}
+.finalImgs{
+  width: 50vw;
+  height: 40vh;
+  text-align: center;
+}
+#descriptionBox{
+  visibility: hidden;
+  position: absolute;
+  width: 60vw;
+  margin-top: 20vh;
+  text-align: center;
+  background-color: darkgoldenrod;
+  opacity: 0.8;
+}
+#descriptionText{
+  width: 60vw;
+  color: blue;
+}

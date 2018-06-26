@@ -1,0 +1,20 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "Lab express basic",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lab",
+    "express",
+    "node",
+    "basic"
+  ],
+  "author": "Hugo Iván Sánchez Rodríguez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
