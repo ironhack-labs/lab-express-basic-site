@@ -1,0 +1,21 @@
+{
+  "name": "celebrity",
+  "version": "1.0.0",
+  "description": "Pagina de una celebridad",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "celebridad",
+    "celebrity",
+    "Rick",
+    "RickAndMorty"
+  ],
+  "author": "AAA alekz7",
+  "license": "ISC",
+  "dependencies": {
+    "cows": "^2.0.0",
+    "express": "^4.16.3"
+  }
+}
