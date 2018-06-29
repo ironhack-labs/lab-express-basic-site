@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100%; 
+    margin: 0;
+    background-image: url('img/bg.webp');
+    background-attachment: fixed;
+}
+
+main, aside {
+    padding-top: 3em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.2em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    padding-top: 2em; 
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.8em
+}
+
+.heart:before {
+    content: '\2665';
+    font-size: 1em;
+}
+
+.footer-text p{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    font-size: 1.3em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.release p {
+    font-size: 1.3em;
+}
+
+.release img {
+    width: 100%;
+}
+
+#tour-date {
+    font-size: 20px;
+    color: yellow;
+}
+
+.homepage-img {
+    width: 100%;
+}
+
+.ugly-aside {
+    background-color: grey; 
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
