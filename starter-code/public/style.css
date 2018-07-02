@@ -1,0 +1,15 @@
+#gallery {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100vw;
+    flex-flow: row wrap;
+}
+.photos, img {
+    height: 40vh;
+    padding: 2vw;
+}
+body {
+    background-color: lightblue;
+}
