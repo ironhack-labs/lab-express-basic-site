@@ -1,0 +1,126 @@
+#hero {
+  align-items: center; 
+  background: gray;
+  min-height: calc(100vh - 500px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+#hero img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+body{
+  background: white;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.column-wrapper {
+  display: flex;
+}
+
+.column-4 {
+  width: 33.33%;
+}
+
+#news .img-wrapper img{
+  width: 110px;
+}
+
+#news .img-wrapper{
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#news .column-4 h3 {
+  color: black;
+  font-weight: 800;
+  margin-top: 30px;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 1.1em;
+  font-weight: 200;
+  text-align: center;
+}
+
+#text {
+  align-items: center; 
+  background: gray;
+  min-height: calc(100vh - 500px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  color:white;  
+}
+
+
+.backgroundbali {
+  text-align: center; 
+  background: blue url("bali.png") no-repeat;
+  min-height: calc(100vh - 110px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;  
+}
+
+
+.backgroundmiami{
+  text-align: center; 
+  background: blue url("miami.jpg") no-repeat;
+  min-height: calc(100vh - 110px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  color:white;
+}
+
+
+.backgroundny{
+  text-align: center; 
+  background: blue url("newyork.jpg") no-repeat;
+  min-height: calc(100vh - 110px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  color:white;
+}
+
+.backgroundtenerife{
+  text-align: center; 
+  background: blue url("tenerife.jpg") no-repeat;
+  min-height: calc(100vh - 110px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  color:white;
+}
+
+.backgroundpanama{
+  text-align: center; 
+  background: blue url("panama.jpg") no-repeat;
+  min-height: calc(100vh - 110px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  color:white;
+}
