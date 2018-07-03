@@ -1,0 +1,14 @@
+.xxx{
+     display:flex;
+     justify-content: space-evenly;
+     margin-left: 10%;
+     margin-right: 10%;
+}
+
+img{
+     object-fit: contain;
+}
+
+.carousel-inner{
+     height:500px;
+}
