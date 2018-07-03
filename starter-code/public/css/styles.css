@@ -37,12 +37,14 @@ header{
   justify-content: center;
 }
 
-img{
+.nico-header{
   margin-top:5%;
   display: block;
   width:100%;
   height: calc(100vh - 50px);
 }
+
+
 /*.img-fluid{
   margin-top:5%;
 }*/
@@ -54,8 +56,36 @@ a{
   color: white;
 }
 main{
+  position: relative;
   display: flex;
   margin-top: 5%;
   justify-content: center;
   text-align: center;
+}
+
+#carouselExampleIndicators{
+  margin-top:1%;
+  width: 75%;
+}
+
+.carousel-item{
+  width: 100%;
+}
+
+.non-fixed{
+  position: static;
+}
+
+.about-content{
+  width:75%;
+  display:block;
+  margin-top: 60px;
+  text-align: justify;
+}
+
+
+.about-content img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
 }
