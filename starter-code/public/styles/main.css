@@ -1,0 +1,117 @@
+
+
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+.pageLinks {
+    font-size: 1em;
+}
+
+.hidden-bun {
+    display: none;
+}
+
+.burguer-icon {
+display: flex;
+flex-direction: column;
+align-content: center;
+}
+
+.burguer-icon:hover {
+    cursor: pointer;
+}
+
+.top-burguer,
+.middle-burguer,
+.bottom-burguer {
+    transition: all 0.5s ease;
+    height: 5px;
+    width: 40px;
+    background-color: whitesmoke;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.rotate-top {
+    transition: all 0.5s ease;
+    transform: rotate(45deg);
+}
+
+
+.rotate-bottom {
+    margin-top: -9px;
+    transition: all 0.5s ease;
+    transform: rotate(-45deg);
+}
+
+.container {
+    margin: 0 auto;
+    background-color: blue;
+    padding: 20px;
+    min-height: 70px;
+}
+
+.menu-list {
+    background-color: blue;
+    color: whitesmoke;
+    position: absolute;
+    top: 80px;
+    border-radius: 10px;
+}
+
+.menu-hidden {
+    display: none;
+    transition: all 0.5s ease;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+li:hover {
+    color: lightblue;
+}
+
+li:hover {
+    animation-fill-mode: forwards;
+    position: relative;
+    animation: slide 1s;
+}
+
+@keyframes slide {
+    0% {
+        left: 0px
+    }
+
+    100% {
+        left: 8px;
+    }
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.slide-menu {
+    animation: forwards 2s ease;
+    position: relative;
+}
+
+@keyframes forwards {
+    0% {
+        top: 0px
+    }
+
+    100% {
+        top: 100px;
+    }
+}
+
