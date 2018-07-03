@@ -1,0 +1,27 @@
+header{
+    background-image:url('https://www.goikogrill.com/wp-content/uploads/2018/05/Goijo_Dona_Mayo2018_4-copy-1-e1526908575432-1400x750.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 70vh;
+}
+
+main{
+    width: 95%;
+    max-width: 700px;
+
+    margin: 2em auto;
+}
+
+main h1{
+    font-size: 40px;
+    color: palevioletred;
+}
+
+main p{
+    font-size: 20px;
+}
+
+main p b{color: palevioletred}
