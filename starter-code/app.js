@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('public'));
 
 // first route: homes
-app.get('/home-page.html', (request, response, next) => {
+app.get('/', (request, response, next) => {
   response.sendFile(__dirname + '/views/home-page.html');
 });
 // second route: about
