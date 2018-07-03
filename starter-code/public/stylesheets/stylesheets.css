@@ -1,0 +1,16 @@
+body {
+  color: blue; 
+  background-color: bisque;
+  font-family: serif; 
+  
+}
+
+.button {
+  background-color: tomato; 
+  border-radius: 10px;  
+  display: inline; 
+  font-size: 20px; 
+  padding: 2px;
+  margin: 1%;  
+  text-align: left; 
+}
