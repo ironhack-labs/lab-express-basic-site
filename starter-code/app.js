@@ -23,11 +23,4 @@ app.get('/about', (request, response, next) => {
 
 
 
-
-
-
-
-
-app.listen(3000, () => {
-  console.log('My first app listening on port 3000!')
-})
+app.listen(3000, () => {})
