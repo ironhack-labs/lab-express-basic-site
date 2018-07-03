@@ -2,6 +2,9 @@
   height: 150px;
 }
 
-.img {
-  /* height: 200px; */
+.img-row{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
