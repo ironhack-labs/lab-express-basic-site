@@ -3,12 +3,40 @@
      justify-content: space-evenly;
      margin-left: 10%;
      margin-right: 10%;
+     height:800px;
+     background-color: gray;
 }
 
+.xx{
+     display:flex;
+     justify-content: space-evenly;
+     height:800px;
+     background-color: gray;
+}
+
+.x{
+     display:flex;
+     justify-content: space-evenly;
+     margin-top:40px;
+     margin-left: 10%;
+     margin-right: 10%;
+}
+.card{
+     height:60%;
+     margin-top:100px;
+}
 img{
      object-fit: contain;
 }
 
 .carousel-inner{
      height:500px;
+}
+
+.space{
+     height:100px;
+}
+
+.f{
+     margin-bottom:0;
 }
