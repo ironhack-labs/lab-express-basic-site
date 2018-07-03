@@ -1,5 +1,10 @@
-window.onload = function() {
+$(function() {
   var randomBg = Math.floor(Math.random() * (3 - 1) + 1);
+  $('header').addClass(`bg-${randomBg}`);
 
-  document.getElementsByTagName('header')[0].classList.add(`bg-${randomBg}`);
-};
+  $('.timeline-title').on('click', function() {
+    $('.timeline-content').slideUp();
+
+    $(this).next('.timeline-content').slideDown();
+  });
+});

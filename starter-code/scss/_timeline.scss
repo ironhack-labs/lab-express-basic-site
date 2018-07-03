@@ -1,0 +1,13 @@
+#timeline {
+  .timeline-item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $grey;
+    .timeline-title {
+      cursor: pointer;
+    }
+    .timeline-content {
+      display: none;
+    }
+  }
+}
