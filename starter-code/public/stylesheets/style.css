@@ -1,0 +1,104 @@
+body {
+    background-color: #000;;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    margin-left: 29%;
+    width: 40rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home img {
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+button {
+    width: 10rem;
+    margin-left: 44%;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.about {
+    color: white;
+}
+
+p {
+    font-family: 'Belleza', sans-serif;
+    font-size: 19px;
+}
+
+.ghost-info {
+    display: flex;
+    margin: 10rem;
+    text-indent: 15px;
+}
+
+.right {
+    width: 45%;
+    height: 90vh;
+    margin-top: -6rem;
+    margin-left: 40px;
+    line-height: 26px;
+}
+
+.left {
+    width: 45%;
+    height: 90vh;
+    margin-top: -6rem;
+    line-height: 26px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    margin-left: 35%;
+    width: 40rem;
+    margin-top: 5rem;
+}
+
+.btn-info {
+    margin-top: -20rem;
+
+}
+
+.images {
+   height: 180px;
+   width: 200px;
+   margin: 10px;
+
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+}
+
+.btm-row {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+}
+
+.btn-photo {
+    margin-top: 20rem;
+}
