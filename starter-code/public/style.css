@@ -51,6 +51,12 @@ img{
      width:100%;
      height:100%;
 }
+
+.paragraph{
+     margin-top:100px;
+     margin-left:30%;
+     margin-right: 5%;
+}
 .list-group{
      border-style:none;
      height: 100px;
