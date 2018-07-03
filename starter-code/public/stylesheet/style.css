@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---- home page ---- */
+
+nav {
+  background-color: lightcoral;
+  padding: 3% 10%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 2rem;
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(178, 32, 32);
+}
+
+.home-div {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.welcome-img {
+  padding: 0 2%;
+  height: 500px;
+}
+
+.home-div h1 {
+  font-size: 6rem;
+  padding-top: 10%;
+}
+
+.bottom-div {
+  height: 160px;
+  background-color: lightcoral;
+}
+
+/* ---- about page ---- */
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+  padding: 0 30%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* ---- photo gallery page ---- */
+
+.carousel-inner {
+  width: 500px;
+  height: 500px;
+}
