@@ -1,0 +1,2 @@
+h1,h2{font-family:"Dancing Script",cursive}h1{font-size:6rem}h2{margin-bottom:1.5rem}header{height:100vh;display:flex;justify-content:center;align-items:center;padding:0 20px;background-size:cover;margin-bottom:40px}header h1{color:#fff;text-shadow:0 0 10px #000}header.bg-1{background-image:url("../images/home/seoul_ddp.jpg")}header.bg-2{background-image:url("../images/home/seoul_gyeongbokgung.jpg")}
+/*# sourceMappingURL=styles.css.map */
