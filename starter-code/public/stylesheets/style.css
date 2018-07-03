@@ -1,0 +1,52 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.nav a {
+ text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.content {
+  text-align: center;
+  margin: 0 200px 0 200px;
+}
+
+.home-image {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 400px;
+  height: 400px;
+}
