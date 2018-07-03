@@ -1,0 +1,37 @@
+.body1 {
+  text-align:center;
+  background: #B3CABD;
+}
+
+h1 {
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+a {
+  margin-top: 20px;
+}
+
+
+.bodyAbout {
+  background: #B3CABD;
+  text-align:center;
+}
+
+.oli {
+  margin-top: 80px;
+}
+
+.last {
+  text-align:center;
+}
+
+.bodyPhoto {
+  background: #B3CABD;
+  margin: 50px 200px;
+}
+
+img {
+  height: 550px;
+  object-fit: cover;
+}
