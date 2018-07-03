@@ -7,4 +7,11 @@ $(function() {
 
     $(this).next('.timeline-content').slideDown();
   });
+
+  $('.img-gallery').magnificPopup({
+    type: 'image',
+    gallery:{
+      enabled:true
+    }
+  });
 });

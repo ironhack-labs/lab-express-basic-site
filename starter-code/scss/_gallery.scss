@@ -1,0 +1,10 @@
+#gallery {
+  .img-gallery {
+    outline: none;
+    .img-thumbnail {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+  }
+}
