@@ -1,0 +1,20 @@
+.container{
+    width: 95%;
+    max-width: 700px;
+
+    margin: 3em auto;
+}
+
+#img-container{
+    margin: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+img{width: 100%; height: auto;}
+
+#img-container div{
+    width: 32%;
+}
