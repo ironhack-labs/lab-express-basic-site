@@ -1,0 +1,32 @@
+body {
+    margin: 0 30px;
+    color: rgb(146, 0, 0);
+    background-color: rgb(244, 252, 225);
+}
+
+.drake-home {
+    color: black;
+    font-size: 130%;
+    margin: 0 100px;
+}
+
+.drake-gallery {
+    color: black;
+    background-color: lightcyan;
+    font-size: 130%;
+    margin: 0 100px;
+}
+
+.drake-about {
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 130%;
+    margin: 0 100px;
+}
+
+img {
+    display: block;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
