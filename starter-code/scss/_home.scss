@@ -1,0 +1,19 @@
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-size: cover;
+  margin-bottom: 40px;
+  h1 {
+    color: $white;
+    text-shadow: 0 0 10px $black;
+  }
+  &.bg-1 {
+    background-image: url('#{$imagesPath}home/seoul_ddp.jpg');
+  }
+  &.bg-2 {
+    background-image: url('#{$imagesPath}home/seoul_gyeongbokgung.jpg');
+  }
+}
