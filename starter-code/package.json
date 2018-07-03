@@ -1,0 +1,17 @@
+{
+  "name": "express-daily-exercise",
+  "version": "1.0.0",
+  "description": "First aproach to Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
