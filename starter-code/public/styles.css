@@ -1,0 +1,15 @@
+h1 {
+  color:peru;
+}
+.c1{
+  background-color:lightblue;
+  text-align:center;
+}
+.cm {
+  background-color: bisque;
+}
+.inp {
+  width:40%;
+  display:flex;
+  justify-content: center;
+}
