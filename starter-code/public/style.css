@@ -28,7 +28,13 @@ p{
   display: inline-block;
   width: 500px;
 }
-.carousel img{
-  height: 750px;
+#gallery img{
+  height: 630px;
   object-fit: cover;
+}
+#gallery a{
+  font-size: 1.6em;
+}
+#about{
+  background-color: rgb(124, 170, 124);
 }
