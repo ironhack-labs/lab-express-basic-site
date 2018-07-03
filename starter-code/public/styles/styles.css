@@ -1,0 +1,20 @@
+
+body {
+    text-align: center; 
+    background-color: antiquewhite;
+}
+
+#bambuMontse {
+    height: 20%;
+}
+
+.top-burguer .middle-burguer .bottom-burguer {
+    height: 5px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+.pageLinks {
+    font-size: 1em;
+}
