@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 20px;
+  /* font-family: 'Nanum Gothic', Arial; */
+  font-family: 'Dancing Script', cursive;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(182, 179, 179);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 1rem auto;
+}
+
+.header {
+  background: #b0d4e3;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.header p{
+  font-size: 1.5rem;
+  color: rgb(109, 108, 108);
+}
+
+.container {
+  max-width: 80rem;
+}
+
+.background-gradient {
+  background: #b0d4e3;
+  background: -moz-linear-gradient(top, #b0d4e3 0%, #e5dd97 99%);
+  background: -webkit-linear-gradient(top, #b0d4e3 0%, #e5dd97 99%);
+  background: linear-gradient(to bottom, #b0d4e3 0%, #e5dd97 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#e5dd97', GradientType=0);
+  padding-bottom: 4rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin: 1rem 3rem;
+  justify-content: center;
+  display:block;
+  font-size: 1.4rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+  margin:1rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+
+.section{
+  padding-top:2rem;
+  margin:0 auto;
+}
+
+.main-article p{
+  line-height: 2;
+}
+

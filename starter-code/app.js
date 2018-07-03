@@ -1,18 +1,35 @@
-const http = require('http');
+// Require Express
+const express = require('express');
 
-const server =
-  http.createServer((request, response) => {
-    console.log(`Someone has requested ${request.url}`);
+// Express server handling requests and responses
+const app = express();
 
-    if (request.url === '/') {
-      response.write('Hola Pablo!');
-      response.end();
-    }
-    else {
-      response.statusCode = 404;
-      response.write('404 Page');
-      response.end();
-    }
-  });
+// Make everything inside of public/ available
+app.use(express.static(__dirname +'/public'));
+// app.use(express.static('/public'));
 
-server.listen(31337);
+app.get('/', (request, response, next) => {
+  response.sendFile(__dirname + '/views/home.html');
+});
+
+app.get('/home', (request, response, next) => {
+  response.sendFile(__dirname + '/views/home.html');
+});
+
+// our first Route:
+app.get('/about', (request, response, next) => {
+  response.sendFile(__dirname + '/views/about.html');
+});
+
+// our first Route:
+app.get('/gallery', (request, response, next) => {
+  response.sendFile(__dirname + '/views/gallery.html');
+});
+
+
+// Server Started
+app.listen(31337, () => {
+  console.log('My first app listening on port 31337!');
+});
+
+
