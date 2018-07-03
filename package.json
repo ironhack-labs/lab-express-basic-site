@@ -1,0 +1,25 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "Express Basic Website =====================",
+  "main": "starter-code/app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkouuu/lab-express-basic-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkouuu/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/nkouuu/lab-express-basic-site#readme"
+}
