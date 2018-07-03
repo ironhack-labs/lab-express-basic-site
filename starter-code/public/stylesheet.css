@@ -1,0 +1,59 @@
+body{
+  background-color: #D5E9F5;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 380;
+}
+
+img {
+  width: 400px;
+  height: 380px;
+}
+
+h1 {
+  font-family: 'Eagle Lake', cursive;
+}
+
+a:link, a:visited {
+  background-color: grey;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cebu-head {
+  font-size: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+article {
+  width: 300px;
+  height: 200px;
+  text-align: justify;
+  padding: 10% 5%;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+}
+
+.cebu-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.map {
+  width: 40%;
+  height: 500px;
+}
