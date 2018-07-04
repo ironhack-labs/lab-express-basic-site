@@ -1,4 +1,61 @@
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
 h1
 {
-    color: peru;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.card-img
+{
+
+    height: 150px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+button
+{
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.d-block
+{
+   
+    height: 765px;
+}
+
+#determinarAlto
+{
+    margin-top: 10px;
+    color: white;
+}
+h2
+{
+    color: white;
+    text-align: center;
+}
+p
+{
+    color: white;
+    text-align: center
+}
+img
+{
+    width: 420px;
+    height: 300px;
 }
