@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+}
+.home {
+  background-image: url("images/osos.jpg");
+  font-size: 1.7em;
+  text-align: center;
+  background-size: 100%;
+  width: 1350px;
+  height: 600px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+h1{
+  padding-top: 30px;
+}
+.about {
+  text-align: center;
+  font-size: 1.2em;
+}
+.about a {
+  font-size: 1.7em;
+}
+p{
+  display: inline-block;
+  width: 500px;
+}
+#gallery img{
+  height: 630px;
+  object-fit: cover;
+}
+#gallery a{
+  font-size: 1.6em;
+}
+#about{
+  background-color: rgb(124, 170, 124);
+}
