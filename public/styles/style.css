@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: chartreuse;
+}
+
+.cabeza
+{
+display: flex;
+position: static;
+justify-content: center;
+}
+
+.cabeza h1
+{
+  width: 300px;
+  height: 200px;
+  font-family: Helvetica;
+  font-size: 3.0em;
+}
+
+.cabeza h2
+{
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
