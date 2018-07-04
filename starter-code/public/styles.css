@@ -1,0 +1,17 @@
+html {
+    height: 100vh !important;
+}
+
+
+.viewport {
+    margin-top: 100px !important;
+}
+
+.carousel-item {
+    width: 50% !important;
+}
+
+.weapons {
+    background-image: url("images/family.png") !important;
+    width: 40% !important;
+}
