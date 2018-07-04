@@ -72,28 +72,8 @@ footer {
         max-height: 100%;
         object-fit: cover; }
 
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px; }
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer; }
-
-.column img:hover {
-  opacity: 1; }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
-
 /* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
+.hidden {
   position: relative;
   display: none; }
 
@@ -105,5 +85,22 @@ footer {
   color: white;
   font-size: 35px;
   cursor: pointer; }
+
+.row {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .row .column {
+    width: 300px;
+    height: 300px;
+    margin: 0 10px; }
+    .row .column img {
+      object-fit: cover;
+      opacity: 0.8;
+      cursor: pointer; }
+    .row .column img:hover {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
