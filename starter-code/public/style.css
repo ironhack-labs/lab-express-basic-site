@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  padding:0;
+  background-image: url(images/3d7f54ea7f8371d05ac14c1e3b727d87.jpg);
+  background-size: cover;
+  display: flex;
+}
+
+.nav{
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  background-color: peru;
+  color: white;
+}
+
+.nav ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  padding: 1.5vh 3vw;
+}
+
+.nav ul li{
+  display:inline;
+}
+
+h1{
+  color: white;
+  font-weight: bold;
+}
+
+p{
+  color:white;
+}
