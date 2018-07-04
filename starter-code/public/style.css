@@ -1,5 +1,10 @@
 h1 {
   text-align: center;
+  font-family: 'Monoton', cursive;
+}
+
+h2 {
+  text-align: center;
 }
 
 .nav-link {
