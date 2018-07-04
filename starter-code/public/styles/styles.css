@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+}
+
+header ul {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: peru;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 0 10%;
+}
+
+main h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  color: peru;
+  border-bottom: 2px dotted peru;
+}
+
+main p {
+  text-align: center;
+}
+
+main .btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: peru;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
