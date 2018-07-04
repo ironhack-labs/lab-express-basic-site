@@ -1,0 +1,38 @@
+body {
+	font-family: Raleway;
+}
+
+h1, p {
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #F1F1F1;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#bruce-lee {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  padding-left: 300px;
+}
+
+.gallery {
+  width: 30%;
+  height: 480px;
+	float: left;
+	margin: 1.66%;
+}

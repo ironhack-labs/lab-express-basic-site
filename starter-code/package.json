@@ -1,0 +1,22 @@
+{
+  "name": "brucelee",
+  "version": "1.0.0",
+  "description": "a tribute to bruce lee",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtrojas/lab-express-basic-site.git"
+  },
+  "author": "Maite Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtrojas/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/mtrojas/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
