@@ -1,0 +1,43 @@
+.mainhome{
+height: calc(100vh - 56px);
+overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.viajes{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#espacio{
+    width: 100%;
+    display: block
+}
+
+.articulos{
+    width:40%;
+}
+
+.mainabout{
+    display: flex;
+    margin: 65px;
+    justify-content: space-between;
+}
+
+h4{
+    text-align: center
+}
+
+.introduccion{
+    margin: 20px 0px 0px 0px;
+}
+
+.carro{
+    margin: 20px 0;
+}
