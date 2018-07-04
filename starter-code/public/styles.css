@@ -1,0 +1,57 @@
+body {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+   display: flex;
+   text-decoration: none;
+   background: #000;
+   justify-content: center;
+}
+li {
+    display: flex;
+}
+
+li a {
+   margin: 1em;
+   font-size: 20px;
+   text-decoration: none;
+   color: #fff;
+   
+}
+
+section{
+    display: flex;
+    color: grey;
+    justify-content: center;
+    text-align: center;
+}
+article {
+    
+}
+h1 {
+    align-items: center;
+}
+p {
+    align-items: center;
+}
+span {
+    font-style: italic;
+}
+#image {
+   display: flex;
+   justify-content: center;
+}
+#enjoy {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#enjoy h1 {
+    text-align: center;
+    width: 100%;
+}
+#enjoy img {
+    padding: 1%;
+}
