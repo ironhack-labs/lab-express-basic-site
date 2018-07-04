@@ -1,0 +1,24 @@
+.background {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.about{
+    padding-top: 50px;
+}
+
+button{
+    background-color: black
+}
+
+h5{
+    font-size: 22px;
+}
