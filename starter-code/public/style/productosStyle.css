@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* .galleria{ max-width: 700px; height: 400px; background: #000 } */
+
+section #masterDiv{
+	width: 870px;
+	margin: auto;
+}
+section div .productos{
+	margin-left: 25px;
+	margin-bottom: 10px;
+	float: left;
+	
+}
+
+section div div img{
+	width: 400px;
+	height: 200px;
+}
+
+h2{
+	text-align: center;
+}

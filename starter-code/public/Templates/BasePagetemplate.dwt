@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="../style/html5reset-1.6.1.css" type="text/css" rel="stylesheet">
+<link href="../style/templateStyle.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+<!-- TemplateBeginEditable name="EditRegion4" -->
+
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Chemtrail</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<header>
+	<div>
+		<img src="../img/Logos/Logos Chemtrail/logo.png" width="590" height="294" alt="Logo Chemtrail">
+		<h1></h1>
+	</div>
+	<nav>
+		<ul>
+			<a href="index.html"><li>Principal</li></a>
+			<a href="../productos.html"><li>Productos</li></a>
+			<a href="../acerca.html"><li>Acerca</li></a>
+			<a href="../contacto.html"><li>Contacto</li></a>
+		</ul>
+	</nav>
+</header>
+
+<section><!-- TemplateBeginEditable name="EditRegion3" -->
+<div></div>
+<!-- TemplateEndEditable --></section>
+
+<div class="clear"></div>
+<footer><p>Todos los derechos reservados (R)</p></footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section #masterDiv{
+	width: 820px;
+	margin: auto;
+	position: relative;
+	top: 30px;
+
+}
+section div.sectionElements{
+
+	height: auto;
+	width: 300px;
+	float: left;
+	margin-left: 50px;
+}
+
+section div #sectionElement1{
+	background-color: rgba(0,0,0,0.20);
+}
+
+section div h2{
+	text-align: center;
+	font-size: 30px;
+	margin: 5% 0;
+}
+
+section div p{
+	font-size: 17px;
+	padding: 0 20px;
+}
+
+section div div a{
+	font-size: 17px;
+	position: relative;
+	top: 20px;
+	left: 35%;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
