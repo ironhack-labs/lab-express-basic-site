@@ -1,0 +1,126 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  font-family: "Avenir"
+}
+
+h1{
+  color: #fff;
+  margin-left: 20px;
+}
+
+#octoCat{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+#img-Name a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#nav-bar{
+  display: flex;
+  flex-direction: row;
+  background-color: #2562c4;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-menu a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+#nav-menu li{
+  list-style-type: none;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#header img{
+  width: 100vw;
+  height: 700px;
+}
+
+.centered{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.7);
+  font-size: 2em;
+}
+
+.about-sect h1{
+  color: black;
+  font-size: 3em;
+  margin-bottom:10px;
+  margin-left: 50px;
+}
+
+.about-sect hr{
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  width: 95%;
+}
+
+
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+#context{
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+}
+#context h3{
+  font-size: 1.9em;
+}
+#context p{
+  font-size: 1.3em;
+}
+#container img{
+  width: 500px;
+  height: 700px;
+  margin-left: 50px;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container img{
+  width: 400px;
+  height: 400px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  vertical-align: text-bottom;
+}
+
+.img-container p{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.img-container div{
+  width: 500px;
+  height: 500px;
+}
