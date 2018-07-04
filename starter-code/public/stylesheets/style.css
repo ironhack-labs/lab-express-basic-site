@@ -1,0 +1,50 @@
+body{
+
+    background-image: url('/images/fondo.jpg');
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+
+a{
+margin-left: auto;
+    font-size: 30px;
+    color: red;
+
+}
+
+.link1{
+
+    float: left;
+
+}
+
+.link2{
+
+    float: right;
+}
+
+.containerImages{
+
+display: flex;
+justify-content: center;
+}
+
+img{
+
+width: 500px;
+height: 500px;
+
+}
+
+p{
+
+    font-size: 30px;
+    color: blue
+
+
+}
