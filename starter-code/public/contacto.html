@@ -1,0 +1,135 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/BasePagetemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<link href="style/html5reset-1.6.1.css" type="text/css" rel="stylesheet">
+<link href="style/templateStyle.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+<!-- InstanceBeginEditable name="EditRegion4" -->
+<link href="style/contactoStyle.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Contacto</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<header>
+	<div>
+		<img src="img/Logos/Logos Chemtrail/logo.png" width="590" height="294" alt="Logo Chemtrail">
+		<h1></h1>
+	</div>
+	<nav>
+		<ul>
+			<a href="index.html"><li>Principal</li></a>
+			<a href="productos.html"><li>Productos</li></a>
+			<a href="acerca.html"><li>Acerca</li></a>
+			<a href="contacto.html"><li>Contacto</li></a>
+		</ul>
+	</nav>
+</header>
+
+<section><!-- InstanceBeginEditable name="EditRegion3" -->
+<div id="masterDiv">
+		<div class="elementsDiv" id="div1">
+		<p> Boulevard Manuel Avila Camacho 3130-400 <br>
+			 Colonia Valle Dorado, Tlalnepantla de Baz <br>
+			Estado de México, CP 54020<br>
+			<br>
+			Tel: +52 (55) 5985 7929, +52 (55) 6823 2041<br>
+			<br>
+			Contáctanos
+		</p>
+		<a href="contacto@chem-trail.com">contacto@chem-trail.com</a>
+		
+					<!-- 
+		  Replace form-handler.php with URL where to send the form-data when the form is submitted
+		  Goto http://w3c.github.io/html-reference/input.text.html#input.text for more information on all attributes that can be used with text input field
+		-->
+		<form method="post" action="form-handler.php">
+		  <div>
+			<h4>Contacto</h4>
+			<label for="name">Nombre: <span class="required">*</span> </label>
+			<input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+		  </div>
+
+		  <div>
+			<h4>Email</h4>
+			<label for="email">Dirección de email <span class="required">*</span> </label>
+			<input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+		  </div>
+
+		  <div>
+			<h4>Información</h4>
+			<label for="subject">Área especifica:</label>
+			<select id="subject" name="subject">
+			  <option value="hello">Productos</option>
+			  <option value="quote">Servicios</option>
+			  <option value="general">Contacto</option>
+			</select>
+		  </div>
+
+		  <div>
+			<h4>Mensaje</h4>
+			<label for="message">Mensaje <span class="required">*</span> </label>
+			<textarea id="message" name="message" placeholder="Write your message here." required ></textarea>
+		  </div>
+
+		  <div>
+			<h4>Tipo de contacto</h4>
+			<label for="radio-choice-1">Persona</label>
+			<input type="radio" name="radio-choice" id="radio-choice-1" tabindex="2" value="choice-1">
+			<label for="radio-choice-2">Empresa</label>
+			<input type="radio" name="radio-choice" id="radio-choice-2" tabindex="3" value="choice-2">
+		  </div>
+
+		  <div>
+			<h4>Información</h4>
+			<label for="checkbox1">Productos</label>
+			<input type="checkbox" name="checkbox1" id="checkbox1">
+			<label for="checkbox2">Otros</label>
+			<input type="checkbox" name="checkbox2" id="checkbox2">
+		  </div>
+
+		  <div>
+			<input type="submit" value="Envía" id="submit" />
+		  </div>
+		</form>
+	</div>
+	<div class="elementsDiv" id="div2">
+		<h2>Chemtrial Oficinas Corporativas</h2>
+    		<div id="map"></div>
+    		<script>
+      			function initMap() {
+					var uluru = {lat: 19.542536, lng: -99.213488};
+					var map = new google.maps.Map(document.getElementById('map'), {
+					  zoom: 15,
+					  center: uluru
+					});
+					var marker = new google.maps.Marker({
+					  position: uluru,
+					  map: map
+					});
+				  }
+    		</script>
+    <script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK3PBdcwvXZtlj1qbaEYq422KbIApk3SY&callback=initMap">
+    </script>
+		
+	</div>
+<div id="bottomDiv">
+	
+</div>
+	
+</div>
+<!-- InstanceEndEditable --></section>
+
+<div class="clear"></div>
+<footer><p>Todos los derechos reservados (R)</p></footer>
+</body>
+<!-- InstanceEnd --></html>

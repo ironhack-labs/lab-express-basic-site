@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#masterDiv{
+	width: 900px;
+	height: 460px;
+	margin: auto;
+	
+}
+
+.elementsDiv{
+	width: 420px;
+	height: 455px; 
+	position: relative;
+	float: left;
+	margin-left: 20px; 
+}
+
+.elementsDiv img{
+	position: relative;
+	left: 10px;
+	width: 400px;
+
+}
+.elementsDiv p{
+	margin: 20px 0px; 
+
+	padding: 5px; 
+}
+
+#div1{
+}
+#div1 img{
+}
+#div2{
+}
+#div2 img{
+	
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#masterDiv{
+	width: 900px;
+	height: 460px;
+	margin: auto;
+
+}
+
+#map {
+	height: 390px;
+    width: 100%;
+}
+
+.elementsDiv{
+	width: 420px;
+	height: 455px; 
+	position: relative;
+	float: left;
+	margin-left: 20px; 
+	 
+}
+
+.elementsDiv img{
+	position: relative;
+	left: 10px;
+	width: 400px;
+
+}
+.elementsDiv p{ 
+	padding: 5px; 
+}
+
+#div1 a{
+	color: black;
+	text-decoration: none; 
+	margin: 10px;
+}
+
+#div1 a:hover{
+	color: gray
+}
+#div2 h2{
+	margin: 10px 0px; 
+	padding: 5px;
+	text-align: center;
+}
+
+form{
+	margin-top: 15px; 
+	background-color:rgba(0,0,0,0.22);
+	
+}
