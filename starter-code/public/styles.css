@@ -1,0 +1,20 @@
+html {
+    height: 200vh !important;
+}
+
+
+.viewport {
+    padding-top: 0.5px;
+    
+}
+
+
+.weapons {
+    background-image: url("images/family.png") !important;
+    background-size: cover !important;
+}
+
+.rick {
+    height: cover;
+    object-fit: cover !important;
+}
