@@ -1,17 +1,20 @@
 html {
-    height: 100vh !important;
+    height: 200vh !important;
 }
 
 
 .viewport {
-    margin-top: 100px !important;
+    padding-top: 0.5px;
+    
 }
 
-.carousel-item {
-    width: 50% !important;
-}
 
 .weapons {
     background-image: url("images/family.png") !important;
-    width: 40% !important;
+    background-size: cover !important;
+}
+
+.rick {
+    height: cover;
+    object-fit: cover !important;
 }
