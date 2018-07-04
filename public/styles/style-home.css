@@ -1,0 +1,44 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/mtp.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  color: white; 
+}
+
+/* ---- main ---- */
+
+h1 { 
+  font-size: 90px;
+}
+
+/* sorry for the following height in px x)  */
+
+.title {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+  position: absolute;
+}
+
+.links li {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 20px;
+  font-weight: lighter;
+}

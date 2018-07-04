@@ -1,0 +1,23 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 300px;
+  padding: 0;
+  background-image: url(/images/ecusson.jpg); 
+  background-repeat: no-repeat; 
+  font-family: sans-serif;
+  background-position-x: 50%;
+  background-color: black;
+  color: white; 
+}
+
+/* ---- main ---- */
+
+
