@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Fira Sans";
+  font-size: 18px; }
+
+#nav-bar {
+  width: 100%;
+  background-color: #d83e3e; }
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 10vh;
+    color: white; }
+    #nav-bar ul li a {
+      text-decoration: none;
+      color: white; }
+
+.home-container {
+  background: url("../images/ignatius-front-page.jpg"); }
+
+.container {
+  width: 960px;
+  height: 82vh;
+  margin: 0 auto; }
+  .container .title-container {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    top: 50%; }
+    .container .title-container h1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 4rem; }
+
+.gallery-container img {
+  height: 80vh;
+  object-fit: contain; }
+
+footer {
+  background-color: #6d6565;
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  footer h3 {
+    color: white;
+    margin-right: 20px; }
+
+.about-container {
+  font-size: 1rem; }
+  .about-container #nacimiento {
+    height: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around; }
+    .about-container #nacimiento .paragraph-container {
+      display: flex;
+      flex-direction: column;
+      width: 40%; }
+      .about-container #nacimiento .paragraph-container p {
+        margin-top: 10px; }
+    .about-container #nacimiento .about-image-container {
+      width: 400px;
+      height: auto; }
+      .about-container #nacimiento .about-image-container img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover; }
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.hidden {
+  position: relative;
+  display: none; }
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer; }
+
+.row {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .row .column {
+    width: 300px;
+    height: 300px;
+    margin: 0 10px; }
+    .row .column img {
+      object-fit: cover;
+      opacity: 0.8;
+      cursor: pointer; }
+    .row .column img:hover {
+      opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */

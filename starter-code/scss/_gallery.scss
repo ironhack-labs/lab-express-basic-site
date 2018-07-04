@@ -1,0 +1,36 @@
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.hidden {
+  position: relative;
+  display: none;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.row{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .column{
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+    img{
+      object-fit: cover;
+      opacity: 0.8; 
+      cursor: pointer; 
+    }
+    img:hover {
+      opacity: 1;
+    }
+  }
+}
