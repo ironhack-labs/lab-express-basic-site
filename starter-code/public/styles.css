@@ -1,0 +1,54 @@
+body {
+    margin: 30px 0;
+    background-color:azure;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 30px 0;
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: teal;
+}
+
+p {
+    font-family: 'Avenir';
+    margin: 40px 0;
+}
+
+#gallery {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    height: 200px;
+    margin: 10px;
+}
+
+section {
+    width: 900px;
+    margin: 0 auto;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.center {
+    text-align: center;
+}
