@@ -10,21 +10,24 @@ let data = {
 };
 
 app.set('view engine', 'hbs');
-app.set('views', __dirname + '/views');
-app.use(express.static(__dirname + 'public'));
+app.set('views',__dirname + '/views');
+
+app.use(express.static('public'));
 
 app.get('/', (request, response, nextFunction) => {
   response.render('index',data); 
 });
 
 app.get('/gallery', (request, response, nextFunction) => {
-  response.render('gallery');
+  response.render('gallery',data);
 });
 
 app.get('/about', (request, response, nextFunction) => {
-  response.render('about');
+  response.render('about', data);
 });
 
 app.listen(3000, () => {
   console.log('server listening at localhost port 3000');
+  console.log( __dirname + '/views');
+  console.log( __dirname + '/public');
 });

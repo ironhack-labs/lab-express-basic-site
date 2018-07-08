@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "hbs": "^4.0.1",
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.17.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
   }
 }
