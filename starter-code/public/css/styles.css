@@ -1,0 +1,37 @@
+body {
+    background-color: brown;
+}
+
+.col-xs-4 {
+    margin: 10px;
+
+}
+
+.col-xs-4 > img {
+    max-width:100%;
+
+}
+
+p {
+    text-align: right;
+}
+
+
+#titlePic {
+    max-height: 60vh;
+    display: block;
+    margin: 0 auto;
+} 
+
+#myNavbar a {
+    color: #00c8f4;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+#promo-poster{
+    max-height: 350px;
+
+}
