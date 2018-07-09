@@ -1,0 +1,12 @@
+body{
+  background-color: cadetblue;
+}
+.logo{
+  size: 40%;
+}
+div#about{
+  background-image: url("/images/assassins-creed-movie5.jpg");
+};
+div#gallery{
+  background-image: url("/images/assassins-creed-movie4.jpg");
+};
