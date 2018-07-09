@@ -1,0 +1,23 @@
+body {
+  background: #BB0000;
+}
+
+.header {
+  height: 10em;
+}
+
+.nav {
+  background: #FFF;
+}
+
+.nav-link {
+  color: #BB0000;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 0.5em;
+  padding: 1.5em 1em;
+  background: #FFF;
+  text-align: center;
+}
