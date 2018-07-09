@@ -1,83 +1,11 @@
-<div class="py-5" id="gallery"></div>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-
+<div class="py-5">
+	<div class="py-5" id="gallery">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image1}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image2}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image3}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image4}}} class="img-thumbnail" />
+				<div class="col-md-12">
+					{{#each element}} {{> items}} {{/each}}
 				</div>
 			</div>
-			
-			<div class="row">
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image5}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image6}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image7}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image8}}} class="img-thumbnail" />
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image9}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image10}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image11}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image12}}} class="img-thumbnail" />
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image13}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image14}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image15}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image16}}} class="img-thumbnail" />
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image17}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image18}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image19}}} class="img-thumbnail" />
-				</div>
-				<div class="col-md-3">
-					<img alt="Image Preview" src={{{image20}}} class="img-thumbnail" />
-				</div>
-			</div>
-			
 		</div>
 	</div>
 </div>
