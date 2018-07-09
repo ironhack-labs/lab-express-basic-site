@@ -27,12 +27,8 @@ app.get('/about', (request, response, nextFunction) => {
 });
 
 app.get('/gallery', (request, response, nextFunction) => {
-  response.render('gallery', {
-    element
-  });
+  response.render('gallery', {element});
 });
-
-
 
 app.listen(3000, () => {
   console.log('server listening at localhost port 3000');

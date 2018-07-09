@@ -21,4 +21,5 @@ function popUp(img) {
   if (newWindow != null) newWindow.close();
   newWindow = window.open(img, "newWindow", "width=" + imageWith + ",height=" + imageHeight + ",left=" + xPos + ",top=" + yPos + ",screenX=" + xPos + ",screenY=" + yPos + "");
   newWindow.self.focus();
+  return false;
 }
