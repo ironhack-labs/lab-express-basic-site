@@ -19,5 +19,41 @@ body {
   margin-top: 0.5em;
   padding: 1.5em 1em;
   background: #FFF;
-  text-align: center;
+  text-align: justify;
+}
+
+.gallery-element {
+  width: 10em;
+  margin: 1em;
+  border: 1px solid #CCC;
+}
+
+.gallery-element:hover {
+  border: 1px solid #FF0000;
+  box-shadow: 0 0 2px 1px rgba(255, 0, 0, 0.5);
+}
+
+.gallery-picture {
+  width: 100%;
+}
+
+footer {
+  margin: 1em 0;
+  flex-direction: column;
+  color: #FFF;
+}
+
+#coinblock {
+  width: 2em;
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .nav {
+    border-radius: 5px;
+  }
+
+  .content {
+    border-radius: 5px;
+  }
 }
