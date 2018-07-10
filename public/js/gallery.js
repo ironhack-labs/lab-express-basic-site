@@ -21,20 +21,39 @@ window.onload = () => {
         document.getElementsByClassName('right')[0].style.display='none';
     });
     document.getElementsByClassName('right')[0].addEventListener('click', (e) => {
-        var src = document.querySelector('#background-lightbox img').getAttribute('src');
-        var id = parseInt(src.substring(14, src.length-4));
-        if (id===document.getElementsByClassName('gallery-img-container').length) id = 0;
-        id++;
-        var url = "images/gallery" + id+ ".jpg";
-        document.querySelector('#background-lightbox img').setAttribute('src', url);
+        lightboxRight();
     });
     document.getElementsByClassName('left')[0].addEventListener('click', (e) => {
-        var src = document.querySelector('#background-lightbox img').getAttribute('src');
-        var id = parseInt(src.substring(14, src.length-4));
-        console.log(id);
-        if (id===1) id =+ document.getElementsByClassName('gallery-img-container').length;
-        id--;
-        var url = "images/gallery" + id+ ".jpg";
-        document.querySelector('#background-lightbox img').setAttribute('src', url);
+        lightboxLeft();
     });
+    document.addEventListener('keydown', (event) => {
+        console.log(event.key);
+        if(event.key === 'ArrowLeft')
+        {
+            lightboxLeft();
+        }
+        else if(event.key === 'ArrowRight')
+        {
+            lightboxRight();
+        }
+      });
 };
+
+function lightboxRight(){
+    var src = document.querySelector('#background-lightbox img').getAttribute('src');
+    var id = parseInt(src.substring(14, src.length-4));
+    if (id===document.getElementsByClassName('gallery-img-container').length) id = 0;
+    id++;
+    var url = "images/gallery" + id+ ".jpg";
+    document.querySelector('#background-lightbox img').setAttribute('src', url);
+}
+
+function lightboxLeft(){
+    var src = document.querySelector('#background-lightbox img').getAttribute('src');
+    var id = parseInt(src.substring(14, src.length-4));
+    console.log(id);
+    if (id===1) id =+ document.getElementsByClassName('gallery-img-container').length;
+    id--;
+    var url = "images/gallery" + id+ ".jpg";
+    document.querySelector('#background-lightbox img').setAttribute('src', url);
+}
