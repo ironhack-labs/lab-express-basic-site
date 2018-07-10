@@ -1,0 +1,27 @@
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-start-game {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 60px;
+  font-family: Arial, serif;
+  font-weight: 500;
+  color: black;
+  /* background-color: yellow; */
+  /* font-stretch: expanded; */
+  letter-spacing: 3px;
+  /* color: yellowgreen; */
+  /* border: 2px solid green; */
+}
