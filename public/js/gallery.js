@@ -11,14 +11,10 @@ window.onload = () => {
         });
     }
     document.getElementsByClassName('button-close')[0].addEventListener('click', ()=>{
-        document.getElementById('background-lightbox').style.display = "none";
-        document.getElementsByClassName('left')[0].style.display='none';
-        document.getElementsByClassName('right')[0].style.display='none';
+        lightboxClose();
     });
     document.getElementById('background-lightbox').addEventListener('click', ()=>{
-        document.getElementById('background-lightbox').style.display = "none";
-        document.getElementsByClassName('left')[0].style.display='none';
-        document.getElementsByClassName('right')[0].style.display='none';
+        lightboxClose();
     });
     document.getElementsByClassName('right')[0].addEventListener('click', (e) => {
         lightboxRight();
@@ -35,6 +31,10 @@ window.onload = () => {
         else if(event.key === 'ArrowRight')
         {
             lightboxRight();
+        }
+        else if(event.key === 'Escape')
+        {
+            lightboxClose();
         }
       });
 };
@@ -56,4 +56,10 @@ function lightboxLeft(){
     id--;
     var url = "images/gallery" + id+ ".jpg";
     document.querySelector('#background-lightbox img').setAttribute('src', url);
+}
+
+function lightboxClose(){
+    document.getElementById('background-lightbox').style.display = "none";
+    document.getElementsByClassName('left')[0].style.display='none';
+    document.getElementsByClassName('right')[0].style.display='none';
 }
