@@ -1,0 +1,64 @@
+.content article h3
+{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.content .news a img
+{
+    width: 100%;
+}
+.content .calendar .concert
+{
+    margin-bottom: 20px;
+}
+.content .calendar .concert .title
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.content .calendar .concert .where
+{
+    text-transform: uppercase;
+    font-style: italic;
+}
+.content .calendar .concert .when
+{
+    font-size: 12px;
+    color: #777777;
+}
+.videoclip .video{
+    width: 100px;
+}
+
+
+@media (max-width: 767px)
+{
+    div.container
+    {
+        max-width: 767px;
+        margin: auto;
+    }
+    .sidebar
+    {
+        display: none;
+    }
+    body
+    {
+        margin:0;
+    }
+    .navigation-collapse
+    {
+        display: block;
+    }
+    .navbar-light .navbar-toggler
+    {
+        border-color: transparent;
+    }
+    .content article h3
+    {
+        margin-top: 30px;
+    }
+}

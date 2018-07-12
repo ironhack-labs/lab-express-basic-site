@@ -1,0 +1,81 @@
+.gallery-img-container
+{
+    border: 5px white solid;
+}
+.main h2
+{
+    text-transform: uppercase;
+    margin: 50px;
+    margin-bottom: 30px;
+}
+.content
+{
+    padding-top:0;
+}
+#background-lightbox
+{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    left:10vw;
+    z-index: 3;
+    width: 80vw;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    padding: 3vh 3vw;
+    display: none;
+}
+#background-lightbox img
+{
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+.fa-arrow-right, .fa-arrow-left
+{
+    position: absolute;
+    right: 0;
+    top: 300px;
+    z-index: 4;
+    margin: 40px;
+    font-size: 40px;
+}
+.fa-arrow-right
+{
+    right: 0;
+    color: white;
+}
+.fa-arrow-left
+{
+    left: 0;
+    color: white;
+}
+.button-close
+{
+    font-size: 40px;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+.left
+{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 10vw;
+    height: 100vh;
+    display: none;
+}
+.right
+{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 10vw;
+    height: 100vh;
+    display:none;
+}
