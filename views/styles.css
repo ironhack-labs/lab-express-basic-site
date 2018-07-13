@@ -1,0 +1,18 @@
+
+.bg {
+  background-image: url("../public/Gallery/ross-tran-posting-final.jpg");
+  height: 500px;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-image: url("../public/ac40694b228f5b0ecaaf376233ba5f22--pink-blue-blue-green.jpg")
+}
