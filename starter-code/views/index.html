@@ -4,18 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Die Katapult</title>
 </head>
 <body>
-  <nav>
-    <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/gallery">Gallery</a></li>
-  </ul>
-  </nav>
-  <h1>Die Katapult</h1>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">DIE KA†APULT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item "><a class="nav-link" href="/about">About</a></li>
+              <li class="nav-item "><a class="nav-link" href="/gallery">Gallery</a></li>
+          </ul>
+          <ul class="navbar-nav social">
+              <li class="social-facebook">
+                  <a target="_blank" href="https://facebook.com/diekatapult"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li class="social-envelope">
+                  <a target="_blank" href="mailto:diekatapult@gmail.com"><i class="fa fa-envelope"></i></a>
+              </li>
+              <li class="social-soundcloud">
+                  <a target="_blank" href="https://soundcloud.com/die-katapult"><i class="fa fa-soundcloud"></i></a>
+              </li>
+             <li class="social-spotify">
+                  <a target="_blank" href="spotify:artist:4vAuh0ifJRTcAxGeGNULIb"><i class="fa fa-spotify"></i></a>
+              </li>              
+          </ul>
+    
+        </div>
+      </nav>
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="banner-caption">
+          <h1>DIE KA†APULT</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer fixed-bottom">
+    <div class="container"><span>Marc & Anna</span></div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 </html>
