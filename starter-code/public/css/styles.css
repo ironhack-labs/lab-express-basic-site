@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font: 400 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #5b5e6d;
+}
+.bg-dark{
+  background-color:#000!important;
+}
+.banner{
+  height: 460px;
+    background: #000 url('https://static1.squarespace.com/static/529f901ee4b0f564cbbf58c6/t/561d7450e4b093c102b16013/1444770904602/Die+Katapult+Selfzine') no-repeat left center;
+    color: #fff;
+    margin-top: 56px;
+    position: relative;
+    background-size: 100%;
+}
+.banner .banner-caption{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  width: 300px;
+}
+.banner .banner-caption h1{
+  font-size: 70px;
+  text-align: right;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.gallery{
+  padding: 50px 0;
+}
+.gallery .col-sm-6{
+  margin-bottom: 30px;
+}
+.footer{
+  height: 56px;
+  line-height: 56px;
+  background-color: #f5f5f5;
+  font-size: 10px;
+  text-align: center;
+}
+
+.social a{
+  padding: 5px 10px;
+  color: #fff;
+}
