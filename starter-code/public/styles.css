@@ -1,0 +1,10 @@
+.carousel-img {
+    height: 91.7vh;
+}
+
+.main-title {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
