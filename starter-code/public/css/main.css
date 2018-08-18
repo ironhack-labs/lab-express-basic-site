@@ -1,0 +1,38 @@
+.header-fixed {
+  background-color: #21c65e;
+  color:white;
+}
+
+
+.navbar {
+  background-color:white;
+}
+
+h1{
+  text-align: center;
+  color:#21c65e;
+  border: #21c65e solid 4px;
+}
+
+h3{
+  color:#21c65e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+}
+
+.products img{
+  height:15vh;
+
+}
+
+.test{
+  margin-bottom: 40px;
+}
+
+.row-images-1{
+  margin:30px auto;
+}
