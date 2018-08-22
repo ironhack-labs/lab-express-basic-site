@@ -1,0 +1,23 @@
+body {
+  background: lightblue;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: space-between;
+  margin: 25vh 38vw;
+}
+
+a {
+  width: 3vw;
+  border: 1px white solid;
+  padding: 5px;
+  margin: 10px;
+}
+
+img {
+  opacity: 0;
+}
