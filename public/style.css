@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    color: #ffffff;
+    background-image: url(etienne-girardet-360034-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 200%;
+    line-height: 1.5;
+}
+
+.nav-links {
+    margin-top: 100px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.nav-links a,
+.gal-link a {
+    font-weight: 900;
+    color: #fab72b;
+    text-decoration: none;
+}
+
+.abtme {
+    margin: 10%;
+}
+.abtme p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.gal-link {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 100px 0 100px;
+}
+
+.gal-link a {
+}
+
+.myimages {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px 50px 50px;
+}
+
+.myimages img {
+    width: 45%;
+    height: 45%;
+}
