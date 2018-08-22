@@ -1,0 +1,1 @@
+document.getElementsByClassName("click").addEventListener("click", fadeOut(3000))
