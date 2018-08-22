@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 100px;
+  color: rgb(0, 95, 5);
+  text-align: center;
+  line-height: 400px;
+  background-color: rgba(5, 5, 172, 0.637);
+}
+
+#about-section p {
+  font-size: 50px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25vw;
+  background-color: rgba(255, 255, 255, 0.575);
+}
+
+#about-background {
+  background-image: url("./poopybutt.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.479);
+}
+
+.gallery img {
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 50px;
+  background-color: lightgray;
+}
+
+.navbar a {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  margin-right: 25px;
+}
+
+#inputThing-btn {
+  width: 300px;
+  height: 90px;
+  font-size: 40px;
+}
