@@ -1,0 +1,71 @@
+body {
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.main {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+
+.description {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-img {
+    width:180px;
+    margin: 2%;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-button {
+    margin-top: 7%;
+}
