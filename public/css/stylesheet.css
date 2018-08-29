@@ -1,0 +1,81 @@
+* {
+  font-family: 'Bangers', cursive;
+  font-style: futura;
+
+}
+
+body {
+  background-color: rgb(187, 0, 0);
+}
+
+/* .galerie {
+  display: flex; 
+} */
+
+/* li {
+  width: 50px;
+  height: 50px;
+} */
+
+.split-image {
+  width: 25%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.big-image {
+
+  background-image: url(/images/andre-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.description {
+ text-align: center;
+margin-top: 500px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+p {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1.5px;
+  line-height: 2em;
+  font-style: futura;
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-style: futura;
+  color: black;
+
+  font-size: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  /* margin-bottom: 600px; */
+  font-family: 'Bangers', cursive;
+  font-style: futura;
+  color: black;
+  font-size: 2em;
+}
+
+.home-header {
+  font-family: 'Bangers', cursive;
+  font-style: futura;
+  color: rgb(187, 0, 0);
+
+  font-size: 80px;
+
+}
+/* 
+ul {
+  margin-top: 300px;
+} */
