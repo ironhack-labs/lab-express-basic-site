@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+}
+
+.gallery-title {
+    text-align: center;
+}
+
+.img-micdrop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button-contain {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1,
+p {
+    text-align: center;
+}
