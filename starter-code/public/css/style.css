@@ -1,0 +1,52 @@
+header {
+  background-image: url("/images/téléchargement.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+header h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 120px;
+  font-weight: 800;
+  background-color: black;
+
+}
+
+header h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 300;
+  background-color: black;
+}
+
+.about-bg {
+  background-color:white;
+}
+
+
+h1{
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.formulaire {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 500px;
+  height:450px;
+  border: 2px solid black;
+  padding: 20px;
+
+}
+
