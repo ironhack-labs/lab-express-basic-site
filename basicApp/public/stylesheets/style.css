@@ -36,3 +36,10 @@ body{
 .mytext{
   font-size: 45px
 }
+
+.flip {
+  transform: rotate(-180deg);
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
