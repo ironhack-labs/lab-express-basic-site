@@ -1,0 +1,18 @@
+body{
+  background: lightblue;
+  font-size: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+li{
+  padding-left: 5%;
+}
+
+.fruit{
+  padding-bottom: 5vh;
+}
+
+h1{
+  font-family: arial;
+}
