@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to bottom right, #1783aa, #fff)
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-div {
+  display: flex;
+    justify-content: space-evenly;
+    width: 31vw;
+    font-size: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 1vw;
+}
+
+.img-div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cartoon {
+  width: 33vw;s
+}
