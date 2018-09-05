@@ -160,6 +160,11 @@ footer {
 
 .footer li {
     padding-left: 40px;
+    cursor: pointer;
+}
+
+.footer li:hover {
+    color: red;
 }
 
 .footer .copyright {
