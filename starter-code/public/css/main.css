@@ -96,6 +96,22 @@ nav {
     cursor: pointer;
     border-radius: 5px;
     display: none;
+    border:none;
+}
+
+
+.hoverBg > button:hover {
+    background: deepskyblue;
+}
+
+.hoverBg > .button--blue {
+    background: deepskyblue;
+    border: none;
+    border-radius: 50px;
+}
+
+.hoverBg > .button--blue:hover {
+    background: red;
 }
 
 .hoverBg:hover {
