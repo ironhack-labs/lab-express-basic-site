@@ -1,0 +1,97 @@
+.imag {
+  width: 90%;
+}
+
+.banner {
+  background-image: url(/images/project-2.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 70vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vh 5vw 0vh;
+}
+
+/* .services {
+  background-color: #59afe9;
+  color: white;
+} */
+.service-box {
+  padding: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: baseline;
+  text-align: center;
+  background-color: #59afe9;
+  color: white;
+}
+
+.circle {
+  border: 3px solid white;
+  padding: 2vh;
+  margin: 2vh;
+  border-radius: 50%;
+}
+
+.about {
+  margin-top: 2vh;
+}
+
+.cat-list {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95vw;
+  margin-left: 2vw;
+  /* height: 80vh; */
+  }
+  
+  .cats {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    height: 12vh;
+    align-items: center;
+    margin: 1vh;
+  }
+
+  .imagList {
+    height: 100%;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #59afe9;
+    border-color: #59afe9;
+  }
+
+  .logo {
+    height: 20px;
+  }
+  
