@@ -43,3 +43,12 @@ body{
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+/* .login-register{
+    overflow: scroll;
+    padding: 5% 0;
+}
+
+.login-box{
+  width:800px; adjust this value according your requirement
+} */
