@@ -8,3 +8,31 @@ body{
   padding-right: 5vw;
   padding-bottom: 3vh;
 }
+
+.cards-container {
+  display: flex;
+  padding: 10% 10%;
+  justify-content: space-around;
+}
+
+.card1{
+  width: 20rem;
+  margin-right: 20px;
+  margin-left: 5px
+  /* background-color: red */
+}
+.card-body{
+  text-align: center
+}
+
+.card-img-top{
+  height: 55%;
+}
+
+.links{
+  text-align: center
+}
+
+.mytext{
+  font-size: 45px
+}
