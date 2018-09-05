@@ -1,7 +1,40 @@
 body {
-    background-color: black;
+    text-align: center;
 }
 
-h1 {
-    color: blue;
+
+.background-trying {
+    background-image: url("./images/homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.first-one {
+    padding-top: 100px;
+    font-family: fantasy;
+    font-size: 45px;
+    color: white;
+}
+
+
+
+.background-trying > p {
+    color: turquoise;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.background-trying > a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.fix-the-img {
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+  text-align: center;
 }
