@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2000c924-ec6c-4c11-ba22-b3dca472f66e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/public/images/product_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/views/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/views/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter-code/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/public/images/team9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/views/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/views/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/starter-code/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="408">
+              <caret line="82" column="22" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="82" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -51,8 +50,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/starter-code/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -60,8 +59,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/starter-code/views/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="182">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -69,8 +68,8 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/starter-code/views/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="103">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -90,10 +89,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/starter-code/views/about.html" />
-        <option value="$PROJECT_DIR$/starter-code/views/gallery.html" />
         <option value="$PROJECT_DIR$/starter-code/app.js" />
         <option value="$PROJECT_DIR$/starter-code/views/index.html" />
+        <option value="$PROJECT_DIR$/starter-code/views/gallery.html" />
+        <option value="$PROJECT_DIR$/starter-code/views/about.html" />
         <option value="$PROJECT_DIR$/starter-code/public/css/main.css" />
       </list>
     </option>
@@ -113,8 +112,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="23" />
+    <option name="x" value="472" />
+    <option name="y" value="126" />
     <option name="width" value="1034" />
     <option name="height" value="947" />
   </component>
@@ -200,15 +199,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536160568616</updated>
-      <workItem from="1536160569951" duration="3282000" />
+      <workItem from="1536160569951" duration="6859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3282000" />
+    <option name="totallyTimeSpent" value="6859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="23" width="1034" height="947" extended-state="0" />
+    <frame x="472" y="126" width="1034" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497532" />
@@ -240,20 +239,6 @@
     <entry file="file://$PROJECT_DIR$/starter-code/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/starter-code/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starter-code/views/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/starter-code/public/images/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -264,17 +249,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/starter-code/views/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/starter-code/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="82" column="22" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-code/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/starter-code/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
         </state>
       </provider>
     </entry>
