@@ -1,0 +1,151 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: pink;
+    background-color: darkorchid;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px 0px 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: pink;
+    padding: 0px 5px 0px 5px;
+}
+
+body{
+    background-color: paleturquoise;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 100px 50px 50px 50px;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+    background-color: darkslateblue;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+    background-color: darkslateblue;
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: pink;
+    background-color: teal;
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: pink;
+    background-color: darkorchid;
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+    background-color: lightblue;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    border-color: darkslateblue;
+    border-width: 4px;
+
+
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+    background-color: lightblue;
+    margin: 25px;
+    padding: 25px;
+    border-color: darkslateblue;
+    border-width: 4px;
+}
+
+.dog-image {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+
+.camp-image {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.home-row {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-between;
+   
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
