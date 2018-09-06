@@ -1,0 +1,24 @@
+body{
+  background: linear-gradient(lightblue,rgb(69, 103, 184));
+  font-size: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+li{
+  padding-left: 5vw;
+}
+
+.fruit{
+  padding-bottom: 5vh;
+
+}
+
+h1{
+  font-family: arial;
+}
+
+img{
+}
+
+/*ADD A NAVBAR LATER LOL*/
