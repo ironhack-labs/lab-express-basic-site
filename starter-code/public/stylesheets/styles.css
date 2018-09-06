@@ -1,0 +1,42 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ 
+ .nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+ .nav-bar li{
+  display: inline;
+  font-size: 20px;
+ }
+ 
+ .content{
+  background-image: url("/images/beans.jpg");
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  padding-top: 5vw;
+ 
+ }
+ 
+ .header{
+   /* margin-top: 200px; */
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  /* background-color: rgb(51, 21, 3, 0.7) */
+ }
