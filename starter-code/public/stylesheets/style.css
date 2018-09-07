@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 100px;
+}
+
+.home-pic img {
+    display: flex;
+    margin: 0 auto;
+    height: 350px;
+    width: 450px;
+    border-radius: 50%;
+}
+html {
+    background-color:   #fff099;
+}
+
+.home-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32rem;
+}
+
+
+#btn, #btn2 {
+padding: 20px 50px;
+background-color:#ffffcc;
+font-size: 14px;
+margin-top: 5rem;
+margin-right: 5rem;
+border-radius: 6px;
+border: 1px dotted;
+}
+
+
+.home-buttons a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    height: 300px;
+    width: 400px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.about-p {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-gallery img {
+    height: 280px;
+    width: 250px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
