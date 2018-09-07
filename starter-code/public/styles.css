@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  margin: 0 auto;
+}
+.header{
+    background: linear-gradient(black, cyan);
+    height: 50vw;
+
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textCenter p{
+  font-size: 5vw;
+}
+
+.textCenter2 p{
+  font-size: 3vw;
+}
+
+.top-pad {
+  padding-top: 12vw;
+}
+
+.nav{
+  height: 10vw;
+  background: black;
+  padding-top: 1vw;
+}
+.row-image-height{
+  height: 10vw;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 2vw;
+  font-family: 'Josefin Sans'
+}
+
+a:hover {
+  color: cyan;
+  letter-spacing: 2px;
+}
+
+h4 {
+  color: white;
+  font-family: 'Josefin Sans';
+
+}
+
+h1{
+  color:white;
+  font-family: 'Josefin Sans';
+  font-size: 10vw;
+}
+
+h2 {
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 6vw;
+}
+
+p{
+  color:white;
+  font-family: 'Lobster';
+}
+
+.special-text {
+  letter-spacing: 2px;
+  font-family: 'Helvetica';
+  font-weight: 100;
+}
+
+h3{
+  font-family: 'Lobster';
+  color: lightgray;
+}
