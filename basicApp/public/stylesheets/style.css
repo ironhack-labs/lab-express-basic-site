@@ -1,0 +1,54 @@
+body{
+  /* background-color: blue */
+}
+
+.foodieMiami{
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 3vh;
+}
+
+.cards-container {
+  display: flex;
+  padding: 10% 10%;
+  justify-content: space-around;
+}
+
+.card1{
+  width: 20rem;
+  margin-right: 20px;
+  margin-left: 5px
+  /* background-color: red */
+}
+.card-body{
+  text-align: center
+}
+
+.card-img-top{
+  height: 55%;
+}
+
+.links{
+  text-align: center
+}
+
+.mytext{
+  font-size: 45px
+}
+
+.flip {
+  transform: rotate(-180deg);
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+/* .login-register{
+    overflow: scroll;
+    padding: 5% 0;
+}
+
+.login-box{
+  width:800px; adjust this value according your requirement
+} */
