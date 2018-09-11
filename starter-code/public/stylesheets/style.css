@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/simon-shim-551685-unsplash.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: darkviolet;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+
+
+main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  color: darkviolet;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  color: darkviolet;
+  font-size: 20px;
+}
+
+h1 {
+  position: relative;
+}
