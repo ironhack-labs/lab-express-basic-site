@@ -1,105 +1,23 @@
-
-/* ---- reset ---- */
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 body {
-  margin: 0;
-  padding: 0;
+  padding: 50px;
+  font: 14px "Lucinda Grande", Helvetica, Arial, sans-serif;
 }
 
-
-/* ---- typography ---- */
-
-body {
-  color: #111;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 147%;
+a {
+  color: black;
 }
 
-h1 {
-  padding-top: 20px;
-  margin: 15px;
-  color: pink;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-h2 {}
-
-h3 {}
-
-p {
-  margin: 0;
+.gallery .element {
+  flex: 1;
+  padding: 20px;
 }
 
-
-
-/* ---- layout ---- */
-
-#site-header {
-  padding: 30px 0;
-  color: white;
-  background: #111;
-}
-
-#site-footer {
-  color: white;
-  padding: 60px 0;
-  background: #111;
-}
-
-#site-main {
-  margin-bottom: 60px;
-}
-
-.container {
-  margin: 0 20px;
-}
-
-.section {
-  margin-bottom: 20px;
-  padding-top: 20px;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 728px;
-    margin: 0 auto;
-  }
-}
-
-
-
-
-/* ---- components ---- */
-
-.button {
-  width: 100%;
-  background-color: blue;
-  color: #fff;
-  border: 1px solid #fff
-}
-
-.button-alt {
-  color: blue;
-  background-color: #fff;
-}
-
-/* ---- section ---- */
-
-img.photo {
-  width: 100px;
-  height: 100px; 
-  text-align: center;
-  padding: 20px 20px;
-
-}
-
-section.testimonials .button {
-  margin-bottom: 10px;
+.element img {
+  height: 350px;
 }

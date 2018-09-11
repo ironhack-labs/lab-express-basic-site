@@ -6,7 +6,7 @@ const router = express.Router();
 /* GET users page. */
 
 router.get('/', function(req, res, next) {
-  res.send('/gallery photo gallery');
+  res.render('gallery', { title: 'Gallery'});
 });
 
 module.exports = router;
