@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  width: 100%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+ul{
+  margin-right: 30px;
+}
+li{
+  display: inline-block;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #3dc4fc;
+  font-weight: bold;
+}
+a:hover{
+  cursor: pointer;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+section>img{
+  width: 40%;
+  height: 75%;  
+}
+section,p{
+  font-size: 1.3em;
+}
+.section-title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section-title>h1{
+  font-size: 3em;
+}
+.section-about-title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section-about-text{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+.section.section-about-text, p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  width: 80%;
+}
+.gallery-image{
+  width: 20%;
+  height: 50%;
+}
