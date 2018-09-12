@@ -1,0 +1,25 @@
+body {
+  background-color: red;
+  background-image: url("/cerveza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 300px;
+}
+
+h1:hover{
+  color: lightblue;
+}
+li {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  background-color: yellow;
+}
+
+
