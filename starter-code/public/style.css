@@ -1,0 +1,44 @@
+h2{
+    font-size: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background: rgb(41, 40, 40);
+  height: 50px;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: right;
+}
+
+.banner {
+  height: 650px;
+}
+
+.banner div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: -10px;
+  text-shadow: 2px 2px rgb(41, 40, 40);
+}
+
+.banner-img {
+  background-image: url("./banner.jpg");
+  background-size: cover;
+}
+
+.about-us{
+    border: 1px solid black;
+    border-radius: 15%;
+    background: rgb(224, 222, 222);
+}
