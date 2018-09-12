@@ -1,0 +1,15 @@
+* {
+  background-color: rgb(151, 147, 147);
+}
+body img {
+  width: 27%;
+  transform: rotate(90deg);
+
+}
+#pictures {
+  margin-top: 40px;
+}
+body img:hover{
+  /* -webkit-filter: invert(1); */
+ filter: invert(1);
+}
