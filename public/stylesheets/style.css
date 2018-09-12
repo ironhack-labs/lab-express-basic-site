@@ -1,0 +1,21 @@
+body {
+  color: blue;
+  background-color: bisque;
+}
+
+.imgs {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
