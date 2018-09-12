@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center 
+}
+
+.menu {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu-list {
+    display: flex;
+    padding-left: 0;
+}
+
+.menu-list li {
+    padding: 5px;
+    list-style-type: none;
+}
+.menu-list a{
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+ 
+p {
+    display: inline-block;
+}
