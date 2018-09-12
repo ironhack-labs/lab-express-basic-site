@@ -8,16 +8,21 @@ app.set('view engine', 'hbs');
 
 app.use(express.static('public'));
 
+let title = {
+    about: 'About Us',
+    home: 'Welcome',
+    gallery: 'Gallery'
+}
 app.get('/', (req, res, next) => {
-    res.render('index');
+    res.render('index', {title:title.home});
   });
 
   app.get('/gallery', (req, res, next) => {
-    res.render('gallery');
+    res.render('gallery', {title:title.gallery});
   });
 
   app.get('/about', (req, res, next) => {
-    res.render('about');
+    res.render('about', {title:title.about});
   });
 
 app.listen(3000, () => {
