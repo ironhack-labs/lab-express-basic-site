@@ -1,0 +1,68 @@
+body{
+  background-color: aliceblue;
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#navegador{
+  height: 80px;
+  background: rgb(125,126,125);
+background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(39,33,37,1) 64%);
+background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(39,33,37,1) 64%);
+background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(39,33,37,1) 64%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#272125',GradientType=0 );
+}
+
+#aliceLogo{
+  font-size: 2em;
+  color: white;
+}
+
+.titleAlice{
+  color: wheat;
+  font-size: 8em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.inicio{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 500px;
+
+}
+#aliceProfile{
+  width:400px;
+}
+
+#foot{
+  background: rgb(39,33,37);
+background: -moz-linear-gradient(top, rgba(39,33,37,1) 30%, rgba(39,33,37,1) 30%, rgba(125,126,125,1) 100%);
+background: -webkit-linear-gradient(top, rgba(39,33,37,1) 30%,rgba(39,33,37,1) 30%,rgba(125,126,125,1) 100%);
+background: linear-gradient(to bottom, rgba(39,33,37,1) 30%,rgba(39,33,37,1) 30%,rgba(125,126,125,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272125', endColorstr='#7d7e7d',GradientType=0 );
+
+}
+#foot p {
+  color: white;
+}
+#foot strong {
+  color: lightgray;
+}
+#foot a {
+  color: lightsteelblue;
+}
+
+.aboutParagraph p{
+  color: white;
+  text-shadow: 5px 5px 1px black;
+  text-align: justify;
+  width: 800px;
+}
+
+.imagenes{
+  height: 400px;
+  margin: 10px auto;
+}
