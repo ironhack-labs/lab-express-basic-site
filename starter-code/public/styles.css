@@ -1,0 +1,40 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; }
+  nav li {
+    margin: 5px;
+    padding: 5px;
+    list-style: none; }
+  nav a {
+    text-decoration: none;
+    color: white; }
+
+main {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center; }
+
+#photos img {
+  margin: 0 auto;
+  object-fit: cover;
+  width: 300px;
+  height: 400px; }
+#photos .show {
+  display: block; }
+#photos .hide {
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */
