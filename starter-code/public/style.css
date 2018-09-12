@@ -1,0 +1,24 @@
+* {
+    background-color: rgb(117, 119, 245);
+}
+
+ul li {
+    font-size: 40px;
+    margin: 0 10px;
+    display: inline;
+}
+
+.niko {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.niko img {
+    width: 400px;
+    border: 4px black solid;
+}
+
+.about {
+    text-align: center;
+}
