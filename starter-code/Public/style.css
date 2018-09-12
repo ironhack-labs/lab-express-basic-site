@@ -1,0 +1,31 @@
+#gallery img{
+    height:300px;
+    width:400px;
+    
+}
+#content img{
+    height:300px;
+    width:500px;
+}
+#gallery{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-around;   
+    flex-direction:row;
+}
+#background{
+    background-image:url("/Background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.pt-4{
+    margin-top:8%;
+}
+#first{
+    text-align:center;
+    margin-top:3%;
+}
+#content{
+    text-align:center;
+}
