@@ -1,0 +1,22 @@
+{
+  "name": "express-basic",
+  "version": "1.0.0",
+  "description": "Ejercicio DP Sabado ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqaldebaran/lab-express-basic-site.git"
+  },
+  "author": "Adolfo Vela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqaldebaran/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/iqaldebaran/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
