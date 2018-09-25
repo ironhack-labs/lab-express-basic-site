@@ -1,22 +1,32 @@
-const http = require('http');
+// Require Express
+const express = require('express');
 
-//Creamos nuestro servidor
-const server = http.createServer((req, res) => {
+// Servidor de express manejo de requests y responses
+const app = express();
 
-  if (req.url === '/') {
-      res.write('Hello, world!');
-      res.end();
-    }
-    else if (req.url === '/about') {
-      res.write('My name is Izzy');
-      res.end();
-    }
-    else {
-      res.statusCode = 404;
-      res.write('404 Page buu');
-      res.end();
-    }
+// Se hace disponible el directorio /public - pa todos
+app.use(express.static('public'));
+//app.use(express.static(__dirname + '/public'));
+
+//app.use(express.static("public/css"));
+
+
+// Ruta: Home
+app.get('/', (request, response, next) => {
+  response.sendFile(__dirname + '/views/home.html');
 });
 
-//Eschucha en el puerto 3000
-server.listen(3000);
+// Ruta: About
+app.get('/about', (request, response, next) => {
+  response.sendFile(__dirname + '/views/about.html');
+});
+
+// Ruta: Photo Gallery
+app.get('/photo', (request, response, next) => {
+  response.sendFile(__dirname + '/views/photogallery.html');
+});
+
+// Server Started
+app.listen(3000, () => {
+  console.log('Listening port: 3000!');
+});
