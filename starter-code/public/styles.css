@@ -1,0 +1,25 @@
+
+.cabeza{
+background-image: "/public/messiii.jpg";
+overflow: hidden;
+color: black;
+justify-content: center;
+
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    color: black;
+}
+h1{
+    justify-content: center;
+}
+body .about{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px black;
+}
+.info{
+    border: 2px black;
+}
