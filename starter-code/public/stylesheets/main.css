@@ -1,0 +1,38 @@
+nav {
+  padding: 1em;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+nav li a:hover {
+  background: tomato;
+  color: white;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-center {
+  max-width: 50%;
+}
+
+div img {
+  max-width: 450px;
+  max-height: 450px;
+}
