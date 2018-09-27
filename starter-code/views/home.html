@@ -1,12 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="./home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="section">
+          <div class="jumbotron">
+            <h1 class="display-4">Express</h1>
+            <p class="lead">This is the principal page of our site.</p>
+            <hr class="my-4">
+            <p>This is part of our first lab usesed Express like a server.</p>
+            <a class="btn btn-primary btn-lg" id="buttonLearn" href="#more" role="button">Learn more</a>
+          </div>
+        </div>
+        <div class="section" id="more">
+          <div class="row">
+            <div class="col col-sm-12 col-lg-4" >
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">What it is?</h5>
+                  <p class="card-text">Express is a little framework that help us to create a server inside our machine and save page and resources like this page.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-sm-12 col-lg-4" >
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Steps!</h5>
+                  <p class="card-text">To uses Express in our project we have to follow some specific steps!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Install Express inside our project with npm <p><b>npm install express --save</b></p></li>
+                  <li class="list-group-item">Get the resources <p><b>var app = request(express) </b></p></li>
+                  <li class="list-group-item">Set the requests <p><b>agg.Get('/',newPage.html)</b></p></li>
+                  <li class="list-group-item">And finally listen the requests<p><b>app.listen('port')</b></p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col col-sm-12 col-lg-4" >
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Test</h5>
+                  <p class="card-text">To test our project only we have to compile the that one whith node.js</p>
+                  <p><b>node app.js</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>          
+    </main>
+    <footer>
+      
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
