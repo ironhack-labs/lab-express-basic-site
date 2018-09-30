@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+.home {
+  background-image: url("/images/newcastle.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+.about {
+  background-image: url("/images/newcastle-home.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+.images {
+  padding: 1% 0;
+}
+
+img {
+  padding: 0 1%;
+}
