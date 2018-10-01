@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="/css/uikit.min.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+</head>
+
+<body>
+
+  <p uk-margin>
+    <a class="uk-button uk-button-primary" href="/">Home</a>
+    <a class="uk-button uk-button-primary" href="/about">About</a>
+  </p>
+
+  <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="animation: pull">
+
+    <ul class="uk-slideshow-items">
+      <li>
+        <img src="/images/newcastle-team.jpg" width="1000" height="600" alt="newcastle-team" uk-cover>
+      </li>
+      <li>
+        <img src="/images/newcastle-dt.jpg" width="1000" height="600" alt="newcastle-dt" uk-cover>
+      </li>
+      <li>
+        <img src="/images/newcastle-fans.jpg" width="1000" height="600" alt="newcastle-fans" uk-cover>
+      </li>
+      <li>
+        <img src="/images/newcastle-champion.jpg" width="1000" height="600" alt="newcastle-champion" uk-cover>
+      </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+      uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+  </div>
+</body>
+
+<script src="/js/uikit-icons.js"></script>
+<script src="/js/uikit.min.js"></script>
+
+</html>
