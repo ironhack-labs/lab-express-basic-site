@@ -1,0 +1,38 @@
+img {
+  width: 400px;
+  height: auto;
+}
+
+.buttons-item {
+  background: linear-gradient(45deg, #1b59af, #3a92d8);
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.buttons {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1{
+  color: blue;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+p{
+  color: black;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
