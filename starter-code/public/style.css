@@ -1,3 +1,53 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
 h1 {
-  color: fuchsia;
+  color: blue;
+}
+
+p {
+  margin: 0;
+}
+
+/* ---- layout ---- */
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* ---- components ---- */
+
+button {
+  padding: 20px;
+  border: 2px solid blue;
+  color: blue;
+  background-color: lightblue;
+  font-size: 40px;
+  width: 300px;
 }
