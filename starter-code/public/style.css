@@ -1,0 +1,36 @@
+/* ---- reset ---- */
+@import url("https://www.dafont.com/es/ninja-naruto.font")
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  border: none;
+  background: none;
+}
+
+
+/* ---- typography ---- */
+body {
+  font-family: 'njnaruto', sans-serif;
+  font-size: 15px;
+
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+}
+
+.container {
+  background-color: orange;
+}
