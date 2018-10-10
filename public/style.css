@@ -1,0 +1,75 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+h1 {
+  font-size: 6em;
+  margin: 0;
+  padding: 50px;
+}
+em {
+  display: block;
+  font-size: 1em;
+  margin: 0 20px;
+}
+
+/* ---- nav ---- */
+
+nav {
+  display: flex;
+  background-color: grey;
+  height: 50px;
+  align-items: center;
+}
+
+nav ul{
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  background-image: url('steve.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+}
+
+p {
+  display: block;
+  width: 45%;
+  text-align: center;
+  margin: 0 20px;
+}
+img {
+  width: 30%;
+  height: 300px;
+  margin: 0 1.5%;
+}
