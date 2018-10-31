@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 64px;
+    margin: auto;
+}
