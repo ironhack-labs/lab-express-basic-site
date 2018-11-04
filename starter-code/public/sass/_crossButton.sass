@@ -25,17 +25,17 @@
       bottom: -250%
   &.menu-icon-rtx
     transition: all 0.3s
-    span, &:hover span
+    span, &.clicked span
       transition: all 0.3s
-    &:hover span
+    &.clicked span
       transform: rotate(45deg)
-    span::before, &:hover span::before
+    span::before, &.clicked span::before
       transition-property: top, transform
-    span::after, &:hover span::after
+    span::after, &.clicked span::after
       transition-property: bottom, transform
     span::before, span::after
       transition-duration: inherit
-    &:hover
+    &.clicked
       span::before
         top: 0
       span::after

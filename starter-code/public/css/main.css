@@ -74,19 +74,19 @@ html, body {
       bottom: -250%; }
   .menu-icon.menu-icon-rtx {
     transition: all 0.3s; }
-    .menu-icon.menu-icon-rtx span, .menu-icon.menu-icon-rtx:hover span {
+    .menu-icon.menu-icon-rtx span, .menu-icon.menu-icon-rtx.clicked span {
       transition: all 0.3s; }
-    .menu-icon.menu-icon-rtx:hover span {
+    .menu-icon.menu-icon-rtx.clicked span {
       transform: rotate(45deg); }
-    .menu-icon.menu-icon-rtx span::before, .menu-icon.menu-icon-rtx:hover span::before {
+    .menu-icon.menu-icon-rtx span::before, .menu-icon.menu-icon-rtx.clicked span::before {
       transition-property: top, transform; }
-    .menu-icon.menu-icon-rtx span::after, .menu-icon.menu-icon-rtx:hover span::after {
+    .menu-icon.menu-icon-rtx span::after, .menu-icon.menu-icon-rtx.clicked span::after {
       transition-property: bottom, transform; }
     .menu-icon.menu-icon-rtx span::before, .menu-icon.menu-icon-rtx span::after {
       transition-duration: inherit; }
-    .menu-icon.menu-icon-rtx:hover span::before {
+    .menu-icon.menu-icon-rtx.clicked span::before {
       top: 0; }
-    .menu-icon.menu-icon-rtx:hover span::after {
+    .menu-icon.menu-icon-rtx.clicked span::after {
       bottom: 0; }
-    .menu-icon.menu-icon-rtx:hover span::before, .menu-icon.menu-icon-rtx:hover span::after {
+    .menu-icon.menu-icon-rtx.clicked span::before, .menu-icon.menu-icon-rtx.clicked span::after {
       transform: rotate(-90deg); }
