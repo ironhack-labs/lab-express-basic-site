@@ -4,14 +4,76 @@
 html, body {
   margin: 0;
   height: 100vh;
-  color: white; }
+  color: white;
+  background-color: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-weight: bolder; }
+
+a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  opacity: .4;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
+  a:hover {
+    opacity: .6;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
+  a.active {
+    opacity: 1; }
+    a.active::after {
+      width: 100%; }
+  a::after {
+    content: '';
+    display: block;
+    background: white;
+    width: 0px;
+    height: .1em;
+    margin-top: .03em;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
+  a:hover::after {
+    width: 100%; }
 
 .container_menu {
-  font-family: 'Helvetica Neue', Helvetica, Arial;
+  position: absolute;
   width: 100%;
   height: 100%;
-  font-size: calc(1.3vw + 1.3vh + .6em);
-  font-weight: 800; }
+  opacity: 1;
+  transform-origin: right top;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1; }
+  .container_menu.closed {
+    opacity: 0;
+    -webkit-transform: scale(0, 0);
+    -moz-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
   .container_menu .menu {
     position: relative;
     height: 100vh;
@@ -19,46 +81,30 @@ html, body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center; }
-    .container_menu .menu .menu-icon {
-      position: absolute;
-      top: 1em;
-      right: 1.5em;
-      cursor: pointer; }
-      .container_menu .menu .menu-icon:hover {
-        opacity: .6; }
     .container_menu .menu .links {
-      margin-bottom: 1em; }
-      .container_menu .menu .links .link {
-        text-align: center;
-        font-size: calc(5vw + 5vh + 2em);
-        line-height: calc(.5vw + .5vh + 1em); }
-        .container_menu .menu .links .link a {
-          color: white;
-          text-decoration: none;
-          opacity: .3; }
-          .container_menu .menu .links .link a:hover {
-            opacity: .6;
-            text-decoration: underline; }
-          .container_menu .menu .links .link a.active {
-            opacity: 1;
-            text-decoration: underline; }
+      margin-bottom: .5em;
+      text-align: center;
+      font-size: calc(5vw + 5vh + 2em);
+      line-height: calc(.65vw + .65vh + .8em); }
 
 @media (max-width: 823px) and (orientation: landscape) {
   .container_menu {
-    font-size: calc(.9vw + 1.3vh + .6em); } }
+    font-size: calc(.8vw + 1.2vh + .6em); } }
 
 .menu-icon {
+  position: absolute;
+  top: 2em;
+  right: 2.5em;
   display: flex;
-  cursor: pointer;
   width: 10vh;
   height: 10vh;
-  padding: 0px;
-  margin: 10px; }
+  cursor: pointer;
+  z-index: 2; }
   .menu-icon span {
     position: relative;
     margin: auto;
-    width: 62.5%;
-    height: 8.33%;
+    width: 62%;
+    height: 8%;
     background: white;
     border-radius: 10em; }
     .menu-icon span::before, .menu-icon span::after {
@@ -73,9 +119,17 @@ html, body {
     .menu-icon span::after {
       bottom: -250%; }
   .menu-icon.menu-icon-rtx {
-    transition: all 0.3s; }
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
     .menu-icon.menu-icon-rtx span, .menu-icon.menu-icon-rtx.clicked span {
-      transition: all 0.3s; }
+      transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
     .menu-icon.menu-icon-rtx.clicked span {
       transform: rotate(45deg); }
     .menu-icon.menu-icon-rtx span::before, .menu-icon.menu-icon-rtx.clicked span::before {
@@ -102,3 +156,30 @@ html, body {
       -moz-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
       -ms-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
       -o-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+@media (max-width: 600px) {
+  .menu-icon {
+    width: 7vh;
+    height: 7vh; } }
+
+.main_container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: calc(3vw + 3vh + 2em);
+  line-height: calc(.4vw + .4vh + .7em); }
+  .main_container p {
+    width: 80%; }
+
+@media (max-width: 890px) {
+  .main_container {
+    font-size: calc(2vw + 2vh + 2em);
+    line-height: calc(.4vw + .4vh + .7em); } }
+
+@media (max-width: 490px) {
+  .main_container {
+    font-size: calc(1.8vw + 1.8vh + 2em);
+    line-height: calc(.4vw + .4vh + .7em); } }

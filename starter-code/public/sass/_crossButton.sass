@@ -1,15 +1,18 @@
+
 .menu-icon
+  position: absolute
+  top: 2em
+  right: 2.5em
   display: flex
-  cursor: pointer
   width: 10vh
   height: 10vh
-  padding: 0px
-  margin: 10px
+  cursor: pointer
+  z-index: 2
   span
     position: relative
     margin: auto
-    width: 62.5%
-    height: 8.33%
+    width: 62%
+    height: 8%
     background: white
     border-radius: 10em
     &::before, &::after
@@ -24,9 +27,9 @@
     &::after
       bottom: -250%
   &.menu-icon-rtx
-    transition: all 0.3s
+    +transition_default
     span, &.clicked span
-      transition: all 0.3s
+      +transition_default
     &.clicked span
       transform: rotate(45deg)
     span::before, &.clicked span::before
@@ -44,3 +47,9 @@
         transform: rotate(-90deg)
     &:hover
       +hover_scale_opacity
+
+
+@media (max-width: 600px)
+  .menu-icon
+    width: 7vh
+    height: 7vh
