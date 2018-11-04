@@ -1,0 +1,22 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node": "^11.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.18.5"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build-css": "node-sass --include-path sass public/sass/main.sass public/css/main.css",
+    "watch-css": "nodemon -e sass -x \"npm run build-css\""
+  },
+  "author": "anæstrada",
+  "license": "ISC"
+}

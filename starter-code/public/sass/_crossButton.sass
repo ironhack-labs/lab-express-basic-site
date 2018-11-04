@@ -1,0 +1,44 @@
+.menu-icon
+  display: flex
+  cursor: pointer
+  width: 10vh
+  height: 10vh
+  padding: 0px
+  margin: 10px
+  span
+    position: relative
+    margin: auto
+    width: 62.5%
+    height: 8.33%
+    background: white
+    border-radius: 10em
+    &::before, &::after
+      position: absolute
+      height: 100%
+      width: 100%
+      content: ''
+      background: white
+      border-radius: 10em
+    &::before
+      top: -250%
+    &::after
+      bottom: -250%
+  &.menu-icon-rtx
+    transition: all 0.3s
+    span, &:hover span
+      transition: all 0.3s
+    &:hover span
+      transform: rotate(45deg)
+    span::before, &:hover span::before
+      transition-property: top, transform
+    span::after, &:hover span::after
+      transition-property: bottom, transform
+    span::before, span::after
+      transition-duration: inherit
+    &:hover
+      span::before
+        top: 0
+      span::after
+        bottom: 0
+      span::before, span::after
+        transform: rotate(-90deg)
