@@ -173,6 +173,8 @@ a {
   line-height: calc(.4vw + .4vh + .7em); }
   .main_container p {
     width: 80%; }
+    .main_container p.galleryP {
+      margin-top: 0; }
 
 @media (max-width: 890px) {
   .main_container {
@@ -183,3 +185,12 @@ a {
   .main_container {
     font-size: calc(1.8vw + 1.8vh + 2em);
     line-height: calc(.4vw + .4vh + .7em); } }
+
+.main_container .box-gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; }
+  .main_container .box-gallery img {
+    width: 15%; }

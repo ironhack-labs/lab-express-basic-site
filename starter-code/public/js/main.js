@@ -12,7 +12,6 @@
     color += letters[Math.floor(Math.random() * letters.length)];
     menu.style.backgroundColor = color;
     [].forEach.call(words, (e)=> {
-      console.log(e);
       e.style.color = color;
     });
   }
@@ -23,5 +22,9 @@
     btnMenu.classList.toggle("clicked");
     menu.classList.toggle("closed");
   };
+
+  // $(document).ready(function(){
+  //   $('.owl-carousel').owlCarousel();
+  // });
 
 //}
