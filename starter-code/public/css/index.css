@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://static.tumblr.com/993b1e4494ad222fcbb7201a532bfaa4/ocjmtgi/bubnw4124/tumblr_static_tumblr_static_29u712h2ao9wcos48c80koo04_640.gif");
+    background-size: 100% 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 100;
+    color:red
+}
+ul{
+    padding-top: 23vh;
+    font-family: sans-serif;
+    font-size: 50px;
+    list-style: none;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around 
+}
+a{
+    text-decoration: none;
+    color: red   
+}

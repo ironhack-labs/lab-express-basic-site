@@ -1,0 +1,10 @@
+
+div{
+    display: flex;
+    flex-direction: row;
+    height: 97vh;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
