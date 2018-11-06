@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+#Neighbours {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.nav-bar{
+    width: 100%;
+    text-align:centre;
+    display:inline-block;
+
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+ul {
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(189, 95, 8);
+}
+.active {
+    background-color: rgb(98, 224, 218)
+}
+#pirate {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.container{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.container div{
+    text-align: justify;
+}
+.container p{
+    margin: 20px;
+    padding:20px;
+    text-align: center;
+}

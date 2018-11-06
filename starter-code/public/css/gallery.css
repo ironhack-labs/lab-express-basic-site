@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: monospace;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(189, 95, 8);
+}
+.active {
+    background-color: rgb(98, 224, 218)
+}
+
+.container-gallery{
+    max-width:100%;
+    padding:20px;
+    margin:auto;
+    margin-top: 20px;
+
+}
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+.figure{
+    width:300px;
+    height:200px;
+    overflow:hidden;
+    margin:10px;
+}
+.figure img{
+    width:100%;
+}
