@@ -4,6 +4,7 @@
   const btnMenu = document.getElementById('menu-icon');
   const menu = document.getElementById('container_menu');
   const words = document.getElementsByClassName('wColor');
+  const links = document.getElementsByClassName('link');
 
 
   const random_color = ()=> {
@@ -23,8 +24,37 @@
     menu.classList.toggle("closed");
   };
 
-  // $(document).ready(function(){
-  //   $('.owl-carousel').owlCarousel();
+  // [].forEach.call(links, (e)=> {
+  //   e.onclick = ()=> {
+  //     //setTimeout(()=>{
+  //       btnMenu.classList.remove("clicked");
+  //       menu.classList.add("closed");
+  //     //}, 400);
+  //   };
   // });
+
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+      autoHeight:true,
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:1,
+          },
+          600:{
+              items:2,
+          },
+          900:{
+            items:3,
+          },
+          1100:{
+              items:4
+          }
+      }
+    });
+  });
 
 //}
