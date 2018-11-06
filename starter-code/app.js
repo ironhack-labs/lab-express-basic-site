@@ -6,7 +6,7 @@ const port = 3000;
 app.use(express.static("public"));
 app.use(express.static('views'));
 
-app.get("/index", (request, response, next) => {
+app.get("/", (request, response, next) => {
   response.sendFile(__dirname + "/views/index.html");
 });
 app.get("/about", (request, response, next) => {
