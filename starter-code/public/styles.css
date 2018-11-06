@@ -1,0 +1,10 @@
+body {
+    background: black;
+}
+
+section {
+    position: fixed;
+    top: 50vh;
+    left: 50vh;
+    color: white;
+}
