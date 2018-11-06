@@ -1,0 +1,121 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav{
+  background-color: rgb(25, 33, 41);
+  position: fixed;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  text-decoration: none;
+}
+
+nav li{
+  color: white;
+}
+
+.titulo{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.secPrincipal{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+h1{
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+p{
+  font-size: 1.5em;
+}
+
+footer{
+  background-color: rgb(25, 33, 41);
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3em;
+}
+
+ul li{
+  list-style: none;
+  margin: 1.5em;
+}
+
+.links{
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.address{
+  margin: 2em;
+  color: white;
+}
+
+h3{
+  color: white;
+  margin: 1.5em;
+}
+
+a{
+  color: white;
+}
+.somos{
+  display: flex;
+  flex-direction: column;
+}
+.other{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.wi{
+  width: 40%;
+}
+
+img{
+  width: 40%;
+  height: 40%;
+}
+
+.fotos{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 5%;
+
+}
