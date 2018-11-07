@@ -1,0 +1,9 @@
+body #firstText {
+  font-size: 60px;
+  text-align: center;
+}
+
+body img {
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,12 @@
+#my-content ul {
+  width: 50%;
+}
+
+#my-content img {
+  width: 50%;
+}
+
+#my-content {
+  display: flex;
+  margin: 0 10px 0 10px;
+}
