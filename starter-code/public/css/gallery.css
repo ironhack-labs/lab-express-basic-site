@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+}
+
+/*NAVBAR*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .home{
+    padding: 5px 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none; 
+    padding: 20px;
+    justify-content: right; 
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: grey;
+}

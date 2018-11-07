@@ -1,0 +1,122 @@
+/*NAVBAR*/
+*{
+    margin: 0;
+}
+
+/*NAVBAR*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .home{
+    padding: 5px 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none; 
+    padding: 20px;
+    justify-content: right; 
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+
+
+/*HEADER*/
+header {
+    background-image: url("/images/creepymain.jpeg");
+    background-size: cover;
+    height: 700px;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    color: white;
+    font-family: "Arial Black";  
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+}
+
+header h3{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+input {
+    border-radius: 10px;
+    border-style: black;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: 1.5s;
+    width: 180px;
+}
+
+input:hover{
+    width: 230px;
+}
+
+header button {
+    border-style: black;
+    border-radius: 10px;
+    background-color:#3d4042;
+    color: white;
+    padding: 5px;
+    transition: 0.8s;
+}
+
+header button:hover{
+    background-color:white;
+    color: black;
+    border-style: black;
+}
+
+/*DESCRIPTION*/
+
+.description h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    text-align: center;
+}
+
+.cards h4{
+    padding: 15px 0px;
+}
+
+
+/*RENT*/
+.book {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    background-color: black;
+}
+
+.slider img{
+    justify-content: space-around;
+    padding: 5px;
+}

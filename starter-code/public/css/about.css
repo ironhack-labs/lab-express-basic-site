@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+}
+
+/*NAVBAR*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .home{
+    padding: 5px 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none; 
+    padding: 20px;
+    justify-content: right; 
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+
+/*HEADER*/
+header {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    font-family: "Arial Black";  
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+}
+
+header p{
+    color: black;
+}
+
+p{
+    padding: 50px;
+    text-align: center;
+}
