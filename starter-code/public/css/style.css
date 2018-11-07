@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(228, 250, 250, 0.808);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+  height: 150px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(46, 113, 139);
+  padding-top: 55px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 30px;
+}
+
+p, li {
+  line-height: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  line-height: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding-top: 50px;
+}
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px; 
+}
+
+.photo1 {
+  background-image: url("/images/Emerald_Lakes,_New_Zealand.jpg");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.photo2 {
+  background-image: url("/images/MilfordSound.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 180px;
+  width: 320px;
+}
+
+.photo3 {
+  background-image: url("/images/Auckland.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 180px;
+  width: 246px;
+}
+
+.photo4 {
+  background-image: url("/images/CathedralCove.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 180px;
+  width: 270px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background-color: palevioletred;
+  border-radius: 5px;
+  margin: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
