@@ -1,0 +1,42 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home img{
+    width:100%;
+    height:100%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about img{
+    width: 50%;
+    height:50%;
+}
+
+.pictures{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    
+}
+
+
+.pictures img{
+    width: 400px;
+    height: 400px;
+}
