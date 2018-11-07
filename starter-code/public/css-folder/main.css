@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    font-size: 1.2em;
+    padding: 0 20px;
+    color: black;
+}
+
+header {
+    background-image: url("../images/564835.jpg");
+    height: 639px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background;
+}
