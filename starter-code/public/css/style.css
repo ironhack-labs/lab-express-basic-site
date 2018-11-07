@@ -1,0 +1,95 @@
+.biography {
+    font-size : 20px;
+    background-color: red;
+    background-image: url("/images/jazz2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+
+}
+.biography h1  {
+    text-align: center;
+    color: black;
+}
+.footer-bio {
+    display:flex;
+    justify-content: space-around;
+}
+
+   button{
+       background-color:lightgreen;
+       height: 100px;
+       width: 150px;
+   }
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.footer-home{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+   
+    width: 1300px;
+
+}
+.home {
+    position:absolute;
+    background-image: url("/images/jazz3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightgreen;
+}
+.home-main {
+    text-align: center;
+    font-size: 20px;
+}
+.gif{
+    height: 600px;
+    width:400px;
+   
+    background-image: url("/images/mingus.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 450px;
+
+}
+.photo-main {
+    text-align: center;
+}
+.img-1, .img-2, .img-3{
+    height: 500px;
+    width: 500px;
+    border:1px solid black;
+}
+.img-1{
+    background-image: url("/images/mingus2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2{
+    background-image: url("/images/mingus3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    left: 500px;
+}
+.img-3{
+    background-image: url("/images/mingus4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    left:1000px;
+}
+.img-footer{
+    margin-top:25px;
+    display: flex;
+    justify-content: space-around;
+}
+.body-photo{
+    background-image: url("/images/jazz4.jpg");
+    color: black;
+    
+}
