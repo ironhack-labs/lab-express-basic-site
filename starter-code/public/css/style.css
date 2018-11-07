@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(110, 110, 110);
+    color: white;
+    margin: 0;
+}
+
+button {
+    outline: none;
+    background-color: bisque;
+    color: purple;
+    margin: 20px 20px;
+}
+
+.navbar{
+    height: 30px;
+    background-color: rgb(53, 23, 23);
+    padding-top: 10px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imdb-link {
+    color: rgb(255, 208, 0);
+}
+
+.container > * {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.show-desc > p {
+    text-align: justify;
+    max-width: 550px;
+}
+
+.show-desc ~ div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.gallery-container {
+    margin: 0 auto;
+}
+
+.gallery {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.gallery-image {
+  max-width: 100%;
+  display: block;
+}
+
+.splash-image {
+    max-width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 21px 0;
+}
+
+@media screen and (min-width: 600px) {
+  .gallery {
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .image-container {
+    width: 50%;
+  }
+  .container {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .main-content{
+      width: 550px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .image-container {
+    width: calc(100% / 3);
+  }
+
+  .container {
+      display: flex;
+      flex-wrap: unset;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 1000px;
+  }
+
+  .container img {
+      width: 350px;
+  }
+  .main-content{
+    width: 1000px;
+  }
+}
