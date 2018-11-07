@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color:green;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+nav li{
+  padding: 0 5px;
+  list-style: none;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  padding-top: 40px;
+}
+
+#first-home-section{
+  background-image: url("../img/bg-section-first-home.jpeg")
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#first-home-section div{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
