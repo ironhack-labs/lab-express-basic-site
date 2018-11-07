@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(255, 255, 248);
+  color: tomato;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, p{
+  color: black;
+}
+
+p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+li{
+  margin: 0 20px;
+  list-style-type: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 3px;
+  transform-style: uppercase;
+  font-size: 12px;
+}
+
+.home-section, .gallery-section, .kingdom-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+}
+
+.home-section, .gallery-section, .kingdom-section{
+  flex-direction: column;
+}
+
+.gallery-section-1, .gallery-section-2{
+  flex-direction: row;
+  width: 74%;
+}
+
+.kingdom-section{
+  width: 74%;
+  margin: 50px auto;
+}
+
+.speech{
+  background-image: url(https://youtu.be/lpDNhobvd_g);
+  
+}
