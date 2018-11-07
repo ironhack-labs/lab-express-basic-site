@@ -1,0 +1,137 @@
+@font-face {
+	font-family: Euclid;
+	src: url('/fonts/Euclid.woff');
+}
+
+@font-face {
+	font-family: NewParis;
+	src: url('/fonts/NewParis.woff2');
+}
+
+@font-face {
+	font-family: Euclid-Light;
+	src: url('/fonts/Euclid-Light.woff');
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: #8CFFB9;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 40px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Euclid', sans-serif;
+	font-size: 25px;
+	transition-duration: 400ms;
+}
+
+nav a:hover {
+	color: #F4F7F6;
+}
+
+main a {
+	color: black;
+	text-decoration: none;
+	transition-duration: 400ms;
+}
+
+main a:hover {
+	color: #8CFFB9;
+}
+
+h1 {
+	font-family: 'Euclid', sans-serif;
+	font-size: 150px;
+	line-height: 20px;
+	padding-left: 150px;
+	position: relative;
+}
+
+h2 {
+	font-family: 'Euclid-Light';
+	color: #8CFFB9;
+	line-height: 20px;
+	padding-left: 200px;
+	position: relative;
+	top: -40px;
+}
+
+h3 {
+	font-family: 'NewParis', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	line-height: 20px;
+	padding-bottom: 0;
+	margin: 50px 0 20px 0;
+}
+
+p {
+	font-family: 'NewParis';
+	font-size: 30px;
+}
+
+header {
+	height: 250px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.img-container {
+	background-color: #F4F7F6;
+	display: flex;
+	justify-content: center;
+	height: 550px;
+}
+
+.ttl-container {
+	border-bottom: 4px solid #8CFFB9;
+	display: inline-block;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+	line-height: 0;
+}
+
+main {
+	text-align: center;
+}
+
+#design {
+	color: #DF6C4F;
+}
+
+#usa {
+	color: #ECD06F;
+}
+
+#crea {
+	color: #3C948B;
+}
+
+#cont {
+	color: #1A99AA;
+}
+
+.criteria {
+	font-size: 2.2em;
+}
