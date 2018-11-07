@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Romulo Franca",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
