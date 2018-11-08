@@ -50,4 +50,4 @@ app.get('/gallery', (req, res, next) => {
 const port = 3000;
 app.listen(port,() => {
   console.log(`Ready on port ${port}`);
-})
+});

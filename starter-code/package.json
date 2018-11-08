@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js & nodemon -e sass -x \"npm run build-css\"",
+    "dev": "nodemon -e js,hbs app.js & nodemon -e sass -x \"npm run build-css\"",
+    //"dev": "nodemon -e js,hbs,sass app.js -x \"npm run build-css\"",
     "build-css": "node-sass --include-path sass public/sass/main.sass public/css/main.css",
     "watch-css": "nodemon -e sass -x \"npm run build-css\""
   },
