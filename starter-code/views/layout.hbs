@@ -7,7 +7,7 @@
 
   <title>{{name}}</title>
 
-  <meta property="og:title" content="gallery"/>
+  <meta property="og:title" content="{{name}}"/>
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/img/ae-black.png"/>
   <meta name="description" content="Ironhack project. Node.js & Express & SASS. By: anæstrada">
@@ -20,16 +20,15 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
 
-<div class="main_container gallery_container">
-  <p class="galleryP">this is the <span class="wColor">gallery</span> page. i have used owl carousel to do it. i'm loving it!</p>
-  <div class="box-gallery">
-    <div class="owl-carousel owl-theme">
-      <img src="/img/img01.png" alt="img01">
-      <img src="/img/img02.png" alt="img02">
-      <img src="/img/img03.png" alt="img03">
-      <img src="/img/img04.png" alt="img04">
-      <img src="/img/img05.png" alt="img05">
-      <img src="/img/img06.png" alt="img06">
-    </div>
-  </div>
-</div>
+</head>
+<body>
+
+  {{> menu}}
+
+  {{{body}}}
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<div id="menu-icon" class="menu-icon menu-icon-cross"><span></span></div>
+<div class="container_menu closed" id="container_menu">
+  <div class="menu">
+    <div class="links" class="links">
+      {{!-- <div class="link section01"><a href="/" {{#if home}} class="active"{{/if}}>home</a></div>
+      <div class="link section02"><a href="/about" {{#if about}} class="active"{{/if}}>about</a></div>
+      <div class="link section03"><a href="/gallery" {{#if gallery}} class="active"{{/if}}>gallery</a></div> --}}
+      <div class="link section01"><a href="/" {{#ifCond name "home"}} class="active"{{/ifCond}}>home</a></div>
+      <div class="link section02"><a href="/about" {{#ifCond name "about"}} class="active"{{/ifCond}}>about</a></div>
+      <div class="link section03"><a href="/gallery" {{#ifCond name "gallery"}} class="active"{{/ifCond}}>gallery</a></div>
+    </div>
+  </div>
+</div>
