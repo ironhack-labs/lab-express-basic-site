@@ -1,0 +1,40 @@
+body {
+  background-image: url("/images/deLorean2.jpeg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+#logo {
+  background-image: url("/images/bttflogo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 250px;
+
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-film {
+  color: white;
+}
