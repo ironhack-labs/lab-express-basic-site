@@ -1,0 +1,66 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  background-image: url("/images/fond.jpg");
+  color: white;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+h1 {
+  font-family: 'Carter One', cursive;
+  font-size: 40px;
+}
+
+.trapezes {
+  display: flex;
+}
+
+.volant {
+  padding-right: 20px;
+}
+
+.fixe {
+  padding-left: 20px;
+}
+
+.img-volant {
+  width: auto;
+  height: 200px;
+}
+
+.img-fixe {
+  width: auto;
+  height: 200px;
+}
+
+.explanations {
+  background-color: black;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.d-block {
+  height: 400px;
+  width: auto;
+}
+
+.text {
+  padding: 10px 100px;
+  margin: 0 50px 50px 50px;
+}
