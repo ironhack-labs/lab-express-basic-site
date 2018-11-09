@@ -1,0 +1,45 @@
+.centeredDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.centeredDiv2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 88vw;
+}
+
+
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+img {
+    width: 50vw;
+}
+
+.alternativeclass {
+    text-align: center;
+    width: 100vw;
+}
+
+.size {
+    width: 50vw;
+}
+
+.size2{
+    width: 30vw;
+}
+
+.absolute {
+    position: absolute;
+    top: 259px;
+    left: 434px;
+}
