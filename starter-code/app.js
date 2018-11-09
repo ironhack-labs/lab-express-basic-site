@@ -22,7 +22,6 @@ hbs.registerHelper('ifCond', function(v1, v2, options) {
 
 
 app.get('/', (req, res, next) => {
-  console.log(next);
   let data = {
     //layout: false,
     name: "home",
