@@ -1,0 +1,57 @@
+.divBackground{
+  background-image: url("/images/abstract-art-artistic-1020315.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.rightHeight{
+   height: 90vh;
+}
+
+.quote{
+    position: relative;
+    top: 300px;
+    /* border: 2px solid white; */
+    width: 100%;
+    color: white;
+
+}
+
+.quote h1{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote h2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerQuote{
+    position: relative;
+    color: black;
+    
+    bottom: 400px;
+  
+    left: 0px;
+}
+.specialQuote{
+  font-size: 3vw;
+  color: yellow
+}
+.author{
+  font-size: 1vw;
+  color: orange
+}
+.marker{
+  border: 3px solid orange;
+}
+.specialQuoteR{
+  font-size: 3vw;
+  color: red
+}
+
+body{
+  background-color: darkgray
+}
