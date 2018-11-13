@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=KoHo");
 
-body {
-  background-image: url(indexback.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 button {
   align-items: center;
   display: flex;
@@ -17,6 +11,8 @@ button {
   border-radius: 11px;
   left: 690px;
   position: relative;
+  align-items: flex-end;
+  top: 240px;
 }
 
 a {
@@ -32,22 +28,27 @@ h1 {
   font-family: "koHo";
 }
 
-img {
-  width: 500px;
-  height: 600px;
+body {
+  background-image: url(imgBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.btnImg {
+.bolas {
+  justify-content: space-evenly;
+  display: flex;
+  top: 150px;
   position: relative;
-  left: 600px;
 }
 
-.indexPic {
-  display: flex;
-  justify-content: center;
+.bola1 {
+  width: 200px;
 }
 
-.indexBtn {
-  display: flex;
-  justify-content: end;
+.bola2 {
+  width: 200px;
+}
+
+.bola4 {
+  width: 200px;
 }
