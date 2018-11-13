@@ -126,8 +126,16 @@ table {
 }
 /**************************************************/
 
-a {
-  text-decoration: none;
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+nav { 
+  flex-direction: row;
+  align-self: flex-end;
 }
 
 nav ul li {
@@ -136,10 +144,22 @@ nav ul li {
 }
 
 nav ul {
-  float: right;
   margin: 0 40px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section { 
+  flex-direction: row
 }
 
 h1 {
   color: blue;
+}
+
+img { 
+  width: 100px;
+  height: auto;
 }
