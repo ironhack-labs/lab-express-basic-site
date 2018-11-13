@@ -4,7 +4,7 @@
   "description": "Exercise Learning Unit",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "init": "nodemon app.js"
   },
   "author": "David D",
   "license": "ISC",
