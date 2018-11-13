@@ -18,7 +18,7 @@ app.get('/about', (request, response, next) => {
 
 app.get('/galery', (request, response, next) => {
     console.log(request);
-    response.sendFile(__dirname + '/views/index.html');
+    response.sendFile(__dirname + '/views/galery.html');
 });
 
 app.listen(3000, () => {

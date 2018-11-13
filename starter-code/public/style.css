@@ -1,3 +1,7 @@
-body {
-    background-color: red;
+div,
+h1,
+p {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
