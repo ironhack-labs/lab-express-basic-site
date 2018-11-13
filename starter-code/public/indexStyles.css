@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+
+body {
+  background-image: url(indexback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 11px;
+  left: 690px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 56px;
+  font-family: "koHo";
+}

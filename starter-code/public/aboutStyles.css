@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 56px;
+  font-family: "koHo";
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  left: 315px;
+  position: relative;
+  font-family: 'KoHo';
+  font-size: 26px;
+  color: aliceblue;
+  text-align: center;
+}
+
+button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 11px;
+  left: 690px;
+  position: relative;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 630px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+body {
+  background-image: url(aboutback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
