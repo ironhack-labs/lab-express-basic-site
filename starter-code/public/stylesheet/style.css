@@ -1,0 +1,112 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    padding: 2% 0;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+li {
+    padding-left: 4%;
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+}
+
+a:hover {
+    color:#434343;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header img {
+    max-width: 50%;
+}
+
+.index {
+    background-color: #098b4a;
+   
+    color:white;
+}
+
+header div {
+    width: 40%;
+}
+
+header div:nth-child(2) {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2{
+    font-size: 2.3em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.7em;
+}
+
+form {
+    background-color: #098b4a;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+
+form button {
+    color:white;
+    background-color: #01a701;
+    border-radius: 4px;
+    padding: 1%;
+    width: 15%;
+    border: none;
+    font-size: 1em;
+}
+
+form input {
+    margin-right: 3%;
+    padding: 1%;
+    width: 20%;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #1c3c1c;
+}
+
+#logInOk {
+    display: none;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 2em;
+    color:#444444;
+}
+ 
+#about,#gallery {
+    width: 100%;
+}
