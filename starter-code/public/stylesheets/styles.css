@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: Roboto;
+  overflow: hidden;
+}
+
+.header {
+  background: url(../images/background.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.to-about:hover {
+  transition: 1s all;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.to-gallery {
+  width: 25%;
+}
+
+.to-gallery:hover {
+  transition: 1s all;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.article {
+  background: url(../images/background-2.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+li {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  width: 30%;
+  text-align: center;
+  list-style: none;
+}
+
+.students {
+  background: linear-gradient(rgb(255, 255, 255), rgb(207, 227, 250));
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 35%;
+  height: 35%;
+  margin: 25px;
+}
