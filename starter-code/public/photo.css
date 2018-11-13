@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+body{
+    background-color: rgb(0, 136, 91);
+}

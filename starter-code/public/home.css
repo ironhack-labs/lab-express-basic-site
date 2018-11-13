@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(0, 136, 91);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
