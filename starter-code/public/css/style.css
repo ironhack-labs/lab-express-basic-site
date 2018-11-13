@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #D5D8DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #424949;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .025rem;
+  transition: all 0.2s ease-in-out; 
+}
+
+a:hover {
+  letter-spacing: .07rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  transform-style: preserve-3d;
+  transform: rotateY( 0deg );
+  transition: transform 0.4s;
+  display: block;
+  position: relative;
+  margin: .5rem;
+}
+
+img.flip {
+  transform: rotateY( 180deg );
+}
+
+section.main {
+  background-color: #fafafa;
+  max-width: 35rem;
+  max-height: 30rem;
+  box-shadow: 0px 1px 6px 0px rgba(50, 50, 50, 0.2);
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out; 
+}
+
+section.main:hover {
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+section.main .content {
+  padding: 1.5rem;
+  position: relative;
+}
+
+section.main .content:after {
+  content: '';
+  position: absolute;
+  width: 3rem;
+  background: #fafafa;
+  height: 110%;
+  right: -1.1rem;
+  top: -1rem;
+  transform: rotate(7deg);
+}
+
+section.main .buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.main .image {
+  min-width: 13rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.image.ninokuni {
+  background: url('../img/ninokuni.jpg');
+}
+
+.image.level5 {
+  background: url('../img/level5.jpg');
+  background-position: center;
+}
+
+.gallery .content {
+  text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.gallery .content:after {
+  display: none;
+}
