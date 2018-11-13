@@ -1,0 +1,15 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.principal a{
+    font-size: 4rem;
+    margin: 5%;
+}
+
+.principal img{
+    width: 33%;
+    height: 300px;
+}
