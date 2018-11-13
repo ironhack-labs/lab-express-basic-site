@@ -1,9 +1,11 @@
 const express = require ("express");
-const path = require("path")
+// const path = require("path")
 const app = express();
 
-app.get(express.static("public"));
-app.use('/', express.static(path.join(__dirname, 'public')))
+app.use(express.static("public"));
+//app.get(express.static("public"));
+
+// app.use('/', express.static(path.join(__dirname, 'public')))
 
 app.get('/', (request, response, next) => {
    // console.log(__dirname)
