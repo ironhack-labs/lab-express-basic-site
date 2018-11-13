@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(1, 22, 45);
+}
+
+
+header{
+    text-align: center;
+}   
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(236,129,14);
+}
+
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+.div-header{
+    padding: 50px;
+}
+
+.nav-bar{
+    background-color: white;
+  
+}
+
+.nav-bar a{
+    color: rgb(1, 22, 45);;
+}
