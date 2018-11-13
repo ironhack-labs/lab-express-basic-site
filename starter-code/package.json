@@ -1,0 +1,24 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "0.0.0",
+  "description": "lab week4 day2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitobusnan/lab-express-basic-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sitobusnan/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/sitobusnan/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}

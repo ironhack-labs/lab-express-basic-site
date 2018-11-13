@@ -1,0 +1,52 @@
+*{
+  box-sizing: content-box;
+}
+body{
+  background-color: #dbdbdb;
+}
+
+h1{
+  color: blue;
+  margin: auto;
+  text-align: center;
+  height: 100px;
+}
+
+.box{
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.content{
+  width: 30%;
+  margin: auto 20px;
+  height: 100%;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  text-shadow:2px blue;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  
+}
+
+.i1{
+  background-image: url("/bola3.png")
+}
+
+.i2{
+  background-image: url("/bola5.jpg")
+}
+
+.i3{
+  background-image: url("/bola6.png")
+}
+
+p{
+  text-align: center;
+  text-justify: auto;
+  
+}
+
