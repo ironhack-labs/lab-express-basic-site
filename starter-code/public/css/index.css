@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 10% 20%;
+}
+h1{
+  font-size: 40px;
+
+}
+p{
+  font-size: 22px;
+  margin-bottom: 5%;
+}
+div{
+  display: flex;
+  justify-content: space-around;
+}
+span{
+  font-size: 20px;
+}

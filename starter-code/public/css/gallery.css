@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 10% 20%;
+}
+section{
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+}
+span{
+  font-size: 20px;
+}
