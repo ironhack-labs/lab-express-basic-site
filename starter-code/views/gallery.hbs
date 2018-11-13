@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+      {{>nav}}
+      <div class="container">
+          <h1>Gallery</h1>
+          <div><p>here are some nice stock photos for your viewing pleasure:</p></div>
+          <div class="gallery">
+              {{#each images}}
+              <div> <img src="{{this}}" alt="">  </div>
+              {{/each}}
+          </div class="gallery">
+      </div>
+    {{>footer}} 
+</body>
+</html>
