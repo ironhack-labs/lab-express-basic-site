@@ -126,6 +126,24 @@ table {
 }
 /**************************************************/
 
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.sceneElement {
+  animation-duration: 2;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both
+}
+.sceneElementAnimation { 
+  animation-name: fadeInRight;
+}
 #container {
   display: flex;
   flex-direction: column;
@@ -133,7 +151,7 @@ table {
   flex-wrap: nowrap;
 }
 
-nav { 
+nav {
   flex-direction: row;
   align-self: flex-end;
 }
@@ -151,15 +169,15 @@ a {
   text-decoration: none;
 }
 
-section { 
-  flex-direction: row
+section {
+  flex-direction: row;
 }
 
 h1 {
   color: blue;
 }
 
-img { 
-  width: 100px;
+img {
+  width: 300px;
   height: auto;
 }
