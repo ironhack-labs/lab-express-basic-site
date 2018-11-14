@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+.blah{
+    background-color: yellow;
+    height: 200px;
+}
+
+.aboutpage-sect1 {
+    display: flex;
+}
+.aboutpage-sect1 h1 {
+    flex: right;
+}
