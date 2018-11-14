@@ -10,7 +10,7 @@ const app = express()
 // Defining Port
 const port = 3000
 
-
+app.use(express.static("public"));
 //router.get('/home', (req, res) => res.sendFile(__dirname + '/views/home.html'))
 app.get('/', (req, res) => res.sendFile(__dirname + '/view/home.html'))
 
