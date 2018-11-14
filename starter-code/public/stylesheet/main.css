@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+body{
+margin: 0;
+font-family: 'Roboto';
+background-color: #66BB6A; 
+}
+
+.home-nav{
+    padding: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #66BB6A; 
+    box-shadow: inset 0em 0em 2em white;
+}
+
+.home-li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin:0 5%;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 100;
+    list-style-type: none;
+    box-shadow: 0em 0em 5em #1B5E20;
+    text-align: center;
+    background-color: #43A047;
+    margin-top: -50px;
+}
+.home-li:hover{
+    box-shadow:0em 0em 4em white;
+    width:170px;
+    animation-name: button;
+    animation-duration: 1s; 
+}
+@keyframes button{
+    0%{
+        box-shadow: 0em 0em 5em #1B5E20;
+        width:100px;
+    }
+  
+    100%{
+        box-shadow:0em 0em 4em white;
+        width:170px;
+    }
+    
+}
+
+
+nav{
+    background-color: #66BB6A; 
+    box-shadow: inset 0em 0em 2em rgba(255,255,255,0.8);
+    height: 80px;
+    margin:0;
+}
+ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-li{
+    padding: 1rem;
+    margin: 0.8% 5%;
+    font-size: 1.5rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.nav-li:hover{
+    font-size: 2rem;
+    animation-name: button2;
+    animation-duration: 1s;
+    font-size: 2rem; 
+    margin-top:5px;
+}
+@keyframes button2{
+    0%{
+        font-size: 1.5rem;
+    }
+    50%{
+        font-size: 2rem;
+    }
+    100%{
+        font-size: 2rem;
+        margin-top: 5px;
+
+    }
+}
+.photo-img{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.photo-img img{
+width: 720px;
+margin-top: 0
+
+}
+.adjust{
+height: 644px;
+}
+
+.sam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sam span{
+    font-size: 3rem;
+}
+
+.sam h1{
+color: white;
+font-size: 4rem;
+}
