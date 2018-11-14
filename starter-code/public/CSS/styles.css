@@ -136,14 +136,11 @@ table {
     transform: none;
   }
 }
-.sceneElement {
-  animation-duration: 2;
-  transition-timing-function: ease-in;
-  animation-fill-mode: both
+
+.sceneElementAnimation {
+  animation: fadeInRight 0.5s;
 }
-.sceneElementAnimation { 
-  animation-name: fadeInRight;
-}
+
 #container {
   display: flex;
   flex-direction: column;
@@ -175,6 +172,7 @@ section {
 
 h1 {
   color: blue;
+  font-size: 4em;
 }
 
 img {
