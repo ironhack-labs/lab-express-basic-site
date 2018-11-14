@@ -1,13 +1,8 @@
 window.onload = function(){
 
-
-    document.getElementById("photos").onclick = function () {
-        location.href = "/photos";
-    };
-    
-    document.getElementById("about").onclick = function () {
-        location.href = "/about";
-    };
+    setInterval(function(){
+        document.querySelector('.text').classList.toggle("opacity");
+    }, 1000)
 
 
 }
