@@ -179,3 +179,8 @@ img {
   width: 300px;
   height: auto;
 }
+
+article { 
+  text-align: justify;
+  width: 50%;
+}
