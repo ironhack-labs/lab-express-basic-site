@@ -1,0 +1,25 @@
+body{
+    background-image: url("/fondo.jpg");
+    background: cover no-repeat center;
+    width: 100vw;
+    height: 100vh;
+}
+ h1{
+     text-align: center;
+     color: white;
+     font-size: 120px;
+ }
+ a{
+     color: white;
+     text-decoration: none;
+     background-color: brown;
+     height: 50px;
+   padding: 2px;
+     font-size: 30px;
+   
+ }
+ .block{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
