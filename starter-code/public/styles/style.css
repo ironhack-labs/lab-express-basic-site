@@ -4,7 +4,74 @@ html, body {
     overflow: hidden;
 }
 
-.header {
+.navigator {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.navigator h1, ul {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.links li {
+    list-style-type: none; 
+    margin-left: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/ff72.jpg');
+    background-size: 1980px;
+    height: 900px;
+    text-align: justify;
+}
+
+.body p {
+    padding: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('/images/ff72.jpg');
+    background-size: 1980px;
+    height: 900px;
+}
+
+iframe {
+    border: 10px solid white;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(42, 42, 42);
+    border: 10px solid white;
+}
+
+/* .header {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
@@ -102,4 +169,4 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
-}
+} */

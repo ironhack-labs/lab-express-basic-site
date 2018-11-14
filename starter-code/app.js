@@ -2,7 +2,6 @@ const express = require('express');
 
 const app = express();
 
-// Make everything inside of public/ available
 app.use(express.static('public'));
 
 // our first Route:
