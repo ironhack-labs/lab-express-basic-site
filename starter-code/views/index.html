@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>npm</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header_first flex fontw600">
+      <div class="header_left">
+        <a class="heart" href="#"></a>
+        <span class="header_heart link">❤</span>
+        <span class="acronim link fontw600">Now Playing Mario</span>
+      </div>
+      <div id="menuIcon" onclick="showHide()">
+        <img id="open" src="images/menu-icon.svg" alt="menu">
+        <img id="close" src="images/close.svg" alt="close menu">
+      </div>
+      <ul class="header_right flex" id="menu">
+          <li><a class="link fontw600" href="#">npm enterprises</a></li>
+          <li><a class="link fontw600" href="#">features</a></li>
+          <li><a class="link fontw600" href="#">pricing</a></li>
+          <li><a class="link fontw600" href="#">documentation</a></li>
+          <li><a class="link fontw600" href="#">support</a></li>
+      </ul>
+    </div><!--header_first-->
+
+    <div class="header_second flex">
+      <div class="header_npm-logo">
+        <a href="#">
+          <img src="images/npm-logo.png" alt="xxx"/>
+        </a>
+      </div>
+      <hr class="border-btm"></hr>
+      <div class="header_search nowrap">
+        <span>
+          <img src="images/search.svg" alt="X" />
+        </span>
+        <input value="Search packages"/>
+      </div><!--header_search-->
+
+      <div class="header_log fontw600">
+         <ul>
+          <li>
+              <a class="link" href="#">log in</a>
+          </li>
+              <span>or</span>
+          <li>
+              <a class="link" href="http://www.google.es" target="_blank">sing up</a>
+          </li>
+        </ul>
+      </div><!--header_log-->
+    </div><!--header_second-->
+  </header>
+
+  <section>
+    <article class="article-one white">
+      <div class="article-one_main bg maxw64 m0auto">
+        <div class="article-one_content">
+          <h1 class="fontw200">Build amazing things</h1>
+            <p class="fontw200">npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.
+            </p>
+          <div class="article-one_orange-btn bg-orange outline">
+            <a class="btn white" href="#">Sing up</a>
+          </div>
+         </div><!--article-one_content -->
+      </div><!--article-one_main-->
+  </article><!--article-one-->
+  <article class="article-two white">
+    <div class="article-two_main flex flex-col maxw64 m0auto">
+      <div class="article-two_img">
+        <img src="images/collaboration.svg" alt="">
+      </div>
+
+      <div class="article-two_content">
+        <h2 class="fsize225">npm Orgs is powerful collaboration — for free</h2>
+          <ul class="article-two_list-item">
+            <li>Encourage code discovery and re-use within teams</li>
+            <li>Publish and control access to your own namespace</li>
+            <li>Manage public and private code with the same workflow</li>
+          </ul>
+
+          <div class="article-two_signup m0auto">
+            <div class="article-two_red-btn bg-red outline">
+              <a class="btn white" href="#">Sing up for Orgs</a>
+            </div>
+              <p>or,</p>
+            <a class="more fontw600 white" href="#">Learn more about Orgs</a>
+          </div> <!-- article-two_signup -->
+
+      </div><!--article-two_content-->
+    </div><!--article-two_main-->
+  </article><!--article-two-->
+
+<article class="article-three white">
+    <div class="article-three_main maxw64 m0auto">
+      <div class="article-three_content" >
+
+        <h2 class="fsize225 fontw600">What is npm?</h2>
+          <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.
+          </p>
+
+        <div class="article-three_blue-btn outline">
+            <a class="blue-btn btn white" href="#">Install npm</a>
+        </div>
+
+      </div><!--article-three_content-->
+    </div><!--article-three_main-->
+  </article>  <!--article-three-->
+
+  <article class="article-four maxw64 m0auto">
+    <div>
+        <div class="article-four_content m0auto">
+          <h2 class="fsize225 fontw200">What can you make with 800,000 building blocks?</h2>
+          <p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
+        </div>
+        <div class="article-four_3columns flex flex-col">
+          <div class="article-four_oneColumn width33 width100">
+            <img src="images/binoculars.svg" alt="#">
+            <h3>Find</h3><br/>
+            <p>Libraries like
+              <a class="red fontw600" href="#">jQuery</a>,
+              <a class="red fontw600" href="#">Boostrap</a>,
+              <a class="red fontw600" href="#">React</a>,
+              and
+              <a class="red fontw600" href="#">Angular</a>,
+              components from frameworks such as
+              <a class="red fontw600" href="#">Ember</a>.
+            </p>
+          </div> <!--article-four_oneColumn-->
+          <div class="article-four_oneColumn width33 width100">
+            <img src="images/mountain-flag.svg" alt="#"/>
+              <h3>Discover</h3><br/>
+              <p>Packages for mobile, loT, front end, back end, robotics... everything you need to start building amazing things.</p>
+          </div><!--article-four_oneColumn-->
+          <div class="article-four_oneColumn width33 width100">
+            <img src="images/backpack.svg" alt="#"/>
+            <h3>Build</h3><br/>
+            <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+          </div><!--article-four_oneColumn-->
+      </div><!--article-four_3columns-->
+    </div>
+  </article><!--article-four-->
+  <article class="article-five white">
+    <div class="article-five_main  flex flex-col maxw64 m0auto">
+      <div class="article-five_boxImg">
+        <img src="https://static.npmjs.com/images/npm-enterprise.svg" alt="">
+      </div>
+      <div class="article-five_content">
+        <h2 class="fsize225">Take your enterprise to new heights</h2>
+        <p>Harness the power of npm inside large teams. Run your own npm registry and securely integrate your workflow and tools.</p>
+        <div class="article-five__red-btn bg-red">
+          <a class="btn white" href="#">Learn more about npm Enterprise</a>
+        </div>
+      </div><!--article-five_content-->
+    </div> <!--article-five_main-->
+  </article><!--article-five-->
+  <article class="article-six">
+    <div class="article-six_content">
+      <h2 class="fsize225 fontw200">Get started with npm</h2>
+      <p>npm has tools for projects and teams of every size.</p>
+    </div>
+
+  <div class="article-six_maxw m0auto">
+    <div class="article-six_3columns flex flex-col">
+        <div class="article-six_column width33 width100 m0auto">
+            <div class="article-six_column-content white red-col">
+              <div class="">
+                <h4 class="red">npm account</h4>
+                <h6 class="red fontw200">Browse, install, and publish public code</h6>
+                <p>Discover and re-use over 650,000 free code packages</p>
+                <p>Publish unlimited packages</p>
+                <p>Manage unlimited collaborators with Orgs</p>
+              </div>
+
+              <div class="article-six_btnBox white bg-red fontw600">
+                <a class="btn red-btn-s outline">Create account</a>
+              </div>
+          </div>
+        </div>
+
+          <div class="article-six_column width33 width100 m0auto">
+            <div class="article-six_column-content white blue-col">
+                <div class="">
+                  <h4>npm Orgs</h4>
+                  <h6>One-click code sharing and collaboration</h6>
+                  <p>Combine public packages with private code in your own namespace</p>
+                  <p>Delegate access to other users</p>
+                  <p>Configure powerful custom notifications</p>
+                </div>
+                <div class="article-six_btnBox white bg-blue fontw600">
+                    <a class="btn blue-btn-s outline">Sing up</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="article-six_column width33 width100 m0auto">
+              <div class="article-six_column-content white orange-col">
+                  <div class="">
+                    <h4>Enterprise</h4>
+                    <h6>Bring npm into large companies</h6>
+                    <div class="article-six_p">
+                      <p>Host private code within a dedicated registry</p>
+                      <p>Customize support and SLAs to meet your needs</p>
+                      <p>ntegrate with existing deployment and auth­enti­cation tools</p>
+                    </div>
+                  </div>
+                  <div class="article-six_btnBox white bg-orange fontw600">
+                     <a class="btn orange-btn-s outline">Learn more</a>
+                  </div>
+             </div><!--article-six_column-content-->
+          </div><!--article-six_column-->
+      </div><!--article-six_3columns-->
+    </div><!--article-six_maxw-->
+    <div class="article-six_lastDescript">
+      <h4 class="fontw200">npm ♥︎ Open Source</h4>
+      <p>
+          Browsing, installing, and publishing is always free for public packages.
+      </p>
+    </div><!--article-six_lastDescript-->
+  </article><!--article-six-->
+  <article class="article-seven">
+    <div class="article-seven_main">
+      <div>
+        <div class="article-seven_first-container maxw96 m0auto">
+          <div class="article-seven_title">
+            <h2 class="fsize225 fontw200">Packages people 'npm install' a lot</h2>
+          </div><!--article-seven_title-->
+            <div class="article-seven_3columns flex flex-col">
+              <div class="article-seven_column width33 width100">
+               <div class="article-seven_subcolumn flex">
+                  <div class="article-seven_imgBox">
+                    <a href="/package/browserify">
+                      <img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/1647/small/1405586570/browserify-2-hexagon-sticker.png" alt="">
+                    </a>
+                  </div>
+                  <div class="article-seven_content">
+                    <h3>
+                      <a class="red" href="/package/browserify">browserify</a>
+                    </h3>
+                    <p class="m-topbtm25">browser-side require() the node way</p>
+                    <p class="fsize75 m-topbtm5">
+                    <a class="red" href="/package/browserify">16.1.0</a>
+                    <span>published 3 weeks ago by</span>
+                    <a class="red" href="/~goto-bus-stop">goto-bus-stop</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="article-seven_subcolumn flex">
+                  <div class="article-seven_imgBox">
+                    <a href="/package/grunt-cli">
+                      <img src="https://i.cloudup.com/bDkmXyEmr5.png" alt="">
+                    </a>
+                  </div>
+
+                  <div class="article-seven_content">
+                    <h3>
+                      <a class="red" href="/package/grunt-cli">grunt-cli</a>
+                    </h3>
+                    <p class="m-topbtm25">The grunt command line interface</p>
+                    <p class="fsize75 m-topbtm5">
+                      <a class="red" href="/package/grunt-cli">1.2.0</a>
+                      <span>published 2 years ago by</span>
+                      <a class="red" href="">vladikoff</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="article-seven_subcolumn flex">
+                  <div class="article-seven_imgBox">
+                    <a href="/package/bower">
+                      <img src="https://i.cloudup.com/Ka0R3QvWRs.png" alt="">
+                    </a>
+                  </div>
+                  <div class="article-seven_content">
+                    <h3>
+                      <a class="red" href="/package/bower">bower</a>
+                    </h3>
+                    <p class="m-topbtm25">The bower package manager</p>
+                    <p class="fsize75 m-topbtm5">
+                      <a class="red" href="/package/bower">1.8.2</a>
+                      <span>6 months ago by</span>
+                      <a class="red" href="/~sheerun">sheerun</a>
+                    </p>
+                  </div>
+                </div>
+              </div><!--article-seven_column-->
+              <div class="article-seven_column width33 width100">
+                <div class="article-seven_subcolumn flex">
+                    <div class="article-seven_imgBox">
+                      <a href="/package/gulp">
+                        <img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" alt="">
+                      </a>
+                    </div>
+                    <div class="article-seven_content">
+                      <h3>
+                        <a class="red" href="/package/gulp">gulp</a>
+                      </h3>
+                      <p class="m-topbtm25">The streaming build system</p>
+                      <p class="fsize75 m-topbtm5">
+                      <a class="red" href="/package/gulp">3.9.1</a>
+                      <span>published 2 years ago by</span>
+                      <a class="red" href="/~phated">phated</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="article-seven_subcolumn flex">
+                    <div class="article-seven_imgBox">
+                      <a href="/package/grunt">
+                        <img src="https://i.cloudup.com/bDkmXyEmr5.png" alt="">
+                      </a>
+                    </div>
+                    <div class="article-seven_content">
+                      <h3>
+                        <a class="red" href="/package/grunt">grunt</a>
+                      </h3>
+                      <p class="m-topbtm25">The JavaScript Task Runner</p>
+                      <p class="fsize75 m-topbtm5">
+                        <a class="red" href="/package/grunt">1.0.2</a>
+                        <span>published 4 weeks ago by</span>
+                        <a class="red" href="/~vladikoff">vladikoff</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="article-seven_subcolumn flex">
+                    <div class="article-seven_imgBox maxw50">
+                      <a href="/package/express">
+                        <img src="images/express.png" alt="">
+                      </a>
+                    </div>
+                    <div class="article-seven_content">
+                       <h3>
+                        <a class="red" href="/package/express">expres</a>
+                      </h3>
+                      <p class="m-topbtm25">Fast, unopinionated, minimalist web framework</p>
+                      <p class="fsize75 m-topbtm5">
+                        <a class="red" href="/package/express">4.16.2</a>
+                        <span>published 5 months ago by</span>
+                        <a class="red" href="/~dougwilson">dougwilson</a>
+                      </p>
+                    </div>
+                  </div>
+              </div><!--article-seven_column-->
+
+              <div class="article-seven_column width33 width100">
+                <div class="article-seven_subcolumn flex">
+                  <div class="article-seven_imgBox maxw50">
+                      <a href="/package/npm">
+                        <img src="https://cldup.com/Rg6WLgqccB.svg" alt="">
+                      </a>
+                    </div><!--article-seven_imgBox-->
+                    <div class="article-seven_content">
+                      <h3>
+                        <a class="red" href="/package/npm">npm</a>
+                      </h3>
+                      <p class="m-topbtm25">a package manager for JavaScript</p>
+                      <p class="fsize75 m-topbtm5">
+                      <a class="red" href="/package/npm">16.1.0</a>
+                      <span>published a week ago by</span>
+                      <a class="red" href="/~zkat">zkat</a>
+                      </p>
+                    </div><!--article-seven_content-->
+                  </div><!--article-seven_subcolumn-->
+
+                  <div class="article-seven_subcolumn flex">
+                    <div class="article-seven_imgBox">
+                      <a href="/package/cordova">
+                        <img src="https://cldup.com/q5Jmvu10tV.png" alt="">
+                      </a>
+                    </div><!--article-seven_imgBox-->
+                    <div class="article-seven_content">
+                      <h3>
+                        <a class="red" href="/package/cordova">cordova</a>
+                      </h3>
+                      <p class="m-topbtm25">Cordova command line interface tool</p>
+                      <p class="fsize75 m-topbtm5">
+                        <a class="red" href="/package/cordova">8.0.0</a>
+                        <span>published 2 months ago by</span>
+                        <a class="red" href="/~stevegill">stevegill</a>
+                      </p>
+                    </div><!--article-seven_content-->
+                  </div><!--article-seven_subcolumn-->
+
+                  <div class="article-seven_subcolumn flex">
+                    <div class="article-seven_imgBox">
+                      <a href="/package/forever">
+                        <img src="https://cldup.com/iSilAlBYLW.svg" alt="">
+                      </a>
+                    </div><!--article-seven_imgBox-->
+                    <div class="article-seven_content">
+                       <h3>
+                        <a class="red" href="/package/forever">forever</a>
+                      </h3>
+                      <p class="m-topbtm25">A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever)</p>
+                      <p class="fsize75 m-topbtm5">
+                        <a class="red" href="/package/forever">0.15.3</a>
+                        <span>published a year ago by</span>
+                        <a class="red" href="/~indexzero">indexzero</a>
+                      </p>
+                    </div><!--article-seven_content-->
+                  </div><!--article-seven_subcolumn-->
+              </div><!--article-seven_column-->
+          </div><!--article-seven_3columns-->
+      </div><!--article-seven_first-container-->
+      <div class="article-seven_second-container maxw96 m0auto">
+        <div class="flex flex-col">
+          <div class="article-seven_second-container_col flex flex-col">
+            <div class="article-seven_second-container_imgCircle width33">
+              <a href="https://nodejs.org/en/download/">
+                <img src="https://static.npmjs.com/images/avatars/Avatar4.svg" alt="">
+              </a>
+            </div>
+            <div class="article-seven_second-container_descript fontw600">
+              <h4>
+                <a class="grey" href="https://nodejs.org/en/download/">Get started with npm</a>
+              </h4>
+              <p>The npm command-line tool is bundled with
+                <a class="red" href="https://nodejs.org/">Node.js</a>
+                . If you have it installed, then you already have npm too. If not, go download
+                <a class="red" href="https://nodejs.org/en/download/">Node.js</a>
+              </p>
+            </div>
+          </div><!--flex-->
+
+          <div class="article-seven_second-container_col flex flex-col">
+              <div class="article-seven_second-container_imgCircle width33">
+                <a href="https://nodejs.org/en/download/">
+                  <img src="https://static.npmjs.com/images/avatars/Avatar2.svg" alt="">
+                </a>
+              </div>
+              <div class="article-seven_second-container_descript fontw600">
+                <h4>
+                  <a class="grey" href="https://docs.npmjs.com/">Screencasts & docs</a>
+                </h4>
+                <p>We've got a
+                  <a class="red" href="https://docs.npmjs.com/">docs site</a>
+                   featuring videos and tutorials to help you make your javascript dreams come true. Head on over to
+                  <a class="red" href="https://docs.npmjs.com/">docs.npmjs.com</a>
+                  .
+                </p>
+              </div>
+          </div><!--flex-->
+
+          <div class="article-seven_second-container_col flex flex-col">
+              <div class="article-seven_second-container_imgCircle width33">
+                <a href="https://nodejs.org/en/download/">
+                  <img src="https://static.npmjs.com/images/avatars/Avatar1.svg" alt="">
+                </a>
+              </div>
+              <div class="article-seven_second-container_descript fontw600">
+                <h4>
+                  <a class="grey" href="/whoshiring">Find work</a>
+                </h4>
+                <p>
+                  <a class="red" href="http://www.voxer.com/careers/">Voxer</a>
+                  ,
+                  <a class="red" href="http://www.newscred.com/careers">NewsCred</a>
+                  ,
+                  <a class="red" href="https://airtable.com/jobs">Airtable</a>
+                  and lots of other companies are hiring javascript developers.
+                  <a class="red" href="/whoshiring">View all 21…</a>
+              </p>
+              </div>
+          </div><!--flex-->
+      </div><!--flex-->
+    </div><!--article-seven_second-container-->
+
+  </div>
+</div><!--article-seven_main-->
+</article><!--article-seven-->
+  <article class="article-eight">
+    <div class="article-eight_main maxw96 m0auto">
+      <div>
+        <div class="article-eight_title fontw200">
+          <h2 class="fsize225 fontw200">Most depended-upon packages</h2>
+        </div>
+        <div class="article-eight_3columns flex flex-col">
+          <div class="article-eight_column width33 width100">
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/lodash">lodash</a>
+              </h3>
+              <p class="m-topbtm25">Lodash modular utilities.</p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/lodash">4.17.5</a>
+                updated 4 weeks ago <br>
+                by
+                <a class="red fontw600" href="/~jdalton">jdalton</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/request">request</a>
+              </h3>
+              <p class="m-topbtm25">Simplified HTTP request client.</p>
+              <p class="m-topbtm5 fsize75 lh2">
+              <a class="red fontw600" href="/package/request">2.83.0</a>
+              updated 5 months ago <br>
+              by <a class="red fontw600" href="/~mikeal">mikeal</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/chalk">chalk</a>
+              </h3>
+              <p class="m-topbtm25">Terminal string styling done right</p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/chalk">2.3.2</a>
+                updated 2 days ago<br>
+              by <a class="red fontw600" href="/~sindresorhus">sindresorhus</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+          </div><!--article-eight_column-->
+          <div class="article-eight_column width33 width100">
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/async">async</a>
+              </h3>
+              <p class="m-topbtm25">Higher-order functions and common patterns for asynchronous code</p>
+              <p class="m-topbtm5 fsize75 lh2">
+              <a class="red fontw600" href="/package/async">2.6.0</a>
+              updated 4 months ago<br>
+              by<a class="red fontw600" href="/~aearly"> aearly</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/express">express</a>
+              </h3>
+              <p class="m-topbtm25">Fast, unopinionated, minimalist web framework</p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/express">4.16.2</a>
+                updated 5 months ago<br>
+                by <a class="red fontw600" href="/~dougwilson">dougwilson</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/react">react</a>
+              </h3>
+              <p class="m-topbtm25">React is a JavaScript library for building user<br>interfaces.</p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/react">16.2.0</a>
+                updated 3 months ago <br>
+                by <a class="red fontw600" href="/~clemmy">clemmy</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+          </div><!--article-eight_column-->
+          <div class="article-eight_column width33 width100">
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red fontw600" href="/package/bluebird">bluebird</a>
+              </h3>
+              <p class="m-topbtm25">Full featured Promises/A+ implementation with<br>
+                exceptionally good performance
+              </p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/bluebird">3.5.1</a>
+                updated 5 months ago<br>
+                by <a class="red fontw600" href="/~esailija">esailija</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red" href="/package/commander">commander</a>
+              </h3>
+              <p class="m-topbtm25">the complete solution for node.js command-line<br>
+                programs
+              </p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/commander">2.14.1</a>
+                updated 4 weeks ago <br>
+                by <a class="red fontw600" href="/~abetomo">abetomo</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+            <div class="article-eight_subcolumn">
+              <h3>
+                <a class="red" href="/package/debug">debug</a>
+              </h3>
+              <p class="m-topbtm25">small debugging utility</p>
+              <p class="m-topbtm5 fsize75 lh2">
+                <a class="red fontw600" href="/package/debug">3.1.0</a>
+                updated 5 months ago<br>
+                by <a class="red fontw600" href="/~tootallnate">tootallnate</a>
+              </p>
+            </div><!--article-eight_subcolumn-->
+          </div><!--article-eight_column-->
+        </div><!--article-eight_3columns-->
+      </div>
+    </div><!--article-eight_main-->
+  </article><!--article-eight-->
+</section>
+<footer class="footer bder-top">
+  <div class="footer_main flex-column maxw96 m0auto">
+    <div class="footer_3columns flex">
+      <div class="footer_column width33">
+        <h3>You Need Help</h3>
+        <ul class="footer_list">
+          <li><a class="link" href="https://docs.npmjs.com">Documentation</a></li>
+          <li><a class="link" href="/support">Support/Contact Us</a></li>
+          <li><a class="link" href="http://status.npmjs.org/">Registry Status</a></li>
+          <li><a class="link" href="https://npm.community/c/bugs">Report Issues</a></li>
+          <li><a class="link" href="https://npm.community">npm Community Site</a></li>
+          <li><a class="link" href="/policies/security">Security</a></li>
+        </ul>
+      </div>
+      <div class="footer_column width33">
+        <h3>About npm</h3>
+        <ul class="footer_list">
+            <li><a class="link" href="/about">About npm, Inc</a></li>
+            <li><a class="link" href="/jobs">Jobs</a></li>
+            <li><a class="link" href="/npm-weekly">npm Weekly</a></li>
+            <li><a class="link" href="http://blog.npmjs.org">Blog</a></li>
+            <li><a class="link" href="https://twitter.com/npmjs">Twitter</a></li>
+            <li><a class="link" href="https://github.com/npm">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer_column width33">
+        <h3>About npm</h3>
+        <ul class="footer_list">
+            <li><a class="link" href="/policies/terms">Terms of Use</a></li>
+            <li><a class="link" href="/policies/conduct">Code of Conduct</a></li>
+            <li><a class="link" href="/policies/disputes">Package Name Disputes</a></li>
+            <li><a class="link" href="/policies/privacy">Privacy Policy</a></li>
+            <li><a class="link" href="/policies/receiving-reports">Reporting Abuse</a></li>
+            <li><a class="link" href="/policies/">Other policies</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="npm-lvu">
+      <a class="link" href="">npm loves you</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
