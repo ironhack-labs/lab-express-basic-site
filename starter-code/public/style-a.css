@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    letter-spacing: -1px;
+    text-align: left;
+    background: linear-gradient(-45deg, rgba(93, 240, 216, 1), rgba(119, 0, 255, 1));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+p {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    text-align: left;
+}
+.enlace {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.box {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20% 30px 20%;
+}
