@@ -1,0 +1,9 @@
+{
+    "name": "express basic site",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "nodemon": "^1.18.4",
+        "express": "^4.16"
+    }
+}
