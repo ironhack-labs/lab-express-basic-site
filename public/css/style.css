@@ -1,0 +1,11 @@
+h1 {
+  color: grey;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  max-width: 200px;
+  margin: auto;
+}
