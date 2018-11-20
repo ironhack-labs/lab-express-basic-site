@@ -7,3 +7,25 @@
     text-align: center;
     margin: 15px;  
 }
+
+.hero-body{
+    background-image: url('/images/churro1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-body > .container{
+    background-color: rgba(0,0,0,0.5);
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.subtitulo{
+    font-weight: bold;
+}
