@@ -1,0 +1,44 @@
+body{
+    background: aqua;
+}
+
+div{
+    display:flex;
+    align-content: center;
+   text-align: center;
+    font-size: 40px;
+}
+
+header{
+    font-size: 30px;
+}
+
+#platanito1{
+    height:50px;
+    width: 50px;
+}
+
+#platanito2{
+    height:50px;
+    width: 50px;
+}
+#vertical-menu {
+    width: 50px; 
+}
+
+.vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 5px; 
+    text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+    background-color: yellow; 
+}
+
+.vertical-menu a.active {
+    background-color: peru; 
+    color: white;
+}
