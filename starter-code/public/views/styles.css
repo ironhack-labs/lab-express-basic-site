@@ -1,0 +1,14 @@
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: lightgray;
+  background-image: url("/san4.jpg");
+  background-repeat: no-repeat;
+}
+h1 {
+  color: red;
+}
+img{
+  width:300px;
+}
