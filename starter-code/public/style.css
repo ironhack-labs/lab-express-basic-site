@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#contenedor{
+    width:100%;
+    height:100%;
+    background-color:rgba(99, 215, 219, 0.644)
+}
+header{
+    width:80%;
+    margin:0 auto;
+    height:70px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header span{
+    font-size:1.2em;
+    font-weight: 300;
+    color:rgba(235, 8, 167, 0.89)
+}
+
+ul{
+    list-style-type: none;
+    
+    color:black;
+    
+}
+ul li{
+    float:left;
+    padding-right: 25px;
+    
+}
+li a {
+    display: block;
+    color: rgb(126, 15, 15);
+    text-align: center;
+    font-size:1.2em;
+    
+    
+    text-decoration: none;
+}
+#informacion{
+    background-color: rgba(255, 255, 255, 0.548);
+    width:80%;
+    margin:0 auto;
+    color:rgba(31, 25, 29, 0.952);
+    padding-bottom: 30px;
+
+}
+h1{
+    font-size: 2.5em;
+    text-align:center;
+    padding:30px 0;
+    
+}
+p{
+    padding:0 25px;
+    text-align: justify;
+}
+#imagen{
+    width:80%;
+    height:400px;
+    margin: 0 auto;
+    padding:0 20px 40px 20px;
+    background-image: url(./icecube.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-origin: content-box;
+}

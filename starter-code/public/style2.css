@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+h1{
+    padding:30px;
+    text-align:center;
+    font-size:3em;
+    font-weight:bold;
+}
+body{
+    background-color: rgba(99, 215, 219, 0.644);
+    text-align: center;
+}
+#contenedor{
+    width:85%;
+    height:500px;
+    margin:0 auto;
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+
+
+}
+.imagen{
+    width:28%;
+    padding:5px;
+    height:150px;
+    
+
+}
+#a{
+    background-image: url(./icecube1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0 0;
+}
+#b{
+    background-image: url(./icecube2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0 0;
+}
+#c{
+    background-image: url(./icecube3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0 0;
+}
+#d{
+    background-image: url(./icecube4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0 0;
+}
+#e{
+    background-image: url(./icecube5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0 0;
+}
+#f{
+    background-image: url(./icecube6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0 0;
+}
