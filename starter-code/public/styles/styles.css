@@ -1,0 +1,54 @@
+body {
+  background-color: lightgray;
+  background-image: url("/images/bg.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  background: gray;
+  background-image: url("/images/bg.jpg");
+  color: white;
+  text-decoration: none;
+}
+
+nav div {
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  width: 400px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+img {
+  margin: 10px 0;
+}
