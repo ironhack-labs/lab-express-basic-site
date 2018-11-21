@@ -5,5 +5,34 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: gray;
+    display: flex;
+    flex-flow: column wrap;
+
+    background-color:#2E2E2E;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding:50px;
+}
+
+#nav{
+    padding-top: 10px;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 16px;
+
+}
+
+footer{
+    width:100%;
+    height: 32px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 8px;
+
 }
