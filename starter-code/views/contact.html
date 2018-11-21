@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cat</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+  </head>
+  <body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+      <div class="uk-navbar-center">
+  
+          <div class="uk-navbar-center-left"><div>
+              <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="/about-me" >About me</a></li>
+                  <li>
+                      <a href="#">Portfolio</a>
+                      <div class="uk-navbar-dropdown">
+                          <ul class="uk-nav uk-navbar-dropdown-nav">
+                              <li class="uk-active"><a href="#">Soon</a></li>
+                              <li><a href="#">Also soon</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </div></div>
+          <a class="uk-navbar-item uk-logo" href="/">GP</a>
+          <div class="uk-navbar-center-right"><div>
+              <ul class="uk-navbar-nav">
+                  <li><a href="/contact">Get in touch</a></li>
+              </ul>
+          </div></div>
+  
+      </div>
+  </nav>
+  <div class="uk-cover-container">
+    <canvas width="400" height="200"></canvas>
+    <img src="images/cover.jpg" alt="" uk-cover>
+</div>
+<div>
+  <form class="uk-container-xsmall uk-position-bottom-cente">
+    <fieldset class="uk-fieldset">
+
+        <legend class="uk-legend">Legend</legend>
+
+        <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Input">
+        </div>
+
+        <div class="uk-margin">
+            <select class="uk-select">
+                <option>Option 01</option>
+                <option>Option 02</option>
+            </select>
+        </div>
+
+        <div class="uk-margin">
+            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+        </div>
+
+        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+            <label><input class="uk-radio" type="radio" name="radio2" checked> A</label>
+            <label><input class="uk-radio" type="radio" name="radio2"> B</label>
+        </div>
+
+        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+            <label><input class="uk-checkbox" type="checkbox" checked> A</label>
+            <label><input class="uk-checkbox" type="checkbox"> B</label>
+        </div>
+
+        <div class="uk-margin">
+            <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+        </div>
+
+    </fieldset>
+</form>
+</div>
+      <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit-icons.min.js"></script>
+  </body>
+</html>

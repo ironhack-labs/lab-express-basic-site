@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome Ironhacker</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+  </head>
+  <body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+      <div class="uk-navbar-center">
+  
+          <div class="uk-navbar-center-left"><div>
+              <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="/about-me" >About me</a></li>
+                  <li>
+                      <a href="#">Portfolio</a>
+                      <div class="uk-navbar-dropdown">
+                          <ul class="uk-nav uk-navbar-dropdown-nav">
+                              <li class="uk-active"><a href="#">Soon</a></li>
+                              <li><a href="#">Also soon</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </div></div>
+          <a class="uk-navbar-item uk-logo" href="#">GP</a>
+          <div class="uk-navbar-center-right"><div>
+              <ul class="uk-navbar-nav">
+                  <li><a href="/contact">Get in touch</a></li>
+              </ul>
+          </div></div>
+  
+      </div>
+  </nav>
+
+    <div class="uk-cover-container uk-height-medium">
+      <canvas width="400" height="200"></canvas>
+      <img src="images/cover.jpg" alt="" uk-cover>
+    </div>
+    
+    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2018-11-28T05:31:43+00:00">
+      <div>
+          <div class="uk-countdown-number uk-countdown-days"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+      </div>
+      <div class="uk-countdown-separator">:</div>
+      <div>
+          <div class="uk-countdown-number uk-countdown-hours"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+      </div>
+      <div class="uk-countdown-separator">:</div>
+      <div>
+          <div class="uk-countdown-number uk-countdown-minutes"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+      </div>
+      <div class="uk-countdown-separator">:</div>
+      <div>
+          <div class="uk-countdown-number uk-countdown-seconds"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+      </div>
+  </div>
+
+  <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit-icons.min.js"></script>
+  </body>
+</html>

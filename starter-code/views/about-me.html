@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cat</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+  </head>
+  <body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+      <div class="uk-navbar-center">
+  
+          <div class="uk-navbar-center-left"><div>
+              <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="/about-me" >About me</a></li>
+                  <li>
+                      <a href="#">Portfolio</a>
+                      <div class="uk-navbar-dropdown">
+                          <ul class="uk-nav uk-navbar-dropdown-nav">
+                              <li class="uk-active"><a href="#">Soon</a></li>
+                              <li><a href="#">Also soon</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </div></div>
+          <a class="uk-navbar-item uk-logo" href="/">GP</a>
+          <div class="uk-navbar-center-right"><div>
+              <ul class="uk-navbar-nav">
+                  <li><a href="/contact">Get in touch</a></li>
+              </ul>
+          </div></div>
+  
+      </div>
+  </nav>
+
+  <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="min-height: 300; max-height: 600; animation: push">
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="images/1.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/2.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/3.jpg" alt="" uk-cover>
+        </li>
+        <li>
+          <img src="images/4.jpg" alt="" uk-cover>
+      </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+
+      <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit-icons.min.js"></script>
+  </body>
+</html>
