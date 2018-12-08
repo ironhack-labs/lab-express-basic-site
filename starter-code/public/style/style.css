@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(225,225,225);
+    margin: 15px;
+}
+
+h1,h2{
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 150px;
+    margin: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+}
