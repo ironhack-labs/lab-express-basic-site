@@ -1,0 +1,41 @@
+body {
+  background-color: #e0f8f7;
+  font-family: Calibri, Helvetica, sans-serif;
+  color: #424242;
+}
+
+.top {
+  height: 50px;
+  top: 0px;
+}
+.nav li {
+  list-style-type: none;
+  padding: 30px;
+  display: inline;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.content {
+  width: 1000px;
+  height: 100%;
+  padding: 50px;
+  background-color: #a9f5f2;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.bookcover {
+  text-align: center;
+}
+
+.bookcover img {
+  height: 300px;
+}
+
+.books {
+  margin-top: 80px;
+}
