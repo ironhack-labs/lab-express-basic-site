@@ -1,0 +1,34 @@
+body {
+  margin: 0 20%;
+}
+
+h1 {
+  text-align: center;
+  margin: 2%;
+}
+
+nav {
+  margin: 5% auto 10%;
+  width: 50%;
+}
+
+.main-p {
+  margin: 3% 0;
+}
+
+.card img {
+  height: 200px;
+}
+
+.card h5 {
+  text-align: center;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.img-slider {
+  max-width: 900px;
+  margin: 2% auto;
+}
