@@ -1,0 +1,95 @@
+body {
+    background-color: beige; 
+    margin: 0px;
+}
+
+.main img, .about img {
+    height: 65vh;
+    float: left; 
+    margin: 30px;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0vh;
+    height: 10vh;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+
+}
+
+footer button {
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 15px;
+    color: beige;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    font-weight: 700;
+}
+
+cite {
+    display: block;
+    font-size: 6rem;
+    font-weight: 100;
+    height: auto;
+    color: black;
+    width: 85%;
+}
+
+.main h1 {
+    clear: both;
+    margin: 30px;   
+    display: block;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subtitle {
+    margin-top: none;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  
+}
+
+.about p {
+    clear: both;
+    font-size: 1.5rem;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gallery {
+    width: 520px;
+    float: left;
+    margin: 30px;
+}
+#gallery img {
+    width: 500px;
+}
+
+.gallerycontainer {
+    height: 90vh;
+}
+
+#photobutton {
+    color: black;
+}
