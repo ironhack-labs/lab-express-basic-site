@@ -23,6 +23,7 @@ footer {
 footer button {
     margin-top: 12px;
     margin-left: 30px;
+    min-width: 120px;
 }
 
 button {
@@ -78,9 +79,10 @@ cite {
 }
 
 #gallery {
-    width: 520px;
+    width: 500px;
     float: left;
     margin: 30px;
+    
 }
 #gallery img {
     width: 500px;
@@ -88,8 +90,13 @@ cite {
 
 .gallerycontainer {
     height: 90vh;
+    float: left;
+    position: relative;
 }
 
 #photobutton {
     color: black;
+    float: right;
+    position: absolute; 
+    top: 550px;
 }
