@@ -1,3 +1,165 @@
-body {
-  background-color:aquamarine;
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+#back-image {
+  background: url('../img/fondomalasana.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1000;
+}
+
+#framework {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 30, 98, 0.7);
+  border: 17px solid white;
+  display: flex;
+}
+
+#part-time-image {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 700px;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+
+nav a:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+
+.intro {
+  width: 100vw;
+  height: 450px;
+  background-color: rgba(27, 30, 98, 1);
+  border: 17px solid white;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+}
+
+#decoration {
+  margin-top: 200px;
+}
+
+.introimg{
+  background: url(../img/fondo-intro.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity:0.1;
+}
+
+footer{
+  margin-top: 125px;
+  background-color: #1a1a1a ;
+  color:white;
+}
+
+#footer-grid{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-copyright{
+  background-color:black;
+}
+
+.title-head {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: -70px;
+  left: -12px;
+  color: white;
+  font-size: 15rem;
+  font-weight: 600;
+  letter-spacing: -14px;
+}
+
+.margin-extra{
+  margin-top:400px;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding:30px;
+
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title-head {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: -32px;
+    left: -5px;
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: -7px;
+  }
+
+  .intro {
+    height: 300px;
+  }
+  .margin-extra{
+    margin-top:240px;
+  }
+  
+
+
 }

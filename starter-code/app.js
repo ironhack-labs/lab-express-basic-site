@@ -1,8 +1,27 @@
+/*
+
+npm init
+
+enters++
+
+npm i --save express
+
+npm i --save-dev nodemon
+
+en le json 
+    "start": "node app",
+    "dev": "nodemon app"
+
+npm run dev --  en consola
+
+npm i --save hbs
+
+*/
+
+
 const express = require('express')
 const PORT = process.env.PORT || 3000;
 const app = express();
-
-
 
 app.use( express.static(__dirname + '/public'))
 
