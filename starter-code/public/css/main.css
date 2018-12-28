@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(210, 251, 200);
+}
+
+.carousel {
+width: 50%;
+margin: 100px auto;
+}
+
+#img-index {
+  margin: 100px auto;
+}
+
+#text-about {
+  margin: 50px auto;
+}
