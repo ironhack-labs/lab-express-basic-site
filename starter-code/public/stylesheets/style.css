@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 
-#main-container{
+#info-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 90px;
 }
 
 h1, h2, h3{
+  display: flex;
+  padding: 0px 20px 0px 20px;
   font-family: 'Indie Flower', cursive;
 }
 
