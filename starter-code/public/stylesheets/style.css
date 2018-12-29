@@ -11,10 +11,57 @@
 
 h1, h2, h3{
   display: flex;
-  padding: 0px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
   font-family: 'Indie Flower', cursive;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: red;
+}
+
+#saga{
+  width: 1200px;
+}
+
+.dont{
+  padding-top: 50px;
+  width: 800px;
 }
 
 @media only screen and (max-width: 768px) {
 
+  #saga{
+    width: 80%;
+  }
+
+  .xbox{
+    width: 80%;
+  }
+
+  p{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .logo{
+    width: 80%;
+  }
 }
