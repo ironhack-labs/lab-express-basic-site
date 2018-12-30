@@ -41,6 +41,10 @@ p{
   width: 800px;
 }
 
+#container{
+  display: flex;
+}
+
 @media only screen and (max-width: 768px) {
 
   #saga{
@@ -62,6 +66,10 @@ p{
   }
 
   .logo{
+    width: 80%;
+  }
+
+  .dont{
     width: 80%;
   }
 }
