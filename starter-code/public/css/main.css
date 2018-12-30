@@ -1,25 +1,37 @@
 
-body{
-  text-align: justify;
+#carouselExampleIndicators{
+  size: 1px;
 }
 
 .img-full{
-  
   background-repeat: none; 
   background-size: cover;
 }
-.rounded .float-left {
 
-  background-image: 50%;
+.card { 
+   justify-content: space-between;
+   background-color: beige;
+}
+.card-text{
+  text-align: justify;
+}
+.rounded .float-left {
+  background-color: rgb(22, 109, 19);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .main{
-  margin-top: 10px;
-}
-
-.card {
-
-  
-  margin: 10px;
+display: flex;
 }
