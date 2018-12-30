@@ -1,0 +1,25 @@
+
+body{
+  text-align: justify;
+}
+
+.img-full{
+  
+  background-repeat: none; 
+  background-size: cover;
+}
+.rounded .float-left {
+
+  background-image: 50%;
+
+}
+
+.main{
+  margin-top: 10px;
+}
+
+.card {
+
+  
+  margin: 10px;
+}
