@@ -1,0 +1,22 @@
+{
+  "name": "ih-express-basic-site",
+  "version": "1.0.0",
+  "description": "Basic site built for IronHack assignment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegorodriguezgzz/lab-express-basic-site.git"
+  },
+  "author": "Diego Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegorodriguezgzz/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/diegorodriguezgzz/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
