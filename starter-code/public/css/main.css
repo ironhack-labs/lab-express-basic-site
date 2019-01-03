@@ -6,11 +6,20 @@ body {
 h1 {
   text-align: center;
   font-size: 48pt;
+  margin: 2vh 0;
 }
 
 h2 {
+  margin: 2vh 0 3vh;
+  display: inline-block;
   font-family: sans-serif;
   font-size: 32pt;
+  color: #333333;
+}
+
+h2:hover {
+  color: #000000;
+
 }
 
 p {
@@ -36,6 +45,19 @@ footer a {
   flex-flow: row wrap;
 }
 
+.darude {
+  margin: 0 auto;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.darude img {
+  border: 1px solid black;
+}
+
 .text-card {
   margin: 2vh 0;
   border: 1px solid black;
@@ -49,6 +71,8 @@ footer a {
 .albumcover {
   width: 40%;
   height: 40vh;
+  transform: scale(1.00);
+  transition-duration: 500ms;
 }
 
 .buttonlink {
@@ -61,4 +85,9 @@ footer a {
   font-size: 18pt;
   text-decoration: none;
   color: #333333;
+}
+
+.albumcover:hover {
+  transform: scale(1.15);
+  transition-duration: 500ms;
 }
