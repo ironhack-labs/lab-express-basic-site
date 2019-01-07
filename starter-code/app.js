@@ -10,11 +10,11 @@ app.get("/home", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.sendFile(__dirname + "/views/about.html")
+  res.sendFile(__dirname + "/views/elements.html")
 });
 
 app.get("/photo", (req, res) => {
-  res.sendFile(__dirname + "/views/photogallery.html")
+  res.sendFile(__dirname + "/views/generic.html")
 });
 
 app.listen(PORT, () => {
