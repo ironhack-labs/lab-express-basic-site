@@ -1,0 +1,30 @@
+body{
+  background: url(https://images.unsplash.com/photo-1536854150886-354a3b64b7d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato';
+	color: white;
+}
+
+html {
+	height: 100%;
+}
+
+#content{
+	text-align: center;
+	padding-top: 15%;
+
+}
+
+h1{
+	font-weight: 700;
+	/*5 times larget than body*/
+	font-size: 5em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
