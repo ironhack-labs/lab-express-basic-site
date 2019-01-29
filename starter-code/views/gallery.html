@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style.css">
+  <title>Home page</title>
+</head>
+<body>
+  <nav id="nav">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/gallery">Gallery</a>
+  </nav>
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <p>Esta web me dice que me peine</p>
+    <img class="imgGallery" src="bald1.jpg" alt="">
+    <img class="imgGallery" src="bald2.jpg" alt="">
+    <img class="imgGallery" src="bald3.jpg" alt="">
+    <img class="imgGallery" src="bald4.jpg" alt="">
+    <script>
+    var peine = prompt("debería peinarme??");
+    if(peine == "no"){
+      alert ("Mmmmmm. Prueba a decir que me peine")
+      prompt("seguro que no quieres que me peine?")
+      if(peine == "no"){
+      prompt("dime que me peine o peinate")
+    }
+    }
+    </script>
+  </section>
+</body>
+</html>

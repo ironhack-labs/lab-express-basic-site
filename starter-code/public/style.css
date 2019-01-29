@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+  background-color: #425cbb;
+  padding: 20px 0 20px 50px;
+  box-sizing: border-box;
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+header {
+  background: url("pipa.jpg");
+  background-size: cover;
+  -webkit-mask-box-image-width: auto;
+  height: auto;
+  height: 800px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+p{
+  font-size: 2em;
+}
+
+.headerText {
+  padding: 50px 0 0 50px;
+  color: white;
+}
+
+.aboutText {
+  padding: 50px;
+  font-size: 10px;
+}
+
+.chiquimage {
+  height: 700px;
+}
+
+.gallery {
+  padding: 50px 0 0 50px;
+}
+
+.imgGallery{
+  height: 270px;
+}
