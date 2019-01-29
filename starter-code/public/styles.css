@@ -1,0 +1,148 @@
+h1 {
+	width: 300px;
+	color: orange;
+	padding: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#cuantos {
+	width: 350px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: fixed;
+	top: 35vh;
+	left: 35vw;
+	z-index: 1;
+	background-color: bisque;
+	border-radius: 20px;
+}
+
+#col {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: auto;
+}
+
+#row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+#inputElement {
+	display: block;
+	width: 346px;
+	height: 40px;
+	text-align: center;
+	color: orange;
+	border: solid orange 2px;
+	border-radius: 4px;
+	margin: 4px 0;
+}
+
+::placeholder {
+	color: orange;
+}
+
+#buttonAdd {
+	width: 350px;
+	padding: 10px;
+	color: white;
+	background: orange;
+	font-size: 25px;
+}
+
+.navBar {
+	width: 400px;
+	padding: 10px;
+	color: white;
+	background: orange;
+	font-size: 25px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.access {
+	width: 120px;
+	padding: 10px;
+	color: white;
+	background: orange;
+	font-size: 25px;
+}
+
+#add {
+	display: block;
+	width: 300px;
+	height: 50px;
+}
+
+#take {
+	display: block;
+	width: 300px;
+	height: 50px;
+}
+
+#containerDon {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.element {
+	width: 250px;
+	text-align: center;
+	margin-bottom: 3px;
+	margin: 5px;
+}
+
+.elementIn {
+	width: 250px;
+	height: 50px;
+	background: skyblue;
+	text-align: center;
+	border: gray;
+	margin-bottom: 3px;
+	padding-top: 20px;
+}
+img {
+	width: 100%;
+}
+
+.containerGallery {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.don {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+p {
+	width: 100%;
+	text-align: center;
+	justify: center;
+	padding: 10px;
+	color: orange;
+}
+
+#elementToken {
+	width: 100px;
+	height: 50px;
+	background: tan;
+	text-align: center;
+	border: palegreen;
+	margin-bottom: 3px;
+	padding-top: 20px;
+}
