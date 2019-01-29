@@ -1,0 +1,45 @@
+body{
+    background-color: silver;
+}
+
+
+/* CSS Home */
+.nav {
+    background-color: white;
+}
+
+.img{
+    width: 450px;
+    height: 300px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    background-color: white;
+    height: 500px;
+    box-shadow: rgb(31, 31, 31) 3px 1px 17px 0px;
+    border-radius: 10px;
+}
+
+button{
+    align-content: center;
+}
+
+/* CSS gallery */
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
