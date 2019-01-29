@@ -1,0 +1,26 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nira79/Nira-Madrid2019-Ejercicio-Npm-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nira79/Nira-Madrid2019-Ejercicio-Npm-/issues"
+  },
+  "homepage": "https://github.com/Nira79/Nira-Madrid2019-Ejercicio-Npm-#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "d3": "^5.7.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
