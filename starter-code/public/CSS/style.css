@@ -1,0 +1,32 @@
+body {
+  background-color: lightseagreen;
+}
+
+nav {
+  background-color: rgb(34, 71, 60);
+  width: 900px;
+  line-height: 40px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  color: darkslategray;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 40px;
+}
+
+img {
+  width: 200px;
+}
