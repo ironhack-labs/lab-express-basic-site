@@ -1,0 +1,24 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+section, nav{
+  padding: 10px;
+}
+
+nav {
+  background-color:bisque;
+}
+nav a {
+  padding-right: 10px;
+  color: back;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
