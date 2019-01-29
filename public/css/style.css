@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+a {
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.welcome {
+  font-size: 27px;
+  font-family: 'Roboto Mono', monospace;
+}
+
