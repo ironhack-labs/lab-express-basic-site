@@ -1,0 +1,15 @@
+<section>
+  {{#if isMorning}}
+  <h2>Good morning!</h2>
+  {{else if isAfternoon}}
+  <h2>Good afternoon!</h2>
+  {{else}}
+  <h2>Good evening!</h2>
+  {{/if}}
+</section>
+
+{{#each pictures}}
+{{#if @first}}
+<img class="img-fluid" src="/img/{{this}}.jpg" alt="" />
+{{/if}}
+{{/each}}
