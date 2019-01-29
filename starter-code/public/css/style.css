@@ -1,0 +1,25 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #425cbb;
+}
+
+section, nav {
+    padding: 10px;
+}
+
+nav a {
+    padding-right: 10px;
+    color: white;
+}
+
+.gallery img {
+    height: 100px;
+}
