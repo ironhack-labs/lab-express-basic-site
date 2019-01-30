@@ -1,0 +1,29 @@
+*{
+  font-family: Helvetica;
+}
+
+section a{
+  color: red;
+}
+
+nav {
+  background-color: #425cbb;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+
+}
+
+.h1{
+  display: block;
+}
+.imgs{
+  
+  display: flex;
+  flex-direction: row;
+}
+
