@@ -1,0 +1,48 @@
+.menu_bar {
+  background-color: rgb(254, 209, 16);
+  padding: 0;
+  margin: 0;
+}
+.menu_bar,
+a {
+  color: rgb(139, 113, 57);
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.text_home {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+h1 {
+  color: rgb(139, 113, 57);
+  margin: 0;
+  font-size: 115px;
+}
+.p_intro {
+  color: rgb(139, 113, 57);
+  font-size: 30px;
+  width: 700px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(229, 234, 232);
+}
+.body_home {
+  margin: 0;
+  padding: 0;
+  background-image: url("homer_2008_v2F_hires2-56a00fd43df78cafda9fde98.jpg");
+  background-size: cover;
+}
+img {
+  width: 100%;
+}
+.about {
+  font-size: 30px;
+  margin: 50px;
+}
+div.images_row {
+  margin: 20px 10px;
+}
