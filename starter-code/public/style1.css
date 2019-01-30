@@ -1,0 +1,14 @@
+body{
+    background:blanchedalmond;
+}
+nav{
+    background-color: #17FFA0;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*h1{
+    font-size:30px;
+    text-align: center;
+    padding: 120px;
+}

@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-image: url("img/fondo-pantalla-colores-perro_7790-61.jpg") ;
+    background-size:20%;
+}
+nav{
+    background-color: #17FFA0;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}

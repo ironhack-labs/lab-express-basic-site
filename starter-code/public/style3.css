@@ -1,0 +1,15 @@
+body{
+    background:rgb(232, 235, 236);
+    
+}
+nav{
+    background-color: #17FFA0;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    display: flex;
+    margin: auto;
+    
+}
