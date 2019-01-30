@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+body {
+  background-color: wheat;
+  font-family: Source Sans Pro;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+img {
+  width: 25%;
+  height: 300px;
+  padding: 30px;
+}
+
+.col-sm {
+  display: inline;
+}
+
+p {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
