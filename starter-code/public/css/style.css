@@ -19,3 +19,12 @@ img {
   margin: 10px;
   max-height: 100%;
 }
+
+nav {
+  display: flex;
+  justify-content: left;
+}
+
+a {
+  margin: 15px;
+}
