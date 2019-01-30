@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background: deepskyblue;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img{
+  margin: 1rem;
+}
