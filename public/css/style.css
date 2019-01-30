@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: block;
+  background-color: skyblue;
+  color: whitesmoke;
+}
+
+nav {
+  background-color: rgb(255, 123, 47);
+  padding: 10px;
+}
+
+nav a {
+  padding-right: 10px;
+  color: white;
+}
+
+.img-div img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.row {
+  margin: 10px 0;
+}
