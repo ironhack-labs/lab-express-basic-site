@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#C0E4D2;
+}
+
+nav {
+  background-color: #719683;
+  margin:0;
+  font-size: 1.5em; 
+}
+
+ul {
+  padding: 20px;
+  list-style-type: none;
+  margin:0;
+  display: flex;
+}
+li {
+  margin: 0 5px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
+img {
+  width: 250px;
+}
