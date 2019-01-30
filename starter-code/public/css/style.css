@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+
+}
+
+body h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(175, 17, 17);
+  font-style:italic;
+  
+}
+
+p {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+
+}
+
+a{text-decoration:none;}
+
+
+li {
+  display: inline;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15, 77, 15);
+  padding: 20px;
+  text-decoration:none;
+}
+
+img {
+  display: inline;
+  margin-right: 50px;
+}
+
+body button {
+  font-size: 15px;
+  background-color: rgb(60, 60, 65);
+  color: #fff;
+  padding: 10px 20px;
+  width: 120px;
+  height: 80px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+.pepe {
+  display: none;
+}
