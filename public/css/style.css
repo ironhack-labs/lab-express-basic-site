@@ -1,0 +1,34 @@
+body {
+  background-color: #640e4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+  display: block;
+  width: 25%;
+  height: auto;
+}
+
+a {
+  color: #d9ba0a;
+  display: block;
+}
+
+h1 {
+  color: #e7dcec;
+  display: block;
+}
+
+p {
+  color: #cf4895;
+  display: block;
+}
