@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home page</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/gallery">Gallery</a>
+  </nav>
+  <section id="estoNoEsUnaSection">
+    <h1>About</h1>
+    <p>Si Aprietas el boton correcto tendrás una grata sorpresa</p>
+    
+  </section>
+</body>
+<script>
+  /*En verdad ningun boton hace nada, soy malvado por naturaleza*/
+  var section = document.getElementById("estoNoEsUnaSection")
+  for(var i = 0; i < 546; i++){
+    var boton = document.createElement("button");
+    boton.innerText = "Este es";
+    section.appendChild(boton);
+  }
+</script>
+</html>
