@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1 {
+  text-align: center;
+  color: violet;
+  font-weight: 600;
+}
+
+p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: violet;
+  font-size: 25px;
+}
+
+.lien {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+
+  height: 200px;
+  margin-top: 3%;
+}
+
+.see {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+.taille {
+  height: 600px;
+}
+
+.about-content {
+  color: blueviolet;
+  font-weight: 600;
+}
+.col {
+  width: 30%;
+  text-align: center;
+  margin: 30px auto;
+  color: violet;
+}
+
+.about-lien {
+  font-size: 18px;
+  font-weight: 800;
+}
