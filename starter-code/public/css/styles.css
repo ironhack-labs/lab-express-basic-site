@@ -1,0 +1,14 @@
+nav {
+  background-color: lightskyblue;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+}
+nav a{
+  color:white;
+}
+
+img {
+  display: flex;
+  max-width: 300px;
+}
