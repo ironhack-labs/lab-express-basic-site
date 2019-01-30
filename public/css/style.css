@@ -1,0 +1,16 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  text-decoration: none;
+  color: grey;
+}
+h1 {
+  font-weight: bolder;
+}
+.text {
+  margin-left: 15px;
+}
