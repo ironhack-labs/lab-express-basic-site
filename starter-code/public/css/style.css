@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 40px;
+}
+
+.presentation {
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+}
+.background {
+  background-image: url("https://si.wsj.net/public/resources/images/BN-QX607_bkrvdi_GR_20161122164154.jpg");
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  height: 50%;
+}
+
+.background-without-img {
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.band {
+  background-color: white;
+  color: darkgrey;
+  border-radius: 4px;
+}
+
+.size {
+  object-fit: cover;
+  height: 300px;
+}
+
+.popup {
+  width: 700px;
+  height: 180px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  border: 10px solid black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
