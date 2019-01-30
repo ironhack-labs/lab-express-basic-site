@@ -14,17 +14,17 @@ app.get('/', (request, response, next) => {
 });
 
 // second route
-app.get('/amsterdam', (request, response, next) => {
+app.get('/about', (request, response, next) => {
   response.sendFile(__dirname + '/views/about.html');
 });
 
 // third route
-app.get('/amsterdam', (request, response, next) => {
+app.get('/gallery', (request, response, next) => {
   response.sendFile(__dirname + '/views/gallery.html');
 });
 
 
 // Server Started
 app.listen(3000, () => {
-  console.log('My first app listening on port 3000!');
+  console.log('My second app listening on port 3000!');
 });
