@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.index-img {
+  height: 725px;
+  width: 1500px;
+  background-image: url("../images/guadeloupe-359957.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beach {
+  background-image: url("../images/plage-grande-anse-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.river {
+  background-image: url("../images/051a0f_bce477cb9de54812808d47e000ec6c04_mv2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mountain {
+  background-image: url("../images/1200px-Les_Mamelles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fish {
+  background-image: url("../images/1344027770399111269.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fruits {
+  background-image: url("../images/dsc03319.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.people {
+  background-image: url("../images/I-Grande-188-les-jeunes-filles-en-costume-traditionnel_net.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col {
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.beach,
+.river,
+.fish,
+.fruits {
+  margin-right: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.btn {
+  margin-left: 50%;
+  margin-top: 15px;
+}
+
+p {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.color {
+  background-image: url("../images/aerial-removable-tropical-palm-leaves-917-l-x-175-w-peel-and-stick-wallpaper-roll.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
