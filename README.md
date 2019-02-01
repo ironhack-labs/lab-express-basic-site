@@ -5,7 +5,7 @@
 
 Pick a celebrity or other topic and use Express to make a Website for it.
 
-If you are looking for some inspiration, you can go here: https://lab-express-basic-site-sol.herokuapp.com/. It might takes time to load the page the first time.
+If you are looking for some inspiration, you can go here: https://lab-express-basic-site-sol.herokuapp.com/. It might take a couple of minutes to load the page for the first time.
 
 ## Requirements
 
