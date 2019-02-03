@@ -1,0 +1,47 @@
+* {
+  margin: 0 auto;
+  width: 35em;
+}
+
+body {
+  background-image: url("/images/background.jpeg");
+}
+
+body>div {
+  height: 600px;
+  background-color: rgba(255,255, 255, 0.8);
+  border-radius: 30px;
+}
+
+
+body > div > div h1 {
+  display: inline;
+}
+
+div {
+  height: 40px;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+body> div> div> ul {
+  float: right;
+  width: 200px;
+  margin-top: 1em;
+}
+
+body > div > div li {
+  display: inline;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  clear: both;
+  text-align: justify;
+  margin-bottom: 1em;
+}

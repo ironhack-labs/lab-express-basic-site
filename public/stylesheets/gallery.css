@@ -1,0 +1,49 @@
+* {
+    margin: 0 auto;
+    width: 35em;
+    margin-top: 2em;
+}
+
+body {
+    background-image: url("/images/background.jpeg");
+}
+
+body>div {
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+}
+
+body>div>div>ul {
+    float: right;
+    width: 200px;
+    margin-top: 1em;
+}
+
+body>div>div>h1 {
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body>div {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+#animation>img {
+    width: 43%;
+    padding: 1em
+}
+
+#in-game {
+    height: 248px;
+}
