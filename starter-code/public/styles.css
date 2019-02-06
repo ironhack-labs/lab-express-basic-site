@@ -1,0 +1,119 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    display: box;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 0;
+     background-color: rgb(6, 152, 101);
+     width: cover;
+     height: 100px;
+}
+.about{
+    float: right;
+    vertical-align: top;
+    background: none;
+    border: solid;
+    height: 30px;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    font-family:'Acme', sans-serif;
+    text-align: center;
+}
+#princ-img{
+    background-image: url('https://cdn.forbes.com.mx/2015/09/51.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.agave{
+    float: right;
+    vertical-align: center;
+}
+.back{
+    float: left;
+    vertical-align: top;
+    background: none;
+    border: solid;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    font-family:'Acme', sans-serif;
+    text-align: center;
+}
+.preparacion{
+    width: 80%;
+    float:right;
+}
+
+.gallery{
+    float: right;
+    vertical-align: top;
+    background: none;
+    border: solid;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    font-family:'Acme', sans-serif;
+    text-align: center;
+    
+}
+#galleryp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    align-items: flex-end;
+    float: 10px right;
+    vertical-align: top;
+    color: rgb(31, 31, 31);
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+h1{
+    font-family:'Acme', sans-serif;
+    text-align: center;
+}
+.d-block{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 520px; 
+    width: 700px;
+
+}
+#gal-back{
+    background-color: rgb(72, 91, 121);
+    height: 100vh;
+}
+#main{
+    font-family:'Acme', sans-serif;
+    text-align: center;
+    color:white;
+}
+.text2{
+    font-family:'Acme', sans-serif;
+    text-align: left;
+    color:white;
+
+}
+#about-back{
+    background-color: rgb(72, 91, 121);
+    height: 100vh;   
+}
+.about-text{
+    text-align: center;
+    color:white;
+}
+ul{
+    list-style: none;
+}
