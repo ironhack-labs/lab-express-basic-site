@@ -1,0 +1,44 @@
+h1, h2,h3,h4{
+    text-align: center;
+    margin:0;
+    padding:25px 0
+}
+h2{
+    font-size: 30px
+}
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column    
+}
+nav{
+    height:auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cadetblue
+}
+nav *{
+    padding:10px 0;
+    padding-left: 25px;
+    text-decoration:none;
+}
+nav a{
+    color:white
+}
+
+.divimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+ .currimage{
+     max-height: 600;
+     max-width: 600
+ }
+ #btnleft{
+     padding:auto 0
+ }
