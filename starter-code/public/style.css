@@ -1,0 +1,73 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+nav a {
+  color: purple;
+  font-weight: bold;
+  font-size: 1.2 rem;
+  text-decoration: none;
+  padding: 0 20px;
+}
+#logo {
+  height: 80px;
+  display: inline-block;
+}
+#menu {
+  float: right;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+header {
+  width: 80%;
+  background-color: yellow;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+section {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.about {
+  height: 355px;
+  background-image: url('bg.png');
+  background-size: cover;
+  color: #ffffff;
+}
+.promociones > img {
+width: 100%;
+}
+.encuentranos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.encuentranos > div {
+  width: 49%;
+  padding: 20px 0px;
+}
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+}
+.benefits > div {
+  width: 33%;
+}
+i{
+  font-size: 3rem;
+}
