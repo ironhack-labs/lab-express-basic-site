@@ -1,0 +1,20 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
+}
+
+section, nav {
+    padding: 10px;
+}
+
+nav a {
+padding-right: 5px;
+color: green;
+}
+
+.gallery img {
+    height: 100px;
+}
