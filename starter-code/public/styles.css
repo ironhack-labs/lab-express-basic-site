@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  top: 0px;
+  color: rgb(6, 85, 255);
+  left: 0px;
+  right: 0px;
+  background-color: #ffa07a;
+  text-align: center;
+}
+
+.titulo {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+}
+#sebas {
+  position: absolute;
+  top: 80px;
+  left: 265px;
+}
+.about-first {
+  text-align: center;
+  background-repeat: repeat;
+
+  color: red;
+}
+.thepagetitle {
+  text-align: center;
+  color: palevioletred;
+}
+.bodygallery {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+#return {
+  text-align: center;
+  padding-left: 440px;
+  font-size: 200%;
+}
