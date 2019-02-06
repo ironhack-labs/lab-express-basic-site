@@ -6,8 +6,9 @@ html, body {
     font-weight: 700;
 }
 
-#home-nav {
+#nav {
     font-weight: 400;
+    font-size: 0.8em;
     background-color: black;
     display: flex;
     flex-flow: row;
@@ -29,6 +30,25 @@ html, body {
     font-size: 1.5em;
 }
 
-#cover > h3 {
+h3 {
     font-weight: 400;
+}
+
+#whatup {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#dog-photos {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row-reverse;
+    height: 100px;
 }
