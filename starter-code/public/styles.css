@@ -1,0 +1,24 @@
+body{
+  background-color: skyblue;  
+}
+
+#center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand {
+  font-weight: bold;
+ }
+ .navbar {
+  background-color: white;
+ }
+ 
+ .navbar-light .navbar-nav  .nav-link:hover {
+  color: red;
+ }
+
+
+ .about{
+   background-image: url("https://az616578.vo.msecnd.net/files/2016/05/20/6359938359335732161481727208_video%20games.jpg")
+ }
