@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir, SansSerif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#home-nav {
+    font-weight: 400;
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#cover {
+    background-image: url("../public/bamboo_forest_display.jpg");
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#cover > h1 {
+    font-size: 1.5em;
+}
+
+#cover > h3 {
+    font-weight: 400;
+}
