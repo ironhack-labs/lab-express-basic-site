@@ -1,0 +1,13 @@
+.index-main{
+  background-image: url('../images/800px-Red_Victreebel_PO.png');
+  background-repeat: no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.links{
+  text-align: center;
+  margin-top: 25%;
+}
