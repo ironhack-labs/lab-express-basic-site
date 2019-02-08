@@ -1,10 +1,23 @@
 header{
   background-color: rgb(52, 50, 52);
+  height: 200px;
+  width: 100%;
+}
+
+header>div{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+div>img{
+  height: 100%;
 }
 
 h1{
   text-align: center;
-  color: crimson;
+  color: indigo;
+  font-size: 20px;
 }
 
 p{
@@ -14,4 +27,36 @@ p{
 
 nav{
   text-align: center;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+a{
+  text-decoration: none;
+  color: tomato
+}
+
+.img-container{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.img{
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.img>img{
+  width: 100%;
 }

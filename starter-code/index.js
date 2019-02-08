@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const expressLayouts = require('express-ejs-layouts');
 
 const app = express();
 const port = 3000;
@@ -9,6 +10,7 @@ app.set('view engine', 'ejs');
 app.set('layout', 'layouts/main');
 
 app.use(express.static('public'));
+app.use(expressLayouts);
 
 app.get('/about', (req, res, next) => {
   res.render('about');
