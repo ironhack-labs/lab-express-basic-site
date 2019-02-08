@@ -1,0 +1,17 @@
+header{
+  background-color: rgb(52, 50, 52);
+}
+
+h1{
+  text-align: center;
+  color: crimson;
+}
+
+p{
+  text-align: left;
+  color: darkolivegreen;
+}
+
+nav{
+  text-align: center;
+}
