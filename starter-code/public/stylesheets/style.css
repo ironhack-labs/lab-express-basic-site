@@ -1,0 +1,42 @@
+#nav-bar{
+    list-style-type: none;   
+    margin-left: 30px; 
+}
+
+#gallery{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-size:100px;
+    font-family: teko;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+    background-color: #9DBCE8;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    font-family: teko;
+    font-size: 20px;
+    padding: 20px;
+}
+
+h1{
+    font-weight: 800;
+}
+
+img{
+    width: 30%
+}
