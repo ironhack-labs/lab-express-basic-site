@@ -1,12 +1,16 @@
 {
-  "name": "express_basic_website",
+  "name": "starter-code",
   "version": "1.0.0",
-  "description": "Week 4 Day 2 Daily",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "David",
+  "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
 }
