@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+}
+
+section, nav{
+  padding: 20px;
+}
+
+nav {
+  background-color: #00a8ff;
+}
+nav a {
+  padding-right: 10px;
+  color: white;
+}
+
+.gallery img {
+  height: 100px;
+}
+
+h1 {
+  font-family: "Roboto Condensed", Impact, "Franklin Gothic Bold", sans-serif;
+  color: #0097e6;
+}
