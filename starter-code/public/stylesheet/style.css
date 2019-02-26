@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+section, nav{
+  padding: 10px;
+}
+
+nav {
+  background-color: #cca266;
+}
+nav a {
+  padding-right: 10px;
+  color: white;
+  font-weight: 800;
+}
+
+.gallery img {
+  height: 100px;
+}
