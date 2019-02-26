@@ -1,0 +1,17 @@
+{
+  "name": "myfirstapp",
+  "version": "1.0.0",
+  "description": "hola",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Daniel Herrero",
+  "license": "ISC"
+}
