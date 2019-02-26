@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px 10px;
+}
+
+a{
+  text-decoration: underline;
+  margin-right: 20px;
+  
+  color:white
+}
+
+img {
+  width: 150px;
+}
