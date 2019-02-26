@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Sniglet', cursive;
+}
+  
+  header {
+    background-color: pink;
+    padding: 20px 10px;
+  }
+  
+  a{
+    text-decoration: underline;
+    margin-right: 20px;
+  
+    color:RED;
+  }
+  
+  img {
+    width: 150px;
+  } 
+  
