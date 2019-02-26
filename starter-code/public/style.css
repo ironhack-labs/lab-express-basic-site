@@ -1,0 +1,24 @@
+header {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header ul li {
+    display: inline;
+}
+
+img {
+    height: 200px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
