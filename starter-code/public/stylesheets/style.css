@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    padding: 10px;
+    background-color: #425cbb;
+}
+
+nav a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+h1,
+p {
+    padding: 20px;
+}
+
+img {
+    height: 100px;
+    padding: 20px;
+}
+
+.section {
+    display: block;
+    float: left;
+}
