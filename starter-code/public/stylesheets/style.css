@@ -1,0 +1,36 @@
+body {
+    color: green;
+    background-color: whitesmoke;
+  }
+
+  img {
+      width: 100%;
+  }
+  a{
+      text-decoration: underline red;
+  }
+  ul{
+    list-style-type: none;
+    display: inline;
+    padding-right: 5px;
+  }
+  li{
+    background: yellow;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+  }
+  img{
+    height: 300px;
+    width: 500px
+    
+
+  }
+  .images{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
