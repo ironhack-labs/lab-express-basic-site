@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 68, 0);
+}
+
+h2:before {
+  content: url(../images/icon.jpg);
+  margin: 0 20px;
+}
+
+h2 {
+  background-color: #EDEDED;
+  border: 2px solid green;
+  border-radius: 20px;  
+  line-height: 50px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+li a, li a:visited, li a:hover, li a:active {
+  color: white;
+  font-size: 200%;
+}
+
+img {
+  height: 250px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.treeButton {
+  padding: 5px 5px 5px 20px;
+  background-color: rgba(111, 252, 111, 0.815);
+  border: 2px solid rgb(23, 143, 23);
+  border-radius: 20px;
+  color: black;
+  line-height: 30px;
+}
+
+.treeButton:hover {
+  background-color: rgba(111, 252, 111, 0.415);
+  border: 2px solid rgba(23, 143, 23, 0.6);
+}
+
+.treeButton:after {
+  content: url(../images/icon2.png);
+  margin: 0 20px; 
+}
