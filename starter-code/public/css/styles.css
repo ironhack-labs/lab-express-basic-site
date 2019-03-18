@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav.navbar{
+  height: 8vh;
+  background: #283655;
+  display: flex;
+  align-items: center;
+}
+
+nav.navbar > ul{
+  margin-left: 1vw;
+}
+
+nav.navbar a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+nav.navbar a:hover{
+  color: orange;
+}
