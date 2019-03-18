@@ -1,29 +1,135 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Fjalla+One|Lobster+Two|Roboto");
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-nav.navbar{
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+nav.navbar {
   height: 8vh;
   background: #283655;
   display: flex;
   align-items: center;
 }
 
-nav.navbar > ul{
+nav.navbar > ul {
   margin-left: 1vw;
 }
 
-nav.navbar a{
+nav.navbar a {
   text-decoration: none;
   color: white;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 2em;
   margin-right: 0.5em;
 }
 
-nav.navbar a:hover{
+nav.navbar a:hover {
   color: orange;
+}
+
+main.main-sect {
+  height: 86vh;
+}
+
+section > h1.head-title {
+  font-size: 2em;
+  font-family: "Lobster Two", cursive;
+}
+
+section div.main-img {
+  height: 40vh;
+}
+
+section div.main-img > img {
+  height: 100%;
+}
+
+section div.row-grid {
+  height: 30vh;
+}
+
+section div.row-grid img {
+  height: 100%;
+  width: 19%;
+}
+
+footer.foot {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+
+footer.foot p {
+  margin-left: 1vw;
+}
+
+section.about h2 {
+  font-size: 2em;
+  font-family: "Lobster Two", cursive;
+}
+
+section.about {
+  display: flex;
+  flex-direction: column;
+}
+
+section.about div.img-me {
+  height: 20vh;
+}
+
+section.about img {
+  height: 100%;
+}
+
+section.about div.git-link {
+  height: 4vh;
+}
+
+section.about div.git-link img {
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.margin-top {
+  margin-top: 1vh;
+}
+
+.margin-top-med {
+  margin-top: 5vh;
+}
+
+.row-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.row-grid-no-space {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 30%;
 }

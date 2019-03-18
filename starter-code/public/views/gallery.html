@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Express Lab - Gallery</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <!-- must match with url expected from node -->
+        <a href="/">Home</a>
+        <!-- must match with url expected from node -->
+        <a href="/gallery">Gallery</a>
+        <!-- must match with url expected from node -->
+        <a href="/about">About</a>
+      </ul>
+    </nav>
+    <main class="main-sect margin-top">
+      <section class="row-grid">
+        <iframe
+          class="col-3"
+          height="315"
+          src="https://www.youtube.com/embed/vfvSNJfgfLQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col-3"
+          height="315"
+          src="https://www.youtube.com/embed/XxM1SX35-GU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col-3"
+          height="315"
+          src="https://www.youtube.com/embed/0HbnqjGirFg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="row-grid margin-top">
+        <iframe
+          class="col-2"
+          height="315"
+          src="https://www.youtube.com/embed/MkzeOmkOUHM"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col-2"
+          height="315"
+          src="https://www.youtube.com/embed/sLpjPht5mvg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <footer class="foot">
+      <p>Basic website created with NodeJs and Express</p>
+    </footer>
+  </body>
+</html>

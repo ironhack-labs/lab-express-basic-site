@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/styles.css">
-  <title>Express Lab</title>
-</head>
-<body>
-  <nav class="navbar">
-    <ul>
-      <!-- must match with url expected from node -->
-      <a href="/">Home</a>
-      <!-- must match with url expected from node -->
-      <a href="/gallery">Gallery</a>
-      <!-- must match with url expected from node -->
-      <a href="/about">About</a>
-    </ul>
-  </nav>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Express Lab</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <!-- must match with url expected from node -->
+        <a href="/">Home</a>
+        <!-- must match with url expected from node -->
+        <a href="/gallery">Gallery</a>
+        <!-- must match with url expected from node -->
+        <a href="/about">About</a>
+      </ul>
+    </nav>
+    <main class="main-sect">
+      <section class="center margin-top">
+        <h1 class="head-title">My TOP VideoGame OST</h1>
+        <div class="main-img">
+          <img src="/images/videoGameMusic.jpeg" alt="vgmusic" />
+        </div>
+        <p>
+          A little site dedicated to give my personal take on the best game OST
+          I've heard so far
+        </p>
+        <br>
+        <p>
+          Please go to gallery to take a look on each one!, there's no particular order
+        </p>
+      </section>
+      <section class="center margin-top-med">
+        <div class="row-grid">
+          <img src="/images/ost1.jpg" alt="ost1">
+          <img src="/images/ost2.jpg" alt="ost2">
+          <img src="/images/ost3.jpg" alt="ost3">
+          <img src="/images/ost4.jpg" alt="ost4">
+          <img src="/images/ost5.png" alt="ost5">
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <p>Basic website created with NodeJs and Express</p>
+    </footer>
+  </body>
 </html>
