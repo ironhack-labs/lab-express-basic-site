@@ -1,0 +1,14 @@
+{
+  "name": "express-basic-site",
+  "version": "1.0.0",
+  "description": "Ironhack-WebDev-PT-Daily-Exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomas Freire",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
