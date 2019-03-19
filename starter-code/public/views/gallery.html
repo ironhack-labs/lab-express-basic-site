@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Gallery</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li id="nav-home"><a href="/">HOME</a></li>
+      <li id="nav-about"><a href="/about">ABOUT</a></li>
+      <li id="nav-gallery"><a href="/gallery">GALLERY</a></li>
+    </ul>
+  </nav>
+  <div id="main-div">
+    <div id="slider">
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+          <ul class="uk-slideshow-items">
+              <li>
+                  <img src="../images/hedy1.png" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy2.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy3.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy4.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy5.jpeg" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy6.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy7.jpeg" alt="" uk-cover>
+              </li>
+              <li>
+                  <img src="../images/hedy8.jpg" alt="" uk-cover>
+              </li>
+          </ul>
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+</body>
+</html>

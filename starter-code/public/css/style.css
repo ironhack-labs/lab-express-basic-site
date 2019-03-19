@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  background: black;
+}
+
+nav {
+  background-color: lightgray;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 15px;
+}
+
+li:hover {
+  text-decoration-line: underline;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#main-div {
+  background-image: url("../images/hedy-back.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 35px);
+  display: flex;
+}
+
+#slider {
+  height: 420px;
+  width: 750px;
+  background: lemonchiffon;
+  margin: 80px;
+}
+
+#phrase {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 50px;
+  color: lightgray;
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+#about-div {
+  color: black;
+  background:lemonchiffon;
+  margin: 30px;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+#about-img {
+  height: 700px;
+}
