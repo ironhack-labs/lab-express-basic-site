@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: rgb(100, 100, 192);
+    color: white;
+    height: 40px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 0 0 5px;
+    align-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+img {
+    height: 70px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+h2, p {
+    margin: 40px 10px;
+}
+
