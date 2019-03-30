@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </header>
+    <h3>Photo Gallery</h3>
+    <img id="img1" src="https://lab-express-basic-site-sol.herokuapp.com/images/space1.jpg" style="width:10%">
+    <img id="img2" src="https://lab-express-basic-site-sol.herokuapp.com/images/space2.jpg" style="width:10%">
+    <img id="img3" src="https://lab-express-basic-site-sol.herokuapp.com/images/space3.jpg" style="width:10%">
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal1">
+
+        <!-- The Close Button -->
+        <span class="close" id="close1">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalimg1">
+
+    </div>
+
+    <div class="modal" id="myModal2">
+
+        <!-- The Close Button -->
+        <span class="close" id="close2">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalimg2">
+
+    </div>
+
+    <div class="modal" id="myModal3">
+
+        <!-- The Close Button -->
+        <span class="close" id="close3">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalimg3">
+
+    </div>
+
+
+</body>
+
+<script>
+    // Get the modal
+    var modal1 = document.getElementById('myModal1');
+    var modal2 = document.getElementById('myModal2');
+    var modal3 = document.getElementById('myModal3');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img1 = document.getElementById('img1');
+    var img2 = document.getElementById('img2');
+    var img3 = document.getElementById('img3');
+    var modalImg1 = document.getElementById("modalimg1");
+    var modalImg2 = document.getElementById("modalimg2");
+    var modalImg3 = document.getElementById("modalimg3");
+
+    img1.onclick = function () {
+        modal1.style.display = "block";
+        modalImg1.src = this.src;
+    }
+
+    img2.onclick = function () {
+        modal2.style.display = "block";
+        modalImg2.src = this.src;
+    }
+
+    img3.onclick = function () {
+        modal3.style.display = "block";
+        modalImg3.src = this.src;
+    }
+
+    // Get the <span> element that closes the modal
+    var span1 = document.getElementById("close1");
+    var span2 = document.getElementById("close2");
+    var span3 = document.getElementById("close3");
+
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function () {
+        modal1.style.display = "none";
+    }
+
+    span2.onclick = function () {
+        modal2.style.display = "none";
+    }
+
+    span3.onclick = function () {
+        modal3.style.display = "none";
+    }
+
+
+</script>
+
+</html>

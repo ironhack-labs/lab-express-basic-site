@@ -1,0 +1,29 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "npm lab exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdiv55/lab-express-basic-site.git"
+  },
+  "keywords": [
+    "lab",
+    "npm",
+    "exercise;",
+    "express",
+    "node"
+  ],
+  "author": "Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdiv55/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/pdiv55/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
