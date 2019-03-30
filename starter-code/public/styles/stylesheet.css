@@ -1,0 +1,30 @@
+nav {
+    background-color: #425cbb;
+    display: inline-block;
+    padding: 10px;
+    margin:0;
+  }
+  nav div{
+  display: inline-block;
+  }
+
+  nav div a {
+    padding-right: 10px;
+    color: white;
+  }
+  
+  .gallery img {
+    height: 100px;
+  }
+
+  section img{
+    display: inline-block;
+  }
+
+  section {
+    display: inline-block;
+  }
+
+  img {
+    display: inline-block;
+  }
