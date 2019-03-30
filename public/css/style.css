@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 15px;
+}
+
+main {
+    padding: 15px;
+}
+
+a {
+    color: white;
+}
+
+img {
+    width: 20%;
+}
