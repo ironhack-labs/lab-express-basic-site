@@ -2,17 +2,26 @@
   "name": "lab-express-basic-site",
   "version": "1.0.0",
   "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png) # Express Basic Website",
+<<<<<<< HEAD
   "main": "index.js",
+=======
+  "main": "app.js",
+>>>>>>> 5a4df0459783a383dd8712a7aab04df473aa7df2
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/ironhack-labs/lab-express-basic-site.git"
+=======
+    "url": "git+https://github.com/dioliveira84/lab-express-basic-site.git"
+>>>>>>> 5a4df0459783a383dd8712a7aab04df473aa7df2
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/ironhack-labs/lab-express-basic-site/issues"
   },
   "homepage": "https://github.com/ironhack-labs/lab-express-basic-site#readme",
@@ -20,4 +29,13 @@
     "express": "^4.16.4",
     "hbs": "^4.0.3"
   }
+=======
+    "url": "https://github.com/dioliveira84/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/dioliveira84/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {}
+>>>>>>> 5a4df0459783a383dd8712a7aab04df473aa7df2
 }
