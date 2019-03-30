@@ -11,6 +11,10 @@ nav {
     height: 40px;
 }
 
+ul {
+    padding: 0 5px;
+}
+
 ul li {
     display: inline-block;
     margin: 10px 0 0 5px;
