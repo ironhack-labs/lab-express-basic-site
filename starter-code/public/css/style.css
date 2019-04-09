@@ -1,0 +1,31 @@
+div {
+  outline: 1px solid transparent;
+  
+}
+
+.topnav {
+  background-color: #425CBB;
+}
+
+nav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a{
+  margin-left: 5px;
+  color: white;
+}
+
+section{
+  margin-left: 12px;
+}
+
+.imgdiv{
+  margin-left: 12px;
+}
+
+#leftimg{
+  float: left;
+  margin-left:5px;
+}
