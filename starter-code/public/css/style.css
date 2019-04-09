@@ -1,0 +1,12 @@
+ul li{
+    display: inline;
+}
+
+nav{
+    background-color: blue;
+    display: inline;
+}
+
+body{
+    background: pink;
+}
