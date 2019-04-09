@@ -1,22 +1,21 @@
 const express = require("express");
 const app = express();
-const PORT = 3000
+const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + '/views/home.html')
-})
-
+  res.sendFile(__dirname + "/views/home.html");
+});
 
 app.get("/about", (req, res) => {
-    res.sendFile(__dirname + '/views/about.html')
-})
+  res.sendFile(__dirname + "/views/about.html");
+});
 
 app.get("/gallery", (req, res) => {
-    res.sendFile(__dirname + '/views/gallery.html')
-})
+  res.sendFile(__dirname + "/views/gallery.html");
+});
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
-app.listen(PORT, function () {
-    console.log(`I am listening on port ${PORT}`);
-})
+app.listen(PORT, function() {
+  console.log(`I am listening on port ${PORT}`);
+});

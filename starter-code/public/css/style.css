@@ -1,4 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
 nav {
     background-color: #425cbb;
+    padding: 10px;
+}
+
+nav a, nav a:hover {
+    font-size: 1.1rem;
+    padding: 0 .4rem 0 0;
     color: #fff;
+}
+
+section {
+    padding: 1rem;
+}
+
+img {
+    height: 100px;
 }
