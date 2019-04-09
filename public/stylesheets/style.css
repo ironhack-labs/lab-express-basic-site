@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  background-color: chartreuse;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+nav {
+  background-color: chartreuse;
+}
+nav a {
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.main {
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+  margin-bottom: 50px;
+}
+.images {
+  padding: 10px;
+  margin: 10px;
+}
+img {
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+}
