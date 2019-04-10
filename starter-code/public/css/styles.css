@@ -1,0 +1,63 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-size: 10px;
+}
+
+#nav-bar {
+  height: 3rem;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: greenyellow;
+  font-size: 1rem;
+  position: absolute;
+}
+
+.nav-bar-li {
+  list-style-type: none;
+  text-align: center;
+  padding: .4rem;
+  width: 7rem;
+  float: left;
+}
+
+.nav-bar-item {
+  color: green;
+  text-decoration: none;
+  font-size: 1.5em;  
+}
+
+.paragHome {
+  font-size: 1rem;
+  position: relative;
+  left: 1rem;;
+  top: 4rem;
+}
+
+.paragAbout {
+  font-size: 1rem;
+  position: relative;
+  left: 1rem;;
+  top: 4rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: green;
+  position: relative;
+  left: 2rem;
+  top: 4rem;
+  margin-left: 1rem;
+}
+
+.img {
+  list-style-type: none;
+  position: relative;
+  margin-top: 1rem;
+  top: 4rem;
+  display: block;
+  /* transform: scale(0.5); */
+  margin: 0;
+}
