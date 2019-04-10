@@ -67,6 +67,7 @@
     padding-top: 40px;
     font-size: 1.2em;
     font-weight: 300;
+    margin-bottom: 30px;
 }
 
 .gallery-content {
@@ -84,4 +85,30 @@
 
 .gallery-content img:hover{
     transform: scale(1.2);
+}
+
+.random-words {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 40px;
+}
+
+.words-container {
+    width: 50%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.word-btn {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    border: solid 1px white;
+    font-size: 1.1em;
 }

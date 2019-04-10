@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
+
+
 app.use(express.static('public'));
 
 app.get('/index', (request, response) => {
@@ -16,3 +18,4 @@ app.get('/gallery', (request, response) => {
 });
 
 app.listen(600);
+
