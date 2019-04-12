@@ -3,6 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 .container {
@@ -100,7 +101,6 @@ header {
 .courses-wrapper {
 	margin: 30px auto;
 	max-width: 1200px;
-	padding: 0 20px;
 	text-align: center;
 	width: 100%;
 }
@@ -108,14 +108,12 @@ header {
 .courses {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	margin: 30px auto;
 }
 
-.single-course {
-	margin: 10px;
-}
+.single-course {}
 
 .single-course img {
 	max-width: 300px;
