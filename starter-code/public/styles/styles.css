@@ -107,22 +107,21 @@ header {
 
 .courses {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin: 30px auto;
-	max-width: 1200px;
 	margin: 30px auto;
 }
 
 .single-course {
-	margin: 20px;
+	margin: 10px;
 }
 
 .single-course img {
-	max-width: 350px;
+	max-width: 300px;
 	height: 340px;
 }
 
 .single-course-large img {
-	max-width: 700px;
+	max-width: 600px;
 }
