@@ -5,18 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/styles.css">
   <title>About</title>
 </head>
 
 <body>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/courses">Courses</a>
-  </nav>
+  
+{{> header}}
 
-  <h1>About Page</h1>
-{{> "/footer"}}
+
+<div class="container-about">
+  <div class="image-about">
+    <img src="/images/about.jpg" alt="">
+  </div>
+  <div class="text-about">
+    <h1>Quiénes somos</h1>
+    <p class="paragraph">Cada uno de los cursos ofrecidos por EIMAS es enseñado por los mejores profesores profesores de las mejores universidades y centros de investigación del mundo. Los cursos incluyen video lecciones, test de evaluación, ejercicios prácticos y una extensa comunidad en los foros de discusión. Una vez completado el curso, recibirás un certificado electrónico de superación.</p>
+
+  </div>
+</div>
+{{> footer}}
 </body>
 
 </html>
