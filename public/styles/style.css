@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: rgb(144, 219, 238, 0.8);
+  font-family: "Maven Pro", sans-serif;
+  height: 24px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  width: 33.3333333%;
+}
+
+a:hover {
+  font-size: 24px;
+  font-style: bold;
+}
+
+.nav-wrapper {
+  width: 33.33333%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#headline {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  vertical-align: middle;
+  margin-top: 5vh; /* 30vh */
+  margin-left: 54vw;
+  color: rgb(65, 12, 12);
+}
+
+.headline {
+  text-align: center;
+  font-size: 90px;
+  font-family: "Dancing Script", cursive;
+  vertical-align: middle;
+  color: rgb(65, 12, 12);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10vh;
+}
+
+.abouttext {
+  text-align: left;
+  width: 500px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+img {
+  height: 250px;
+  margin: 10px;
+}
+
+.imagegallery {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.body-home {
+  background-image: url("/images/photo10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: bottom;
+}
+
+p {
+  margin-top: 4vh;
+  line-height: 1.5;
+  margin-left: 5vh;
+  margin-right: 20vw;
+}
+
+.container img {
+  margin-left: 10vw;
+}
+
+body {
+  background-color: rgb(248, 237, 227);
+}
