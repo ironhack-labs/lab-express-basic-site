@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="recipesbg" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Foody ♥</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="module" src="./js/client-script.js"></script>
+</head>
+<title>Foody</title>
+
+<body>
+    {{>nav}}
+
+    <h2>Recipes</h2>
+
+    <div class="recipes-container">
+        {{#each recipeContent}}
+        {{>recipe}}
+        {{/each}}
+    </div>
+</body>
+
+</html>

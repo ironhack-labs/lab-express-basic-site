@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="contact" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Foody ♥</title>
+</head>
+
+<body>
+    {{>nav}}
+    <h2>Contact</h2>
+    <div class:"contacttext">
+        <p>If you require any further information, feel free to contact me! <br> Or you can share with
+            me your
+            ideas,your
+            recipes, dreams about food..everything!!You can also come to my kitchen where you can take classes! </p>
+    </div>
+    <div class="form">
+        <form id="form_contact" method="get" action="contact" class="form">
+            <form id="form_contact" method="post" action="contact" class="form">
+                <label for="name" class="label">Name:</label>
+                <input id="name" type="text" name="name" class="input" required>
+
+                {{!-- //name is the key and the value is the input of the key yani kutunun içinde test name --}}
+
+                <label for="email" class="label">Email:</label>
+                <input id="email" type="email" name="email" class="input" required>
+                <label for="subject" class="label"></label>
+                <label for="text" class="label">Your Message: </label>
+                <input class="bigger" id="text" type="text" name="Message" class="textarea" required>
+
+
+                <button class="btnSend">Send!</button>
+    </div>
+    </form>
+
+
+
+    <form action="http://maps.google.com/maps" method="get" target="_blank">
+        <div class="map">
+            <label for="saddr">Enter your location: </label>
+            <input type="text" name="saddr" />
+            <input type="hidden" name="daddr" value="13 Quai André Citroën, 75015 Paris, France" />
+            <input class="btnmap" type="submit" value="Find your distance to my kitchen:)" />
+        </div>
+    </form>
+</body>
+
+</html>
+</body>
+
+</html>

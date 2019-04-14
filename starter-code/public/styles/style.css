@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+@import url("https://fonts.googleapis.com/css?family=Handlee|Leckerli+One");
+
+* {
+  margin: 0px;
+  font-family: "Handlee";
+}
+#image {
+  background: url("../images/photo1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.recipesbg {
+  background: url("../images/yellow.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.aboutme {
+  background: url("../images/yellow.png") 2px no-repeat;
+}
+
+.contact {
+  background: url("../images/yellow.png") no-repeat;
+}
+
+.contacttext {
+  text-align: center;
+  font-size: 30px;
+}
+
+nav {
+  font-family: "Handlee";
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 500px;
+  padding-left: 500px;
+  height: 40px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+nav a {
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-weight: 1000;
+  align-items: center;
+  background: -webkit-linear-gradient(rgb(255, 181, 44), rgb(230, 67, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.links li {
+  margin: 0px 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  vertical-align: text-top;
+  justify-content: space-between;
+}
+
+.second-part {
+  /* background-image: url("../images/photo3.jpg"); */
+  background-size: cover;
+  height: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Leckerli One", cursive;
+  font-size: 10em;
+  text-align: center;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(rgb(255, 181, 44), rgb(230, 67, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 120px;
+}
+
+h2 {
+  padding: 20px;
+  font-family: "Leckerli One", cursive;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(rgb(255, 181, 44), rgb(230, 67, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3 {
+  font-family: "Leckerli One", cursive;
+  font-size: 2em;
+  padding-left: 50px;
+  color: rgb(245, 105, 70);
+}
+#quote {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 161, 85);
+  align-items: flex-end;
+  text-align: center;
+  font-style: italic;
+}
+h4 {
+  font-size: 20px;
+  text-align: left;
+  color: rgb(173, 85, 255);
+}
+
+h5 {
+  font-family: "Leckerli One", cursive;
+  font-size: 2em;
+  background: -webkit-linear-gradient(rgb(255, 104, 44), rgb(211, 32, 86));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about {
+  align-content: center;
+  margin-right: 60px;
+  font-family: "Handlee";
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+}
+.girl {
+  border-radius: 80px;
+  display: flex;
+  margin: 50px;
+  border: solid 3px rgb(243, 75, 167);
+  transition: border-width 0.6s linear;
+}
+.girl:hover {
+  border-width: 8px;
+}
+
+.context {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* .recipes {
+  font-family: "Handlee";
+} */
+.contact {
+  text-align: center;
+}
+
+.contacttext {
+  font-size: 25px;
+  text-align: center;
+  margin: 20px;
+}
+.form {
+  color: orangered;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-color: orange;
+  font-family: "Handlee";
+  font-size: 20px;
+  text-align: left;
+  margin: 0px 3cm 0px 3cm;
+}
+
+.btnSend {
+  background: -webkit-linear-gradient(rgb(255, 181, 44), rgb(230, 67, 162));
+  font-family: "Handlee";
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 0.3rem;
+  margin: 20px 8cm 0px 8cm;
+  padding: 10px;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  color: orangered;
+  padding: 100px;
+  border-color: orange;
+  font-family: "Handlee";
+  font-size: 20px;
+  margin: 0px 9cm 0px 9cm;
+}
+.btnmap {
+  background: -webkit-linear-gradient(rgb(255, 181, 44), rgb(230, 67, 162));
+  font-family: "Handlee";
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 0.3rem;
+  margin: 10px 3cm 0px 3cm;
+  padding: 10px;
+}
+
+.recipes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+}
+.recip.body {
+  margin: 10px;
+  width: 30%;
+  text-align: center;
+}
+.single-recip {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: justify;
+}
+
+.img-top {
+  width: 330px;
+  height: 200px;
+  border-radius: 5px;
+  border: solid 3px rgb(243, 75, 117);
+  transition: border-width 0.6s linear;
+}
+.img-top:hover {
+  border-width: 6px;
+}
+
+.recipetext {
+  font-size: 15px;
+  margin-left: 20px;
+}
