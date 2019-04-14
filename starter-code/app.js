@@ -17,15 +17,15 @@ app.use(express.static(__dirname + "/public"));
 // });
 
 app.get("/", (request, response) => {
-  response.sendFile(`${__dirname}/views/home.html`);
+  response.render(`${__dirname}/views/home.hbs`);
 });
 
 app.get("/about", (request, response) => {
-  response.sendFile(`${__dirname}/views/about.html`);
+  response.render(`${__dirname}/views/about.hbs`);
 });
 
 app.get("/courses", (request, response) => {
-  response.sendFile(`${__dirname}/views/courses.html`);
+  response.render(`${__dirname}/views/courses.hbs`);
 });
 
 
@@ -46,4 +46,3 @@ app.listen(3100, () => {
 //   // send views/index.hbs for displaying in the browser
 //   res.render('home');
 // });
-
