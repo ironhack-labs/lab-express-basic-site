@@ -51,7 +51,7 @@ header {
 
 .btn-partners {
 	margin: 0;
-	padding: 20px 30px;
+	padding: 10px 15px;
 	font-size: 18px;
 }
 
@@ -88,10 +88,11 @@ header {
 
 /* PARTNERS SECTION */
 #partners {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat (7, auto);
+	grid-column-gap: 10px;
+	grid-auto-flow: column;
+	justify-items: center;
 	align-items: center;
 	max-width: 1200px;
 	margin: auto;
@@ -101,6 +102,34 @@ header {
 
 .partner {
 	margin: auto;
+}
+
+.partner1 {
+	grid-column: 1/2;
+}
+
+.partner2 {
+	grid-column: 2/3;
+}
+
+.partner3 {
+	grid-column: 3/4;
+}
+
+.partner4 {
+	grid-column: 4/5;
+}
+
+.partner5 {
+	grid-column: 5/6;
+}
+
+.partner6 {
+	grid-column: 6/7;
+}
+
+.partner7 {
+	grid-column: 7/8;
 }
 
 /* CERTIFICATES SECTION */
@@ -223,7 +252,7 @@ header {
 	margin-top: 30px;
 }
 
-/* ABOUT SECTION*/
+/* ABOUT PAGE */
 .container-about {
 	font-family: 'Open Sans', sans-serif;
 	max-width: 1200px;
