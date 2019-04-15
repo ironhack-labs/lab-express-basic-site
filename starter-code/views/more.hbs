@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="recipesbg" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Foody ♥</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script type="module" src="/js/client-script.js"> </script>
+</head>
+
+
+<body>
+    {{>nav}}
+
+    <h2>Recipes</h2>
+
+    {{#each data}}
+    <div class="oneRecipe">
+        <h3>{{this.title}}</h3>
+        <p "/recipe/{{this._id}}" </p> <p>{{ this.ingredients }}</p>
+        <p>{{this.cuisine}}</p>
+        <p>{{this.duration}}</p>
+        <p>{{this.level}}</p>
+    </div>
+    {{/each}}
+    </form>

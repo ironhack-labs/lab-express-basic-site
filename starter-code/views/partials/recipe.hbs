@@ -5,6 +5,12 @@
 
         <h5>{{this.title}} </h5>
         <p class=“level”>{{this.level}}</p>
-        <a href="/ingredients/{{id}}" class="btn">More</a>
 
-        <p class=“Description</p> </div> </div>
+
+        <form method="GET" action="/more/{{this._id}}">
+            <button class="more_btn">More</button>
+
+    </div>
+</div>
+
+{{!-- bu syfa benim tek tek recipeleri görmemmi sağlayan syfa --}}

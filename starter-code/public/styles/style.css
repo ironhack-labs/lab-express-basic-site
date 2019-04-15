@@ -12,6 +12,7 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
 .recipesbg {
   background: url("../images/yellow.png") no-repeat;
   -webkit-background-size: cover;
@@ -57,6 +58,10 @@ nav a {
   -webkit-text-fill-color: transparent;
   padding: 10px;
   border-radius: 9px;
+}
+.links > *:hover {
+  /* Everything inside of  the class links */
+  font-size: 18px;
 }
 
 .links li {
@@ -110,6 +115,13 @@ h3 {
   align-items: flex-end;
   text-align: center;
   font-style: italic;
+}
+.span {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 161, 85);
+  align-items: flex-end;
+  text-align: center;
 }
 h4 {
   font-size: 20px;
@@ -211,7 +223,12 @@ h5 {
   margin: 10px 3cm 0px 3cm;
   padding: 10px;
 }
-
+.more_btn {
+  background: -webkit-linear-gradient(rgb(241, 130, 97), rgb(243, 75, 117));
+  color: white;
+  font-size: 10px;
+  border-radius: 3px;
+}
 .recipes-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -234,13 +251,16 @@ h5 {
   height: 200px;
   border-radius: 5px;
   border: solid 3px rgb(243, 75, 117);
-  transition: border-width 0.6s linear;
 }
 .img-top:hover {
   border-width: 6px;
+  transition: border-width 0.2s linear;
 }
-
 .recipetext {
   font-size: 15px;
   margin-left: 20px;
+}
+.oneRecipe {
+  margin: auto;
+  max-width: 1000px;
 }

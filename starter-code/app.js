@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Recipe = require("./models/Recipe"); // Import of the model Recipe from './models/Recipe'//bunları mongoya baglamak için yazmalısın
+const Recipe = require("./models/Recipe"); // we're requiring the recipe.js file whic is in the models/
 
 const app = express();
 const hbs = require("hbs"); //Handlebars is a JavaScript library that helps developers create templates that bind data, which creates cleaner, more efficient code.
@@ -33,6 +33,7 @@ app.get("/contact", (request, response) => {
   response.render("contact");
   // response.sendFile(`${__dirname}/contact`);
 });
+
 app.get("/recipes", (request, response) => {
   Recipe.find()
     .then(data => {
@@ -44,15 +45,19 @@ app.get("/recipes", (request, response) => {
     .catch();
 });
 
-app.get("/ingredients/:titleId", (req, res) => {
-  console.log(req.params.titleId);
-  recipes
-    .getIngredients(req.params.titleId)
-    .then(data => {
-      //   res.json(data.body);
-      console.log("Ingredients", data.body);
+// app.get("/more", (request, response) => {
+//   response.render("more");
+// });
 
-      res.render("ingredients", { ingredients: data.body.items });
+app.get("/more/:titleId", (req, res) => {
+  // ASK HERE
+  console.log(req.params.RecipeId);
+  Recipe.findById(req.params.titleId)
+    .then(data => {
+      //res.json(data);
+      console.log("more", data.body);
+
+      res.render("more", { data });
     })
     .catch(err => {
       console.error(err);
