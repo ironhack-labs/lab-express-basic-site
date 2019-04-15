@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+nav {
+    background-color: #1BA998;
+    height: 40px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+  }
+
+nav a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+body{
+    background-color: #2B2F30;
+}
+
+.fch {
+    width: 20%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 70px;
+
+}
+
+
+.experience-container{
+  display: flex; 
+  font-size: 30px;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-entreprise{
+  vertical-align: middle;
+}
+
+.explist{
+  padding: 30px;
+  background-color: aliceblue;
+  margin: 20px 0px; 
+  color: black;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100px;
+  width: 1300px;
+  font-size: 20px;
+  margin-left: 
+}
+
+.intro{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+h1{
+  margin-top: 55px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: normal;
+  
+}
+
+.button-home-container{
+  display: flex; 
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.button-home-container a{
+  padding: 20px; 
+  text-decoration: none;
+  background-color: #1BA998;
+  margin: 0px 20px; 
+}
+
+.footer{
+  background:#0A2C42;
+  width: 100%;
+  color: #F7F9F9;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  bottom: 0;
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0
+}
+
+.logo-education-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo-education{
+  height: 550px;
+  widows: 550px;
+  margin-top : 30px;
+  /* display: flex; */
+  /* flex-direction: row;
+  flex: 1 0 33%; */
+  padding: 30px;
+}
+
+
+.footer p{
+  display: flex; 
+  color: #F7F9F9;
+}
+
+.img-entreprise{
+  width: 200px;
+  height: 100px;
+}
+
