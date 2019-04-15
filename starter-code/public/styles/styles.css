@@ -232,7 +232,6 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 
 .image-about {
@@ -266,7 +265,7 @@ header {
 	border: 1px solid RGB(191 216 4);
 	max-width: 1200px;
 	margin: 10px auto;
-	border-radius: 10%;
+	border-radius: 4%;
 	padding: 10px;
 }
 
