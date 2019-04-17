@@ -1,0 +1,1191 @@
+@charset "UTF-8";
+/* CSS Document
+Desarrollador: WIDEStudio
+<a href="http://www.widestudio.mx">WIDEStudio</a>
+21-04-13*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700,300&subset=latin,latin-ext);
+/*Estilos Generales==============================*/
+@font-face {
+	font-family: 'GoudyBold';
+	src: url('../fonts/GoudyBold.eot');
+	src: local('☺'), url('../fonts/GoudyBold.woff') format('woff'), 
+	url('../fonts/GoudyBold.ttf') format('truetype'), 
+	url('../fonts/GoudyBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+	border:0;
+	margin:0;
+	padding: 0;
+}
+article,aside,figcaption,figure,footer,h1,header,hgroup,section{
+	display: block;
+}
+body, html{
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+}
+body{
+	background: #FFF url(../img/bg.png) top repeat-x;
+	color:#333;
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	padding-top: 1em;
+}
+a{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	-ms-transition:all 0.5s ease-in;
+	-moz-transition:all 0.5s ease-in;
+	-o-transition:all 0.5s ease-in;
+	-webkit-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
+}
+a:hover{
+	color:#b1def7;
+	-ms-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	-o-transition:all 0.5s ease-out;
+	-webkit-transition:all 0.5s ease-out;
+	transition:all 0.5s ease-out;
+}
+header,nav, section#contenido, div#foot{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+section#contenido{
+	min-height: 100%;
+}
+header figure{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 35%;
+}
+header a img {
+	opacity: 1;
+	-ms-transition:all 0.5s ease-in;
+	-moz-transition:all 0.5s ease-in;
+	-o-transition:all 0.5s ease-in;
+	-webkit-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
+}
+header a:hover img{
+	opacity: .5;
+	-ms-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	-o-transition:all 0.5s ease-out;
+	-webkit-transition:all 0.5s ease-out;
+	transition:all 0.5s ease-out;
+}
+h6{
+	font-weight: normal;
+}
+#autor{text-align: right; font-size: .9em; padding-top: .5em; margin-bottom: .8em;}
+img, iframe, video, audio{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+div#header-right{
+	display: inline-block;
+	padding-top: .5em;
+	text-align: right;
+	width: 60%;
+}
+#header-right aside{
+	text-align: right;
+	margin-bottom:0em;
+}
+#header-right a,#header-right div, #header-right h6{
+	display: inline-block;
+	font-size: 1.12em;
+	line-height: 1em;
+	max-width: 100%;
+	vertical-align: middle;
+}
+#header-right div{
+	border-right: solid .15em #333;
+	margin-right: .5em;
+	padding-right: .5em;
+}
+div#header-right div.fb-like{
+	border-right: 0px;
+	display: inline-block;
+	margin-left: .8em;
+	}
+footer{
+	background: #004d94;
+	top: 100%;
+	display: block;
+	max-height: 100%;
+	padding: 1em 0 0 0;
+	position: absolute;
+	width: 100%;
+}
+footer div#foot{
+	background: #004D94;
+	margin: 0 auto;
+	text-align: left;
+	height: auto;
+	width: 90%;
+}
+footer div#foot figure{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+}
+footer div#foot ul, footer ul li{
+	font-size: 1em;
+	display: inline-block;
+	vertical-align: middle;
+}
+footer div#foot ul li{
+	border-right: solid .1em white;
+	margin-right: .7em;
+	padding-right: .7em;
+}
+footer div#foot ul li:last-child{
+	border-right: 0px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav#subnav{
+	display: inline-block;
+	margin-bottom:.1em;
+	text-align: right;
+	width: 100%;
+}
+nav#subnav ul li a{
+	border-left: solid 1px #004D94;
+	color: #30b1e9;
+	font-family: 'GoudyBold';
+	font-weight: normal;
+	font-size: .9em;
+	font-style: normal;
+	line-height: 1em;
+	padding: 0 .3em;
+}
+nav#subnav ul li:first-child a{
+	border-left: 0px;
+}
+nav#subnav ul li a:hover{
+	color: #004d94;
+}
+nav#mobile-menu{
+	display: none;
+}
+nav#principal{
+	background: url(../img/nav-bg.jpg) bottom repeat-x white;
+	border-bottom: solid .1em #ff9500;
+	border-top: solid .1em #ff9500;
+	line-height: 2.7em;
+	width: 90%;
+	min-height: 2.7em;
+	position: relative;
+	z-index: 2;
+}
+nav#principal ul{
+	margin-right: .5em;
+	text-align: right;
+}
+nav#principal ul li a{
+	color: #004d94;
+	font-family: 'GoudyBold';
+	font-weight: normal;
+	font-size: 1.2em;
+	font-style: normal;
+	line-height: 1em;
+	padding: 0 .3em;
+}
+nav#principal ul li a:hover{
+	color: #30b1e9;
+}
+nav#principal ul li a.selected-nav, nav#subnav ul li a.selected-nav,nav#principal ul li a.selected-nav:hover, nav#subnav ul li a.selected-nav:hover{
+	color: #000;
+}
+
+/*Estilos Home==============================*/
+}
+section#home{
+	background: white;
+	margin-bottom: 2em;
+	text-align: right;
+	vertical-align: bottom;
+	width: 100%;
+}
+section#home article{
+	display: inline-block;
+	width: 37%;
+	padding-right: 5%;
+	vertical-align: top;
+}
+section#home article h1{
+
+	border-bottom: solid .1em #ff9500;
+	color: #222;
+	font-family: 'GoudyBold';
+	font-weight: normal;
+	font-size: 1.9em;
+	font-style: normal;
+	height: 1.8em;
+	line-height: 1.8em;
+	margin-bottom: .5em;
+	text-align: left;
+	vertical-align: top;
+}
+section#home article ul li{
+	background: url(../img/check.png) left center no-repeat;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin-bottom: .6em;
+	padding-left: 1.8em;
+	text-align: left;
+}
+section#home article ul li.link{
+	background: url(../img/artriangle.png)  left no-repeat;
+}
+.link a{
+	color: black;
+	display: block;
+	text-align: left;
+	vertical-align: bottom;
+}
+.link a:hover{
+	color: #30b1e9;
+}
+section#home div#slider{
+	background: white;
+	-ms-box-shadow: 1px -1px 1em #262626;
+	-moz-box-shadow: 1px -1px 1em #262626;
+	-o-box-shadow: 1px -1px 1em #262626;
+	-webkit-box-shadow: 1px -1px 1em #262626;
+	box-shadow: 1px -1px 1em #262626;
+	display: inline-block;
+	margin-bottom: 1em;
+	text-align: right;
+	vertical-align: top;
+	width: 55%;
+}
+section#modulos-home{
+	display: block;
+	height: auto;
+	margin-bottom: 3em;
+	text-align: center;
+	width: 100%;
+}
+section#modulos-home article, section#modulos-interior article, section#modulos-sucursales article{
+	display: inline-block;
+	min-height: 400px;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+	width: 32%;
+}
+section#modulos-home article a, section#modulos-interior article a, section#modulos-sucursales article a{
+	background: url(../img/artriangle.png) left no-repeat black;
+	bottom: 0px;
+	display: block;
+	font-size: 1.2em;
+	height: 2.5em;
+	line-height: 2.5em;
+	padding-left:10%;
+	position: absolute;
+	text-align: left;
+	vertical-align: bottom;
+	width: 90%;
+}
+section#modulos-home article a:hover,  section#modulos-interior article a:hover,a#mapa-link:hover, section#modulos-sucursales article a:hover{
+	color:#30b1e9;
+}
+section#modulos-home img,  section#modulos-interior article img, section#modulos-sucursales article img{
+	border-top: solid .2em #ff9500;
+	margin-bottom: .5em;
+	text-align: center;
+	vertical-align: top;
+}
+section#modulos-home article h2,  section#modulos-interior article h2, section#modulos-sucursales article h2{
+	color: #222;
+	font-family: 'GoudyBold';
+	font-weight: normal;
+	font-size: 1.4em;
+	font-style: normal;
+	height: 1.8em;
+	line-height: 1.8em;
+	text-align: center;
+}
+section#modulos-home article p,  section#modulos-interior article p, section#modulos-sucursales article p{
+	text-align: justify;
+	margin-bottom: 1em;
+	padding: 0 7%;
+}
+/*Estilos Interior (Nosotros) -----------------------------------------*/
+section.contenido-interior{
+	min-width: 95%;
+}
+section#interior, section#modulos-interior, section#sucursales, section#modulos-sucursales, section#contacto{
+	background: white;
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+	width: 58%;
+}
+section#contacto{
+	width: 50%;
+	padding-right: 5%;
+	padding-bottom: 2em;
+}
+section#interior, section#sucursales,section#contacto{
+	-ms-box-shadow: 1px -1px 1em #262626;
+	-moz-box-shadow: 1px -1px 1em #262626;
+	-o-box-shadow: 1px -1px 1em #262626;
+	-webkit-box-shadow: 1px -1px 1em #262626;
+	box-shadow: 1px -1px 1em #262626;
+	margin-bottom: 2em;
+	padding-left: 2%;
+	
+}
+section#interior a,section#sucursales a{
+	color:#2363a5 ;
+
+}
+section#interior a:hover,section#sucursales a:hover{
+	color:#30b1e9 ;
+}
+section#interior div{
+	display: inline-block;
+	padding-bottom: 2%;
+	padding-right: .5em;
+	width: 55%;
+}
+section#interior h1,section#sucursales h1,section#contacto h1{
+	color: #2363a5;
+	display: block;
+	font-family: 'GoudyBold';
+	font-weight: normal;
+	font-size: 2em;
+	font-style: normal;
+	height: 1em;
+	line-height: 2em;
+	margin-bottom: 1em;
+	text-align: justify;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;	
+}
+section#interior img{
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+	width: 40%;
+}
+section#interior p,section#contacto p{
+	margin-bottom: .5em;
+}
+section#modulos-interior, section#modulos-sucursales{
+	margin-left: 5%;
+	width: 30%;
+}
+section#modulos-interior article,section#modulos-sucursales article{
+	background: white;
+	min-height: 400px;
+	width:100%;
+}
+section#modulos-interior article a,section#modulos-sucursales article a{
+	background: url(../img/artriangle.png) left no-repeat black;
+	padding-left: 15%;
+	width: 85%;
+}
+section#modulos-interior article h2, section#modulos-sucursales article h2{
+	padding-top: .5em;
+}
+section#modulos-interior article p, section#modulos-sucursales article p{
+	text-align: justify;
+	margin-bottom: 4em;
+	padding: 0 7%;
+}
+/*Servicios====================================================*/
+	section#interior div ul#servicios{
+		margin-bottom: 4em;
+	}
+	section#interior h3{
+		border-bottom: solid .1em #ff9500;
+		margin-bottom: .3em;
+	}
+	 #corto{
+	 	vertical-align: top;
+	 }
+	section#interior div ul#servicios li{
+	display: block;
+	background: url(../img/artriangle.png) center left no-repeat;
+	background-size: 5%;
+	margin-bottom: .2em;
+	padding-left: 1.2em;
+	}
+
+/*Sucursales----------------------------------------------------------*/
+section#sucursales, section#contacto{
+	padding-bottom: 1.5em;
+}
+section#sucursales article{
+	width: 50%; 
+	display: inline-block;
+	vertical-align: top;
+}
+section#sucursales article#sucursales-mapa{
+	width: 40%;
+	margin-left: 5%;
+}
+section#sucursales article a#mapa-link{background: url(../img/artriangle.png) left no-repeat black;
+	display: block;
+	font-size: 1.2em;
+	height: 2.5em;
+	line-height: 2.5em;
+	padding-left:10%;
+	text-align: left;
+	width: 90%;
+	color: white;
+	margin-bottom: 1em;
+}
+section#sucursales article a#mapa-link:hover{
+	color: #30B1E9;
+}
+section#sucursales article p{
+margin-bottom: 1em;
+}
+section#sucursales article p:last-child{margin-bottom: 2em;}
+article h5{
+	color: #30B1E9;
+}
+/*CONTACTO=========================================*/
+section#contacto div{
+ margin-bottom: 1em;
+ display: inline-block;
+}
+fieldset{
+	width: 100%;
+}
+form{
+	margin: auto;
+	padding: .25em 0;
+	width: 100%;
+}
+input[type="email"], input[type="text"],textarea, select{
+	background: #EEE;
+	border-radius: .25em;
+	color: black;
+	font-size: 1em;
+	padding: .25em;
+	width: 95%;
+}
+input[type="email"]:focus, input[type="text"]:focus, select option:hover{
+	background: #C6ECF9;
+}
+input[type="submit"]{
+	background: #31B1E8;
+	border-radius: 0 .25em;
+	color: white;
+	font-size: 1.25em;
+	padding: .25em;
+	width: 100%;
+}
+input[type="submit"]:hover{
+	background: black;
+	border-radius: .5em 0;
+	color: #EEE;
+	cursor: pointer;
+}
+label{
+	cursor: pointer;
+	display: block;
+	margin: .5em auto;
+	text-align: left;
+}
+legend{
+	color: #004D94;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: .1em .1em .5em #FFF;
+}
+.name{width: 45%; display: inline-block;}
+.margenDer{margin-right: 5%;}
+.hide{display: none;}
+.comment{
+	width: 100%;
+}
+textarea{
+	resize:none;
+	width: 100%;
+}
+#precarga, #respuesta{
+	display: none;
+}
+.cambio{
+	-ms-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+form span{color: red;}
+.privacidad p{padding-right: 5%;}
+
+/*Estilos Media Querys==============================*/
+@media screen and (min-width:1400px){
+	header{font-size: 1.1em;
+	}
+	header,section#contenido, div#foot, nav#principal{
+		margin: 0 auto;
+		min-width: 1200px;
+		max-width: 1200px;
+		text-align: center;
+	}
+	nav#subnav{
+		font-size: 1.1em;
+		width: 100%;
+	}
+	footer{
+		font-size: 1.2em;
+	}
+}
+
+
+@media screen and (max-width:1080px){
+	header,nav#principal, section#contenido, div#foot{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	}
+	div#header-right aside img{
+		width: 80%;
+	}
+	div#header-right aside {
+		width:100%;
+	}
+	div#header-right aside a{
+		max-width:35%;
+	}
+	div#header-right aside img{
+		max-width:100%;
+		text-align: left;
+	}
+	div#header-right div{
+	border-right: solid .1em #333;
+	margin-right: -2%;
+	padding-right: .5em;
+	}
+	footer{
+		min-height: 170px;
+	}
+	footer, #subnav{
+		font-size: 1em;
+		width: 100%;
+	}
+	section#home {
+		margin-bottom: 2em;
+	}
+	section#home article ul li{
+		font-size: 1.1em;
+		background-size: 8%;
+	}
+	section#modulos-home article{
+		font-size: .95em;
+	}
+	section#modulos-home article h2{
+		font-size: 1.3em;
+	}	
+	/*Interior*/
+	section#interior{
+		padding-bottom: 0;
+		padding-right: 5%;
+		text-align: right;
+		width: 50%;
+	}
+	section#interior h1{
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin-bottom: .5em;
+	padding-top: .5em;
+	}
+	section#interior div{
+	text-align: justify;
+	width: 100%;
+	}
+/*SUCURSALES-----------------------*/
+section#sucursales article a#mapa-link{
+	padding-left:15%;
+	width: 85%;
+}
+}
+
+
+
+@media screen and (max-width:1000px){
+	header figure{
+	width: 35%;
+	}
+	div#header-right{
+	width: 60%;
+	}
+	#header-right a,#header-right div, #header-right h6{
+	display: inline-block;
+	vertical-align: middle;}
+	#header-right div{
+	border-right: solid .15em #333;
+	margin-right: .5em;
+	padding-right: .5em;
+	}
+	nav#subnav{
+		padding-bottom: .5em;
+	}
+	section#home article ul li{
+	font-size: 1.15em;
+	line-height: 1.15em;
+	margin-bottom: .6em;
+	padding-left: 1.8em;
+	text-align: left;}
+	section#home article h1{
+		font-size: 1.5em;
+	}
+	section#modulos-home article{
+	font-size: .9em;
+	}
+	/*Interior*/
+	section#interior div{
+		margin-bottom: 1em;	
+	}
+	section#interior h1{
+		font-size: 1.4em;
+	}
+	section#interior img{
+		display: none;	
+	}
+	section#interior h1,section#contenido section#sucursales h1, section.contenido-interior section#sucursales h1{
+		text-align: center; 
+		height: auto;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width:800px){
+	header{
+		text-align: center;
+	}
+	header figure{
+		text-align: left;
+		width: 45%;
+	}
+	div#header-right{
+		text-align: right;
+	width: 45%;
+	}
+	div#header-right aside a img{
+		display: none;
+	}
+	div#header-right div{
+		border-right: none;
+		display: inline-block;
+	}
+	div#header-right aside div h6{
+		font-size: 1em;
+		margin-bottom: .3em;
+	}
+	footer div#foot figure{
+		display: inline-block;
+		width: 20%;
+	}
+	footer div#foot img{
+		width: 100%;
+	}
+	section#home article h1{
+		font-size: 1.3em;
+	}
+	section#home article ul li{
+		background-size:8%;
+		font-size: 1.15em;
+		line-height: 1em;
+		margin-bottom: .6em;
+		padding-left: 1.6em;
+		text-align: left;
+	}
+	section#modulos-home article{
+		font-size: .95em;
+		width: 45%;
+	}
+	section#modulos-home article:first-child{
+		margin-right:3%;
+	}
+	section#modulos-home article:nth-child(2){
+		display: none;
+	}
+	section#modulos-home article p{
+	text-align: justify;
+	margin-bottom: 1em;
+	padding: 0 3%;
+	}
+	nav#subnav{
+		font-size: 1.1em;
+		padding-bottom: .5em;
+		width: 100%;
+	}
+	footer{
+		font-size: .9em;
+	}
+	footer img{
+		width: 40%;
+	}
+	/*Interior*/
+	section#interior{
+		margin-bottom: 1em;
+		padding: 0 5%;
+		width: 90%;
+	}
+	section#interior div{
+		margin-bottom: 2em;
+		width: 100%;
+	}
+	section#interior img{
+		display: none;	
+	}
+	section#modulos-interior{
+	margin-bottom: 2em;
+	vertical-align: bottom;
+	width: 95%;
+	}
+	section#modulos-interior article{
+	width: 50%;
+	}
+	section#modulos-interior .hide{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 45%;
+	}
+	/*SERVICIOS=====================*/
+	section#interior div ul#servicios li{
+	background: url(../img/artriangle.png) center left no-repeat;
+	background-size: 3%;
+	}
+/*SUCURSALES=============================*/
+section#sucursales{
+	width: 95%;}
+section#modulos-sucursales{display: none;}
+section#contacto{width: 96%; padding-right: 2%;}
+}
+
+
+
+@media screen and (max-width:650px){
+
+	body{
+		padding-top: .05em;
+	}
+	header figure{
+		text-align: center;
+		width: 50%;
+	}
+	div#header-right aside{
+		text-align: center;
+		width:100%;
+	}
+	div#header-right aside a img{
+		display: inline-block;
+	}
+	div#header-right div{
+		border-right: solid 1px #333;
+		margin-right: .1em;
+	}
+	div#header-right aside div h6{
+		font-size: 1em;
+		line-height: 1em;
+		margin-bottom: 1em;
+		padding-top: .5em;
+	}
+	div#header-right, nav#subnav{
+		text-align: center;
+		width: 100%;
+	}
+	footer{min-height: 170px;}
+	footer div#foot{
+	margin: 0 auto;
+	text-align: left;
+	width: 90%;
+	}
+	footer div#foot figure{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	}
+	footer div#foot ul{
+	padding-top: 1em;
+}
+	section#home article h1{
+		font-size: 1em;
+	}
+	section#home article ul li, section#home article ul li:last-child{
+		background-size:9%;
+		font-size: .9em;
+		line-height: .9em;
+		margin-bottom: .7em;
+		padding-left: 1.6em;
+		text-align: left;
+	}
+	section#modulos-home article{
+		min-height: 380px;
+	}
+	section#modulos-home article a{
+		font-size: 1em;
+		padding-left: 15%;
+		width: 85%;
+	}
+	nav#principal, nav#principal ul{
+		font-size: .9em;
+		text-align: center;
+		width: 100%;
+	}
+
+	/*Interior*/
+	section#modulos-interior, section#modulos-interior article{
+	margin-left: 5%;
+	width: 90%;
+	}
+	section#modulos-interior img.hide{
+	display: none;
+	}
+	#autor{text-align: right; font-size: .9em; padding-top: 2em; margin-bottom: 2em;}
+}
+
+
+@media screen and (max-width:500px){
+	body, html{
+		width: 100%;
+	}
+	header,nav, section#contenido, div#foot, nav#principal{
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-top: .5em;
+		text-align: center;
+	}
+	header figure{
+		display: block;
+		margin-left: 5%;
+		width: 90%;
+		padding-top: 30px;
+		margin-bottom: 1em;
+	}
+	div#header-right{
+		display: none;
+	}
+	div#header-right aside{
+		height: 50%;
+	}
+	div#header-right aside a img{
+		display: none;
+	}
+	div#header-right div{
+		border-right: solid 1px #333;
+		margin-bottom: 1em;
+	}
+	header div#header-right div h6{
+	font-size: .9em;
+	}
+	nav#principal{
+	display: none;
+	}
+	nav#mobile-menu{
+	background: #347feb url(../img/mobilenav.png) bottom repeat-x;
+	display: block;
+	height: 40px;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	}
+	nav#mobile-menu ul#mob-principal,ul#mob-principal li a{
+	display: block;
+	font-family: "GoudyBold", Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: normal;
+	height: 50px;
+	min-width: 200px;
+	}
+	ul#mob-principal li a{
+	height: 40px;
+	line-height: 40px;
+	}
+	ul#mob-principal li a:hover{
+		color: #30b1e9;
+	}
+	nav#mobile-menu ul#mob-principal li ul#mostrar{
+		background: #004d94;
+		display: none;
+		padding-bottom: 4px;
+		vertical-align: top;
+		width: 100%;
+	}
+	nav#mobile-menu ul#mob-principal li ul li{
+		background: #30afe8;
+		border-bottom: solid thin #004d94;
+		height: 25px;
+		line-height: 25px;
+		width: 100%;
+	}
+	nav#mobile-menu ul#mob-principal li ul li a{
+		height: 25px;
+		display: block;
+		font-size: 1em;
+		line-height: 25px;
+	}
+	nav#mobile-menu ul#mob-principal li ul li a:hover{
+		background: white;
+		color:#004d94;
+	}
+	nav#mobile-menu ul#mob-principal li ul li.selected-mobile a{
+		background: #000;
+	}
+	nav#mobile-menu ul#mob-principal li ul li.selected-mobile a:hover{
+		background: #000;
+		color: white;
+	}
+	nav#subnav{
+		display: none;
+	}
+	section#home {
+		display: block;
+		line-height: 1em;
+		text-align: center;
+		vertical-align: top;
+		width: 100%;
+	}
+	section#home article{
+		background: transparent;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: .5em;
+		padding-top: 1em;
+		position: relative;
+		text-align: center;
+		vertical-align: top;
+		width: 95%;
+		z-index: 2;
+	}
+	section#home article h1{
+		font-size: 1.3em;
+		padding-left: 10%;
+		text-align: left;
+		max-width: 100%;
+	}
+	section#home article ul{
+		padding-left: 10%;
+	}
+	section#home article ul li, section#home article ul li:last-child{
+		background-size:8%;
+		font-size: 1.3em;
+		line-height: .9em;
+		margin-bottom: .7em;
+		padding-left: 1.6em;
+		text-align: left;
+	}
+	section#home div#slider{
+		width: 80%;
+	}
+	.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	display: block;
+	font-size: .8em;
+	padding: 2% 5%;
+}
+	section#modulos-home article{
+		font-size: .95em;
+		line-height: 1.2em;
+		margin-bottom: 1em;
+		min-height: auto;
+		width: 90%;
+	}
+	section#modulos-home article:first-child{
+		margin-right:0;
+	}
+	section#modulos-home article:nth-child(2){
+		display: inline-block;
+	}
+	section#modulos-home article p{
+	text-align: justify;
+	margin-bottom: 20%;
+	padding: 0 3%;
+	}
+footer div#foot ul{
+	width: 70%;
+	text-align: left;
+	padding-top: 0;
+	float: left;
+}
+	footer div#foot ul, footer ul li{
+	font-size: 1em;
+	display: inline-block;
+	margin-bottom: 1em;
+	vertical-align: middle;
+	width: 50%;
+}
+footer div#foot ul li{
+	border-right: 0px;
+	margin-right: .8em;
+	padding-right: .8em;
+}
+#autor{
+	text-align: right;
+}
+#autor a{
+	font-size: 1em;
+}
+	/*Interior*/
+	section#interior{
+		margin: 0 0 1em 0;
+		width: 90%;
+	}
+	section#interior h1{
+		font-size: 1.5em;
+		height: auto;
+		line-height: 1.3em;
+		padding-top: .5em;
+	}
+	section#interior img{
+		margin-left: 5%;
+		display: block;
+		width: 90%;
+	}
+	section#modulos-interior, section#modulos-sucursales{
+	text-align: center;
+	}
+	section#modulos-interior, section#modulos-interior article, section#modulos-sucursales article{
+	margin-left: 0%;
+	width: 90%;
+	}
+	section#modulos-interior img, section#modulos-sucursales img{
+		display: block;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	/*SERVICIOS=====================*/
+	section#interior div ul#servicios li{
+	background: url(../img/artriangle.png) center left no-repeat;
+	background-size: 6%;
+	}
+	/*SUCURSALES=========*/
+	section#modulos-sucursales{
+		width: 100%;
+		display: block;
+		margin-left: 0;
+		margin-bottom: 2em;
+	}
+	iframe{display: none;}
+	section#sucursales article#sucursales-mapa{
+		width: 100%;
+		display: block; margin: 0;
+	}
+	section#sucursales h1{
+		font-size: 1.5em;
+		height: auto;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	section#sucursales article#sucursales-mapa a#mapa-link{width: 80%;padding-left: 20%;}
+	section#sucursales article#slider-sucursales{
+		width: 70%;
+		display: block; margin: 0 auto;
+
+	}
+	/*CONTACTO===============*/
+	section#contacto div.name, section#contacto div.margenDer, select{
+	width: 95%;
+	display: block;
+	margin: 0 auto 1em;
+	}
+}
+
+
+
+@media screen and (max-width:320px){
+	body,html{
+		min-width: 200px;
+		width: 100%;
+	}
+	section#home article h1{
+		height: auto;
+		font-size: 1.2em;
+		padding-left: 10%;
+		text-align: left;
+		width: 90%;
+	}
+	section#home article ul li{
+	font-size: 1em;
+	}
+	section#home article a{
+		font-size: .9em;
+	}
+	section#home, section#modulos-home{
+	font-size: .9em;
+	}
+	section#modulos-home article p{
+	text-align: justify;
+	margin-bottom: 30%;
+	padding: 0 3%;
+	}
+	section#modulos-home article a{
+		padding-left: 20%;
+		width: 80%;
+	}
+	/*Interior*/
+	section#interior h1{
+		font-size: 1.2em;
+		height: auto;
+		line-height: 1.3em;
+		margin-bottom: .5em;
+	}
+	/*SERVICIOS=====================*/
+	section#interior div ul#servicios li{
+	background: url(../img/artriangle.png) center left no-repeat;
+	background-size: 8%;
+	}
+	/*SUCURSALES*=========*/
+	section#sucursales h1{
+		font-size: 1.5em;
+		height:auto;
+	}
+	section#modulos-interior,section#modulos-interior article, section#modulos-sucursales,section#modulos-sucursales article{width: 100%;}
+	/*Plugins */
+	.bx-wrapper .bx-pager.bx-default-pager a{
+		background-size: 100%;
+		height: 25px;
+		margin: 0 5px;
+		width: 25px;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a:hover,
+	.bx-wrapper .bx-pager.bx-default-pager a.active{
+		background-size: 100%;
+		background-position: left -25px;
+		height: 25px;
+		margin: 0 5px;
+		width: 25px;
+	}
+	
+}
+iframe{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border:0;
+}
