@@ -1,0 +1,67 @@
+* {
+  background-color: pink;
+}
+h1 {
+  text-align: center;
+  color: purple;
+  font-size: 37px;
+}
+img {
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  font-size: 17px;
+}
+
+button {
+  color: purple;
+  padding: 0 20px;
+  border: 5px solid purple;
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+.a {
+  margin-left: 40%;
+}
+
+.img {
+  margin-left: 30%;
+}
+
+.img__about {
+ width: 30%;
+ margin-left: 35%;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-column: auto auto auto auto;
+}
+
+.img__jg1 {
+  position: relative;
+  width: 20%;
+  margin-left: 8%;
+}
+
+.img__jg2 {
+  position: absolute;
+  width: 20%;
+  margin-left: 30%;
+}
+
+.img__jg3 {
+  position: absolute;
+  width: 20%;
+  margin-left: 52%;
+}
+
+.img__jg4 {
+  position: absolute;
+  width: 18%;
+  margin-left: 75%;
+}
