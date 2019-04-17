@@ -1,0 +1,30 @@
+body {
+box-sizing: border-box;
+  }
+
+.seccion1 h2{
+  margin: 30px auto;
+  text-align: center;
+  }
+
+.seccion1 {
+  margin: 40px 100px 40px 100px;
+}
+
+.seccion2 h2{
+  margin: 30px;
+  }
+
+.seccion2 {
+  margin: 20px 100px 40px 100px;
+}
+
+.travel {
+  display: flex;
+  margin: 40px 100px 40px 100px; 
+  justify-content: space-between;
+}
+
+.travel h2{
+  margin: 30px;
+  }
