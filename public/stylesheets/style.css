@@ -1,0 +1,195 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+}
+
+.main {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #212529;
+}
+
+.first-page {
+	width: 100%;
+	height: 100vh;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	background-image: url("/images/main_backgroundimage.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 14rem;
+}
+
+.navbar-left  a, .navbar-right a{
+	text-decoration: none;
+	color: #212529;
+	border-bottom: 2px solid transparent;
+	margin: 0 0 0 1rem;
+}
+
+.navbar-left a:hover, .navbar-right a:hover {
+	border-bottom: 2px solid #212529;
+}
+
+.logo-link a {
+	border-bottom: 2px solid transparent;
+}
+
+.logo-link a:hover {
+	border-bottom: 2px	solid transparent;
+}
+
+.navbar-left {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.logo {	
+	width: 50px;
+	height: 50px;
+
+}
+
+.container p {
+	padding-bottom: 1rem;
+	margin: 0;
+}
+
+.container-heading {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+	margin: 0; 
+}
+
+.container .container-description {
+	padding: 0 6rem 2rem 6rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.container .button-info {
+	display: block;	
+	font-weight: 100;
+}
+
+.container .button-info a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.3rem;
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	border-radius: 4px;
+	padding: 0.5rem;
+}
+
+.card-grid {
+	max-width:1080px;
+	margin: 0 auto; 
+	padding: 4rem 0;
+
+	display: flex;
+}
+
+.card {
+	background: #fff;
+	margin: 0 30px;
+	padding: 10px;
+	border: 2px solid;
+	border-color: rgba(0, 0, 0, 0.125);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition: all 1s;
+}
+
+.card-title {
+	margin: 0;
+}
+
+.card-image {
+	width: 100%;
+	height: 220px;
+	display: block;
+}
+
+.button-buy-container {
+	margin: 0;
+	padding: 20px;
+	display: block;
+}
+
+.button-buy {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #007bff;
+	padding: 10px;
+	border-color: #007bff;
+	border-radius: 4px;
+}
+
+.quienes-somos-container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.quienes-somos-title h2 {
+	text-align: center;
+}
+
+.quienes-somos-card {
+	display: flex;
+}
+
+.quienes-somos-image img {
+	max-width: 100%;
+}
+
+.quienes-somos-image img:hover {
+	transform: scale(1.025);
+	transition: all 1s;
+}
+
+.quienes-somos-card p {
+	line-height: 1.5;
+	font-size: 20px;
+	margin: 0;
+	padding: 0px 20px
+}
+
+.footer {
+	margin: 0px 20px 10px 20px;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.125);
+	border-color: rgba(0, 0, 0, 0.125);
+	border-radius: 4px;
+}
+
+.footer p {
+	padding: 20px;
+	
+}
+
+.footer a {
+	text-decoration: none;
+	color: #212529;
+}
