@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+p,
+ul {
+  margin: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+
+nav a {
+  color: tomato;
+  text-decoration: none;
+}
+
+nav a::before,
+nav a::after {
+  content: '__';
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:hover::before,
+nav a:hover::after {
+  color: tomato;
+}
+
+main {
+}
+
+footer p {
+  margin: 10px;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+section.cover {
+  display: flex;
+  background: url('images/hero.jpg');
+  background-size: cover;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+section.cover h1 {
+  font-size: 3em;
+  color: white;
+  text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+section.content {
+  margin: 0 100px;
+}
+
+section.content ul > li:nth-child(odd) {
+  font-weight: bold;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+
+figure {
+  max-width: 30%;
+  transition: 0.4s all ease-in;
+}
+
+figure:hover {
+  transform: scale(1.1);
+}
+
+figure img {
+  max-width: 100%;
+}
