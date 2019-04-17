@@ -1,0 +1,108 @@
+body{
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #c8d6e5;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background: url("images/ehud-neuhaus-191867-unsplash.jpg");
+  background-size: cover;
+  min-height: 100%;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  
+}
+.container{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.brand{
+  font-size: 30px;
+  font-weight: 300;
+}
+.brand span{
+  color: #222f3e;
+}
+nav ul{
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  padding: 10px 0;
+  position: relative;
+  letter-spacing: 2px;
+}
+.links::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #222f3e;
+  transition: width .5s
+}
+.links:hover::after{
+  width: 100%;
+  transition: width .5s;
+}
+.main {
+  position: absolute;
+  top: 20%;
+  text-align: left;
+  color: #c8d6e5;
+  font-weight: lighter; 
+  margin: 50px 30px;
+  
+}
+.footer {
+  display: flex;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #0072f5;
+  color: #c8d6e5;
+  text-align: center;
+  height: 15%;
+}
+
+
+  ul a{
+    list-style:none;
+  }
+
+  .text{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+  div.gallery img {
+    width: 50%;
+    height: auto;
+  }
+  
+  
+
+  .gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
