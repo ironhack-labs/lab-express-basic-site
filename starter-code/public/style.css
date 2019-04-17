@@ -1,0 +1,22 @@
+.fondo{
+    background-color: goldenrod;
+}
+.logobb img{
+    display: flex;
+    justify-content: center;
+}
+.pages a {
+    display: flex;
+    align-items: inherit;
+    flex-direction: row-reverse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    justify-content: right;
+}
+.column img{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
