@@ -1,0 +1,47 @@
+* {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+#gallery {
+  display: flex;
+}
+
+img {
+  width: 25%;
+}
+
+ul {
+  padding: 10px;
+  border: 10px solid black;
+}
+li {
+  display: inline;
+  font-size: 3em;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("/images/bg.jpg");
+  border-top: none;
+  margin: auto;
+  /* display: flex; */
+}
+
+p {
+  font-size: 2em;
+}
+
+#nav {
+  background: grey;
+  width: 100%;
+  top: 0px;
+}
+
+#content {
+  background: white;
+  width: 50%;
+  margin: auto;
+  align-content: center;
+}
