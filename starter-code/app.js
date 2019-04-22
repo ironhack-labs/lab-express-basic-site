@@ -18,9 +18,9 @@ app.get('/', (request, response, next) => {
     <title>Main Page</title>
   </head>
   <body>
-    <h1>This is my Main Page!!!</h1>
+    <h1>This is my Main Page!!</h1>
 
-    <div class= 'main-div'> Welcome to my main page! Click the linsk below!</div>
+    <h2> Welcome to my main page! Click the links below!</h2>
   
     <ul>
       <li> <a href= 'About'> About Me </a> </li>

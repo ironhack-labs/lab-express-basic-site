@@ -4,23 +4,32 @@ h1 {
   background-color: green;
 }
 
-
-img-container  {
+h2 {
   display: flex;
   justify-content: center;
+}
+.main-div {
+display: flex;
+justify-content: center;
+}
+
+.img-container  {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
   
 }
 
 img {
-  display: flex;
   width: 300px;
   height: 160px;
-  justify-content: space-around;  
 }
 
 ul > li {
   
   display: inline;
+  display: flex;
+  justify-content: center;
   margin-right: 30px;
   
 
