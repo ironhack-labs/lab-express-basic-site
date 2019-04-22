@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-color:  rgba(215, 44, 44, 0.8);;
+    border-radius: 8px;
+    width:300px;
+  padding: 20px;
+  padding-top: 0;
+  font-size: 30px;
+
+}
+html{
+   background: url("../images/bluebackground.png") no-repeat;
+   background-size: cover;
+}
+body{
+    color: white;
+}
