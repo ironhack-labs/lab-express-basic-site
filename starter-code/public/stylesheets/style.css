@@ -1,0 +1,20 @@
+body{
+  background-color: lavender;
+}
+
+h1, h2{
+  text-align: center;
+  color: rgb(67, 17, 92);
+}
+.pics{
+  display: flex;
+  flex-direction: row;
+}
+
+.photo{
+  text-align: center;
+}
+
+.symbol{
+  text-align: center;
+}
