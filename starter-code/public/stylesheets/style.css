@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+* {
+  font-family: "Fira Sans";
+}
+
+h1 {
+  font-size: 60px;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 10px;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  /* padding: 20px; */
+
+  font-size: 25px;
+}
+
+li {
+  margin: 20px;
+  justify-self: end;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  display: inline-flex;
+}
+
+.main-content {
+  text-align: center;
+}
+
+#theo-park {
+  transform: rotate(90deg);
+  display: inline-block;
+  padding: 40px;
+}
+
+.checklist {
+  text-align: left;
+  width: 20%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.checklist-container {
+  justify-content: center;
+  display: flex;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.rotate-2 {
+  transform: rotate(270deg);
+}
+
+.mySlides {
+  display: none;
+  align-self: center;
+  width: 100%;
+  margin-top: 122px;
+}
