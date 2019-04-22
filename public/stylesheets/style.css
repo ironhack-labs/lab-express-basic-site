@@ -1,0 +1,44 @@
+#homeimg{
+
+    width: 100%;
+}
+
+#aboutimg{
+
+    width: 100%;
+}
+
+#picimg{
+
+    width: 100%;
+}
+
+li {
+    display: inline;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* li {
+    float: right;
+  } */
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
