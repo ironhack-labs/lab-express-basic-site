@@ -1,0 +1,14 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Nour Essoussi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,24 @@
+body {
+  color: white;
+  background-color: #272727;
+}
+/* .masthead > div {
+  position: relative;
+  top: 200px;
+} */
+.masthead {
+  position: absolute;
+  background: url("../images/background.jpg") top center no-repeat fixed;
+  background-size: 110%;
+  height: 100vh;
+  width: 100vw;
+  /* width: 1366px; */
+  /* object-fit: none; */
+
+  filter: contrast(0.7);
+}
+
+header {
+  position: relative;
+  top: 200px;
+}

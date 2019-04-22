@@ -1,0 +1,18 @@
+const express = require("express");
+const app = express();
+
+app.use(express.static("public"));
+
+app.get("/home", (req, res) => {
+  res.sendFile(__dirname + "/public/views/home.html");
+});
+
+app.get("/about", (req, res) => {
+  res.sendFile(__dirname + "/public/views/about.html");
+});
+
+app.get("/portfolio", (req, res) => {
+  res.sendFile(__dirname + "/public/views/portfolio.html");
+});
+
+app.listen(3000);
