@@ -1,0 +1,27 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+
+img-container  {
+  display: flex;
+  justify-content: center;
+  
+}
+
+img {
+  display: flex;
+  width: 300px;
+  height: 160px;
+  justify-content: space-around;  
+}
+
+ul > li {
+  
+  display: inline;
+  margin-right: 30px;
+  
+
+}
