@@ -1,0 +1,1 @@
+"use strict";$(function(){$("article h3 > a, article h4 > a").on("click",function(t){var a=$(this);a.hasClass("article-headline-link")||(a.toggleClass("active"),$(a.attr("href")).toggleClass("active"),t.preventDefault())})});

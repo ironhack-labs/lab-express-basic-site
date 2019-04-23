@@ -1,0 +1,1 @@
+var EmbedPreview={init:function(){this._storeReusableDOMEls(),this._bindToDOM()},_storeReusableDOMEls:function(){this.container=document.getElementById("output")},_bindToDOM:function(){this.container.onclick=this._onContainerClicked},_onContainerClicked:function(){window.location=window.location.href.split("/preview/").join("/")}};EmbedPreview.init();
