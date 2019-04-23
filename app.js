@@ -21,4 +21,3 @@ app.get('/gallery', (request, response, next) => {
   response.sendFile(__dirname + '/views/photo-page.html');
 });
 
-

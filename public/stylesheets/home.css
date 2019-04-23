@@ -1,15 +1,27 @@
+html{
+  background-color: rgb(180, 212, 240);
+}
 h1{
   font-family: 'American Typewriter';
   text-align: center;
   font-weight: 100;
   font-size: xx-large;
+  background-color: rgb(180, 212, 240);
+}
+h5{
+  font-family: 'American Typewriter';
+  text-align: center;
+  font-weight: 400;
 }
 a{
-  font-family: 'American Typrewriter';
+  /* font-family: 'American Typrewriter'; */
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: black;
+  background-color:rgb(180, 212, 240);
 }
 p{
   font-family: 'American Typewriter';
@@ -22,4 +34,7 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.carousel slide{
+  background-color:rgb(180, 212, 240);
 }
