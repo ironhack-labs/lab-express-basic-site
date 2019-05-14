@@ -1,0 +1,14 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "First express app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
