@@ -1,0 +1,26 @@
+/* h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  color: white;
+ margin-top: -10vh;
+float: left;
+z-index: 3;
+}
+.background {
+  background-image: url(../images/fondo.png);
+  width: 100vw;
+  height: 100vw;
+  background-size: cover;
+  transform: rotate(90deg);
+  z-index: -1000;
+ 
+}
+a:link,
+a:hover,
+a {
+  text-decoration: none;
+  color: white;
+  font-size: .8em;
+ 
+} */
