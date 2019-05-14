@@ -1,0 +1,14 @@
+body {
+  color: blue;
+  background-color: bisque;
+  text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+.button {
+  text-decoration-style: none;
+  margin-top: 100px;
+}
