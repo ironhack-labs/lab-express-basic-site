@@ -1,0 +1,50 @@
+
+* {
+    color : black;
+    font-weight: 200px;
+}
+.background {
+  background:rgba(9, 104, 255, 0.52)
+}
+main {
+  height: 100vh;
+}
+h1 { 
+  font-size: 50px;
+  text-align: center;
+    background:rgba(9, 104, 255, 0.75)
+
+
+}
+
+main p {
+  text-align: center;
+  font-size: 50px; 
+
+
+}
+.redirect a { 
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  display: inline-block;
+  padding : 150px;
+
+
+
+}
+.redirect {
+  display:flex;
+  justify-content: space-around
+}
+.images {
+    text-align: center;
+
+}
+
+.images img{
+  width: 500px;
+
+}
