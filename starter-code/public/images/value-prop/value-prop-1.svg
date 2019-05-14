@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="60" height="60" fill="#32C3FF" fill-opacity=".1" rx="4"/>
+        <circle cx="30" cy="30" r="14" fill="#32C3FF" opacity=".2"/>
+        <g transform="translate(10 18)">
+            <rect width="22" height="3" x="7" fill="#32C3FF" rx="1.5"/>
+            <rect width="6" height="2" x="20" y="17" fill="#32C3FF" rx="1"/>
+            <g transform="translate(12 6)">
+                <rect width="6" height="2" fill="#32C3FF" rx="1"/>
+                <rect width="22" height="2" x="4" fill="#6861FF" opacity=".4" rx="1"/>
+            </g>
+            <rect width="22" height="3" y="11" fill="#32C3FF" rx="1.5"/>
+            <rect width="22" height="3" x="16" y="22" fill="#32C3FF" rx="1.5"/>
+            <rect width="14" height="2" x="8" y="17" fill="#6861FF" opacity=".4" rx="1"/>
+        </g>
+    </g>
+</svg>
