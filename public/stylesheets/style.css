@@ -1,0 +1,53 @@
+body{
+    color:pink;
+    text-align: center;
+    
+    font-family: 'Roboto Mono', monospace;
+    
+}
+img{
+    width: 50%;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+h1{
+    vertical-align: middle;
+}
+ul li{
+   list-style-type: none;
+   text-decoration: none;
+   justify-content:left;
+   text-align: left;
+   
+  
+}
+ul{
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.section-title{
+    font-size: 30px
+}
+.madre{
+    display:flex;
+    width: 50%;
+    display:inline-block;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row ;
+    margin-top: 50px;
+}
+.fixed{
+    position: fixed;
+    top:20px;
+    right:20px
+}
+
