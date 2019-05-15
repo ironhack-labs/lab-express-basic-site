@@ -1,0 +1,26 @@
+nav{
+    height: 10vh;
+    background-color: rgb(41, 82, 205);
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+body{
+  background: rgb(47, 79, 3);
+}
+
+ul li{
+  display: inline;
+}
+
+/* .gall{
+  display: flex;
+  text-align: center
+
+}
+
+.gall img {
+
+  margin-top: 20px;
+} */
