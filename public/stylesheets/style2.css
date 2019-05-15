@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-image: url(/images/IMG_20190220_171748_053.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 110px;  
+    text-transform: uppercase; 
+}
+
+header p{
+    font-size: 60px;
+    
+}
+
+section p{
+    display: block;
+    width: 50vw;
+    height: 450px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 40px;
+    background-color: rgba(245,222,179,.7)
+
+}
+
+header nav ul{
+    background-color: goldenrod;
+    height: 90px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    padding: 30px;
+    margin-right: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}

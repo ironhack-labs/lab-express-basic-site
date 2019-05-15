@@ -1,0 +1,45 @@
+header{
+    height: 100vh;
+    background-image: url('../images/IMG_20190220_130300_414.jpg');
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+h1{
+    
+    font-size: 150px;  
+    text-transform: uppercase; 
+    
+}
+
+p{
+   
+    font-size: 100px;
+    
+}
+
+header nav{
+    background-color: goldenrod;
+    height: 90px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    padding: 30px;
+    margin-right: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.hero{
+    text-align: center;
+    padding: 150px;
+}
