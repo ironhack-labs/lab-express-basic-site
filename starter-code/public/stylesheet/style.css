@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(230, 218, 202);
+  font-family: "Sans Serif";
+  text-align: center
+}
+
+img {
+  width:300px;
+  height: 200px
+}
+
+.fotos {
+  transition: .5
+}
