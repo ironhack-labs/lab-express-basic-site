@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ambarino/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "hbs": "^4.0.4"
   }
 }

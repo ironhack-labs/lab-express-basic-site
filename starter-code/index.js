@@ -4,20 +4,23 @@ const app = express()
 const port = 3000
 
 app.use(express.static('public'))
+app.set('views', __dirname + '/views');
+app.set('view engine', 'hbs');
+
 
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html');
+  res.render('index');
 })
 
 
 app.get('/views/about.html', (req, res) => {
-  res.sendFile(__dirname + '/views/about.html');
+  res.render('about')
 })
 
 
 app.get('/views/gallery.html', (req, res) => {
-  res.sendFile(__dirname + '/views/gallery.html');
+  res.render('gallery')
 })
 
 
