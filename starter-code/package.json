@@ -1,0 +1,14 @@
+{
+  "name": "express_dayliexercice",
+  "version": "1.0.0",
+  "description": "express_basic_site-dayli_exercice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge_Luis_Hernández_Fernádez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
