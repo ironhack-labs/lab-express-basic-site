@@ -21,7 +21,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/paintball', (req, res) => {
-  res.sendFile(__dirname + '/views/about-page.html');
+  res.sendFile(__dirname + '/views/paintball-page.html');
 });
 
 
