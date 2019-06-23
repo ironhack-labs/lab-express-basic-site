@@ -3,8 +3,6 @@ const puppeteer = require('puppeteer');
 let browser;
 
 
-
-
 // describe('Array', function () {
 //    describe('#indexOf()', function () {
 //       it('Solo es probar que corren los test', function () {
@@ -12,8 +10,6 @@ let browser;
 //       });
 //    });
 // });
-
-
 
 
 before(async () => {
@@ -25,29 +21,53 @@ after(async () => {
    await browser.close()
 });
 
-let listaUrlRel = ['index.html', 'about.html', 'fotos.html'];
+let listaPage = [
+   {urlRel: 'index.html', nombre: 'Home', htmlBody: ''},
+   {urlRel: 'about.html', nombre: 'About', htmlBody: ''},
+   {urlRel: 'fotos.html', nombre: 'Fotos', htmlBody: ''},
+];
+
+
 const urlSite = 'http://localhost:3005';
 
-let fnTestPage= urlRel=>{
 
-   describe(`Test Pagina  ${urlRel}`, () => {
+let fnTestPage = itemPagina => {
+
+   const urlRel = itemPagina.urlRel;
+
+
+   describe(`Test Pagina  ${urlRel}`, async () => {
 
       it('verificar pagina OK ' + urlRel, async () => {
 
-         let urlAbs = urlSite + '/' + urlRel;
+         const urlAbs = urlSite + '/' + urlRel;
 
-         page.on('response', response => {
+         await page.on('response', response => {
 
             const req = response.request();
+
             if (req.url() === urlAbs) {
                response.buffer().then(
                    b => {
-                      let statusActual = response.status();
-                      assert(200, statusActual , `no devolvio un 200 ${urlRel} - devolvio ${statusActual}`);
-                      console.log(`${response.status()} ${response.url()} ${b.length} bytes`);
+                      const statusActual = response.status();
+
+                      assert(200 === statusActual, `no devolvio un 200 ${urlRel} - devolvio ${statusActual}`);
+
+                      if (statusActual === 200) {
+                         const promise = response.text();
+                         promise.then(
+                             (body) => {
+                                itemPagina.htmlBody = body;
+                             },
+                             (error) => {
+                                console.log(error);
+                             }
+                         );
+                      }
+
                    },
                    e => {
-                      assert(200, statusActual , `${urlRel} - error fatal ${response.url()} , ${e}`);
+                      assert(false, `${urlRel} - error fatal ${response.url()} , ${e}`);
                    }
                );
             }
@@ -58,17 +78,27 @@ let fnTestPage= urlRel=>{
 
          await page.goto(urlAbs, {waitUntil: 'networkidle2'});
 
-
          await page.screenshot({path: 'test/screen/' + urlRel + '.png'});
+
+         //Verificar el contenido del html
+
+
+         listaPage.forEach(item => {
+            const htmlLink = `<a class="nav-link" href="${item.urlRel}">${item.nombre}</a>`;
+            let index = itemPagina.htmlBody.indexOf(htmlLink);
+
+            assert(index > 0, `No aparece el link ${item.urlRel} en ${itemPagina.nombre}`);
+         });
+
 
       }).timeout(6000)
    });
 };
 
 
-listaUrlRel.forEach( urlRel=>{
+listaPage.forEach(itemPagina => {
 
-   fnTestPage(urlRel);
+   fnTestPage(itemPagina);
 });
 
 
