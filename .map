@@ -1,1 +1,10 @@
-{"version":3,"file":"lab-express-basic-site","sourceRoot":"","sources":["lab-express-basic-site/dist_ts/server.ts"],"names":[],"mappings":"AAAA,YAAY,CAAC;AAEb;;GAEG;AAEH,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC"}
+{
+   "version": 3,
+   "file": "lab-express-basic-site",
+   "sourceRoot": "",
+   "sources": [
+      "lab-express-basic-site/dist_ts/server.ts"
+   ],
+   "names": [],
+   "mappings": "AAAA,YAAY,CAAC;AAEb;;GAEG;AAEH,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC"
+}
