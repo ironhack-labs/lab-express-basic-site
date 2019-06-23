@@ -1,0 +1,21 @@
+<div class="contact-page-container">
+  <h1 class="contact-page-title">Contact</h1>
+
+  <div class="form-container">
+    <form method="post" action="/add-message" id="contact_form" autocomplete="off">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" required>
+      <label for="email">Email</label>
+      <input id="email" type="text" name="email" required>
+      <label for="subject">Subject</label>
+      <input id="subject" type="text" name="subject">
+      <label for="message">Message</label>
+      <textarea rows="10" name="message"></textarea>
+      <br>
+      <input class="btn-submit" type="submit" value="Submit"></input>
+    </form>
+
+  </div>
+  <p class="sent-ok"></p>
+  <p class="sent-not-ok"></p>
+</div>

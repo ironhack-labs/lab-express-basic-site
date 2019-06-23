@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/client.js" type="module"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title>Portfolio Template</title>
+</head>
+
+<body class="{{bodyClass}}">
+  <div class="{{bigWrapper}}">
+    <header class="{{headerClass}}">
+      {{>nav_main}}
+      {{!-- view partial !!! --}}
+    </header>
+
+    {{{ body }}}
+    {{!-- body is a placeholder containing ANY page of our app --}}
+  </div>
+
+  {{>footer}}
+</body>
+
+</html>
