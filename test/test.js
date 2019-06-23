@@ -6,7 +6,7 @@ let browser;
 // describe('Array', function () {
 //    describe('#indexOf()', function () {
 //       it('Solo es probar que corren los test', function () {
-//          assert(1, 1, "dummy");
+//          assert(true, "Es para robar que esta funconando testing");
 //       });
 //    });
 // });
