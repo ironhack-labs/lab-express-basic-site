@@ -1,0 +1,23 @@
+{{#unless users}}
+<p>
+    no users yet
+</p>
+{{/unless}}
+
+{{#if users}}
+<ul>
+    {{#each users}}
+    <li>
+        {{this.firstname}}
+        -
+        {{this.lastname}}
+        -
+        {{this.age}}
+        -
+        {{this.email}}
+        -
+        {{this.pays}}
+    </li>
+    {{/each}}
+</ul>
+{{/if}}
