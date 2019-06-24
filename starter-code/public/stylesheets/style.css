@@ -1,0 +1,106 @@
+body {
+    background-color : #ffd633;
+    font-family: 'Futura', sans-serif;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    width: 70%;
+    margin: 7% auto;
+}
+
+#navbar {
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    background-color: rgb(191,0,6);
+    color : #ffd633;
+    position: fixed; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%; 
+}
+
+#navbar a {
+    color: #ffd633;
+    font-size: 2em;
+}
+
+#navbar li {
+    padding: 5% 50px;
+    list-style-type: none;
+}
+
+#title {
+    font-size: 2em;
+    color: blueviolet;
+    position: fixed;
+}
+
+/* #navbar a:hover, li:hover {
+    color: rgb(191,0,6);
+    background-color: #ffd633;
+} */
+
+/*      HOME      */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    position: fixed;
+} 
+
+#title-side {
+    width: 300px;
+}
+
+#video {
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+
+/*      ABOUT      */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+} 
+
+.container img {
+    width: 140px;
+    border-radius: 100px;
+    padding: 10%;
+}
+
+#credits {
+    text-align: right;
+} 
+
+#credits a {
+    color: rgb(191,0,6)
+} 
+
+/*      GALLERY      */
+
+.flex-row {
+    display: flex;
+    flex: row nowrap;
+}
+
+.poster {
+    width: 300px;
+    height: auto;
+}
