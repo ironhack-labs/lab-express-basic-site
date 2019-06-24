@@ -1,0 +1,311 @@
+/*
+----------------------------------------------------------
+DEFAULT STYLES
+----------------------------------------------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main-block {
+  width: 85%;
+  margin-left: 15%;
+}
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.container-videos {
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.circle-center {
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 50px;
+  background: rgba;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 30px;
+}
+
+.grid-videos {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 20px;
+}
+
+.title-section {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.white {
+  color: #fff;
+}
+
+.yellow {
+  color: rgba(235, 173, 4, 1);
+}
+/*
+----------------------------------------------------------
+NAV
+----------------------------------------------------------
+*/
+nav {
+  width: 15%;
+  max-width: 100%;
+  position: fixed;
+  padding: 50px 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #002;
+  z-index: 9999;
+}
+
+.logo {
+  color: rgba(235, 173, 4, 1);
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+  font-family: "oswald";
+  margin-bottom: 20px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  padding: 20px 35px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  color: rgba(235, 173, 4, 1);
+  transition: 0.3s ease;
+}
+/*
+----------------------------------------------------------
+HEADER
+----------------------------------------------------------
+*/
+.bg-header {
+  background-image: url("../images/hillsong.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+.txt {
+  position: absolute;
+  font-size: 5em;
+
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(235, 173, 4, 0.95);
+}
+/*
+----------------------------------------------------------
+SECTION INTRO
+----------------------------------------------------------
+*/
+.section-intro {
+  padding: 50px;
+  background: rgba(235, 173, 4, 1);
+}
+
+.text-intro {
+  width: 500px;
+  text-align: justify;
+  line-height: 1.7;
+  margin: auto;
+}
+/*
+----------------------------------------------------------
+SECTION GOSPEL SINGERS
+----------------------------------------------------------
+*/
+.section-gospel-singers {
+  padding: 80px;
+  background: #002;
+}
+.bloc-singers {
+  position: relative;
+}
+.bloc-singers img {
+  width: 320px;
+  height: 320px;
+  background: #eee;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10%;
+}
+
+.rollover {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(235, 173, 4, 1);
+  border-radius: 10%;
+  opacity: 0;
+}
+
+.bloc-singers:hover .rollover,
+.bloc-singers:hover .bloc-singers img {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.singers-name {
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 320px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.see-more {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  text-decoration: none;
+  color: #111;
+}
+
+.see-more:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+/*
+----------------------------------------------------------
+FOOTER
+----------------------------------------------------------
+*/
+
+/*
+----------------------------------------------------------
+SECTION INFO SINGERS
+----------------------------------------------------------
+*/
+.section-info-singers {
+  padding: 90px;
+  background: rgba(235, 173, 4, 0.95);
+  text-align: center;
+}
+
+.singer-name {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.img-singers {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 4px solid rgba(247, 243, 132, 0.25);
+}
+
+.singer-description {
+  width: 500px;
+  text-align: justify;
+  line-height: 1.7;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.section-favourite-songs {
+  background: #002;
+  padding: 50px;
+}
+
+iframe {
+  width: 400px;
+  height: 300px;
+}
+
+.error-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(235, 173, 4, 1);
+  text-align: center;
+}
+
+.content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-error {
+  background-image: url("https://www.arc.losrios.edu/images/ARC-Images/404erro640x480r.png");
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 480px;
+}
+
+.home-link {
+  width: 100px;
+  margin: auto;
+  padding: 10px 25px;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background: #002;
+  font-weight: bold;
+}
+
+.home-link:hover {
+  background: #cc3300;
+  transition: 0.3s ease;
+}

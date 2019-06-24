@@ -1,0 +1,42 @@
+<nav>
+  <div class="logo">
+    GOSPEL
+  </div>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="/error">Edification</a></li>
+    <li><a href="/error">Story</a></li>
+  </ul>
+</nav>
+
+<main class="main-block">
+  <header class="bg-header">
+    <div class="txt">
+    </div>
+
+  </header>
+
+  <section class="section-intro white">
+    <h1 class="title-section center">Introduction</h1>
+    <div class="bloc-text">
+      <p class="text-intro">{{textIntro}}</p>
+    </div>
+  </section>
+  <div class="circle-center"></div>
+
+  <section class="section-gospel-singers" id="about">
+    <h2 class="title-section center white">Gospel <span class="yellow">singers</span></h2>
+    <div class="grid container ">
+      {{#each singers}}
+      <article class="bloc-singers">
+        <img src="{{this.image}}" alt="">
+        <div class="rollover">
+          <div class="singers-name">{{this.name}}</div>
+          <a class="see-more" href="/about/{{this._id}}">See more...</a>
+        </div>
+      </article>
+      {{/each}}
+    </div>
+  </section>
+</main>

@@ -1,0 +1,42 @@
+<nav>
+  <div class="logo">
+    GOSPEL
+  </div>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="/error">Edification</a></li>
+    <li><a href="/error">Story</a></li>
+  </ul>
+</nav>
+
+<main class="main-block">
+  <section class=" section-info-singers">
+    <div class="container">
+
+      <div class="singer-name">
+        {{seeMoreSingers.name}}
+      </div>
+
+      <div class="singer-image">
+        <img class="img-singers" src="{{seeMoreSingers.image}}" alt="">
+      </div>
+
+      <div class="singer-description">
+        <p>{{seeMoreSingers.description}}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-favourite-songs white">
+    <h2 class="title-section center">Favourite Songs</h2>
+    <div class="container-videos">
+      <div class="grid-videos">
+        {{#each seeMoreSingers.videos}}
+        <iframe src="{{this}}" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+</main>
