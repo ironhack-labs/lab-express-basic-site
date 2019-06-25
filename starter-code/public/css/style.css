@@ -1,0 +1,47 @@
+html{
+  font-size: 10px;
+}
+#lannisterpage{
+  background: black;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+a{
+  text-align: center;
+}
+.about{
+  font-size: 3rem;
+  text-align: center;
+}
+#lannister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+ img{
+  max-width: 800px;
+}
+
+.lannister-text{
+  text-align: center;
+  color: red;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.text a{
+  text-decoration: none;
+}
