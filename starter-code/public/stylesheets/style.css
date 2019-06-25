@@ -1,0 +1,83 @@
+body {
+  color: white;
+  background-color: black;
+  text-align: left;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav {
+  background: white;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+button {
+  color: white;
+  background: black;
+  margin: 15px 20px 20px 0;
+  opacity: 0.7;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.eyes {
+  animation: eyes 5s;
+  animation-iteration-count: infinite;
+  transition: all 5s;
+}
+
+h1 {
+  text-align: center;
+}
+
+@keyframes eyes {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.troll {
+  position: absolute;
+  bottom: 100px;
+  left: 550px;
+  rotate: 20px;
+  opacity: 0;
+}
+
+.see {
+  opacity: 1;
+}
+
+.elem {
+  opacity: 0;
+}
+
+.who {
+  font-size: 16px;
+}
