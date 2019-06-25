@@ -1,0 +1,18 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-image: url("/pictures/starkindustry.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-size: 3rem;
+    color: white;
+}
