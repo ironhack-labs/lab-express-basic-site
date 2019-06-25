@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.title{
+  text-align: center;
+  color: brown;
+  font-size: 3rem;
+  margin-bottom: 35px;
+} 
+
+.links{
+  display: flex;
+  justify-content: space-around;
+
+} 
+
+a{
+  font-size: 2rem;
+  text-decoration: none;
+} 
