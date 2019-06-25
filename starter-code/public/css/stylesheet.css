@@ -1,0 +1,12 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px
+  }
+body{
+background-color: grey;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+}
