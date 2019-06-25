@@ -1,0 +1,35 @@
+body {
+    background-color: rosybrown;
+    color: white;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+p {
+    font-display: courier;
+    text-align: center;
+    max-width: 700px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 25%;
+}
+
+#first {
+    display: flex
+} 
+
+#snd {
+    display: none
+}
+
