@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+
+.pict{
+    display: flex;
+    flex-direction: row;
+}
+
+.contain{
+    align-content: space-between;
+}
