@@ -1,0 +1,33 @@
+body {
+  background-color: #63707e;
+  color: #f2f6f5;
+}
+
+h1{
+  text-align: center;
+  margin: 5rem;
+}
+
+li{
+list-style-type: none;
+}
+
+a{
+  color: #c8dad3;
+  text-decoration: none;
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+img {
+  width: 20%;
+  height: auto;
+  margin: 5px;
+}
+
+#jump {
+  width: 24%;
+  height: auto;
+}
