@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.image{
+    background-image: url("/images/home-background.jpeg"); 
+    background-size: cover; 
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    font-Size:  40px;
+
+}
+
+.button{
+    color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    padding: 21px 34px;
+    display: inline-block;
+    width: auto;
+    height: auto; 
+    margin-top: 50px;
+}
+
+.header-nav-item {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+}
+
+.box{
+    position: absolute;
+    margin: 21px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 0;
+    max-width: 100%;
+    border: 1px solid white;
+}
+
