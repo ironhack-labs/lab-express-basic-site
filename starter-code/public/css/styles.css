@@ -41,7 +41,7 @@ body {
   margin: 0;
 }
 
-.about a {
+.nav-link a {
   text-decoration: none;
   color: black;
 }
@@ -84,4 +84,39 @@ body {
 .footer img {
   max-height: 170px;
   margin-right: 20px;
+}
+
+/*/////////////////////ABOUT///////////////////
+////////////////////////////////////////////*/
+
+#about-title {
+  color: #a6a103;
+  text-align: center;
+}
+
+#about-main {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+/*//////////////////GALLERY/////////////////////
+//////////////////////////////////////////////*/
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin: 10px;
+}
+
+#gallery div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#gallery img {
+  max-width: 20em;
 }
