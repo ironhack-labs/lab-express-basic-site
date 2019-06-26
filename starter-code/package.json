@@ -1,0 +1,17 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stat": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "MarianaG",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
