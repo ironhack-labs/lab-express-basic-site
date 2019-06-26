@@ -1,0 +1,14 @@
+body {
+  background: bisque;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+span {
+  width: 30px;
+}
