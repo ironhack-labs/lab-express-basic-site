@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(#c0c0aa, #1cefff);
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.switch-buttons {
+  width: 100vw;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+.home {
+  display: flex;
+  justify-content: flex-end;
+}
+.center {
+  background-image: url("/images/me.jpg");
+  background-position: center;
+  background-size: 250px 200px;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(#65c7f7, #0052d4);
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.switch-buttons a {
+  margin: 10px 30px;
+}
+.about-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-title {
+  font-size: 3rem;
+  margin: 20px;
+}
+.about-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.left-box,
+.right-box {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+}
+.right-box ul {
+  list-style-type: none;
+}
+
+.container-gallery {
+  width: 100vw;
+  height: 100vh;
+}
+.gal {
+  width: 70vw;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  width: 300px;
+  height: 200px;
+  margin: 0px 10px;
+}
+.block img {
+  width: 100%;
+  height: 100%;
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
