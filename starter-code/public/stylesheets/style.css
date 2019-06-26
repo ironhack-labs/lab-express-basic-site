@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+  }
+  
+  h1 {
+    color: Yellow;
+    font-family: RamaSlabMW01-Heavy, "Courier New", Courier, monospace;
+    font-size: 70px;
+    letter-spacing: 2px;
+  }
