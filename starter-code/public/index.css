@@ -1,0 +1,36 @@
+body{
+  border: 0;
+  padding: 0;
+  background-color: lightseagreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divImgLogo{
+  height: 100px;
+  width: 80%;
+  margin:5% 0 0 0%;
+  position: relative;
+  left: 43%;
+}
+.imgLogo{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+h1{
+  position: relative;
+  left: 35%;
+}
+p{
+  left: 10%;
+  position: relative;
+  width: 80%;
+}
+ul{
+  list-style: none;
+  color: brown;
+}
+ul li{
+  display: inline;
+  padding-left: 25%;
+  color: burlywood;
+}

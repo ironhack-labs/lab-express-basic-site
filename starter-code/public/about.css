@@ -1,0 +1,23 @@
+body{
+  border:0;
+  padding: 0;
+  background-color: rebeccapurple;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+}
+h1{
+padding-left: 15%;
+}
+p{
+  padding-left: 10%;
+}
+
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline;
+  padding-left: 25%;
+  color: orange;
+  text-decoration: none;
+}
