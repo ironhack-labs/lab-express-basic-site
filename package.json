@@ -1,0 +1,23 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "basic-site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanmej/lab-express-basic-site.git"
+  },
+  "author": "Bryan Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanmej/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/bryanmej/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
