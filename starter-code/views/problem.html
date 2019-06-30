@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sweaters</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="container">
+      <h1>Too warm?</h1>
+      <p>Hi Berliner, are you suffering from a fuzzy mind and sweaty body? You've come to the right place. Here you can find a cool locale nearby so your body resumes normal function.</p>
+      <p>Click the image to view our tips for staying cool this summer, or choose your location to find an air-conditioned spot close to you.</p>
+      <a href="/tips"><img src="/images/Sweating.jpg" /></a>
+      <form action="/location" method="GET">
+        <select id="locationSelect" name="location">
+          <option value="mitte">Mitte</option>
+          <option value="moabit">Moabit</option>
+          <option value="neukölln">Neukölln</option>
+          <option value="wedding">Wedding</option>
+          <option value="prenzlauer-berg">Prenzlauer Berg</option>
+          <option value="other">Other</option>
+        </select>
+        <button type="submit" id="find-locations">GO</button>
+      </form> 
+    </div>
+    <div class="footer"></div>
+    <script src="/script.js"></script>
+  </body>
+</html>
