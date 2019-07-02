@@ -1,0 +1,55 @@
+/* Pink - #FF0087; */
+/* blue - #52B5D6 */
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #52B5D6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    border-bottom: 3px solid #FF0087;
+}
+img{
+    height: 75px;
+    width: 100px;
+}
+
+#navimg{
+    margin-left: 20px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li{
+    padding: 15px 15px 0px 15px;
+  }
+
+  ul li:last-child{
+      padding-right: 50px;
+  }
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #52B5D6;
+}
+a:hover {
+    color:#FF0087;
+}
+
+  
+
