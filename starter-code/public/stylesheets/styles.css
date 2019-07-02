@@ -59,6 +59,76 @@ body {
 	text-align: center;
 }
 
+.banner {
+	background-image: url(/images/hero-1.jpg);
+	color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 20%;
+}
+
+.banner__header {
+	font-size: 40px;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+
+.banner__text {
+	width: 300px;
+}
+
+.info {
+	height: 100vh;
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info__container {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	padding: 30px;
+	align-items: flex-end;
+}
+
+.info__container__header {
+	text-transform: uppercase;
+	padding: 0px;
+}
+
+.info__container__subheader {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0;
+	color: #2081c3;
+}
+
+.info__text {
+	width: 90%;
+}
+
+.fullbanner {
+	width: 100%;
+	height: 200px;
+	background-image: url(/images/hero-5.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fullbanner__header {
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.about {
+	padding: 50px;
+}
+
 .gallery {
 	padding: 40px;
 }
