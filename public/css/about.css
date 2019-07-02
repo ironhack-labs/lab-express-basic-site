@@ -1,0 +1,74 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    background: url(../imgs/pickle-rick.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    margin: 0px 0px 0px 0px;
+    width: 60%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{ 
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    color: black;
+    font-size: 68px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+    text-align: left;
+}
+
+p{
+    width: 100%;
+    color: darkgray;
+    font-size: 28px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+}
+
+h3{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: lightgreen;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    text-align: center;
+    border: solid 1px lightgreen;
+}
+
+h3:hover{
+    background: white;
+}
+
+a{
+    color: white;
+    font-size: 28px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}

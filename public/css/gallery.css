@@ -1,0 +1,62 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 65%;
+    height: 800px;
+    margin: 0px auto;
+}
+
+h1{ 
+    width: 100%;
+    margin: 40px 0px 20px 0px;
+    padding: 50px 0px 0px 0px;
+    color: black;
+    font-size: 68px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+    text-align: left;
+}
+
+img{
+    width: 250px;
+    float: left;
+    margin: 5px;
+}
+
+.link{
+    width: 100%;
+    float: left;
+    margin: 20px 0px 0px 0px;
+}
+
+h3{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: lightgreen;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    text-align: center;
+    border: solid 1px lightgreen;
+}
+
+h3:hover{
+    background: white;
+}
+
+a{
+    color: white;
+    font-size: 28px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
