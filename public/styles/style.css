@@ -1,0 +1,93 @@
+body{
+  background-color: lightblue;
+  font-family: 'Righteous';
+}
+h1{
+  color: yellow;
+}
+a{
+  color:yellow;
+}
+#home-page{
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 10%;
+}
+#home-page *{
+  align-self: center;
+  padding: 15px 0;
+}
+
+#home-page img{
+  width: 80%;
+  height: 20%;
+}
+#about-page{
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 10%;
+}
+#about-page *{
+  color: yellow;
+  padding: 0 10%;
+}
+#fast-facts *{
+  padding: 2.5% 10%;
+}
+#gallery-page{
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 10%;
+}
+#photos1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  width: 80%;
+}
+#photos1 *,
+#photos2 *,
+#photos3 *{
+  width: 30%;
+  height: 50%;
+}
+#photos2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  width: 80%;
+}
+#photos3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  width: 80%;
+}
+#laugh{
+  color: navy;
+  background-color: yellow;
+}
+#patrick-theme{
+  color: navy;
+  background-color: pink;
+}
+#Mr-Krabs{
+  color: navy;
+  background-color: red;
+}
+#plankton{
+  color: navy;
+  background-color: darkgreen;
+}
