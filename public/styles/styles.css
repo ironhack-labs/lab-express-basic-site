@@ -7,6 +7,7 @@ body{
     background-color: black;
     color: #52B5D6;
     font-family: 'Open Sans', sans-serif;
+    font-size: 31px;
 }
 
 .navbar{
@@ -18,12 +19,12 @@ nav{
     border-bottom: 3px solid #FF0087;
 }
 img{
-    height: 75px;
     width: 100px;
+    height: auto;
 }
 
 #navimg{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 ul {
     display: flex;
@@ -34,7 +35,7 @@ ul {
   }
 
   ul li{
-    padding: 15px 15px 0px 15px;
+    margin: 25px 15px 0px 30px;
   }
 
   ul li:last-child{
@@ -52,4 +53,52 @@ a:hover {
 }
 
   
+/* --------------------    About    -------------------------------- */
+
+
+
+#messageboard{
+    background: rgba(255,0,135,0.83);
+background: -moz-linear-gradient(top, rgba(255,0,135,0.83) 0%, rgba(99,32,97,0.76) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,135,0.83)), color-stop(100%, rgba(99,32,97,0.76)));
+background: -webkit-linear-gradient(top, rgba(255,0,135,0.83) 0%, rgba(99,32,97,0.76) 100%);
+background: -o-linear-gradient(top, rgba(255,0,135,0.83) 0%, rgba(99,32,97,0.76) 100%);
+background: -ms-linear-gradient(top, rgba(255,0,135,0.83) 0%, rgba(99,32,97,0.76) 100%);
+background: linear-gradient(to bottom, rgba(255,0,135,0.83) 0%, rgba(99,32,97,0.76) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0087', endColorstr='#632061', GradientType=0 );
+    margin: 30px auto;
+    height: 800px;
+    width: 700px;
+    opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------    Photo    -------------------------------- */
+
+/* .imgbackground{
+    background-color: #52B5D6;
+    width: 202px;
+    height: auto;
+} */
+
+#photosection img{
+    margin: 20px;
+    width: 315px;
+    height: auto;
+    border: 5px solid #52B5D6;
+    border-radius: 8px;
+}
 
