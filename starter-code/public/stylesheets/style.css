@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  background-color: #424242;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Home page*/
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.home h1 {
+  color: #60f7f2;
+  font-size: 4em;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  color: #e6fb04;
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.home .button {
+  background-color: #ff0099;
+  padding: 20px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in;
+  font-weight: bold;
+  font-size: 30px;
+}
+.home .button:hover {
+  background: #74ee15;
+}
+.home .button:active {
+  position: relative;
+  top: 1px;
+}
+
+/*About Me*/
+nav {
+  background-color: #282729;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  padding-right: 50px;
+}
+
+nav ul li {
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+
+nav ul li a:hover {
+  color: #60f7f2;
+}
+.about {
+  text-align: left;
+  padding: 20px 100px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #60f7f2;
+}
+.about p {
+  color: #e6fb04;
+  font-size: 1.6rem;
+}
+.about .text {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  color: #ff0099;
+}
+
+hr {
+  background: #60f7f2;
+  border: 2px solid #60f7f2;
+}
+
+.neon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.neon h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.neon ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.neon ul li {
+  list-style-type: none;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.sample {
+  color: #74ee15;
+}
+
+.neon .one {
+  background-color: #60f7f2;
+}
+
+.neon .two {
+  background-color: #ff0099;
+}
+
+.neon .three {
+  background-color: #74ee15;
+}
+
+.neon .four {
+  background-color: #e6fb04;
+}
+
+.gallery {
+  padding: 20px 50px;
+}
+
+.gallery h2 {
+  color: #60f7f2;
+  font-size: 2rem;
+}
+
+img {
+  width: 500px;
+  margin: 20px;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
