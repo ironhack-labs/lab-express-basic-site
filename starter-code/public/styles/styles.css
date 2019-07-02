@@ -1,0 +1,195 @@
+/* shared styles */
+html {
+  background-color: #eee;
+  color: #222;
+  font-family: 'helvetica neue';
+}
+img {
+  height: 300px;
+}
+.nav{
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+
+}
+h1 {
+  text-align: center;
+}
+
+/* main */
+.main-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px repeat(3, 100px);
+  background-color: #ffc600;
+}
+.main-use {
+  grid-column: 1 /4;
+  background-color: #eee;
+}
+.main-grid-container > div:not(.main-use):nth-child(even) {
+background-color: #555;
+place-self: center;
+}
+.main-grid-container > div:not(.main-use):nth-child(odd) {
+background-color: #777;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* gallery */
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+  "uno text-one"
+  "dos tres"
+  "text-two quatro"
+  "cinco siete"
+  "ocho text-three"
+  " . seis";
+  gap: 10px;
+}
+.gallery-grid-container > img {
+  width: 500px;
+}
+.text-one {
+  grid-area: text-one;
+  place-self: center;
+  max-width: 500px;
+}
+.text-two {
+  grid-area: text-two;
+  place-self: center;
+  max-width: 500px;
+}
+.text-three {
+  grid-area: text-three;
+  place-self: center;
+  max-width: 500px;
+}
+.uno {
+  grid-area: uno;
+  place-self: center;
+}
+.dos {
+  grid-area: dos;
+  place-self: center;
+}
+.tres {
+  grid-area: tres;
+  place-self: center;
+}
+.quatro {
+  grid-area:quatro;
+  place-self: center;
+}
+.cinco {
+  grid-area: cinco;
+  place-self: center;
+}
+.seis {
+  grid-area:seis;
+  place-self: center;
+}
+.siete {
+  grid-area: siete;
+  place-self: center;
+}
+.ocho {
+  grid-area: ocho;
+  place-self: center;
+}
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* about */
+.mosaic-container {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 4fr 1fr 1fr;
+  grid-template-rows: 55px 250px 200px 100px 150px 100px 100px 200px;;
+  margin-top: 30px;
+  background-color: #ddd;
+  gap: 5px;
+  grid-template-areas: 
+  "navbar navbar navbar navbar navbar"
+  ". . pic . ."
+  ". summary summary summary ."
+  "side side row1 row1 ."
+  "side side row2 row2 ad"
+  "side side row3 row3 ad"
+  "side side row4 row4 ad"
+  "footer footer footer footer footer"
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+.mosaic-container > div {
+  border: 1px solid black;
+}
+.item-a {
+  grid-area: navbar;
+}
+.item-b {
+  grid-area: pic;
+}
+.item-c {
+  grid-area: summary;
+}
+.item-d {
+  grid-area: side;
+}
+.item-e {
+  grid-area: row1;
+}
+.item-f {
+  grid-area: row2;
+}
+.item-g {
+  grid-area: ad;
+}
+.item-h {
+  grid-area: row3;
+}
+.item-i {
+  grid-area: row4;
+}
+.item-j {
+  grid-area: footer;
+}
+
+/* 404 not found */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+}
