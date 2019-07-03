@@ -1,8 +1,8 @@
-body {
+h1, h2, h3, h4 {
   color: orangered;
-  background-color: bisque;
 }
 
-img {
-  width: 400px;
+/* width: 400px; */
+body {
+  background: grey;
 }
