@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
+
+#intro {
+  height: 100vh;
+}
+
+#title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+#title img {
+  height: 100px;
+  width: auto;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-image: url('../images/scroll_bg.jpg');
+  background-repeat: repeat;
+  color: blue;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h1, p, a {
+  background-color: rgba(255,255,255,0.4);
+  padding: 10px;
+}
+
+body > a {
+  color: tomato;
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+#about-div {
+  display: grid;
+  grid-template-areas: ". head ."
+                        "arml . armr"
+                        "legl . legr";
+}
+
+#head {
+  grid-area: head;
+}
+#arml {
+  grid-area: arml;
+}
+#legl {
+  grid-area: legl;
+}
+#armr {
+  grid-area: armr;
+}
+#legr {
+  grid-area: legr;
+}
+
+
+
