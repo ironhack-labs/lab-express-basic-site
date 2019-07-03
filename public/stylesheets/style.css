@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+iframe {
+    padding-left: 10px;
+}
+
+.p1 {
+    padding-left: 40px;
+}
+
+.p2 {
+    padding-left: 135px;
+}
+.gifs img {
+    height: 400px;
+    width: 600px;
+    padding-left: 20px;
+}
+
+.about-link {
+    float: left;
+}
+
+.gallery-link {
+    float: right;
+    padding-left: 950px;
+}
+
+.gallery img {
+    width: 400px;
+}
+
+.humility {
+    height: 267px;
+}
