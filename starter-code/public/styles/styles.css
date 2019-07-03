@@ -28,6 +28,12 @@ h1 {
   left: 15px;
   height: 100px;
 }
+.blah-partial {
+  width: 500px;
+  float: left;
+  height: 500px;
+  background-color: #777;
+}
 
 /* main */
 .main-grid-container {

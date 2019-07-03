@@ -1,21 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="/styles/styles.css">
-</head>
-<body>
+
   <div class="about-container">
       <nav class="nav">
         <a href="/">Main</a>
         <a href="/more">Gallery</a>
-
+      {{#if thePerson.coding}}
+      <a href="/about/computer">Computer Pic</a>
+      {{else}}
+      <a href="/about/coding">Coding Pic</a>
+      {{/if}}
       </nav>
     <h1>A basic website with grid</h1>
     <img src="../images/hipster-wolf.png" alt="wolf" class="wolf">
+
+
+
+    <h2>About {{thePerson.name}}</h2>
+    <img src="{{thePerson.img}}" alt="coding">
+    <h2>About {{thePerson.bio}}</h2>
+
+
     <div class="mosaic-container">
         <div class="item item-a">item-a: Nav Bar</div>
         <div class="item item-b">item-b: centrally positioned big picture</div>
@@ -32,5 +35,3 @@
       </div>
 
   </div>
-</body>
-</html>
