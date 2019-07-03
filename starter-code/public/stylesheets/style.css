@@ -1,0 +1,25 @@
+/* img {
+  height: 300px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-size {
+  width: 800px;
+}
+
+
+.center-card {
+  margin: 0 auto;
+}
+
+.image {
+  width: 700px;
+}
+
+picture {
+  margin-left: 275px;
+}
