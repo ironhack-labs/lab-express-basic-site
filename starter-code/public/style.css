@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(99, 99, 99);
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
@@ -26,12 +26,26 @@ nav {
   border-bottom: 2px solid white;
 }
 
+ul a {
+  padding: 1rem;
+}
+
+ul a:hover {
+  border-bottom: 6px groove rgb(0, 255, 179);
+  border-radius: 50%;
+}
+
+body h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
 .logo {
   font-size: 2rem;
   margin-top: 1.3rem;
   margin-left: 1rem;
   font-weight: 800;
-  border-top: 4px solid rgb(92, 255, 206);
+  border-top: 4px solid rgb(0, 255, 179);
 }
 
 .logo a {
@@ -40,10 +54,32 @@ nav {
 }
 
 .nav2 {
-  width: 40%;
+  width: 35%;
   align-content: flex-end;
 }
 
 .grid-container {
   display: grid;
+  grid-template-columns: calc(33% - 30px) calc(33% - 30px) calc(33% - 30px);
+  /* grid-template-rows: 500px; */
+  grid-gap: 50px;
+  margin: 50px;
 }
+
+img {
+  width: 100%;
+  box-shadow: 5px 5px 5px rgb(61, 61, 61);
+}
+
+.img5 {
+  margin-top: -36%;
+}
+
+.img1 {
+  height: 100%;
+}
+
+/* .big-hippo {
+  grid-column: col 2;
+  grid-row: row 1 / span 4;
+} */
