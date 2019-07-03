@@ -1,0 +1,43 @@
+body{
+  background-color: pink;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+.danilo-logos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.danilo-logos img {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+}
+
+.danilo-forte {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
