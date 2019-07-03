@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  .container-fluid {
+    background-color:white;
+    width: 100%;
+    height: 90px;
+
+  }
+  
+  .baseContainer {
+    background-color: #ED564B;
+    width: 100%;
+    height: 180px;
+  }
+  .newsSection {
+    background-color: white;
+    width:100%;
+    height: 664px;
+  }
+  .firstFooter {
+    background-color: #3B3B3B;
+    width: 100%;
+    height: 350px;
+    border-top: 5px solid #ED564B;
+  }
+  .secondFooter {
+    background-color: #292929;
+    width: 100%;
+    height: 78px;
+  }
