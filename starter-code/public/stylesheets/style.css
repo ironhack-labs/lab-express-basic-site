@@ -1,0 +1,166 @@
+body{
+margin:0 auto;
+background: #484545;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: yellow;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .about-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ranchers', cursive;
+    width: 100%;
+    height: 400px;
+    background: no-repeat;
+    background-image: url(/images/batman.jpg);
+    background-size: cover;
+}
+  
+
+  .top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ranchers', cursive;
+    width: 100%;
+    height: 400px;
+    background: no-repeat;
+    background-image: url(/images/batman.jpg);
+    background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .about-main{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  width:52%;
+  }
+
+  .colone{
+      width:23%;
+      height:35%;
+  }
+
+  h5{
+    color: yellow;
+    font-family: 'Ranchers', cursive;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+  }
+
+  h3{
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+      font-size: 43px;
+      color: yellow;
+  }
+p{
+  color:#C8C8C8;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: yellow;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: yellow;
+}
+
+.main-section-about{
+  background-image: url(/images/powcomic.png);
+  background-size: cover;
+  width:100%;
+  height:500px;
+}
+
+.index-main{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width:52%;
+
+} 
+
+.main-cover-img{
+  background-image: url(/images/powcomic.png);
+  background-size: 50%;
+  background-repeat : no-repeat;
+  background-position: 50% 0;
+  width:100%;
+  height:500px;
+}
+
