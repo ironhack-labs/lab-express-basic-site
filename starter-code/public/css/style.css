@@ -1,0 +1,57 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+nav ul {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+header#home {
+  background:  linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/fiona-cover.jpg');
+  background-size: cover;
+}
+
+header#about {
+  background:  linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/fiona-about.jpg') center 25%;
+  background-size: cover;
+}
+
+header#gallery {
+  background:  linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/fiona-gallery.jpg') center 30%;
+  background-size: cover;
+}
+
+header h1 {
+  padding: 200px 0;
+  font-size: 96px;
+  color: #fff;
+  font-weight: 800;
+}
+
+section img {
+  width: 100%;
+}
+
+footer p {
+  color: #a1a1a1;
+  margin-bottom: 0;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#disc1, #disc2, #disc3 {
+  cursor: pointer;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+.modal-dialog {
+  width: 800px;
+}
