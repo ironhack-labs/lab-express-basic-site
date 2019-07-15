@@ -47,3 +47,21 @@ a {
 .footer {
     height: 30px;
 }
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 150px;
+    background: transparent;
+    opacity: 0;
+    border: 0;
+}
+
+.fun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+}
