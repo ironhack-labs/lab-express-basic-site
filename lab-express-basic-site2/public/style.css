@@ -1,0 +1,55 @@
+.navbar {
+  width: 100vw;
+  background-color: rgb(196, 149, 87);
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.navText {
+  margin-top: 35px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+color: rgb(85, 163, 85);
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+body {
+  margin: 0 0 0 0;
+  background-color: antiquewhite;
+}
+
+footer {
+background-color:  rgb(196, 149, 87);
+height: 10vh;
+width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 700px;
+}
+
+.dogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(255, 127, 80);
+}
+
+button {
+  border-color: rgb(255, 127, 80);
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.puppy {
+  height: 80px;
+}
