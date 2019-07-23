@@ -1,4 +1,19 @@
 body {
-    color: yellow;
-    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: #f9f6f0;
+    text-align: center;
+  }
+
+  
+  .flex-container {
+      display: flex;
+    }
+  
+  a {
+       text-decoration: none;
+  }
+
+  ul {
+    list-style: none
   }
