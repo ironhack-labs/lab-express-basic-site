@@ -1,0 +1,22 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "ironhack ",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "carloskruger"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "carlos kruger",
+  "license": "ISC"
+}
