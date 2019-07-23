@@ -1,0 +1,40 @@
+
+body {
+    background-color: rgb(31, 29, 29);
+}
+.rainbow {
+    background-color: pink;
+}
+.title {
+    color: brown;
+    font-family: 'Butcherman', cursive;
+    font-size: 6em;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    color: brown;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.letter {
+    color: brown;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px; 
+}
+.gif {
+    margin: 0, auto;
+}
+.paradise {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+
