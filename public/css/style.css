@@ -1,0 +1,22 @@
+body {
+    color: blue;
+    background-color: bisque;
+  }
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+#dog {
+    height: -webkit-fill-available;
+
+}
+
+#teo {
+    width: 40%;
+}
+
+#ralu {
+    width: 50%
+}
