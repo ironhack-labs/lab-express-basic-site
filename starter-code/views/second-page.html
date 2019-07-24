@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bonus</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body id="bodyC">
+    <img src="/img/gt.jpg" id="img" />
+
+    <script>
+      let counter = 0;
+
+      img = document.getElementById("img");
+
+      function myFunction() {
+        setInterval(function() {
+          changeImg();
+        }, 3000);
+      }
+      myFunction();
+      /////
+
+      function changeImg() {
+        if (counter % 2 == 0) {
+          img.src = "/img/bt.jpg";
+          document.getElementById("bodyC").style.backgroundImage =
+            "url(/img/2.jpg)";
+        } else {
+          img.src = "/img/gt.jpg";
+          document.getElementById("bodyC").style.backgroundImage =
+            "url(/img/1.jpg)";
+        }
+        counter++;
+      }
+
+      //   document.getElementById("bodyC").style.backgroundImage = "url(2.jpg)";
+    </script>
+  </body>
+</html>
