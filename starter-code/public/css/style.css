@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: yellow;
+}
+
+a {
+  display: block;
+
+  color: purple;
+  margin: 300 auto;
+}
