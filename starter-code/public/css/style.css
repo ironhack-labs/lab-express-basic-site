@@ -1,0 +1,13 @@
+body {
+  color: #363636;
+  background-color: #f4f4f4;
+}
+
+h1{
+  color:plum;
+}
+
+.flexbox{
+  display:flex;
+  justify-content: space-around;
+}
