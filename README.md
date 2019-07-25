@@ -1,11 +1,11 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
-# Express Basic Website
+# Express basic website
 
 ## Introduction
 
 Pick a celebrity or other topic and use Express to make a Website for it.
 
-If you are looking for some inspiration, you can go here: https://lab-express-basic-site-sol.herokuapp.com/. It might take a couple of minutes to load the page for the first time.
+<!-- If you are looking for some inspiration, you can go here: https://lab-express-basic-site-sol.herokuapp.com/. It might take a couple of minutes to load the page for the first time. -->
 
 ## Requirements
 
@@ -41,8 +41,7 @@ If you are looking for some inspiration, you can go here: https://lab-express-ba
 Send your pull request before next class!
 
 
-Structure of Your Code
-----------------------
+## Structure of Your Code
 
 Your starter code only has an empty `app.js` file.
 In addition to that, you will need:
