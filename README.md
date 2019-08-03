@@ -26,6 +26,8 @@ Pick a celebrity or other topic and use Express to make a Website for it.
 
 ## Instructions
 
+**All your work will happen inside *starter_code* so first enter *starter_code* and then run the command to create package.json file**.
+
 **Your Website should have (at least) 3 pages:**
 
 1. A home page
@@ -47,7 +49,7 @@ Your starter code only has an empty `app.js` file.
 In addition to that, you will need:
 
 1. a `package.json` file (run `npm init` to create one)
-2. to npm install `express` (dont' forget to `--save` if you are using older versions of npm)
+2. to npm install `express`
 3. a `views/` folder for your separate HTML files
 4. a `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript
 
