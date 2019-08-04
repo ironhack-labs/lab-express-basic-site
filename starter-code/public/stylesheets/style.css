@@ -1,0 +1,17 @@
+body {
+  background: url("../images/hubble.jpg");
+  background-size: cover;
+  color: azure;
+}
+
+.about {
+  margin: 10%;
+}
+
+.about p {
+  text-align: center;
+}
+
+body a {
+  color: azure;
+}

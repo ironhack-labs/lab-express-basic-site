@@ -1,0 +1,22 @@
+body {
+  color: rgb(50, 80, 80);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.smallFirstBox {
+  margin: 2% 5%;
+}
+
+
+
+.smallSecBox {
+  margin: 2% 5%;
+}
+
+.smallThirdBox {
+  margin: 2% 5%;
+}

@@ -1,0 +1,9 @@
+body {
+  background: url("../images/moon-space.jpg");
+  background-size: cover;
+  color: azure;
+}
+
+body a {
+  color: azure;
+}
