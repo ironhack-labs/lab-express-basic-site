@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  
+  background-image:url('/images/fall-home.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin: 40px 40px;
+
+  
+
+}
+
+.container > h1{
+  color:white;
+  font-size: 10em;
+  line-height: 90vh;
+  width:40%;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 3px 3px red;
+}
