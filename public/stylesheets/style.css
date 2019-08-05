@@ -25,14 +25,12 @@
     font-size: 30px;
     text-align: center;
   color: rgb(5, 90, 50);
-  background-color: beige;
   margin: 0px auto;
 }
 
 
 .firstElement{
     height: 400px;
-    background-color: aqua;
 }
 
 .whatIsBonsai{
@@ -47,6 +45,61 @@
     font-size: 25px;
 }
 
+.typeOfBonsai{
+    display: inline-block;
+    margin: 0px 100px;
+}
+
+.typeOfBonsai > p{
+    font-size: 25px;
+}
+
+.typeOfBonsai > ul{
+    font-size: 25px;
+    line-height: 2;
+}
+
+
+.typeOfBonsai h2{
+text-align: center;
+font-size: 40px;
+}
+
+.indoorBonsai{
+    margin-top: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.indoorBonsai h3{
+    font-size: 30px;
+}
+
+.indoorText {
+    font-size: 25px;
+    width: 60vw;
+    float: left;
+}
+
+.indoorBonsai img{
+    margin-left: 50px;
+    width: 300px;
+    height: 400px;
+}
+
+.lastImg{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
 .theBonsaiPicture{
     float: left;
     width: 600px;
@@ -59,16 +112,25 @@
 }
 
 .rowPicture{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 350px;
     width: 100vw;
     background-color: bisque;
 }
 
 .colPicture{
-    margin: 1.5% 4.8%;
-    display: inline-block;
+    margin: 0px 60px;
     width: 300px;
     height: 300px;
     background-color: brown;
+}
+
+.colPicture > img{
+    width: 300px;
+    height: 300px;
+
 }
 
