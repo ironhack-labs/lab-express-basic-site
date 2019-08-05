@@ -11,7 +11,7 @@ app.get('/about', (req,res)=>{
   res.sendFile(__dirname + '/views/about.html');
 });
 
-app.get('/galery', (req,res)=>{
+app.get('/gallery', (req,res)=>{
   res.sendFile(__dirname + '/views/galery.html');
 }); 
 
