@@ -18,18 +18,19 @@ body{
 .text{
   color:#555;
   text-align: justify;
-  padding: 0 35px;
   font-size:1.35em;
   overflow: hidden;
-  height:682px;
+  width:490px;
 }
+
 .text > p{
   margin-top:30px;
-  width:530px;
 }
 
 .container{
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 0 70px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -37,7 +38,7 @@ body{
 }
 
 .image > img{
-  width:700px;
+  width:640px;
 }
 
 .footer > img{

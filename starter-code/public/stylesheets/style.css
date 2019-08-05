@@ -16,6 +16,9 @@ body{
   
 }
 .container-image{
+  display:flex;
+  justify-content: center;
+  align-items:center;
   background-image:url('/images/fall-home.jpg') ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,12 +31,7 @@ body{
 .container-image > h1{
   color:white;
   font-size: 10em;
-  line-height: 80vh;
-  width:40%;
-  margin: 0 auto;
-  text-align: center;
-  text-shadow: 3px 3px #6C1812;
-  
+  text-shadow: 3px 3px #6C1812; 
 }
 
 .intro{

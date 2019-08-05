@@ -1,0 +1,41 @@
+
+.links{
+  margin:0 40px;
+  margin-top: 15px;
+  margin-bottom:20px;
+}
+
+.link-item{
+  color: #333;
+  text-decoration: none;
+  font-weight:bold;
+  padding:0 10px;
+  
+}
+h1{
+  margin-top:50px;
+  color:#aaa;
+  font-size: 3em;
+  text-align: center;
+}
+hr{
+  color: #aaa;
+  width:80%;
+}
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;;
+
+}
+
+ .container > div{
+  width:370px;
+  margin:30px;
+  
+}
+
+img{
+  width:370px;
+  height:300px;
+}
