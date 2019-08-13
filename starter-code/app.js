@@ -7,8 +7,22 @@ const app = express();
 // Make everything inside of public/ available
 app.use(express.static('public'));
 
-// Home Page
-
 // About Page
+app.get('/about', (request, response, next) =>{
+    response.sendFile(__dirname + '/views/about-page.html')
+})
 
 // Photo Gallery Page
+app.get('/gallery', (request, response, next) =>{
+    response.sendFile(__dirname + '/views/photo-gallery-page.html')
+})
+
+// Home Page
+app.get('*', (request, response, next) =>{
+    response.sendFile(__dirname + '/views/home-page.html')
+});
+
+// Server Started
+app.listen(3000, () => {
+    console.log('My first app listening on port 3000!')
+});
