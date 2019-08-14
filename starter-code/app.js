@@ -8,17 +8,17 @@ const app = express();
 app.use(express.static('public'));
 
 // About Page
-app.get('/about', (request, response, next) =>{
+app.get('/about', (request, response, next) => {
     response.sendFile(__dirname + '/views/about-page.html')
 })
 
-// Photo Gallery Page
-app.get('/gallery', (request, response, next) =>{
+// Photo Gallery Pages
+app.get('/gallery', (request, response, next) => {
     response.sendFile(__dirname + '/views/photo-gallery-page.html')
 })
 
 // Home Page
-app.get('*', (request, response, next) =>{
+app.get('*', (request, response, next) => {
     response.sendFile(__dirname + '/views/home-page.html')
 });
 
