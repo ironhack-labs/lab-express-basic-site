@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/Calibri.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+ font-family: "Calibri";
+ background-color: black;
+ color: grey;
+ box-sizing:border-box;
+}
+
+h1 {
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  margin-top: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #white;
+}
+
+p {
+  line-height: 150%;
+}
+
+.button::-moz-focus-inner{
+  border: 0;
+  padding: 0;
+}
+
+
+.button{
+      border:1px solid grey;
+      border-radius:4px;
+      display:inline-block;
+      cursor:pointer;
+      font-weight:bold;
+      font-size:20px;
+      padding:6px 10px;
+      text-decoration:none;
+      color: grey;
+      }
+
+      .button:hover {
+          background: grey;
+          color: black;
+      }
+  
+      .button:active {
+          background-color: grey;
+          box-shadow: 0 5px rgb(54, 54, 54);
+          transform: translateY(4px);
+        }
+
+.justify-content-left{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.justify-content-center{
+  display: flex;
+  justify-content: center;
+}
+
+.center{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 50%;
+}
