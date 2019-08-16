@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="page-logo"><a href="/">My First Express Lab</a></h1>
+    <ul class="unordered-list">
+      <li class="list-item"><a href="/">Home Page</a></li>
+      <li class="list-item"><a href="/about">About this Lab</a></li>
+      <li class="list-item"><a href="/gallery">Logo Gallery</a></li>
+    </ul>
+    </nav>
+  <div id="first-image">
+    <img src="/images/mern-logo.png">
+  </div>
+
+  <section id="explanation">
+    <h1>A brief explanation of the Express framework</h1>
+    <p>ExpressJS is the most commonly used framework in the Node.js ecosystem. Every Node.js player has heard of it and is using it with or without noticing.</p>
+    <p>It’s currently on its 4th generation, and there are quite a few Node.js frameworks built based upon it or inspired by its concepts.</p>  
+    <p>Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License.</p>
+    <p>It is designed for building web applications and APIs. It is the de facto standard server framework for Node.js. The original author described it as a relatively minimal with many features available as plugins.</p>
+    <p>Express is the backend part of the MERN stack - which we will fully cover during this course. What will make you full stack developers is knowing Express and MongoDB in the backend and React frontend framework.</p>
+    <br>
+    <h1>HTTP Verbs</h1>
+    <p>Before we get into our first Express code, we need to add a little to our knowledge of HTTP. We need to talk about something called HTTP verbs.</p>
+    <p>When a client sends an HTTP request to a server, aside from specifying the URL the client also has to specify an extra piece of text called an HTTP verb (also known as an HTTP method). This HTTP verb has to be one of a list of valid words in the HTTP specification. The verbs are designed for clients to communicate the intention of the request to servers. Servers software is programmed to consider the verb when deciding what to do with a request.</p>
+    <p>The most common two verbs are GET and POST. Most of the requests your browser makes on a daily basis are GET requests, to retrieve some kind of information. For example, we make a GET request to https://www.netflix.com/browse, and the server gives us back an HTML page. The server decides whether a request using that verb and that URL is possible.</p>
+    <p>We need to know about these verbs because when we program our own back end, we decide which HTTP verbs work with which URLs.</p>
+    <h3>GET</h3>
+    <p>GET requests:</p>
+    <ul>
+      <li>Should be used only to retrieve data from a server</li>
+      <li>Can be cached</li>
+      <li>Remain in the browser history</li>
+      <li>Can be bookmarked</li>
+      <li>Should never be used to send sensitive data (more on this later)</li>
+      <li>Have length restrictions (you can’t send giant files)</li>
+    </ul>
+    <h3>POST</h3>
+    <p>POST requests:</p>
+    <ul>
+      <li>Should be used to send data to the server</li>
+      <li>Are never cached</li>
+      <li>Do not remain in the browser history</li>
+      <li>Cannot be bookmarked</li>
+      <li>Are better for sensitive data (again, more on this later)</li>
+      <li>Have no restrictions on data length (you can send big files)</li>
+    </ul>
+  </section>
+
+  <footer>
+    
+  </footer>
+ 
+</body>
+</html>
