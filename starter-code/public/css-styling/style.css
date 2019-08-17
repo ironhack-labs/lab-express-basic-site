@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    color: azure;
+    font-size: 20px;
+}

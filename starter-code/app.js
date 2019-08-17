@@ -6,6 +6,8 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/home-page.html');
+    //res.sendfile(__dirname + '/starter-code/public/javascript-events/teste.html')
+    //res.sendFile(__dirname + '/public/javascript-events.js');
 });
 
 app.get('/about', (req, res) => {
