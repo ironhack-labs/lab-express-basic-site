@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  color: white;
+  background-color: rgb(57, 121, 238);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 20px;
+  height: 100px;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 30px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 25px;
+  height: 40px;
+  text-align: center;
+}
+
+img {
+  width: 800px;
+  height: auto;
+  object-fit: fill;
+  border: 5px solid white;
+}
+
+#beetle {
+  border: none;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: auto;
+    height: 60px;
+    background-color: white;
+    padding: 9px 20px;
+    border: black;
+    color:  rgb(57, 121, 238);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 50px;
+  background-color: white;
+  color: rgb(57, 121, 238);
+  margin-bottom: 20px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.navbar .nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav-list li {
+  margin: 0 15px;
+  text-transform: uppercase; 
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
