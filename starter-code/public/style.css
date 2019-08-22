@@ -1,0 +1,24 @@
+/** Orange (example configuration) */
+
+/** Core (required) */
+@import '~@orange-ui/orange/src/scss/src/_functions';
+@import '~@orange-ui/orange/src/scss/src/_variables';
+@import '~@orange-ui/orange/src/scss/src/_typography';
+@import '~@orange-ui/orange/src/scss/src/_global';
+
+/** Icons (required) */
+@import "icons/fontello";
+@import "icons/fontello-reset";
+
+/** Utilities (optional) */
+@import '~@orange-ui/orange/src/scss/src/utilities/_spacings';
+@import '~@orange-ui/orange/src/scss/src/utilities/_colors';
+@import '~@orange-ui/orange/src/scss/src/utilities/_shadows';
+@import '~@orange-ui/orange/src/scss/src/utilities/_text';
+
+/** Components (optional) */
+@import '~@orange-ui/orange/src/scss/src/components/_avatar';
+@import '~@orange-ui/orange/src/scss/src/components/_breadcrumbs';
+@import '~@orange-ui/orange/src/scss/src/components/_card';
+@import '~@orange-ui/orange/src/scss/src/components/_checkbox';
+@import '~@orange-ui/orange/src/scss/src/components/_empty-state';
