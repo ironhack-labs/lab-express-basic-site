@@ -1,0 +1,15 @@
+<div class="collectionContainer">
+  <h1>{{collection.title}}</h1>
+  <div class="collectioninfo">
+    {{#each collection.print}}
+    <div class="collection">
+      <h2>{{this.name}}</h2>
+      {{#each this.img}}
+      <div class="imgcollection">
+        <img src="{{this}}" alt="">
+      </div>
+      {{/each}}
+    </div>
+    {{/each}}
+  </div>
+</div>
