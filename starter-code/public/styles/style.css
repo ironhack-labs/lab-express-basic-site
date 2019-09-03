@@ -1,0 +1,13 @@
+body{
+  font-family: sans-serif;
+  font-size: 2em;
+  color:#333333;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+}
+
+body ul li{
+  list-style-type: none;
+  padding-left: 3em;
+}
