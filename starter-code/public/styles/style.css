@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#nav {
+  padding: 20px;
+  background-color: #AAAAAA;
+}
+
+#nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-family: sans-serif;
+}
+
+#nav li {
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
