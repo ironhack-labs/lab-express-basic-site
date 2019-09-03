@@ -1,0 +1,52 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-image: url('/img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 70vh;
+  display:flex;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  width:100%;
+font-size: 2.5em;
+color: white;
+background-color: rgba(0, 0, 0, 0.4)
+}
+
+nav {
+  padding:0.1em;
+  background-color: silver;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+flex-direction: column;
+justify-content:center;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 5%;
+}
+
+.row img {
+width: 350px;
+height: 100%;
+
+}
