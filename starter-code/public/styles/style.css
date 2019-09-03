@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+    font-family: sans-serif; 
+    padding: 5px 60px 5px 60px;
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #333333
+}
+
+p{
+    font-size: 1em;
+    color: #999999
+}
+
+.gallery img {
+    padding: 20px;
+}
+
