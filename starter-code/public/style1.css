@@ -1,0 +1,23 @@
+* {
+  background: 'dark';
+}
+.cover {
+  width: 100vw;
+  height: 83vw;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  background: gray;
+  align-self: center;
+}
+.cover-container > :first-child {
+  background: url(https://cdn-3.expansion.mx/dims4/default/06473bb/2147483647/strip/true/crop/3000x2000+0+0/resize/800x533!/quality/90/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2F1a%2Ff2%2Fc4c4f2f244469f3d6974e7c49514%2Fgettyimages-86306193.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vw;
+  padding: 30% 10%;
+  color: white !important;
+}

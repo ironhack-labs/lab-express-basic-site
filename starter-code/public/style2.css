@@ -1,0 +1,9 @@
+.arriba {
+  background: url(https://mindhandheart.mit.edu/sites/default/files/styles/news/public/2019-01/Social_Media_Marketing_Strategy.jpg?itok=6DRleZUg&h=0903ab51)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
