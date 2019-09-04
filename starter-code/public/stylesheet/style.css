@@ -1,0 +1,97 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  margin:0px;
+  padding:0px;
+  background-image: url("/images/ketterdammap.png");
+}
+.contais{
+width:100vw
+position:relative;
+display:flex;
+}
+nav{
+  height:60px;
+  background-color:#F5CE83;
+}
+
+.container-2{
+
+position:relative;
+display:flex;
+
+}
+
+
+.nina-head {
+  color: white;
+  background-color: #6A0E03;
+  height:200px;
+  display:block;
+}
+
+.char-title{
+  padding-top:50px;
+  position:absolute;
+  display:block;
+}
+
+.name{
+  font-family: 'Petit Formal Script', cursive;
+}
+
+
+.lead{
+  padding:20px;
+  position:absolute;
+  display:block;
+  color:white;
+}
+
+.con-body{
+height:600px;
+position:absolute;
+display:flex;
+margin-top:30px;
+}
+
+.con-body-2{
+height:600px;
+background-color:white;
+position:absolute;
+display:flex;
+height:450px;
+border-radius:5px;
+margin-top:30px;
+}
+
+.con-body-3{
+height:510px;
+background-color:white;
+position:absolute;
+display:flex;
+border-radius:5px;
+margin-top:30px;
+padding:20px;
+line-height: 2.4;
+}
+.smaller{
+  width:500px;
+  margin:auto;
+  height:auto;
+  margin-top: 50px;
+}
+.nina{
+  width:350px;
+  height:auto;
+}
+
+ul{
+   list-style-type: none;
+   padding:30px;
+   line-height: 2.4;
+}
+
+.subtitle{
+  font-weight:bolder;
+  color:#DBA23C;
+}
