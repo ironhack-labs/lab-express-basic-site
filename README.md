@@ -1,4 +1,5 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+
 # Express basic website
 
 ## Introduction
@@ -26,7 +27,7 @@ Pick a celebrity or other topic and use Express to make a Website for it.
 
 ## Instructions
 
-**All your work will happen inside *starter_code* so first enter *starter_code* and then run the command to create package.json file**.
+**All your work will happen inside _starter_code_ so first enter _starter_code_ and then run the command to create package.json file**.
 
 **Your Website should have (at least) 3 pages:**
 
@@ -42,7 +43,6 @@ Pick a celebrity or other topic and use Express to make a Website for it.
 
 Send your pull request before next class!
 
-
 ## Structure of Your Code
 
 Your starter code only has an empty `app.js` file.
@@ -52,6 +52,5 @@ In addition to that, you will need:
 2. to npm install `express`
 3. a `views/` folder for your separate HTML files
 4. a `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript
-
 
 Happy coding! :heart:
