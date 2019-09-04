@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="/stylesheets/normalize.css">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<title>Larissa | Gallery</title>
+</head>
+
+<body>
+	<div class="space">
+		<div class="header-wrapper">
+			<nav class="header">
+				<div class="row md">
+					<a href="/" class="header-pic"></a>
+				</div>
+				<ul class="menu">
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/gallery" class="here">Gallery</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="wrapper top-fixed">
+			<div class="inner-container">
+				<div class="row lg slides">
+					<div class="slds"></div>
+					<div class="slds"></div>
+					<div class="slds"></div>
+					<div class="slds"></div>
+
+					<div class="arrow left" onclick="plusDivs(-1)">&#10094;</div>
+					<div class="arrow right" onclick="plusDivs(1)">&#10095;</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		let slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("slds");
+			if (n > x.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = x.length
+			}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "block";
+		}
+	</script>
+</body>
+
+</html>
