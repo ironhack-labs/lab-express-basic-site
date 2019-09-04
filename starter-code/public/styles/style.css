@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+  background: url('https://www.mainstage.es/wp-content/uploads/2016/08/tame-impala.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 1.4rem;
+  padding: 30px 40px; 
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+#about-background{
+  background: url('https://freight.cargo.site/t/original/i/13077cdadae642a39c8cbf4bdb499eaefb240d06da50bc88afa73e684746e051/inside.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#about-background p{
+  background-blend-mode: lighten;
+  padding: 20px 100px;
+  text-align: center;
+  line-height: 1.5;
+}
