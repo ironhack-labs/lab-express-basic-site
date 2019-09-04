@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+}
