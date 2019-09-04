@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:700&display=swap");
+
+body {
+  font-family: "Manjari", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1543719621-92ebcae62483?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2562&q=80");
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+}
+
+.earth {
+  margin-bottom: 50px;
+}
+
+.earth img {
+  width: 70px;
+  height: 70px;
+}
+
+.container {
+  height: 80vh;
+  width: 50vw;
+  background: linear-gradient(rgba(62, 60, 60, 0.5), rgba(62, 60, 60, 0.5));
+  border-radius: 8px;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.container h1 {
+  font-family: "Lora", serif;
+  color: lightsteelblue;
+  text-align: center;
+  margin: 50px 0;
+  font-size: 45px;
+}
+
+.container p {
+  color: white;
+  /* text-align: center; */
+  margin: 20px 50px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.speech {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.about-container {
+  padding-top: 30px;
+  height: 50vh;
+  width: 50vw;
+  background: linear-gradient(rgba(62, 60, 60, 0.5), rgba(62, 60, 60, 0.5));
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
