@@ -1,0 +1,28 @@
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+h5{
+    font-weight: 1000
+}
+
+.card-img{
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 40%;
+    
+}
+.card{
+    line-height: 200%;
+
+}
+
+.card-group{
+    height: 50%;
+    font-size: 1.2rem;
+}
+.card-group img{
+    height: 200px;
+    object-fit: cover;
+}

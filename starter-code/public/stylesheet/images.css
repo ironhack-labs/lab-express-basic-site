@@ -1,0 +1,10 @@
+.bd-example img{
+    height: 697px;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
