@@ -1,0 +1,33 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  ;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://collections.follettsoftware.com/siteshot?url=https%3A%2F%2Fwww.history.com%2Ftopics%2Frenaissance%2Frenaissance")
+}
+
+div {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 220px;
+  top: 460px;
+}

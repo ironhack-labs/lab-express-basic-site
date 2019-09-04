@@ -1,0 +1,57 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/home/BckgHome.jpg");
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+img {
+  width: 1000px;
+  height: auto;
+  align-self: center;
+  position: absolute
+}
+
+h1 {
+  font-size: 100px;
+  color: rgb(199, 61, 7);
+  top: 5%;
+  right: 35%;
+  position: absolute;
+}
+
+#buttons {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+#about {
+  font-size: 50px;
+  background-color: rgb(199, 61, 7);
+  color: white;
+  font-weight: 200;
+  border: 0;
+}
+
+#gallery {
+  font-size: 50px;
+  background-color: rgb(199, 61, 7);
+  color: white;
+  font-weight: 200;
+  border: 0
+}
