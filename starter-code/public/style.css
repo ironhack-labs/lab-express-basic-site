@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.body {
+  background-image: url(assets/hero-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo {
+  padding: 1rem;
+  width: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 25rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+  height: 10vh;
+  padding: 1em;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  padding: 0 1em;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero * {
+  color: white;
+  display: inline-block;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
+
+.hero h3 {
+  font-size: 3rem;
+}
+
+.nav-a {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 90vh;
+  color: white;
+
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 1;
+}
+
+.box:nth-of-type(1) {
+  background-image: url(assets/gallery-1.jpg);
+}
+
+.box:nth-of-type(2) {
+  background-image: url(assets/gallery-2.jpg);
+}
+
+.box:nth-of-type(3) {
+  background-image: url(assets/gallery-3.jpg);
+}
+
+.box:nth-of-type(4) {
+  background-image: url(assets/gallery-4.jpg);
+}
+
+.about-section {
+  background-image: url(assets/about-section.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section * {
+  color: white;
+  display: inline-block;
+}
+
+.about-section h1 {
+  font-size: 5rem;
+}
+
+.about-section p {
+  font-size: 2rem;
+  display: inline-block;
+}
