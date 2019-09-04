@@ -1,0 +1,52 @@
+header {
+    height: 100vh;
+    background-image: url(images/climber-header-bg.jpeg);
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    width: 100%;
+}
+
+header p {
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 20px 15%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.header-title {
+    display: flex;
+    height: 60%;
+    align-content: center;
+}
+
+.about-section {
+    position: relative;
+    top: -100px;
+}
+
+.nav-item {
+    width: 150px;
+}
+
+li a {
+    font-size: 30px !important;
+}
+
+.gallery-image {
+    padding: 20px;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    color: black;
+}
