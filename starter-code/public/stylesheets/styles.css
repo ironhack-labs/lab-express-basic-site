@@ -1,0 +1,18 @@
+html {
+	background-color: rgb(67, 67, 117);
+	font-family: Helvetica, sans-serif;
+	color: aliceblue;
+}
+
+img {
+	border: 1px solid mediumslateblue;
+	border-radius: 10px;
+	width: 30%;
+	height: auto;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
