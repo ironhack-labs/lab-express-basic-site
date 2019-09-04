@@ -1,0 +1,44 @@
+p {
+    text-align: center;
+    font-size: 2em
+}
+
+* {
+    background-color: black !important;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.logo {
+    padding-bottom: 20vh !important;
+}
+
+#all {
+
+    width: 100%;
+    height: 20px;
+}
+
+
+.collapse {
+    background-color: white !important;
+}
+
+.collapse a {
+    background-color: white !important;
+}
+
+.navbar li {
+    background-color: white !important;
+}
+
+#navbarNav {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    background-color: white !important
+}

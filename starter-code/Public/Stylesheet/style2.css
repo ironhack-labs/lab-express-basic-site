@@ -1,0 +1,41 @@
+h2{
+    font-size: 20px;
+
+    
+}
+
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color: white;
+    background-color: ;
+}
+
+div{
+    color: white;
+    background-color: ;
+    margin: 
+}
+
+
+#principal{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    padding-top: 20vh ;
+    flex-wrap: wrap
+}
+
+.collapse{
+    background-color: white;
+}
+.collapse a{
+    background-color: white;
+}
+
+#navbar

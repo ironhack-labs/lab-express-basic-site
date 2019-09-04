@@ -1,0 +1,44 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/moving-stars-on-black-background_41x3vg3x__F0000.png');
+    color: white;
+}
+body {
+    background-image: url('../images/moving-stars-on-black-background_41x3vg3x__F0000.png');
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20vh;
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+p{
+    margin-top: 5vh;
+}
+button{
+    margin-top: 5vh;
+}
+
+.navbar{
+    height: 60px !important;;
+    background-color: black !important;
+    
+}
+.nav-item{
+    padding-bottom: 160px;
+    margin-right: 60px;
+}
+
+.navbar a{
+    color: white;
+}
+*{
+    color: white !important;
+}
+
+#divson{
+    margin-top: 150px;
+}
