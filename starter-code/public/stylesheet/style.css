@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+#home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url('../images/7.webp');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 100%;
+    height: 100vh;
+}
+
+#home-header-first{
+    width: 50%;
+    font-size: 1.3em;
+    padding: 20px 40px;
+}
+
+#home-header-second{
+    width: 50%;
+}
+
+#home-header button{
+    margin: 5px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+#about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: darkslateblue;
+    height: 100vh;
+}
+
+#about-header-first{
+    width: 45%;
+    font-size: 1.3em;
+    padding: 20px 40px;
+}
+
+#about-header-second{
+    width: 55%;
+}
+
+#about-header-second img{
+    width: 100%;
+}
+
+#about-header button{
+    margin: 5px;
+}
+
+#gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslateblue;
+    height: 100vh;
+}
+
+#gallery-header-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.3em;
+    padding: 20px 40px;
+}
+
+#gallery-header-second{
+    width: 55%;
+}
+
+#gallery-header button{
+    margin: 5px;
+}
