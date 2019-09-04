@@ -1,0 +1,64 @@
+body { 
+  color: darkred; 
+  background-color: rgb(218, 200, 179); 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-image:  url("/images/background2.jpg");
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s opacity;
+}
+
+#fademe {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: 2s;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+h5 {
+  margin: 0;
+}
+
+a {
+  font-size: 30px;
+  margin: 15px;
+  color: royalblue;
+  font-weight: bolder;
+}
+
+body img {
+  width: 300px;
+}
+
+#colchones {
+  width: 500px;
+}
+
+#refri {
+  width: 250px;
+}
+
+iframe {
+  margin: 15px;
+}
