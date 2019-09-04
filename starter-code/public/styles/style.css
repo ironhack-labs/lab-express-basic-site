@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.cover {
+  background: url('../img/i-want-to-believe.png') no-repeat center fixed;
+  background-size:cover;
+  height: 90vh;
+}
+
+.row{
+  justify-content: center;
+  align-content: center;
+  height: 85vh;
+}
+
+.carousel-inner {
+    width: 900px;
+    height: 450px;
+    margin: 10px;
+}
+.carousel-item > img {
+    width: 900px;
+    height: 450px;
+}
