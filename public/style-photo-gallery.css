@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1515387784663-e2e29a23f69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80');
+  background-size: 100%;
+  background-position: center;
+}
+
+.bg-image {
+  background-color: black;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0 0;
+  color: white;
+  text-align: center;
+
+}
+
+nav {
+  background-color: white;
+}
+
+.nav-link {
+  color: black;
+}
