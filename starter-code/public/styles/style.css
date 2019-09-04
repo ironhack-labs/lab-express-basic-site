@@ -1,0 +1,78 @@
+* {
+    margin: 0
+}
+
+.home {
+    background: rgb(84, 217, 226);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: space-evenly;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    width: 115px;
+    height: 30px;
+    background-color: lightseagreen;
+    border: none;
+    font-size: inherit;
+}
+
+.body-gallery {
+    background: rgba(66, 226, 199, 0.384);
+    color: rgb(99, 171, 235);
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    display: flex;
+    margin: 1vw;
+    justify-content: center;
+    flex-flow: wrap-reverse;
+}
+
+.gallery img {
+    margin: inherit;
+    width: 25%;
+    height: 200px;
+}
+
+body .about{
+    height: 100%;
+    background-color: rgb(255, 217, 223);
+}
+
+.about {
+    background-color: rgb(255, 217, 223);
+    display: flex;
+    justify-content: space-around;
+}
+
+.likes,
+.dislikes {
+    color: teal;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.likes img,
+.dislikes img {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px; 
+}
