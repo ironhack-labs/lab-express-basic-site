@@ -41,10 +41,17 @@ body {
 
 .container h1 {
   font-family: "Lora", serif;
-  color: lightsteelblue;
   text-align: center;
   margin: 50px 0;
   font-size: 45px;
+}
+
+.container a {
+  color: lightsteelblue;
+}
+
+.container a:hover {
+  text-decoration: none;
 }
 
 .container p {
