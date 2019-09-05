@@ -14,9 +14,25 @@
     width: 8rem;
 }
 
-.carousel {
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gif {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
+    width: 80vw !important;
 }
 
 .video {
