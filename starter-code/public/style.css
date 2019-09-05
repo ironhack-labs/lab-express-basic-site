@@ -4,6 +4,11 @@ font-family: 'Muli', sans-serif;
 font-family: 'BioRhyme', serif;
 */
 
+::selection {
+  background: #39ff14;
+  color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
