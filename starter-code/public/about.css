@@ -1,0 +1,13 @@
+.about{
+    width: 800px;
+    display: flex;
+    margin-left: 300px;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}

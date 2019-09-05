@@ -1,0 +1,27 @@
+h1 {
+  justify-content: center;
+}
+
+
+.container {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: bisque;
+  border: 2px;
+  border: 2px solid;
+  border-radius: 25px;
+  height: 500px;
+ }
+
+
+
+
+#carouselExampleControls  img {
+  padding-left: 30px;
+  padding-left: 30px;
+  height:30%;
+  height: 500px;
+
+}
