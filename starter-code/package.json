@@ -7,6 +7,10 @@
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/1000miles/lab-express-basic-site.git"
+   },
   "author": "Thuy Le",
   "license": "ISC",
   "dependencies": {

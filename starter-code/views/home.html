@@ -5,9 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home Page</title>
+
+    <!-- Bootstrap 4.3 CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap 4.3 JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- Clrs  -->
+    <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hello from Home page</h1>
+<body class="bg-all">
+    <div class="container header">
+        <nav>
+            <ul>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container home container-text-home">
+            <h1 class="display-1">What's <em><span>wrooong</span></em> with your http?</h1>
+            <p class="lead">Do you often ask yourself what all the http error codes mean? <br/> Find it out and start to learn the most occuring ones (e.g. 404, 500, 503, etc.) by heart.</p>
+            <div class="button-container">
+                <button type="button" class="btn btn-outline-warning button-orange">Gimme a break!</button>
+                <button type="button" class="btn btn-outline-info btn-lg">I'm ready to guess!</button>
+            </div>
+        </div>
+        <img
+            src="images/blackline-cat-intro.png"
+            class="cat-intro">
+        <script src="animation.js"></script>
+    </div>
 </body>
 </html>
