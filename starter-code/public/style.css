@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #d16196;
+}
+
+/* Bootstrap */
+
+.jumbotron-fluid {
+    position: relative;
+    top: 100px;
+    background-color: #85144B;
+    height: 100vh;
+    width: 100vw;
+}
+
+.display-1 {
+    flex: 1;
+
+    font-size: 4.5rem;
+}
+
+.display-1 span {
+    color: #17a2b8;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.lead {
+    flex: 1;
+}
+
+/* Custom CSS */
+
+.bg-all {
+    background-color: #85144B;
+}
+
+.header {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    font-size: 40px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #d16196;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Containers */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text-home {
+    text-align: center;
+}
+
+/* Buttons */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.btn-small {
+    margin: 5px;
+}
+
+/* Home Page */
+
+.cat-intro {
+    position: fixed;
+    bottom: -90px;
+    width: 50%;
+    width: 50%;
+}
+
+/* Gallery Page */
+
+.gallery {
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-text-gallery {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.img-container {
+    background-color: #d16196;
+    position: relative;
+    top: 40px;
+    max-width: 400px;
+    max-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
