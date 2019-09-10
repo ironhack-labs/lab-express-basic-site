@@ -1,4 +1,4 @@
-const express = require("espress");
+const express = require("express");
 const app = express();
 const PORT = 4100;
 
@@ -16,7 +16,8 @@ app.get("/gallery", (req, res) => {
     response.sendFile(__dirname + '/views/gallery.html')
 })
 
-app.Listen.PORT
+app.Listen(PORT)
+console.log(`Listening on port ${PORT}` )
 
 
 //nodemon app.js <- always use nodemon if possible and if it installed: npm install -g nodemon
