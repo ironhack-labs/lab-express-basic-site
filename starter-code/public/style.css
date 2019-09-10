@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(55, 100, 140);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+article,
+.puppies {
+  font-size: 48px;
+  display: block;
+  background-color: rgb(29, 53, 74);
+  color: white;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+}
+
+.puppies h2 {
+  font-size: 64px;
+}
+
+.puppies p {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: inline;
+  padding: 0 60px;
+}
+
+input {
+  padding: 40px 90px;
+  background-color: rgb(29, 53, 74);
+  color: white;
+  font-size: 36px;
+}
+
+input:hover {
+  box-shadow: 20px 20px;
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  display: block;
+  width: 75%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.399);
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

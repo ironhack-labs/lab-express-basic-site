@@ -1,0 +1,21 @@
+{
+  "name": "starter_code",
+  "version": "1.0.0",
+  "description": "package code",
+  "main": "yes",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lab-express-basic-site"
+  },
+  "keywords": [
+    "lab"
+  ],
+  "author": "brais",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
