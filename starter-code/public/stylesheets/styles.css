@@ -1,0 +1,57 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0
+}
+
+nav ul li {
+  padding: .8rem
+}
+
+nav ul li:first-child {
+  padding-left: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery__item {
+  display: flex;
+}
+
+.gallery img {}
