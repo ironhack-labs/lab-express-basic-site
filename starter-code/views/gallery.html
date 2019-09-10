@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="main-nav">
+        <ul class="main-menu">
+          <li class="main-menu__item"><a href="/" class="main-menu__link">Home</a></li>
+          <li class="main-menu__item"><a href="/about" class="main-menu__link">About</a></li>
+          <li class="main-menu__item"><a href="/gallery" class="main-menu__link">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="main-title">Gallery</h1>
+      <ul class="gallery">
+        <li class="gallery__item"><img src="/img/forest.jpg" alt="Forest image" data-image-description="A beautiful forest being covered by the mist" class="gallery__image"></li>
+        <li class="gallery__item"><img src="/img/eagle.jpg" alt="Eagle image" data-image-description="The beautiful bald eagle" class="gallery__image"></li>
+        <li class="gallery__item"><img src="/img/mountain.jpg" alt="Mountain image" data-image-description="A lost mountains paradise" class="gallery__image"></li>
+      </ul>
+
+      <div class="modal-lightbox-container">
+        <div class="modal">
+          <img id="modal-image" src="" alt="" class="modal__image">
+          <h2 class="modal__title"></h2>
+          <p class="modal__description"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/app.js" type="module"></script>
+  </body>
+</html>
