@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -22,7 +25,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0
 }
@@ -33,6 +36,11 @@ nav ul li {
 
 nav ul li:first-child {
   padding-left: 0;
+}
+
+nav ul li a {
+  color: #C3C1C0;
+  text-decoration: none;
 }
 
 img {
@@ -52,6 +60,8 @@ p {
 
 .gallery__item {
   display: flex;
+    width: 33.33%;
+    height: 230px;
 }
 
 .gallery img {}
