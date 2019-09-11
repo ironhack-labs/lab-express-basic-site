@@ -2,6 +2,44 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(https://wallpaperplay.com/walls/full/4/7/c/11389.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin: 50px 0;
+  color: white;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0;
+  color: white;
+  text-align: center;
+  width: 600px;
+}
+
 img {
-  width: 200px;
+  width: 400px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-around;
 }
