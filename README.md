@@ -5,7 +5,7 @@
 
 Pick a celebrity or other topic and use Express to make a Website for it.
 
-If you are looking for some inspiration, you can go here: https://lab-express-basic-site-sol.herokuapp.com/. It might take a couple of minutes to load the page for the first time.
+If you are looking for some inspiration, you can go here: https://lab-express-basic-site.herokuapp.com/ It might take a couple of minutes to load the page for the first time.
 
 ## Requirements
 
@@ -52,6 +52,5 @@ In addition to that, you will need:
 3. a `views/` folder for your separate HTML files
 4. a `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript
 
-Here is [an actual example](https://lab-express-basic-site.herokuapp.com/) of what you can make.
 
 Happy coding! :heart:
