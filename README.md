@@ -52,5 +52,6 @@ In addition to that, you will need:
 3. a `views/` folder for your separate HTML files
 4. a `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript
 
+Here is [an actual example](https://lab-express-basic-site.herokuapp.com/) of what you can make.
 
 Happy coding! :heart:
