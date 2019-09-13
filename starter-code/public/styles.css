@@ -1,64 +1,18 @@
-.pagina-inicial {
-  background-image: url(./images/boat-2880x1800-lake-mountains-vacation-norway-4k-16560.jpg);
-  background-size: cover;
-  padding: 250px;
-}
-h1 {
-  text-align: center;
-  font-size: 40px;
-  color: white;
+.body {
+  height: 100%;
 }
 
-.whats-on {
-  padding: 60px 0;
-}
-.whats-on h2 {
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-
-  margin-bottom: 80px;
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.whats-on .grid {
-  display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  padding: 0 100px;
+img {
+  height: 100vh;
+  width: 100vw;
 }
 
-.whats-on .grid img {
-  width: 200px;
-}
-
-.whats-on .grid div {
-  padding: 0 20px;
-}
-
-.whats-on .grid p {
-  font-size: 20px;
-  color: grey;
-}
-
-nav {
-  padding: 10px 10px;
-}
-
-.about {
-  background-color: darkred;
-}
-
-.box {
-  border: 1px solid black;
-  height: 800px;
-}
-
-.about2 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.paragrafo {
-  padding: 0px 40px 0px 40px;
-  text-align: center;
+h3 {
+  padding: 30px;
 }
