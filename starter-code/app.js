@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-
+require("dotenv").config()
 app.use(express.static('public'))
 
 app.get('/', (request, response) => {
@@ -16,7 +16,6 @@ app.get('/photos', (request, res) => {
   res.sendFile(`${__dirname}/views/photos-page.html`)
 })
 
-app.listen(3000),
-  () => {
-    console.log(`server on: http://localhost:3000`)
-  }
+app.listen(process.env.PORT,
+  console.log(`server on port ${process.env.PORT}`))
+  
