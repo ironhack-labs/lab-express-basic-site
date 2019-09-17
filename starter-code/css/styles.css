@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,h2,h3 {
+  color: yellow;
+  text-align: center;
+}
+.menu {
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(95vh - 50px);
+  background-size: cover;
+  background-position: center;
+}
+.hero {
+  background-color: brown;
+  background-image: url('../public/images/home.jpg');
+}
+.about {
+  background-color: purple;
+  background-image: url('../public/images/about.jpg');
+}
+.gallery {
+  background-color: green;
+  background-image: url('../public/images/gallery.jpg');
+}
+.active {
+  border-bottom: 2px solid yellow;
+
+}
