@@ -1,0 +1,16 @@
+p {
+  align-content: center;
+}
+nav {
+  height: 3em;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  background-color: brown;
+  align-items: center;
+}
+a {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: aliceblue;
+}
