@@ -1,0 +1,19 @@
+/* Home */
+.main {
+    background: url("/images/band.jpeg") no-repeat center center fixed;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.main p {
+    font-size: 50px;
+}
+
+/* Gallery */
+#carouselExampleIndicators img {
+    height: 80vh;
+}
