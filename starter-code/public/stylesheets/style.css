@@ -1,0 +1,49 @@
+body{
+    background: url("../images/kareena.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.home {
+    height: 80vh;
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    border: 2px dotted white;
+    width: 40vw;
+    color: white;
+}
+
+.container {
+    height: 80vh;
+}
+
+.info > p{
+    margin-left: 15px;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+}
+
+footer{
+    height: 10vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    clear: both;
+}
