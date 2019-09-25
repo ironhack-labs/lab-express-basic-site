@@ -1,0 +1,20 @@
+* {
+  background-color: lightgray;
+}
+
+
+.h1green {
+  color: green;
+}
+
+.h1blue {
+  color: blue;
+}
+
+h1 {
+  color: red;
+}
+
+img {
+  height: 200px;
+}
