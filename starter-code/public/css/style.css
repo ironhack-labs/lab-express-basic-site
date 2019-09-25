@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 5px;
+}
+.navbar a {
+    padding: 10px;
+}
+.belowNavbar {
+    display: flex;
+    justify-content: center;
+    background: rgb(45,55,54);
+    background: linear-gradient(90deg, rgb(230,225,233) 50%,rgb(45,55,54) 50%, rgb(45,55,54) 70%, rgb(45,55,54) 100% );
+
+}
+.galleryImages img{
+    width: 352px;
+    height: 250px;
+}
+p{
+    font-size: 25px;
+}
