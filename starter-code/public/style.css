@@ -1,0 +1,24 @@
+.modal {
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    display: none;
+    z-index: 10;
+    margin-left: -40px;
+    margin-right: 0;
+ }
+
+ .close {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    transform: rotate(45deg);
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+ }
+
