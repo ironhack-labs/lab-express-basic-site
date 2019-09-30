@@ -1,0 +1,10 @@
+.centrado {
+    text-align: justify;
+}
+
+.centrar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
