@@ -1,0 +1,17 @@
+body{
+  background-color: darkmagenta;
+  
+}
+h1{
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+
+  
+}
