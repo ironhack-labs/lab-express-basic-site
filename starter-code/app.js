@@ -2,8 +2,7 @@ const express = require("express");
 const app = express();
 
 // get public folder
-
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 // root
 app.get("/", (request, response, next) => {
