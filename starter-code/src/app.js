@@ -1,14 +1,16 @@
 const express = require("express");
 const app = express();
+const {about, art, home} = require('./routes/pages')
 
 // get public folder
 app.use(express.static('public'));
 
 // root
-app.get("/", (request, response, next) => {
-  console.log(request);
-  response.sendFile(__dirname + '/views/index.html');
-});
+app.get("/", home);
+
+app.get("/art", art)
+
+app.get("/about", about)
 
 // server
 app.listen(3000, ()=>{
