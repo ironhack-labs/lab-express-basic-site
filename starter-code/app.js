@@ -1,20 +1,16 @@
 const express = require('express');
+/* const index = require('./src/routes/index'); */
+const {bar, about, home, photo} = require('./src/routes/index');
 const app = express();
 
-app.get('/', (request, response, next) => {
-    response.send('/');
-});
+app.use(express.static('public'));
 
-app.get('/home', (request, response, next) => {
-    response.send('Home');
-});
+app.get('/', bar);
 
-app.get('/about', (request, response, next) => {
-    response.send('About');
-});
+app.get('/home', home);
 
-app.get('/photo', (request, response, next) => {
-    response.send('Photo');
-});
+app.get('/about', about);
+
+app.get('/photo', photo);
 
 app.listen(3000);
