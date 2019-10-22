@@ -1,0 +1,32 @@
+header{    
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+section{    
+    width: 700px;
+    margin:0px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	align-items: center;    
+}
+
+nav{
+    width: 170px;
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+  }
