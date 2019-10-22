@@ -3,7 +3,7 @@ header{
     margin-bottom: 10px;
 }
 
-section{    
+#paul-logo{    
     width: 700px;
     margin:0px auto 0px auto;
     display: flex;
@@ -13,8 +13,9 @@ section{
 }
 
 nav{
-    width: 170px;
+    width: 300px;
     float: right;
+    margin-right: 10px;
 }
 
 nav ul{
@@ -29,4 +30,16 @@ nav a {
     font-size: 20px;
     font-weight: 100;
     color: black;
-  }
+}
+
+#principal{
+    width: 760px;
+    margin:0px auto 0px auto;
+    
+}
+.book{
+    float: left;
+    margin: 1px;
+    width: 250px;
+    height: 300px;
+}
