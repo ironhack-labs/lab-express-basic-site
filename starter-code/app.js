@@ -4,6 +4,7 @@ const {bar, about, home, photo} = require('./src/routes/index');
 const app = express();
 
 app.use(express.static('public'));
+app.use(express.static('views'));
 
 app.get('/', bar);
 
