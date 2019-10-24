@@ -1,0 +1,29 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.wallpaper {
+  width: 100vw;
+}
+
+.single-image {
+  width: 40vw;
+  margin-bottom: 40px;
+}
