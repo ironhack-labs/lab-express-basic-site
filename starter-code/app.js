@@ -63,7 +63,7 @@ app.get("/photo-gallery", (req, res, next) => {
       {image: "/images/3.png", name: "VMP", dir:"http://victoriamunozphoto.com/"},
       {image: "/images/4.png", name: "Sampedro Paisajimo", dir:"http://www.alvarosampedro.com/en/"},
       {image: "/images/5.png", name: "Tuero Aivar", dir:"http://tueroaivar.com/"},
-      {image: "/images/6.png", name: "burnout", dir:"http://bornout.wewebs.es/"},
+      {image: "/images/6.png", name: "burnout", dir:"http://burnout.wewebs.es/"},
       {image: "/images/7.png", name: "BA", dir:"http://ba-solution.com/"},
       {image: "/images/8.png", name: "quam", dir:"http://quamarquitectura.com/"},
       {image: "/images/9.png", name: "landaluce", dir:"http://www.youtuberunagranjaenafrica.es"},
