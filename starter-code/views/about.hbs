@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <title>About</title>
+</head>
+
+<body>
+
+    <nav class="about">
+        <ul>
+            {{#each elements}}
+            <li><a href="{{dir}}">{{name}}</a></li>
+            {{/each}}
+        </ul>
+    </nav>
+
+    <div class="half-left-container">
+        <div class="half-left">
+            <h1>{{title}}</h1>
+            <div class="text">
+                <p>{{text}}</p>
+            </div>
+            <div class="cities">
+                {{#each cities}}
+                <li>{{this}}</li>
+                {{/each}}
+            </div>
+
+            <div class="boton"><a href="{{botonTo}}">{{boton}}</a></div>
+        </div>
+
+
+    </div>
+
+    <div class="half-right-container">
+
+        <div class="pic"><img src="{{picture}}"></div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+
+/*------------------ home -----------------*/
+
+body.home{
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    padding: 2% 0%;
+    width: 100%;
+    z-index: 10;
+}
+
+li {
+    font-size: 20px;
+    float: left;
+    list-style: none;
+    width: 33%;
+    text-align: center;
+    color: #ccff00;
+    font-family: arial;
+}
+
+li a{
+    color: #ccff00;
+    text-decoration: none;
+    text-transform: lowercase;
+    border-bottom: 1px solid #ccff00;
+    padding: 2% 15% 3% 0%;
+    font-size: 16px;
+}
+
+li a:hover{
+    color: #ccff00;
+    text-decoration: none;
+    text-transform: lowercase;
+    border-bottom: 1px solid #ccff00;
+    padding: 2% 15% 2% 15%;
+    transition-duration: 1s;
+}
+
+p.wewebs{
+    color: #ccff00;
+    float: right;
+    position: absolute;
+    right: 0;
+    font-size: 170px;
+    text-align: right;
+}
+
+.sentence-container{
+    position: absolute;
+    right: 3%;
+    width: 70%;    
+    top: 100%;
+    left: 100%;
+    transform: translate(-105%, 50%);
+}
+
+/*------------------ about -----------------*/
+
+
+nav.about {
+    position: absolute;
+    text-align: center;
+    padding: 0% 0%;
+    width: 50%;
+    z-index: 10;
+}
+
+nav.about li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+nav.about li a:hover{
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccff00;
+    transition-duration: 1s;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1{
+    padding-bottom:3%;
+}
+
+.half-left-container{
+    width: 50%;
+    float: left;
+    display: table;
+    color: #000;
+    position: relative;
+    height: 100vh;
+}
+
+.half-left{
+    margin: 0 auto;
+    text-align: justify;
+    padding: % 0% 0% 0%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.half-left p{
+    line-height: 2;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.half-right-container{
+    width: 50%;
+    float: left;
+    display: table;
+    position: relative;
+    height: 100vh;
+    background-image: url('/images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boton{
+    padding: 5% 0% 3% 0%;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    width: 25%;
+}
+
+.boton a{
+    color: #000;
+    text-decoration: none;
+}
+
+.boton:hover{
+    padding: 5% 0% 3% 0%;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccff00;
+    width: 50%;
+    transition-duration: 0.5s;
+}
+
+.cities{
+    padding: 5% 0%;
+    display: table;
+}
+
+.cities li{
+    font-size: 12px;
+    float: left;
+    list-style: none;
+    width: 33%;
+    text-align: left;
+    color: #000;
+    font-family: arial;
+    line-height: 2.5;
+    display: table;
+    letter-spacing: 2px;
+}
+
+.pic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*------------------ portfolio -----------------*/
+
+nav.porfolio {
+        position: absolute;
+        /* text-align: right; */
+        padding: 2% 0%;
+        width: 50%;
+        z-index: 10;
+        float: right;
+        left: 50%;
+}
+
+nav.porfolio li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+nav.porfolio li a:hover{
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    transition-duration: 1s;
+}
+
+.half-container-left{
+    width: 50%;
+    float: left;
+    display: table;
+    color: #000;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+.half-container-right{
+    width: 50%;
+    float: left;
+    display: table;
+    color: #000;
+    position: relative;
+    background-color: #000;
+    height: 100vh;
+}
+
+.pic-container{
+    width: 33%;
+    float: left;
+    margin: 3% 0%;
+}
+
+.pic-container li{
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+}
+
+.pic-container li a{
+    font-size: 12px;
+    list-style: none;
+    text-align: center;
+    color: #000;
+    font-family: arial;
+    letter-spacing: 2px;
+    padding: 0;
+}
+
+.pics-con-con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+}
+
+.half-right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.half-right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacto{
+        font-size: 30px;
+        font-family: initial;
+        padding-bottom: 10px;
+}
+
+.nombre{
+    padding: 40% 0% 10% 0%;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.mail{
+    padding: 10% 0% 10% 0%;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.phone{
+    padding: 10% 0% 10% 0%;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 16px;
+}

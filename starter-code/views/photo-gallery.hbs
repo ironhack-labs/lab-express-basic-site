@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    
+    <nav class="porfolio">
+        <ul>
+            {{#each elements}}
+                <li><a href="{{dir}}">{{name}}</a></li>
+            {{/each}}
+        </ul>
+    </nav>
+
+    <div class="half-container-left">
+        <div class="pics-con-con">
+            {{#each pics}}
+                <div class="pic-container">
+                    <img src="{{image}}"><li><a href="{{dir}}" target="_blank">{{name}}</a></li>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+
+
+    <div class="half-container-right">
+        <div class="half-right">
+
+            {{!-- <div class="contacto">{{contact}}</div> --}}
+            <div class="nombre">{{nombre}}</div>
+            <div class="mail"><a href="{{mailto}}">{{mail}}</a></div>
+            <div class="phone"><a href="{{callto}}">{{phone}}</a></div>
+
+        </div>
+    </div>
+
+</body>
+</html>
