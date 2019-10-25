@@ -312,3 +312,46 @@ nav.porfolio li a:hover{
     width: 100%;
     font-size: 16px;
 }
+
+
+@media (max-width: 920px) {
+    .half-left-container {
+        width: 100%;
+        float: none;
+        display: table;
+        color: #000;
+        position: relative;
+        height: 100vh;
+    }
+
+    .half-right-container {
+        width: 100%;
+        float: none;
+        display: table;
+        position: relative;
+        height: 100vh;
+        background-image: url(/images/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .half-container-left {
+        width: 100%;
+        float: none;
+        display: table;
+        color: #000;
+        position: relative;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .half-container-right {
+        width: 100%;
+        float: none;
+        display: table;
+        color: #000;
+        position: relative;
+        background-color: #000;
+        height: 50vh;
+    }
+  }
