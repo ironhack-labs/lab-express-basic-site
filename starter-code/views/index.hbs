@@ -1,0 +1,23 @@
+<!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="/css/main.css" />
+      </head>
+      <body id="home">
+        <h1>This is the Home {{name}}!</h1>
+        <h2>Welcome to {{{bootcamp}}}</h2>
+        <ul class="main-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+        </ul>
+
+        {{#if img}}
+          <img src={{default}} alt="">
+        {{else}}
+          <img src={{img}} alt="">
+        {{/if}}
+      </body>
+    </html>
