@@ -1,0 +1,17 @@
+#header_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 100px;
+  font-size: 1.9rem;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}

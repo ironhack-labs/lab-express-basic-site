@@ -1,0 +1,8 @@
+* {
+  color: white;
+}
+body {
+  background-image: url(../assets/img/bg-image-home.jpg);
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
