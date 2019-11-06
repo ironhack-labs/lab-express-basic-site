@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #333;
+}
+
+a {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #777;
+}
