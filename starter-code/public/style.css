@@ -1,0 +1,61 @@
+.title {
+    color: navy;
+    font-size: 40px;
+}
+
+.landing {
+background-image: url(https://danskwilton.com/wp-content/uploads/2018/01/header-3.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.links {
+    display: flex;
+    font-size: 32px;
+    text-align: center;
+    justify-content: space-evenly;
+    color: green;
+}
+
+p {
+    text-align: center;
+}
+
+.gallery {
+    color: rgb(48, 132, 171);
+    text-align: center;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.computer {
+    height: 300px;
+    width: 550px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+.desktop {
+    height: 300px;
+    width: 550px;
+}
+
+
+.about {
+    text-align: center;
+    color: rgb(48, 132, 171);
+}
