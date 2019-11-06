@@ -1,0 +1,47 @@
+    body {
+        margin: 0;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .header-1 {
+        background-image: url("/images/header2.jpg");
+        height: 100vh;
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-2 {
+        background-image: url("/images/profile2.jpg");
+        height: 100vh;
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-3 {
+        background-image: url("/images/header3.jpeg");
+        height: 100vh;
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .fact-lists {
+        display: flex;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .fact-lists li {
+        line-height: 25px;
+        font-size: 15px;
+        width: 800px;
+    }
+
+    .bio-text {
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 40px;
+    }
