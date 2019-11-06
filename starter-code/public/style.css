@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+/* ======== */
+/* global */
+/* ======== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cur-page {
+  color: rgb(255, 88, 42);
+}
+
+/* 1. nav */
+
+nav {
+  background: #EEEEEE;
+  font-size: 1.6rem;
+  margin-bottom: 1em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 3em;
+}
+
+nav li {
+  margin: 1em;
+  list-style: none;
+}
+
+nav a {
+  color: #111;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #888;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+}
+
+nav h4 {
+  font-weight: 400;
+}
+
+/* ======= */
+/* card */
+/* ======= */
+
+
+.card {
+  margin: 1em;
+  padding: 0 2em;
+  background: #EEEEEE;
+  height: auto;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+.card a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 auto;
+}
+
+.card a:hover {
+  color: rgb(255, 88, 42);
+  /* transition-timing-function: ease-in-out;
+  transition-duration: 250ms; */
+}
+
+.card > * {
+  padding: 0 0 2em; 
+}
+
+.card img {
+  max-height: 300px;
+  align-self: center;
+}
+
+
+.card h4 {
+  font-size: 2rem;
+}
+
+.card p {
+  font-size: 1.6rem;
+}
+
+
+/* banner/introduction area */
+
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ashmolean-logo {
+  margin: 1em 0;
+}
+
+
+/* ======== */
+/* landing page */
+/* ======== */
+
+/* description */
+
+.description {
+  margin: 2em;
+  width: 60%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.description p {
+  margin: 1em 0;
+}
+
+/* ======== */
+/* about us */
+/* ======== */
+
+.access {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.about-title {
+  align-self: center;
+  font-size: 2.6rem;
+}
+
+.access h3 {
+  font-size: 2rem;
+}
+
+.access p {
+  font-size: 1.2rem;
+}
+
+.access > * {
+  margin: 1em 0;
+}
+
+.exhibitions {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.exhibitions-title {
+  font-size: 2.5rem;
+  width: 100%;
+  margin: 1em;
+}
+
+.exhibitions h5 {
+  font-size: 1.4rem;
+}
+
+.exhibitions p {
+  font-size: 1.2rem;
+}
+
+/* ======== */
+/* gallery */
+/* ======== */
+
+/* collection info */
+
+.collection-info {
+  margin: 2em 0;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection-info img {
+  padding: 1em 0;
+}
+
+.collection-info h2 {
+  font-size: 2.5rem;
+  line-height: 1.3em;
+  max-width: 30em;
+}
+
+.collection-info a {
+  color: rgb(255, 88, 42);
+  padding: 0.25em;
+}
+
+.collection-info a:hover {
+  color: #FFF;
+  background: rgb(255, 88, 42);
+  transition-duration: 500ms;
+}
+
+
+/* objects */
+
+.objects-title {
+  align-self: flex-start;
+  font-size: 3rem;
+  margin: 1em;
+}
+
+.objects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
