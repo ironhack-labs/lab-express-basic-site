@@ -1,0 +1,70 @@
+body {
+  background-image: url(./pics.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  border: 3px solid darkblue;
+  color: darkgreen;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.about {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 10%;
+  margin-left: 40%;
+}
+.photo {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 10%;
+  margin-left: 40%;
+}
+p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkgreen;
+  font-weight: bold;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#name:hover {
+  color: brown;
+  border: 3px solid black;
+  width: 10%;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: pink;
+  transition: 1s;
+}
