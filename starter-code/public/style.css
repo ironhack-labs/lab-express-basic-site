@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  background-color: black;
+  background-size: 100%;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 5%;
+}
+
+#home-body {
+  display: flex;
+  background-image: url("newbandpic.jpg");
+  background-color: black;
+  background-size: 100%;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 5%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.frontdiv {
+  display: flex;
+  align-content: space-between;
+}
