@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+/* h3 {
+    justify-content: center;
+    align-content: center;
+} */
+
+.col {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 20px;
+    margin: 100px;
+}
+
+img {
+    margin: 20px;
+    padding: 20px;
+}
