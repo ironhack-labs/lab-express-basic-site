@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.nav-wrapper {
+  background-color: #ed5d46;
+  padding: 0 40px;
+}
+
+.nav-wrapper a {
+  /* color: black; */
+}
+
+.brand-logo img {
+  height: 60px;
+  width: auto;
+}
+
+.card .card-image img {
+  /* width: 100px; */
+
+  /* margin: 0; */
+}
+
+.page-footer {
+  background-color: #ed5d46;
+}
+
+.post {
+  margin: 20px 0;
+}
+
+#background-buzz {
+  background-image: url("buzz.png");
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  background-size: 300px auto;
+  background-position: 80% 0;
+}
