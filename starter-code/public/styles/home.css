@@ -1,8 +1,12 @@
-* {
-  color: white;
-}
 body {
-  background-image: url(../assets/img/bg-image-home.jpg);
-  background-size: cover;
-  font-family: "Montserrat", sans-serif;
+  background-image: url(/assets/img/cocktail-homepage.jpeg);
+  color: rgb(253, 242, 233);
+}
+h1,
+h2 {
+  color: rgb(253, 242, 233);
+}
+.img-container {
+  text-align: center;
+  padding-top: 3%;
 }

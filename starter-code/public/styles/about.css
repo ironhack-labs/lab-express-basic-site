@@ -1,0 +1,17 @@
+#header_main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  /* background-color: rgba(26, 82, 118, 0.9); */
+  height: 50px;
+}
+h1 {
+  padding-top: 12%;
+  color: black;
+}
+p {
+  padding: 5%;
+  color: black;
+  text-align: center;
+}

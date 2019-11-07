@@ -15,16 +15,14 @@ server.set("view engine", "hbs");
 server.get("/", (request, response) => {
   response.render("home", {
     // container: "",
-    title: "Welcome in one Day one Cocktail",
-    icon: '<i class="fas fa-cocktail"></i>',
-    css: ["home", "about", "photo", "styles"]
+    title: "WELCOME IN ONE DAY ONE COCKTAIL",
+    css: ["home", "styles"]
   });
 });
 
 server.get("/about", (request, response) => {
   response.render("about", {
     title: "More about us",
-    icon: '<i class="fas fa-cocktail"></i>',
     css: ["styles", "about"]
   });
 });
