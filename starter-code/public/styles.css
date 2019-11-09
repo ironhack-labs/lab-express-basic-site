@@ -1,0 +1,64 @@
+* {
+  font-family: Roboto;
+  color: bisque;
+  opacity: 0.9;
+}
+
+body {
+  background-image: url(/images/flamingo-4553025.jpg);
+  background-position: 40%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 120%;
+}
+
+div > div > h1 {
+  color: bisque;
+  font-size: 170px;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  margin-right: 650px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.article1 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  position: absolute;
+  right: 0;
+  width: 400px;
+  height: auto;
+}
+
+.article2 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  position: absolute;
+  left: 0;
+  width: 400px;
+  height: auto;
+}
+
+.funFacts {
+  font-family: Roboto;
+  color: bisque;
+  opacity: 0.6;
+}

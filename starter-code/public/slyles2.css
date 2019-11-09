@@ -1,0 +1,54 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px 0px 20px;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+
+  width: 450px;
+  height: 350px;
+  padding: 5px;
+}
+
+a {
+  margin-left: 15px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: salmon;
+}
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.h2-top {
+  margin-top: 20px;
+}
+
+.a-about {
+  margin-left: 90px;
+}
