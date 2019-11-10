@@ -1,5 +1,6 @@
 body {
   /* position: relative; */
+  color: black;
 }
 img {
   height: 250px;
@@ -16,10 +17,26 @@ p {
 }
 .container_photo {
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
+}
+.slick-container {
+  padding: 0 20px;
+}
+
+.slick-container .slick-next,
+.slick-container .slick-prev {
+  z-index: 1;
+  background-color: black;
+}
+.slick-container .slick-next {
+  right: 10px;
+}
+.slick-container .slick-prev {
+  left: 10px;
 }
 button {
   width: 50px;
