@@ -1,0 +1,65 @@
+.full {
+    display: grid;
+    grid-template-rows: 46% 54%;
+} 
+
+.home {
+    background-image: url(./../img/koala-home3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    grid-row-start: 1;
+}
+
+.homeImage {
+width: 250px;
+height: 200px;
+}
+
+.home-section {
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  background-color: rgba(218, 214, 198, 0.5);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.grid-row {
+        grid-row-start: 2;
+    }
+
+.intro {
+    background-color: rgb(246, 247, 242);
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 15px;
+margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

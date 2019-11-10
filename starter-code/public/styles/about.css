@@ -1,0 +1,30 @@
+.about {
+    background-color: wheat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.text {
+    background-color: rgb(246, 247, 242);
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.title2 {
+    background-color: rgb(246, 247, 242);
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  margin-bottom: 0;
+}
