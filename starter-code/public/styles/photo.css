@@ -4,6 +4,7 @@ body {
 }
 img {
   height: 250px;
+  margin: 0 auto;
 }
 h1 {
   color: black;
@@ -17,7 +18,7 @@ p {
 }
 .container_photo {
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
@@ -48,4 +49,7 @@ button {
   cursor: pointer;
 }
 button:hover {
+}
+.container_photo > * {
+  flex: 1;
 }
