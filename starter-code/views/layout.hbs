@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{#each title}}
+    <!-- DOESN'T WORK !!!-->
+    <title>{{this}}</title>
+    {{/each}}
+    {{#each css}}
+    <link rel="stylesheet" href="stylesheet/{{this}}.css">
+    {{/each}}
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    {{#each script}}
+    <script type="module" src="js/{{this}}.js"></script>
+    {{/each}}
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <img src="/images/logo-mexico.jpg" alt="logo-mexico" id="logo">
+        <nav class="navbar">
+            <a class="nav-item active" href="/">HOME</a>
+            <a class="nav-item" href="/about">ABOUT</a>
+            <a class="nav-item" href="/gallery">GALLERY</a>
+        </nav>
+    </header>
+    {{{body}}}
+    <footer class="footer">
+        <h4>YOUR TOUR GUIDE</h4>
+        <hr>
+        <div class="author-info">
+            <img src="images/helene.jpg" alt="author-picture" id="author-picture">
+            <h5>Hélène Favrault</h5>
+            <div class="social-icons">
+                <img src="../images/social/001-facebook.png">
+                <img src="../images/social/003-instagram.png">
+                <img src="../images/social/004-pinterest.png">
+            </div>
+            <p>Helene is a Mexican passionate who is happy to make you discover one of the greatest country in the
+                world !</p>
+        </div>
+    </footer>
+</body>
+
+</html>

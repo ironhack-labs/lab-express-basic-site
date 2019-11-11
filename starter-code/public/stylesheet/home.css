@@ -1,0 +1,270 @@
+/***********LAYOUT************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 25px;
+}
+
+#logo {
+   height: 4.5vh;
+}
+
+.navbar {
+    padding-top: 5px;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(36, 34, 34);
+    padding: 0px 5px;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(102, 96, 96);
+    padding: 0px 5px;
+}
+
+
+/***********HOME PAGE************/
+.container-home {
+    background-image: url("../images/archeological/chichen-itza.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-home h1, .container-home p {
+  color: white;
+  text-align: center;
+}
+
+.container-home h1 {
+    font-size: 6rem;
+    margin: 0;
+    font-weight: 200;
+}
+
+.container-home p {
+    font-size: 1.2rem;
+    width: 50%; 
+}
+
+
+h4 {
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 1.1rem;
+    margin: 25px 0px 0px;;
+}
+
+/* INTRO ACTIVITIES */
+
+#intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+}
+
+/* SECTION ACTIVITIES */
+
+#activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item-line {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    width: 45%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.green > h5, .yellow > h5 {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: solid white;
+    margin: 20px 0 5px 20px;
+}
+
+
+.item-line h5, .item-line p {
+    color: white;
+}
+
+.item-line p {
+    width: 458px;
+    padding: 0 20px;
+    font-size: 0.9rem;
+}
+
+.item-line > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+    height: 250px;
+}
+
+.yellow {
+    background: orange;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+
+.green {
+    background: green;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-places {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-places img {
+    height: 250px;
+    width: 45%;
+}
+
+
+
+/* SECTION GALLERY */
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F9FA;
+    padding: 15px;
+}
+
+.container-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.container-gallery img  {
+    height: 200px;
+    width: 300px;
+    margin: 10px
+}
+
+.container-gallery a {
+    padding: 10px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    margin: 20px 25px;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer h4 {
+    margin: 5px 0px;
+}
+
+hr {
+    width: 80px;
+    background-color: yellow;
+    height: 3px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+
+#author-picture {
+    height: 20vh;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-top: 10px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    padding: 5px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.author-info h5 {
+    font-weight: 500;
+    color: rgb(70, 64, 64);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 10px 0px;;
+}
+
+.author-info p {
+    width: 350px;
+    text-align: center;
+}
+/***********ABOUT PAGE************/
+
+
+
+

@@ -1,0 +1,93 @@
+
+
+body  {
+ background: #F8F9FA;
+ margin: 0;
+ padding: 0;
+}
+
+main {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.intro {
+    display: flex;
+    padding: 60px;
+    background: white;
+    width: 70%;
+}
+
+
+.aside {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside > div {
+    height: 45vh;
+}
+
+#travel-div {
+ background-image: url("../images/tradition/mexican-doll.jpeg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 300px;
+}
+
+#food-div {
+ background-image: url("../images/food/mole.jpeg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 300px;
+ margin-top: 5px;
+}
+
+.aside h2 {
+    background: white;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.section-2 img {
+    width: 60%;
+    height: auto;
+}
+
+.discover {
+    width: 35%;
+    padding: 20px 30px;
+    background: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
