@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #1F395C;
+    flex-shrink: 0;
+    /* don't allow the div to shrink */
+}
+
+.nav {
+    padding-top: 25px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px 20px 5px;
+}
+
+.nav a:hover {
+    color: #6092D1;
+}
+
+.main {
+    background-image: url("../images/IMG_20180530_172914.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    text-align: center
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-10px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.main h1 {
+    margin-top: 0px;
+    padding-top: 70px;
+    font-size: 5rem;
+    color: #1F395C;
+    animation: float 10s ease-in-out infinite;
+}
+
+.main h2 {
+    margin-top: 85px;
+    font-size: 2.5rem;
+    color: #324D6D;
+    animation: float 10s ease-in-out infinite;
+}
+
+.about {
+    background-image: url("../images/DSC_0119.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px
+}
+
+.historyAndSteps h2 {
+    margin: 0;
+    color: #1F395C;
+    font-size: 2.5rem;
+}
+
+.historyAndSteps {
+    width: 600px;
+}
+
+.historyAndSteps p {
+    font-size: 1.2rem;
+}
+
+.history span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1F395C;
+}
+
+.history {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(174, 197, 230, 0.5);
+}
+
+.steps li {
+    font-size: 1.5rem;
+    color: #CEEECE;
+}
+
+.steps {
+    background-color: rgba(206, 238, 206, 0.5);
+    /*last number in rgba = transparency */
+    padding: 20px;
+    margin: 20px;
+}
+
+.itinerary {
+    height: 300px;
+    margin-top: 20px;
+}
+
+.gallery {
+    background-color: #D4DFE0;
+    padding: 20px;
+}
+
+
+.container {
+    grid-template-columns: 100px 50px 100px 50px;
+    grid-template-rows: 80px auto 80px auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.container img {
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.2);
+}

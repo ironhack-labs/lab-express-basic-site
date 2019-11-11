@@ -1,0 +1,31 @@
+<div class="about">
+
+    <div class="historyAndSteps">
+        <div class="history">
+            <h2>{{titleUp}}</h2>
+            <p>Peuplée par les Samis ou Lapons à partir du Xe millénaire av. J.-C. puis par des peuples germaniques,
+                elle fait partie des <span>territoires d'origine des Vikings</span>. <br>Apportant de nouvelles
+                techniques et
+                utilisant
+                plus largement l'écrit (le latin puis les langues germaniques), ces derniers dominent culturellement
+                <span>les Samis</span>. Les conflits ouverts sont cependant peu nombreux et ces populations accèdent,
+                dans la deuxième
+                moitié du xxe siècle, à une pleine reconnaissance.
+            </p>
+        </div>
+        <div class="steps">
+            <h2>{{titleDown}}</h2>
+            <ol>
+                {{#each steps}}
+                <li>{{ this }}</li>
+                {{!-- BONUS : add for each li, a a:link to call each page  --}}
+                {{/each}}
+            </ol>
+        </div>
+    </div>
+
+    <iframe class="itinerary"
+        src="https://www.google.com/maps/embed?pb=!1m52!1m12!1m3!1d1923513.4389023497!2d6.65321967960844!3d60.21965655828796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m37!3e0!4m5!1s0x46416e61f267f039%3A0x7e92605fd3231e9a!2zT3NsbywgTm9ydsOoZ2U!3m2!1d59.913868799999996!2d10.7522454!4m5!1s0x463fbad93394d403%3A0xebe09732e103617c!2zR2VpbG8sIDM1ODAsIE5vcnbDqGdl!3m2!1d60.533651299999995!2d8.2087948!4m5!1s0x463ee4512cafa9d1%3A0xbd0bc34b78d87122!2sHardangervidda%2C%20Norv%C3%A8ge!3m2!1d60.1542843!2d7.443046099999999!4m5!1s0x463e5fb3c511f01f%3A0x922df9ae6d08d909!2sV%C3%B8ringfossen%2C%205785%20Eidfjord%2C%20Norv%C3%A8ge!3m2!1d60.426572099999994!2d7.2514658!4m5!1s0x463e0bd0a181fad1%3A0xacd10d9533bb91ef!2sGudvangen%2C%20Norv%C3%A8ge!3m2!1d60.878718899999996!2d6.8387736!4m5!1s0x46390d4966767d77%3A0x9e42a03eb4de0a08!2sBergen%2C%20Norv%C3%A8ge!3m2!1d60.3912628!2d5.3220544!5e0!3m2!1sfr!2sfr!4v1573425496200!5m2!1sfr!2sfr"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+    </iframe>
+</div>
