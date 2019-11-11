@@ -1,0 +1,16 @@
+{
+  "name": "basic-site",
+  "version": "1.0.0",
+  "description": "create a basic-site",
+  "main": "server.js",
+  "scripts": {
+    "test": "git repository",
+    "server": "nodemon ./server.js -e js,hbs"
+  },
+  "author": "hanna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6"
+  }
+}
