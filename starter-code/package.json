@@ -1,0 +1,23 @@
+{
+  "name": "express-basic-website",
+  "version": "1.0.0",
+  "description": "Ironhack lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariasimo/lab-express-basic-site.git"
+  },
+  "author": "María Simó",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariasimo/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/mariasimo/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
