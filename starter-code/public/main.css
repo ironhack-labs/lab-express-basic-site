@@ -1,0 +1,54 @@
+html{
+    font-size:10px;
+}
+
+h1{
+    font-size:5rem;
+    text-align: center;
+}
+
+p{
+    font-size:2rem;
+    text-align: center;
+}
+
+a{
+    color: purple;
+}
+
+
+body{
+    cursor: crosshair;
+}
+
+div{
+    padding:4rem;
+}
+nav{
+    display:flex;
+    width:100%;
+
+}
+
+ul{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul li{
+    font-size:3rem;
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img{
+    margin:0 auto;
+    padding:3rem;
+}

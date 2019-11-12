@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "LAB Day4 week3",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f-naranjo/lab-express-basic-site.git"
+  },
+  "keywords": [
+    "Basic",
+    "Express",
+    "Site"
+  ],
+  "author": "Francisco Naranjo",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/f-naranjo/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/f-naranjo/lab-express-basic-site#readme"
+}
