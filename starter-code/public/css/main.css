@@ -1,0 +1,58 @@
+body {
+    background-color: pink;
+    padding: 0 10%
+}
+
+h1 {
+    text-align: center;
+}
+
+#portada {
+    display: block;
+    margin: 0 auto;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.letimg {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+    margin: 0 20px;
+
+}
+
+#effect {
+    padding: 20px;
+    display: block;
+    margin: 50px auto;
+}
+
+.button-center {
+    text-align: center;
+    display: block;
+}
