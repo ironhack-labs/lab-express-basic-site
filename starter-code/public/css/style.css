@@ -1,0 +1,21 @@
+*{
+    margin:20px 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.capital{
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
