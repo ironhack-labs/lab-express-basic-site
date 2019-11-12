@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    padding: 0 2rem;
+}
+
+ul.gallery{
+    justify-content: space-around;
+}
+
+img{
+    border: 2px solid #666;
+}
+
+p,h2 {
+    width: 50%;
+    margin: 0 auto;
+}
