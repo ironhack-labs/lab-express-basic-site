@@ -1,0 +1,26 @@
+body{
+    background-color: lightslategray;
+    padding: 20px;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 24px;
+    font-family: Arial;
+    text-align: justify
+}
+
+.car-img {
+    width: 533px;
+    height: 400px;
+}
+
+.pet-img {
+    width: 711px;
+    height: 400px;
+}
