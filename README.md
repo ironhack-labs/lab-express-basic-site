@@ -20,7 +20,7 @@ You should resort to `express` to create your app, build the routing logic with 
 
   ```
   git add .
-  git commit -m "done"
+  git commit -m "Solved Lab"
   git push origin master
   ```
 
@@ -28,9 +28,15 @@ You should resort to `express` to create your app, build the routing logic with 
 
 ## Instructions
 
-**All of your work should happen inside of the *starter-code* directory.**
+You should go throught the following steps:
 
-As such, you should navigate to the directory and run `npm init -y` to create a package.json file, and install `express` by running `npm install express`.
+1. Change directories to `starter-code`.
+2. Run `npm init -y` to create a package.json file.
+3. Run `npm install express` to install the Express package.
+4. Create a `views/` directory that will hold your `.html` files.
+5. Create a `public/` directory that will hold other static files, such as your stylesheets, scripts and images.
+6. Build your Express app in `app.js`.
+7. Polish your HTML, stylesheets and scripts.
 
 **Your Website should have (at least) 3 pages:**
 
@@ -42,19 +48,8 @@ As such, you should navigate to the directory and run `npm init -y` to create a 
 
 **Your site should also have a `public/` folder for:**
 
-- CSS stylesheets
-- Images
-- Bonus: A small script that adds basic interactions to the page (click events, fade ins, popups, etc.)
-
-## Structure of Your Code
-
-Your starter-code only has an empty `app.js` file.
-In addition to that, you will need:
-
-1. A `package.json` file (run `npm init` to create one).
-2. Running npm install `express`.
-3. A `views/` folder for your separate HTML files.
-4. A `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript.
-
+- **CSS** stylesheets
+- **Images**
+- Bonus: Some **JavaScript** to add basic interactions to the page (click events, fade ins, popups, etc.).
 
 Happy coding! 💙
