@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Open+Sans+Condensed:300&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+h1,h2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 5rem;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    height: 6rem;
+    padding: 2rem 6rem;
+}
+
+a{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 1rem;
+}
+
+section{
+    padding: 6rem;
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img{
+    margin-bottom: 6rem;
+    width: 25vw;
+}
+
+.darker{
+    background-color: rgba(0,0,0,0.5);
+}
