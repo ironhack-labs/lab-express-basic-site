@@ -3,7 +3,9 @@
 
 ## Introduction
 
-Pick a celebrity or other topic and use Express to make a Website for it.
+Pick a person that you admire and build a website that shares some basic information about them. They can be a writer, a musician, a celebrity, or someone you know personally.
+
+You should resort to `express` to create your app, build the routing logic with the built-in app routing methods, and serve static content for every request.
 
 <!-- If you are looking for some inspiration, you can go here: https://lab-express-basic-site-sol.herokuapp.com/. It might take a couple of minutes to load the page for the first time. -->
 
@@ -26,32 +28,33 @@ Pick a celebrity or other topic and use Express to make a Website for it.
 
 ## Instructions
 
-**All your work will happen inside *starter_code* so first enter *starter_code* and then run the command to create package.json file**.
+**All of your work should happen inside of the *starter-code* directory.**
+
+As such, you should navigate to the directory and run `npm init -y` to create a package.json file, and install `express` by running `npm install express`.
 
 **Your Website should have (at least) 3 pages:**
 
-1. A home page
-2. An "about" page
-3. A photo gallery page
+1. A **Home** page, that welcomes the visitor and links to the other pages on the website.
+2. An **About** page, that shares some basic information about the person.
+3. A **Works** page, where you showcase some of the work of the person you chose.
+3. Bonus: A **Photo Gallery** page, displaying some pictures of the person/their work.
+
 
 **Your site should also have a `public/` folder for:**
 
-- CSS styling
-- images
-- (BONUS) some small front end JavaScript (click events, fade ins, popups, etc.)
-
-Send your pull request before next class!
-
+- CSS stylesheets
+- Images
+- Bonus: A small script that adds basic interactions to the page (click events, fade ins, popups, etc.)
 
 ## Structure of Your Code
 
-Your starter code only has an empty `app.js` file.
+Your starter-code only has an empty `app.js` file.
 In addition to that, you will need:
 
-1. a `package.json` file (run `npm init` to create one)
-2. to npm install `express`
-3. a `views/` folder for your separate HTML files
-4. a `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript
+1. A `package.json` file (run `npm init` to create one).
+2. Running npm install `express`.
+3. A `views/` folder for your separate HTML files.
+4. A `public/` folder for your publicly available files like CSS, images and (bonus) JavaScript.
 
 
-Happy coding! :heart:
+Happy coding! 💙
