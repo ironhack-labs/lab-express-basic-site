@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#nav_main {
+  display: flex;
+  background-color: black;
+}
+
+.resume {
+  border: solid;
+  border-width: 5px;
+  padding: 5px;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: justify;
+}
+
+#museum1 {
+  float: left;
+  width: 360px;
+  height: 240px;
+  padding-right: 15px;
+}
+
+#museum2 {
+  float: right;
+  width: 360px;
+  height: 240px;
+  padding-left: 15px;
+}
+
+#museum3 {
+  float: left;
+  width: 360px;
+  height: 240px;
+  padding: 15px;
+}
+
+
+
+
+h3 {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+p {
+  padding: 5px;
+  line-height: 200%;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+.link {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  display: block;
+  color: rgb(222, 222, 222);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.is-active {
+  background-color: rgb(176, 11, 30);
+}
+
+#footer_main {
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  margin-top: 100px;
+}
+
+[class="link"]:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+/* .is-active {
+    color: blue;
+} */
+
+.filmo {
+  margin: 50px;
+  margin-bottom: 10px;
+  width: 360px;
+  height: 240px;
+  transition: transform 0.2s;
+}
+
+.films {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.film {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filmo:hover {
+  transform: scale(1.1);
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  background-color: #f1f1c1;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+tr {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+th {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* 
+#headerI {
+    width: 100px;
+    height: 100px;
+} */
