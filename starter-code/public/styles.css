@@ -5,7 +5,9 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+body{
+    background-color: #212836;
+}
 /* body{
     background-image: url('../public/imgs/rick-bg.png');
     background-repeat: no-repeat;
@@ -65,7 +67,7 @@ a:hover {
 }
 
 /* about page */
-#header-about{
+.header-about{
     position: fixed;
 }
 
@@ -95,3 +97,51 @@ p{
     /* justify-content: flex-end; */
     /* position: fixed; 
 } */
+
+/* gallery */
+
+.gal{ 
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    padding: 0 300px;
+    height: 100vh;
+    width: 100vw;
+}
+
+img[alt='polaroid']{
+    width: 600px;
+    margin: 30px;
+}
+
+.myslides{
+    display: none;
+}
+.slidecontainer{
+    width: 800px;
+    height: 980px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slidecontainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.indicator{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
