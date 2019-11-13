@@ -1,0 +1,50 @@
+body {
+  background-image: url("../photo01.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+  margin: 250px 100px 250px 400px;
+  width: 1200px;
+  height: 700px;
+  justify-items: center;
+  border-width: 0;
+  border-radius: 7px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  border-width: 0;
+  border-radius: 3px;
+  background-color: cornflowerblue;
+  color: white;
+  box-shadow: 1px 1px royalblue;
+  padding: 10px 30px;
+  margin: 30px 30px 30px 450px;
+  transition: background-color 0.3s;
+  width: 250px;
+}
+
+.btn:hover {
+  background-color: royalblue;
+}
