@@ -1,0 +1,163 @@
+body {
+    font-family: "Oxygen", sans-serif;
+  }
+  
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  nav a {
+    font-size: 20px;
+  }
+  
+  .navbar {
+    padding: 25px 30px;
+  }
+  
+  li .current_page_item {
+    color:#833b86 !important;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  
+  img.grayscale {
+    filter: url(data:image/svg+xml;utf8); 
+    filter: gray ;
+    -webkit-filter: grayscale(100%);
+  }
+
+  .carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../img/overlay.png");
+  }
+
+  .carousel-caption h1 {
+    color:#b11262;
+    text-transform: uppercase;
+    font-size: 70px;
+   
+   
+  }
+
+  .carousel-caption p {
+    color: #b11262;
+    font-size: 30px;
+    padding: 0%;
+    
+
+  }
+  
+  .carousel-caption button {
+    background: #833b86;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: 700;
+    color: #fff !important;
+    margin-bottom: 30%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    background-color: #833b86;
+    height: 100px;
+    width: 50px;
+    margin-top: 220px;
+    opacity: 1;
+  }
+
+  .carousel {
+    max-height: 800px !important;
+    overflow: hidden;
+  }
+
+ .col-sm{
+     align-items: center;
+     text-align: justify;
+ }
+
+ .galeria{
+    max-width: 100%; height: auto;
+    align-items: center;
+ }
+
+ .galeria.h2{
+     text-align: center;
+     margin-right: 30%;
+     padding: 0%;
+ }
+
+
+ @media (min-width: 576px) {
+    .d-none {
+      display: block !important;
+    }
+  
+    .carousel-caption {
+      transform: translateY(10px);
+      line-height: 1.2;
+    }
+  
+    .carousel h1 {
+      font-size: 26px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption {
+      transform: translateY(40px);
+      line-height: 1.2;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption {
+      transform: translateY(-50%);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-caption {
+      transform: translateY(-50%);
+    }
+  }
+  
+  @media (min-width: 1550px) {
+    .carousel-caption {
+      transform: translateY(-100%);
+    }
+  }
+  
+  @media (min-width: 1800px) and (max-width: 6000px) {
+    .carousel-caption {
+      transform: translateY(-205%);
+    }
+  }
