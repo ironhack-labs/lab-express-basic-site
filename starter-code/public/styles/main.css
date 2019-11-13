@@ -1,0 +1,80 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+body {
+    position: absolute;
+    padding: 3%;
+    margin: 0%;
+}
+
+#total {
+    position: relative;
+    height: 100%vp;
+    width:100%vp;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    }
+
+#navegador {
+    position: relative;
+    top: 35px;
+    right: ;
+    bottom: ;
+    left: ;
+
+    background-color: white;
+    font-style: helvetica;
+    font-size: 18px;
+    text-align: end;
+    align-self: auto;
+}
+
+
+
+.nav {
+    background-color: rgb(52, 99, 228);
+    border-color: black;
+    border: 3px;
+    height 300px;
+}
+
+#concierto {
+    position: relative;
+    top: -50px;
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+span {
+    position: relative;
+    top: 250px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    height: 100px;
+    margin: 10px;
+    display: table;
+}
+
+#hoja-verde {
+    background-color: #00B172;
+    margin: 1px;
+    border-color: black;
+    border: 3px;
+    height: 350px;
+    color: white;
+}
+
