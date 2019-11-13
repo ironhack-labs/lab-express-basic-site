@@ -1,0 +1,46 @@
+body {
+  background-color: greenyellow;
+  height: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.especial {
+  height: 500px;
+  width: 300px;
+  ;
+}
+.title {
+  margin: 100px 0;
+}
+div {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+img {
+  
+
+  width: 900px;
+  height: 500px;
+}
+
+
+iframe {
+  
+  
+  height: 225px;
+}
+
+p {
+  text-align: center;
+}
+
+.centro {
+  
+  text-align: center;
+}
