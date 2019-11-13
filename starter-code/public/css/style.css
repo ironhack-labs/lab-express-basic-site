@@ -2,8 +2,22 @@
     margin:20px 0;
     padding: 0;
 }
+h2{
+    margin: 5px 10px;
+}
+p{
+    margin: 0 10px;
+    padding: 30px 0;
+}
+img{
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
 a{
     text-decoration: none;
+    margin: 5px 10px;
 }
 .capital{
     text-transform: uppercase;
@@ -19,3 +33,4 @@ a{
 .text-center{
     text-align: center;
 }
+
