@@ -1,0 +1,29 @@
+*{
+    margin:0
+}
+.navbar{
+    display:flex;
+    height: 10vh;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color:black;
+}
+.navbar h1{
+    padding-top: 3vw;
+}
+.nav-elements ul{
+    display:flex;
+    list-style-type: none;
+    margin-top: 0;
+    justify-content: space-between;
+    width: 20vw;
+    align-content:flex-start;
+    padding-left: 52.4vw;
+    padding-top: 3.5vw;
+    
+}
+.nav-elements ul li a{
+    color: black;
+    text-decoration: none;
+}
