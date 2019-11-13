@@ -80,13 +80,13 @@ a:hover {
 }
 
 .wrapper section{
-    width: 36%;
+    width: 33%;
     text-align: center;
    
 }
 
 p{
-    font-size: 15px;
+    font-size: 14px;
     line-height: 28px;
     padding-bottom: 36px ;
 }
@@ -111,7 +111,7 @@ p{
 
 img[alt='polaroid']{
     width: 600px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .myslides{
