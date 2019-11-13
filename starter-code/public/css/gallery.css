@@ -1,0 +1,42 @@
+.small-img {
+  width: 200px;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+article {
+  padding: 10px;
+}
+article img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+/* The expanding image container */
+.container-expanded {
+  position: absolute;
+  display: none;
+  margin-left: 200px;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: black;
+  font-size: 50px;
+  cursor: pointer;
+}

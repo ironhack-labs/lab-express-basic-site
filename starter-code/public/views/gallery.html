@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/achievements">Achievements</a></li>
+      </ul>
+    </nav>
+  
+    <main class="container">
+      <h1>Gallery</h1>
+      <div class="gallery-wrapper">
+        <article>
+          <img class="small-img" src="../images/img2.jpg" alt="Philip 5 with one of his concubines" onclick="myFunction(this);">
+        </article>
+        <article>
+          <img class="small-img" src="../images/img3.png" alt="Handsome King" onclick="myFunction(this);">
+        </article>
+        <article>
+          <img class="small-img" src="../images/img4.jpg" alt="Barcelona 1714" onclick="myFunction(this);">
+        </article>
+        <article>
+          <img class="small-img" src="../images/img6.jpg" alt="Una grande y libre" onclick="myFunction(this);">
+        </article>
+        <article>
+          <img class="small-img" src="../images/img5.jpg" alt="Make Spain great again" onclick="myFunction(this);">
+        </article>
+      </div>
+      <div class="container-expanded">
+          <span onclick="resetOpacity()" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:800px">
+          <div id="imgtext">asasas</div>
+        </div>
+    </main>
+  
+    <footer>
+      <p>© 2019 by David Mitjana</p>
+    </footer>
+
+    <script>
+      function myFunction(img) {
+        let expandImg = document.getElementById("expandedImg");
+        let imgText = document.getElementById("imgtext");
+        expandImg.src = img.src;
+        imgText.innerHTML = img.alt;
+        expandImg.parentElement.style.display = "block";
+        expandImg.parentElement.style.transition = "1s";
+
+        let h1 = document.querySelector('h1');
+        let imgCont = document.querySelector('.gallery-wrapper');
+        h1.style.opacity = '0.2';
+        imgCont.style.opacity = '0.2';
+      }
+
+      function resetOpacity() {
+        let bigImg = document.querySelector('.container-expanded');
+        bigImg.style.display = 'none';
+        
+        let h1 = document.querySelector('h1');
+        let imgCont = document.querySelector('.gallery-wrapper');
+        h1.style.opacity = '1';
+        imgCont.style.opacity = '1';
+      }
+    </script>
+</body>
+</html>
