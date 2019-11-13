@@ -12,8 +12,8 @@ app.get('/bienvenidos', (req, res) => res.send('<h1>Bienvenid@s! Primera App Exp
 
 // Endpoints con envíos de archivos
 app.get('/', (req, res) => res.sendFile(__dirname + '/views/index-page.html'))
-app.get('/car', (req, res) => res.sendFile(__dirname + '/views/car.html'))
-app.get('/pet', (req, res) => res.sendFile(__dirname + '/views/pet.html'))
+app.get('/katas', (req, res) => res.sendFile(__dirname + '/views/katas.html'))
+app.get('/memes', (req, res) => res.sendFile(__dirname + '/views/memes.html'))
 
 
 // Escucha de servidor
