@@ -1,0 +1,42 @@
+
+#nav1 {
+    font-size: 19px;
+
+    }
+    
+   
+ #cuadro{
+   padding-left: 350px;
+    }
+
+#footer1{
+    font-size: 12px;
+    padding-left: 960px;
+}
+
+    footer h3{
+        color: white;}
+    
+       
+#carousel img{
+    filter: grayscale(100%) brightness(0.8);
+}
+
+#carousel .carousel-control-next-icon{
+    position: absolute;
+    right: 0;
+}
+
+#carousel .carousel-control-prev-icon{
+    position: absolute;
+    left: 0;
+}
+
+.carousel-text{
+    position: absolute;
+    bottom: 1vh;
+    color:white;
+    z-index: 1;
+    background: transparent;
+    text-align: center;
+}
