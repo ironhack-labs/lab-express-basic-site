@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contenedor-index{
+    background-color:#bebebe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90vh;
+    align-items: center;
+}
+.contenedor-index img {
+    width: 600px;
+    height: 600px;
+}
+.name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    color: #424145;
+}
+.texto button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    color:  #424145;
+}
+nav {
+    background-color: #6039c4;
+    position: relative;
+    height: 85px;
+    font-family: 'Supermercado One', cursive;
+}
+nav h1{
+    margin: 0;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-size: 40px;
+    color: white;
+}
+#main-menu {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+li a{
+    color: white;
+}
+  
+li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid slategray;
+}
+.item {
+   height: 640px;
+}
+.encabezados{
+    color: #424145;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px; 
+}
+
+.contenedor-about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.card {
+    position: relative;
+    width: 25%;
+    height: 500px;
+    border: 1px solid #6039c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card img{
+    width: 300px;
+}
+.card p{
+    text-align: center;
+    font-size: 20px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#6039c4;
+  }
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  .text-card {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .gusto{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .glyphicon-chevron-right{
+      color: #6039c4;
+  }
+  .glyphicon-chevron-left{
+    color: #6039c4;
+}
