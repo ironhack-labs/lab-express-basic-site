@@ -1,0 +1,36 @@
+/* ---------------- PHOTO GALLERY ----------------- */
+
+main#photos {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2 {
+    width: 40%;
+    background-color: #000;
+    font-size: 30px;
+    color: #FFF44F;
+    text-transform: uppercase;
+    margin: 40px 0 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#gallery1, div#gallery2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+img, iframe {
+    margin: 10px;
+    border: 1px solid #FFF44F;
+}

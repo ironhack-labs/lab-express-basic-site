@@ -1,0 +1,27 @@
+/* ---------------- ABOUT PAGE ----------------- */
+
+main#about {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    width: 40%;
+    background-color: #000;
+    font-size: 30px;
+    color: #FFF44F;
+    text-transform: uppercase;
+    margin: 40px 0 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+article p {
+    margin: 20px 0;
+    line-height: 2rem;
+    text-align: justify;
+}
