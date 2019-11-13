@@ -1,0 +1,30 @@
+h1{
+    text-emphasis-style: bold;
+    text-align: center;
+    margin: 150px 0;
+    color: ivory;
+    font-size: 3em;
+    background-color: rgba(102, 100, 100, 0.548);
+}
+a{
+    width: 100%;
+    display: block;
+    text-emphasis-style: bold;
+    text-align: center;
+    margin:  0 auto;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(102, 100, 100, 0.548);
+}
+body{
+
+    background-image: url("http://127.0.0.1:3000/charlie1.jpeg");
+    
+
+}
+
+#about{
+    background-color: rgba(102, 100, 100, 0.26);
+
+}
