@@ -1,0 +1,23 @@
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: black;
+}
+header{
+    margin: 30px;
+}
+
+header h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.me{
+    width: 500px;
+}
+
+#me{
+    padding: 40px;
+}
