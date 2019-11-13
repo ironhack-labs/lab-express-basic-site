@@ -1,0 +1,47 @@
+body {
+    background: grey
+}
+
+h1 {
+    color: white;
+    font-size: 50px
+}
+
+h2 {
+    font-size: 35px;
+    margin-left: 100px
+}
+
+p {
+    color: white;
+    margin-left: 25px
+}
+
+h3 {
+    font-size: 25px;
+    margin-left: 25px
+}
+
+.index-img {
+    width: 500px;
+    height: 300px;
+    margin-left: 225px
+}
+
+.chiste1-img {
+    width: 200px;
+    height: 250px;
+    margin-left: 250px
+}
+
+.chiste2-img {
+    width: 350px;
+    height: 250px;
+    margin-left: 200px
+}
+
+.chiste3-img {
+    width: 400px;
+    height: 250px;
+    margin-left: 200px
+}
