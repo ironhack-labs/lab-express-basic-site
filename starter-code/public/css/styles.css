@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+img {
+    width: 60vw;
+    border-radius: 5px;
+    border: 3px solid black;
+
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 0;
+    
+}
+
+figure > * {
+    width: 20vw;
+    transition: width 1s;
+}
+
+figure img:hover {
+    width: 25vw;
+
+}
+
+.family{
+    display: flex;
+}
+
+.intro{
+    width: 40vw;
+    text-align: center;
+}
