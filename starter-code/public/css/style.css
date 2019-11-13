@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#navbar p{
+    padding: 0 10px;
+}
+
+.menu {
+    display: flex;
+}
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 0 10px;
+}
