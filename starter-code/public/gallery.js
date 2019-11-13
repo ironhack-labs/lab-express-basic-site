@@ -1,0 +1,2 @@
+let currentImg = null;
+
