@@ -13,10 +13,8 @@ app.use((req, res, next) => {
     next();
 });
 
+
 app.get('/', (req, res, next) => {
-    res.send('<h1>Welcome Ironhacker!</h1>')
-})
-app.get('/home', (req, res, next) => {
     res.sendFile( __dirname + '/public/views/index.html');
 })
 app.get('/about', (req, res, next) => {
