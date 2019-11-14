@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    margin: 30px 30px;
+    background-color: cornflowerblue;
+}
+
+main {
+    width: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px ;
+}
+
+article {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav p {
+    display: flex;
+    justify-content:flex-start;
+    margin: 0 20px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
+.navbar li {
+    padding: 0 10px;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li,a {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.about div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about ul {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about li {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.photo-gallery p {
+    text-align: left;
+
+}
+
+.photo-gallery img {
+    padding: 10px 10px 10px 0;
+}

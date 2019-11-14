@@ -27,6 +27,12 @@ app.get('/photo-galery', ( require, response, next ) => {
     response.sendFile(__dirname + '/public/views/photo-gallery.html');
 })
 
+app.get('/main.css', ( require, response, next ) => {
+    response.sendFile(__dirname + '/public/scss/main.css');
+})
+
+
+
 
 //START SERVER
 app.listen(3000,  () => {
