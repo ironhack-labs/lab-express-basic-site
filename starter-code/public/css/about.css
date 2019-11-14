@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background: url('https://cdn1.vectorstock.com/i/1000x1000/10/75/tech-corporate-black-and-red-background-vector-12121075.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(34, 34, 34);
+}
+
+.nav-bar {
+    display: flex;
+    color: rgb(221, 50, 50);
+    padding: 0 60px;
+    font-size: 1.6rem;
+}
+
+.li-nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+.info {
+    font-size: 1.3rem;
+    text-align: right;
+    margin-right: 70px;
+}
+
+span {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.picture {
+    display: flex;
+    height: 450px;
+    width: auto;
+    border-radius: 40px;
+    /* padding-left: 200px; */
+    /* margin-left: 200px; */
+    box-shadow: 10px 10px 33px -18px rgb(15, 15, 15);
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 90px;
+}
+
+p {
+    width: 450px;
+    font-size: 1.3rem;   
+    text-align: justify;
+    text-justify: distribute;
+}
