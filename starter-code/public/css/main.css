@@ -1,0 +1,32 @@
+#title-container {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    width:20vw;
+    height: auto;
+    background-color: hsla(0, 0%, 100%, 0.223);
+    padding: 0;
+    border: black solid 5px;
+}
+
+#title {
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    cursor: pointer;
+    color: white;
+}
