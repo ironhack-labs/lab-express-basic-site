@@ -30,6 +30,6 @@ app.get('/gallery', (request, response, next) => {
 })
 
 // SERVER STARTED
-app.listen(3000, () => {
+app.listen(4000, () => {
     console.log('My first app listening on port 3000!');
    });
