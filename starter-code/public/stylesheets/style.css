@@ -1,0 +1,20 @@
+body {
+  color: darkgreen;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rows {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  font-size: 50px;
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+}
