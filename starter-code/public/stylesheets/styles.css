@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  height: 700px;
+  align-items: center;
+}
+
+h1 {
+  justify-content: center;
+  align-self: center;
+}
+button {
+  justify-content: center;
+  align-self: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  align-self: center;
+  align-items: center;
+}
+.titleBox {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
