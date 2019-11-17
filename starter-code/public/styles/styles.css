@@ -1,35 +1,65 @@
 body {
   margin: 0;
-  padding: 50px;
+  padding: 0px;
   width: 100vw;
   height: 100vh;
   justify-content: center;
-  background-color: #f8ecf2;
+  background-color: white;
   color: #602040;
   text-align: center;
+  font-family: 'Alata', sans-serif;
+
 
 }
 
-nav a {
-  font-size: larger;
-  font-size: 30px;
+#name {
+  text-align: center;
   color: #602040;
+  font-size: 40px;
+
+
 }
 
-.carousel-item {
-  width: 100vw;
-  height: 600px;
-  align-content: center;
-}
-
-.carousel-item img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 700px;
-}
 
 #texto-home {
   text-align: justify;
+  padding: 50px;
+
+}
+
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #6D1237;
+  color: white;
+}
+
+nav a {
+  color: white;
+  font-size: larger;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: #6D1237;
+  color: white;
+}
+
+.card img {
+  height: 400px;
+}
+
+.container .card-body {
+  height: 100px;
+}
+
+#gallery {
+  padding: 30px;
 }
