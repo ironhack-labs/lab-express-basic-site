@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+
+.bd-example, .carousel-inner > .item > img{
+    height: 100vw;
+}
+.container{
+    width: 100vw;
+    padding: 50px;
+}
+
+.row{
+    position: absolute;
+
+    width: 100vw;
+}
+#text{
+    width: 600px;
+
+}
+ .card-body{
+    width: 600px;
+}
+h2{
+  margin: 50px;
+  text-align: center;  
+  color: palevioletred;
+}
+
+h1{
+    color: plum;
+    text-align: center;
+    padding: 250px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 750px;
+}
+
+.carousel-inner{
+ height: 1000px;
+}
