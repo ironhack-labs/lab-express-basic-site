@@ -1,0 +1,41 @@
+body {
+    font-family:"Arial Narrow";
+    background-color: white;
+}
+
+#navigationBar {
+    background:#444;
+    box-shadow:0px 1px 10px 10px #ddd;
+    height:auto;
+    text-align:center;
+    width:100%;
+}
+
+#navigationBar > ul > li {
+    display:inline;
+}
+
+#navigationBar > ul > li > a {
+    color:#fff;
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    margin:0px;
+    padding:0px 15px;
+    text-decoration:none;
+}
+
+#navigationBar > ul > li > a:hover {
+    color:#FCD000;
+}
+
+header {
+    background-image: url("/background2.jpg");
+    height: 400px;
+    background-size: cover;
+    padding-top: 20px
+}
+
+header > h1 {
+    margin-left: 20px;
+}
