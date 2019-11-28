@@ -8,7 +8,15 @@ const app = express();
 //});
 
 app.get('/', (request, response, next) => {
-    response.send('<h1>Welcome Ironhacker. :)</h1>');
+    response.sendFile(__dirname + '/views/home-page.html')
+  });
+
+app.get('/about', (request, response, next) => {
+    response.sendFile(__dirname + '/views/about-page.html')
+  });
+
+app.get('/gallery', (request, response, next) => {
+    response.sendFile(__dirname + '/views/gallery-page.html')
   });
 
 //Starts the backend server listening on port xxxx
