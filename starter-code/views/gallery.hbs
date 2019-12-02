@@ -1,0 +1,21 @@
+<div class="gallery-content">
+    <div class="gallery-wrapper">
+
+       <h2>Gallery</h2>
+       <ul class="image_list">
+        {{#each data}} 
+          <li> 
+              <div class="nature">
+                <img src={{image}} alt="nature image" >
+                <div>
+                    <p>{{id}}</p>
+                </div>
+              </div>
+          </li>  
+             {{!-- {{this.id}} // references the property values --}}
+               
+        {{/each}}
+</ul>
+    </div>
+
+</div>
