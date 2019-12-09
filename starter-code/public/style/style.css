@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: "Source Sans Pro";
+    background-color: #dfebea;
+}
+
+nav {
+    background-color: lightgray;
+    border-bottom: solid 3px crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -10px;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding-right: 40px;
+    color: crimson;
+}
+ul{
+    display: flex;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+    padding: 15px 30px 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.headline, .content, .about {
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.headline {
+    background-image: url("../images/rabbits7.jpg");
+    background-size: 180%;
+    color: white;
+}
+
+.about {
+    background-image: url("../images/rabbit4.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+.content {
+    background-color: white;
+}
+
+.gallery {
+    margin-left: 30px;
+}
+
+.bunnies {
+ width: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0 auto;
+}
+
+.bunny {
+    height: 300 px;
+    margin: 0 20px 20px 20px;
+}
+
+.bunny img{
+    height: 300px;
+}
+
