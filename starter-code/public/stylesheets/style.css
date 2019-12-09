@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    background-color: #00cc99;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sheepButton {
+    color: #25866e;
+    border: none;
+    padding: 10px;
+}
+
+a {
+    background-color: #25866e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
