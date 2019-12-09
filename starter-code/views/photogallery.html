@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Express LAB basic site - Photo gallery</title>
+    <!-- BOOTSTRAP CSS STUFF AND RELATED STUFF -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='style.css' type='text/css'>
+</head>
+<body>
+    <div class='header'>
+        <h1>Petra's photo gallery</h1>
+        <div class='menu'>
+            <a href='/'>Home</a>
+            <a href='/about'>About</a>
+        </div>
+    </div>
+    <!-- COPIED OVER FROM Bootstrap -->
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            <li data-target="#carousel-example-2" data-slide-to="3"></li>
+            <li data-target="#carousel-example-2" data-slide-to="4"></li>
+            <li data-target="#carousel-example-2" data-slide-to="5"></li>
+            <li data-target="#carousel-example-2" data-slide-to="6"></li>
+            <li data-target="#carousel-example-2" data-slide-to="7"></li>
+            <li data-target="#carousel-example-2" data-slide-to="8"></li>
+            <li data-target="#carousel-example-2" data-slide-to="9"></li>
+            <li data-target="#carousel-example-2" data-slide-to="10"></li>
+            <li data-target="#carousel-example-2" data-slide-to="11"></li>
+            <li data-target="#carousel-example-2" data-slide-to="12"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="view">
+                    <img class="d-block w-100" src="img/DSC01641.jpg" alt="First slide">
+                    <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Item #1</h3>
+                    <p>Bowl #1</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="img/DSC01644.jpg" alt="Second slide">
+                    <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Item #2</h3>
+                    <p>Bowl #2</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="img/DSC01647.jpg" alt="Third slide">
+                    <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Item #3</h3>
+                    <p>Bowl #3</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="img/DSC01647.jpg" alt="Third slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Item #3</h3>
+                        <p>Bowl #3</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01647.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #3</h3>
+                            <p>Bowl #3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01648.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #4</h3>
+                            <p>Bowl #4</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01650.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #5</h3>
+                            <p>Bowl #5</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01652.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #6</h3>
+                            <p>Bowl #6</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01657.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #7</h3>
+                            <p>Bowl #7</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01661.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #8</h3>
+                            <p>Bowl #8</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01668.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #9</h3>
+                            <p>Bowl #9</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01673.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #10</h3>
+                            <p>Bowl #10</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01678.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #11</h3>
+                            <p>Bowl #11</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" src="img/DSC01680.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Item #12</h3>
+                            <p>Bowl #12</p>
+                        </div>
+                    </div>
+                                                                                                                                                                                                                                                                                </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <h2>Interested? Want to see more like this?</h2>
+    <p>Visit my web site at <a href='https://petraschut.nl'>petraschut.nl</a></p>
+    <!--/.Carousel Wrapper-->
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

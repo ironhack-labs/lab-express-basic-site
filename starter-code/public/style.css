@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+}
+
+.header {
+    background:lightcoral;
+    color:white;
+    width:100%;
+    display:flex;
+    align-items: center; /* this is for vertical alignment */
+    /* justify-content: center; this is for horizontal alignment */
+    text-align:center;
+}
+
+.header h1 {
+    padding:8px 16px;
+}
+
+.h2 {
+    font-size:1.2em;
+}
+
+.header .menu {
+    position: absolute;
+    right:0px;
+}
+
+.header .menu a{
+    margin:8px;
+}
