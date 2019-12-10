@@ -1,0 +1,22 @@
+h1{
+    color: blue
+}
+
+img{
+    height: 50%;
+    width: 50%;    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+
+.nav a{
+    text-decoration: none;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
