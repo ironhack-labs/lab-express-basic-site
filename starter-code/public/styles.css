@@ -1,0 +1,10 @@
+div, h1, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+  margin: 10px 10px 10px 10px;  
+}
+
