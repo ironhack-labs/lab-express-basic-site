@@ -1,0 +1,47 @@
+:root{
+  font-size: 10px;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+  background-color: grey; 
+  }
+
+.titleText{
+ text-align: center;
+ font-size: 100px;
+ color: white;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.smallImages{
+display: inline-flexbox;
+justify-content: space-around;
+background-color: whitesmoke;
+
+  
+}
+
+p{
+display: block;
+margin: 2rem 5rem;
+padding: 2rem 5rem;
+text-align: justify;
+letter-spacing: length ;
+font-size: 1.5rem;
+}
+
+ul{
+display: block;
+background-color: lavender;
+flex-direction: row;
+margin: 2rem 5rem;
+padding: 2rem 5rem;
+text-align: left;
+letter-spacing: length ;
+font-size: 1.5rem;
+}
+
