@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+:root {
+    font-family: 'Lilita One', cursive;;
+    font-size: 10px;
+    background-color: oldlace;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    background-color: rosybrown;
+    margin-bottom: 0;
+
+}
+
+header a {
+    text-decoration: none;
+    color: seashell;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    background-image: url('/images/splash-blue.png');
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: 4rem auto;
+    
+ 
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: window-width;
+    height: 80rem;    
+    background-image: url('images/watercolor-drip.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:  80rem auto;
+}
+
+#welcome h1{
+    text-align: center;
+    color: #356099;
+    font-size: 6rem;
+}
+h1{
+    text-align: center;
+    color: #356099;
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: window-width;
+    height: 500px;
+}
+.gallery a{
+    margin: 10px;   
+}
+
+.gallery img:hover {
+    border: 1px solid rosybrown;
+    border-radius: 25px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+}
+
+
+
