@@ -1,0 +1,14 @@
+body {
+    color: blue;
+    background-color: bisque;
+  }
+
+a {
+  border: 2px solid green;
+  background: hotpink;
+  padding: 5px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(11, 12, 11);
+}
