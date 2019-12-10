@@ -1,0 +1,65 @@
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 3.0rem; }
+h3 { font-size: 2.5rem; }
+h4 { font-size: 2.0rem; }
+h5 { font-size: 1.5rem; }
+h6 { font-size: 1.0rem; }
+
+p { font-size: 1.5rem; line-height: 2rem;}
+
+.txtShadow { text-shadow: 0px 0px 20px #B7B7B7; }
+.boxShadow { box-shadow:0px 0px 45px 20px #B7B7B755; }
+
+#area {
+    padding: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+#tree-content{
+    margin: 40px 60px;
+}
+.tree-btn {
+    font-size: 2rem;
+    background-color: #909090;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 6px #FFFFFF44;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+}
+.tree-btn.small {
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.tree-btn:hover {
+    background-color: #606060; 
+    box-shadow: 0 6px #FFFFFF22;
+}
+
+.deactive,
+.deactive:hover {
+    color: #666;
+    background-color: #a0a0a0;
+    box-shadow: 0 6px #FFFFFF44;
+}
+
+.tree-btn, 
+.tree-btn:hover,
+.tree-btn:focus,
+.tree-btn:active {
+    outline: none;
+}
+
+
+.fish { margin-left: 30px; }
+
+
+
