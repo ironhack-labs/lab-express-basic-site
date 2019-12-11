@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-image: url("/images/3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+section > img {
+    height: 60vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+a {
+    margin: 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
