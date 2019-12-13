@@ -1,15 +1,39 @@
 body{
-    background: gray;
+    background: grey;
     font-family: 'Lilita One', cursive;
     color: white;
 }
 
-.header{
+.header {
+    background:black ;
+    
+}
 
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.header a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active{
+    background-color: #4CAF50;
+    color: white;
 }
 
 .content{
     text-align: center;
+}
+
+.content h1{
+    font-size: 150px;
 }
 .content img{
     width: 50%;
@@ -20,8 +44,13 @@ body{
     font-size: xx-large;
 }
 
+
 .gallery{
     text-align: center;
+}
+
+.gallery h1{
+    font-size: 100px;
 }
 
 .picture{
