@@ -3,3 +3,28 @@ body{
     font-family: 'Lilita One', cursive;
     color: white;
 }
+
+.header{
+
+}
+
+.content{
+    text-align: center;
+}
+.content img{
+    width: 50%;
+    height: auto;
+}
+
+.info{
+    font-size: xx-large;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.picture{
+    width: 80%;
+    height: auto;
+}
