@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+	font-size: 10vw;
+}
+
+h2 {
+	text-align: center;
+	font-size: 4vw;
+	color: blue;
+}
+
+button {
+	border-radius: 50px;
+	width: 100%;
+	font-size: 4vw;
+}
