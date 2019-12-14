@@ -4,7 +4,7 @@ console.log(h1)
 
 let colorh1 = "red"
 
-function color(elem){
+const color = elem => {
   if(colorh1 === "red"){
     elem.classList.add("h1green")
     colorh1 = "green"

@@ -1,7 +1,13 @@
 * {
   background-color: lightgray;
+  /* margin: 5px; */
+  margin: 0;
 }
 
+body{
+  margin-top: 20px;
+  background-color: lightgray;
+}
 
 .h1green {
   color: green;
@@ -16,5 +22,11 @@ h1 {
 }
 
 img {
-  height: 200px;
+  /* height: 200px; */
+  width: 32rem;
 }
+
+a{
+  margin-top: 10px;
+}
+
