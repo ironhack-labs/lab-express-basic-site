@@ -1,0 +1,15 @@
+body {
+  background-color: yellow;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
