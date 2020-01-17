@@ -2,29 +2,29 @@ const express = require('express');
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const app = express();
 
 app.use(express.static('public'));
 //1.Solution - 1
 //*************************************************************
-// app.use(express.static(path.join(__dirname, 'view')));
+app.use(express.static(path.join(__dirname, 'view')));
 
 // //2.Solution - 2
 //*************************************************************
-app.get('/:id', (req, res) => {
-  console.log('req.params.id', req.params.id);
-  let filePath =
-    req.params.id === 'home.html'
-      ? '/view/home.html'
-      : req.params.id === 'about.html'
-      ? '/view/about.html'
-      : req.params.id === 'gallery.html'
-      ? '/view/gallery.html'
-      : '/view/404.html';
+// app.get('/:id', (req, res) => {
+//   console.log('req.params.id', req.params.id);
+//   let filePath =
+//     req.params.id === 'home.html'
+//       ? '/view/home.html'
+//       : req.params.id === 'about.html'
+//       ? '/view/about.html'
+//       : req.params.id === 'gallery.html'
+//       ? '/view/gallery.html'
+//       : '/view/404.html';
 
-  res.sendFile(__dirname + filePath);
-});
+//   res.sendFile(__dirname + filePath);
+// });
 
 // //3.Solution - 3
 //*************************************************************
