@@ -1,2 +1,4 @@
+# .env should never be pushed to public but for learning purposes sometimes we might push
+
 .env
 node_modules

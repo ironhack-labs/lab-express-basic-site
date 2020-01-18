@@ -1,7 +1,8 @@
 
-
 const express = require('express');
 const app = express();
+
+require('dotenv').config();
 
 app.use(express.static('public'));
 
@@ -17,4 +18,4 @@ app.get('/gallery', (req, res) => {
     res.sendFile(__dirname + '/views/gallery.html');
 });
 
-app.listen(3000, () => console.log('You are runing on port: 3000'));
+app.listen(process.env.PORT, () => console.log(`Running on port: ${process.env.PORT}`));
