@@ -1,0 +1,16 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "lab excercise ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --ext js,hbs,json app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
