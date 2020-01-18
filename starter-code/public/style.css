@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.navbar {
+    background-color: blue;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
