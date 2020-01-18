@@ -4,13 +4,15 @@
   "description": "lab excercise ",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --ext js,hbs,json app.js"
+    "start": "nodemon --ext js,hbs,json app.js",
+    "watch": "sass --watch static/scss/main.scss static/css/main.css --style compressed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "sass": "^1.25.0"
   }
 }

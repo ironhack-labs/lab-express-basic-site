@@ -1,0 +1,60 @@
+.container {
+  max-width: 100%; /* 1 */
+  margin-left: auto; /* 2 */
+  margin-right: auto; /* 2 */
+  padding-left: 20px; /* 3 */
+  padding-right: 20px; /* 3 */
+  width: 100%; /* 1 */
+ }
+ 
+ .container-short {
+  max-width: 1200px; /* 1 */
+  margin: 30px auto;
+  width: 100%; /* 1 */
+ }
+
+ .img-box{
+  margin: 50px 0;
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+  }
+
+ }
+
+%fixed {
+  position: fixed;
+  width: 100%;
+}
+
+%sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+%fade-in {
+  @include animation(fadeIn 1s forwards);
+}
+
+@-webkit-keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,17 @@
+h2 {
+  color: $text-color;
+  font-size: 1.8em;
+  margin: 15px 0;
+}
+
+p {
+  color: $text-color;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin: 12px 0;
+
+  &::selection {
+    background-color: $text-color;
+    color: white;
+  }
+}

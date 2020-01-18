@@ -1,0 +1,47 @@
+header{
+  background: $violet;
+  padding: 20px;
+
+  div.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      display: block;
+      height: 60px;
+      margin: 0;
+      width: 60px;
+      
+      img{
+        display: block;
+        max-width: 100%;
+        width: 100%;
+      }
+
+    }
+
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  header{
+  
+    div.container{
+      flex-direction: column;
+  
+      .logo{
+        margin: 0 auto 1px;
+  
+      }
+
+      nav:{
+        align-items: center;
+      }
+  
+    }
+  
+  }
+}
