@@ -5,18 +5,18 @@ const app = express();
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
-app.use("/static", express.static(__dirname + "/public"));
+app.use("/public", express.static(__dirname + "/public"));
 
 app.get("/", (request, response) => {
-  response.render("home");
+  response.render("home", { title: "HOME" });
 });
 
 app.get("/about", (request, response) => {
-  response.render("about");
+  response.render("about", { title: "ABOUT" });
 });
 
 app.get("/gallery", (request, response) => {
-  response.render("gallery");
+  response.render("gallery", { title: "GALERÍA" });
 });
 
 const port = 3000;
