@@ -1,0 +1,62 @@
+/* GENERAL RULES */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #e2e1e1;
+}
+a:hover {
+	color: purple;
+	text-decoration: none;
+}
+a:active {
+	color: purple;
+}
+
+/* NAVBAR */
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 2em;
+}
+nav > ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	margin-bottom: 0;
+}
+nav > a {
+	align-self: center;
+}
+li > a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 3em;
+}
+
+/* FOOTER */
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: .9rem;
+}
+footer a {
+	color: #000;
+}
+
+/* HOME PAGE */
+.img-container {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 2em;
+}
+.buttons a:first-child {
+	margin-right: 2em;
+}
