@@ -1,7 +1,6 @@
 {
   "name": "starter-code",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon --ext js,hbs,json app.js"
