@@ -1,4 +1,5 @@
 const express = require('express');
+const hbs = require('hbs');
 const app = express();
 
 // App setup
@@ -13,6 +14,10 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
 	res.render('about');
+});
+
+app.get('/gallery', (req, res) => {
+	res.render('gallery');
 });
 
 // Start server
