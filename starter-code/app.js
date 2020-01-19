@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 
+app.get('/about', (req, res) => {
+	res.render('about');
+});
+
 // Start server
 const port = 3000;
 app.listen(port, () => {
