@@ -1,0 +1,8 @@
+<h1 class="section-title">Jugadores</h1>
+<div class="row players-box">
+  {{#each players}}
+  {{#with this}}
+  {{> card}}
+  {{/with}}
+  {{/each}}
+</div>

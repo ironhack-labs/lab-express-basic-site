@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon -e js,hbs,json app.js",
     "watch": "sass --watch ./public/scss/main.scss ./public/css/main.css --style compressed"
   },
   "author": "",
