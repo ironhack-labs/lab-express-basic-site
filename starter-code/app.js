@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.use("/static", express.static("static"));
+app.use("/public", express.static("public"));
 
 app.get("/", (request, response) => {
     response.send(`
@@ -10,7 +10,7 @@ app.get("/", (request, response) => {
       <head>
         <meta charset="utf-8">
         <title>Cat</title>
-        <link rel="stylesheet" href="/static/style.css" />
+        <link rel="stylesheet" href="/public/style.css" />
       </head>
       <body>
         <h1>Cat</h1>
