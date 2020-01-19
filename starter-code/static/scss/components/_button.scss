@@ -1,0 +1,12 @@
+.btn {
+  font-family: $primary-font;
+  padding: 20px;
+  display: block;
+  background: $accent-color-3;
+  &.btn-dark {
+    color: $text-color-dark;
+  }
+  &.btn-ligth {
+    color: $text-color-light;
+  }
+}
