@@ -17,3 +17,7 @@ body{
     background-color: black;
     display: -webkit-box;
 }
+.container{
+    text-align: center;
+    border: 1px solid red;
+}
