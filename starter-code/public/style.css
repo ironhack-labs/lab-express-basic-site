@@ -13,7 +13,9 @@ a:hover {
 a:active {
 	color: purple;
 }
-
+p {
+	font-size: 1.2rem;
+}
 /* NAVBAR */
 nav {
 	display: flex;
@@ -41,6 +43,8 @@ footer {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+}
+footer p {
 	font-size: .9rem;
 }
 footer a {
@@ -59,4 +63,11 @@ footer a {
 }
 .buttons a:first-child {
 	margin-right: 2em;
+}
+
+/* ABOUT PAGE */
+.about img {
+	width: 100%;
+	box-shadow: .2em .2em .2em #000;
+	border-radius: .5em;
 }
