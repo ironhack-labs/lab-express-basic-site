@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font: 400 normal 10px/1.45rem $primary-font;
+}
+
+img {
+  object-fit: cover;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: lightcoral;
+  -webkit-box-shadow: inset 0 0 0 30px white;
+  box-shadow: inset 0 0 0 30px white;
+  padding: 30px;
+  position: relative;
+}

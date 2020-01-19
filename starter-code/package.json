@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "watch": "sass --watch/main.scss main.css --style compressed"
+    "start": "nodemon --ext js,hbs,json app.js",
+    "watch": "sass --watch static/scss/main.scss:static/css/main.css --style compressed"
   },
   "keywords": [],
   "author": "",

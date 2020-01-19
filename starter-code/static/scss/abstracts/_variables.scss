@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Fonts
+$primary-font: "Yatra One", "Georgia", serif;
+$text-font: "Montserrat", "Helvetica Neue Light", "Helvetica Neue", "Helvetica",
+  "Arial", sans-serif;
+
+/// Text color
+$text-color-dark: #0b0b11;
+$text-color-light: #ffffff;
+
+$accent-color-1: #00bdff;
+$accent-color-2: #ff00ff;
+$accent-color-3: #00ff6d;
+
+$breakpoints: (
+  phone: 414px,
+  tablet: 768px,
+  desktop: 1024px
+) !default;
