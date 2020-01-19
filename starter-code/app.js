@@ -25,7 +25,11 @@ app.get("/", (req, res) => {
 
     //about  
 app.get("/about", (req, res) => {
-    res.render("about");
+    res.render("about",{
+        autors: [
+        {name: "Stant Lee", image: "https://diablorock.com/wp-content/uploads/2018/11/stan-lee-768x506.jpg" , bibliography: "Fue un escritor y editor de cómics estadounidense, además de productor y ocasional actor de cine. Es principalmente conocido por haber creado personajes icónicos del mundo.", link:"https://es.wikipedia.org/wiki/Stan_Lee"},
+        {name: "Jack Kirby", image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jack-Kirby_art-of-jack-kirby_wyman-skaar.jpg" , bibliography: "Fue un dibujante estadounidense. Se lo considera uno de los autores más influyentes de la historia del comic book estadounidense, y el dibujante de superhéroes por antonomasia.", link:"https://es.wikipedia.org/wiki/Jack_Kirby"}
+        ]});
 
   });
 
@@ -39,7 +43,7 @@ app.get("/gallery", (req, res) => {
         {name: "Captain America", image: "https://depor.com/resizer/I4SmmfeP3C604Qu4lz1Sazt1MgQ=/980x0/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/3GVWDU4D2ZDABMACONPJYOH55I.jpg"},
         {name: "Captain Marvel", image: "https://depor.com/resizer/vf2cidZLUINfVX9dCoeWsYQ55PA=/980x0/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/CB5YSPJJD5BYRCDR6WGNAGZZ3Y.jpg"},
         {name: "Black Widow", image: "https://depor.com/resizer/dULwXnXeuiCzDextnhwr20QTffU=/980x0/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/3KIM74THSNDBXIP67HQ2O46FBQ.jpg"},
-    ]});
+        ]});
 
 
   });

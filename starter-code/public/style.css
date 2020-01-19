@@ -1,11 +1,19 @@
 body{
     background-color: black;
     color:white;
+    font-family: Marvel;
 }
 
 .navbar {
-    background-color: blue;
+    background-color: #FEFFFF;
+    font-family: Marvel;
 }
 .navbar-light .navbar-nav .nav-link{
-    color: white;
+    margin: 80px;
+    color: red;
+}
+.card{
+    font-family: Marvel;
+    background-color: black;
+    display: -webkit-box;
 }
