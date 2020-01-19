@@ -5,22 +5,22 @@
 h1 {
   font-family: $primary-font;
   color: $text-color-dark;
-  font-size: 2.2em;
-  margin: 20px 0;
+  font-size: 7rem;
+  margin: 2rem 0;
 }
 
 h2 {
   font-family: $primary-font;
   color: $text-color-dark;
-  font-size: 1.8em;
-  margin: 15px 0;
+  font-size: 1.8rem;
+  margin: 1.5rem;
 }
 
 p {
   color: $text-color-dark;
   font-size: 1.4rem;
   line-height: 1.6rem;
-  margin: 12px 0;
+  margin: 1.2rem 0;
 
   &::selection {
     background-color: $accent-color-2;

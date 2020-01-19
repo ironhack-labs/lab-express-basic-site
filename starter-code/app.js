@@ -29,6 +29,15 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   res.render("home");
 });
+app.get("/tour", (req, res) => {
+  res.render("tour");
+});
+app.get("/gallery", (req, res) => {
+  res.render("gallery");
+});
+app.get("/bio", (req, res) => {
+  res.render("bio");
+});
 
 const port = 3000;
 app.listen(port, () => console.log(`Ready on port ${port}`));

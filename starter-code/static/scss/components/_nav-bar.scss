@@ -6,10 +6,10 @@
   > ul {
     > li {
       > a {
-        background-color: red;
+        background-color: $text-color-dark;
         font-family: $primary-font;
         font-size: 2em;
-        color: $text-color-dark;
+        color: $text-color-light;
         &.top-left {
           position: absolute;
           left: 2em;
@@ -29,6 +29,17 @@
           position: absolute;
           right: 2em;
           bottom: 2em;
+        }
+        &.active {
+          -webkit-box-shadow: 1rem 1rem 0 0.2rem $accent-color-3;
+          box-shadow: 1rem 1rem 0 0.2rem $accent-color-3;
+        }
+        &:hover {
+          color: $accent-color-2;
+          background-color: white;
+          transition: all 0.7s;
+          -webkit-box-shadow: 1rem 1rem 0 0.2rem $accent-color-1;
+          box-shadow: 1rem 1rem 0 0.2rem $accent-color-1;
         }
       }
     }
