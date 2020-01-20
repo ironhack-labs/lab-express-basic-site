@@ -17,26 +17,17 @@ p {
 	font-size: 1.2rem;
 }
 /* NAVBAR */
-nav {
-	display: flex;
-	justify-content: space-between;
-	padding: 1em 2em;
-}
-nav > ul {
-	display: flex;
-	list-style-type: none;
-	align-items: center;
-	margin-bottom: 0;
-}
-nav > a {
-	align-self: center;
-}
 li > a {
 	color: #fff;
 	text-decoration: none;
-	margin-right: 3em;
 }
-
+nav img {
+	width: 100%;
+}
+nav > a {
+	align-self: center;
+	width: 2.5em;
+}
 /* FOOTER */
 footer {
 	position: fixed;
