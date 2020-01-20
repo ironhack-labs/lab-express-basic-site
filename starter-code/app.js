@@ -23,13 +23,15 @@ const people = [
 		name: 'Ashely Johnson',
 		age: 36,
 		appearances: [ 'Blindstop', 'Critical Role', 'The Last of Us: Left Behind' ],
-		fictional: false
+		fictional: false,
+		img: 'ashley.jpg'
 	},
 	{
 		name: 'Troy Baker',
 		age: 43,
 		appearances: [ 'BioShock Infinite', "Uncharted 4: A Thief's End", 'Death Stranding' ],
-		fictional: false
+		fictional: false,
+		img: 'troy.jpg'
 	}
 ];
 
