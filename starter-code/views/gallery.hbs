@@ -3,13 +3,15 @@
 </div>
 
 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner d-flex justify-content-center">
+  <div class="carousel-inner">
+    <div class="heroes">
     {{#each images}}
     <div class="carousel-item{{#if @first}} active{{/if}}"data-interval="2000">
       <img src={{this.image}} class="d-block" width="500">
       <p>{{this.name}}</p>
     </div>
     {{/each}}
+  </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
