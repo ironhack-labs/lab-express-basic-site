@@ -36,6 +36,15 @@ h1 {
   margin-bottom: 5vh;
 }
 
+.about a {
+  color: #c50018;
+  text-decoration: none;
+  text-align: right;
+}
+.about a:hover {
+  color: #d2d4d2;
+}
+
 .about-container {
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.45);
