@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --ext js,hbs,json app.js",
-    "scss": "node-sass --watch public -o public"
+    "scss": "node-sass --watch public -o public --output-style compressed"
   },
   "author": "",
   "license": "ISC",
