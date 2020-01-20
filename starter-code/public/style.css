@@ -29,8 +29,14 @@ body{
 .heroes{
     display: flex;
     justify-content: center;
+    margin-right: 480px;
 }
 .container{
+    font-size: 25px;
     text-align: center;
     border: 1px solid red;
+}
+
+.carousel-item{
+    font-size: 25px;
 }
