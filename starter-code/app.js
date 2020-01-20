@@ -23,5 +23,9 @@ app.get("/photo-gallery", (req, res) => {
   res.render("photo-gallery");
 });
 
+app.get("/extras", (req, res) => {
+  res.render("extras");
+});
+
 const port = 4000;
 app.listen(port, () => console.log(`Ready on port ${port}`));

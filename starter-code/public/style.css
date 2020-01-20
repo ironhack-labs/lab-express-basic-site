@@ -5,11 +5,43 @@ body {
   font-family: "B612 Mono", monospace;
 }
 
-.navbar {
-  background-color: #d2d4d2;
+nav {
+  margin-top: 2vh;
+  margin-right: 3vw;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  height: 60px;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.container {
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 10px;
+  z-index: 1000;
+}
+
+nav a {
+  color: #c50018;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.container-body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +52,7 @@ h1 {
   font-weight: 700;
   font-style: italic;
   padding: 0;
+  padding-top: 4vh;
 }
 .name {
   text-align: right;
@@ -63,4 +96,40 @@ h1 {
   text-align: left;
   padding: 0;
   margin: 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+.gallery-title {
+  position: fixed;
+}
+
+.pic {
+  width: 50vw;
+  padding: 10px;
+}
+
+.photo-grid {
+  margin-top: 90vh;
+}
+
+.video {
+  display: flex;
+  margin-top: 10vh;
+  justify-content: center;
+}
+.twitter-tweet {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.extras-container {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.extras-container h2 {
+  font-size: 5rem;
+  text-decoration: underline;
 }
