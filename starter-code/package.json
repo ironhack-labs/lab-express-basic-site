@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon start"
+    "start": "nodemon js hbs json app.js"
   },
   "repository": {
     "type": "git",
