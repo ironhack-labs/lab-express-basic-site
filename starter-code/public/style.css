@@ -76,3 +76,6 @@ footer a {
 .col > ul {
 	list-style-type: none;
 }
+.col span {
+	font-weight: bold;
+}

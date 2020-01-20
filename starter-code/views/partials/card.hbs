@@ -1,12 +1,12 @@
 <div class="col col-4">
     <img src="/static/img/{{img}}" class="card-img" alt="{{name}}" width="100%">
-    <p>{{name}}</p>
+    <p class="mt-4 text-center">{{name}}</p>
     <ul>
-        <li>Age: {{age}}</li>
+        <li><span>Age</span>: {{age}}</li>
         {{#if fictional}}
-        <li>Status: {{status}}</li>
+        <li><span>Status</span>: {{status}}</li>
         {{else}}
-        <li>Other appearances:</li>
+        <li><span>Other appearances</span>:</li>
             <ul class="ml-5">
                 {{#each appearances}}
                     <li>{{this}}</li>
