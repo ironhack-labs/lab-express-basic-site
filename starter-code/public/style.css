@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=B612+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Germania+One&display=swap");
 body {
   background-color: #d2d4d2;
   color: #c50018;
   font-family: "B612 Mono", monospace;
+}
+
+.name {
+  font-family: "Germania One", cursive;
 }
 
 nav {
