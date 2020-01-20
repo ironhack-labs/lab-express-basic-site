@@ -2,7 +2,7 @@
   "name": "lab-express-basic-site",
   "version": "1.0.0",
   "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)\r # Express basic website",
-  "main": "starter-code/app.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.0",
