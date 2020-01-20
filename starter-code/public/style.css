@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=B612+Mono&display=swap");
+body {
+  background-color: #d2d4d2;
+  color: #c50018;
+  font-family: "B612 Mono", monospace;
+}
+
+.navbar {
+  background-color: #d2d4d2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  font-style: italic;
+  padding: 0;
+}
+.name {
+  text-align: right;
+}
+.about {
+  background-image: url("/static/bg-about-bg.jpg");
+  background-attachment: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+
+.about p {
+  color: black;
+  margin-bottom: 5vh;
+}
+
+.about-container {
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.about-container .text {
+  padding: 5vh 10vw;
+}
+
+.about-container h2 {
+  margin-bottom: 5vh;
+  text-decoration: underline;
+}
+
+.photo-gallery-container {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
