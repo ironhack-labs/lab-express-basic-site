@@ -1,0 +1,12 @@
+<h2 class="text-center mt-5 mb-5">Characters</h2>
+<div class="container">
+    <div class="row justify-content-center">
+        {{#each people}}
+        {{#with this}}
+            {{> card}}
+        {{/with}}
+        {{/each}}
+    </div>
+   
+</div>
+

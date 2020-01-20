@@ -71,3 +71,8 @@ footer a {
 	box-shadow: .2em .2em .2em #000;
 	border-radius: .5em;
 }
+
+/* GALLERIES */
+.col > ul {
+	list-style-type: none;
+}
