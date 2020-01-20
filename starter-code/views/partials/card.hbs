@@ -1,0 +1,18 @@
+<div class="col col-4">
+    <img src="/static/img/{{img}}" class="card-img" alt="{{name}}" width="100%">
+    <p>{{name}}</p>
+    <ul>
+        <li>Age: {{age}}</li>
+        {{#if fictional}}
+        <li>Status: {{status}}</li>
+        {{else}}
+        <li>Other appearances:</li>
+            <ul class="ml-5">
+                {{#each appearances}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        {{/if}}
+    </ul>
+</div>
+    
