@@ -1,0 +1,136 @@
+/* GLOBAL */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #DAF7A6;
+    color: #0C618A;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #3D9EF1;
+    line-height: 110%;
+    margin-top: 2.5%;
+    margin-bottom: 0;
+    box-shadow: 0 -0.1em 0 #3D9EF1 inset;
+}
+  
+h2 {
+    font-size: 1.5em;
+    line-height: 120%;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+a:link, a:visited {
+    font-size: 2em;
+    color: #0C618A;
+    text-decoration: none;
+    box-shadow: 0 -0.1em 0 #3D9EF1 inset;
+}
+  
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: 0 -0.3em 0 #F48FB1 inset;
+}
+
+p {
+    margin: 0;
+}
+
+.breadcrumbs {
+    font-size: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 172.5%
+}
+
+.img-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 2.5% 20%;
+}
+
+.about-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.about-copy {
+    margin: 0.5% 5%;
+    font-size: 1.25em;
+}
+
+.about-img {
+    width: 22.5%;
+}
+
+.footer {
+    margin: 5% 35% 1.5% 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+#intro {
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#home-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+#navigation {
+    margin: 2.5% 39% 0 39%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+}
+
+#about-title {
+    align-items: center;
+    justify-content: center;
+    margin: 2.5% 43.45% 0 43.45%;
+}
+
+#gallery-title {
+    align-items: center;
+    justify-content: center;
+    margin: 2.5% 46.5% 0 46.5%;
+}
+
+#bruce-asleep {
+    width: 40%;
+    transform: rotate(90deg);
+}
+
+@media (min-width: 450px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    .description { 
+        font-size: 1.25em;
+    }
+}
