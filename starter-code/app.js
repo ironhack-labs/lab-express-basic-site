@@ -19,5 +19,15 @@ app.get("/", (req, res) => {
     res.render("index");
   });
 
+  // Route about
+app.get("/about", (req, res) => {
+  res.render("about");
+});
+
+// Route gallery
+app.get("/gallery", (req, res) => {
+  res.render("gallery");
+});
+
 // Server Started
 app.listen(3000);
