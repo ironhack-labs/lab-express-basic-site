@@ -20,12 +20,7 @@ app.use("/public", express.static(__dirname + "/public"));
 // Variables de plantilla por defecto (como si fuesen variables de plantilla globales)
 // our first Route:
 app.get('/', (request, response, next) => {
-    response.sendFile(__dirname + '/views/index.hbs');
-  });
-  
-  // Server Started
-  app.listen(3000, () => {
-    console.log('My first app listening on port 3000!');
+    response.sendFile(__dirname + '/views/home.hbs');
   });
 
 const port = 3000;
