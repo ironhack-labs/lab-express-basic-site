@@ -1,3 +1,7 @@
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -5,4 +9,8 @@
 
 .nav-link {
   color: black;
+}
+.header-img {
+  width: 50em;
+  margin-top: -2em;
 }
