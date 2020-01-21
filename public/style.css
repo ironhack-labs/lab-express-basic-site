@@ -16,8 +16,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  height: 50px;
+  padding: 10px;
+  height: 40px;
 }
 .menu {
   display: flex;
@@ -31,7 +31,7 @@ body {
 }
 .menu ul li {
   padding: 0px 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 .menu ul li a{
@@ -159,6 +159,9 @@ h3 {
   width: 350px;
 }
 /*SEARCH PAGE*/
+section.first-section.pages-style {
+  background-image: url(../public/images/vinyl.jpg);
+}
 .pages-style h3{
   color: #fff;
   font-size:30px;

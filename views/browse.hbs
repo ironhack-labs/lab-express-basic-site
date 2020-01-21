@@ -1,0 +1,13 @@
+<section class="first-section pages-style">
+    <h1>Do you feel <i>trendy</i> everyday?</h1>
+    {{#each benefits}}
+    {{#with this}}
+    {{> card}}
+    {{/with}}
+    {{/each}}
+    <article>
+        <p>We are the masters of today. Every new song from your favourite artists is here first, on Spotify!</p>
+        <p>New playlists, new songs, new releases from the top performers of the music industry.</p>
+        <button>DON'T MISS A THING</button>
+    </article>
+</section>
