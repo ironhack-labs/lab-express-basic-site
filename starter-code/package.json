@@ -6,12 +6,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^2.0.2",
     "sass": "^1.25.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon js hbs json app.js"
+    "start": "nodemon js hbs json app.js",
+    "scss": "node-sass --watch public/scss/main.scss -o public/css/"
   },
   "repository": {
     "type": "git",
