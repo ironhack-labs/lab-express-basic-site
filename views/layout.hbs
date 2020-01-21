@@ -8,23 +8,38 @@
     <title>{{tituloPag}}</title>
     <link rel="icon" type="image/jpg"
         href="https://ep01.epimg.net/verne/imagenes/2017/07/06/articulo/1499348316_032426_1499348987_noticia_normal.jpg" />
-    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
 
 </head>
+
 <body>
-    <header class="header">
-      <img src="public/images/spotify-logo.png" alt="logo spotify" height="50px" class="logotipo">
-      <nav class="menu">
-        <ul>
-          <li>Premium</li>
-          <li>Discover</li>
-          <li>Help</li>
-          <li>Download</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-        {{{body}}}
-    </main>
-  </body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/correcciones">Correcciones</a>
+                    </li>
+            </div>
+        </nav>
+        <div class="centerflex">
+            {{{body}}}
+        </div>
+        <footer>
+            <p>Copy 2020 Ironhack</p>
+        </footer>
+    </div>
+</body>
+
 </html>

@@ -8,20 +8,33 @@ app.set("view engine", "hbs");
 // Configurar la carpeta de partials
 hbs.registerPartials(__dirname + "/views/partials");
 
-app.use("/public", express.static(__dirname + "/public"));
+app.use("/static", express.static(__dirname + "/public"));
 
-/*const ta = [
+const ta = [
   { name: "Alejandro", edad: 30 },
   { name: "Simon", edad: 30 },
   { name: "Giorgetti", edad: 25 },
   { name: "Diego", edad: 22 }
 ];
-*/
-// Variables de plantilla por defecto (como si fuesen variables de plantilla globales)
-// our first Route:
-app.get('/', (request, response, next) => {
-    response.sendFile(__dirname + '/views/home.hbs');
-  });
 
-const port = 3000;
+// Variables de plantilla por defecto (como si fuesen variables de plantilla globales)
+app.use((req, res, next) => {
+  res.locals = {
+    tituloPag: "Bienvenido a la pagina de los TA"
+  };
+  next();
+});
+
+app.get("/", (req, res) => {
+  res.render("home", { ta });
+});
+
+app.get("/correcciones", (req, res) => {
+  res.render("correcciones", {
+    ta: ta.filter(e => e.name[0] == "A"),
+    tituloPag: "CORREC"
+  });
+});
+
+const port = 5555;
 app.listen(port, () => console.log(`Ready on port ${port}`));
