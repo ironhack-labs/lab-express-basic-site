@@ -51,15 +51,15 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/gallery', (req, res) => {
-	res.render('gallery', { pageTitle: 'Cast & Characters' });
+	res.render('galleryHome', { pageTitle: 'Cast & Characters' });
 });
 
 app.get('/cast', (req, res) => {
-	res.render('cast', { people: people.filter(person => !person.fictional), pageTitle: 'Cast' });
+	res.render('gallery', { people: people.filter(person => !person.fictional), pageTitle: 'Cast' });
 });
 
 app.get('/characters', (req, res) => {
-	res.render('characters', { people: people.filter(person => person.fictional), pageTitle: 'Characters' });
+	res.render('gallery', { people: people.filter(person => person.fictional), pageTitle: 'Characters' });
 });
 
 // Start server
