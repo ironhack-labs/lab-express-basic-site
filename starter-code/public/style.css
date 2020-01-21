@@ -16,7 +16,7 @@ body{
 
 .father{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;;
 }
 
 .card{
@@ -34,7 +34,7 @@ body{
 .container{
     font-size: 25px;
     text-align: center;
-    border: 1px solid red;
+    
 }
 
 .carousel-item{
