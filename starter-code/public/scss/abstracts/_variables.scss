@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+
+/// Copy text color
+$text-color: rgb(0, 149, 255);
+
+$accent-color: rgb(0, 57, 97);
+
+/// Main brand color
+$brand-color: rgb(229, 0, 80);
+
+/// Light grey
+$light-grey: rgb(237, 237, 237);
+
+/// Medium grey
+$mid-grey: rgb(153, 153, 153);
+
+/// Dark grey
+$dark-grey: rgb(68, 68, 68);
+
+$breakpoints: (phone: 414px, 
+               tablet: 768px, 
+               desktop: 1024px) !default;
+
+$navbar-height:64px;

@@ -1,0 +1,30 @@
+.about-section {
+  height: calc(100vh + #{$navbar-height});
+
+  display: flex;
+
+  .img-wrapper, .about-text-wrapper {
+    width: 50%;
+  }
+
+  .img-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+
+  .about-text-wrapper {
+    .text-wrapper {
+      padding: 10% 0;
+      width: 90%;
+      margin: 0 auto;
+      @extend %sticky;
+      top: 0;
+    }
+
+    .technologies-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
