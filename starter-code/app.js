@@ -20,9 +20,9 @@ const people = [
 		img: 'joel.jpg'
 	},
 	{
-		name: 'Ashely Johnson',
+		name: 'Ashley Johnson',
 		age: 36,
-		appearances: [ 'Blindstop', 'Critical Role', 'The Last of Us: Left Behind' ],
+		appearances: [ 'Blindspot', 'Critical Role', 'The Last of Us: Left Behind' ],
 		fictional: false,
 		img: 'ashley.jpg'
 	},
@@ -43,23 +43,23 @@ hbs.registerPartials(`${__dirname}/views/partials`);
 
 // Routes
 app.get('/', (req, res) => {
-	res.render('index');
+	res.render('index', { pageTitle: 'Home' });
 });
 
 app.get('/about', (req, res) => {
-	res.render('about');
+	res.render('about', { pageTitle: 'The Last of Us' });
 });
 
 app.get('/gallery', (req, res) => {
-	res.render('gallery');
+	res.render('gallery', { pageTitle: 'Cast & Characters' });
 });
 
 app.get('/cast', (req, res) => {
-	res.render('cast', { people: people.filter(person => !person.fictional) });
+	res.render('cast', { people: people.filter(person => !person.fictional), pageTitle: 'Cast' });
 });
 
 app.get('/characters', (req, res) => {
-	res.render('characters', { people: people.filter(person => person.fictional) });
+	res.render('characters', { people: people.filter(person => person.fictional), pageTitle: 'Characters' });
 });
 
 // Start server
