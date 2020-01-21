@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: Marvel;
+}
+
+.navbar {
+    background-color: #FEFFFF;
+    font-family: Marvel;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    margin: 80px;
+    color: red;
+}
+
+.father{
+    display: flex;
+    justify-content: space-evenly;;
+}
+
+.card{
+    font-family: Marvel;
+    background-color: black;
+    margin: 0px;
+    align-content: center;
+}
+
+.heroes{
+    display: flex;
+    justify-content: center;
+    margin-right: 480px;
+}
+.container{
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.carousel-item{
+    font-size: 25px;
+}

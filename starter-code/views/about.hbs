@@ -1,0 +1,15 @@
+<div class = "container">
+    <b>CREADORES</b>
+</div>
+{{#each autors}}
+<div class="father">
+<div class="card container" style="width: 18rem;">
+  <img src={{this.image}} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{this.name}}</h5>
+    <p class="card-text">{{this.bibliography}}</p>
+    <a href={{this.link}} class="btn btn-primary">More information</a>
+  </div>
+  </div>
+  {{/each}}
+</div>
