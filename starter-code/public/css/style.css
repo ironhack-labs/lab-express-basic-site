@@ -1,3 +1,38 @@
 .jumbotron {
+  background-color: #098ce7;
   margin-bottom: 0;
 }
+
+.jumbotron h1 {
+  padding-left: 30px;
+  color: #FFF;
+}
+
+.card {
+  width: 18rem;
+  margin-bottom: 5rem;
+}
+
+img#miyazaki {
+  width: 30%;
+  height: auto;
+  border-radius: 12px;
+  float: left;
+  margin-right: 10px;
+}
+
+img#ghibli {
+  width: 80%;
+  height: auto;
+  align-items: center;
+}
+
+#carouselExampleSlidesOnly {
+  margin: 30px 0;
+}
+
+#main h1 {
+  margin: 30px 0;
+  color: #505050;
+}
+

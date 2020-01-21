@@ -10,29 +10,31 @@
 </head>
 <body>
 
-  <div class="jumbotron">
+  <div class="jumbotron jumbotron-fluid">
     <h1 class="display-4">Studio Ghibli</h1>
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Ghibli</a>
+    <a class="navbar-brand" href="/">
+      <img src="/img/logo.png" width="40" height="40" alt="">
+    </a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li {{#if home}}class="nav-item active"{{else}}class="nav-item"{{/if}}>
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item">
+        <li id="films" {{#if films}}class="nav-item active"{{else}}class="nav-item"{{/if}}>
           <a class="nav-link" href="/films">Films</a>
         </li>
-        <li class="nav-item">
+        <li id="about" {{#if about}}class="nav-item active"{{else}}class="nav-item"{{/if}}>
           <a class="nav-link" href="/about">About</a>
         </li>
       </ul>
     </div>
   </nav>
   
-  <div class="container">
+  <div id="main" class="container">
       {{{body}}}
   </div>
 

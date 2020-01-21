@@ -1,1 +1,9 @@
-<h1>This is the films page</h1>
+<h1>Films by Studios Ghibli</h1>
+
+<div class="container">
+  <div class="row">
+    {{#each films}}
+      <div class="col text-center d-flex justify-content-center">{{> card this}}</div>
+    {{/each}}
+  </div>
+</div>
