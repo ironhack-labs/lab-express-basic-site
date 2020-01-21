@@ -10,12 +10,13 @@ a:hover {
 	color: purple;
 	text-decoration: none;
 }
-a:active {
-	color: purple;
-}
 p {
 	font-size: 1.2rem;
 }
+.img-shadow {
+	box-shadow: .2em .2em .2em #000;
+}
+
 /* NAVBAR */
 li > a {
 	color: #fff;
@@ -28,6 +29,28 @@ nav > a {
 	align-self: center;
 	width: 2.5em;
 }
+
+/* HOME PAGE */
+.img-container {
+	text-align: center;
+	margin-top: 2em;
+}
+.buttons {
+	text-align: center;
+	margin-top: 2em;
+}
+.buttons a:first-child {
+	margin-right: 2em;
+}
+
+/* GALLERIES */
+.col > ul {
+	list-style-type: none;
+}
+.col span {
+	font-weight: bold;
+}
+
 /* FOOTER */
 footer {
 	position: fixed;
@@ -40,33 +63,4 @@ footer p {
 }
 footer a {
 	color: #000;
-}
-
-/* HOME PAGE */
-.img-container {
-	text-align: center;
-	margin-top: 2em;
-}
-
-.buttons {
-	text-align: center;
-	margin-top: 2em;
-}
-.buttons a:first-child {
-	margin-right: 2em;
-}
-
-/* ABOUT PAGE */
-.about img {
-	width: 100%;
-	box-shadow: .2em .2em .2em #000;
-	border-radius: .5em;
-}
-
-/* GALLERIES */
-.col > ul {
-	list-style-type: none;
-}
-.col span {
-	font-weight: bold;
 }
