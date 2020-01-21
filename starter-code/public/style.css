@@ -7,7 +7,38 @@ footer {
   background-color: lightgrey;
 }
 
+.carTitle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .container {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.jumbotron {
+  padding: 1rem 1rem;
+}
+
+.centerflex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.d-block {
+  max-height: 70vh;
 }

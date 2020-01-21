@@ -2,13 +2,16 @@ const express = require("express");
 const hbs = require("hbs");
 const app = express();
 
+const campaigns = require("./js/data.js");
+const gallery = require("./js/data.js");
+
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
 app.use("/public", express.static(__dirname + "/public"));
 
 app.get("/", (request, response) => {
-  response.render("home", { title: "HOME" });
+  response.render("home", { title: "HOME", campaigns });
 });
 
 app.get("/about", (request, response) => {
@@ -16,7 +19,7 @@ app.get("/about", (request, response) => {
 });
 
 app.get("/gallery", (request, response) => {
-  response.render("gallery", { title: "GALERÍA" });
+  response.render("gallery", { title: "GALERÍA", gallery });
 });
 
 const port = 3000;
