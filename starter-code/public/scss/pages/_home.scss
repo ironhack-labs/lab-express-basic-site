@@ -1,20 +1,22 @@
-.home-box {
+#home-box {
   margin: 0 auto;
-  width: 60%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
+  background-image: url("./../images/stadium.jpg");
 
-  .home-title {
-    color: $title-color;
-    text-transform: uppercase;
-    font-weight: bold;
+  #home-title {
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
   }
 
   p {
     text-align: center;
+    font-size: 1.2rem;
+    padding: 0 20%;
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
   }
 }

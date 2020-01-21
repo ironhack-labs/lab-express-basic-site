@@ -1,17 +1,21 @@
-<div class="text-center">
-  <div class="btn-group players-filter" role="group" aria-label="Playing position">
-    <button type="button" class="btn btn-secondary" onclick="showPlayers()">Todos</button>
-    <button type="button" class="btn btn-secondary" onclick="filterPlayers('goalkeeper')">Porteros</button>
-    <button type="button" class="btn btn-secondary" onclick="filterPlayers('defender')">Defensas</button>
-    <button type="button" class="btn btn-secondary" onclick="filterPlayers('midfielder')">Centrocampistas</button>
-    <button type="button" class="btn btn-secondary" onclick="filterPlayers('forward')">Delanteros</button>
-  </div>
-</div>
+<div class="container-fluid navbar-margin">
 
-<div class="row players-box">
-  {{#each players}}
-  {{#with this}}
-  {{> card}}
-  {{/with}}
-  {{/each}}
+  <div class="text-center">
+    <div class="btn-group players-filter" role="group" aria-label="Playing position">
+      <button type="button" class="btn btn-secondary" onclick="showPlayers()">Todos</button>
+      <button type="button" class="btn btn-secondary" onclick="filterPlayers('goalkeeper')">Porteros</button>
+      <button type="button" class="btn btn-secondary" onclick="filterPlayers('defender')">Defensas</button>
+      <button type="button" class="btn btn-secondary" onclick="filterPlayers('midfielder')">Centrocampistas</button>
+      <button type="button" class="btn btn-secondary" onclick="filterPlayers('forward')">Delanteros</button>
+    </div>
+  </div>
+
+  <div class="row players-box">
+    {{#each players}}
+    {{#with this}}
+    {{> card}}
+    {{/with}}
+    {{/each}}
+  </div>
+
 </div>
