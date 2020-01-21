@@ -1,0 +1,13 @@
+<section class="first-section pages-style">
+    <h1>Find <i>your own</i> style</h1>
+    {{#each benefits}}
+    {{#with this}}
+    {{> card}}
+    {{/with}}
+    {{/each}}
+    <article>
+        <p>In Spotify we have a lot of music genders you would like to listen to. From pop, to rock, to salsa...</p>
+        <p>Just give it a try and dig into our playlists to find what suits you the best</p>
+        <button>SEARCH FOR NEW MUSIC</button>
+    </article>
+</section>

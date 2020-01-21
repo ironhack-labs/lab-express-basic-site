@@ -8,13 +8,12 @@ app.set("view engine", "hbs");
 // Configurar la carpeta de partials
 hbs.registerPartials(__dirname + "/views/partials");
 
-app.use("/static", express.static(__dirname + "/public"));
+app.use("/public", express.static(__dirname + "/public"));
 
-const ta = [
-  { name: "Alejandro", edad: 30 },
-  { name: "Simon", edad: 30 },
-  { name: "Giorgetti", edad: 25 },
-  { name: "Diego", edad: 22 }
+const benefits = [
+  { name: "Search", description: "Know what you want to listen to? Just search and hit play." },
+  { name: "Browse", description: "Check out the latest charts, brand new releases and great playlists for right now." },
+  { name: "Discover", description: "Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio." }
 ];
 
 // Variables de plantilla por defecto (como si fuesen variables de plantilla globales)
@@ -26,15 +25,14 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.render("home", { ta });
+  res.render("home", { benefits });
 });
 
-app.get("/correcciones", (req, res) => {
-  res.render("correcciones", {
-    ta: ta.filter(e => e.name[0] == "A"),
-    tituloPag: "CORREC"
+app.get("/search", (req, res) => {
+  res.render("search", {
+    benefits: benefits.filter(e => e.name[0] == "S"),
   });
 });
 
-const port = 5555;
+const port = 3000;
 app.listen(port, () => console.log(`Ready on port ${port}`));
