@@ -1,9 +1,12 @@
 {{#each dogs}}
 {{#with this}}
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">{{name}}</h5>
-    <p class="card-text">Edad:{{age}} años</p>
+<div class="card-group">
+  <div class="card">
+    <img src="{{image}}" class="card-img-top" alt="{{name}}">
+    <div class="card-body">
+      <h5 class="card-title">{{name}}</h5>
+      <p class="card-text">Propietario: {{owner}}</p>
+    </div>
   </div>
 </div>
 {{/with}}
