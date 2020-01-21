@@ -1,8 +1,10 @@
+{{> indexParts}}
 {{#each dogs}}
 {{#with this}}
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">{{name}}</h5>
+    <h5 class="card-title">{{owner}}</h5>
+    <p class="card-text">Propietari@ de: {{name}}</p>
     <p class="card-text">Edad:{{age}} años</p>
   </div>
 </div>

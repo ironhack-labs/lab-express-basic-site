@@ -33,23 +33,43 @@ const dogs = [
     image: "/static/images/kun.jpg",
     name: "Kun",
     age: 8,
+    champion: "campeon",
     owner: "Sara Dacal"
+  },
+  {
+    image: "/static/images/Hiro.jpg",
+    name: "Hiro",
+    age: 11,
+    owner: "Carlos Torres"
+  },
+  {
+    image: "/static/images/Sachi.jpg",
+    name: "Sachi",
+    age: 11,
+    owner: "Angels Font"
   }
 ];
 
 app.get("/", (req, res) => {
-  res.render("index", { dogs, Document: "INDEX", headers: "Administradores" });
+  res.render("index", {
+    dogs,
+    Document: "INDEX",
+    headers: "/static/images/Portada.jpg"
+  });
 });
 
 app.get("/about", (req, res) => {
-  res.render("about", { Document: "ABOUT", headers: "Acerca del Shiba Inu" });
+  res.render("about", {
+    Document: "ABOUT",
+    headers: "/static/images/Portada.jpg"
+  });
 });
 
 app.get("/galery", (req, res) => {
   res.render("galery", {
     dogs,
     Document: "GALERY",
-    headers: "Galeria de Imagenes"
+    headers: "/static/images/Portada.jpg"
   });
 });
 
@@ -57,7 +77,7 @@ app.get("/champion", (req, res) => {
   res.render("champion", {
     dogs: dogs.filter(e => e.champion),
     Document: "CHAMPIONS",
-    headers: "Campeones de España"
+    headers: "/static/images/Portada.jpg"
   });
 });
 
