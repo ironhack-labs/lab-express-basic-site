@@ -2,15 +2,29 @@ body {
   background-color: lightgray;
 }
 
-.centerflex {
+.head-container {
+  padding: 10px 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  margin: 50px;
+}
+.card {
+  margin-top: 10px;
 }
 
-footer {
-  text-align: center;
-  padding-top: 40px;
+.card-container {
+  display: flex;
+  padding: 10% 20%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-container img {
+  object-fit: cover;
+  object-position: center;
+  width: 300px;
+  height: 200px;
+}
+.about-container {
+  position: relative;
+  display: flex;
 }
