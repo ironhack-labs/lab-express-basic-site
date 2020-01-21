@@ -1,15 +1,14 @@
 body {
-  background: url("http://getwallpapers.com/wallpaper/full/3/3/2/113036.jpg") no-repeat center center fixed;
-  
+  background: url("./images/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-nav{
+nav {
   background-attachment: fixed;
 }
 
-footer{
+footer {
   size: 20px;
 }
-
-
-  
