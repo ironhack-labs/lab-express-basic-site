@@ -3,21 +3,31 @@ const hbs = require("hbs");
 
 const app = express();
 
+hbs.registerPartials(__dirname + "/views/partials");
+
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
 app.use("/static", express.static(__dirname + "/public"));
 
+// Template vars
+app.use((req, res, next) => {
+  res.locals = {
+    titlePage: "HOME - Express"
+  };
+  next();
+});
+
 app.get("/", (req, res) => {
-  res.send("HOME");
+  res.render("");
 });
 
 app.get("/about", (req, res) => {
-  res.send("ABOUT");
+  res.render("", {titlePage: "About - Express"});
 });
 
 app.get("/photo-gallery", (req, res) => {
-  res.send("PHOTO-GALLERY");
+  res.render("", {titlePage: "Gallery - Express"});
 });
 
 const port = 5555;
