@@ -15,4 +15,12 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
+app.get("/films", (req, res) => {
+  res.render("films");
+});
+
+app.get("/about", (req, res) => {
+  res.render("about");
+});
+
 app.listen(3000, () => console.log(`Server ready and listening to port ${PORT}`));

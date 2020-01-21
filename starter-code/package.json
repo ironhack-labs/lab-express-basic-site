@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -e js,hbs,css,json app.js"
+    "start": "nodemon -e js,hbs,json app.js"
   },
   "keywords": [],
   "author": "",
