@@ -1,0 +1,26 @@
+nav {
+	li a {
+		color: #fff;
+		text-decoration: none;
+		box-sizing: content-box;
+	}
+	img {
+		width: 100%;
+	}
+	a {
+		width: 2.5em;
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	p {
+		font-size: .9rem;
+	}
+	a {
+		color: #000;
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "starter-code",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js",
+		"watch": "sass --watch public/scss/main.scss public/css/style.css --style compressed"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"hbs": "^4.1.0",
+		"sass": "^1.25.0"
+	}
+}
