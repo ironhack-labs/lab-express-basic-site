@@ -1,3 +1,4 @@
 //Files to be ignored by GitHub
 node_modules
 .DS_Store
+Package-lock.json
