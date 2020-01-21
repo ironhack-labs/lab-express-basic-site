@@ -3,8 +3,6 @@ const app = express();
 
 app.use(express.static('public'));
 
-
-
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/home-page.html');
     console.log('Request successful!');

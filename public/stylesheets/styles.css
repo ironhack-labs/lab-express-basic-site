@@ -37,7 +37,13 @@ a:hover {
 }
 
 p {
-    margin: 0;
+    margin: 0;  
+}
+
+.flexbox-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .breadcrumbs {
@@ -71,6 +77,10 @@ p {
 
 .about-img {
     width: 22.5%;
+}
+
+.img-gallery {
+    width: 50%;
 }
 
 .footer {
@@ -123,6 +133,38 @@ p {
 #bruce-asleep {
     width: 40%;
     transform: rotate(90deg);
+}
+
+#gallery {
+    margin: 5% 5%;
+    height: 50%;
+}
+
+#rotate-right {
+    transform: rotate(90deg);
+    width: 90%;
+}
+
+#rotate-left {
+    transform: rotate(270deg);
+}
+
+#gallery-box {
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 2.5%;
+}
+
+.description {
+    text-align: center;
+}
+
+#Billy-img {
+    width: 70%;
+}
+
+#Ziggy-description {
+    margin-top: 22.5%;
 }
 
 @media (min-width: 450px) {
