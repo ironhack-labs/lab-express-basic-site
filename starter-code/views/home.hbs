@@ -1,0 +1,75 @@
+<div class="alert alert-warning" role="alert">
+  El nivel de alerta en estos momento es AMARILLO: Posibles ataques de velociraptor en zonas pobladas.
+</div>
+<div class="alert alert-success" role="alert">
+  ¿Has visto algún velociraptor? Avísanos:
+  <a href="https://twitter.com/intent/tweet?button_hashtag=velociraptorattack&ref_src=twsrc%5Etfw"
+    class="twitter-hashtag-button" data-show-count="false">Tuitea con #velociraptorattack</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <img src="public/images/raptor-logo.png" class="img-fluid mx-auto d-block" alt="Raptor Logo" height="200"
+      width="200">
+    <h1 class="display-4">Bienvenido a la Agencia de Control de Velociraptores</h1>
+    <p class="lead">La Agencia de Control de Velociraptores es el cuerpo internacional encargado de monitorizar la
+      población mundial de velociraptores y asegurar las zonas pobladas para minimizar los ataques a humanos y animales
+      de compañía (incluyendo perros y gatos pero no hurones o periquitos).</p>
+  </div>
+</div>
+<h2>Campañas activas de la Agencia de Control de Velociraptores</h2>
+<div class="centerflex">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="/public/images/raptor-feeding.jpg" alt="NO alimente a velociraptores">
+    <div class="card-body">
+      <h5 class="card-title">No alimentar raptores salvajes</h5>
+      <p class="card-text">Señora por favor, los velociraptores no son gatos. No deje comida para los velociraptores
+        cercanos, pueden causar problemas como comerse a sus vecinos.
+      </p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="/public/images/adopt-raptor.jpg" alt="No adopte a Velociraptores">
+    <div class="card-body">
+      <h5 class="card-title">¿Adoptar un raptor? Mala idea</h5>
+      <p class="card-text">Aunque los velociraptores parecen pequeñas y adorables mascotas adotpar a un raptor
+        domesticado no es buena idea y además es mala idea. Los velociraptores crecen que te cagas y comen carne. Usted
+        está hecho de carne.
+      </p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="/public/images/battle-at-big-rock.jpg" alt="Documental Battle at Big Rock">
+    <div class="card-body">
+      <h5 class="card-title">Vea el último corto del documental Jurassic World</h5>
+      <p class="card-text">El aclamado documental sobre dinosaurios Jurassic World ha lanzado su último capítulo llamado
+        Battle at Big Rock con una reconstrucción de la tragedia ocurrida en Big Rock, USA.
+      </p>
+      <a href="https://www.youtube.com/watch?v=C7kbVvpOGdQ" class="btn btn-primary">Ver en YouTube</a>
+    </div>
+  </div>
+  <!-- A partir de aquí quiero probar los partials -->
+  {{#each campaigns}}
+  {{#with this}}
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{image}}" alt="Alt Text">
+    <div class="card-body">
+      <h5 class="card-title">{{name}}</h5>
+      <p class="card-text">{{text}}
+      </p>
+      <!-- {{button}}  Se puede hacer que las cosas aparezcan o no con condicionales de Handelbars -->
+    </div>
+  </div>
+  {{/with}}
+  {{/each}}
+</div>
+
+
+
+<div class="alert alert-secondary" role="alert">
+  Puedes ver la actividad de los raptores siguiendo el hashtag #velociraptorAttack en <a
+    href="https://twitter.com/hashtag/VelociraptorAttack">Twitter</a> y <a
+    href="https://www.instagram.com/explore/tags/velociraptorattack/">Instagram</a>
+</div>
