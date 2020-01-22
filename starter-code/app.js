@@ -30,5 +30,5 @@ app.get("/photo-gallery", (req, res) => {
   res.render("photo-gallery", {titlePage: "Gallery - Express"});
 });
 
-const port = 5555;
+const port = 3000;
 app.listen(port, () => console.log(`Ready on port ${port}`));

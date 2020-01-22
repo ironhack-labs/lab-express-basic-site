@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon js hbs json app.js",
+    "start": "nodemon --ext js,hbs,json app.js",
     "scss": "node-sass --watch public/scss/main.scss -o public/css/"
   },
   "repository": {
