@@ -1,30 +1,28 @@
-body {
-  width: 1000px;
-  margin: 0 auto;
-  background: white;
-}
+$body-width: 1000px;
+$background-color: white;
 
+body {
+  width: $body-width;
+  margin: 0 auto;
+  background: $background-color;
+}
 .header-img {
-  width: 1000px;
+  width: $body-width;
   margin-top: -60px;
 }
-
 .about-img {
   float: left;
   width: 250px;
   height: 450px;
   overflow: hidden;
   margin: -90px 20px 0 0;
+  img {
+    width: 300px;
+  }
 }
-.about-img img {
-  width: 300px;
-}
-
 .main {
   background: white;
+  p {
+    padding: 0 20px;
+  }
 }
-.main p {
-  padding: 0 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
