@@ -5,6 +5,46 @@ const app = express();
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
+// Functions
+
+let caracoles = [
+  {
+    name: "../static/caracol_1.jpg",
+    image: "Caracol Gigante Africano",
+    type: "Terrestre"
+  },
+
+  {
+    name: "../static/caracol_2.jpg",
+    image: "Caracol Moro",
+    type: "Terrestre"
+  },
+
+  {
+    name: "../static/caracol_3.jpg",
+    image: "Caracol Turco",
+    type: "Terrestre"
+  },
+
+  {
+    name: "../static/caracol_4.jpg",
+    image: "Caracol Romano",
+    type: "Terrestre"
+  },
+
+  {
+    name: "../static/caracol_5.jpg",
+    image: "Alvania Cancellata",
+    type: "Acuático"
+  },
+
+  {
+    name: "../static/caracol_6.jpg",
+    image: "Alvania Carinata",
+    type: "Acuático"
+  }
+];
+
 // Indico las diferentes páginas
 
 app.get("/", (request, response) => {
@@ -12,7 +52,10 @@ app.get("/", (request, response) => {
 });
 
 app.get("/about", (request, response) => {
-  response.render("about", { document: "About" });
+  response.render("about", {
+    document: "About",
+    caracoles: caracoles.filter(a => a.type == "Acuático")
+  });
 });
 
 app.get("/gallery", (request, response) => {
