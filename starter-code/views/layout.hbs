@@ -21,13 +21,13 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li {{#if home}}class="nav-item active"{{else}}class="nav-item"{{/if}}>
+        <li class="nav-item {{#if homeFlag}}active{{/if}}">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li id="films" {{#if films}}class="nav-item active"{{else}}class="nav-item"{{/if}}>
+        <li id="films" class="nav-item {{#if filmsFlag}}active{{/if}}">
           <a class="nav-link" href="/films">Films</a>
         </li>
-        <li id="about" {{#if about}}class="nav-item active"{{else}}class="nav-item"{{/if}}>
+        <li id="about" class="nav-item {{#if aboutFlag}}active{{/if}}">
           <a class="nav-link" href="/about">About</a>
         </li>
       </ul>

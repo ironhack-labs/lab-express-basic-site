@@ -15,15 +15,15 @@ hbs.registerPartials(__dirname + "/views/partials")
 
 // Request handlers
 app.get("/", (req, res) => {
-  res.render("home", {home: true});
+  res.render("home", {homeFlag: true});
 });
 
 app.get("/films", (req, res) => {
-  res.render("films", {films});
+  res.render("films", {films, filmsFlag: true});
 });
 
 app.get("/about", (req, res) => {
-  res.render("about", {about});
+  res.render("about", {about, aboutFlag: true});
 });
 
 app.listen(3000, () => console.log(`Server ready and listening to port ${PORT}`));
