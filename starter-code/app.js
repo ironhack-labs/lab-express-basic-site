@@ -24,28 +24,6 @@ const concerts = [
   { city: "Berlin", date: "July 14" }
 ];
 
-const photos = [
-  {
-    photo:
-      "http://static.t13.cl/images/original/2018/04/1522877951-radiohead-2.jpg"
-  },
-  {
-    photo:
-      "http://www.lifeboxset.com/wp-content/uploads/2015/06/radiohead-nuevo-disco.jpg"
-  },
-  {
-    photo:
-      "https://img.redbull.com/images/q_70,f_auto/redbullcom/2016/05/02/1331792428643_2/radiohead"
-  },
-  {
-    photo: "https://ultrabrit.com/wp-content/uploads/2019/06/radiohead-blue.jpg"
-  },
-  {
-    photo:
-      "http://d3iln1l77n73l7.cloudfront.net/couch_images/attachments/000/053/490/original/radiohead320x320.jpg?2014"
-  }
-];
-
 app.use((req, res, next) => {
   res.locals = {
     pageTitle: "Radiohead tour 2020"
