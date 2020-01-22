@@ -5,6 +5,10 @@ const app = express();
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
+// Indico que todas las páginas Static están en public
+
+app.use("/static", express.static("public"));
+
 // Functions
 
 let caracoles = [
@@ -54,17 +58,14 @@ app.get("/", (request, response) => {
 app.get("/about", (request, response) => {
   response.render("about", {
     document: "About",
-    caracoles: caracoles.filter(a => a.type == "Acuático")
+    caracoles
+    //caracoles: caracoles.filter(a => a.type == "Acuático")
   });
 });
 
 app.get("/gallery", (request, response) => {
   response.render("gallery", { document: "Gallery" });
 });
-
-// Indico que todas las páginas Static están en public
-
-app.use("/static", express.static("public"));
 
 // Arranca Servidor
 const port = 3000;
