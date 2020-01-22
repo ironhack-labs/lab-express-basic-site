@@ -1,0 +1,12 @@
+<h2>HOME</h2>
+
+{{#each cars}}
+{{#with this}}
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">{{name}}</h5>
+        <p class="card-text">Hola tengo {{edad}} años</p>
+    </div>
+</div>
+{{/with}}
+{{/each}}
