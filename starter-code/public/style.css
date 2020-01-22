@@ -11,3 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.itemc {
+  width: 500px;
+}
