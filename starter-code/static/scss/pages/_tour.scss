@@ -19,36 +19,43 @@
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   }
-}
-.dates {
-  height: 93vh;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-
-  ul {
+  .dates {
+    height: 93vh;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
-    height: 70%;
-    z-index: 99;
-    padding: 2rem;
-    li {
-      line-height: 5rem;
-      height: 5rem;
-      &.available,
-      &.sold-out {
-        font: 1.6rem $text-font;
-
-        color: $accent-color-2;
-      }
-      &.sold-out {
-        opacity: 0.5;
-      }
-      a {
-        font: 1.3rem $primary-font;
-        color: $accent-color-3;
-        margin-left: 0.5rem;
+    justify-content: center;
+    width: 100%;
+    ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 70%;
+      z-index: 99;
+      padding: 2rem;
+      li {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        line-height: 5rem;
+        border: solid 2px white;
+        padding: 2rem;
+        &.available,
+        &.sold-out {
+          font: 1.6rem $primary-font;
+          color: white;
+        }
+        &.sold-out {
+          opacity: 0.3;
+        }
+        a,
+        span {
+          font: 1.3rem $primary-font;
+          color: $accent-color-3;
+          margin-left: 0.5rem;
+        }
       }
     }
   }

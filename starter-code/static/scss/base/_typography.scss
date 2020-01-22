@@ -12,18 +12,18 @@ h1 {
 h2 {
   font-family: $primary-font;
   color: $text-color-dark;
-  font-size: 1.8rem;
+  font-size: 5rem;
   margin: 1.5rem;
 }
 
 p {
+  font-family: $secondary-font;
   color: $text-color-dark;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  margin: 1.2rem 0;
-
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin: 1.5rem;
   &::selection {
-    background-color: $accent-color-2;
+    background-color: $accent-color-3;
     color: white;
   }
 }

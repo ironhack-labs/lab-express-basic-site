@@ -1,19 +1,12 @@
+<h1 class="title neon">Tour</h1>
 <div class="container container__tour">
     <div class="dates">
         <ul>
-            <li class="sold-out">12/05 La Riviera (Cha Chá) | Madrid, ES SOLD OUT</li>
-            <li class="available">03/06 Oh! Valencia | Valencia, ES <a href="#" target="_blank">BUY TICKETS!</a>
-            </li>
-            <li class="available">03/07 Sala The One | Alicante, ES <a href="#" target="_blank">BUY TICKETS!</a>
-            </li>
-            <li class="available">03/13 Zentral | Pamplona, ES <a href="#" target="_blank">BUY TICKETS!</a></li>
-            <li class="available">03/14 Santana 27 | Bilbao, ES <a href="#" target="_blank">BUY TICKETS!</a></li>
-            <li class="available">03/20 Sala Custom | Sevilla, ES <a href="#" target="_blank">BUY TICKETS!</a></li>
-            <li class="available">03/21 Industrial Copera | Granada, ES<a href="#" target="_blank">BUY TICKETS!</a>
-            </li>
-            <li class="available">03/27 Teatro Albéniz | Gijón, ES <a href="#" target="_blank">BUY TICKETS!</a></li>
-            <li class="available">03/28 Sala Pelícano | A Coruña, ES <a href="#" target="_blank">BUY TICKETS!</a>
-            </li>
+            {{#each dates}}
+            {{#with this}}
+            {{> event}}
+            {{/with}}
+            {{/each}}
         </ul>
     </div>
 </div>

@@ -10,27 +10,44 @@ app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
 app.use("/static", express.static("static"));
 
-/*
-const ta = [
-  { name: "Alejandro", edad: 30 },
-  { name: "Simon", edad: 30 },
-  { name: "Giorgetti", edad: 25 },
-  { name: "Diego", edad: 22 }
+const dates = [
+  {
+    date: "30/10",
+    place: "Oh! Valencia",
+    city: "Valencia",
+    state: "sold out"
+  },
+  {
+    date: "30/10",
+    place: "Oh! Valencia",
+    city: "Valencia",
+    state: "available"
+  },
+  {
+    date: "30/10",
+    place: "Oh! Valencia",
+    city: "Valencia",
+    state: "available"
+  },
+  {
+    date: "30/10",
+    place: "Oh! Valencia",
+    city: "Valencia",
+    state: "available"
+  },
+  {
+    date: "30/10",
+    place: "Oh! Valencia",
+    city: "Valencia",
+    state: "available"
+  }
 ];
-
-// Variables de plantilla por defecto (como si fuesen variables de plantilla globales)
-app.use((req, res, next) => {
-  res.locals = {
-    tituloPag: "Bienvenido a la pagina de los TA"
-  };
-  next();
-});*/
 
 app.get("/", (req, res) => {
   res.render("home");
 });
-app.get("/tour", (req, res) => {
-  res.render("tour");
+app.get("/tour", (req, res, next) => {
+  res.render("tour", { dates });
 });
 app.get("/gallery", (req, res) => {
   res.render("gallery");

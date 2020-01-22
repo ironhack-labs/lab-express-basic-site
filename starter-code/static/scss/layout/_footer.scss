@@ -1,0 +1,24 @@
+.copyrigth {
+  position: absolute;
+  z-index: 30;
+  bottom: 0;
+  width: 8rem;
+  height: 12rem;
+  box-sizing: border-box;
+  background-color: $text-color-dark;
+  left: 50%;
+  margin-left: -4rem;
+  text-align: center;
+  img {
+    margin: 10% 10% 0 10%;
+  }
+  span {
+    font-family: $secondary-font;
+    color: white;
+  }
+  @include md {
+    width: 14rem;
+    height: 17rem;
+    margin-left: -7rem;
+  }
+}
