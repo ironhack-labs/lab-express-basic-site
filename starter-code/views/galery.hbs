@@ -1,0 +1,14 @@
+{{#each club}}
+{{#with this}}
+<div class="card-group">
+  <div class="card">
+    <img src="{{image}}" class="card-img-top" alt="{{name}}">
+    <div class="card-body">
+      <h5 class="card-title">{{name}}</h5>
+      <p class="card-text">{{rings}} campeonatos conseguidos</p>
+      <p class="card-text">ciuda a la que pertenece la franquicia {{city}}</p>
+    </div>
+  </div>
+</div>
+{{/with}}
+{{/each}}
