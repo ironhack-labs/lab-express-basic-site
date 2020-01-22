@@ -18,16 +18,36 @@ app.use((req, res, next) => {
   next();
 });
 
+const chiefs = [
+  {
+    name: "Epi",
+    job: "CEO (Chief Executive Officer)",
+    photo:
+      "https://www.teleadhesivo.com/es/img/asy157-png/folder/products-detalle-png/vinilos-infantiles-cabeza-de-epi.png"
+  },
+  {
+    name: "Blas",
+    job: "CISO (Chief Information Security Officer)",
+    photo:
+      "https://www.teleadhesivo.com/es/img/asy165-png/folder/products-detalle-png/vinilos-infantiles-blas-de-barrio-sesamo.png"
+  },
+  {
+    name: "Monstruo de las galletas",
+    job: "CTO (Chief Technology Officer)",
+    photo: "https://dbdzm869oupei.cloudfront.net/img/sticker/preview/9886.png"
+  }
+];
+
 app.get("/", (req, res) => {
   res.render("home");
 });
 
 app.get("/about", (req, res) => {
-  res.render("about", {titlePage: "About - Express"});
+  res.render("about", { titlePage: "About - Express", chiefs: chiefs });
 });
 
 app.get("/photo-gallery", (req, res) => {
-  res.render("photo-gallery", {titlePage: "Gallery - Express"});
+  res.render("photo-gallery", { titlePage: "Gallery - Express" });
 });
 
 const port = 3000;

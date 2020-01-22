@@ -1,23 +1,9 @@
 <h2>Sobre nosotros</h2>
-<div class="container">
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="Manager 1">
-        <div class="card-body">
-            <p class="card-text">CEO de la empresa</p>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="Manager 2">
-        <div class="card-body">
-            <p class="card-text">CISO de la empresa</p>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="Manager 3">
-        <div class="card-body">
-            <p class="card-text">CMO de la empresa</p>
-        </div>
-    </div>
+<hr>
+<div id="card-container" class="container">
+    {{#each chiefs}}
+    {{#with this}}
+    {{> card}}
+    {{/with}}
+    {{/each}}
 </div>
