@@ -8,7 +8,7 @@ const people = [
 	},
 	{
 		name: 'Joel',
-		age: 'uknown',
+		age: 'unknown',
 		status: 'alive',
 		fictional: true,
 		img: 'joel.jpg'
