@@ -1,0 +1,9 @@
+<h2>Sobre nosotros</h2>
+<hr>
+<div id="card-container" class="container">
+    {{#each chiefs}}
+    {{#with this}}
+    {{> card}}
+    {{/with}}
+    {{/each}}
+</div>

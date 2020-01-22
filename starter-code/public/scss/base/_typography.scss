@@ -1,0 +1,22 @@
+/**
+ * Basic typography style for copy text
+ */
+
+h1 {
+  color: $text-color;
+  font-size: 2.2em;
+  margin: 20px 0;
+}
+
+h3 {
+  color: $text-color;
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+p {
+  color: $text-color;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin: 12px 0;
+}
