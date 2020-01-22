@@ -19,15 +19,15 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.render("");
+  res.render("home");
 });
 
 app.get("/about", (req, res) => {
-  res.render("", {titlePage: "About - Express"});
+  res.render("about", {titlePage: "About - Express"});
 });
 
 app.get("/photo-gallery", (req, res) => {
-  res.render("", {titlePage: "Gallery - Express"});
+  res.render("photo-gallery", {titlePage: "Gallery - Express"});
 });
 
 const port = 5555;
