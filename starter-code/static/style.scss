@@ -1,13 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 $body-width: 1000px;
 $background-color: white;
+$body-color: white;
 
 body {
   width: $body-width;
   margin: 0 auto;
-  background: $background-color;
+  background-image: url("/static/leo-portada.jpeg");
+  background-size: cover;
+}
+.title {
+  font-family: "Source Sans Pro";
+  color: $body-color;
+  font-size: 7rem;
+  text-align: center;
+  padding: 50px 0;
 }
 .header-img {
-  width: $body-width;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  object-fit: cover;
   margin-top: -60px;
 }
 .about-img {
@@ -22,14 +36,16 @@ body {
 }
 .main {
   background: white;
+  overflow: hidden;
   p {
     padding: 0 20px;
   }
 }
-.cards-container {
+.card-column {
   display: flex;
   flex-flow: row wrap;
 }
 .card {
+  break-inside: avoid;
   width: 33%;
 }
