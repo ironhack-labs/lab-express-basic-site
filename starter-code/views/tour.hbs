@@ -1,10 +1,12 @@
 <h1 class="title neon">Tour</h1>
-<div class="container container__tour">
+<div class="container tour">
     <div class="dates">
         <ul>
             {{#each dates}}
             {{#with this}}
+            {{#if onsale}}
             {{> event}}
+            {{/if}}
             {{/with}}
             {{/each}}
         </ul>

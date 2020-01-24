@@ -1,26 +1,19 @@
 <h1 class="title neon">PICS</h1>
-<div class="container container__gallery">
-    <div class="gallery">
-        <div class="gallery-btn gallery-btn--left">
-            <div class="arrow"></div>
-
-        </div>
+<div class="container gallery">
+    <div class="img-gallery">
         <div class="gallery-wrapper">
-            <img src="/static/img/gallery1.png" alt="Bad Gyal">
-            <div class="gallery-nav">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="gallery-btn gallery-btn--right">
-            <div class="arrow"></div>
+            <ul id="gallery-canvas" class="canvas">
+                <li class="item">
+                    <img src="/static/img/gallery1.png" alt="Bad Gyal">
+                </li>
+            </ul>
+            <ul id="gallery-images" class="images">
+                {{#each srcGallery}}
+                {{#with this}}
+                {{> picture}}
+                {{/with}}
+                {{/each}}
+            </ul>
         </div>
     </div>
 </div>
