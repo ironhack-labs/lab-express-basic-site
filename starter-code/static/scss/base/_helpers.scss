@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+%fixed {
+  position: fixed;
+  width: 100%;
+}
+
+%sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+%fade-in {
+  @include animation(fadeIn 1s forwards);
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,92 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: 400 normal 10px/1.45rem $primary-font;
+}
+
+body {
+  position: relative;
+}
+
+img {
+  object-fit: cover;
+}
+
+.center {
+  text-align: center;
+}
+
+.neon {
+  color: white;
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white,
+    0 0 40px $accent-color-1, 0 0 80px rgb(167, 170, 170),
+    0 0 90px $accent-color-1, 0 0 100px $accent-color-1,
+    0 0 150px $accent-color-1;
+}
+
+.main-title {
+  font-size: 7rem;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  margin-left: -45%;
+  text-align: center;
+  @include sm {
+    top: 30%;
+    font-size: 10rem;
+  }
+  @include md {
+    font-size: 15rem;
+  }
+  @include lg {
+    font-size: 20rem;
+  }
+  @include xl {
+    top: 30%;
+    font-size: 24rem;
+  }
+}
+
+.title {
+  width: 20rem;
+  text-align: center;
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  margin-left: -10rem;
+  animation: 1s bounce infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 1rem;
+  }
+  100% {
+    top: 3rem;
+  }
+}
+
+.wrapper {
+  position: relative;
+  z-index: 5;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0 0 0 3rem white;
+  box-shadow: inset 0 0 0 3rem white;
+  padding: 3rem;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+}

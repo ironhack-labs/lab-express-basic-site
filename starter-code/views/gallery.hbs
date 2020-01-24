@@ -1,0 +1,19 @@
+<h1 class="title neon">PICS</h1>
+<div class="container gallery">
+    <div class="img-gallery">
+        <div class="gallery-wrapper">
+            <ul id="gallery-canvas" class="canvas">
+                <li class="item">
+                    <img src="/static/img/gallery1.png" alt="Bad Gyal">
+                </li>
+            </ul>
+            <ul id="gallery-images" class="images">
+                {{#each srcGallery}}
+                {{#with this}}
+                {{> picture}}
+                {{/with}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
