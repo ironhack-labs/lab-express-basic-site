@@ -1,0 +1,39 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+}
+
+.header-img {
+  width: 1000px;
+  margin-top: -60px;
+}
+
+.about-img {
+  float: left;
+  width: 250px;
+  height: 450px;
+  overflow: hidden;
+  margin: -90px 20px 0 0;
+}
+.about-img img {
+  width: 300px;
+}
+
+.main {
+  background: white;
+}
+.main p {
+  padding: 0 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  width: 33%;
+}
+
+/*# sourceMappingURL=style.css.map */
