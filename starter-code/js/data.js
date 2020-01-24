@@ -31,5 +31,7 @@ const gallery = [
   }
 ];
 
-module.exports = campaigns;
-module.exports = gallery;
+module.exports = {
+  campaigns,
+  gallery
+};

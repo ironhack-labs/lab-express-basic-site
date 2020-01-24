@@ -7,7 +7,7 @@
   <div class="carousel-inner">
     {{#each gallery}}
     {{#with this}}
-    <div class="carousel-item active">
+    <div class="carousel-item{{#if @first}} active {{/if}}">
       <!-- Creo que no funciona porque los demás items no tienen la clase active pero al hacerlo con partials la tienen todos -->
       <img src="{{images}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
