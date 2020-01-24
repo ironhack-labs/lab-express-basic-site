@@ -17,10 +17,10 @@ IMPORTAR MI ESTRUCTURA EN EL FICHERO PRINCIPAL
 @import "layout/header", "layout/navbar", "layout/footer";
 
 // 5. Components
-@import "components/button", "components/icon", "components/nav-bar";
+@import "components/button", "components/icon";
 
 // 6. Page-specific styles
-@import "pages/home";
+@import "pages/home", "pages/tour", "pages/gallery", "pages/bio";
 
 // 7. Themes
 @import "themes/default";

@@ -4,19 +4,25 @@
 
 /// Fonts
 $primary-font: "Yatra One", "Georgia", serif;
-$text-font: "Montserrat", "Helvetica Neue Light", "Helvetica Neue", "Helvetica",
-  "Arial", sans-serif;
+$secondary-font: "Montserrat", "Helvetica Neue Light", "Helvetica Neue",
+  "Helvetica", "Arial", sans-serif;
 
 /// Text color
 $text-color-dark: #0b0b11;
 $text-color-light: #ffffff;
 
-$accent-color-1: #00bdff;
+$accent-color-1: #0ff0ff;
 $accent-color-2: #ff00ff;
 $accent-color-3: #00ff6d;
 
-$breakpoints: (
-  phone: 414px,
-  tablet: 768px,
-  desktop: 1024px
-) !default;
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

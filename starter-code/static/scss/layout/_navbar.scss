@@ -1,0 +1,41 @@
+.menu {
+  > ul {
+    > li {
+      > a {
+        position: absolute;
+        z-index: 10;
+        background-color: $text-color-dark;
+        font-family: $primary-font;
+        font-size: 2em;
+        color: $text-color-light;
+        &.top-left {
+          left: 2em;
+          top: 2em;
+        }
+        &.top-right {
+          right: 2em;
+          top: 2em;
+        }
+        &.bottom-left {
+          left: 2em;
+          bottom: 2em;
+        }
+        &.bottom-right {
+          right: 2em;
+          bottom: 2em;
+        }
+        &.active {
+          -webkit-box-shadow: 1rem 1rem 0 0.2rem $accent-color-3;
+          box-shadow: 1rem 1rem 0 0.2rem $accent-color-3;
+        }
+        &:hover {
+          color: $accent-color-2;
+          background-color: white;
+          transition: all 0.7s;
+          -webkit-box-shadow: 1rem 1rem 0 0.2rem $accent-color-1;
+          box-shadow: 1rem 1rem 0 0.2rem $accent-color-1;
+        }
+      }
+    }
+  }
+}
