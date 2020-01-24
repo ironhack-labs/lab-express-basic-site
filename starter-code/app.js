@@ -1,19 +1,23 @@
 const express = require('express');
-
+const hbs = require('hbs');
 const app = express();
 
-app.use(express.static('public'));
+const path = require('path');
 
-app.get('/home', (request, response, next) => {
-  response.sendFile(__dirname + '/views/index.html');
+app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(path.join(__dirname,'public')));
+
+app.get('/', (req, res, next) => {
+  res.render('index')
 });
 
-app.get('/about', (request, response, next) => {
-  response.sendFile(__dirname + '/views/about.html');
+app.get('/about', (req, res, next) => {
+  res.render('about');
 });
 
-app.get('/photo_gallery', (request, response, next) => {
-  response.sendFile(__dirname + '/views/photo_gallery.html');
+app.get('/photo_gallery', (req, res, next) => {
+  res.render('photo_gallery');
 });
 
 app.listen(3000, () => {
