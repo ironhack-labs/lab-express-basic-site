@@ -2,8 +2,7 @@ const express = require("express");
 const hbs = require("hbs");
 const app = express();
 
-const campaigns = require("./js/data.js");
-const gallery = require("./js/data.js");
+const { campaigns, gallery } = require("./js/data.js");
 
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
