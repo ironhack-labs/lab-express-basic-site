@@ -19,6 +19,7 @@ p, ul{
   
     /* Set a specific height */
     height: 50%;
+    width: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -41,15 +42,17 @@ p, ul{
 /* IMAGE GRID - /gallery */
 .row {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    flex-wrap: wrap;    
   }
 
   /* Create two equal columns that sits next to each other */
-.column {
+.column, .center {
     flex: 25%;
-    max-width: 50%;
-    padding: 0 4px;
+    max-width: 100%;
+  }
+
+  .center {
+    padding: 0 4px 0 4px;
   }
 
   .column img {
@@ -92,3 +95,33 @@ p, ul{
     transform: translate(-50%, -50%);
     color: white;
   }
+
+  /******************** nav bar **************************/
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,.8);
+  height: 40px;
+  font-size: .85em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1ex;
+}
+nav a{
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+}
+.top-links{
+  display: flex;
+  justify-content: flex-end;
+}
+.top-links li{
+  display: block;
+  margin: 0 10px;
+}
+
+.acronym {
+  display: block;
+  margin: 0 10px;
+}
