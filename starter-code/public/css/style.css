@@ -187,19 +187,13 @@ body {
     font: italic 100 22px/1.8 'Merryweather', serif;
 }
 
-/* .about-bg-section {
-    background: url(../images/wave-sun.jpg) no-repeat center;
-    background-size: cover;
-    padding: 50px 0;
-} */
-
 .about-text-section {
     line-height: 2.5;
 }
 
 
 /* ----------------------
-* LATEST
+* ARTICLES
 ---------------------- */
 
 .card--article {
@@ -234,4 +228,19 @@ body {
 .card--article .card-body {
     padding: 1.8rem;
     font-weight: 300;
+}
+
+
+/* ----------------------
+* GALLERY
+---------------------- */
+
+.gallery {
+    column-count: 3;
+    column-width: 33%;
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
 }
