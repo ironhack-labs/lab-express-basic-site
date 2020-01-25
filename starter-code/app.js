@@ -1,7 +1,7 @@
 // ----------------Require Express
 const express = require('express');
 
-// ----------------We create our own server named app
+// ----------------Create server named "app"
 // ----Express server handling requests and responses
 const app = express();
 

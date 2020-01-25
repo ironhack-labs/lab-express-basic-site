@@ -13,3 +13,8 @@ body {
 .welcome {
     border: 200px;
 }
+
+#userpic {
+    width: 600px;
+    height: 800px;
+}
