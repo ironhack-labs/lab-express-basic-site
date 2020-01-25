@@ -171,6 +171,16 @@ body {
     font: italic 100 22px/1.8 'Merryweather', serif;
 }
 
+/* .about-bg-section {
+    background: url(../images/wave-sun.jpg) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+} */
+
+.about-text-section {
+    line-height: 2.5;
+}
+
 
 /* ----------------------
 * LATEST
