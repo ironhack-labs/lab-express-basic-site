@@ -46,6 +46,12 @@ app.get('/about', (request, response) => {
     });
 });
 
+app.get('/articles', (request, response) => {
+    response.render('articles', {
+        articles: 'active'
+    });
+});
+
 app.get('/gallery', (request, response) => {
     response.render('gallery', {
         gallery: 'active'

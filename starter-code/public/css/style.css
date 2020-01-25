@@ -70,6 +70,10 @@ body {
     text-decoration: none;
 }
 
+.main-nav li a:hover {
+    color: var(--blue);
+}
+
 .main-nav li.active a {
     background-color: var(--blue);
     color: var(--white);
@@ -127,6 +131,12 @@ body {
 
 .main-carousel-section {
     margin-top: -70px;
+    position: relative;
+    z-index: 2;
+}
+
+.main-carousel-section .main-carousel {
+    box-shadow: 0 -8px 20px rgba(0,0,0,.3);
 }
 
 
