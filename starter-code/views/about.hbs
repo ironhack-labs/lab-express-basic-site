@@ -1,0 +1,33 @@
+<div class="about-page">
+    <img src="{{ content.main_img }}" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 about-intro">
+                <h3 class="about-intro__title text-uppercase">{{ content.intro.title }}</h3>
+                {{{ content.intro.description }}}
+            </div>
+        </div>
+    </div>
+
+    <section class="about-bg-section bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="about-intro__title text-center text-uppercase">{{ content.highlight.title }}</h3>
+                    <p class="text-center mb-0">{{ content.highlight.content }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-text-section container py-5">
+        <div class="row">
+            <div class="col-6">
+                {{{ content.column_1 }}}
+            </div>
+            <div class="col-6">
+                {{{ content.column_2 }}}
+            </div>
+        </div>
+    </section>
+</div>

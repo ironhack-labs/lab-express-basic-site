@@ -1,0 +1,55 @@
+{{!-- MAIN HERO --}}
+<div class="main-hero d-flex align-content-center text-center flex-wrap">
+    <h2 class="main-hero__title">{{ hero.title }}</h2>
+    <p class="main-hero__subtitle">{{ hero.subtitle }}</p>
+</div>
+
+{{!-- MAIN CAROUSEL --}}
+<section class="container main-carousel-section">
+    <div class="main-carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                {{#each carousel_slides}}
+                    <div class="carousel-item {{#if @first}} active {{/if}}">
+                        <img src="{{this.image}}" class="d-block w-100" alt="">
+                    </div>
+                {{/each}}
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+{{!-- ABOUT INTRO --}}
+<section class="about-section">
+    <h2 class="section-big-title">{{ about_section.title }}</h2>
+    <img src="{{ about_section.main_img }}" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 about-intro">
+                <h3 class="about-intro__title text-uppercase">{{ about_section.content.title }}</h3>
+                {{{ about_section.content.description }}}
+                <a class="link-btn" href="{{ about_section.content.link }}">{{ about_section.content.link_label }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{!-- LATEST --}}
+<section class="latest-section">
+    <h2 class="section-big-title">{{ latest_section.title }}</h2>
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            {{#each latest_section.articles}}
+                {{> article article=this}}
+            {{/each}}
+        </div>
+    </div>
+</section>

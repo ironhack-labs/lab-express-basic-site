@@ -1,0 +1,15 @@
+<div class="articles-archive">
+    <div class="section-header">
+        <h2 class="section-header__title">{{ title }}</h2>
+    </div>
+
+    <div class="latest-section">
+        <div class="container">
+            <div class="d-flex justify-content-around flex-wrap">
+                {{#each content}}
+                    {{> article article=this}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
