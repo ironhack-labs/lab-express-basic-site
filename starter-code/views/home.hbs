@@ -1,7 +1,7 @@
 {{!-- MAIN HERO --}}
 <div class="main-hero d-flex align-content-center text-center flex-wrap">
-    <h2 class="main-hero__title">Ride every wave as if it's your last</h2>
-    <p class="main-hero__subtitle">We love the motion of the ocean</p>
+    <h2 class="main-hero__title">{{ hero.title }}</h2>
+    <p class="main-hero__subtitle">{{ hero.subtitle }}</p>
 </div>
 
 {{!-- MAIN CAROUSEL --}}
@@ -9,10 +9,10 @@
     <div class="main-carousel">
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                {{#each carousel}}
-                <div class="carousel-item {{#if @first}} active {{/if}}">
-                    <img src="{{this.image}}" class="d-block w-100" alt="">
-                </div>
+                {{#each carousel_slides}}
+                    <div class="carousel-item {{#if @first}} active {{/if}}">
+                        <img src="{{this.image}}" class="d-block w-100" alt="">
+                    </div>
                 {{/each}}
             </div>
             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -29,16 +29,14 @@
 
 {{!-- ABOUT INTRO --}}
 <section class="about-section">
-    <h2 class="section-big-title">About Us</h2>
-    <img src="public/images/about-img.jpg" alt="">
+    <h2 class="section-big-title">{{ about_section.title }}</h2>
+    <img src="{{ about_section.main_img }}" alt="">
     <div class="container">
         <div class="row">
             <div class="col-6 about-intro">
-                <h3 class="about-intro__title text-uppercase">We are Surfers co.</h3>
-                <p>Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, aeneam consectetur adipiscing elit.
-                    Fusce iaculis feugiat arcunum fermentum hendrerit. Suspendisse auctor labor nisi, et interdum diam facilisis, aliquam pulvinar semi egetis belle sollicitudin ut. Nullam tincidun
-                    finibustus scelerisque.</p>
-                <a class="link-btn" href="/about">Read more</a>
+                <h3 class="about-intro__title text-uppercase">{{ about_section.content.title }}</h3>
+                {{{ about_section.content.description }}}
+                <a class="link-btn" href="{{ about_section.content.link }}">{{ about_section.content.link_label }}</a>
             </div>
         </div>
     </div>
@@ -46,36 +44,12 @@
 
 {{!-- LATEST --}}
 <section class="latest-section">
-    <h2 class="section-big-title">Latest</h2>
+    <h2 class="section-big-title">{{ latest_section.title }}</h2>
     <div class="container">
         <div class="d-flex justify-content-around">
-            <article class="card card--article">
-                <a href="">
-                    <img src="public/images/article-1.jpg" class="card-img-top" alt="Surfer article 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Sit amet consectetur adipisicing elit</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </a>
-            </article>
-            <article class="card card--article">
-                <a href="">
-                    <img src="public/images/article-1.jpg" class="card-img-top" alt="Surfer article 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Unde commodi</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </a>
-            </article>
-            <article class="card card--article">
-                <a href="">
-                    <img src="public/images/article-1.jpg" class="card-img-top" alt="Surfer article 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Facere neque ullam nihil ipsum vitae voluptate</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </a>
-            </article>
+            {{#each latest_section.articles}}
+                {{> article article=this}}
+            {{/each}}
         </div>
     </div>
 </section>

@@ -103,6 +103,32 @@ body {
 
 .sn-menu li {
     margin: 0 10px;
+    line-height: 0;
+}
+
+.sn-menu li a {
+    background-color: var(--gray-dark);
+    color: var(--white);
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 0;
+    border-radius: 50%;
+    position: relative;
+    transition: all .4s;
+}
+
+.sn-menu li a i {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sn-menu li a:hover {
+    background-color: var(--white);
+    color: var(--gray-dark);
 }
 
 
@@ -200,6 +226,7 @@ body {
 
 .card--article {
     max-width: 20em;
+    margin-bottom: 3em;
     border-color: rgba(0,0,0,.07);
     transition: all .4s;
 }

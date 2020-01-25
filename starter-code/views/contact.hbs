@@ -1,6 +1,6 @@
 <div class="contact-page">
     <div class="section-header">
-        <h2 class="section-header__title">Contact</h2>
+        <h2 class="section-header__title">{{ title }}</h2>
     </div>
 
     <div class="container">
@@ -30,14 +30,14 @@
                 <div class="text-center">
                     <img src="public/images/contact-logo.png" class="img-fluid mb-4" width="250" alt="">
                     <address>
-                        <strong>Surf School, Inc.</strong><br>
-                        1273 Market St, Suite 2<br>
-                        San Francisco, CA 94103<br>
-                        <a href="tel:+1234567890">(123) 456-7890</a>
+                        <strong>{{ address.name }}</strong><br>
+                        {{ address.address }}
+                        <br>
+                        <a href="tel:{{phone_number}}">{{ phone_number_formatted }}</a>
                     </address>
                     <address>
-                        <strong>Contact us</strong><br>
-                        <a href="mailto:surg.school@example.com">surf.school@example.com</a>
+                        <strong>{{ title }}</strong><br>
+                        <a href="mailto:{{ address.email }}">{{ address.email }}</a>
                     </address>
                 </div>
             </div>
