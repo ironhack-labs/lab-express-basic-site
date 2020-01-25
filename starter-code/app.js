@@ -25,15 +25,15 @@ app.get('/', (request, response) => {
         home: 'active',
         carousel: [
             {
-                image: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/12/witcher_14.jpg?itok=-3yoYMWi',
+                image: 'public/images/article-1.jpg',
                 texto: 'hola 1'
             },
             {
-                image: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/12/witcher_14.jpg?itok=-3yoYMWi',
+                image: 'public/images/article-1.jpg',
                 texto: 'hola 2'
             },
             {
-                image: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/12/witcher_14.jpg?itok=-3yoYMWi',
+                image: 'public/images/article-1.jpg',
                 texto: 'hola 3'
             }
         ]
