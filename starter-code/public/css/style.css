@@ -62,6 +62,8 @@ body {
 ---------------------- */
 
 .main-header {
+    background-color: rgba(255,255,255,.3);
+    backdrop-filter: blur(2px);
     padding: 30px 0;
     z-index: 100;
 }
@@ -243,4 +245,24 @@ body {
 .gallery .pics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
+}
+
+
+/* ----------------------
+* CONTACT
+---------------------- */
+
+.form-control {
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
 }
