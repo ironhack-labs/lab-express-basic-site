@@ -40,6 +40,22 @@ body {
     color: rgba(255, 255, 255, .5);
 }
 
+.section-header {
+    background: url('../images/about-img.jpg') no-repeat;
+    text-align: center;
+    color: var(--white);
+    height: 380px;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.section-header__title {
+    font-size: 160px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: .5;
+}
+
 
 /* ----------------------
 * HEADER
