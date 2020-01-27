@@ -1,0 +1,41 @@
+body{
+  color:black;
+  background-color:lightblue;
+}
+
+.founder{
+  width:300px;
+  height:300px;
+  margin-left:40px;
+  float:left;
+}
+
+.order{
+  display:flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.order img{
+  width:300px;
+  height:200px;
+  margin: 10px;
+}
+
+.des{
+  width:40vw;
+  margin-left:50px;
+  float:left;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+h1{
+  margin-left:60px;
+}
+
+a{
+text-decoration:none;
+color:black;
+}
