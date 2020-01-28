@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+}
+.about >img{
+    width: 200px;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 30%;
+}
