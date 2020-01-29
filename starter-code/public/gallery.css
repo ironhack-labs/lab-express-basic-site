@@ -1,0 +1,30 @@
+body {
+  background-image: url("https://www.rentacarpotos.gr/images/whiteTower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#photos {
+  margin-top: 120px;
+  text-align: center;
+}
+img {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
