@@ -1,0 +1,134 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    color:white;
+    background-color: rgb(138, 42, 117);
+    margin: 0;
+  }
+
+  #body-home{
+    background-image: url(/images/background-home.jpg);
+    background-size: cover;
+  }
+  #section-home{
+      display: flex;
+      justify-content: center;
+  }
+  #body-home h1{
+      text-align: center;
+      color:rgb(107, 24, 107);
+      font-weight: 1000;
+  }
+  #body-home p{
+      text-align: center;
+      color: rgb(39, 39, 39);
+      font-size:150%;
+      background-color:rgb(231, 231, 231);
+      width: 100%;
+      opacity: 0.75;
+      
+  }
+
+  #footer-home{
+      margin-top: 5vh;
+      margin-bottom: 10vh;
+      display: flex;
+      justify-content: space-evenly
+  }
+
+  button{
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    background-color:rgb(107, 24, 107);
+    opacity: 0.75;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  #body-about{
+      background-image: url(/images/back-about.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      background-color: black;
+      margin: 0;
+
+  }
+#body-about img{
+    width: 75vw;
+    margin: 0;
+    
+}
+  #body-about section{
+      background-color: black;
+      opacity: 0.75;
+      width: 100%;
+      padding-bottom: 25px;
+  }
+  #body-about h1{
+      font-size: 180%;
+      margin-left: 25px;
+  }
+  #body-about p{
+      font-size: 150%;
+      text-align: justify;
+      margin: 25px;
+      margin-right: 45px;
+  }
+  #body-about button{
+      margin-left: 25px;
+  }
+
+  #body-gallery{
+    background-image: url(/images/back-gallery.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    background-color: black;
+    margin: 0;
+
+}
+
+#body-gallery{
+    display: flex;
+    flex-direction: column;
+}
+#body-gallery h1{
+background-color: rgb(36, 49, 165);
+color:rgb(219, 219, 33);
+padding:0;
+text-align: center;
+font-size: 250%;
+opacity: 0.75;
+}
+
+#body-gallery article{
+background-color: rgb(36, 49, 165);
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0.95;
+width: 280px;
+height: 280px;
+margin: 10px;
+}
+#body-gallery img{
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+}
+
+#body-gallery button{
+    margin:25px;
+}
+
+#body-gallery section, footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-around;
+}
