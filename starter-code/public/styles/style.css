@@ -1,0 +1,10 @@
+body{
+    background-color:#F6F8F6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > img {
+    height: 50%;
+    width: 38%;
+    padding-left: 8%;
+}
