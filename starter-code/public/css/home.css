@@ -1,5 +1,4 @@
 body{
-	background-color: green;
 	overflow-x: hidden
 }
 .container {
@@ -23,7 +22,7 @@ h1{
 	padding: 0;
 	width: 25%;
 	display: inline-block;
-	background-color: #fff;
+	color: gray;
 
 }
 nav{
@@ -31,7 +30,6 @@ nav{
 	width: 40%;
 	height: 7vh;
 	margin-top: 0;
-	background-color: #fff;
 }
 
 nav ul {
@@ -41,23 +39,25 @@ nav ul {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	list-style-type:none;
-	background-color:yellow;
+	margin:0 auto;
 
 
 
 
 }
 nav ul li{
-	width: 20%;
+	width: 32%;
 	height: 100%;
 	padding: 40% auto;
+	margin: auto .3%;
 }
 nav ul li a{
 	height: 100%;
 	width:100%;
+	font-size: 2.3rem;
 	text-decoration: none;
 	text-align: center;
-	background-color: tomato;
+	color: gray;
 }
 canvas{
 }

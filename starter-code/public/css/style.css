@@ -1,0 +1,132 @@
+body{
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 10%; }
+
+canvas {
+  margin: auto;
+  padding: auto;
+  display: block; }
+
+h1{
+	font-size: 4rem;
+	text-align: right;
+	margin:  0 0 0 25%;
+	padding: 0;
+	width: 20%;
+	display: inline-block;
+	color: gray;
+
+}
+nav{
+	display: inline-block;
+	width: 40%;
+	height: 7vh;
+	margin-top: 0;
+}
+
+nav ul {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	list-style-type:none;
+	margin:0 auto;
+
+
+
+
+}
+nav ul li{
+	width: 32%;
+	height: 100%;
+	padding: 40% auto;
+	margin: auto .3%;
+	text-align: center;
+	transition: all .5s; 
+}
+nav ul li a{
+	height: 100%;
+	width:100%;
+	font-size: 2.3rem;
+	text-decoration: none;
+	text-align: center;
+	color: rgba(128,128,128,1);
+	
+}
+nav ul li:hover{
+background-color:rgba(200,200,200,.3);
+}
+
+
+
+
+
+main{
+	box-sizing: border-box;
+	display: flex;
+	margin:10%auto;
+}
+
+section{
+	width: 50%;
+}
+
+
+ #oneDescript>h2{
+	text-align: right;
+	padding: 3%;
+}
+ #oneDescript>p{
+	text-align: justify;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#oneImg>img{
+	width: 70%;
+	height: auto;
+	display: block;
+	margin: 5% auto;
+}
+
+
+
+#oneDescriptAbout{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#oneDescriptAbout>p{
+	width:60%;
+	text-align: center;
+	margin: 0 auto;
+
+}
+#oneDescriptAbout>h2{
+	text-align: center;
+}
+
+#oneImgAbout>img{
+	width: 60%;
+	height: auto;
+	display: block;
+	margin: 5% auto;
+}
+.moreAbout{
+	display: flex;
+}
+
+
+.carrusel{
+	max-height: 70vh;
+	width: 100vw;
+
+}
