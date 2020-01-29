@@ -1,0 +1,63 @@
+body {
+  background-image: url("/images/background-images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg");
+  /* height: 100px; */
+  /* width: 100vw; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(43, 48, 58, 1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav {
+  border: 1px solid rgba(214, 207, 203, 1);
+  border-radius: 1em;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color: rgba(214, 207, 203, 0.75);
+}
+
+.nav-item {
+  padding: 1em 2em;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:hover {
+  background-color: rgba(43, 48, 58, 1);
+  color: white;
+}
+
+.nav-item:hover > a {
+  /* background-color: rgba(43, 48, 58, 1); */
+  color: white;
+}
+
+.gallery-image {
+  width: 30vw;
+  margin: 1em;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 1px solid rgba(214, 207, 203, 1);
+  border-radius: 1em;
+  background-color: rgba(214, 207, 203, 0.75);
+}
+
+.body {
+  border: 1px solid rgba(214, 207, 203, 1);
+  border-radius: 1em;
+  background-color: rgba(214, 207, 203, 0.75);
+  height: 80vh;
+}
