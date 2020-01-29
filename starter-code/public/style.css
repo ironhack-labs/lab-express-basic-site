@@ -1,0 +1,69 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 11pt;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 20px;
+  background-color: indianred;
+  display: flex;
+}
+nav a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 30pt;
+  font-weight: bold;
+  text-align: center;
+}
+.title-about,
+.gallery-title {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dance-types {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.dance-type {
+  width: 30%;
+}
+.dance-type button {
+  width: 100%;
+  height: 40px;
+  border: 2px solid rgb(102, 40, 40);
+  border-radius: 10px;
+  background-color: indianred;
+  font-size: 12pt;
+  color: blanchedalmond;
+}
+
+.about-content {
+  text-align: center;
+}
+.about-content span {
+  color: indianred;
+}
+
+.gallery {
+  text-align: center;
+}
+.gallery img {
+  width: 30%;
+}
