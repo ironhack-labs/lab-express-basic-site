@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: greenyellow;
+  color: white;
+}
+img {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
