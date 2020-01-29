@@ -1,0 +1,12 @@
+
+
+img{
+    width: 450px;
+}
+
+div{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
