@@ -1,0 +1,26 @@
+
+body {
+    background-color:#1C2833;
+    color: #F9E79F;
+    font-family: 'Muli', sans-serif;
+}
+
+p{
+    color: whitesmoke;
+}
+
+a {
+    color: #F9E79F;
+    text-decoration: none;
+}
+
+
+.links{
+    display: inline-block;
+}
+
+#batman{
+    width: 100px;
+    height: 60px;
+}
+
