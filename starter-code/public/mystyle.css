@@ -1,0 +1,20 @@
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  font-size: 4em;
+  color: darkslateblue;
+}
+li {
+  color: chocolate;
+  list-style-type: none;
+}
+#team {
+  margin-top: 50px;
+  width: 500px;
+}

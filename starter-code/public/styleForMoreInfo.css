@@ -1,0 +1,13 @@
+body {
+  background-color: seagreen;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.heading {
+  font-size: 4em;
+}
+.text {
+  font-size: 2em;
+  color: brown;
+  font-family: fantasy;
+}
