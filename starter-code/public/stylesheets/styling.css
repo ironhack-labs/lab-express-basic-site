@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 400px;
+    height: 400px;
+    position: relative;    
+}
+div{
+    justify-content: space-around;
+    display: flex;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #3ead47;
+}
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: absolute;
+    z-index: 100;    
+}
+h1{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+nav {
+  float: left;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #3ead47;
+}
+p{
+    margin: 30px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
