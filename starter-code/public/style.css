@@ -1,0 +1,56 @@
+.home {
+  background-image: url("https://sneakerfreaker-cdn.s3-accelerate.amazonaws.com/image/mamba-day-kobe-bryant-black-and-white-spotlight.jpg?mtime=20200128144311");
+  color: #74b9ff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px;
+}
+
+.about {
+  background-image: url("https://sneakerfreaker-cdn.s3-accelerate.amazonaws.com/image/mamba-day-kobe-bryant-black-and-white-spotlight.jpg?mtime=20200128144311");
+  color: #74b9ff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px;
+}
+
+.gallery {
+  background-color: white;
+  color: #74b9ff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 400px;
+  height: 350px;
+}
