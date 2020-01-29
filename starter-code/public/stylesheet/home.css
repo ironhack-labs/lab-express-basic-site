@@ -1,0 +1,86 @@
+/* Generales */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+
+a{
+    color: #DA0090;
+    text-decoration: none;
+}
+
+/* Barra de Navegacion */
+nav{
+    border-top: 1px solid red;
+    border-bottom: 1px solid greenyellow;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    padding: .5rem 0rem;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+nav a{
+    border: px solid red;
+    padding: .5rem;
+    display: block;
+}
+
+nav a:hover{
+    background-color: black;
+    color:white;
+}
+/* Articulos */
+article{
+    margin: 2rem 0;
+}
+
+article img{
+    float:left;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Pie de Pagina */
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer{
+    border-top: 1px solid rgb(119, 32, 218);
+    margin-top: 4px;
+    padding-bottom: 4rem;
+}
+
+footer p{
+    padding: 1rem 0;
+}
