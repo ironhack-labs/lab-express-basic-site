@@ -1,0 +1,66 @@
+/* colors:
+tea green: #C5EFCB
+rich black: #020402
+smoke: #758173
+laurel green: #A9C5A0
+pastel grey: #C6DEC6 */
+
+body {
+    background-color: #C6DEC6;
+    color: #020402;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+    margin: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20% 20px;
+    box-sizing: border-box;
+}
+
+.nav div {
+    border: 1px solid #020402;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.nav div:hover {
+    background-color: #C5EFCB;
+}
+
+a {
+    text-decoration: none;
+    color: #020402;
+}
+
+.reward {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+#number {
+    color: #758173;
+    font-weight: bold;
+}
+
+#number:hover {
+    color: #020402;
+}
+
+.key {
+    font-weight: bold;
+}
+
+ul {
+    display: inline-block;
+    text-align: justify;
+}
