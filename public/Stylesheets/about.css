@@ -1,0 +1,9 @@
+body{
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: blanchedalmond;
+}
