@@ -9,17 +9,17 @@ app.use(express.static("public"));
 //At the start of our website we will get the root directory. Which is / - the homepage.
 app.get("/", (req, res) => {
   console.log(__dirname);
-  res.sendFile(`${__dirname}/views/home-page.html`);
+  res.sendFile(`${__dirname}/views/home.html`);
 });
 
 //If user selects the About option, it will be redirected to the About page.
-app.get("/views/about.html", (req, res) => {
-  res.sendFile(`${__dirname}/views/cat.html`);
+app.get("/about", (req, res) => {
+  res.sendFile(`${__dirname}/views/about.html`);
 });
 
 //If user selects the Photogallery option in the nav bar, it will be redirected to a gallery.
-app.get("/views/photogallery.html", (req, res) => {
-    res.sendFile(`${__dirname}/views/cat.html`);
+app.get("/photogallery", (req, res) => {
+    res.sendFile(`${__dirname}/views/photogallery.html`);
   });
 
 const PORT = 3000;
