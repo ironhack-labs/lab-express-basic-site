@@ -9,18 +9,15 @@ app.use(express.static("public"));
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
 });
-app.get("/index.html", (request, response) => {
-  response.sendFile(__dirname + "/index.html");
+app.get("/about", (request, response) => {
+  response.sendFile(__dirname + "/views/about.html");
 });
-app.get("/about.html", (request, response) => {
-  response.sendFile(__dirname + "/about.html");
+app.get("/gallery-lindy", (request, response) => {
+  response.sendFile(__dirname + "/views//gallery-lindy.html");
 });
-app.get("/gallery-lindy.html", (request, response) => {
-  response.sendFile(__dirname + "/gallery-lindy.html");
+app.get("/gallery-charleston", (request, response) => {
+  response.sendFile(__dirname + "/views//gallery-charleston.html");
 });
-app.get("/gallery-charleston.html", (request, response) => {
-  response.sendFile(__dirname + "/gallery-charleston.html");
-});
-app.get("/gallery-balboa.html", (request, response) => {
-  response.sendFile(__dirname + "/gallery-balboa.html");
+app.get("/gallery-balboa", (request, response) => {
+  response.sendFile(__dirname + "/views//gallery-balboa.html");
 });
