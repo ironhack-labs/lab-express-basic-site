@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+* {
+    /* border: 1px solid greenyellow; */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url('/assets/john1.png');
+    background-color: whitesmoke;
+    background-size: cover;
+    width: 100vw;
+    height: 750px;
+}
+
+.title {
+    background-image: url('/assets/brush.png');
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.title > p {
+    font-size: 5.5em;
+    color: violet;
+    font-family: 'Sigmar One', cursive;
+}
+
+#anchors {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.anchor {
+    padding: 20px;
+}
+
+.anchor > p {
+    font-size: 2em;
+    font-family: 'Sigmar One', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: slateblue;
+}
+
+a:hover {
+    background-color: pink;
+    padding: 10px 30px;
+}
+
+#photo {
+    width: 600px;
+    height: 300px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-image: url('/assets/brush.png');
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    text-align: center;
+    font-size: 4.5em;
+    color: violet;
+    font-family: 'Sigmar One', cursive;
+}
+
+#about {
+    width: 700px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+}
+
+#gall-container {
+    display: flex;
+    width: 75vw;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
