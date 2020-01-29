@@ -25,3 +25,32 @@ body {
 ul a {
     padding: 10px;
 }
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.paragraph {
+  font-size: 1em;
+  text-align: center;
+  margin: 20px;
+}
+
+.birds img {
+  width: 450px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container div {
+  display: flex; 
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
