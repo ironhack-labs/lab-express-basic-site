@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  text-align: center;
+  font-family: ‘Source Sans Pro’, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  background-color: #abdafe;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+ul a {
+    padding: 10px;
+}
