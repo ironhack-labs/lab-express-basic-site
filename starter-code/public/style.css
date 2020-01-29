@@ -1,0 +1,37 @@
+body{
+    color:blueviolet;
+    margin:0px;
+    text-align: center;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    height: 50px;
+    width:100vw;
+}
+header>a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+img {
+    width: 30vw;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-img{
+    width:35vw;
+    margin-bottom: 0;
+}
+section{
+    display: flex;
+    flex-flow: row wrap; 
+}
