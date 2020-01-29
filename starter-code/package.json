@@ -1,0 +1,22 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo-leGo/lab-express-basic-site.git"
+  },
+  "author": "RicardoLeGo <hola@legoricardo>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo-leGo/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/Ricardo-leGo/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
