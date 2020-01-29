@@ -1,0 +1,42 @@
+body {
+    background-image: url(../images/fondo.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: center;
+    width: 100vw;
+    text-align: center;
+}
+
+body {}
+
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+div {
+    height: 100vh;
+}
+
+.first {
+    margin-top: 12%;
+}
+
+h1 {
+    font-size: 300%;
+    background-color: darkgray;
+}
+
+p {
+    color: ivory;
+    font-size: 150%;
+}
+
+button {
+    background-color: whitesmoke;
+    margin: 2%;
+}
