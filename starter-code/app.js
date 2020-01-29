@@ -5,15 +5,15 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/", (req, res) =>{
-    res.sendFile(`{$__dirname}/views/home.html`);
+    res.sendFile(`${__dirname}/views/home.html`);
 });
 
 app.get("/about", (req, res) =>{
-    res.sendFile(`{$__dirname}/views/about.html`);
+    res.sendFile(`${__dirname}/views/about.html`);
 });
 
 app.get("/gallery", (req, res) =>{
-    res.sendFile(`{$__dirname}/views/gallery.html`);
+    res.sendFile(`${__dirname}/views/gallery.html`);
 });
 
 
