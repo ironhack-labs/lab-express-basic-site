@@ -1,3 +1,47 @@
 body{
-    background: #bada55;
+    background-image: url("/images/mongo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: justify;
+}
+h2{
+    text-align: justify;
+}
+p{
+    font-size: 20px;   
+    text-align: justify;
+}
+
+.galery{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flexbox;
+    flex-direction: column wrap;
+    text-align: center;
+    
+
+}
+
+.welcome{
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+#galery img{
+    width: 250px;
+    height: 350px;
 }
