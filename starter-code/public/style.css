@@ -1,8 +1,13 @@
 body {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Bungee Hairline", Arial, Helvetica, sans-serif;
   background-color: forestgreen;
-  color: white;
+  color: darkblue;
+}
+h1 {
+  text-align: center;
+  font-family: "Bungee Shade", Arial, Helvetica, sans-serif;
+  color: darkblue;
 }
 
 .row {
@@ -13,4 +18,25 @@ body {
 .column {
   flex: 50%;
   padding: 0 4px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: forestgreen;
+}
+
+li a {
+  display: inline;
+  color: darkblue;
+  /* padding: 10px 20px;*/
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+  opacity: 70%;
+  color: black;
 }
