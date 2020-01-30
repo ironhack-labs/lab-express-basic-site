@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding: 15px 25px;
+    /* width: 50vw; */
+}
+
+p {
+    font-size: 2em;
+    padding: 5vw 2vw;
+}
+
+img {
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
