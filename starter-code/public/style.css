@@ -1,0 +1,21 @@
+body {
+  background-color: bisque;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 1 0 24rem;
+  margin: 1rem;
+}
+
+.gallery-image {
+  display: block;
+}
+
+.gallery-image:hover {
+  transform: scale(3.15);
+}
