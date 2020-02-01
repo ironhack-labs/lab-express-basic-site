@@ -1,0 +1,78 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.blank {
+    height: 100px;
+}
+
+
+/* home page */
+
+#homeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#homeBackground {
+    background-image: url('/../images/home-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeBackground>div {
+    text-align: center;
+    color: black;
+}
+
+
+.pageContentPresentation {
+    margin: 10px 10%;
+    text-align: center;
+}
+
+
+
+
+/* about page */
+
+#informationsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.informationsList {
+    color: black;
+    list-style: none;
+    padding-bottom: 3px;
+   margin-left: 0;
+}
+
+#fullPresentation {
+    margin: 10px 30%;
+    text-align: justify;
+}
