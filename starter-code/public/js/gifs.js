@@ -57,48 +57,84 @@ let dataGifs = {
             keywords: ["code", "mad", "trash", "furious"]
         }
     ]
-}
+};
 
-const source = document.getElementById('search_gif');
-const btnGO = document.getElementById('search_button')
-const target = document.getElementById('gifs_list')
-const targetPopup = document.getElementById('popup')
+const source = document.getElementById("search_gif");
+const btnGO = document.getElementById("search_button");
+const target = document.getElementById("gifs_list");
+const targetClose = document.getElementById("popup_close");
 let searchValue;
 
 source.oninput = function () {
     searchValue = source.value;
+    let newArr = [];
+    let resetArr = [];
+    let freshArr = [];
     if (searchValue !== "") {
-        let freshArray = [...dataGifs.gifs]
-        let newArr = []
-        freshArray.forEach(element => {
-            // element.keywords.forEach(keyword => {
-            //     if (keyword.includes(searchValue)) {
-            //         let index = newArr.findIndex(x => x.keywords.includes(searchValue))
-            //         console.log(index)
-            //         if (index === -1) newArr.push(element)
-            //     }
-            // })
-            if (element.keywords.includes(searchValue)) newArr.push(element)
-        })
+        freshArr = [...dataGifs.gifs];
+        freshArr.forEach(element => {
+            element.keywords.forEach(keyword => {
+                if (keyword.startsWith(searchValue) && newArr.indexOf(element) === -1) {
+                    newArr.push(element)
+                }
+            })
+        });
         target.innerHTML = ``;
         newArr.forEach(element => {
-            target.innerHTML += `<div class="gif"><img src="${element.link}"/></div>`
-        })
+            target.innerHTML += `<div class="gif"><img src="${element.link}"/></div>`;
+        });
+        popupClick()
     } else {
-        let resetArr = [...dataGifs.gifs]
+        target.innerHTML = ``;
+        resetArr = [...dataGifs.gifs];
         resetArr.forEach(element => {
-            target.innerHTML += `<div class="gif"><img src="${element.link}"/></div>`
-        })
+            target.innerHTML += `<div class="gif"><img src="${element.link}"/></div>`;
+        });
+        popupClick()
     }
+};
+
+
+const targetBody = document.querySelector('body');
+const targetPopup = document.getElementById("popup");
+const targetPopupContent = document.getElementById("popup_content");
+const targetLayout = document.getElementById('layout');
+const targetCopy = document.getElementById('copy_link');
+const targetSave = document.getElementById('save_gif');
+
+function hideThis(target) {
+    target.classList.add('hide')
+    target.classList.remove('show')
 }
 
-let newTarget = target.querySelectorAll('.gif');
+function showThis(target) {
+    target.classList.add('show')
+    target.classList.remove('hide')
+}
 
-newTarget.forEach(element => {
-    element.onmouseenter = function () {
-        element.onclick = function () {
-            targetPopup.innerHTML = element
-            // Actually creating a popup
-        }
-    }
-})
+function popupClick() {
+    let newTarget = target.querySelectorAll(".gif");
+    newTarget.forEach(element => {
+        element.onmouseenter = function () {
+            element.onclick = function () {
+                showThis(targetLayout)
+                showThis(targetPopup)
+                targetBody.classList.add('nooverflow');
+                targetPopupContent.innerHTML = `<img src="${element.querySelector('img').src}">`
+            };
+        };
+    });
+}
+popupClick()
+
+targetClose.onclick = function () {
+    targetBody.classList.remove('nooverflow');
+    hideThis(targetLayout);
+    hideThis(targetPopup);
+}
+targetCopy.onclick = function () {
+    let targetImgLink = targetPopupContent.querySelector('img').src;
+    targetPopup.querySelector('#popup_actions').innerHTML += `<input type="text" value="${targetImgLink}"><p class="green">Link copied !</p>`;
+    targetPopup.querySelector('#popup_actions input').select();
+    document.execCommand("copy");
+}

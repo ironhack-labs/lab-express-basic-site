@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Find the best code meme</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     {{#each js}}
     <script type="module" src="/js/{{this}}.js"></script>
@@ -14,6 +15,15 @@
 </head>
 
 <body>
+
+    <div id="popup">
+        <div id="popup_close">X</div>
+        <div id="popup_content"></div>
+        <div id="popup_actions">
+            <button id="copy_link">Copy</button>
+        </div>
+    </div>
+    <div id="layout"></div>
     <header class="flex">
         <div class="wrap flex">{{> titleLogo}}
             <nav class="flex">

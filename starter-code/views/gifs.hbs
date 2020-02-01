@@ -1,9 +1,6 @@
-<form method="post" action="" id="search_bar">
-    <input type="text" id="search_gif" />
-    <input type="submit" id="search_button" value="GO" />
-</form>
+<input type="text" id="search_gif" placeholder="Cat..." />
+
 <div id="gifs_list">
-    <div id="popup"></div>
     {{#each gifs}}
     <div class="gif"><img src="{{this.link}}" alt="{{this.description}}" /></div>
     {{/each}}

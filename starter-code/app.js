@@ -40,5 +40,5 @@ server.get("/gifs", (req, res) => {
   res.render("gifs", dataGifs);
 });
 server.listen(PORT, () => {
-  //console.log(`Yata ! server is running @ http://localhost:${PORT}`);
+  console.log(`Yata ! server is running @ http://localhost:${PORT}`);
 });
