@@ -1,0 +1,30 @@
+<div class="container">
+    <div id="session-best-recipe">
+        <h1>The most viewed recipe</h1>
+        <a href="#"><div id="jumbotron"><div id="jumbotron-title">The Classic Burger</div></div></a>  
+    </div>
+</div>
+
+<div id="session-all-recipe">
+    <div class="container">
+        <h2 id="last-recipes">Last recipes</h2>
+        <div class="box-recipes">
+            {{#each recipes}}
+            <a href="#"><div class="box">
+                <div class="box-img">
+                    <img src="{{img}}">
+                </div>
+
+                <div class="box-title">
+                    {{title}}
+                </div>
+            </div>
+            {{/each}}
+            </a>
+        </div>
+    <button type="button" id="btn-more">See more</button>
+    </div>
+</div>
+
+
+

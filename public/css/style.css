@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/** navbar */
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1280px;
+}
+.menubar {
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #00752C
+}
+
+#logo {
+    font-size: 30px;
+    color: white;
+}
+
+nav { 
+    justify-content: flex-end;
+    display: flex; 
+    width: 80%;
+}
+
+ul {
+    justify-content: flex-end;
+    display: flex;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+#welcome {
+    width: 15%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#jumbotron {
+    background-image: url('../img/burger.jpeg');
+    background-size: cover;
+    height: 600px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#jumbotron-title {
+    padding: 50px 50px;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    font-size: 50px
+}
+
+#session-best-recipe {
+    display: flex;
+    flex-direction: column;
+}
+
+#last-recipes {
+    font-size: 30px;
+    
+}
+
+#session-all-recipe {
+    background-color: #FAFAFA;
+}
+
+#session-all-recipe > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-recipes {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    height: 380px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-img img{
+    height: 300px;
+    width: 100%;
+    max-width: 400px;   
+    box-shadow: 0.5px 0.5px
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #00752C
+}
+
+#btn-more {
+    background-color: #00752C;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 25px 60px;
+    color: white;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    font-size: 20px;
+    background-color: #003300
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 81%
+}
+
+/*about sessions*/
+
+.session-about{
+    display: flex;
+    flex-direction: column;
+}
+
+#title-about {
+    display:flex;
+    flex-direction: column;
+    text-justify: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+#my-photo {
+    background-image: url('../img/gordon.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+}
+#box-galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#box-galery img {
+    height: 230px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0.5px 0.5px   
+}
+
+.wrapper-recipe {
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.galery > h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
