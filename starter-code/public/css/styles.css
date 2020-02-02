@@ -11,7 +11,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+
     font-family:  Paper Daisy DEMO ;
 }
 
@@ -39,6 +39,13 @@ h1{
    
 }
 
+#pellicule{
+    font-family: NegativeFilm ;
+    font-size: 4em;
+  
+}
+
+
 #menu{
     display: flex;
     position: fixed;
@@ -47,6 +54,8 @@ h1{
     background-color: rgba(253, 253, 253, 0.39);
     width: fit-content;
     text-decoration: none;
+    border-radius: 10%;
+    
 }
 
 
@@ -71,6 +80,7 @@ footer{
     height: 60px;
     background-color: bisque;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #lacanau{
@@ -180,14 +190,47 @@ footer{
     margin-left: 5px;
   }
 
-  img{
+  .photoHome{
     width: 311px;
     height: 194px;
+    animation-duration: 5s;
+    animation-name:  slideInUp ;
+
+ 
+ 
+      
+  }
+
+.photosg{
+    width: 311px;
+    height: 194px;
+   
+}
+
+  .photosg:active{
+      position: fixed;
+      width: 622px;
+      height: 388px;
+      border: white solid 30px;
+
+  }
+
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   #photoMoi{
-      width: auto;
-      height: auto;
+      width: 200px;
+      height: 300px;
       border-radius: 10px;
   }
 
