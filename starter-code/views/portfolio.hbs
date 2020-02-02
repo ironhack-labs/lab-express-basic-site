@@ -1,0 +1,15 @@
+
+<div id="portfolio" class="flex column">
+    {{#each data}}
+    <div>
+        <p>{{this.title}}</p>
+        {{#if url}}
+        <a href="{{this.url}}">
+            {{/if}}
+            <img src="{{this.image}}" alt="image of my {{this.title}}'s page'">
+            {{#if url}}
+        </a>
+        {{/if}}
+    </div>
+    {{/each}}
+</div>
