@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+/* NAVBAR */
+
+#navbar-main ul {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #5F9EA0;
+    align-items: center;
+}
+
+#navbar-main ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+}
+
+#navbar-main ul li a:hover {
+    color: #008B8B;
+}
+
+/* home page */
+
+#intro-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#intro-container h2{
+    color: #ED6A5A;
+}
+
+#home {
+    background-image: url("../img/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 70%;
+}
+
+/* ABOUT ME */
+
+#pics {
+    display: flex;
+    justify-content: center;
+}
+
+#pics img{
+    margin-top: 5vh;
+    width: 25vh;
+    height: 25vh;
+}
+
+#name{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#text-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+#text-container div h2{
+    margin-bottom: 3vh;
+}
+
+#background{
+    border: 2px solid #5F9EA0;
+    border-radius: 20px;
+    color: #ED6A5A;
+    float: left;
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+}
+
+#training{
+    border: 2px solid #5F9EA0;
+    color: #ED6A5A;
+    border-radius: 20px;
+    float: right;
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* PHOTO GALLERY */
+
+.pics-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.pics-container img{
+    min-width: 20%;
+    min-height: 20%;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 25px;
+    vertical-align: baseline;
+}
