@@ -1,11 +1,14 @@
 
-
-    <h1>Some pics !</h1>
-  <div class="listphoto" >
+    <div id="photoslocations">
+    <a  href="photogallery/Oman" class="pagelink">Oman</a> 
+    <a href="photogallery/Niger" class="pagelink">Niger</a>
+    <a href="photogallery/Copenhague" class="pagelink">Copenhague</a>  
+    <a href="photogallery/Bresil" class="pagelink">Bresil</a>  
+    </div>           
+    <div class="listphoto" >
     {{#each data}}
-    <img src="{{this.img}}"  alt="oups">
+    <img class="photos" src="{{this.img}}"  alt="oups">
       {{/each}}
-
       </div>
 
 

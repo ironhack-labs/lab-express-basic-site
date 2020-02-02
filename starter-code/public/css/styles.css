@@ -1,29 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@font-face {
+    font-family: 'paper_daisy_demoregular';
+    src: url('/starter-code/public/css/font/paperdaisy-demo-webfont.woff2') format('woff2'),
+         url('/starter-code/public/css/font/paperdaisy-demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins' ;
+    font-family:  Paper Daisy DEMO ;
 }
 
 h1{
     color: black;
+    font-size: 4em;
 }
 
-header{
+
+
+/* header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 60px;
     background-color: bisque;
+    text-decoration: none;
+    color : black;
+} */
+
+#titre{
+     font-family: Paper Daisy DEMO;
+     font-size: 4em;
    
 }
 
 #menu{
     display: flex;
+    position: fixed;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    background-color: rgba(253, 253, 253, 0.39);
+    width: fit-content;
+    text-decoration: none;
 }
 
 
@@ -35,7 +58,12 @@ header{
 
 .pagelink{
     margin: 10px;
-}
+    text-decoration: none;
+    color: black;
+    opacity: 100%;
+    font-family: Paper Daisy DEMO;
+    font-size: 2em;
+} 
 
 footer{
     display: flex;
@@ -77,20 +105,20 @@ footer{
     width: 582px;
     height: auto;
     margin-left: 50%;
-    margin-top: -10%
+    margin-top: -3%
 }
 #rio{
     width: 582px;
     height: auto;
     margin-right: 50%;
-    margin-top: -10%  
+    margin-top: -3%  
 }
 
 #nigercar{
     width: 582px;
     height: auto;
     margin-left: 50%;
-    margin-top: -10% 
+    margin-top: -3% 
 }
 
 #section1{
@@ -119,6 +147,15 @@ footer{
 
 }
 
+#aboutMe{
+    margin-top: 30px;
+}
+
+#why{
+    margin-bottom: 20px;
+    font-size: 3em;
+    
+}
 .greySquare{
     width: 300px;
     height: 100px;
@@ -127,6 +164,14 @@ footer{
     box-shadow:  5px 5px black
 }
 
+.advantage{
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.arguments{
+    font-size: 2em;
+}
 
 .listphoto{  
     display: grid;
@@ -142,6 +187,7 @@ footer{
   #photoMoi{
       width: auto;
       height: auto;
+      border-radius: 10px;
   }
 
   #about{
@@ -153,4 +199,25 @@ footer{
 
   #bio{
       margin-left: 20px;
+      font-size: 2em;
+  }
+
+  #somePic{
+      margin-top: 20px;
+      margin-left: 43%;
+      margin-bottom:30px
+  }
+
+  #photos{
+      margin: 5px;
+  }
+
+  #photoslocations{
+      margin-top: 60px;
+      margin-left: 38%;
+      margin-bottom: 40px ;
+  }
+
+  #olympus{
+      border-radius: 50px;
   }
