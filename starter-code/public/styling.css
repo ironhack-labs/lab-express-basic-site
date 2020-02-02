@@ -1,0 +1,40 @@
+
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+ 
+section nav {
+	background:#3498db;
+	margin-bottom:10px;
+}
+ 
+section nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+section nav ul li {
+	float: left;
+}
+ 
+section nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+section nav ul li a:hover {
+	background:#2980b9;
+}
+
+img{
+    widows: 400px;
+    height: 600px;
+}
