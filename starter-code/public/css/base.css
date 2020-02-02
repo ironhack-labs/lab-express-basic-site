@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.content-area {
+    height: 90vh;
+    background-color: rgb(252, 252, 248);
+}
+
+/* NAV BAR */
+
+#nav-bar {
+    position: fixed;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: initial;
+    height: 50px;
+    background-color: #FCFCF8;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    text-align: center;
+    color:rgb(230, 17, 77);
+    font-weight: bolder;
+}
+
+#nav-bar div {
+    height: 140px;
+    background-color: transparent;
+}
+
+#nav-bar img {
+    height: 100%;
+    background-color:rgb(252, 252, 248, 0.75);
+}
+
+.textNav {
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+.brands {
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 0 2px;
+    background-color:rgb(252, 252, 248);
+}
+
+.brands img {
+    height: 50px;
+}
+
+.footer-home {
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    width: 100vw;
+    padding:30px 0;
+    color:rgb(252, 252, 248);
+    font-weight: lighter;
+    background-color:rgb(172, 48, 83);
+    box-shadow: 0 -3px 10px rgb(117, 113, 114);
+}
+
+/* HOME */
+
+.home-page {
+    background-image: url("/assets/img/vitrina9.jpg");
+    /* background-image: url("/assets/img/vitrina\ 5.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+    color: rgb(252, 252, 248);
+    text-shadow: rgb(65, 62, 63) 3px 0 3px;
+}
+
+/* PRODUCTS PAGE */
+
+.productos-page {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 50px 0 50px;
+}
+
+.productos-title {
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products-container div{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 90px;
+    color:rgb(252, 252, 248);
+    font-size: 30px;
+    box-shadow: 0 3px 10px rgb(117, 113, 114);
+    text-shadow: rgb(65, 62, 63) 3px 0 3px;;
+    /* text-shadow: 20px 5px 20px rgb(90, 87, 88); */
+}
+
+.products-container a {
+    background-color: rgb(252, 252, 248, 0.8);
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 15px;
+    color: rgb(117, 113, 114);
+    font-weight: lighter;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(117, 113, 114);
+    padding: 6px
+}
+
+.pContainerOne {
+    background-image: url("/assets/img/vitrina8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pContainerTwo {
+    background-image: url("/assets/img/vitrina10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pContainerThree {
+    background-image: url("/assets/img/vitrina11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pContainerFour {
+    background-image: url("/assets/img/vitrina12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* CONTACT PAGE */
+
+.contact-page {
+    padding: 150px 0px 0 0px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    line-height: 30px;
+}
+
+.contact-form input {
+    max-width: 290px;
+}
+
+.contact-form button {
+    margin-top: 30px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(172, 48, 83);
+    color: rgb(252, 252, 248);
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgb(117, 113, 114);
+}
+
+.social-netw {
+    text-align: center;
+}
+
+.social-netw img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 30px;
+}
