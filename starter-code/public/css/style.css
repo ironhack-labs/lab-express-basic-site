@@ -1,0 +1,13 @@
+body {
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.page {
+    background: url("../images/ih.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
