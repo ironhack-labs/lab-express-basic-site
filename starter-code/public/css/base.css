@@ -177,7 +177,12 @@
 }
 
 .contact-form input {
-    max-width: 290px;
+    width: 290px;
+    border: 1px solid rgb(117, 113, 114); 
+}
+
+.contact-form textarea {
+    border: 1px solid rgb(117, 113, 114); 
 }
 
 .contact-form button {
