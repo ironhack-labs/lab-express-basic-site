@@ -1,0 +1,144 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: black
+}
+
+#main {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#nav-main {
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 30px 10px 30px;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.home {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#job {
+    width: 15%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 30px 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page {
+    width: 1220px;
+    height: 1000px;
+    margin: 0 30px 30px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 50px 20px 10px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.element-title {
+    color: black;
+    background-color: black;
+    height: 1px;
+    margin: 0 560px 40px 560px;
+}
+
+#contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+
+#contact-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 50%;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    color: #696969;
+}
+
+.text-area {
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    color: #696969;
+}
+
+#form-btn {
+    width: 25%;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 30px;
+    color: #696969;
+    background-color: lightgray;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 250px;
+    height: 300px;
+    margin: 20px 30px 60px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project:hover {
+    
+}
+
+
+.test-1 {
+    background-image: url("../images/test.jpg");
+}
