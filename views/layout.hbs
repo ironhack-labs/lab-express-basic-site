@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {{#each css}}
+            <link rel="stylesheet" href="./css/{{this}}" type="text/css" />
+        {{/each}}
+        {{#each js}}
+            <script type="module" src="./js/{{this}}"></script>
+        {{/each}}
+    </head>
+    <body>
+    <div id="container">
+        <div id="top">
+            <header>
+                <div class="subheader">
+                    <div class="titre_generique"><a href="/">thissite.fr</a></div>
+                </div>
+            </header>
+            <nav id="mainnav" class="mainnav_descend">
+                <ul style="display: inline-block">
+                    <li><a href="/" target="blank">HOME</a></li>
+                    <li><a href="/atom" target="blank">ATOMISATION</a></li>
+                    <li><a href="/contact"  target="blank">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="content">
+            {{{ body }}}
+        </section>
+    </div>
+    </body>
+</html>
