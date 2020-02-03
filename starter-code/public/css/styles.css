@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 20px 0;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.main-nav ul li {
+    margin-right: 2rem;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+ul.cocktails.list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, auto);
+    list-style: none;
+}
+
+li.cocktail.item img {
+    width: 100%;
+}
