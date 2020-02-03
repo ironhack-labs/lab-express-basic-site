@@ -1,0 +1,13 @@
+
+<h1 id="title1">{{title}}</h1>
+<div id="pictureHolder">
+    {{#each pictures}}
+        <div>
+            <img class="picture" src='/img/{{this.url}}' >
+            <p class="caption">{{this.caption}}</p>
+        </div>
+
+        {{!-- this.title, this.caption, etc --}}
+    {{/each}}
+</div>
+

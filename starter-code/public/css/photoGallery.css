@@ -1,0 +1,33 @@
+.class {
+    width: 40%;
+    height: 20%;
+}
+
+#pictureHolder {
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkgray;
+}
+
+.picture {
+    width: 40%;
+    height: 20%;
+    margin: 10vh;
+}
+
+#title1 {
+    border: 3px solid orange;
+    height: 10vh;
+    width: 100%;
+}
+
+/* .rotated {
+    transform: rotate(90deg); 
+  } */
+
+.caption {
+    margin-top: -80px;
+    margin-left: 100px;
+}
