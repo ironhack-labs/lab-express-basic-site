@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+}
+.backgroud {
+    height: 100vh;
+    background: cover no repeat;
+    position: relative;
+
+}
+
+.img {
+    padding-top: 20px;
+    height: 500px;
+    width:500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:yellow;
+    height: 8vh;
+}
+
+.nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    height: 5px;
+    background-color: yellow;
+    text-align: end;
+    color: purple;
+}
+
+.session-about{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+#title-about {
+    display:flex;
+    flex-direction: column;
+    text-justify: auto;
+    color :purple;
+}
+
+
+p {
+    text-align: justify;
+    color: purple;
+    background-color: yellow;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+}
+#box-galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column,
+    
+}
+
+#box-galery .img-kb {
+    margin-top: 25px;
+   max-width: 500px;
+   
+}
+
+.img-kobe {
+    padding-bottom: 25px;
+}
+
+.photos {
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
