@@ -1,0 +1,393 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Express</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <style>
+        body {
+            color: black;
+        }
+
+        .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        a {
+            color: rgb(78, 10, 10)
+        }
+
+        .synopsis {
+            font-size: 18px;
+            margin: 20px, 300px;
+        }
+
+        .popup .popuptext {
+            visibility: hidden;
+            width: 260px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -80px;
+        }
+
+        .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/photos">Go to the gallery</a>
+        <a href="/about">Go to the about page</a>
+    </nav>
+    <h1>Welcome Ironhacker. </h1>
+    <p>
+        Lectura recomendada para cuando te sobra tiempo durante un bootcamp..😐
+    </p>
+
+
+    <div class="popup" onclick="myFunction()">Click me!..mejor no, que no funciono
+        <span class="popuptext" id="myPopup">eyy soy un popup</span>
+    </div>
+    <ul class="books">
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/cuchillo-harry-hole-12_978-84-17511-02-9">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788417/978841751102.gif"
+                            width="100" height="150" alt="Cuchillo (Harry Hole 12)" title="Cuchillo (Harry Hole 12)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/cuchillo-harry-hole-12_978-84-17511-02-9">Cuchillo (Harry Hole 12)</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">Las cosas no le van nada bien a Harry Hole. La única
+                        mujer
+                        a la que ha logrado amar, Rakel, lo ha echado de su vida. Ha sido readmitido en la policía de
+                        Oslo,
+                        sí, pero en un departamento infecto, lejos de los c...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">RESERVOIR BOOKS&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-17511-02-9&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 19.90&#8364; (19.13&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/cuchillo-harry-hole-12_978-84-17511-02-9" a>
+                    <p class="availability">244 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/el-heredero_978-84-663-4799-0">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634799.gif"
+                            width="100" height="150" alt="El heredero" title="El heredero" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/el-heredero_978-84-663-4799-0">El heredero</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">Una violenta historia de venganza ambientada en ambientes carcelarios y los
+                        bajos
+                        fondos de Oslo. Jo Nesbø aparca su aclamada serie «Harry Hole» para ofrecernos su mejor novela
+                        independiente hasta la fecha. Media vida en la cárcel La ca...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4799-0&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/el-heredero_978-84-663-4799-0"></a>
+                <p class="availability">156 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/macbeth_978-84-663-4966-6">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634966.gif"
+                            width="100" height="150" alt="Macbeth" title="Macbeth" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/macbeth_978-84-663-4966-6">Macbeth</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">La nueva novela de «El rey de todos los escritores de thriller» (The Sunday
+                        Express), con 40 millones de lectores y uno de los libros notables del año según The New York
+                        Times: «Cuando Macbeth encontró a Harry Hole.» (El Mundo) Selecci...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4966-6&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/macbeth_978-84-663-4966-6"></a>
+                <p class="availability">148 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/la-sed-harry-hole-11_978-84-663-4604-7">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634604.gif"
+                            width="100" height="150" alt="La sed (Harry Hole 11)" title="La sed (Harry Hole 11)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/la-sed-harry-hole-11_978-84-663-4604-7">La sed (Harry Hole 11)</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">La esperada nueva novela de Harry Hole, un caso inquietante en el que Jo Nesbø
+                        profundiza en la oscuridad del ser humano. Hay un nuevo criminal en la calle. Cuando aparece el
+                        cadáver de una mujer, asesinada tras una cita concertada en ...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4604-7&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/la-sed-harry-hole-11_978-84-663-4604-7"></a>
+                <p class="availability">102 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/el-muneco-de-nieve-harry-hole-7_978-84-663-4400-5">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634400.gif"
+                            width="100" height="150" alt="El muñeco de nieve (Harry Hole 7)"
+                            title="El muñeco de nieve (Harry Hole 7)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/el-muneco-de-nieve-harry-hole-7_978-84-663-4400-5">El muñeco de nieve (Harry
+                            Hole
+                            7)</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">El muñeco de nieve, séptima entrega de la serie de novela negra noruega
+                        protagonizada por el atormentado detective Harry Hole, es un combate cara a cara con el mal
+                        absoluto. La primera nevada cae en noviembre este año en Oslo. La mañan...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4400-5&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/el-muneco-de-nieve-harry-hole-7_978-84-663-4400-5"></a>
+
+                <p class="availability">93 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/el-murcielago-harry-hole-1_978-84-663-2978-1">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846632978.gif"
+                            width="100" height="150" alt="El murciélago (Harry Hole 1)"
+                            title="El murciélago (Harry Hole 1)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/el-murcielago-harry-hole-1_978-84-663-2978-1">El murciélago (Harry Hole 1)</a>
+                    </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">El primer caso del detective Harry Hole. Mejor Novela Negra Extranjera 2014
+                        según
+                        los lectores de El País.Jo Nesbø, omnipresente en las listas de más vendidos (RTVE). Harry Hole
+                        es
+                        enviado a Sydney desde Oslo para que investigue el ases...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-2978-1&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/el-murcielago-harry-hole-1_978-84-663-2978-1"></a>
+                <p class="availability">86 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/el-heredero_978-84-16195-89-3">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788416/978841619589.gif"
+                            width="100" height="150" alt="El heredero" title="El heredero" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/el-heredero_978-84-16195-89-3">El heredero</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">Una violenta historia de venganza ambientada en ambientes carcelarios y los
+                        bajos
+                        fondos de Oslo. Jo Nesbø aparca su aclamada serie «Harry Hole» para ofrecernos su mejor novela
+                        independiente hasta la fecha. Media vida en la cárcel La ca...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">RESERVOIR BOOKS&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-16195-89-3&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 19.90&#8364; (19.13&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/el-heredero_978-84-16195-89-3"></a>
+                <p class="availability">85 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/petirrojo-harry-hole-3_978-84-663-4203-2">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634203.gif"
+                            width="100" height="150" alt="Petirrojo (Harry Hole 3)" title="Petirrojo (Harry Hole 3)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/petirrojo-harry-hole-3_978-84-663-4203-2">Petirrojo (Harry Hole 3)</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">El ambiguo papel de Noruega durante la Segunda Guerra Mundial, asesinatos y
+                        ajustes
+                        de cuentas son los ingredientes que ha empleado Jo Nesbø para crear Petirrojo, tercera novela
+                        protagonizada por el detective Harry Hole, uno de los mej...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4203-2&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/petirrojo-harry-hole-3_978-84-663-4203-2"></a>
+                <p class="availability">83 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/el-redentor-harry-hole-6_978-84-663-4388-6">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634388.gif"
+                            width="100" height="150" alt="El redentor (Harry Hole 6)"
+                            title="El redentor (Harry Hole 6)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/el-redentor-harry-hole-6_978-84-663-4388-6">El redentor (Harry Hole 6)</a>
+                    </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">La sexta entrega de la serie de novela negra noruega por excelencia, «Harry
+                        Hole»,
+                        es un descenso a los infiernos de la venganza, la religión y la guerra. Es una gélida noche de
+                        diciembre y la ciudad se llena de paseantes, cargados con...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4388-6&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/el-redentor-harry-hole-6_978-84-663-4388-6"></a>
+                <p class="availability">78 librerías</p>
+            </div>
+        </li>
+        <li class="row-fluid">
+            <div class="book-basics">
+                <div class="image">
+                    <a href="/libros/policia-harry-hole-10_978-84-663-4401-2">
+                        <img class="portada" src="https://static.cegal.es/imagenes/marcadas/9788466/978846634401.gif"
+                            width="100" height="150" alt="Policía (Harry Hole 10)" title="Policía (Harry Hole 10)" />
+                    </a>
+                </div>
+                <div class="details">
+                    <h2>
+                        <a href="/libros/policia-harry-hole-10_978-84-663-4401-2">Policía (Harry Hole 10)</a> </h2>
+                    <h3 class="author"><a href="/autor/nesbo-jo">Nesbo, Jo</a></h3>
+                    <p class="synopsis">La décima novela de la serie de los thrillers más bestias del momento desvela
+                        qué
+                        ocurrió con el protagonista tras el traumático clímax de Fantasma, el libro anterior. ¿Ha vuelto
+                        Harry Hole? LA POLICÍA NECESITA URGENTEMENTE A HARRY HOLE...</p>
+                    <dl>
+                        <dt>Editorial</dt>
+                        <dd class="publisher">DEBOLSILLO&nbsp;&nbsp;/</dd>
+                        <dt>ISBN</dt>
+                        <dd class="ISBN">978-84-663-4401-2&nbsp;&nbsp;/</dd>
+                        <dt>Precio:</dt>
+                        <dd class="price">Precio: 9.95&#8364; (9.57&#8364; sin IVA)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="book-location">
+                <a href="/libros/policia-harry-hole-10_978-84-663-4401-2"></a> </a>
+                <p class="availability">77 librerías</p>
+            </div>
+        </li>
+    </ul>
+
+
+</body>
+
+</html>

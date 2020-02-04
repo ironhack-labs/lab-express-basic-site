@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cat</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <style>
+        body {
+            display: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: black;
+            display: flex;
+            justify-content: left;
+        }
+
+        div {
+            background-color: black;
+            padding: 20px;
+            margin-top: 20px;
+            margin-right: 625px;
+        }
+
+        ul>li {
+            color: yellow;
+
+        }
+
+        .li {
+            color: yellow;
+            text-decoration: none;
+
+        }
+
+        .fadeInAndOut {
+            width: 800px;
+            height: 400px;
+            -webkit-animation: fadeinout 4s linear forwards;
+            animation: fadeinout 4s linear forwards;
+        }
+
+        @-webkit-keyframes fadeinout {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeinout {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+
+
+
+
+
+<body>
+
+    <h1>This is the about page</h1>
+    <img class="fadeInAndOut" src="/images/error.gif" width=800px alt="error" />
+    <div>
+        <ul>
+            <li><a class="li" href="/photos">Go to the gallery</a></li>
+            <li><a class="li" href="/">Go to home page</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
