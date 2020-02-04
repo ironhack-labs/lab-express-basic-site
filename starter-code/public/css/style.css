@@ -1,0 +1,53 @@
+body {
+    max-width: 700px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    margin: 0px auto;
+    /* margin: 40px 0; */
+}
+
+.fondo1 {
+    background-image: url("/img/fondo1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+}
+
+.experience {
+    color: red;
+    font-size: 7em;
+}
+
+.btnAbout {
+    color: blanchedalmond;
+    font-size: 1.5em;
+}
+
+.fondo2 {
+    background-image: url(/img/fondo2.jpeg);
+    color: lightgray;
+    margin: 20% auto;
+    font-size: 22px;
+}
+
+.btnFotos {
+    color: darkred;
+    font-weight: bold;
+}
+
+.fondo3 {
+    background-image: url(/img/fondo3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.btnHome {
+    color: tomato;
+}
