@@ -1,0 +1,80 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(23, 27, 39);
+  margin: 0px;
+  padding: 0px 20px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li {
+  padding: 20px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+#home-h {
+  margin-top: 0;
+  background-image: url("https://lapublicidad.net/wp-content/uploads/2018/05/Adidas_Ironhack.jpg");
+  width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 15px 30px 15px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #999999;
+}
+
+#home-h h2 {
+  font-size: 50px;
+}
+
+#home-h h3 {
+  font-size: 25px;
+}
+
+#about_f {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(34, 39, 60);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+#about_f h3 {
+  padding: 30px;
+}
+#gallery img {
+  width: 75vw;
+  height: 200px;
+  object-fit: cover;
+}
+#gallery div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  font-size: 30px;
+  text-align: center;
+}
