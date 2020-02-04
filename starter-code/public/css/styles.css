@@ -1,0 +1,25 @@
+body {
+    max-width: 500px;
+    height: 600px;
+    margin: 20px auto;
+    font-weight: 100;
+    font-family: sans-serif;
+    background-color: black;
+    color: gold;
+
+}
+
+#homebody {
+    background-image: url("../img/snake.jpeg");
+}
+
+br {
+    margin: 30px;
+}
+
+img {
+    width: 100%;
+    display: flex;
+align-items: center;
+
+}
