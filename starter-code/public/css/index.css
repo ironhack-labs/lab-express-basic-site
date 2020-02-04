@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',
+    sans-serif;
+}
+@font-face {
+    font-family: "BatmanForeverAlternate";
+    src: url("../fonts/batmfa.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/batmfa.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/batmfa.otf") format("opentype"),
+        /* Open Type Font */
+        url("../fonts/batmfa.svg") format("svg"),
+        /* Legacy iOS */
+        url("../fonts/batmfa.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("../fonts/batmfa.woff") format("woff"),
+        /* Modern Browsers */
+        url("../fonts/batmfa.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1, p {
+    background-color:rgba(245, 241, 241, 0.44);
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 4em;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'BatmanForeverAlternate';
+}
+
+body{
+    background-image: url('https://w.wallhaven.cc/full/nr/wallhaven-nrd9gq.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+}
+
+#home{
+        padding-top: 110px;
+
+}
+
+img {
+    background-position-x: 0;
+    background-position-y: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: gold;
+}
+#carouselExampleControls{
+    position: relative;
+}
