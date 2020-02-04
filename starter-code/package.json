@@ -1,0 +1,14 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "lab excersice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Marrero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
