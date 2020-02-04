@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome Ironhacker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="/images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+            </ul>
+        </header>
+
+    <div class="container">
+        <div class="row">
+            <a href="images/franky.jpg" data-toggle="lightbox" data-gallery="gallery"
+                class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery"
+                class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery"
+                class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery"
+                class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery"
+                class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery"
+                class="col-md-4">
+                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+            </a>
+        </div>
+    </div>
+    
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="col-3">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Newsletter</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+        });
+    </script>
+</body>
+</html>
