@@ -1,0 +1,112 @@
+body{
+	
+	font-family:"Open Sans" , Sans-serif;
+	font-size: 18px;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+}
+header{
+	background: url("https://image.freepik.com/vector-gratis/fondo-colores-pastel-poli_53876-62609.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+   background-size: cover;
+}
+
+header .menu {
+	margin: 40px 0;
+	text-align: right;
+	
+}
+
+.menu a {
+	margin: 0 20px;
+	color:#fff;
+	padding-bottom: 10px;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	font-size:1em;
+}
+
+header .menu a:hover {
+	border-bottom:2px solid #fff;
+}
+
+.main .contenedor {
+	overflow: visible;
+}
+
+.main .acerca-de {
+	text-align: center;
+}
+
+.main .acerca-de .foto {
+	margin-top: -70px;
+}
+
+.main .acerca-de .foto img {
+  width::200px;
+  height:120px;
+	vertical-align: top;
+	border-radius: 50%;
+	border:5px solid rgba(255,255,255,0.2);
+}
+
+.news .one, .number{
+   font-size:70px;
+   font-family: 'Sigmar One', cursive;
+   backgroud:#000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer{
+	height:90px;
+	background:#623CEA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boton{
+	padding: 10px 20px;
+	border-radius: 10px;
+	background: #fff;
+	
+}
+.copy{
+	display: block;
+	color:#fff;
+}
+
+.newTwo .two{
+    font-size:50px;
+    font-family: 'Sigmar One', cursive;
+    backgroud:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newThree{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	margin: 0 30px;
+}
+
+.photo{
+	display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+margin-bottom: 90px;
+padding-top: 20px;
+}
