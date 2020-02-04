@@ -1,0 +1,52 @@
+body {
+    margin: 20px auto;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: lavender;
+    
+}
+
+img{
+    width: 60%;
+    
+}
+
+h1{
+    font-size: 2.5em;
+    color: BURLYWOOD
+
+}
+
+h2{
+    color: rgb(74, 185, 185);
+    font-size: 1.6em
+}
+
+h3{
+    color: rgb(228, 188, 135);
+    font-size: 1.3em
+
+}
+.chismorreo{
+    font-size: 1em;
+    color: black;
+
+}
+
+.besos{
+    width: 20%;
+    margin: 20px;
+}
+
+.btn{
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #a15e61;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  justify-content: center;
+  
+
+}
