@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div{
+    margin-top: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:  50%;
+    border: 1px solid black;
+    border-radius: 1%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: inherit; 
+}
+
+a{
+    color: black;
+    border-radius: 1%;
+    box-shadow: 0 10px 20px rgba(120, 42, 42, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: 1px black solid;
+    padding: 8px;
+    border-radius: 1%;
+}
