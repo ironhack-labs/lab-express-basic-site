@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-family: 'Paytone One', sans-serif;
+  background-image: url(/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  display: block;
+  height: 37px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 95px;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+#main-info {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Paytone One', sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+  font-size: 16px;
+  justify-content: space-around;
+  border: transparent;
+}
+
+p {
+  background-color: rgba(255, 255, 255, 0.886);
+  padding: 25px;
+  margin: 15px;
+}
+
+li {
+  display: inline-flex;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgba(241, 185, 64, 0.486);
+  display:flex;
+}
+
+.bouncy{
+  padding: 0.46em 1.6em;
+  border: 0.1em transparent;
+  margin: 2em 0.2em;
+  background-color: rgba(198, 24, 24, 0.961);
+  color: white;
+  animation: bouncy 5s infinite linear;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+}
+
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+}
+
+#image {
+  align-self: center;
+  padding-bottom: 20px;
+  margin: 20px;
+  width: 75px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(241, 185, 64, 0.486);
+  text-decoration: none;
+}

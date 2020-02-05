@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-family: 'Paytone One', sans-serif;
+  background-image: url(/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: ;
+}
