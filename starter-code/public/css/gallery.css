@@ -13,5 +13,5 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: ;
+  justify-content: space-around;
 }
