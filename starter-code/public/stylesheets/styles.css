@@ -1,0 +1,15 @@
+* {
+  background-repeat: repeat;
+  background-image: url(https://media.giphy.com/media/AiTAxk2kavgpa/source.gif);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-decoration-color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fatcat {
+  border-radius: 50%;
+}
