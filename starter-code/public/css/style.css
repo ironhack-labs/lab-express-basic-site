@@ -1,11 +1,72 @@
+body{
+    background-size: cover;
+}
 
+div { 
+    
+    width: 100%;
+}
 
-div {    width: 900px;
-    height: 400px;
-    background-color: aquamarine;
+h1, h2, p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:black; 
+}
+
+h1,h2,h3{
+    border: 10px solid black
+}
+
+h2{
+    font-size: 70px;
+    margin:30px 200px;
+    padding: 30px 220px;
 }
 
 h1 {
-    margin-top: 100px;
-    margin-left: 300px;
+    font-size: 100px;
+    margin:50px 200px;
+    padding: 50px 220px;
+}
+a{
+   color: black;
+   font-style: none; 
+   font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: 50px;
+    color: black;
+    background-color: #6cabcf;
+    padding: 10px 50px;
+
+    margin:10px 100px;
+    margin-top: 60px´;
+}
+
+p{
+    margin:30px 200px;
+    padding: 20px 50px;
+    font-size: 50px;
+    background-color: blanchedalmond;
+    border: 2px solid black
+}
+img{
+    width: 100%;
+}
+
+.left{
+    margin-left: 350px;
+}
+
+.isla{
+    background-image: url("/img/isla.jpg");
+}
+
+.casa{
+    background-image: url("/img/casa.jpg");
+}
+
+.hoguera{
+    background-image: url("/img/hoguera.jpg");
 }
