@@ -1,6 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 50 auto;
-    font-family: sans-serif;
-    background-color: bisque;
+    font-family: fantasy;
+    background-color: rgb(211, 197, 175);
+    align-content: stretch;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(105, 87, 64);
+}
+
+img {
+    align-self: center;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    font-size: 5em;
 }
