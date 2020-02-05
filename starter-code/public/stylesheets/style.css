@@ -1,0 +1,24 @@
+body {
+    color: blue;
+    background-color: bisque;
+  }
+  
+h1 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
