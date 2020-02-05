@@ -1,0 +1,148 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    /* font-size: 0; */
+    font-weight: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron-gallery {
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url("../images/americabackground.jpg");
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: red;
+    text-align: center;
+}
+
+#jumbotron-home {
+    z-index: 1;
+    top: 70px;
+    height: 700px;
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+    background-image: url("../images/americabackground3.jpg");
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.content-main {
+    top: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-flow: row wrap;
+}
+
+.city-thumb {
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.city-thumb img {
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    margin: 10px;
+}
+
+
+#new-york-hover-zone {
+    position: absolute;
+    z-index: 3;
+    left: 960px;
+    width: 160px;
+    top: 185px;
+    height: 90px;
+    color: blue;
+
+}
+#florida-hover-zone {
+    position: absolute;
+    z-index: 3;
+    left: 960px;
+    width: 160px;
+    top: 185px;
+    height: 90px;
+    color: blue;
+}
+
+#cali-hover-zone {
+    position: absolute;
+    z-index: 3;
+    left: 100px;
+    width: 150px;
+    top: 250px;
+    height: 275px;
+    color: blue;
+}
+
+#cali-hover-zone:hover {
+    color: green !important;
+}
+
+
+#cali-info-box{
+    visibility: hidden;
+    position: absolute;
+    z-index: 4;
+    left: 200px;
+    width: 300px;
+    top: 200px;
+    height: 275px;
+ 
+}
+
+#cali-hover-zone:hover > #cali-info-box {
+visibility: visible;
+}
+
+
+header {
+    position: fixed;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+    background-color:#FFF;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header .menu {
+    display: flex;
+    font-size: 0;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto auto auto 200px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+header .menu a {
+    font-size: 1.4rem;
+    align-content: center;
+    margin-top: 5px;
+    text-decoration: none;
+}

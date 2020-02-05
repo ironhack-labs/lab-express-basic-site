@@ -1,0 +1,11 @@
+<div class="jumbotron-gallery"></div>
+<div class="content-main">
+    {{#each cities}}
+    <div class="city-box">
+        <div class="city-thumb">
+            <img src="{{this.photo}}" alt="">
+        </div>
+        <div class="city-name">{{this.name}}, {{this.state}}</div>
+    </div>
+    {{/each}}
+</div>
