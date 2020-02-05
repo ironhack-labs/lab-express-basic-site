@@ -19,6 +19,10 @@ app.get("/about", (req, res, next) => {
   res.sendFile(__dirname + "/public/views/about.html");
 });
 
+app.get("/gallery", (req, res, next) => {
+    res.sendFile(__dirname + "/public/views/gallery.html");
+  });
+
 app.listen(port, () => {
   console.log(`Server is running at port ${port}.`);
 });
