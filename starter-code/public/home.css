@@ -1,0 +1,27 @@
+ul {
+    text-align: center;
+    height: 800px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+li img {
+    align-items: center;
+    width: 400px;
+    height: 380px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 100px;
+}
+
+body{
+    background-color: lightblue;
+}
