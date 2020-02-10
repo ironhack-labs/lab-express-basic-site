@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+#home {
+  background-image: url(/images/mb.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding: 220px 0;
+}
+
+#home h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 10em;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+  margin: 0 auto;
+}
+
+.justify {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.justify a {
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  background-color: rgb(73, 178, 197);
+  color: white;
+  text-decoration: none;
+}
+
+#about {
+  margin: 0 auto;
+  padding: 50px 200px;
+}
+
+#about h1 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(73, 178, 197);
+  font-size: 5em;
+}
+
+#about h2 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(65, 65, 65);
+  font-size: 2em;
+}
+
+#about p {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.gallery {
+  padding: 2em 0 4em 0;
+}
+
+.img-container {
+  width: 100%;
+  height: 500px;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
