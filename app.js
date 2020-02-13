@@ -7,11 +7,17 @@ const app = express();
 // Make everything inside of public/ available
 app.use(express.static('public'));
 
-// our first Route:
-//app.get('/home', (request, response, next) => response.sendFile(__dirname + '/views/home-page.html'));
+app.set("views", __dirname + "/views");
+app.set("view engine", "hbs");
 
-// cat route:
-//app.get('/cat', (request, response, next) => response.sendFile(__dirname + '/views/cat-page.html'));
+app.get("/", (req, res, next) => {
+    let data = {
+        name: "Ironhacker",
+        bootcamp: "Ironhack Web Dev"
+    };
+
+    res.render("index", data);
+});
 
 // Server Started
 app.listen(3000, () => console.log('My first app listening on port 3000!'));
