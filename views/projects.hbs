@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/project.css">
+    <script src="/js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
+
+    <title>Jaime Mora - Projects </title>
+</head>
+
+<body>
+    <nav class="menu">
+        <span class="logo"><a href="/index" class="link">Jaime</a></span>
+        <ul class="menu-list list">
+            <li><a href="/about-me" class="link">About me</a></li>
+            <li><a href="/projects" class="link">Projects</a></li>
+            <li><a href="/contact" class="link">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero-projects">
+        <h1>My projects</h1>
+        <p>Take a look of my last projects</p>
+    </header>
+    <main class="list-projects">
+                <section class="projects">
+                    <div class="slide-container">
+                        <article class="project-box slides fade">
+                            <img src="/img/revera.jpg" alt="Image Revera" class="image-project">
+                            <h3>Revera</h3>
+                            <p class="project text-projects margin-project">Exercise of IronHack: Clone the design of
+                                www.revera.com</p>
+                        </article>
+                        <article class="project-box slides fade">
+                            <img src="/img/rover.jpg" alt="Image Revera" class="image-project">
+                            <h3>Rover</h3>
+                            <p class="project text-projects margin-project">Exercice of IronHack: Create the code for a
+                                Rover
+                            </p>
+                        </article>
+                        <article class="project-box slides fade">
+                            <img src="/img/slack.jpg" alt="Image Revera" class="image-project">
+                            <h3>Slack</h3>
+                            <p class="project text-projects margin-project">Exercice of IronHack: Clone the design of
+                                Slack</p>
+                        </article>
+                        <article class="project-box slides fade">
+                            <img src="/img/npm.jpg" alt="Image Revera" class="image-project">
+                            <h3>NPM</h3>
+                            <p class="project text-projects project">Exercice of IronHack: Clone the design of NPM
+                            </p>
+                        </article>
+                        <div class="prevnext-buttons">
+                            <div class="prev-button">
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            </div>
+                            <div class="next-button">
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </div>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </section>
+    </main>
+    <footer class="footer">
+        <span class="logo white footer-logo"><a href="/" class="link white">Jaime</a></span>
+        <ul class="list footer-list">
+            <li><a href="/about-me" class="link">About me</a></li>
+            <li><a href="/projects" class="link">Projects</a></li>
+            <li><a href="/contact" class="link">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

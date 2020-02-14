@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
+
+    <title>Jaime Mora - Portfolio </title>
+</head>
+<body>
+    <nav class="menu">
+        <span class="logo"><a href="/" class="link">Jaime</a></span>
+        <ul class="menu-list list">
+            <li><a href="/about-me" class="link">About me</a></li>
+            <li><a href="/projects" class="link">Projects</a></li>
+            <li><a href="/contact" class="link">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero-section">
+        <div class="profile-info">
+            <img src="/img/profile-photo1.jpeg" alt="Profile photo" class="profile-photo">
+            <span class="name"> Hi! I'm Jaime Mora</span>
+            <h1 class="hero-title">Fullstack Developer</h1>
+            <p class="hero-text">Hardworking person with passion for his job. I studied journalism, but I realized  I wanted to be FullStack Developer and I started this passion work.</p>
+            <div class="social-icons social-home">
+                <p><a href="mailto:jaimemoravallejo@gmail.com" target="_blank"><i
+                            class="far fa-envelope icon-contact mail"></i></a></p>
+                <p><a href="https://github.com/jaimemorav" target="_blank"><i
+                            class="fab fa-github-square icon-contact github"></i></a>
+                    <p><a href="www.linkedin.com/in/jaime-mora" target="_blank"><i
+                                class="fab fa-linkedin icon-contact linkedin"></i></a>
+                    </p>
+            </div>
+        </div>
+    </header>
+    <main class="margin-main ">
+        <section class="presentation">
+            <div class="presentation-box">
+                <div class="bar-presentation">
+                    <div class="btn red"></div>
+                    <div class="btn yellow"></div>
+                    <div class="btn green"></div>
+                    <p class="title-presentation">About Jaime</p>
+                </div>
+                <p class="presentation-text">
+                <span class="var">let</span> me = { 
+                <ul class="code">
+                    <li><span class="element">name</span>: Jaime,</li>
+                    <li><span class="element">lastName</span>: Mora Vallejo,</li>
+                    <li><span class="element">languages</span>: [<span class="string">'Spanish'</span>, <span class="string">'Catalan'</span>, <span class="string">'English'</span>],</li>
+                    <li><span class="element">education</span>: [<span class="string">'Journalism at Ramon Llull University'</span>, <span class="string">'Master eCommerce and Digital Marketing at La Salle'</span>, <span class="string">'WebDev at IronHack'</span>],</li>
+                    <li><span class="element">experience</span>: [<span class="string">'Socialmedia and Web at Teinor'</span>],</li>
+                </ul>
+                    <span class="presentation-text">}</span>
+                    <div class="btn-nav">
+                            <a href="/about-me" class="link">Discover more</a>
+                    </div>
+                </p>
+            </div>
+        </section>
+        <section class="icons-info border-color">
+            <article class="content-icon">
+                <div><i class="fab fa-html5 icon-fontawesome"></i> </div>
+                <h2 class="title-icon">HTML 5</h2>
+            </article>
+            <article class="content-icon">
+                <div><i class="fab fa-css3-alt icon-fontawesome"></i> </div>
+                <h2 class="title-icon">CSS 3</h2>
+            </article>
+            <article class="content-icon">
+                <div><i class="fab fa-js-square icon-fontawesome"></i></div>
+                <h2 class="title-icon">Javascript</h2>
+            </article>
+        </section>
+        <section class="projects">
+            <h2 class="project title-projects">Recent Works</h2>
+            <p class="project text-projects ">Here are a few recent </p>
+            <div class="slide-container">
+                <article class="project-box slides fade">
+                    <img src="/img/revera.jpg" alt="Image Revera" class="image-project">
+                    <h3>Revera</h3>
+                    <p class="project text-projects margin-project">Exercise of IronHack: Clone the design of www.revera.com</p>
+                </article>
+                <article class="project-box slides fade">
+                    <img src="/img/rover.jpg" alt="Image Revera" class="image-project">
+                    <h3>Rover</h3>
+                    <p class="project text-projects margin-project">Exercice of IronHack: Create the code for a Rover
+                    </p>
+                </article>
+                <article class="project-box slides fade">
+                    <img src="/img/slack.jpg" alt="Image Revera" class="image-project">
+                    <h3>Slack</h3>
+                    <p class="project text-projects margin-project">Exercice of IronHack: Clone the design of Slack</p>
+                </article>
+                <article class="project-box slides fade">
+                    <img src="/img/npm.jpg" alt="Image Revera" class="image-project">
+                    <h3>NPM</h3>
+                    <p class="project text-projects project">Exercice of IronHack: Clone the design of NPM
+                    </p>
+                </article>
+                <div class="prevnext-buttons">
+                    <div class="prev-button">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    </div>
+                    <div class="next-button">
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span class="logo white footer-logo"><a href="/" class="link white">Jaime</a></span>
+        <ul class="list footer-list">
+            <li><a href="/about-me" class="link">About me</a></li>
+            <li><a href="/projects" class="link">Projects</a></li>
+            <li><a href="/contact" class="link">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.hero-projects{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.project-img{
+  width: 100%;
+}
+
+.project-img:hover{
+  zoom: 2;
+}
+
+@media (max-width: 700px) {
+  
+ .prevnext-buttons {
+  top: 300px;
+
+}
+
+
+@media(min-width: 950px) {
+
+  .project-img{
+    width: 66%; 
+  }
+}

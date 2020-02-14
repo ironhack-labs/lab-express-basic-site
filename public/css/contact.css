@@ -1,0 +1,52 @@
+.hero-contact {
+    margin-top: 50px;
+    background-image: linear-gradient(#004E89, #FF5A5F),
+        linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/img/contact-background.jpg);
+    background-repeat: no-repeat;
+    height: 575px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.title-contact {
+    text-align: center;
+}
+
+.subtext-contact {
+  text-align: center;
+}
+
+.mail:hover {
+    color: #FF5A5F;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+
+.form-input {
+    border: 0px;
+}
+
+.form-text {
+    width: 250px;
+}
+
+.submit {
+    font-family:Verdana, Helvetica;
+    font-weight:bold;
+    color:#fff;
+    background:#004E89;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: #004E89;
+}
