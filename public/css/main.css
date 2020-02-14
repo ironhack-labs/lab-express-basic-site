@@ -1,0 +1,263 @@
+/*colors:
+colors for the square links : background-color: #5686EA;
+background color for the header and footer :#F4F3F4
+background color for the content body:#F4F3F4
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
+    background:#F4F3F4;
+}
+.my-name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+.links-contact{
+    display: flex;
+    flex-direction: column;
+    background: #3B4456;
+    color: white;
+}
+.links-contact a {
+    text-decoration: none;
+    color: white;
+}
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+.social-media-links ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+
+}
+.social-media-links li{
+    margin-right: 20px;
+}
+.social_media_image{
+    height: 36px;
+    margin: 0 0 8px 24px;
+    
+}
+.intern-links{
+    display: flex;
+    flex-direction: row;
+}
+.intern-links ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.intern-links li{
+    /*margin: 5% 15%;*/
+    display: flex; 
+    flex-direction: row;
+    align-items: center;  
+    border: solid 1px;
+    background-color: #5686EA;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.intern-links a{
+    padding: 5px 5px;
+    height: 26px;
+    text-align: center;
+}
+/*.main_content{
+    /*padding-top: 100%;
+    display: flex;
+    flex-direction: row;
+}*/
+#image-presentation{
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: row;
+}
+.personal_image{
+    background-color: #7DBD9D;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0 50px;
+}
+#my-personal-photo{
+    height: 220px;
+    margin-right: 30px;
+}
+.presentation{
+    background-color: #7DBD9D;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.presentation_text{
+    margin-right: 50px;
+}
+#personal-info{
+    margin: 0 3%;
+}
+.info_text{
+    text-align: center;
+}
+.personal_icons{
+    display: flex;
+    justify-content: center;
+    margin: 0 35%;
+}
+.icon_description{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 8% 12% 0;
+}
+.icon_description ul{
+    list-style-type: disc;
+}
+.icon_description li{
+    margin-top: 8px;
+}
+.main_icons{
+    margin-top: 20px;
+    width: 80%;
+    height: 50px;
+}
+.separate-content{
+    margin: 5% 7%;
+}
+.projects_text{
+    text-align: center;
+}
+.my_projects{
+     margin-bottom: 5%;
+}
+.my_projects a{
+    text-decoration: none;
+}
+.my_projects ul{
+    display: flex;
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+.my_projects li{
+    width: 49%;
+    border-bottom: solid  1px;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.my_projects li:nth-child(odd) {
+    border-right: solid 1px;
+}
+.projects_image{
+    height: 190px;
+    width: 90%;
+}
+.link-to-my-cv{
+    text-align: center;
+}
+.cv_link{
+    border: solid 1px;
+    background-color: #5686EA;
+    border-radius: 10px;
+    color: white;
+    width: 20%;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+.cv_text{
+    font-size: 12px;
+    padding-bottom: 5%;
+}
+footer{
+    background-color: #3B4456;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.footer_text{
+    margin: 2% 5%;
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-text{
+    margin: auto;
+    padding: 9% 9%;
+}
+
+@media (max-width: 375px) { 
+    .myName{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 12px;
+    }
+    .personal_image{
+        background-color: #7DBD9D;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 50px 0 79px;
+    }
+    .personal_icons{
+        display: flex;
+        justify-content: center;
+        margin: 0 35%;
+    }
+}
+@media (max-width: 425px) {
+    .personal_icons{
+        display: flex;
+        justify-content: center;
+        margin: 0 15%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .content{
+        /*font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 22px;
+    }
+    .main_icons{
+        margin-top: 20px;
+        width: 60%;
+        height: 90px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .content{
+        /*font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+    }
+    .projects_image{
+        height: 280px;
+        width: 75%;
+    }
+    .main_icons{
+        margin-top: 20px;
+        width: 50%;
+        height: 60px;
+    }
+}

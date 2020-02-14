@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Contacto Alex</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="links-contact">
+            <nav class="social-media-links">
+                <h2 class="my-name"><a href="/">{{myPortfolio}}</a></h2>
+                <ul>
+                    <li><a href="https://github.com/alexfc96"><img src="/images/github-logo.png"
+                                class="social_media_image" alt="github-icon-logo"><br>GitHub</img></a></li>
+                    <!--Linkaremos una imagen con la cuenta de Git y otra para Insta-->
+                    <li><a href="https://www.instagram.com/alexfc96/"><img src="/images/instagram-logo.png"
+                                class="social_media_image" alt="instagram-icon-logo"><br>InstaGram</img></a></li>
+                    <li><a href="https://es.linkedin.com/"><img src="/images/linkedin-logo.png"
+                                class="social_media_image" alt="linkedin-icon-logo"><br>LinkedIn</img></a></li>
+                    <!--Recordar vincular la cuenta en el futuro-->
+                </ul>
+            </nav>
+            <nav class="intern-links">
+                <ul>
+                    <li><a href="/" target="#about-me">Sobre mí</a></li>
+                    <!--Linkaremos a un punto de nuestra web-->
+                    <li><a href="/" target="#my-projects">Proyectos</a></li>
+                    <li><a href="/" target="#my-cv">Mi CV</a></li>
+                    <li><a href="/contact">Contacto</a></li>
+                    <!--Decidir si será otra pagina o te redirigirá a la propua-->
+                </ul>
+            </nav>
+        </header>
+        <div class="contact-me">
+            <div class="contact-text">
+                <p>Si desea contactar conmigo directamente puede hacerlo enviando un email a:</p><br>
+                <a href="mailto: {{contactData.email}}">{{contactData.email}}</a>
+                <p>{{contactData.telephoneNumber}}</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_text">
+            <p>Web creada por:</p> <br>
+            <p>{{developer}}</p>
+        </div>
+    </footer>
+</body>
+
+</html>
