@@ -1,0 +1,572 @@
+/*font-family: 'Poppins', sans-serif; for headers and titles
+font-family: 'Roboto', sans-serif; for text and others*/
+
+* {
+    margin: 4px 4px;
+}
+
+
+
+/******** NAVBAR ********/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 405px;
+    margin: 0px 0px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 1px;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    font-family: 'roboto', sans-serif;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 90px;
+    height: 50px;
+}
+
+.select {
+    color: #a7bf2e;
+}
+
+/******** HEADER ********/
+
+header {
+
+    width: 400px;
+}
+
+.welcome {
+    margin-left: 0px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wel {
+    margin: 0px 0px;
+    width: 280px;
+    height: 300px;
+    border: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+    text-align: end;
+    color: #a7bf2e;
+    background-color: #2f2b32;
+}
+
+.come {
+    margin: 0px 0px;
+    width: 280px;
+    height: 300px;
+    border: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    color: #2f2b32;
+    background-color: #a7bf2e;
+}
+
+.wel h2, .come h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.wel h2 {
+    margin-top: 100px;
+}
+
+.come h2 {
+    margin-top: 140px;
+}
+
+.welcome h1 {
+    position: absolute;
+    padding-top: 240px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'Long Cang', cursive;;
+    color: #FAF8ED;
+}
+
+/******** PRINCIPAL ********/
+
+.web-design img, .web-developer img, .validation img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.web-developer img {
+    border-radius: 20px;
+}
+
+.principal-container {
+    text-align: center;
+}
+
+.principal-container h3 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    text-decoration: underline #a7bf2e;
+}
+
+.principal-container p {
+    font-family: 'roboto',sans-serif;
+
+}
+
+.validation {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+/******** ABOUT ME ********/
+
+.about-me {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.past {
+    margin: 0px 0px;
+    width: 280px;
+    height: 300px;
+    border: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+    color: #2f2b32;
+    background-color: #a7bf2e;
+}
+
+.present {
+    margin: 0px 0px;
+    width: 280px;
+    height: 300px;
+    border: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    color: #a7bf2e;
+    background-color: #2f2b32;
+    text-align: end;
+}
+.past p, .present p {
+    width: 150px;
+    font-size: 19px;
+}
+.present p {
+    margin-left: 40px;
+}
+
+.photo-profile {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 152px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+/******** FOOTER ********/
+
+.logo-facebook, .logo-linkedin, .logo-instagram, .logo-github {
+    height:40px;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-left: 0px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Long Cang', cursive;;
+}
+
+/******** MIN-WIDTH: 760px ********/
+
+@media (min-width:  760px) {
+
+    /******** NAVBAR ********/
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 780px;
+    }
+
+    /******** HEADER ********/
+
+    .welcome {
+        margin-top: 25px;
+        width: 780px;
+        height: 410px;
+    }
+
+    .wel {
+        width: 390px;
+        height: 410px;
+    }
+
+    .come {
+        width: 390px;
+        height: 410px;
+    }
+
+    .wel h2, .come h2 {
+        font-size: 70px;
+    }
+    .wel h2 {
+        margin-top: 130px;
+    }
+
+    .come h2 {
+        margin-top: 190px;
+    }
+
+    .welcome h1 {
+        padding-top: 300px;
+        padding-left: 145px;
+        font-size: 50px;
+    }
+
+    /******** PRINCIPAL ********/
+
+    .principal-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 25px;
+    }
+
+    .web-design, .web-developer, .validation {
+        width: 350px;
+    }
+
+    .validation {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    /******** ABOUT ME ********/
+
+    .about-me {
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 780px;
+        height: 300px;
+        border-top: 1px solid black;
+        padding-top: 40px;
+    }
+
+    .past {
+        margin: 0px 0px;
+        width: 390px;
+        height: 410px;
+    }
+
+    .past p{
+        margin: 15px;
+    }
+
+    .present {
+        margin: 0px 0px;
+        width: 390px;
+        height: 410px;
+    }
+    .past p, .present p {
+        width: 250px;
+        font-size: 29px;
+    }
+    .present p {
+        margin-left: 120px;
+    }
+
+    .photo-profile {
+        margin-top: 90px;
+        margin-left: 290px;
+        width: 200px;
+        border-radius: 100px;
+    }
+
+    /******** FOOTER ********/
+
+    .logo-facebook, .logo-linkedin, .logo-instagram, .logo-github {
+        height: 60px;
+    }
+
+    footer {
+        width: 780px;
+    }
+
+    .social {
+        margin-top: 130px;
+        width: 780px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+}
+
+/******** MIN-WIDTH: 1000px ********/
+
+@media (min-width:  1000px) {
+    
+    /******** NAVBAR ********/
+
+    nav {
+        width: 1050px;
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 110px;
+        height: 60px;
+
+    }
+
+    /******** HEADER ********/
+
+    .welcome {
+        width: 1050px;
+        height: 680px;
+        margin-bottom: 40px;
+    }
+
+    .wel {
+        width: 525px;
+        height: 680px;
+    }
+
+    .come {
+        width: 525px;
+        height: 680px;
+    }
+
+    .wel h2, .come h2 {
+        font-size: 140px;
+    }
+    .wel h2 {
+        margin-top: 200px;
+    }
+
+    .come h2 {
+        margin-top: 320px;
+    }
+
+    .welcome h1 {
+        padding-top: 500px;
+        padding-left: 270px;
+        font-size: 60px;
+    }
+
+    /******** PRINCIPAL ********/
+
+    .principal-container {
+        flex-wrap: nowrap;
+        margin-left: 25px;
+        border-top: 1px solid black;
+    }
+
+    .web-design, .web-developer, .validation {
+        width: 345px;
+    }
+
+    .principal-container h3 {
+        font-size: 50px;
+    }
+
+    .principal-container p {
+        font-size: 25px;
+    }
+
+    .principal-container img {
+        width: 300px;
+        height: 200px;
+    }
+
+
+    /******** ABOUT ME ********/
+
+    .about-me {
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 1050px;
+        height: 570px;
+        border-top: 1px solid black;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .past {
+        width: 525px;
+        height: 570px;
+    }
+
+    .past p{
+        margin: 15px;
+    }
+
+    .present {
+        width: 525px;
+        height: 570px;
+    }
+    .past p, .present p {
+        width: 330px;
+        font-size: 39px;
+    }
+    .present p {
+        margin-left: 180px;
+    }
+
+    .photo-profile {
+        margin-top: 140px;
+        margin-left: 400px;
+        width: 250px;
+        border-radius: 120px;
+    }
+
+    /******** FOOTER ********/
+
+    .logo-facebook, .logo-linkedin, .logo-instagram, .logo-github {
+        height: 70px;
+    }
+
+    footer {
+        width: 1050px;
+    }
+
+    .social {
+        margin-top: 100px;
+        width: 1050px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+}
+
+/******** MIN-WIDTH: 1200px ********/
+
+@media (min-width:  1200px) {
+
+    /******** NAVBAR ********/
+
+    nav {
+        width: 1450px;
+        font-size: 30px;
+    }
+
+    .logo {
+        width: 110px;
+        height: 60px;
+
+    }
+
+    /******** HEADER ********/
+
+    .welcome {
+        width: 1450px;
+        height: 680px;
+    }
+
+    .wel {
+        width: 725px;
+    }
+
+    .come {
+        width: 725px;
+    }
+
+    .welcome h1 {
+        padding-left: 450px;
+    }
+
+    /******** PRINCIPAL ********/
+
+    .principal-container {
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+
+    .principal-container p {
+        font-size: 30px;
+    }
+
+    .principal-container img {
+        width: 350px;
+        height: 250px;
+    }
+
+    /******** ABOUT ME ********/
+
+    .about-me {
+        width: 1450px;
+    }
+
+    .past {
+        width: 725px;
+    }
+
+    .present {
+        width: 725px;
+    }
+
+    .present p {
+        margin-left: 370px;
+        margin-top: 15px;
+    }
+
+    .photo-profile {
+        margin-top: 160px;
+        margin-left: 570px;
+        width: 300px;
+        border-radius: 140px;
+    }
+
+    /******** FOOTER ********/
+
+    footer {
+        width: 1450px;
+    }
+
+    .social {
+        width: 1450px;
+    }
+
+    footer p {
+        font-size: 35px;
+    }
+
+}
