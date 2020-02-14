@@ -1,0 +1,21 @@
+@media (max-width:425px){
+   
+    .listheader{
+    
+    
+            display: flex;
+          
+            justify-content: center;
+    
+    }
+    .listheader ul li {
+      
+        display: inline;
+        list-style: none;
+        font-size: .7rem;
+        color: rgb(159, 176, 163);
+    }
+    .footerbotmain{
+        width: 100%;
+    }
+    }

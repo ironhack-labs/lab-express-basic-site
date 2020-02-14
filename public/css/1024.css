@@ -1,0 +1,45 @@
+@media (min-width:1024px){
+.container{
+width: 70vw;
+margin: 0 auto;
+}
+.listheader{
+padding-top: 30px;
+/* border: solid red 1px; */
+width: 100vw;
+flex-direction: row;
+}
+.listheader li{
+margin-right: 20px;
+flex-direction: row;
+font-size: 1.1em;
+font-weight: bold;
+}
+
+.navtitle{
+padding-top: 30px;
+font-size: 1.1em
+}
+
+.navimage{
+width: 7em;
+height: 7em;
+}
+.projecttitle{
+font-size: 2em;
+}
+.articleprojects{
+  width:30%;
+  margin: 0 auto;
+  margin-bottom: 20px
+}
+.footerbotmain{
+  width: 100%;
+ margin: 0 auto;
+}
+.articleabout{
+  padding: 20px;
+  width: 80%;
+}
+
+}

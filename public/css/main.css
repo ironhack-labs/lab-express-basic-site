@@ -1,0 +1,105 @@
+/* #f4f4f4 blanco */
+/* #ff7315 naranja */
+/* #3a3535 gris */
+/* #232020 negro */
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+body{ 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f1f1;
+  margin: 0;
+}
+.navimage {
+    padding: 8px;
+    width: 15vw;
+    height: 15vw;
+    border-right:  solid .4px   #ff7315;
+}
+.container{
+  padding: 5px;
+  width: 85%;
+  margin: 0 auto ;
+}
+.portfoliotitle{
+  color: #f1f1f1;
+}
+.navtop{ 
+   
+    display: flex;  
+    border: solid 3px  #232020;
+    background-color:  #3a3535 ;
+    box-shadow: 2px 2px #ff7315;
+    justify-content: baseline;
+}   
+
+.navtitle{ 
+  
+    text-align: center;
+    width: 40vw;
+    border-right:  solid .4px #ff7315;
+    font-size: 1rem;
+    color: rgb(159, 176, 163);
+}
+
+.listheader {
+    width: 200px;
+    width: 20w;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.listheader li {
+    
+    list-style: none;
+    
+    color: rgb(159, 176, 163);
+    text-decoration: none;
+}
+.footerbotmain{
+
+  padding: 9px;
+width: 100%;
+  background-color:#3a3535 ;
+  position: fixed;
+  text-align: center;
+  color:rgb(159, 176, 163);
+bottom: 0px;
+
+}
+.titlemainitem{
+  color: #f1f1f1;
+  text-align: center;
+
+}
+.containermainitem{
+  width: 100%;
+  display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  .articleprojects{
+width: 70%;
+margin: 0 auto;
+  background-color: gray;
+margin-bottom: 20px;
+
+}
+.projecttitle{
+  color: #f1f1f1;
+text-align: center;
+font-weight: bold;
+}
+.articleprojects img{
+width: 100%;
+
+  background-color: wheat;
+}
+
+.articleabout{
+  padding: 20px;
+  width: 80%;
+}

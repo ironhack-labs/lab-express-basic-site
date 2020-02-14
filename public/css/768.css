@@ -1,0 +1,28 @@
+@media (min-width:768px){
+ 
+    .listheader{
+      padding-top: 30px;
+      /* border: solid red 1px; */
+      width: 100vw;
+      flex-direction: row;
+    }
+    .listheader li{
+      margin-right: 20px;
+      flex-direction: row;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+    
+    .navtitle{
+      padding-top: 39px;
+      font-size: 1em
+    }
+    
+    .navimage{
+      width: 7em;
+    }
+    .footerbotmain{
+      width: 100%;
+  }
+    }
+    
