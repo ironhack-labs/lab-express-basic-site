@@ -13,20 +13,20 @@
     <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
     <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
 
-    <title>Jaime Mora - Projects </title>
+    <title>{{firstname}} {{lastname}} - Projects </title>
 </head>
 
 <body>
     <nav class="menu">
-        <span class="logo"><a href="/index" class="link">Jaime</a></span>
+        <span class="logo"><a href="/" class="link">{{firstname}}</a></span>
         <ul class="menu-list list">
-            <li><a href="/about-me" class="link">About me</a></li>
-            <li><a href="/projects" class="link">Projects</a></li>
-            <li><a href="/contact" class="link">Contact</a></li>
+            <li><a href="/about-me" class="link">{{title.aboutme}}</a></li>
+            <li><a href="/projects" class="link">{{title.projects}}</a></li>
+            <li><a href="/contact" class="link">{{title.contact}}</a></li>
         </ul>
     </nav>
     <header class="hero-projects">
-        <h1>My projects</h1>
+        <h1>My {{title.projects}}</h1>
         <p>Take a look of my last projects</p>
     </header>
     <main class="list-projects">
@@ -34,27 +34,27 @@
                     <div class="slide-container">
                         <article class="project-box slides fade">
                             <img src="/img/revera.jpg" alt="Image Revera" class="image-project">
-                            <h3>Revera</h3>
+                            <h3>{{project.revera}}</h3>
                             <p class="project text-projects margin-project">Exercise of IronHack: Clone the design of
-                                www.revera.com</p>
+                                www.{{project.revera}}.com</p>
                         </article>
                         <article class="project-box slides fade">
-                            <img src="/img/rover.jpg" alt="Image Revera" class="image-project">
-                            <h3>Rover</h3>
+                            <img src="/img/rover.jpg" alt="Image {{project.rover}}" class="image-project">
+                            <h3>{{project.rover}}</h3>
                             <p class="project text-projects margin-project">Exercice of IronHack: Create the code for a
-                                Rover
+                                {{project.rover}}
                             </p>
                         </article>
                         <article class="project-box slides fade">
-                            <img src="/img/slack.jpg" alt="Image Revera" class="image-project">
-                            <h3>Slack</h3>
+                            <img src="/img/slack.jpg" alt="Image {{project.slack}}" class="image-project">
+                            <h3>{{project.slack}}</h3>
                             <p class="project text-projects margin-project">Exercice of IronHack: Clone the design of
-                                Slack</p>
+                                {{project.slack}}</p>
                         </article>
                         <article class="project-box slides fade">
-                            <img src="/img/npm.jpg" alt="Image Revera" class="image-project">
-                            <h3>NPM</h3>
-                            <p class="project text-projects project">Exercice of IronHack: Clone the design of NPM
+                            <img src="/img/npm.jpg" alt="Image {{project.npm}}" class="image-project">
+                            <h3>{{project.npm}}</h3>
+                            <p class="project text-projects project">Exercice of IronHack: Clone the design of {{project.npm}}
                             </p>
                         </article>
                         <div class="prevnext-buttons">
@@ -75,11 +75,11 @@
                 </section>
     </main>
     <footer class="footer">
-        <span class="logo white footer-logo"><a href="/" class="link white">Jaime</a></span>
+        <span class="logo white footer-logo"><a href="/" class="link white">{{firstname}}</a></span>
         <ul class="list footer-list">
-            <li><a href="/about-me" class="link">About me</a></li>
-            <li><a href="/projects" class="link">Projects</a></li>
-            <li><a href="/contact" class="link">Contact</a></li>
+            <li><a href="/about-me" class="link">{{title.aboutme}}</a></li>
+            <li><a href="/projects" class="link">{{title.projects}}</a></li>
+            <li><a href="/contact" class="link">{{title.contact}}</a></li>
         </ul>
     </footer>
 </body>

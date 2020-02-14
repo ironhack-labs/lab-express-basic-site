@@ -13,21 +13,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
 
-    <title>Jaime Mora - Contact </title>
+    <title>{{firstname}} {{lastname}} - {{title.contact}} </title>
 </head>
 
 <body>
     <nav class="menu">
-        <span class="logo"><a href="/" class="link">Jaime</a></span>
+        <span class="logo"><a href="/" class="link">{{firstname}}</a></span>
         <ul class="menu-list list">
-            <li><a href="/about-me" class="link">About me</a></li>
-            <li><a href="/projects" class="link">Projects</a></li>
-            <li><a href="/contact" class="link">Contact</a></li>
+            <li><a href="/about-me" class="link">{{title.aboutme}}</a></li>
+            <li><a href="/projects" class="link">{{title.projects}}</a></li>
+            <li><a href="/contact" class="link">{{title.contact}}</a></li>
         </ul>
     </nav>
     <header class="hero-contact">
         <div class="contact-box">
-            <h1 class="title-contact">Contact</h1>
+            <h1 class="title-contact">{{title.contact}}</h1>
             <p class="subtext-contact">Feel free to contact me</p>
             <div class="social-icons">
             <p><a href="mailto:jaimemoravallejo@gmail.com" target="_blank"><i
@@ -62,11 +62,11 @@
         
     </main>
     <footer class="footer">
-        <span class="logo white footer-logo"><a href="/" class="link white">Jaime</a></span>
+        <span class="logo white footer-logo"><a href="/" class="link white">{{firstname}}</a></span>
         <ul class="list footer-list">
-            <li><a href="/about-me" class="link">About me</a></li>
-            <li><a href="/projects" class="link">Projects</a></li>
-            <li><a href="/contact" class="link">Contact</a></li>
+            <li><a href="/about-me" class="link">{{title.aboutme}}</a></li>
+            <li><a href="/projects" class="link">{{title.projects}}</a></li>
+            <li><a href="/contact" class="link">{{title.contact}}</a></li>
         </ul>
     </footer>
 </body>

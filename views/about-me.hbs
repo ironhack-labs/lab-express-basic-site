@@ -12,25 +12,25 @@
     <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
     <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
 
-    <title>Jaime Mora - About me </title>
+    <title>{{firstname}} {{lastName}} - {{title.aboutme}} </title>
 </head>
 
 <body>
     <nav class="menu">
-        <span class="logo"><a href="/" class="link">Jaime</a></span>
+        <span class="logo"><a href="/" class="link">{{firstname}}</a></span>
         <ul class="menu-list list">
-            <li><a href="/about-me" class="link">About me</a></li>
-            <li><a href="/projects" class="link">Projects</a></li>
-            <li><a href="/contact" class="link">Contact</a></li>
+            <li><a href="/about-me" class="link">{{title.aboutme}}</a></li>
+            <li><a href="/projects" class="link">{{title.projects}}</a></li>
+            <li><a href="/contact" class="link">{{title.contact}}</a></li>
         </ul>
     </nav>  
     <header class="about-me">
         <div>
-            <h1 class="title-about">about Jaime</h1>
+            <h1 class="title-about">about {{firstname}}</h1>
             <h2 class="subtitle-about">I'm a WebDev based in the fantastic Barcelona.</h2>
             <p class="text-about">I really enjoy the feeling of solving problems coding. I like to represent ideas with code. When I'm not working,I love watching and practicing sports. I like technology and I spend a great part of my free time with series andmovies. </p>
         </div>
-        <div><img src="/img/jaime-azores1.jpg" alt="Jaime's photo" class="about-me-photo"></div>
+        <div><img src="/img/jaime-azores1.jpg" alt="{{fistname}}'s photo" class="about-me-photo"></div>
     </header>
     <main>
         <section class="presentation margin-main">
@@ -39,13 +39,13 @@
                     <div class="btn red"></div>
                     <div class="btn yellow"></div>
                     <div class="btn green"></div>
-                    <p class="title-presentation">About Jaime</p>
+                    <p class="title-presentation">About {{firstname}}</p>
                 </div>
                 <p class="presentation-text">
                     <span class="var">let</span> me = {
                     <ul class="code">
-                        <li><span class="element">name</span>: Jaime,</li>
-                        <li><span class="element">lastName</span>: Mora Vallejo,</li>
+                        <li><span class="element">name</span>: {{firstname}},</li>
+                        <li><span class="element">lastName</span>: {{lastname}},</li>
                         <li><span class="element">languages</span>: [<span class="string">'Spanish'</span>, <span
                                 class="string">'Catalan'</span>, <span class="string">'English'</span>],</li>
                         <li><span class="element">education</span>: [<span class="string">'Journalism at Ramon Llull
@@ -89,11 +89,11 @@
         </section>
     </main>
     <footer class="footer">
-        <span class="logo white footer-logo"><a href="/" class="link white">Jaime</a></span>
+        <span class="logo white footer-logo"><a href="/" class="link white">{{firstname}}</a></span>
         <ul class="list footer-list">
-            <li><a href="/about-me" class="link">About me</a></li>
-            <li><a href="/projects" class="link">Projects</a></li>
-            <li><a href="/contact" class="link">Contact</a></li>
+            <li><a href="/about-me" class="link">{{title.aboutme}}</a></li>
+            <li><a href="/projects" class="link">{{title.projects}}</a></li>
+            <li><a href="/contact" class="link">{{title.contact}}</a></li>
         </ul>
     </footer>
 </body>
