@@ -22,14 +22,14 @@
     <main>
         <section class="section projects-list">
             <div class="col-12 flex-row justify-content-center pr-1 pl-1 mb-1">
-                <img src="img/project3.png" alt="project three">
+                <img src="img/projectThree.png" alt="project">
             </div>
             <div class="container flex-row row-reverse pb-2">
                 <div class="col-12 pl-1 pr-1">
-                    <h1 class="pb-1 ta-left">User Interfaces</h2>
-                    <p class="pb-1 ta-left">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius.</p>
-                    <p class="pb-1 ta-left">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
-                    <p class="pb-1 ta-left">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+                    <h1 class="pb-1 ta-left">{{projectTitle}}</h2>
+                    {{#each content}}
+                     <p class="pb-1 ta-left">{{this.desc}}</p>
+                    {{/each}}
                 </div>
             </div>
         </section>

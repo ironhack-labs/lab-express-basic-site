@@ -53,7 +53,9 @@ const data = {
         button:"See details",
         img:"projectFour.png",
         reverse:true}
-    ]
+    ],
+    projectTitle:"User Interface",
+    submit:"Submit"
 }
 
 app.get("/", (req, res, next) => res.render("index", data));
