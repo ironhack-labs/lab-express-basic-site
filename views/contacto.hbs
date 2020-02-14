@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Full Stack | Marc Serra</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navigation-menu">
+            <a href="/">
+                <h1 id="name" class="main-title">Marc Serra Hidalgo</h1>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/experiencia">Experiencia</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/educacion">Educación</a></li>
+                <p class="separator">|</p>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+            <div onclick="showNav()" id="burguer" class="burguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="slide less">
+                <h2 class="job-title">Contacta conmigo</h2>
+                <p class="hello-world">print(re.match(me, you))</p>
+            </div>
+        </header>
+        <main class="main-section">
+            <div class="warning">
+                <p>Funcion deshabilitada por el momento. Para contactar, envia un email a: mserrahidalgo@gmail.com o
+                    utiliza alguna plataforma social.</p>
+            </div>
+            <img class="gif" src="./src/contactgif.gif" alt="Gif call me">
+            <img class="gif2" src="./src/contactgif.gif" alt="Gif call me">
+            <img class="gif2" src="./src/contactgif.gif" alt="Gif call me">
+            <form method="GET" action="mailto:mserrahidalgo@gmail.com" class="contact">
+                <label for="name">Tu nombre: </label>
+                <input required="required" id="name" type="text">
+                <label for="email">Tu email: </label>
+                <input required="required" type="email" name="email" id="email">
+                <label for="body">Tu mensaje: </label>
+                <textarea name="body" id="body" cols="30" rows="10"></textarea>
+                <button class="btn-send" type="submit">Enviar mensaje</button>
+            </form>
+        </main>
+    </div>
+    <footer class="footer">
+        <section class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/marcmnc7/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://github.com/marcmnc7"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/marcserrahidalgo/"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="/contacto.html"><i class="far fa-envelope-open"></i></a>
+        </section>
+        <div class="madeby">
+            <i class="fas fa-code"></i>&nbsp;&nbsp;<p>Made with love in Barcelona by a menorquín</p>&nbsp;&nbsp;<i
+                class="fas fa-code"></i>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

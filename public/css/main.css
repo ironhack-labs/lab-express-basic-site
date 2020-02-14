@@ -1,0 +1,583 @@
+/* ------- General stuff ------- */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 10px;
+    line-height: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff4f4;
+}
+
+hr {
+    height: 10px;
+    border: 0;
+    margin-top: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+/* ---------------------- */
+
+/* ----------- Footer ----------- */
+.footer{
+    background-color: rgba(68, 48, 54, 0.978);;
+    color: white;
+    margin-top: 15px;
+}
+
+.madeby p{
+    display: inline;
+    font-size: 0.8rem;
+}
+
+.madeby{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    height: 100px;
+    font-size: 1rem;
+}
+
+.social-icons a{
+    color: inherit;
+}
+/* ---------------------- */
+
+/* --------- Navigation -------- */
+.navigation-menu{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(133, 30, 62, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.navigation-menu ul{
+    display: none;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+.navigation-menu li{
+    display: inline;
+}
+
+.navigation-menu a,.separator{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.burguer div{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(93, 22, 44);
+    margin: 6px 0;
+}
+/* ------------------------------------------ */
+
+
+/* ------------ Main shared content ------------- */
+.content {
+    flex: 1 0 auto;
+}
+
+.header{
+    width: 100%;
+}
+
+.main-section > section,article{
+    font-size: 1rem;
+    padding: 1.9rem;
+}
+
+.main-title{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.photo-jobs{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-jobs img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.photo-jobs a{
+    cursor: default;
+}
+
+.subjob-title{
+    font-size: 1.5rem;
+}
+
+.job-description{
+    margin-top: 10px;
+}
+
+.time-in-business{
+    margin-top: 10px;
+}
+
+.business-name{
+    font-weight: bold;
+}
+
+.business-name,.time-in-business{
+    color:#666;
+}
+
+.job-description{
+    text-align: justify;
+}
+
+.main-section .stack{
+    height: 30px;
+    padding: 0px;
+}
+
+.stack {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+/* --------------------------------------- */
+
+
+/* ---------------- Slide ----------------- */
+.slide,.slide-index{
+    width: 100%;
+    height: 250px;
+    background-image: url("../src/serverMoreBlurred.jpg");
+    position: relative;
+}
+
+.job{
+    display: flex;
+    flex-direction: column;
+}
+
+.job-title,.job-title-index{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 50%;
+    width: fit-content;
+    transform: translate(50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hello-world,.hello-world-index{
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: -2px;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 105px;
+    right: 50%;
+    width: 100%;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+
+.face-img{
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-img img{
+    border: 7px solid white;
+    width: 160px;
+    height: 160px;
+}
+
+.parent-statics{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.statics{
+    color: white;
+    font-size: 0.8rem;
+    padding: 15px;
+}
+
+.statics > div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.statics > div > p:first-child{
+    margin-bottom: 5px;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.statics > div > a{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+/* ---------------------------------------- */
+
+
+/* --------------General style ------------ */ 
+.rounded{
+    border-radius: 50%;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.bigemphasis{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.centered{
+    text-align: center;
+}
+
+.separator{
+    display: inline;
+}
+/* ---------------------------------------- */
+
+/* ---------------- index.html ---------------- */
+.presentation{
+    text-align: justify;
+}
+
+.presentation *{
+    display: inline;
+}
+
+.citas-personales{
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote  img  {
+    width: 30px;
+}
+
+blockquote  p  {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+blockquote p cite  {
+    color:#666;
+    font-size: 20px;
+    display:block;
+    text-align:right;
+}
+
+.datos{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+.datos-div{
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.datos-div :first-child{
+    color: black;
+    font-weight: bold;
+}
+/* -------------------------------- */
+
+/* ----------- experiencia.html ---------- */
+.job-tasks{
+    margin-top: 8px;
+}
+
+.job-tasks li{
+    list-style-type: square;
+    margin-left: 30px;
+}
+/* ------------------------------------- */
+
+/* ----------- proyectos.html ---------- */
+.job-row{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.img-line{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.tags{
+    margin-top: 10px;
+}
+
+.tags p{
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline;
+    padding: 1px 5px 1px 5px;
+    background-color: white;
+}
+/* ------------------------------------- */
+
+/* ----------- contacto.html ---------- */
+.contact{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gif{
+    width: 100%;
+}
+
+.gif2{
+    display: none;
+}
+
+.contact label{
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 60%;
+    font-size: 0.8rem;
+}
+
+.contact input,textarea{
+    width: 60%;
+    border: 4px rgba(133, 30, 62, 0.1) solid;
+    background-color: rgba(93, 22, 44, 0.5);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.btn-send{
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    background-color: rgb(93, 22, 44);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.warning{
+    background-color: rgba(242, 255, 51, 0.5);
+    height: fit-content;
+    line-height: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+/* ------------------------------------- */
+
+/* ---------- education.html ----------- */
+.edu-number{
+    display: none;
+}
+/* ------------------------------------- */
+
+
+/* ------------- Other stuff ------------- */
+div .less{
+    height: 130px;
+}
+/* --------------------------------------- */
+
+/* ###################################################### */
+/* ----------------- Responsive Stuff ------------------- */
+/* ###################################################### */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .statics > div{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .gif{
+        max-height: 300px;
+    }
+    .job-row {
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    .img-line{
+        margin-right: 20px;
+    }
+    .slide-index{
+        height: 300px;
+    }
+    .face-img{
+        top: 83%;
+    }
+    .face-img img{
+        width: 190px;
+        height: 190px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .statics > div{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .datos{
+        justify-content: space-evenly;
+    }
+    .datos-div{
+        width: 20%;
+    }  
+    .burguer{
+        display: none;
+    }
+    #myLinks{
+        /* This is because showNav() function
+        creates an inline style rule and this
+        takes precedence over css. Its for fix
+        when navigation is showed in small sizes
+        and user increase screen size bigger than
+        768 */
+        display: flex !important;
+    }
+    .navigation-menu ul{
+        display: block;
+        width: fit-content;
+    }
+    .navigation-menu li{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .main-title{
+        /* This is because showNav() function
+        creates an inline style rule and this
+        takes precedence over css. Its for fix
+        when navigation is showed in small sizes
+        and user increase screen size bigger than
+        768 */
+        display: block !important;
+        margin-left: 50px;
+    }
+
+    #education .job{
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+    #education .job-details{
+        flex-shrink: 0;
+        margin-right: 20px;
+    }
+    #education .job-description{
+        flex-shrink: 1;
+        margin-top: 0px;
+    }
+    .gif2{
+        display: inline-block;
+        width: 33%;
+    }
+    .gif{
+        width: 33%;
+    }
+    .edu-number{
+        font-size: 90px;
+        color: lightgray;
+        padding: 10px;
+        display: block;
+    }
+    .slide-index{
+        height: 350px;
+    }
+
+    .job-title-index{
+        top: 110px;
+    }
+    .hello-world-index{
+        top: 135px;
+    }
+    .face-img{
+        top: 86%;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .gif{
+        max-height: 400px;
+    }
+    .citas-personales{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .citas-personales blockquote{
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Full Stack | Marc Serra</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navigation-menu">
+            <a href="/">
+                <h1 id="name" class="main-title">Marc Serra Hidalgo</h1>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/experiencia">Experiencia</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/educacion">Educación</a></li>
+                <p class="separator">|</p>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+            <div onclick="showNav()" id="burguer" class="burguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="slide">
+                <h2 class="job-title">Mi educación</h2>
+                <p class="hello-world">e = job(attitude, constancy, ambition)</p>
+                <div class="photo-jobs">
+                    <div class="zoom"><a href="#anchor-IronHack"><img src="/src/ironhack.png" alt="Ironhack Logo"></a>
+                    </div>
+                    <div class="zoom"><a href="#anchor-ASIX"><img src="/src/asix.png" alt="EdT Logo"></a></div>
+                    <div class="zoom"><a href="#anchor-UAB"><img src="/src/UAB.png" alt="UAB logo"></a></div>
+                </div>
+            </div>
+        </header>
+        <main class="main-section" id="education">
+            <article id="anchor-IronHack" class="job">
+                <p class="edu-number">3</p>
+                <div class="job-details">
+                    <h3 class="subjob-title">
+                        Full Stack Web Developer
+                    </h3>
+                    <p class="business-name">
+                        Iron Hack
+                    </p>
+                    <time class="time-in-business">
+                        Diciembre 2019 - actualidad
+                    </time>
+                </div>
+                <p class="job-description">
+                    Ironhack is a Global Tech School ranked top 3 worldwide.   Our mission is to help people transform
+                    their careers and join a thriving community of tech professionals that love what they do.
+                    This ideology is reflected in our teaching practices, which consist of a nine-weeks immersive
+                    programming, UX/UI design or Data Analytics course as well as a one-week hiring fair aimed at
+                    helping our students change their career and get a job straight after the course.
+                </p>
+            </article>
+            <hr>
+            <article id="anchor-ASIX" class="job">
+                <p class="edu-number">2</p>
+                <div class="job-details">
+                    <h3 class="subjob-title">
+                        Titulo Superior en Adm. de Sistemas Infomaticos
+                    </h3>
+                    <p class="business-name">
+                        Escola del treball
+                    </p>
+                    <time class="time-in-business">
+                        2016 - 2018
+                    </time>
+                </div>
+                <p class="job-description">
+                    Configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la
+                    integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la
+                    reglamentación vigente. </p>
+            </article>
+            <hr>
+            <article id="anchor-UAB" class="job">
+                <p class="edu-number">1</p>
+                <div class="job-details">
+                    <h3 class="subjob-title">
+                        Graduado en Empresa y Tecnologia
+                    </h3>
+                    <p class="business-name">
+                        Universitat Autónoma de Barcelona
+                    </p>
+                    <time class="time-in-business">
+                        2012 - 2016
+                    </time>
+                </div>
+                <p class="job-description">
+                    El grado en Empresa y Tecnología combina conocimientos de administación y dirección de empresas con
+                    habilidades informáticas. Permite diseñar, desarrollar y gestionar los sistemas de información de
+                    base informática e integrar las tecnologías a la gestión tanto en las empresas como en las
+                    administraciones públicas o cualquier otra institución.
+                </p>
+            </article>
+        </main>
+    </div>
+    <footer class="footer">
+        <section class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/marcmnc7/"><i class="fab fa-instagram"></i>
+                </atarget="_blank">
+                <a target="_blank" href="https://github.com/marcmnc7"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/marcserrahidalgo/"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="/contacto.html"><i class="far fa-envelope-open"></i></a>
+        </section>
+        <div class="madeby">
+            <i class="fas fa-code"></i>&nbsp;&nbsp;<p>Made with love in Barcelona by a menorquín</p>&nbsp;&nbsp;<i
+                class="fas fa-code"></i>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

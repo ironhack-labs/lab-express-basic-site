@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Full Stack | Marc Serra</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navigation-menu">
+            <a href="/">
+                <h1 id="name" class="main-title">Marc Serra Hidalgo</h1>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/experiencia">Experiencia</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/educacion">Educación</a></li>
+                <p class="separator">|</p>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+            <div onclick="showNav()" id="burguer" class="burguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="slide-index">
+                <h2 class="job-title-index">Full Stack Developer</h2>
+                <p class="hello-world-index">print("Hello world")</p>
+                <div class="parent-statics">
+                    <div class="statics">
+                        <div class="satic-jobs">
+                            <p>Educacion</p>
+                            <a href="/educacion.html">3</a>
+                        </div>
+                        <div class="satic-education">
+                            <p>Nº empresas</p>
+                            <a href="/experiencia.html">3</a>
+                        </div>
+                    </div>
+                    <div class="statics">
+                        <div class="satic-business">
+                            <p>A. experiencia</p>
+                            <a href="/experiencia.html">4</a>
+                        </div>
+                        <div class="satic-projects">
+                            <p>Nº proyectos</p>
+                            <a href="/proyectos.html">4</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="face-img">
+                    <a onclick="changeFace()" href="#"><img id="face" src="./src/face-img.jpeg" alt="My face"
+                            class="rounded"></a>
+                </div>
+            </div>
+        </header>
+        <main class="main-section">
+            <section class="datos">
+                <div class="datos-div">
+                    <p>Cargo actual</p>
+                    <p>Backend Developer en Airning</p>
+                </div>
+                <div class="datos-div">
+                    <p>Fecha nacimiento</p>
+                    <p>27/12/1994</p>
+                </div>
+                <div class="datos-div">
+                    <p>Lugar nacimiento</p>
+                    <p>Menorca</p>
+                </div>
+                <div class="datos-div">
+                    <p>Residencia actual</p>
+                    <p>Barcelona</p>
+                </div>
+            </section>
+            <hr>
+            <section class="presentation">
+                <p class="bigemphasis centered">¡Hola!</p>
+                <p>Me llamo Marc y soy un apasionado de la tecnología. Me considero una persona con ideas claras,
+                    constante, ambicioso, organizado y sobretodo con una gran capacidad de aprendizaje rápido. Disfruto
+                    del trabajo en equipo, aunque he podido desarrollar un elevado nivel de confianza para realizar
+                    tareas de manera autónoma. Soy una persona vergonzosa, pero a la vez muy sincera, directa y
+                    participativa capaz de ofrecer soluciones distintas desde mi punto de vista. Entiendo la importancia
+                    del trabajo que estoy realizando y como ayuda y encaja éste en los objetivos de la empresa. Me
+                    siento lleno de ganas de seguir aprendiendo y de aplicar mis conocimientos con la intención de
+                    superarme día tras día y de poder conseguir un objetivo muy concreto: sentirme realizado haciendo lo
+                    que más me gusta.</p>
+            </section>
+            <section class="stack">
+                <marquee behavior="scroll" direction="left">myStack = ["Python", "Django", "Javascript", "HTML", "CSS",
+                    "Linux", "Bash", "API", "GIT", "AWS", "Scrapy"]</marquee>
+            </section>
+            <!-- <hr> -->
+            <section class="citas-personales">
+                <blockquote>
+                    <img src="./src/quotes.png" alt="Double quotes icon">
+                    <p>
+                        Marc destacó en el equipo por su capacidad de resolver de manera eficiente los retos que se le
+                        presentaron, su entusiasmo en el trabajo que hacía y una actitud de mejora continua. Además,
+                        ayudó proactivamente al buen ambiente que había en el equipo. También destacaría su actitud en
+                        la propuesta de iniciativas de mejora técnica que hizo en su etapa en 21 Buttons.
+                        <cite>- Jordi Abad | CTO 21 Buttons</cite>
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <img src="./src/quotes.png" alt="Double quotes icon">
+                    <p>
+                        Gracias a su capacidad de adaptación, evolución y calidad de su trabajo, pudo desempeñar
+                        proyectos bajo su única supervisión logrando así metas del equipo con excelentes resultados.
+                        Además de las cualidades laborales anteriormente comentadas, me gustaría destacar que el
+                        recomendado goza de una excelente capacidad de aprendizaje sobre nuevos sistemas que se le
+                        puedan requerir y gran solidez de sus conocimiento, así como un perfecto desempeño y
+                        colaboración en el trabajo en grupos.
+                        <cite>- Pere Giró | Engineer Manager 21 Buttons</cite>
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <img src="./src/quotes.png" alt="Double quotes icon">
+                    <p>
+                        Marc es un excelente profesional, demuestra un amplio dominio de los temas relacionados con IT y
+                        muchísimas ganas de innovar y aprender. En múltiples oportunidades me tuvo que explicar algunos
+                        procesos y siempre lo hizo de forma didáctica, sencilla de entender, sin prisas y con paciencia.
+                        Ha sido un buen compañero de trabajo y muy preocupado siempre por apoyar al resto de su equipo.
+                        <cite>- Karina Santoyo | Compañera de trabajo</cite>
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <img src="./src/quotes.png" alt="Double quotes icon">
+                    <p>
+                        Excelente profesional de IT. Resolutivo, rápido y proactivo. Excelentes team skills. Hombre de
+                        equipo, comunicativo y empático. Gran sentido de la responsabilidad y manejo de las aplicaciones
+                        de monitorización y resolución de problemas.
+                        <cite>- Juan Bevilacqua | Compañero de trabajo</cite>
+                    </p>
+                </blockquote>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <section class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/marcmnc7/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://github.com/marcmnc7"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/marcserrahidalgo/"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="/contacto.html"><i class="far fa-envelope-open"></i></a>
+        </section>
+        <div class="madeby">
+            <i class="fas fa-code"></i>&nbsp;&nbsp;<p>Made with love in Barcelona by a menorquín</p>&nbsp;&nbsp;<i
+                class="fas fa-code"></i>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

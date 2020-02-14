@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Full Stack | Marc Serra</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navigation-menu">
+            <a href="/">
+                <h1 id="name" class="main-title">Marc Serra Hidalgo</h1>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/experiencia">Experiencia</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/educacion">Educación</a></li>
+                <p class="separator">|</p>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <p class="separator">|</p class="separator">
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+            <div onclick="showNav()" id="burguer" class="burguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="slide less">
+                <h2 class="job-title">Mis proyectos</h2>
+                <p class="hello-world">assert(time && hobbie == project)</p>
+            </div>
+        </header>
+        <main class="main-section">
+            <article class="job-row">
+                <img class="img-line" src="/src/server.jpg" alt="Server image">
+                <div class="job-info">
+                    <div class="job-details">
+                        <h3 class="subjob-title">
+                            Mi página web
+                        </h3>
+                        <p class="business-name">
+                            Working on
+                        </p>
+                        <time class="time-in-business">
+                            2020
+                        </time>
+                    </div>
+                    <p class="job-description">
+                        Proyecto de desarrollo de mi pagina web personal. Diseñado en HTML CSS y Javascript.
+                    </p>
+                    <div class="tags">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Javascript</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article class="job-row">
+                <img class="img-line" src="/src/menorca.jpg" alt="Menorca icon">
+                <div class="job-info">
+                    <div class="job-details">
+                        <h3 class="subjob-title">
+                            Platges de Menorca
+                        </h3>
+                        <p class="business-name">
+                            Working on
+                        </p>
+                        <time class="time-in-business">
+                            2020
+                        </time>
+                    </div>
+                    <p class="job-description">
+                        Aplicación móvil que da un parte (bandera, medusas y parking) actualizado sobre el estado de las
+                        principales playas menorquinas. Los datos están basados en los datos recibidos de los
+                        socorristas y también de los usuarios.
+                    </p>
+                    <div class="tags">
+                        <p>Java</p>
+                        <p>Android Studio</p>
+                        <p>Django (API)</p>
+                        <p>Python</p>
+                        <p>Google API</p>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article class="job-row">
+                <img class="img-line" src="/src/qpc.webp" alt="Que puedo concinar icon">
+                <div class="job-info">
+                    <div class="job-details">
+                        <h3 class="subjob-title">
+                            ¿Que puedo cocinar?
+                        </h3>
+                        <p class="business-name">
+                            Stil live here: <a
+                                href="https://play.google.com/store/apps/details?id=receptes.app.receptes">play store
+                                link</a>
+                        </p>
+                        <time class="time-in-business">
+                            2018
+                        </time>
+                    </div>
+                    <p class="job-description">
+                        Ir al supermercado no es precisamente el mejor plan que uno podría tener. Pensar como
+                        apañárselas para sobrevivir, tampoco. ¿Qué puedo cocinar? es un buscador que te ayuda a
+                        encontrar algunas recetas que puedes llevar a cabo sin tener que salir de casa. En la sección
+                        "Mi despensa" encontrarás una lista de ingredientes. Marca los que dispones en este momento y
+                        sorpréndete con todo lo que puedes cocinar sin tener que ir al supermercado. Crea tu lista de
+                        recetas favoritas y accede a ellas siempre que quieras. Comparte y dale "Me gusta" a todas las
+                        que quieras para ayudar a otros supervivientes como tú.
+                    </p>
+                    <div class="tags">
+                        <p>Java</p>
+                        <p>Android Studio</p>
+                        <p>Django (API)</p>
+                        <p>Python</p>
+                        <p>Scrapy</p>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article class="job-row">
+                <img class="img-line" src="/src/penguin.png" alt="Me conoces icon">
+                <div class="job-info">
+                    <div class="job-details">
+                        <h3 class="subjob-title">
+                            GUI Tool for Fedora
+                        </h3>
+                        <p class="business-name">
+                            Beta project
+                        </p>
+                        <time class="time-in-business">
+                            2017
+                        </time>
+                    </div>
+                    <p class="job-description">
+                        Plataforma grafica que incorpora diversas herramientas que permiten a los administradores de
+                        sistemas Linux Fedora realizar tareas de administración local de la máquina de manera sencilla,
+                        rápida y ágil gracias a una plataforma web creada para este fin. Algunas de las herramientas que
+                        incorporaba son: Creación de rutinas de copias de seguridad para directorios, creación de
+                        usuarios del sistema, creación de contenedores Docker y creación de BBDD postgres con sus
+                        interrelaciones.
+                    </p>
+                    <div class="tags">
+                        <p>Python</p>
+                        <p>Django</p>
+                        <p>Bash</p>
+                        <p>BBDD</p>
+                        <p>Docker</p>
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article class="job-row">
+                <img class="img-line" src="/src/meconoces.webp" alt="Me conoces icon">
+                <div class="job-info">
+                    <div class="job-details">
+                        <h3 class="subjob-title">
+                            ¿Me conoces?
+                        </h3>
+                        <p class="business-name">
+                            Not live - Reached +30k downloads
+                        </p>
+                        <time class="time-in-business">
+                            2017
+                        </time>
+                    </div>
+                    <p class="job-description">
+                        "¿Me conoces?" es un juego que encuentra el porcentaje de afinidad entre dos personas mediante
+                        un juego de preguntas y respuestas para los dos. Es un juego rápido, simple, ligero y
+                        entretenido... ¿Te atreves a comprobar cuanto te conocen... o prefieres no saberlo?
+                    </p>
+                    <div class="tags">
+                        <p>Java</p>
+                        <p>Android Studio</p>
+                        <p>XML</p>
+                        <p>Backendless</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+    <footer class="footer">
+        <section class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/marcmnc7/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://github.com/marcmnc7"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/marcserrahidalgo/"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="/contacto.html"><i class="far fa-envelope-open"></i></a>
+        </section>
+        <div class="madeby">
+            <i class="fas fa-code"></i>&nbsp;&nbsp;<p>Made with love in Barcelona by a menorquín</p>&nbsp;&nbsp;<i
+                class="fas fa-code"></i>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
