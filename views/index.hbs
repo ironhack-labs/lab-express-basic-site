@@ -1,0 +1,132 @@
+<link rel="stylesheet" href="css/home-main.css">
+<section class="self-presentation">
+    <div class="presentation-text">
+        <h1>{ jh }</h1>
+        <h2>Jose Hurtado</h2><br>
+        <h3 class="animated-text">Full*Stack*Developer</h3>
+        <div class="content container">
+            <h4>El meu inici</h4>
+            <p class="text">Nascut i resident a Barcelona, actualment amb 22 anys. Des de ben petit m'ha interessat l'àmbit informàtic, <span class="show-on-mobile">[...]</span><span class="hide-on-modile"> per simple curiositat i de manera autodidàctica.
+                El meu primer contacte amb el desenvolupament web no va ser fins a l'ESO on, perquè no dir-ho, cap assignatura duia el meu nom. Però és aleshores quan gràcies a un mòdul dedicat a HTML i CSS vaig poder endinsar-me una mica en la matèria i, adonar-me que m'omplia i em naixia una motivació per seguir aprenent. Des d'aquell moment vaig saber que aquest món marcaria la meva carrera professional d'una manera o altra, i és des d'aleshores, que vaig enfocar la meva formació cap aquest camí. En els moments que desconnecto de feina i del teclat acostumo a dedicar el temps per a mi, fer esport, anar en bici o simplement relaxar-me amb una bona cervesa i amics.</span></p>
+            <h4>Formació en l'àmbit</h4>
+            <ul class="text">
+                <li>
+                    Curs Desenvolupament Web, Academia Cepi Base, Barcelona (2015)
+                </li>
+                <li>
+                    Tècnic Superior en Desenvolupament Web, Escola del Treball, Barcelona (2017-2019)
+                </li>
+                <li>
+                    Iron Hack Web Development, Barcelona (actualment)
+                </li>
+            </ul>
+            <h4>El meu present</h4>
+            <p class="text">Actualment treballo com a desenvolupador web full stack en una agència digital <span class="show-on-mobile">[...]</span><span class="hide-on-modile"> especialitzada en el desenvolupament i disseny d'aplicacions i software a mida, Suma TD, Barcelona.
+                Les meves tasques s'enfoquen en el manteniment i desenvolupament de nous projectes per a una diversitat de clients, un d'ells i pel qui més temps dedico: Naturgy.
+                M'agradaria finalitzar la meva carrera centrant esforços en l'àmbit de la Intel·ligència Artificial i la Realitat Virtual, però també és cert que la necessitat constant d'innovar-me i no voler deixar mai d'aprendre pot obrir-me més portes i animar-me a conèixer una infinitat de branques dins d'aquest món professional...</span></p>
+            <h4 style="text-align: right;font-size: 26px;">... i seguir formant-me per adaptar-me a un futur</h4>
+        </div>
+    </div>
+</section>
+<section class="habilities container">
+    <div class="section-presentation">
+        <h3 class="title">{ Coneixements }</h3>
+        <p>Professionalment he treballat sempre amb PHP com a llenguatge servidor, és per això que podria dir que els meus punts forts ara mateix són l'HTML, CSS, JS, Jquery per al FrontEnd, i tot allò que relaciona amb PHP i Mysql per treballar el BackEnd, destacant sobretot el framework Symfony.</p>
+    </div>
+    <div class="content">
+        <div class="block">
+            <h4 class="title">Frontend</h4>
+            <div class="cards">
+                {{#each languages.frontend }}
+                    <div class="card" data-hability="{{ hability }}">
+                        <img src="img/{{img}}">
+                        <div class="description">
+                            <div class="title">{{title}}</div>
+                            <div class="percent-bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="block">
+            <h4 class="title">Backend</h4>
+            <div class="cards">
+                {{#each languages.backend }}
+                    <div class="card" data-hability="{{ hability }}">
+                        <img src="img/{{img}}">
+                        <div class="description">
+                            <div class="title">{{title}}</div>
+                            <div class="percent-bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="block">
+            <h4 class="title">Sistemes i d'altres</h4>
+            <div class="cards">
+                {{#each languages.otros }}
+                    <div class="card" data-hability="{{ hability }}">
+                        <img src="img/{{img}}">
+                        <div class="description">
+                            <div class="title">{{title}}</div>
+                            <div class="percent-bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="other-habilities container">
+    <div class="section-presentation">
+        <h3 class="title">{ Altres habilitats }</h3>
+        <p>El sistema operatiu que utilitzo es Ubuntu (Linux) tot i haver treballat i tenir també experiència en alguna distribució de Red Hat. A l'hora de programar la meva prioritat és sempre deixar un codi llegible, ben organitzat, i al màxim de minimitzat (dins les possibilitats, és clar) per aconseguir així que la feina posterior de manteniment resulti una tasca més àgil, neta i menys feixuga.</p>
+    </div>
+    <div class="content">
+        <div class="card" data-hability="80">
+            <img src="img/responsive.png">
+            <div class="description">
+                <div class="title">Responsive Web design</div>
+                <p>Móbil, tablet i ordinador.<br> Mobile first</p>
+            </div>
+        </div>
+        <div class="card" data-hability="80">
+            <img src="img/ubuntu.png">
+            <div class="description">
+                <div class="title">Ubuntu</div>
+                <p>Gestió i configuració del sistema operatiu</p>
+            </div>
+        </div>
+        <div class="card" data-hability="80">
+            <img src="img/clean-code.png">
+            <div class="description">
+                <div class="title">Clean Code</div>
+                <p>Si no és un codi net,<br>no és un bon codi</p>
+            </div>
+        </div>
+        <div class="card" data-hability="80">
+            <img src="img/scrum.png">
+            <div class="description">
+                <div class="title">Scrum</div>
+                <p>Metodologia Scrum a l'hora de desenvolupar un projecte</p>
+            </div>
+        </div>
+        <div class="card" data-hability="80">
+            <img class="special-height" src="img/apache.png">
+            <div class="description">
+                <div class="title">Apache</div>
+                <p>Com a servidor HTTP/S</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Main js -->
+<script src="js/main.js"></script>
+<script src="js/home-main.js"></script>

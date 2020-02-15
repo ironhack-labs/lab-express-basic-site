@@ -1,0 +1,114 @@
+.location-form-section {
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(to bottom, rgba(153,184,152,1) 0%, rgba(254,206,168,1) 0%, rgba(255,133,124,1) 38%, rgba(232,74,95,1) 59%, rgba(42,54,59,1) 100%);
+    align-items: center;
+    justify-content: center;
+    min-height:calc(100vh - 48px - 69px);
+}
+.location-form-section .content {
+    background: #2a363c;
+    color:white;
+    text-align: justify;
+    box-shadow: 1px 15px 35px 7px rgba(0,0,0,0.75);
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-flow: column;
+    margin-bottom:50px;
+}
+.location-form-section .content .form {
+    padding: 20px 20px 10px;
+    font-size: 18px;
+    text-align: left;
+}
+.location-form-section .content .form .title {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color:white;
+    font-family: 'Share Tech Mono', sans-serif;
+    margin-top:10px;
+}
+.location-form-section .content .form p {
+    margin-bottom: 30px;
+}
+
+.location-form-section .content .form form  .form-group {
+    margin-bottom:15px;
+}
+.location-form-section .content .form form  .form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:#ff837a;
+}
+.location-form-section .content .form form  .form-group input, .location-form-section .content .form form  .form-group textarea  {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid  #ff837a;
+    color:#ff837a;
+    box-shadow: none;
+    padding: 10px 0;
+    width:100%;
+    font-size: 18px;
+}
+.location-form-section .content .map iframe {
+    width:100%;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.location-form-section .content .map {
+    position: relative;
+}
+.location-form-section .content .map .loading {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.location-form-section .content .form form button {
+    border: 1px solid   #ff837a;
+    border-radius: 5px;
+    padding:15px 20px;
+    color:  #ff837a;
+    font-size: 22px;
+    background: transparent;
+    text-align: center;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+section {
+    margin: 0;
+}
+.container {
+    padding:0;
+    margin:15px;
+}
+@media screen and (min-width: 768px) {
+    .location-form-section .content .map iframe {
+        height:400px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .location-form-section .content {
+        flex-flow: row nowrap;
+        margin-bottom:0;
+    }
+    .location-form-section .content .form {
+        width:400px;
+        padding: 20px 40px 10px;
+    }
+    .location-form-section .content .map iframe {
+        width:450px;
+        height:100%;
+    }
+    }
+@media screen and (min-width: 1200px) {
+    .location-form-section .content .map iframe {
+        width:600px;
+    }
+    .location-form-section .content .form {
+        width:450px;
+    }
+}

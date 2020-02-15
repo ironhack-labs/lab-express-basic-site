@@ -1,0 +1,406 @@
+.self-presentation {
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(to bottom, rgba(153, 184, 152, 1) 0%, rgba(254, 206, 168, 1) 0%, rgba(255, 133, 124, 1) 38%, rgba(232, 74, 95, 1) 59%, rgba(42, 54, 59, 1) 100%);
+    padding: 15px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.self-presentation .presentation-text {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+    z-index:2;
+}
+
+
+.self-presentation .presentation-text h1 {
+    font-size: 160px;
+    margin-bottom: 5px;
+    color: #2a363c;
+    font-family: 'Share Tech', sans-serif;
+    margin-top: 20px;
+}
+
+.self-presentation .presentation-text h2 {
+    color: white;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-family: 'Share Tech Mono', monospace;
+    display: inline-block;
+
+}
+
+.self-presentation .presentation-text h3 {
+    color: #2a363c;
+    font-size: 28px;
+    display: inline;
+    margin: 0 auto;
+    padding-right: 3px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.self-presentation .presentation-text .content {
+    background: #2a363c;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    box-shadow: 1px 15px 35px 7px rgba(0, 0, 0, 0.75);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.show-on-mobile {
+    display: inline-block;
+    cursor: pointer;
+    color:rgba(255, 133, 124, 1);
+    font-size: 24px;
+}
+.hide-on-modile {
+    display:none;
+}
+.self-presentation .presentation-text .content h4 {
+    color:rgba(255, 133, 124, 1);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.self-presentation .presentation-text .content ul {
+    padding-left: 20px;
+}
+.self-presentation .presentation-text .content li {
+    margin-bottom: 8px;
+    text-align: left;
+}
+.self-presentation .presentation-text .content li:before {
+    content: "\f054"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1em;
+    width: 1.3em;
+    color:rgba(255, 133, 124, 1);
+}
+.self-presentation .presentation-text .social-networks h3 {
+    font-size: 20px;
+    color: lightgrey;
+    margin-bottom: 15px;
+}
+
+.self-presentation .presentation-text .text {
+    margin-bottom: 30px;
+}
+
+.self-presentation .presentation-text .social-networks .icons svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+
+.self-presentation .presentation-text .social-networks .icons svg path {
+    stroke: black;
+    fill: white;
+
+}
+
+.self-presentation .presentation-text .social-networks .icons svg:hover path {
+    fill: red;
+}
+
+.self-presentation .presentation-text .social-networks .icons a:first-child svg {
+    margin-left: 0;
+}
+
+section h3.title {
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+section h4.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.section-presentation {
+    color: white;
+    padding: 20px;
+}
+
+.section-presentation p {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 22px;
+    text-align: left;
+}
+
+.section-presentation .title {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #ff837a;
+    text-align: center;
+}
+
+.habilities {
+    margin-top: 0;
+}
+
+.habilities .block {
+    margin-bottom: 20px;
+}
+
+.habilities .block > .title {
+    padding: 20px;
+    color: #ff837a;
+    font-weight: bold;
+    border-bottom: 4px solid #ff837a;
+    font-family: 'Share Tech Mono', monospace;
+    width: 82%;
+    text-transform: uppercase;
+    margin: 30px auto 20px;
+}
+
+.habilities .block .cards {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.habilities .block .cards .card, .other-habilities .content .card {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin: 30px 0;
+    color: white;
+}
+
+.habilities .block .cards .card img, .other-habilities .content .card img {
+    width: 20%;
+}
+.habilities .block .cards .card img {
+    max-height: 75px;
+}
+.other-habilities .content .card img.special-height {
+    height:60px;
+}
+
+.other-habilities .content .card img {
+    height: 60px;
+    margin-top: 30px;
+}
+
+.other-habilities .content .card .description {
+    margin-top: 25px;
+}
+
+.habilities .block .cards .card .description .title {
+    font-size: 20px;
+}
+
+.habilities .block .cards .card .percent-bar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.habilities .block .cards .card .description, .other-habilities .content .card .description {
+    width: 70%;
+    padding-left: 25px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.habilities .block .cards .card .percent-bar .fill {
+    height: 100%;
+    background: green;
+    width: 0%;
+    transition: width 1s;
+}
+
+.other-habilities .content {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.other-habilities .content .card .description .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+@media screen and (min-width: 585px) {
+    .section-presentation .title {
+        font-size: 51px;
+    }
+
+    .self-presentation {
+        padding: 30px;
+    }
+    .self-presentation .presentation-text h2 {
+        font-size: 52px;
+    }
+    .self-presentation .presentation-text h3 {
+        font-size: 31px;
+    }
+    .section-presentation p {
+        text-align: center;
+    }
+    .habilities .block .cards .card img {
+        max-height: 115px;
+    }
+    .self-presentation .presentation-text .content {
+        padding: 40px;
+    }
+    .self-presentation .presentation-text .content li:before {
+        margin-left: -0.5em;
+    }
+
+    .self-presentation .presentation-text h1 {
+        font-size: 172px;
+    }
+
+    .other-habilities .content .card img {
+        height: auto;
+        margin-top: 0;
+    }
+    .other-habilities .content .card img.special-height {
+        height:100px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .habilities .block > .title {
+        margin: 50px auto 20px;
+    }
+    .habilities .block .cards .card img {
+        max-height: none;
+    }
+
+    .habilities .block .cards {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .habilities .block .cards .card, .other-habilities .content .card {
+        width: 48%;
+    }
+
+    .other-habilities .content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .other-habilities .content .card {
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .other-habilities .content .card img {
+        margin: 0 auto;
+    }
+
+    .other-habilities .content .card .description {
+        width: 100%;
+        padding-left: 0;
+    }
+    .other-habilities .content .card img.special-height {
+        height:90px;
+        width: 90px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    section h4.title, section h3.title {
+        text-align: center;
+    }
+
+    .habilities .block .cards {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .show-on-mobile {
+        display: none;
+    }
+    .hide-on-modile {
+        display: inline-block;
+    }
+
+    .habilities .block .cards .card {
+        flex-flow: column;
+        text-align: center;
+        margin-bottom: 60px;
+        width: 33.33%;
+    }
+
+    .habilities .block .cards .card .description {
+        margin-top: 20px;
+        padding-left: 0;
+        width: 100%;
+        color: white;
+    }
+
+    .habilities .block .cards .card .description .title {
+        margin-bottom: 10px;
+    }
+
+    .habilities .block .cards .card .description .percent-bar {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .habilities .block .cards .card img, .other-habilities .content .card img {
+        margin: 0 auto;
+        height: 120px;
+        width: auto;
+    }
+
+    .habilities .block {
+        margin-bottom: 30px;
+    }
+
+    .section-presentation p {
+        text-align: center;
+    }
+    .other-habilities .content .card img.special-height {
+        height:130px;
+        width: auto;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .self-presentation {
+        flex-flow: row nowrap;
+        padding-bottom: 90px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .habilities .block .cards {
+        margin-top: 60px;
+    }
+
+    .habilities .block .cards .card, .other-habilities .content .card {
+        width: 33%;
+    }
+}

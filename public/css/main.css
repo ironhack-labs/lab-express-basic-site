@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+/*RESET STYLES*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1.3;
+    background: #2a363c;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*FIN RESET STYLES*/
+
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.full-background {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    font-size: 72vw;
+    color: white;
+    opacity: 0.1;
+    top: 40px;
+
+    font-family: 'Share Tech', sans-serif;
+
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+
+}
+
+section {
+    margin: 30px 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 2;
+}
+
+header .redes svg {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+header .redes svg path {
+    fill: #ff837a;
+}
+
+header .redes svg .fill {
+    fill: #2a363c !important;
+}
+
+
+header .redes svg:hover path {
+    fill: #dcb339;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: width 1s;
+    width: 50px;
+    color: #ff837a;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ff837a;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #dcb339;
+}
+
+header nav a, header nav .close {
+    display: inline-block;
+    max-width: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+header nav.opened {
+    width: 55%;
+}
+
+header nav.opened .letter {
+    display: none;
+}
+
+header nav.opened .close, header nav.opened a {
+    max-width: none;
+}
+
+footer .i-contact-you {
+    background: #2a363c;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+footer .i-contact-you .title {
+    color: #ff837a;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+footer .i-contact-you p {
+    font-size: 18px;
+    color: white;
+
+}
+
+footer .i-contact-you .form-send-email input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff837a;
+    color: white;
+    box-shadow: none;
+    padding: 10px 0;
+    width: 65%;
+    font-size: 18px;
+}
+
+footer .i-contact-you .form-send-email button {
+    border: 1px solid #ff837a;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #ff837a;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: transparent;
+    margin-left: 10px;
+}
+
+footer .i-contact-you .form-send-email form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .i-contact-you .info-text {
+    margin-bottom: 20px;
+}
+
+footer .i-contact-you .info-text .title {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer .footer {
+    background: #2a363c;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 20px;
+    color: #ff837a;
+}
+
+footer .footer .social-icons a {
+    margin: 0 5px;
+}
+
+footer .footer .social-icons a svg path {
+    fill: #ff837a;
+}
+
+footer .footer .social-icons a svg .fill {
+    fill: #2a363c !important;
+}
+
+@media screen and (min-width: 585px) {
+    header nav.opened {
+        width: 40%;
+    }
+
+    header nav a {
+        font-size: 18px;
+    }
+
+    footer .i-contact-you .form-send-email input {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    header nav {
+        width: auto;
+        font-size: 18px;
+    }
+
+    header nav .letter, header nav .close, header nav span {
+        display: none;
+    }
+
+    header nav a {
+        max-width: none;
+    }
+
+    header nav a {
+        margin-right: 20px;
+    }
+
+    header nav > a:last-child {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    section h4.title, section h3.title {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        margin: 60px 0;
+    }
+
+    footer .i-contact-you {
+        flex-flow: row nowrap;
+        padding: 40px;
+    }
+
+    footer .i-contact-you .info-text, footer .i-contact-you .form-send-email {
+        width: 50%;
+
+    }
+
+    footer .i-contact-you .info-text {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    section {
+        margin: 90px 0;
+    }
+
+}
