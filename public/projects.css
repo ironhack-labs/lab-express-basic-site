@@ -1,0 +1,250 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #242424;
+}
+
+/* Nav */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 1px;
+    width: 100%; 
+    z-index:1; 
+}
+
+.menu-logo-container {
+    flex-grow: 1; 
+}
+
+.menu-logo {
+    width: 35px;
+    padding: 25px;
+}
+
+.menu-icon-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-icon {
+    width: 35px;
+    padding: 25px;
+}
+
+.menu-list{
+    display: none;
+    visibility: hidden;
+}
+
+/* Main */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px 40px 0px;
+    justify-content: center;
+}
+
+.project1-cover {
+    margin: 2px;
+    width: 650px;
+    height: 350px;
+    flex-wrap: wrap;
+    background-image: url("../img/img-project-1.jpg");
+    text-decoration: none;
+}
+
+.project2-cover {
+    margin: 2px;
+    width: 650px;
+    height: 350px;
+    flex-wrap: wrap;
+    background-image: url("../img/img-project-2.jpg");
+    text-decoration: none; 
+}
+
+.project3-cover {
+    margin: 2px;
+    width: 650px;
+    height: 350px;
+    flex-wrap: wrap;
+    background-image: url("../img/img-project-3.jpg");
+    text-decoration: none;  
+}
+
+.project4-cover {
+    margin: 2px;
+    width: 650px;
+    height: 350px;
+    flex-wrap: wrap;
+    background-image: url("../img/img-project-4.jpg");
+    text-decoration: none;  
+}
+
+.project5-cover {
+    margin: 2px;
+    width: 650px;
+    height: 350px;
+    flex-wrap: wrap;
+    background-image: url("../img/img-project-5.jpg");
+    text-decoration: none;  
+}
+
+.project6-cover {
+    margin: 2px;
+    width: 650px;
+    height: 350px;
+    flex-wrap: wrap;
+    background-image: url("../img/img-project-6.jpg");
+    text-decoration: none;  
+}
+
+.title {
+    margin: 120px 0px 70px 0px;
+    text-align: center;
+    font-size: 6rem;
+    color: #2CEAA3;
+}
+
+.project-title {
+    font-size: 3rem;
+    padding: 40px 0px 0px 30px;
+}
+
+.project-title:hover {
+    font-size: 3.5rem;
+}
+
+
+/* footer */
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icon {
+    width: 30px;
+    margin: 20px 20px 40px 20px;
+}
+
+.footer-credits {
+    background-color: #242424;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+}
+
+
+.footer-credits-text {
+    color: white;
+}
+
+/* Media Queries for IPAD */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .menu {
+        position: absolute;
+    }
+    .menu-icon {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-list{
+        display: flex;
+        visibility: inherit;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        list-style: none;
+    }
+
+    .menu-element {
+        text-decoration: none;
+        margin-right: 16px;
+        padding: 9px;
+        font-size: 1.4rem;
+    }
+
+    .menu-element:hover {
+        color: white;
+        background-color: #2CEAA3;
+    }
+  }
+
+  /* Media Queries for Desktop */
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .menu {
+        position: absolute;
+    }
+    .menu-icon {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-list{
+        display: flex;
+        visibility: inherit;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        list-style: none;
+    }
+
+    .menu-element {
+        text-decoration: none;
+        margin-right: 16px;
+        padding: 9px;
+        font-size: 1.4rem;
+    }
+
+    .menu-element:hover {
+        color: white;
+        background-color: #2CEAA3;
+    }
+  }
+
+  @media (min-width: 1281px) {
+  
+    .menu {
+        position: absolute;
+    }
+    .menu-icon {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-list{
+        display: flex;
+        visibility: inherit;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        list-style: none;
+    }
+
+    .menu-element {
+        text-decoration: none;
+        margin-right: 16px;
+        padding: 9px;
+        font-size: 1.4rem;
+    }
+
+    .menu-element:hover {
+        color: white;
+        background-color: #2CEAA3;
+    }
+  }

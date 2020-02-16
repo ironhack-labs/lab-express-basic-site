@@ -1,0 +1,54 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Kollektif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+
+.under-construction-container {
+    padding: 320px 0px 320px 0px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.under-construction-title {
+    font-size: 6rem;
+    margin-bottom: 40px;
+}
+
+.construction-button {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 12px 80px 12px 80px;
+    background-color: #2CEAA3;
+    color: #242424;
+}
+
+.construction-button:hover {
+    font-size: 2.5rem;
+}
+
+/* footer */
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icon {
+    width: 30px;
+    padding: 40px 20px 40px 20px;
+}
+
+.footer-credits {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.footer-credits-text {
+    color:#242424;
+}
