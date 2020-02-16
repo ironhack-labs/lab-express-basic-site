@@ -1,0 +1,12 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
