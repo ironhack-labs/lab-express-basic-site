@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+body {
+  font-family: 'Raleway', sans-serif;
+  background:white;
+  margin: 0;
+}
+
+.about-me{
+  padding-top: 70px;
+  text-align: center;
+  background-color: pink;
+  border-bottom: pink solid 40px;
+}
+  
+  a {
+    color: #000;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: pink;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+   
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: black;
+    color: pink;
+    
+  }
+  
+  .header .logo {
+    
+    background-color: pink;
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+
+    .wrapper {
+  
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      width: 300px;
+      height: 500px;
+      perspective: 900px;
+    }
+    
+    .container {
+     
+      position: absolute;
+      top: 0%;
+      width: 100%;
+      height: 100%;
+      transition: .5s all ease;
+      transform: rotateX(60deg) scale(0.7);
+      perspective: 900px;
+      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+      animation: entry 1s linear 1;
+    }
+    
+    #c0 {
+      
+      
+      position: absolute;
+      top: 0%;
+      width: 100%;
+      height: 100%;
+      /* background: linear-gradient(to bottom, pink 30%, p rgb(245, 151, 167)  100%%); */
+      background-image: url(/public/img/microsoft-office-png-logo-4821-64x64.ico);
+
+      z-index: 300;
+      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+    }
+    
+    #c1 {
+      
+      background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
+      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+      left: 100%;
+      z-index: 0;
+    }
+    
+    #c2 {
+      left: -100%;
+      z-index: 0;
+      background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
+      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+    }
+    
+    .container:hover {
+      cursor: pointer;
+      transform: rotate(0deg) scale(1) translateY(10px);
+      transition: .5s all ease;
+      z-index: 400;
+    }
+    
+    .image {
+      
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 45%;
+      
+      background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
+    }
+    
+    #i1 {
+    
+      background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
+    }
+    
+    #i2 {
+     
+      background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
+    }
+    
+    span {
+      position: absolute;
+      top: 0%;
+      left: 55%;
+      border-radius: 100%;
+      background-color: #fff;
+      z-index: 10;
+    }
+
+    #sh2 {
+      opacity: 0.5;
+    }
+    
+    #sh3 {
+      opacity: 0.3;
+    }
+    .story {
+      
+      position: absolute;
+      top: 45%;
+      left: 0%;
+      height: 55%;
+      width: 100%;
+      background: linear-gradient(to top, pink 30%,  rgb(245, 151, 167) 100%);
+      z-index: 30;
+    }
+    
+    #s1 {
+      
+      background: linear-gradient(to top, pink 30%,  rgb(245, 151, 167)  100%);
+    }
+    
+    #s2 {
+      background: linear-gradient(to top,pink 30%,  rgb(245, 151, 167) 100%);
+    }
+    
+    .info {
+      position: absolute;
+      top: 10%;
+    }
+    
+    h3 {
+     
+      text-align: center;
+      text-shadow: 0px 0px 10px black;
+      color: black;
+      letter-spacing: 2px;
+    }
+    
+    
+    
+    h1 {
+      color: rgb(245, 151, 167);
+      text-shadow: 0px 0px 10px pink;
+      text-align: center;
+
+      
+      left: 30%;
+      letter-spacing: 2px;
+    }
+    
+    .about-project{
+      font-size: 14px;
+      color: black;
+      text-shadow: 0px 0px 10px black;
+      padding: 0px 20px 20px 20px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    
+    
+    
+    
+    @keyframes simple {
+      50% {
+        transform: translateX(10px);
+        opacity: 0.5;
+      }
+      100% {
+        transform: translateX(10px);
+        opacity: 0;
+      }
+    }
+    
+    @keyframes simple1 {
+      50% {
+        transform: translateX(-10px);
+        opacity: 0.5;
+      }
+      100% {
+        transform: translateX(-10px);
+        opacity: 0;
+      }
+    }
+    
+    @keyframes entry {
+      0% {
+        top: -20%;
+        opacity: 0.1;
+      }
+      100% {
+        top: 0%;
+      }
+    }
+
+
+
+
+
+
+    
+  }
+      .contact-icons{
+        background-color: pink;
+          padding-top: 10%;
+          list-style-type: none;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: space-around;
+          align-items: center;
+      
+      }
+
+
