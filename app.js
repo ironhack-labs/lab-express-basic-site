@@ -9,4 +9,12 @@ app.get('/', (request, response) => {
   response.sendFile(path.join(__dirname, '/views/home.html'));
 });
 
+app.get('/about', (request, response) => {
+  response.sendFile(path.join(__dirname, '/views/about.html'));
+});
+
+app.get('/works', (request, response) => {
+  response.sendFile(path.join(__dirname, '/views/works.html'));
+});
+
 app.listen(3000);
