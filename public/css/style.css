@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 body {
   font-family: 'Raleway', sans-serif;
-  background:white;
+  background:black;
   margin: 0;
 }
 
@@ -41,10 +41,11 @@ body {
   .header .logo {
     
     background-color: pink;
+    text-shadow: 0px 0px 10px black;
     display: block;
     float: left;
     font-size: 2em;
-    padding: 10px 20px;
+    padding: 10px 21px;
     text-decoration: none;
   }
   
@@ -157,7 +158,7 @@ body {
       transition: .5s all ease;
       transform: rotateX(60deg) scale(0.7);
       perspective: 900px;
-      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+      /* box-shadow: 0px 10px 15px pink; */
       animation: entry 1s linear 1;
     }
     
@@ -169,16 +170,16 @@ body {
       width: 100%;
       height: 100%;
       /* background: linear-gradient(to bottom, pink 30%, p rgb(245, 151, 167)  100%%); */
-      background-image: url(/public/img/microsoft-office-png-logo-4821-64x64.ico);
+      
 
       z-index: 300;
-      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+      /* box-shadow: 0px 20px 50px rgb(245, 151, 167); */
     }
     
     #c1 {
       
       background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
-      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+      /* box-shadow: 0px 20px 50px rgb(245, 151, 167); */
       left: 100%;
       z-index: 0;
     }
@@ -187,7 +188,7 @@ body {
       left: -100%;
       z-index: 0;
       background: linear-gradient(to bottom, pink 30%,  rgb(245, 151, 167)  100%);
-      box-shadow: 0px 20px 50px rgb(245, 151, 167);
+      /* box-shadow: 0px 20px 50px rgb(245, 151, 167); */
     }
     
     .container:hover {
@@ -270,19 +271,23 @@ body {
     
     
     h1 {
-      color: rgb(245, 151, 167);
-      text-shadow: 0px 0px 10px pink;
+      color:black;
+      text-shadow: 0px 0px 10px black;
       text-align: center;
-
+      margin-top: 0;
       
+      background-color: pink;
       left: 30%;
       letter-spacing: 2px;
+      font-size: 2em;
+      border-bottom: pink solid 3px;
+    padding: 10px 20px;
     }
     
     .about-project{
       font-size: 14px;
       color: black;
-      text-shadow: 0px 0px 10px black;
+      
       padding: 0px 20px 20px 20px;
       line-height: 150%;
       text-align: center;
