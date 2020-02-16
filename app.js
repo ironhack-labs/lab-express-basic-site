@@ -2,19 +2,19 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
+const port = 3000;
+
+app.set('views', path.join(__dirname, '/views'));
+app.set('view engine', 'hbs');
 
 app.use(express.static('public'));
 
-app.get('/', (request, response) => {
-  response.sendFile(path.join(__dirname, '/views/home.html'));
-});
+const data = {
+  today: new Date().toLocaleString('en-US'),
+};
 
-app.get('/about', (request, response) => {
-  response.sendFile(path.join(__dirname, '/views/about.html'));
-});
+app.get('/', (req, res) => res.render('home', data));
+app.get('/about', (req, res) => res.render('about'));
+app.get('/works', (req, res) => res.render('works'));
 
-app.get('/works', (request, response) => {
-  response.sendFile(path.join(__dirname, '/views/works.html'));
-});
-
-app.listen(3000);
+app.listen(port, () => console.log(`App listening on port ${port}`));

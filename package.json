@@ -12,14 +12,15 @@
     "url": "git+https://github.com/michaelsmueller/lab-express-basic-site.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Michael Mueller",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/michaelsmueller/lab-express-basic-site/issues"
   },
   "homepage": "https://github.com/michaelsmueller/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
