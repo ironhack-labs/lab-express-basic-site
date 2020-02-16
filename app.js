@@ -17,4 +17,4 @@ app.get('/', (req, res) => res.render('home', data));
 app.get('/about', (req, res) => res.render('about'));
 app.get('/works', (req, res) => res.render('works'));
 
-app.listen(port, () => console.log(`App listening on port ${port}`));
+app.listen(port);
