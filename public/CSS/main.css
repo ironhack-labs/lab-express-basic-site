@@ -1,0 +1,103 @@
+.fix-nav-bar {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #012a5aa6;
+    
+  }
+  .button {
+      background-color: #4f9afc8c;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      border: 10px solid #4f9afc8c;
+      width: 180px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: normal;
+      
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+    height: 100%;
+  }
+  
+  .contactimage {
+      width: 20px;
+      height: 20px;
+      padding: 20px;
+  }
+
+
+  .imagestatement {
+    background-image: url(./assets/portada2.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    align-items: center;  
+    display: inline-block;
+
+}
+
+.imagestatement img{
+  width: 100%;
+}
+
+
+.brandstatement{
+    position: absolute;
+    color:white;
+    font-size: 30px;
+    font-style: initial;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.brandstatement2{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-style: initial;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.myphoto{
+  border: #4f9afc8c;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  position: inherit;
+  display: inline;
+
+}
+
+.intro{
+  align-items: center;
+  position: inherit;
+  display:
+}
+
+.background{
+  position: inherit;
+  display: list-item;
+}
+
