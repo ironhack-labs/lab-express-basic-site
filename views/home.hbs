@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Raquel Muniesa</title>
+</head>
+<body class="page-home">
+  <header class="header">
+    <div class="container-header">
+      <figure class="top-header-image">
+        <a href="/"><img src="images/Raquel Muniesa copia.png" alt="logo" class="logo"></a>
+      </figure>
+      <figure>
+        <img src="images/menu (2).png" alt="menu.icon" class="menu-small" id="menu-small">
+      </figure>
+      <nav class="menu-large">
+          <ul>
+              <li><a href= "/">Home</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-main">
+      <figure class="circulo">
+        <img src="images/profile.png" alt="profile" class="image-profile">
+      </figure>
+      <div>
+        <h1 class="title">Hi! I'm <span class="name">Raquel Muniesa</span></h1>
+      </div>
+    </div>
+  </main>
+  <section class="container-description">
+    <p class="description">I'm full stack developer based in Barcelona, Spain, with background on social work.</p>
+  </section>
+  <section class="social-media">
+    <i class="fab fa-github"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-whatsapp"></i>
+  </section>
+
+  <script>
+    (function() {
+
+      document.getElementById("menu-small").addEventListener("click", openMenu);
+
+      function openMenu(){
+        document.getElementById("menu-small").style.display = "none";
+        document.getElementsByClassName("menu-large")[0].style.display = "flex"
+      }
+
+    })();
+  </script>
+</body>
+</html>

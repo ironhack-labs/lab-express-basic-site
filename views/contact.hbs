@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Raquel Muniesa</title>
+</head>
+<body class="page-projects">
+  <header class="header">
+    <div class="container-header">
+      <figure class="top-header-image">
+        <a href="/"> <img src="images/Raquel Muniesa copia.png" alt="logo" class="logo"></a>
+      </figure>
+      <figure>
+        <img src="images/menu (2).png" alt="menu.icon" class="menu-small" id="menu-small">
+      </figure>
+      <nav class="menu-large">
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="dark-background"></div>
+  <section class="container-contact">
+    <figure class="circulo circulo-small">
+      <img src="images/profile.png" alt="profile" class="image-profile">
+    </figure>
+    <div class="contact">
+      <p><i class="far fa-envelope icon-contact"></i>raquel.muniesa@gmail.com</p>
+      <p><i class="fas fa-search icon-contact"></i>www.raquelmuniesa.com</p>
+      <p> <i class="fab fa-whatsapp icon-contact"></i> +34 637 443 638</p>
+      <p><i class="fab fa-linkedin icon-contact"></i></p>
+    </div>
+  </section>
+  <script>
+    (function() {
+
+      document.getElementById("menu-small").addEventListener("click", openMenu);
+        
+      function openMenu(){
+        document.getElementById("menu-small").style.display = "none";
+        document.getElementsByClassName("menu-large")[0].style.display = "flex";
+      }
+    
+    })();
+  </script>
+</body>
+</html>  
+ 
+     
+
