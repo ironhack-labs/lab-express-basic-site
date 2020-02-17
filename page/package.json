@@ -1,8 +1,19 @@
 {
-  "name": "page",
+  "name": "lab-express-basic-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "homepage": "https://github.com/msallito510/lab-express-basic-site/blob/master/README.md",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "scripts": {
     "start": "node app.js",
     "init": "eslint --init",
@@ -10,16 +21,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "nodemon": "^2.0.2"
-  }
+  "author": "Marcelo Sallito",
+  "license": "ISC"
 }
