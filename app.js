@@ -11,5 +11,6 @@ app.use(express.static('public'));
 app.get('/home', (request, response, next) => response.sendFile('C:/Users/Thibault/Desktop/Node/lab-express-basic-site/views/home-page.html'));
 app.get('/about', (request, response, next) => response.sendFile('C:/Users/Thibault/Desktop/Node/lab-express-basic-site/views/about.html'));
 app.get('/works', (request, response, next) => response.sendFile('C:/Users/Thibault/Desktop/Node/lab-express-basic-site/views/works.html'));
+app.get('/gallery', (request, response, next) => response.sendFile('C:/Users/Thibault/Desktop/Node/lab-express-basic-site/views/gallery.html'));
 // Server Started
 app.listen(3000, () => console.log('My first app listening on port 3000! '));
