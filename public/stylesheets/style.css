@@ -1,15 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
 title {
     font-weight: bold;
 }
 
-body {
-    background-color: lightgrey;
+h1 {
+    background-color: lightblue;
 }
 
 section {
     color: black;
+    background-color: white;
 }
 
 a {
     text-decoration: none;
+}
+
+#language-container {
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#language {
+    display:flex;
+    text-align:center;
+    color:pink;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 30%;
+}
+
+button {
+    margin:5px;
+    background-color: lightpink;
+    color:white;
+    text-decoration: none;
+
 }
