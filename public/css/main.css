@@ -1,0 +1,106 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bgGrey {
+    background-color: #1F2021;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.nav {
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    padding-top: 25px;
+}
+  
+.nav > ul  {
+   float: right;
+   display: flex;
+}
+
+.nav li {
+    display: block;    
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Courgette', cursive; 
+}
+
+.nav li:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.nav li:not(:last-child) {
+    border-right: red 1px solid;
+}
+
+.nav > h2 {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lobster';
+}
+
+.links{
+  color: black;
+  text-decoration: none;
+}
+
+.redLine {
+    height: 5px;
+    background-color: red;
+}
+
+.footer {
+  width: 100%;
+  height: 4 0px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.boxFooterAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textFooter {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.iconResponsive {
+  visibility: hidden;
+  
+}
+
+@media (max-width: 1100px) {
+  
+  .nav > ul {
+    visibility: hidden;
+  }
+
+  .iconResponsive {
+    visibility: visible;
+  }
+}
