@@ -3,9 +3,14 @@ const app = express();
 
 app.use(express.static('public'));
 
-app.get('/home', (request, response, next) => {
-    console.log(request);
-    response.send('<h1>Express lab</h1>')
-  });
+app.get('/home', (request, response, next) =>
+      response.sendFile(__dirname + '/views/home.html'))
 
-  app.listen(3000, () => console.log('My first app listening on port 3000! '));  
+
+    app.get('/gallery', (request, response, next) =>
+      response.sendFile(__dirname + '/views/gallery.html'))
+
+    app.get('/about', (request, response, next) =>
+      response.sendFile(__dirname + '/views/about.html'))
+
+app.listen(3000, () => console.log('My first app listening on port 3000! '));
