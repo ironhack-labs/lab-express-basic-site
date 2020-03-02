@@ -106,3 +106,17 @@
     color: white;
     flex-direction: column;
 }
+.Works h2, p {
+    margin-right: auto;
+}
+.Works header{
+    font-size: 3rem;
+    text-decoration: white;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    font-variant: small-caps;
+}
+.Works li{
+    list-style: disc;
+    padding: 5px;
+}
