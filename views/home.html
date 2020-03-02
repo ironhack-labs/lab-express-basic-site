@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http:///ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javas.js"></script>
+</head>
+<body>
+    <div id="bg" >
+        <div class="Home">
+            <img src="/images/tweety.gif" alt="error loading" />
+            <header>Welcome to Tweety's Page!</header>
+        </div>
+    </div>
+    <section id="navbar">
+        <nav >
+            <div> </div>
+            <ul> 
+                <li><a href="/" data-xcoord="0px" class="list-item active">Home</a></li>
+                <li><a href="/about" data-xcoord="160px" class="list-item">About</a></li>
+                <li><a href="/works" data-xcoord="320px" class="list-item">Works</a></li>
+                <li><a href="/photos" data-xcoord="480px" class="list-item">Photo Gallery</a></li>
+            </ul>
+       
+        </nav>
+        <!-- <div>
+            Welcome to Tweety's Page!
+        </div> -->
+    </section>
+    <!-- <script>
+        var navbar= document.getElementById("navbar")
+        var listItems= navbar.getElementsByClassName("list-item")
+        var activeDiv= navbar.getElementsByTagName("div")
+        console.log('navbar element',navbar)
+        console.log('activeLI element',listItems)
+        console.log('activeDIV element',activeDiv)
+        
+        for (var i = 0; i < listItems.length; i++) {
+        listItems[i].addEventListener("click",function(){
+            console.log('this',this)
+            var xcoord = this.data("xcoord");
+            // var current = document.getElementsByClassName("active");
+            // current[0].className = current[0].className.replace(" active", "");
+            // this.className += " active";
+            activeDiv.stop().animate({marginLeft:xcoord}, 500, "easeInOutExpo");
+            this.addClass("active");
+            listItems.not(this).removeClass("active");
+        });
+        }
+    </script> -->
+    <script src="/navbar.js"></script>
+</body>
+</html>

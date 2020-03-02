@@ -1,0 +1,108 @@
+/* body {
+    color: goldenrod;
+    background-color: navy;
+  } */
+#bg{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    /* height:100%; */
+  background: #38a8d1;
+  background: -moz-linear-gradient(top,  #38a8d1 0%, #34bc9a 36%, #34bc9a 57%, #8645f7 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#38a8d1), color-stop(36%,#34bc9a), color-stop(57%,#34bc9a), color-stop(100%,#8645f7));
+  background: -webkit-linear-gradient(top,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+  background: -o-linear-gradient(top,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+  background: -ms-linear-gradient(top,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+  background: linear-gradient(to bottom,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38a8d1', endColorstr='#8645f7',GradientType=0 );
+  }
+  
+  section{
+    position:relative;
+    width:640px;
+    margin:50px auto;
+  }
+  nav{
+    width:100%;
+  }
+  nav ul li{
+    display:inline-block;
+    list-style:none;
+    width:160px;
+    text-align:center;
+    font-family:Helvetica, sans-serif;
+    border: 1px dashed rgba(255,255,255, 0);
+    padding:10px 0 10px 0;
+    margin:-1px -5px -1px -1px;
+    cursor:pointer;
+    transition:all .2s;
+    -webkit-transition:all .2s;
+  }
+  nav ul li:hover{
+    /*border:1px dashed #fff;*/
+    background:rgba(255,255,255,.1);
+  }
+
+  nav ul{
+    border: 1px solid #fff;
+    position:absolute;
+    width:100%;
+    padding:0;
+    z-index:100;
+  }
+  nav div{
+    position:absolute;
+    margin-left:0;
+    top:16px;
+    background: #fff;
+    width:162px;
+    height:40px;
+    z-index:99;
+  }
+  nav a {
+    text-decoration: none;
+    color:#fff;
+  }
+  .active{
+    color:rgba(55, 186, 177, 1);
+  }
+  .Home {
+      display: flex;
+      justify-content:  center;
+      align-items: center;
+      font-size: 3rem;
+      padding: 300px;
+      color: white;
+      flex-direction: column;
+  }
+  .About {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    padding: 150px;
+    color: white;
+    flex-direction: column;
+}
+.About h2 {
+    margin-right: auto;
+}
+.About header{
+    font-size: 3rem;
+    text-decoration: white;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    font-variant: small-caps;
+}
+.About li{
+    list-style: none;
+    padding: 5px;
+}
+.Works {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    padding: 150px;
+    color: white;
+    flex-direction: column;
+}
