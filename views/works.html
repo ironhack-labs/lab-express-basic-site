@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express lab - works page</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="https://en.wikipedia.org/wiki/James_Joyce" target="_blank">JamesJoyce</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav container">
+                    <a class="nav-item nav-link" href="home">Home</a>
+                    <a class="nav-item nav-link" href="about">About</a>
+                    <a class="nav-item nav-link active" href="works">Works <span class="sr-only">(current)</span></a>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    </section>
+   
+    <section class="main-body">
+        <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/ulysses.jpg" alt="Ulysses of Joyce">     
+            </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/ulysses.jpg" alt="Ulysses of Joyce">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/ulysses.jpg" alt="Ulysses of Joyce">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="container-text quotes">
+            <div class="poetry">"I confess that I do not see what good it does to fulminate against the English tyranny while the Roman tyranny occupies the palace of the soul."</div>
+            <a class="signature">James Joyce</a> <br>
+            <div class="poetry">"History, Stephen said, is a nightmare from which I am trying to awake."</div>
+            <a class="signature">James Joyce</a> <br>  
+            <div class="poetry">"I love flowers Id love to have the whole place swimming in roses God of heaven theres nothing like nature the wild mountains then the sea and the waves rushing then the beautiful country with the fields of oats and wheat and all kinds of things"</div>
+            <a class="signature">James Joyce</a>
+          </div>
+    </section>      
+    <footer>
+      It's a real gallery, I just believe that the 'Ulysses' by Joyce is one of the masterpieces of literature. And I reproduced it 3 times.
+    </footer>  
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
