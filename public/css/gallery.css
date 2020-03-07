@@ -1,0 +1,34 @@
+* {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  max-width: 100vw;
+  width: 100%;
+  text-align: center;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  
+  padding: 0;
+}
+
+li{
+    padding: 30px;
+    font-size: 1.5rem;
+}
