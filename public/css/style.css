@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+nav ul {
+    margin: 20px;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+article {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.image-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-list>li {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+li>img {
+    width: 500px;
+}
