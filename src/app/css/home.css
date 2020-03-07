@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30px;
+    background-color: white;
+}
+
+
+header > nav{
+    height: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header > nav > ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-decoration: transparent;
+}
+header > nav > ul> li>a{
+    text-decoration: transparent;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center ;
+}
+
+.principal > h1{
+    text-align: center;
+}
+
+
+.principal > div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.elonElegante{
+    height: 500px;
+    width: auto;
+}
+
+.cyberTruck {
+    height: 500px
+}
+
+footer{
+    height: 50px;
+    background-color: darkslategray;
+}
+
+footer > div {
+    height: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+footer > div > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer > div > ul> li>a{
+    text-decoration: transparent;
+    color:wheat;
+    font-size: 20px;
+
+}
