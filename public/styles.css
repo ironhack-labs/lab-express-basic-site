@@ -1,0 +1,27 @@
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#messi {
+    width: 50%;
+}
+
+.works {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.club-img {
+    width: 35%;
+}
+
+.club {
+    width: 20%;
+}
