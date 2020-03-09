@@ -1,0 +1,162 @@
+* {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.body-background {
+    background-color: rgb(202, 244, 140);
+    margin: 0 200px 100px 200px;
+    text-align: justify;
+}
+
+.body-background-gallery {
+    background-color: rgb(202, 244, 140);
+}
+
+#home-background {
+    background-color: rgb(202, 244, 140);
+}
+
+#home-cover-img {
+    background-image: url(../images/penalti_liberta.jpg);
+    filter: saturate(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    width: 100%;
+    height: 700px;
+    padding: 0px 0 0 0;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    line-height: 3.5em;
+}
+
+#cover-text {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 80px 0 0 820px;
+}
+
+#home-title {
+    margin: 0;
+    background-color: rgb(202, 244, 140);
+    font-size: 8em;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    color: green;
+}
+
+.home-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.link-style {
+    text-decoration: none;
+}
+
+.home-button {
+    margin: 0 30px;
+    font-size: 30px;
+    display: block;
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 350px;
+    cursor: pointer;
+}
+
+.home-container {
+    margin: 50px 0 0 100px;
+    padding-bottom: 100px;
+}
+
+#images-title {
+    text-decoration: underline;
+    padding-top: 10px;
+
+    
+}
+
+.back-button {
+    margin: 50px 30px 0 30px;
+    font-size: 30px;
+    display: block;
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* === Gallery === */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+.column img:hover {
+    opacity: 1;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.container {
+    position: relative;
+    display: none;
+  }
+  
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="css/stylesheets.css">
+</head>
+<body class="body-background-gallery">
+  <header>
+    <div>
+      <button type="button" class="back-button">
+        <a href="/" class="link-style">
+          <p class="link">Home</p>  
+        </a>
+      </button>
+    </div>
+    <div style="text-align:center">
+      <h2 id="images-title">Photo Gallery</h2>
+      <p>Click on the images below:</p>
+    </div>
+  </header>
+
+
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="images/comemoracao-1.jpg" alt="Marcos celebrates a penalty's defense" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/comemoracao-3.jpeg" alt="Marcos celebrates a win" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/comemoracao-4.jpg" alt="Marcos thanking God during a match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/comemoracao-final-copa.jpg" alt="Marcos celebrating the World Cup title" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/comemoracao.jpeg" alt="Marcos celebrates the Copa Libertadores title" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/copa-mundo.jpg" alt="Marcos in action during a World Cup match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-copa.jpg" alt="Defense against Belgium during the World Cup" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-final-copa-3.jpeg" alt="Great defense against Germany during the World Cup final match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-marcelinho-2.jpg" alt="Marcos in action, about to defend Marcelinho's penalty" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-marcelinho-3.jpg" alt="Penalty defense against Corinthians in 2000 Copa Libertadores semifinal match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-marcelinho-5.jpg" alt="Penalty defense against Corinthians in 2000 Copa Libertadores semifinal match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/penalti_liberta.jpg" alt="Penalty defense against Corinthians in 2000 Copa Libertadores semifinal match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-penati-derby.jpg" alt="Penalty defense against Corinthians in 1999 Copa Libertadores quarter-final match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-penati-derby-2.jpg" alt="Marcos celebrates defense against Corinthians during a penalty shootout" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/final-libertadores.jpg" alt="Marcos celebration after the last penalty was missed by Deportivo Cali during final match of 1999 Copa Libertadores" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/comemoracao-copa.jpg" alt="Marcos thanking God during a World Cup match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa.jpg" alt="Marcos making a save during a Palmeiras's match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/defesa-palmeiras.jpg" alt="Marcos making a save during a Palmeiras's match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/treino-palmeiras.jpg" alt="Marcos making a save during a Palmeiras's traning session" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/despedida.jpg" alt="Marcos celebrates the goal he scored in penalty kick during his festive friendly goodbye match" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
