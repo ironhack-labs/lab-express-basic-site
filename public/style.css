@@ -1,0 +1,21 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,121,9,1) 48%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+a{
+   text-decoration: none;
+   color: rgb(176, 212, 46);
+}
+
+.lines {
+    display:flex;
+   justify-content: space-evenly;
+   background-color: rgba(184, 3, 169,0.3);
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
