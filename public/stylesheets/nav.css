@@ -1,23 +1,25 @@
 .navbar {
   display: flex;
   justify-content: flex-end;
+  background-color: #000000;
   width: 100%;
 }
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 2%;
   width: 30%;
 }
 
-.navbar .nav {
-  list-style: none;
-}
-
-.nav .nav-item {
-  width: 100%;
-}
-
 .nav-link {
+  color: #ffffff;
+  margin: 5% 0;
+  padding: 2%;
   text-decoration: none;
+}
+
+.nav-link:hover {
+  border: 1px solid #af9494;
 }
