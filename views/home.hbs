@@ -37,18 +37,28 @@
                 </div>
               </div>
  
-              <a class="hero-carousel-prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="hero-carousel-next" onclick="plusSlides(1)">&#10095;</a>
+              {{!-- <a class="hero-carousel-prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="hero-carousel-next" onclick="plusSlides(1)">&#10095;</a> --}}
             </div>
             <br>
 
-            {{!-- <div class="hero-dots">
-              <span class="hero-carousel-dot" onclick="currentSlide(1)"></span>
-              <span class="hero-carousel-dot" onclick="currentSlide(2)"></span>
-              <span class="hero-carousel-dot" onclick="currentSlide(3)"></span>
-              <span class="hero-carousel-dot" onclick="currentSlide(4)"></span>
-              <span class="hero-carousel-dot" onclick="currentSlide(5)"></span>
-            </div>           --}}
        </div>
+       <script>
+          var slideIndex = 0;
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName('hero-carousel');
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = 'none';
+                }
+                 slideIndex++;
+            if (slideIndex > slides.length) {
+                 slideIndex = 1;
+                }
+                slides[slideIndex - 1].style.display = 'block';                    
+                setTimeout(showSlides,5000); // Change image every 2 seconds
+              }
+              showSlides();
+        </script>
     </main>
 
