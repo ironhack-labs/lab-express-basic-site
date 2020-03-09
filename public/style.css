@@ -1,0 +1,30 @@
+body {
+    background-color: #acd951;
+    color: #873269;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline;
+    padding: 4px;
+    background-color: #873269;
+    border: 1px solid #873269;
+}
+
+li>a {
+    color: #acd951;
+    text-decoration: none;
+}
+li>a:hover {
+    background-color: #acd951;
+    color: #873269;
+  }
+
+a>img {
+    width: 6%;
+}
