@@ -1,0 +1,108 @@
+section {
+    position: relative;
+    background-color: rgb(51, 50, 50);
+    height: 95vh;
+    padding: 10px 30px;
+}
+
+#header {
+    
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    position: fixed;
+    width: 22%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 30px;
+    right: 50px;
+
+}
+
+.featured, .album img  {
+    width: 100%;
+    height: auto;
+}
+
+h3, h2, a {
+    color: white;
+}
+
+p {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: bisque;
+}
+
+.album {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: row;
+
+}
+
+li {
+    margin: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 40px;
+    position: fixed;
+    background-color: rgb(88, 88, 100);
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: auto;
+    padding-top: 30px;
+}
+
+.gallery-image {
+    width: 30%;
+    height: 50px;
+    height: auto;
+    float: left;
+}
+
+.gallery-image img {
+    width: 100%;
+}
+
