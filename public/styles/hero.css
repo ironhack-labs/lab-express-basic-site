@@ -1,3 +1,14 @@
 .hero .hero-container {
-  background-image: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/public/img/dj-suit.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.hero-heading {
+  color: #000000;
 }
