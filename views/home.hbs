@@ -1,36 +1,54 @@
-
+{{!-- <script src="/scripts/carousel.js"></script>     --}}
+    
     <main class="container">
-      <div class="hero hero-container">
-        <h1 class="hero-heading">The hardest worker in the room</h1>
-        <div class="hero-carousel-container">
-          <div class="hero-carousel-item">
-            <h3 class="hero-text">
-              Being a true badass has no weight or gender requirement — just
-              100% commitment to greatness.
-            </h3>
-          </div>
-          <div class="hero-carousel-item">
-            <h3 class="hero-text">
-              With drive and a bit of talent you can move mountains.
-            </h3>
-          </div>
-          <div class="hero-carousel-item">
-            <h3 class="hero-text">
-              Don’t be afraid to be ambitious about your goals. Hard work never
-              stops. Neither should your dreams.
-            </h3>
-          </div>
-          <div class="hero-carousel-item">
-            <h3 class="hero-text">
-              All success begins with self-discipline. It starts with you.
-            </h3>
-          </div>
-          <div class="hero-carousel-item">
-            <h3 class="hero-text">
-              Blood, sweat and respect. First two you give, last one you earn.
-            </h3>
-          </div>
-        </div>
-      </div>
+      <div class="hero"></div>
+       <div class="hero-container">
+          <h1 class="hero-heading">The hardest worker in the room</h1>
+          <div class="hero-slide">
+              <div class="hero-carousel fade">                      
+                <div class="hero-text">
+                  Being a true badass has no weight or gender requirement — just
+                  100% commitment to greatness.
+              </div>
+              </div>
+
+              <div class="hero-carousel hero-fade">                            
+                <div class="hero-text">
+                  With drive and a bit of talent you can move mountains.
+                </div>
+              </div>
+
+              <div class="hero-carousel hero-fade">                               
+                <div class="hero-text">
+                  Don’t be afraid to be ambitious about your goals. Hard work never
+                  stops. Neither should your dreams.
+                </div>
+              </div>
+
+              <div class="hero-carousel hero-fade">                             
+                <div class="hero-text">
+                  All success begins with self-discipline. It starts with you.
+                </div>
+              </div>
+
+              <div class="hero-carousel hero-fade">                          
+                <div class="hero-text">
+                  Blood, sweat and respect. First two you give, last one you earn.
+                </div>
+              </div>
+ 
+              <a class="hero-carousel-prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="hero-carousel-next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            {{!-- <div class="hero-dots">
+              <span class="hero-carousel-dot" onclick="currentSlide(1)"></span>
+              <span class="hero-carousel-dot" onclick="currentSlide(2)"></span>
+              <span class="hero-carousel-dot" onclick="currentSlide(3)"></span>
+              <span class="hero-carousel-dot" onclick="currentSlide(4)"></span>
+              <span class="hero-carousel-dot" onclick="currentSlide(5)"></span>
+            </div>           --}}
+       </div>
     </main>
-   
+

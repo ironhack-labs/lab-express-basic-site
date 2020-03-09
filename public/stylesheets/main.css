@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh;
+  width: 100vw; */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+main.container {
+  padding: 0 5%;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.hero-carousel-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
