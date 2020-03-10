@@ -1,0 +1,22 @@
+.work-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.work-text {
+  text-align: center;
+  width: 90%;
+}
+
+.work-film-items {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.work-film-items:hover {
+  border-bottom: 2px solid #000000;
+}

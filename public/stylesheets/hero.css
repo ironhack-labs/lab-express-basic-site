@@ -60,6 +60,7 @@
 
 .hero-heading {
   position: absolute;
+  text-decoration: underline;
   text-align: center;
   top: 30%;
   width: 100%;
