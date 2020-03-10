@@ -20,6 +20,10 @@ app.get('/work', (req, res) => {
   res.render('work');
 });
 
+app.get('/films', (req, res) => {
+  res.render('films');
+});
+
 app.listen(3000, () => {
   console.log('listening on port', 5000);
 });

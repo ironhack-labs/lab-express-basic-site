@@ -1,0 +1,21 @@
+.films-container {
+  padding: 0 10%;
+}
+
+.film-heading-container {
+  display: flex;
+  justify-content: center;
+}
+
+.films-heading {
+  margin-bottom: 2rem;
+}
+
+.film-list-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.films-list {
+  margin-top: 5%;
+}
