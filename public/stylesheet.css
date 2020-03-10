@@ -1,0 +1,7 @@
+body {
+    color: lightcoral;
+    background-image: url("/images/big-bang.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
