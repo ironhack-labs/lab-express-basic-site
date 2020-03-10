@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    border: 3px solid red;
+    width: 300px;
+}
