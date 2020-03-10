@@ -5,7 +5,7 @@
 
 header {
     height: 30px;
-    background-color: white;
+    background-color: wheat;
 }
 
 
@@ -29,7 +29,18 @@ header > nav > ul> li>a{
     text-decoration: transparent;
 }
 
-
+section > h2{ 
+    text-align: center;
+}
+.worksDiv {
+    display: flex;
+    flex-direction: row;
+}
+.worksDiv > div {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
 
 
 

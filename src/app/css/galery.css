@@ -5,7 +5,7 @@
 
 header {
     height: 30px;
-    background-color: white;
+    background-color: wheat;
 }
 
 
@@ -30,8 +30,36 @@ header > nav > ul> li>a{
 }
 
 
+section > h2{ 
+    text-align: center;
+}
+.galeryDiv {
+    display: flex;
+    flex-direction: row;
+}
+.galeryDiv > div {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
 
+.divMusk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.muskImages{
+    width: 46.5%;
+}
+
+.spaceXImages{
+    width: 100%;
+}
+
+.teslaImages{
+    width: 106%;
+}
 
 footer{
     height: 50px;
