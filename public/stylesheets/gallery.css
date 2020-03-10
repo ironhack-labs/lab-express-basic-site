@@ -1,0 +1,14 @@
+.gallery-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.gallery-item {
+  width: 20%;
+}
+
+.gallery-img {
+  height: 250px;
+}

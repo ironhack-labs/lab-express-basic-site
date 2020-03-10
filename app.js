@@ -24,6 +24,10 @@ app.get('/films', (req, res) => {
   res.render('films');
 });
 
+app.get('/gallery', (req, res) => {
+  res.render('gallery');
+});
+
 app.listen(3000, () => {
   console.log('listening on port', 5000);
 });
