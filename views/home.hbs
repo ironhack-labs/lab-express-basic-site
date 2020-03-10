@@ -1,4 +1,4 @@
-{{!-- <script src="/scripts/carousel.js"></script>     --}}
+<script src="/scripts/carousel.js"></script>    
     
     <main class="container">
       <div class="hero"></div>
@@ -36,29 +36,11 @@
                   "Blood, sweat and respect. First two you give, last one you earn."
                 </div>
               </div>
- 
-              {{!-- <a class="hero-carousel-prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="hero-carousel-next" onclick="plusSlides(1)">&#10095;</a> --}}
+              
             </div>
             <br>
 
        </div>
-       <script>
-          var slideIndex = 0;
-          function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName('hero-carousel');
-            for (i = 0; i < slides.length; i++) {
-               slides[i].style.display = 'none';
-                }
-                 slideIndex++;
-            if (slideIndex > slides.length) {
-                 slideIndex = 1;
-                }
-                slides[slideIndex - 1].style.display = 'block';                    
-                setTimeout(showSlides,4000); // Change image every 2 seconds
-              }
-              showSlides();
-        </script>
+      
     </main>
 
