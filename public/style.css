@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.descripcion{
+    background-color: green;
+}
+
+.links{
+    flex-direction: row;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    padding: 100px;
+}
+
+.fotos{
+    background-color: green;
+}
+
+img{
+    max-width: 400px; 
+    max-height: 400px;
+    padding: 50px;
+}
