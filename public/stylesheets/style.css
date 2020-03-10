@@ -1,0 +1,18 @@
+body {
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 1em 0.5em;
+}
+h3,h2 {
+    padding: 1em;
+}
+p {
+    padding: 0 1em;
+}
+
+a,a:hover,a:visited{
+    color:white;
+}
