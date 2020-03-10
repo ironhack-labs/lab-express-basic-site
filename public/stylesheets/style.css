@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(255, 82, 82);
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+/*BODY*/  
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+#time {
+  font-size: 7rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+}
+
+.back-image {
+  background-image: url(../images/mt.jpeg);
+  width: 70%;
+  height: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
