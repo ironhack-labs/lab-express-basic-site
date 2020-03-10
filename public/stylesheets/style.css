@@ -1,0 +1,46 @@
+/* Add a black background color to the top navigation */
+*{
+  margin: 0%;
+}
+
+.general{
+  margin-right: 5%;
+}
+
+.general {
+  margin-top: 10%;
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+.topnav {
+    background-color: rgb(97, 96, 96);
+    overflow: hidden;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(63, 125, 226);
+    color: white;
+  }
+  img{
+      width: 50%;
+      float: left;
+      margin-right: 5%;
+  }
