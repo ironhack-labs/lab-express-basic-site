@@ -2,5 +2,5 @@
 node_modules
 package-lock.json
 yarn.lock
-*.vscode
+gi*.vscode
 *.log
