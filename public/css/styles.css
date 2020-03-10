@@ -1,0 +1,16 @@
+body{
+    margin: auto 10%
+}
+
+img{
+    max-width: 400px;
+}
+
+h1{
+    font-size: 6em;
+    color: blueviolet;
+}
+
+p{
+    width: 1000px;
+}
