@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    background-color: grey;
+}
+
+a {
+    color: black;
+}
+
+.listhomepage {
+    color: yellow;
+}
+
+.workslist {
+    list-style: none;
+    display: inline;
+}
+
+.home-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: yellow;
+}
+
+img {
+    border-radius: 8px;
+    width: 60vh;
+}
