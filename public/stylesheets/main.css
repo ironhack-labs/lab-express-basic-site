@@ -1,0 +1,63 @@
+@font-face {
+    font-family: simpsons;
+    src: url('/simpsonfont/Simpsonfont DEMO.otf')
+}
+body{
+color: white;
+background-color: cornflowerblue;
+}
+.homer{
+padding-top: 3em;
+width: 400px;
+display: block;
+margin: auto;
+}
+.arte{
+padding: 25px;
+width: 400px;
+display: block;
+margin: auto;
+height: 250px;
+
+}
+.artes{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+
+}
+.aboutText{
+text-align: center;
+margin: 25px;
+width: 500px;
+display: block;
+margin: auto;
+}
+.title{
+text-align: center;
+font-family: simpsons;
+color: white;
+}
+.worksText{
+margin: 0 auto;
+width: 1000px;
+text-align: center;
+}
+.wp{
+width: 100%;
+}
+.nav{
+background-color: whitesmoke;
+}
+
+.imagSi{
+width: 400px;
+display: flex;
+justify-content: space-between;
+}
+.arte2{
+    width: 400px;
+    height: 200px;   
+}
+
+
