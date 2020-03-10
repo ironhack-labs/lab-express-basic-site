@@ -1,0 +1,37 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+.home {
+    background-image: url(/images/fondo-home.jpg);
+    background-size: cover;
+}
+
+.home a{
+    color: lightskyblue
+}
+
+
+
+.works {
+    background-image: url(/images/fondo-works.jpg);
+    background-size: cover;
+    color: lightgreen
+    
+}
+
+.about {
+    background-image: url(/images/fondo-about.jpg);
+    background-size: cover;
+    color:white
+}
+.photos {
+    background-image: url(/images/fondo-photos.jpg);
+    background-size: cover;
+}
