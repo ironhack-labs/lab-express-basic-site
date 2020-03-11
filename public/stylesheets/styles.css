@@ -1,6 +1,12 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 50, 50);
+}
+
 section {
     position: relative;
-    background-color: rgb(51, 50, 50);
     height: 95vh;
     padding: 10px 30px;
 }
