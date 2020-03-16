@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 100px;
+}
+
+
+
+.navlinks a{
+    padding:1.2em;
+    text-decoration: none;
+}
+
+.homeimage{
+    display:flex;
+    justify-content: center;
+}
