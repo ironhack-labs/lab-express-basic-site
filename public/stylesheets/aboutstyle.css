@@ -1,0 +1,39 @@
+body{
+    background-image: none;    
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 30px;
+}
+
+.mb-auto{
+    margin-bottom: 30px !important;
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+.carousel-control-prev, .carousel-control-next {
+   background-image: none;
+   color: #FFF;
+   width: 4%;
+}
+  
+.carousel-item h6 {
+   font-size: 16px;
+   line-height: 1.3em;
+   font-weight: 900;
+   font-style: italic;
+   margin: 70px 0;
+}
+  
+.carousel-item span {
+    font-style: normal;
+}
+
