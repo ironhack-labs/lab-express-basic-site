@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.home {
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF6347;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: blue;
+  }
+  
+.navbar {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif; */
+    color: black;
+}
+
+.imagehome {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    padding: 25px;
+}
+
+.background {
+    background-image: url('../images/map2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10px;
+    background-color: #ff4747;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 30px;
+    padding: 30px 50px 50px 50px;
+}
+
+.title {
+    font-size: 60px;
+    padding: 120px 50px 0px 50px;
+}
+
+.photos {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: blue;
+}
+
+.images {
+    padding: 30px 30px 30px 40px;
+}
+
+.works {
+    background-image: url('/images/arcworks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workstitle {
+    font-size: 50px;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.workstext {
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    padding: 40px 40px 40px 800px;
+}
