@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVERYTHING ABOUT PASTA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+
+<body>
+
+        <!-- NAV-BAR -->
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Everything About Pasta</a>
+                    <div class="flag">
+
+                      <img src="../public/img/italyFlag.png" alt="Italy Flag">
+                
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link link-home" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item nav-bar-link">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item nav-bar-link">
+                          <a class="nav-link" href="works.html">Works</a>
+                        </li>
+                        <li class="nav-item nav-bar-link">
+                            <a class="nav-link" href="gallery.html">Photos</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+
+       <!--PHOTOS-->
+
+<!-- The four columns -->
+<div class="row">
+
+  <div class="column">
+    <img src="../public/img/longPasta.jpg" alt="Long Pasta" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/shortPasta.jpg" alt="Short Pasta" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/shortPasta2.jpg" alt="Short Pasta 2" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/miniPasta.jpg" alt="Mini Pasta" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/pasta.jpg" alt="Pasta Fresca" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/pasta2.jpg" alt="Pasta Fresca 2" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/pastaForno.jpg" alt="Pasta" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/pennePasta.jpeg" alt="Pasta Penne" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/pastaMachine.jpg" alt="Pasta Machine" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/allanorma.jpg" alt="Pasta alla Norma" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/pesto.jpg" alt="Trofie al Pesto" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../public/img/gamberi.jpg" alt="Pasta con gamberi" style="width:340px;height:220px;" onclick="myFunction(this);">
+  </div>
+
+</div>
+
+
+<!--TO EXPAND THE IMAGE-->
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div> 
+
+<!-- SCRIPT-->
+
+<script>
+
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+<!--FOOTER-->
+
+        <footer>
+            <div>
+                <section class="container">
+                    <div class="row"></div>
+              <p>Copyright © 2020 <a href="">Everything about Pasta</a> - Pasta is life!</p>
+              <p> <a href="">Everything about Pasta</a></p>
+              <div class='flag'>
+              <img src="../public/img/tiny.png" alt="italian flag">
+              </div> 
+                </section>
+            </div>
+
+          </footer>
+       
+ </body>
+</html>
+

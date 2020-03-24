@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/', (req, res, next) => {
     
-    res.sendFile(path.join(__dirname + '/public/views/home.html'));
+    res.sendFile(path.join(__dirname + '/views/home.html'));
 
 });
 
@@ -20,7 +20,15 @@ app.get('/', (req, res, next) => {
 
 app.get('/about', (req, res, next) => {
     
-    res.sendFile(path.join(__dirname + '/public/views/about.html'));
+    res.sendFile(path.join(__dirname + '/views/about.html'));
+
+});
+
+//works route 
+
+app.get('/works', (req, res, next) => {
+    
+    res.sendFile(path.join(__dirname + '/views/works.html'));
 
 });
 
@@ -28,7 +36,7 @@ app.get('/about', (req, res, next) => {
 
 app.get('/gallery', (req, res, next) => {
     
-    res.sendFile(path.join(__dirname + '/public/views/gallery.html'));
+    res.sendFile(path.join(__dirname + '/views/gallery.html'));
 
 });
 

@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Quicksand&display=swap');
+
+* {
+    font-family: Oxygen, sans-serif;
+}
+
+.flag{
+
+   display:flex;
+   flex-direction: column;
+
+}
+
+h2 {
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    color:#625750;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+p{
+    margin-top:20px;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+
+}
+
+h3{
+    font-family:'Quicksand', sans-serif;
+    color:#625750;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.image{
+    width:400px;
+    height:200px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+}
+.section-text {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.carousel-button {
+    color: white;
+    
+    border: 1px solid white;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0%;
+    width: 160px;
+    font-weight: bold;
+}
+
+
+.carousel-size {
+    height: 550px;
+  }
+
+
+
+.end-page {
+    background-color: #3B3B3B;
+    border-top: 5px solid #f96b61;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.end-page h3{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.end-page p{
+    color: #aaa;
+    text-align: left;
+    width: 270px;
+}
+
+.list-style{
+    padding: 0;
+}
+
+.list-style li{
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 0;
+    width: 260px;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    padding: 7px 0;
+}
+
+.list-style li a{
+    text-decoration: none;
+    color: #AAAAAA;
+    display: block;
+}
+
+.list-style li a:hover{
+    color: white;
+}
+
+.row {
+    margin-right: -45px;
+    margin-left: -45px;
+  }
+
+  footer {
+      background-color: #292929;
+      color: white;
+      display: flex;
+      flex-direction: column;
+  }
+
+footer {
+    background-color: #625750;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+footer div{
+    margin: 0 120px;
+    padding: 10px 0;
+    font: 12px Oxygen, sans-serif;
+    line-height: 10px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: white !important;
+    margin: 20px 135px;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    padding-left: 0;
+    font-size: 32px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
+    width: 400px;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.navbarAbout {
+    margin-bottom: 0;
+    background-color: white !important;
+    margin: 20px 135px;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.navbar-brandAbout{
+    padding-left: 0;
+    font-size: 32px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
+    width: 400px;
+    color:black;
+}
+
+.nav-itemAbout{
+    padding-right: 10px;
+}
