@@ -43,8 +43,49 @@
 
        <!--PHOTOS-->
 
-<!-- The four columns -->
-<div class="row">
+       <div class="container">
+        <h1>Some types of Pasta</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide multi-item-carousel" id="theCarousel">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/longPasta.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/shortPasta.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/shortPasta2.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/miniPasta.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/pastaForno.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/pastaMachine.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="item">
+                    <div class="col-xs-4"><a href="#1"><img src="../public/img/gamberi.jpg" class="img-responsive"></a></div>
+                  </div>
+                
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><img src="../public/img/allanorma.jpg" class="img-responsive"></a></div>
+                </div>
+                
+              </div>
+              <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+
+<!-- <div class="row">
 
   <div class="column">
     <img src="../public/img/longPasta.jpg" alt="Long Pasta Type" style="width:340px;height:220px;" onclick="myFunction(this);">
@@ -83,7 +124,7 @@
     <img src="../public/img/gamberi.jpg" alt="Pasta con gamberi" style="width:340px;height:220px;" onclick="myFunction(this);">
   </div>
 
-</div>
+</div> -->
 
 
 <!--TO EXPAND THE IMAGE-->
@@ -97,14 +138,27 @@
 
 <script>
 
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
+$('.multi-item-carousel').carousel({
+  interval: false
+});
+
+// for every slide in carousel, copy the next slide's item in the slide.
+// Do the same for the next, next item.
+$('.multi-item-carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  } else {
+  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
+});
 </script>
+
 
 
 <!--FOOTER-->
@@ -122,7 +176,11 @@ function myFunction(imgs) {
             </div>
 
           </footer>
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          
        
  </body>
 </html>
-
