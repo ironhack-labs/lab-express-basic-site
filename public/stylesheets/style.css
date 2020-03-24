@@ -19,8 +19,10 @@ body {
 
 
 .navbar-brand div {
+    font-size: 1.5em;
     font-family: 'Patua One', cursive;
     width: 3em;
+    height: 2.3em;
     font-family: 'Orbitron', sans-serif
 }
 
@@ -64,4 +66,37 @@ body {
 
 .site-footer {
     font-size: .8em;
+}
+
+.site-special {
+    font-size: 1em;
+    background-image: url("../images/grazi-photo.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    height: 100vh;
+}
+
+.site-special h1 {
+    font-size: 3em;
+}
+
+.site-special h1 {
+    text-shadow: 2px 2px 15px black;
+}
+
+.site-special p {
+    text-shadow: 2px 2px 15px black;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 2.4em;
+    }
 }
