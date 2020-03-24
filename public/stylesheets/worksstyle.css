@@ -1,7 +1,18 @@
 body{
-    background-image: none;    
+    background-image: none;  
+    margin: 0;  
+}
+
+#sizeDiv{
+    width: 720px;
 }
 
 .mb-auto{
     margin-bottom: 30px !important;
 }
+
+.cover-container {
+    max-width: 672px;
+  }
+
+
