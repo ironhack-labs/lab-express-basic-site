@@ -20,11 +20,6 @@ app.get('/works', (request, response, next) => {
     response.sendFile(__dirname + '/views/works.html')
 })
 
-//gallery
-app.get('/gallery', (request, response, next) => {
-    response.sendFile(__dirname + '/views/gallery.html')
-})
-
 //Server started
 app.listen(3000, () => {
     console.log('My first app listening on port 3000')

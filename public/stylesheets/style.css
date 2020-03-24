@@ -1,4 +1,42 @@
-body {
-    color: blue;
-    background-color: bisque;
-  }
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+a{
+    font-size: 25px;
+}
+
+#a-style{
+    font-size: 30px;
+    color: #212529;
+}
+
+p{
+    font-size: 30px;
+}
+/* Small devices */
+@media (min-width: 576px){
+
+}
+
+/* medium devices */
+@media (min-width: 768px){
+
+}
+
+/* large devices */
+@media (min-width: 992px){
+
+}
+
+/* extra large devices */
+@media(min-width: 1200px){
+
+}
