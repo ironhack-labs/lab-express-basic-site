@@ -4,13 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/stylesheets/style.css">
+
+    <!-- Font Awesome required script -->
+    <script src="https://kit.fontawesome.com/f093f525b1.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap and CSS links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
     <title>Photo-gallery</title>
 </head>
 
 <body>
-    <h1>Photo-gallery</h1>
-    <p>This is my photo-gallery page</p>
+    
+    <header class="site-navigation">
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg bg-primary navbar-dark text-uppercase p-3">
+
+            <div class="container">
+
+                <!-- Brand name/logo -->
+                <a class="navbar-brand" href="/">
+                    <div>
+                        <img src="/images/megaman-logo.png" alt="">
+                        Mega Man
+                    </div>
+                </a>
+
+                <!-- Toggler -->
+                <button type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#toggler"
+                    aria-controls="#toggler" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="toggler">
+
+                    <!-- Nav list -->
+                    <ul class="navbar-nav font-text align-items-center ml-auto">
+
+                        <!-- Each list item has nav-item, and each link has nav-link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">Sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/works">Séries</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/photo-gallery">Galeria de Fotos</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Footer -->
+
+    <footer class="site-footer border-top border-primary bg-dark py-4">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-white">© 2020 Copyright:
+            <p>"Mega Man", "Rockman" e todo conteúdo relacionado são de propriedade da CAPCOM. Todos os direitos
+                reservados.</p>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!-- Bootstrap required -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
