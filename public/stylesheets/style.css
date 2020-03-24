@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    color: black;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    background-image: url('../images/ludovico-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: grayscale(100%);
+}
+
+navbar {
+    padding: 2vh;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    padding: 0.5vh;
+    text-decoration: none;
+    padding: 0vw 1vw;
+}
+
+.ludovico {
+    font-weight: bold;
+    font-size: 8em;
+    width: 30vw;
+    margin: 30vh 60vw;
+    text-align: justify;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3em;
+    width: 30vw;
+    margin: 7vh 5vw;
+    text-align: center;
+}
+
+.carouselExampleControls {
+    width: 50vw;
+}
+
+.section1 {
+    background-image: url('../images/ludovico-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 800px;
+}
+
+.section2 {
+    background-image: url('../images/ludovico-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.section3 {
+    background-image: url('../images/ludovico-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.about {
+    margin-left: 55vw;
+}
+
+.works {
+    margin-left: 55vw;
+}
+
+img {
+    width: 50vw;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    width: 30vw;
+    margin: 1vh 5vw;
+    text-align: center;
+}
+
+p {
+    width: 30vw;
+    margin: 5vh 5vw;
+    text-align: justify;
+}
+
+ul {
+    width: 30vw;
+    margin: 5vh 5vw;
+    font-size: 1.2em;
+}
