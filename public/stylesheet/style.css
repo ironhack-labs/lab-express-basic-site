@@ -214,13 +214,12 @@ a {
 
 .pics-container img {
     width: 100px;
-    transform: rotate(-90deg);
     margin: 30px 5px;
     cursor: pointer;
 }
 
 .pics-container img:hover {
-    transform: scale(2) rotate(-90deg);
+    transform: scale(2);
     transition: transform 0.3s linear;
     z-index: 10;
 }
@@ -247,7 +246,7 @@ a {
 }
 
 .image-carousel {
-    transform: rotate(-90deg);
+    
 }
 
 .close-btn {
