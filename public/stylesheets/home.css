@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+* {
+    margin:0;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.logo-img {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #08D0FB;
+    font-weight: 800;
+}
+
+.title-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photo {
+    background-image: url(https://wallpaperplay.com/walls/full/6/a/1/78868.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin: 10px 35px;
+    font-size: 20px;
+    color: #000;
+}
+
+li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.text {
+    background-color: #08D0FB;
+    margin-top: 50px;
+    height: 270px;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+}

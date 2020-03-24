@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+* {
+    margin:0;
+    font-family: 'Dosis', sans-serif;
+}
+.title-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #B45D0C;
+    font-weight: 800;
+}
+
+.photo {
+    background-image: url(https://www.aspen4sale.com/wp-content/uploads/2015/11/top5-Aspen_-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 300px;
+}
+
+p {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.3;
+    margin-top: 50px;
+}
+
+.text {
+    background-color: #B45D0C;
+    margin-top: 100px;
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin: 10px 35px;
+    font-size: 20px;
+    color: #000;
+}
+
+li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
