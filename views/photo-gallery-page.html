@@ -1,15 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/stylesheets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
     <title>Photo gallery</title>
-</head>
-<body>
-    <h1>Photo gallery</h1>
-    <img src="" alt="">
-    <footer><a href="/">Back</a></footer>
-</body>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Fallen</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="/"
+            >Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="/about">About</a>
+          <a class="nav-item nav-link" href="/photo-gallery">Photo Gallery</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="card col-lg-4">
+          <img src="/images/tirinho.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Matador</p>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <img src="/images/images.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Familia</p>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <img src="/images/images (1).jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Campeão</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <p class="navbar-brand">Developed by Ironhack</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/"
+              >Back
+              <span class="sr-only">(current)</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </body>
 </html>
