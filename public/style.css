@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700,800&display=swap');
+
+body {
+    margin: 0rem;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.banner {
+    height: 60rem;
+    background-image: url(./images/banner.png);
+    background-size: 90rem;
+    background-repeat: no-repeat;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 40rem;
+    height: 40rem;
+    padding-left: 15rem;
+    padding-top: 10rem;
+
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    line-height: 5rem;
+    color: white;
+}
+
+.text p { 
+    font-size: 3rem;
+    color: white;
+}
+
+.myButton {
+	box-shadow: -4px 6px 16px -4px #d93f60;
+	background-color:#d93f60;
+	border-radius:27px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:16px 43px;
+    text-decoration:none;
+    border-color: #d93f60;
+}
+.myButton:hover {
+	background-color:#e9b7c7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.navcolor {
+    background-color: #3acab7;
+
+}
+
+.navcolor a {
+    color: white;
+}
+
+.tittle {
+    font-weight: bold;
+}
+
+.internals {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.h1 {
+    /* padding-top: 2rem;
+    padding-left: 2rem; */
+    font-size: 5rem;
+    font-weight: bolder;
+    color: turquoise;
+}
+
+#img {
+width: 25rem;
+padding: 0 0.3rem;
+}
