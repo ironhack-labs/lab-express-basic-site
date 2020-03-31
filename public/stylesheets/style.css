@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    text-align: center;
+    margin: 50px;
+  }
+
+  h1 {
+    color: black;
+    font-size: 50px;
+
+
+  }
+
+  p{
+      color:schwarz;
+      font-size: 20px;
+      margin: 50px;
+      
+  }
+
+  img {
+      margin-bottom: 50px;
+  }
+
+  .flex-container {
+    display: center;
+  }
+
+#about-him {
+    font-size:23px;
+    line-height: 30px;
+    padding: 0px 25px;
+    text-align: left;
+}
