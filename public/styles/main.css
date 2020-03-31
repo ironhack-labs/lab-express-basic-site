@@ -1,0 +1,36 @@
+body {
+    background: #171D18;
+    color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: #FFF
+}
+
+h3 {
+    opacity: 0.5;
+}
+
+.bg-dark,
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: #171D18;
+}
+
+.bg-dark ul li a {
+    color: #FFF;
+    opacity: 0.85;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: #FFF;
+    opacity: 0.35;
+}
+
+.uk-logo {
+    color: #FFF;
+    font-size: 1.25rem;
+}
