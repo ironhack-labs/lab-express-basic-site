@@ -1,0 +1,49 @@
+body {
+    color: white;
+    background-color: rgb(34, 5, 54);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+
+  li {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+  }
+
+  h1 {
+      font-weight: bold;
+      font-size: 25pt;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+      text-decoration: none;
+      color: rgb(209, 140, 211);
+  }
+
+  #main {
+      width: 600px;
+      align-self: center;
+  }
+
+  img {
+      max-width: 500px;
+  }
+
+  #footer {
+      width: 600px;
+      height: 50px;
+      margin-top: 5px;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      align-self: center;
+  }
