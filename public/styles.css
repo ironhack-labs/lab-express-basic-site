@@ -1,0 +1,13 @@
+body {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
