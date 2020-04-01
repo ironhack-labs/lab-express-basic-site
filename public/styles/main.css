@@ -1,5 +1,9 @@
+html {
+    background-color: #171d18;
+}
+
 body {
-    background: #171D18;
+    background: #171d18;
     color: #FFF;
 }
 
@@ -7,7 +11,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+.uk-card-default .uk-card-title {
     color: #FFF
 }
 
@@ -33,6 +38,10 @@ h3 {
 .uk-logo {
     color: #FFF;
     font-size: 1.25rem;
+}
+
+.uk-card-default {
+    background: transparent;
 }
 
 .uk-card-body {
