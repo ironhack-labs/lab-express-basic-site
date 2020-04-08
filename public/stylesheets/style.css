@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image{
+    background-image: url('/images/larkin-poe-insta.jpg');
+    height: 60vh;
+    width: 60vw;
+    background-size: cover;
+    margin-top: 4em;
+}
+
+nav{
+    margin-top: 4em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 0 3em 0 3em;
+    text-decoration: underline;
+}
+
+#about {
+    /* background-color: blue; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4em;
+}
+
+#about-img{
+    background-image: url('/images/larkin-poe-insta.jpg');
+    width: 30em;
+    height: 30em;
+    background-size: cover;
+}
+
+#quote{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#text {
+    width: 30em;
+    margin: 0 3em 0 3em;
+    line-height: 1.5em;
+}
+
+.album-image{
+    width: 15em;
+    height: 15em;
+    border: 1px solid black;
+}
