@@ -1,6 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+
+    @import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
+
 }
 
 #container{
@@ -9,23 +16,19 @@ body {
     align-items: center;
 }
 
-#image{
-    background-image: url('/images/larkin-poe-insta.jpg');
-    height: 60vh;
-    width: 60vw;
-    background-size: cover;
-    margin-top: 4em;
-}
-
 nav{
+    /* background-color: indigo; */
     margin-top: 4em;
-    width: 100vw;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3em;
+    border-bottom: 2px solid black;
 }
 
 nav a{
+    /* background-color: lightcoral; */
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -36,14 +39,51 @@ nav a:hover{
 }
 
 #logo {
+    font-family: 'Ramabhadra', sans-serif;
     font-weight: bold;
     font-size: 1.8em;
     padding: 0 3em 0 3em;
     text-decoration: underline;
 }
 
+
+
+
+
+
+/* ---- HOME PAGE ---- */
+
+#image{
+    background-image: url('/images/larkin-poe-insta.jpg');
+    height: 60vh;
+    width: 60vw;
+    background-size: cover;
+    margin-top: 4em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#image p{
+    background-color: lightcoral;
+    color: white;
+    font-family: 'Ramabhadra', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 10em;
+    padding: 0 1em 0 0.2em;
+}
+
+
+
+
+
+/* ---- ABOUT PAGE ---- */
+
 #about {
     /* background-color: blue; */
+    width: 60vw;
     border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
@@ -59,9 +99,12 @@ nav a:hover{
 }
 
 #quote{
+    background-color: lightcoral;
+    color: white;
     font-size: 1.2em;
     font-weight: bold;
     font-style: italic;
+    padding: 0.2em 1em 0.2em 0.2em;
 }
 
 #text {
@@ -70,8 +113,80 @@ nav a:hover{
     line-height: 1.5em;
 }
 
+
+
+
+/* ---- WORKS PAGE ---- */
+
+h3{
+    margin-top: 4em;
+}
+
+#albums{
+    /* background-color: blue; */
+    margin-top: 2em;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .album-image{
-    width: 15em;
-    height: 15em;
-    border: 1px solid black;
+    width: 8em;
+    height: 8em;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.album-info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.album-info p{
+    color: white;
+    background-color: black;
+    margin: 0;
+    margin-top: 0.3em;
+    width: 8em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#album1{
+    background-image: url('/images/album1-2013.jpg');
+    background-size: cover;
+}
+
+#album2{
+    background-image: url('/images/album2-2014.jpg');
+    background-size: cover;
+}
+
+#album3{
+    background-image: url('/images/album3-2016.jpg');
+    background-size: cover;
+}
+
+#album4{
+    background-image: url('/images/album4-2017.jpg');
+    background-size: cover;
+}
+
+#album5{
+    background-image: url('/images/album5-2018.jpg');
+    background-size: cover;
+}
+
+#videos p{
+    margin: 0.5em;
+    font-size: 0.9em;
+    margin-bottom: 3em;
 }
