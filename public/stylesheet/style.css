@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+    color: navy;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.card-body {
+    font-size: 18px;
+}
+
+.card-img-top {
+    height: 420px;
+    width: 420px;
+}
+
+.card-group {
+    padding-left: 70px;
+}
+.card {
+    border: black solid 1px;
+}
+.header-img {
+    width: 285px;
+}
+
+.header-card {
+    width: 350px;
+}
