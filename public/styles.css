@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #171E26;
+}
+
+li,
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: cadetblue;
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav-links {
+  background-color: black;
+  list-style: none;
+  margin-right: auto;
+}
+
+.nav-links li {
+  background-color: black;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  background-color: black;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+.portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-picture {
+  padding-top: 3px;
+  width: 80%;
+  height: 80%;
+}
+
+th, td{
+    padding: 12px;
+    font-family: "Roboto";
+    border: 1px ridge gray;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    min-width: 300px;
+    min-height: auto;
+    color: white;
+    text-align: center;
+}
+
+th {
+    background-color: #001624;
+}
+
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  color: white;
+}
+
+.table-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-size{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: cadetblue;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: burlywood;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    color: white;
+    padding: 10px 8%;
+    text-align: justify;
+}
+
+.paul-padding{
+    padding: 20px;
+}
+
+.img-padding {
+    padding: 20px 0 50px 0;
+}
+
