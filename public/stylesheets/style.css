@@ -1,0 +1,17 @@
+body{
+    /* background-color: #e3e3e3; */
+    background-image: url('/public/pics/PF.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: darkblue;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
