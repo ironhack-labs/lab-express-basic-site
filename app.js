@@ -1,23 +1,37 @@
-const express = request('express');
-const hbs = request('hbs');
-const server = express();
+const express = require('express');
+const hbs = require('hbs');
+const path = require('path');
+const app = express();
 
-server.get('/', (req, res) => {
-  res.render('home.hbs', {});
+// app.set('view engine', 'hbs');
+// app.set('views', __dirname + '/views');
+app.use(express.static(path.join(__dirname, 'public')));
+hbs.registerPartials(path.join(__dirname + '/views/partials'));
+
+app.get('/', (req, res) => {
+  res.render('home.hbs', {
+    title: 'Home',
+  });
 });
 
-server.get('/about', (req, res) => {
-  res.render('about.hbs', {});
+app.get('/about', (req, res) => {
+  res.render('about.hbs', {
+    title: 'About',
+  });
 });
 
-server.get('/works', (req, res) => {
-  res.render('works.hbs', {});
+app.get('/works', (req, res) => {
+  res.render('works.hbs', {
+    title: 'Works',
+  });
 });
 
-server.get('/gallery', (req, res) => {
-  res.render('gallery.hbs', {});
+app.get('/gallery', (req, res) => {
+  res.render('gallery.hbs', {
+    title: 'Gallery',
+  });
 });
 
-server.listen(3001, () => {
-  console.log('Server running...');
+app.listen(3001, () => {
+  console.log(`App listening on http://localhost:3001`);
 });
