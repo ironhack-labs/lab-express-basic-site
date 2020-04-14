@@ -2,7 +2,6 @@ body {
   font-family: 'Muli', sans-serif;
   font-weight: 300;
   background: #cf7500;
-  padding: 48px 0px;
 }
 
 h1 {
@@ -42,4 +41,20 @@ blockquote {
   margin: 8px 16px;
   border-left: 4px solid #f0a500;
   padding-left: 8px;
+}
+
+.navbar {
+  display: block;
+  z-index: 200;
+  width: 100vw;
+  margin: 0px auto;
+  background-color: #f0a500;
+}
+
+.navbar a {
+  color: #212529;
+}
+
+.navbar ul {
+  justify-content: space-evenly;
 }
