@@ -6,27 +6,31 @@
 body {
   font-family: "Oxanium", cursive;
   font-size: 16px;
-  color: #2a251f;
+  color: #6550ae;
+}
+img {
+  display: block;
+  width: 100%;
 }
 
 /* nav */
 #menu {
-  background-color: #896359;
-  border-bottom: solid 2px #444735;
+  background-color: white;
+  border-bottom: solid 1px #6550ae;
 }
 
 #logo {
   display: block;
   width: 200px;
-  color: #e5d5c4;
+  color: #6550ae;
   font-weight: 800;
   font-size: 2em;
   padding: 0 10px;
 }
 
 #logo:hover {
-  color: #97907c;
   text-decoration: none;
+  color: #f9c46b;
 }
 
 nav ul {
@@ -43,14 +47,14 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: #e5d5c4;
+  color: #6550ae;
   font-weight: 200;
   padding: 30px 20px;
   font-size: 1em;
 }
 
 nav ul li a:hover {
-  color: #97907c;
+  color: #f9c46b;
   font-weight: 800;
   text-decoration: none;
 }
@@ -64,9 +68,12 @@ nav ul li a:hover {
 .first-section#about-me {
   background-image: url(/img/yo-three.jpg);
 }
+.first-section#works {
+  background-image: url(/img/yo-four.jpg);
+}
 
 .first-section h1 {
-  color: #e5d5c4;
+  color: white;
   font-weight: 800;
   text-align: center;
   padding: 350px 0;
@@ -74,21 +81,19 @@ nav ul li a:hover {
   margin-bottom: 0;
 }
 
-.first-section#about-me h1 {
-  color: #896359;
-}
-
 /* sections */
 .second-section {
-  border-top: solid 2px #444735;
+  border-top: solid 1px #6550ae;
   padding: 100px 0;
 }
 
 .second-section#sections a {
   display: block;
   width: 30%;
-  border: #896359 solid 3px;
-  color: #896359;
+  border: #6550ae solid 1px;
+  /* background-color: rgba(101, 80, 174, 0.1); */
+  background-color: rgba(249, 196, 107, 0.1);
+  color: #6550ae;
   text-decoration: none;
   text-align: center;
   padding: 100px 20px;
@@ -96,14 +101,23 @@ nav ul li a:hover {
   text-transform: uppercase;
   font-size: 2em;
 }
+.second-section#sections a:hover {
+  background-color: rgba(249, 196, 107, 0.4);
+}
+
+.worked {
+  width: 400px;
+  background-color: #6550ae;
+  padding: 1px;
+}
+
 footer {
-  background-color: #896359;
-  border-top: solid 2px #444735;
+  border-top: solid 1px #6550ae;
 }
 
 footer small {
   display: block;
-  color: #e5d5c4;
+  color: #6550ae;
   text-align: center;
   padding: 30px 0;
 }
