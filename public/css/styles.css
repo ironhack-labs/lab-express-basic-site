@@ -1,9 +1,11 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&family=Roboto:wght@300;400&display=swap');
 
+/* reset */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a,
@@ -18,7 +20,6 @@ ul {
 }
 
 body {
-  box-sizing: border-box;
   position: relative;
   top: 0;
   left: 0;

@@ -1,37 +1,20 @@
+require('dotenv').config();
 const express = require('express');
 const hbs = require('hbs');
 const path = require('path');
 const app = express();
+const baseRouter = require('./routes/baseRoutes.js');
 
-// app.set('view engine', 'hbs');
-// app.set('views', __dirname + '/views');
+// link to public folder:
 app.use(express.static(path.join(__dirname, 'public')));
+
+// link to partials folder:
 hbs.registerPartials(path.join(__dirname + '/views/partials'));
 
-app.get('/', (req, res) => {
-  res.render('home.hbs', {
-    title: 'Home',
-  });
-});
+// link to routes folder:
+app.use('/', baseRouter);
 
-app.get('/about', (req, res) => {
-  res.render('about.hbs', {
-    title: 'About',
-  });
-});
-
-app.get('/works', (req, res) => {
-  res.render('works.hbs', {
-    title: 'Works',
-  });
-});
-
-app.get('/gallery', (req, res) => {
-  res.render('gallery.hbs', {
-    title: 'Gallery',
-  });
-});
-
-app.listen(3001, () => {
+// define PORT server env:
+app.listen(process.env.PORT, () => {
   console.log(`App listening on http://localhost:3001`);
 });
