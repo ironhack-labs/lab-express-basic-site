@@ -1,0 +1,12 @@
+.wrapper {
+    overflow: scroll;
+    height: 85vh;
+}
+
+.bio {
+    height: auto;
+    margin-left: 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+

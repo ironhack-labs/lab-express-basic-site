@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(lime, yellow);
+    min-height: 100vh;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    font-family: 'Anton', sans-serif;
+    width: 30vw;
+    letter-spacing: 1.1em;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#back-button {
+    width: 300px;
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#back-button:hover {
+    border: 3px solid lime;
+    box-sizing: border-box; 
+    /* See with Nina | Button moving */
+}
+
+#back-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+}
+
+.footer li {
+    font-size: 40px;
+    font-weight: 900;
+    list-style: none;
+    margin-right: 60px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}

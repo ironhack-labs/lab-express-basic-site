@@ -1,0 +1,67 @@
+.grid {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "left-column center-column right-column"
+}
+
+.left-column {
+    grid-area: left-column;
+    margin-left: 40px;
+}
+
+#intro-text {
+    font-size: 3.4vw;
+    line-height: 1.2em;
+    margin-top: 20px;
+}
+
+.center-column {
+    grid-area: center-column;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.center-column img {
+    position: absolute;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.right-column {
+    grid-area: right-column;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    text-align: right;
+    font-size: 3vw;
+    font-weight: 900;
+    padding-right: 40px;
+}
+
+.right-column input {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: right;
+    color: lightslategray;
+}
+
+#newsletter-button {
+    width: 200px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+

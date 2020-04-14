@@ -1,0 +1,25 @@
+.cards-container {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    border: 10px solid black;
+    margin: 30px;
+    height: 400px;
+}
+
+.card-container iframe {
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-container h2 {
+    text-align: center;
+    font-size: 25px;
+}
