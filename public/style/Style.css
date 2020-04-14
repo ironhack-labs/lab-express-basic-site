@@ -1,0 +1,80 @@
+/*
+ROjo: #cc0101
+
+*/
+
+
+body{
+     background-image: url(/img/Yayoi_bg_red.png);
+     background-size: 250px 250px;
+     font-family: sans-serif;
+     color: #766F6F;
+}
+
+h1{
+     color: #5D5757;
+     text-transform: uppercase;
+}
+
+h2{
+     font-size: 1.6em;
+     color: #cc0101;
+     margin-bottom: 15px;
+}
+
+.menu{
+     background-color: #fefefe;
+     padding: 5px 30px;
+     border-bottom: 5px dotted #5D5757;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     position: fixed;
+     top: 0;
+     right: 0;
+     width: 100%;
+     z-index: 1000;
+}
+
+.home>img{
+     height: 50px;
+}
+
+.menu ul {
+     display: flex;
+     list-style: none;
+     margin-top: 15px;
+}
+
+.menu li {
+     margin-right: 20px;
+     font-size: 1.2em;
+     font-weight: 600;
+}
+
+.menu li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main{
+     margin-top: 100px;   
+}
+
+section{
+     background-color: #fefefe;
+     padding: 30px;
+     text-align: center;
+     margin-bottom: 20px;
+    
+}
+
+main img{
+     width: 100%;
+}
+main article>p{
+     text-align: left;
+     padding: 10px 10px 0px 10px;
+}
