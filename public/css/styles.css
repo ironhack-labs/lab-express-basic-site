@@ -17,6 +17,7 @@ img {
 #menu {
   background-color: white;
   border-bottom: solid 1px #6550ae;
+  background-color: rgba(249, 196, 107, 0.1);
 }
 
 #logo {
@@ -83,7 +84,6 @@ nav ul li a:hover {
 
 /* sections */
 .second-section {
-  border-top: solid 1px #6550ae;
   padding: 100px 0;
 }
 
@@ -107,9 +107,10 @@ nav ul li a:hover {
 
 .worked {
   width: 400px;
-  background-color: #6550ae;
+  background-color: #f9c46b;
   padding: 1px;
 }
+
 #gifs {
   display: flex;
   justify-content: space-around;
@@ -122,6 +123,7 @@ nav ul li a:hover {
 
 footer {
   border-top: solid 1px #6550ae;
+  background-color: rgba(249, 196, 107, 0.1);
 }
 
 footer small {
