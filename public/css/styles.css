@@ -110,6 +110,15 @@ nav ul li a:hover {
   background-color: #6550ae;
   padding: 1px;
 }
+#gifs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.gif-unit {
+  width: 400px;
+  padding: 1px;
+}
 
 footer {
   border-top: solid 1px #6550ae;
