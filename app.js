@@ -4,11 +4,25 @@ const app = express()
 
 //public directory middleware
 
+app.use(express.static('public'))
+
 //endpoints
 
 app.get('/', (req, res) => {
   console.log(req)
-  res.send('welcome nerd')
+  res.sendFile(`${__dirname}/views/home-page.html`)
+})
+app.get('/about', (req, res) => {
+  console.log(req)
+  res.sendFile(`${__dirname}/views/about-page.html`)
+})
+app.get('/legacy', (req, res) => {
+  console.log(req)
+  res.sendFile(`${__dirname}/views/legacy-page.html`)
+})
+app.get('/photo-gallery', (req, res) => {
+  console.log(req)
+  res.sendFile(`${__dirname}/views/photo-gallery-page.html`)
 })
 
 //listener
