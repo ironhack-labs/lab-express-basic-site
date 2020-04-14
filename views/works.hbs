@@ -10,40 +10,20 @@
 
 <body>
 
-    <header>
-        <nav>
-            <div class="topnav">
-                <a href="/">Home</a>
-                <a href="about">About</a>
-                <a class="active" href="works">Works</a>
-             </div>
-        </nav>
-    </header>
-
-    <div>
-    <h1>Works</h1>  
-    </div>  
-
-    {{!-- <div >
-        <ul class = "works">
-            <li>
-        {{#each oeuvres}}
-        <h2>{{this.date}}</h2>
-        <img src="{{this.image}}"> </img>
-        {{/each}}
-        </li>
-    </ul>
-    </div> --}}
-
     <div class = "works">
-       <div>
-        {{#each oeuvres}}
+      {{#each oeuvres}}  
+        <div class='container'>
         <h2>{{this.date}}</h2>
-        <img src="{{this.image}}"> </img>
-        {{/each}}
-    </div>
-    </div>
 
+        <div class="picture-container">
+            <img class ="img-size" src="{{this.image}}"> </img>
+        </div>
+        
+        </div>
+        {{/each}}
+ </div>
+
+ 
     
 </body>
 </html>

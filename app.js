@@ -14,13 +14,17 @@ server.use(express.static(path.join(__dirname, 'public')));
 // HOME
 server.get('/', function(req, res) {
 	res.render('index', {
-		name: 'Vladimir'
+		name: 'Welcome',
+		styles: [ 'index.css' ],
+		nameUser: 'Vladimir'
 	});
 });
 
 // ABOUT
 server.get('/about', function(req, res) {
 	res.render('about', {
+		name: 'About him',
+		styles: [ 'about.css' ],
 		summary:
 			'Du graffiti à la peinture, Jean-Michel Basquiat (1960–1988) est l’une des comètes de l’art contemporain. Mort d’une overdose à l’âge de 27 ans, ce jeune ami de Warhol a élevé le street art au rang des beaux-arts. Son œuvre témoigne des réminiscences de son passé familial (ses origines haïtiennes), conjuguées aux influences du pop art. Il est devenu l’une des grandes figures de l’afro-américanisme dans le monde artistique.',
 
@@ -62,6 +66,8 @@ server.get('/about', function(req, res) {
 
 server.get('/works', function(req, res) {
 	res.render('works', {
+		name: 'His works',
+		styles: [ 'works.css' ],
 		oeuvres: [
 			{
 				date: '1# Dusthead, 1982',

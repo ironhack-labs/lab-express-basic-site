@@ -1,35 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: black;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-  
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: red;
-    color: white;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: red;
-    color: white;
-  }
+	background-color: black;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: red;
+	color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active2 {
+	background-color: red;
+	color: white;
+}
+
+main {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+h2 {
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+
+main div {
+	padding: 20px;
+}
+
+.life li {
+	margin: 10px;
+}
+
+blockquote {
+    margin: 10px;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 2em;
+}
+
+blockquote footer {
+	text-align: right;
+}

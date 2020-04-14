@@ -9,27 +9,17 @@
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <div class="topnav">
-                <a href="/">Home</a>
-                <a class="active" href="about">About</a>
-                <a href="works">Works</a>
-             </div>
-        </nav>
-    </header>
-
+    <main>
     
     <div class = "summary">
         <h2>Summary</h2>  
         <p>{{ summary }}</p>
     </div>
 
-    <div class = "quote">
-        <h2>He said</h2>  
-        <p>{{ quote }}</p>
-    </div>
+    <blockquote>
+     <p>{{ quote }}</p>
+      <footer>—Jean-Michel Basquiat</footer>
+    </blockquote>
 
     <div class = "life">
         <h2>His life</h2>  
@@ -40,6 +30,6 @@
     </ul>
     </div>
 
-    
+    </main>
 </body>
 </html>
