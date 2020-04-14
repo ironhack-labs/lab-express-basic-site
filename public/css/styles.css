@@ -1,0 +1,57 @@
+body {
+    background-image: url('/img/jim-back.jpg');
+    font-family: 'sans-serif';
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    color: yellow;
+}
+
+.home-class {
+    padding: 50px 200px;
+}
+
+img {
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.buttons {
+    color: purple;
+    font-size: 1.8em;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.buttons a {
+    margin-right: 20px;
+    transition: .5s;
+}
+
+.buttons a:hover {
+    color: pink;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    margin-left: 20px;
+}
