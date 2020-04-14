@@ -3,3 +3,7 @@
   justify-content: center;
   align-content: center;
 }
+
+p {
+  margin-top: 32px
+}

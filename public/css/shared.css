@@ -10,6 +10,10 @@ h1 {
   padding: 24px 0;
 }
 
+h2 {
+  font-weight: 200;
+}
+
 .text-container {
   background: #dbdbdb;
   padding: 72px 36px;
@@ -34,6 +38,8 @@ a:hover, a:active {
   color: #f0a500;
 }
 
-p {
-  padding: 32px 0;
+blockquote {
+  margin: 8px 16px;
+  border-left: 4px solid #f0a500;
+  padding-left: 8px;
 }

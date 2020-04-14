@@ -1,0 +1,7 @@
+h1, article {
+  margin: auto 64px;
+}
+p, blockquote {
+  margin-right: 64px;
+  text-align: justify;
+}
