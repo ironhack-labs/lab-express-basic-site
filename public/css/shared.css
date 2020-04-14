@@ -1,0 +1,39 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  background: #cf7500;
+  padding: 48px 0px;
+}
+
+h1 {
+  font-weight: 200;
+  padding: 24px 0;
+}
+
+.text-container {
+  background: #dbdbdb;
+  padding: 72px 36px;
+}
+
+nav > ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 16px;
+}
+
+a {
+  color: #cf7500;
+}
+
+a:hover, a:active {
+  color: #f0a500;
+}
+
+p {
+  padding: 32px 0;
+}
