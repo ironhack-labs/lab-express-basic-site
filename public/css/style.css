@@ -1,0 +1,77 @@
+body {
+    margin: 8%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* --- BILL MURRAY ---*/
+
+.square {
+    background: #c8d7e0;
+    padding: 10%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5em;
+} p {
+    font-size: 1em;
+    font-weight: 100;
+} .cosa {
+        text-decoration: none;
+    font-weight: 900;
+    color: white;
+} h1 {
+    text-transform: uppercase;
+}
+
+.abajo {
+    background:#c8d7e0; 
+    padding: 3%;
+  
+    
+}
+
+.link {
+    text-decoration: none;
+     font-weight: 500;
+    color: white;
+    margin-right: 2%;
+}
+
+/* --- ABOUT --- */
+
+.info {
+     /* background: #c8d7e0; */
+         background-image: url(../img/488725.png);
+    background-size: 864px;
+    padding: 11%;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+    font-size: .9em;
+} .ppp {
+        line-height: 20px;
+}
+
+.abajo-about {
+    background:#ACACAC; 
+    padding: 3%;
+}
+
+
+/* --- GALLERY --- */
+
+.fotos {
+       background: #c8d7e0;
+    padding: 4%;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.photo-one {
+    width: 38%;
+}
+.photo-dos {
+    width: 38%;
+}
