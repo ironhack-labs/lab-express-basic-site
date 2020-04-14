@@ -1,0 +1,156 @@
+body {
+    background:#efe9e8;
+    padding: 30px 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+p {
+    color:#543c52;
+    font-size: 1em;
+    text-align: justify;
+
+}
+
+h1 {
+   color:#361d32;
+   font-family: sans-serif;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 800;
+}
+
+h2 {
+   color:#361d32;
+   font-family: sans-serif;
+   font-size: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 800;
+   margin-bottom: 50px;
+}
+h3 {
+   color:#361d32;
+   font-family: sans-serif;
+   font-size: 20px;
+   text-align: center;
+   font-weight: 500;
+}
+
+.header-page{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.header-page h1{
+    color:#f55951;
+}
+
+.header-page header{
+    flex:1;
+    justify-content: center;
+    
+}
+
+.header-page nav{
+    flex:2;
+    width: 700px;
+    font-size: 20px;
+    padding: auto;
+    margin: auto;
+    align-content:center;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.header-page a:hover {
+  color:#f55951;
+  text-decoration: none;
+}
+ .header-page a{
+    text-decoration: none;
+    font-family: 'Oxygen',sans-serif;
+    color: #543c52;
+}
+
+.header-page nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header-page li{
+    margin: 10px;
+    color: #543c52;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url(..//img/table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    align-items:left;
+    align-content: left;
+    justify-content: center;
+}
+.hero h1{
+    width: 450px;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #edd2cb;
+    text-align: center;
+}
+
+.hero h2{
+    width: 400px;
+    font-size: 25px;
+    color: #f1e8e6;
+    text-align: center;
+}
+.hero p{
+    width: 400px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #f1e8e6;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.gallery img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 300px;
+}
+
+img {
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+}
+.works{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px 40px 20px;
+}
+.works img {
+    flex: 1;
+    width: 500px ;
+    margin: 0;
+}
+.works p, h3 {
+    width: 500px;
+    flex: 1;
+    text-align: justify;
+    margin: auto;
+}
