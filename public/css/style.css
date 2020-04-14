@@ -1,0 +1,107 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00cec9;
+    margin: 0;
+    padding: 0;
+}
+.header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 0;
+}
+.header li {
+    list-style: none;
+}
+.header a, .active-menu{
+    text-decoration: none;
+    color: #0984e3;
+    padding: 5px 15px;
+    transition: all .3s;
+    border-radius: 4px;
+}
+.header a:hover, .active-menu{
+    border-radius: 4px;
+    background-color: #d63031;
+    padding: 5px 15px;
+    color: #fab1a0;
+}
+.active{
+color: #fab1a0;
+}
+.ricky{
+    width: 90vw;
+    margin: 20px auto; 
+    text-align: center;
+}
+.ricky section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    margin: 0 auto;
+}
+.ricky h1{
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #6c5ce7;
+}
+.ricky p{
+    font-weight: 100;
+    font-size: 1.5em;
+}
+.about-me, .work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-me header, .work header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me h2, .work h2{
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #6c5ce7;
+}
+.about-me h3, .work h3{
+    font-size: 1.7em;
+    margin-top: 50px;
+    font-weight: 100;
+}
+.about-me p, .work p{
+    line-height: 23px;
+}
+.about-me a, .work a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #d63031;
+    margin: 40px;
+    transition: all .3s;
+    width: 150px;
+}
+.about-me a:hover, .work a:hover{
+    color: #fab1a0;
+}
+h4{
+    font-weight: 400;
+    font-size: 1em;
+}
