@@ -105,3 +105,12 @@ h4{
     font-weight: 400;
     font-size: 1em;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 20px 0;
+    background-image: linear-gradient(  0deg, #6c5ce7, #00cec9);
+    color: #00cec9;
+}
