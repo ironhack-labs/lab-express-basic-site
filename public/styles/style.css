@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #a1d9c0;
+    color: #EFEFEF;
+}
+/* --- NAVIGATION --- */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 15px 20px;
+    font-size: 1.5em;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin: 20px, 30px;
+    padding-right: 50px;
+    list-style: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #EFEFEF   
+}
+
+/* --- INTRO --- */
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    margin-top: 100px;
+    padding: 50px 50px 25px 50px;
+    font-size: 6em;
+}
+
+.hero p {
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+
+/* --- ABOUT US --- */
+
+.about-us {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.info {
+    width: 50%;
+}
+
+.info h2 {
+    font-size: 3.5em;
+    padding-bottom: 30px;
+}
+
+.info p {
+    padding-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.sec-img {
+    width: 50%;
+}
+
+.sec-img img {
+    justify-content: center;
+    width: 400px;
+}
+
+/* --- FACTS --- */
+
+h1 {
+    font-size: 4.5em;
+    text-align: center;
+    padding: 50px;
+}
+.facts {
+    padding: 0 100px 60px 100px;
+    margin: 25px 100px 100px 100px;
+    display: flex;
+    
+}
+
+.facts h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 4em;
+}
+
+.facts ul {
+    font-size: 1.5em;
+    margin: 0 60px;
+}
+
+.facts li {
+    padding-bottom: 10px;
+}
+
+.link-facts { 
+    padding: 10px;
+}
+
+.link-facts img {
+    margin: 20px;
+    padding:  0 120px;
+    width: 300px;
+}
+
+.ganon-facts img {
+    margin: 20px;
+    padding-left: 120px;
+    width: 300px;
+}
+
+
+/* --- GALLERY --- */
+.gallery {
+    justify-content: center;
+}
+.gallery img {
+    width: 300px;
+    padding: 20px 50px
+}
