@@ -1,0 +1,681 @@
+/*
+.fondo{
+	
+	width: 100%;
+	min-height: 100%;
+	float:left;
+	background-color: red;
+}*/
+
+/* INICIO CABECERA */
+
+.contenedorCabecera {
+  width: 100%;
+  height: 265px;
+  margin: 0px auto;
+  position: relative;
+  background-color: lawngreen;
+}
+
+.cabecera {
+  width: 1240;
+  min-height: 265px;
+  margin: 0px auto;
+  position: relative;
+  background-color: aqua;
+}
+
+.contenedorSupCabecera {
+  width: 1240px;
+  min-height: 240px;
+  margin: 0px auto;
+  position: relative;
+  background-color: red;
+}
+.login {
+  width: 100px;
+  min-height: 40px;
+  float: left;
+  background-color: tomato;
+  text-align: center;
+}
+
+.registro {
+  width: 100px;
+  min-height: 40px;
+  float: left;
+  background-color: green;
+  text-align: center;
+}
+
+.inicio {
+  width: 100px;
+  min-height: 40px;
+  float: right;
+  background-color: springgreen;
+  text-align: center;
+}
+
+.carrito {
+  width: 100px;
+  min-height: 40px;
+  float: right;
+  background-color: brown;
+  text-align: center;
+}
+
+.menu {
+  width: 1240px;
+  min-height: 225px;
+  float: left;
+  background-image: url(../img/carreteraSinCosturas1240.jpg);
+  text-align: center;
+}
+
+.catMenuIzq {
+  width: 490px;
+  min-height: 40px;
+  margin-top: 60px;
+  float: left;
+  background-color: gold;
+  text-align: center;
+}
+
+.menuVenta {
+  width: 200px;
+  height: 40px;
+  float: right;
+  /* background-color: green; */
+  text-align: center;
+  font-size: 24px;
+}
+
+.menuRestauracion {
+  width: 200px;
+  height: 40px;
+  float: right;
+  /* background-color: blue; */
+  text-align: center;
+  font-size: 24px;
+}
+
+.logo {
+  width: 260px;
+  height: 217px;
+  background-image: url(../img/logo_pistonesCoche.png);
+  margin-top: 0px;
+  float: left;
+  text-align: center;
+}
+
+.logoDestello {
+  width: 260px;
+  height: 217px;
+  background-image: url(../img/logo_pistonesCocheLuces.png);
+  margin-top: 0px;
+  float: left;
+  text-align: center;
+  animation-name: destello;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2;
+  /* animation-direction: ; */
+  opacity: 0;
+}
+
+@keyframes destello {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.catMenuDerech {
+  width: 490px;
+  min-height: 40px;
+  margin-top: 60px;
+  float: left;
+  background-color: gold;
+  text-align: center;
+}
+
+.menuForo {
+  width: 200px;
+  height: 40px;
+  float: left;
+  /* background-color: blue; */
+  text-align: center;
+  font-size: 24px;
+}
+
+.menuServicios {
+  width: 200px;
+  height: 40px;
+  float: left;
+  /* background-color: green; */
+  text-align: center;
+  font-size: 24px;
+}
+
+.cocheMovimiento {
+  width: 214px;
+  height: 100px;
+  background-image: url(../img/cocheAnimacionReducido.png);
+  float: left;
+  position: absolute;
+  bottom: -20px;
+  animation-name: movimientoCoche;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movimientoCoche {
+  0% {
+    left: 0px;
+  }
+  80% {
+    opacity: 1;
+  }
+  99% {
+    left: 1020px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*
+.merchandaising{
+	width: 90px;
+	min-height: 90px;
+	position: absolute;
+	left: 750px;
+	top: 10px;
+	background-color: MediumSpringGreen;
+	text-align: center;
+}
+
+.carrousel{
+	width: 1100px;
+	min-height: 360px;
+	margin: 0px auto;
+	background-color: brown;
+}
+
+.contenedorCabecera{
+	width: 100%;
+	min-height: 265px;
+	margin:0px auto;
+	position:relative;
+	background-color: lawngreen;
+}
+
+.cabecera{
+	width: 1240;
+	min-height: 265px;
+	margin: 0px auto;
+	position:relative;
+	background-color: aqua;
+	
+}
+
+.contenedorSupCabecera{
+	width: 1240px;
+	min-height: 240px;
+	margin: 0px auto;
+	position:relative;
+	background-color: red;
+}
+.login{
+	width: 100px;
+	min-height: 40px;
+	float: left;
+	background-color: tomato;
+	text-align: center;
+	
+}
+
+.registro{
+	width: 100px;
+	min-height: 40px;
+	float: left;
+	background-color: green;
+	text-align: center;
+	
+}
+
+.carrito{
+	width: 100px;
+	min-height: 40px;
+	float: right;
+	background-color: brown;
+	text-align: center;
+	margin-top: ;
+	
+}
+
+.menu{
+	width: 1240px;
+	min-height: 225px;
+	float: left;
+	background-image:url(../img/carreteraSinCosturas1240.jpg);
+	text-align: center;
+	
+}
+
+.catMenuIzq{
+    width: 490px;
+	min-height: 40px;
+	margin-top: 60px;
+	float: left;
+	background-color: gold;
+	text-align: center;	
+}
+
+.menuVenta{
+	width: 200px;
+	height: 40px;
+	float: right;
+	background-color: green;
+	text-align: center;
+    text-size: 24px;
+}
+
+.menuRestauracion{
+	width: 200px;
+	height: 40px;
+	float: right;
+	background-color: blue;
+	text-align: center;
+    text-size: 24px;
+}
+
+.logo{
+    Width: 260px;
+	height: 129px;
+	background-image:url(../img/fordHotRotMasReducido.png);
+	margin-top: 0px;
+	float: left;
+	background-color: ;
+	text-align: center;	
+}
+
+.logoDestello{
+	Width: 260px;
+	height: 129px;
+	background-image:url(../img/fordHotRotMasReducidoConDestello.png);
+	margin-top: 0px;
+	float: left;
+	text-align: center;	
+	animation-name: destello;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+	animation-direction: ;
+	opacity: 0;
+}
+
+@keyframes destello{
+    0%{ opacity: 0;}
+	50%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
+
+
+.logo{
+    Width: 260px;
+	height: 217px;
+	background-image:url(../img/logo_pistonesCoche.png);
+	margin-top: 0px;
+	float: left;
+	background-color: ;
+	text-align: center;	
+}
+
+.logoDestello{
+	Width: 260px;
+	height: 217px;
+	background-image:url(../img/logo_pistonesCocheLuces.png);
+	margin-top: 0px;
+	float: left;
+	text-align: center;	
+	animation-name: destello;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+	animation-direction: ;
+	opacity: 0;
+}
+
+@keyframes destello{
+    0%{ opacity: 0;}
+	50%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
+
+.catMenuDerech{
+	width: 490px;
+	min-height: 40px;
+	margin-top: 60px;
+	float: left;
+	background-color: gold;
+	text-align: center;
+}
+
+.menuForo{
+	width: 200px;
+	height: 40px;
+	float: left;
+	background-color: blue;
+	text-align: center;
+    text-size: 24px;
+}
+
+.menuServicios{
+	width: 200px;
+	height: 40px;
+	float: left;
+	background-color: green;
+	text-align: center;
+    text-size: 24px;
+}
+
+.cocheMovimiento{
+	Width: 214px;
+	height: 100px;
+	background-image:url(../img/cocheAnimacionReducido.png);
+	float:left;
+	position:absolute;
+	bottom: -20px;
+	animation-name: movimientoCoche;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes movimientoCoche{
+	0%{left: 0px;} 
+	80%{opacity:1;}
+	99%{left: 1020px;}
+	100%{opacity: 0;}
+}
+
+
+.merchandaising{
+	width: 90px;
+	min-height: 90px;
+	position: absolute;
+	left: 750px;
+	top: 10px;
+	background-color: MediumSpringGreen;
+	text-align: center;
+}
+
+.carrousel{
+	width: 1100px;
+	min-height: 360px;
+	margin: 0px auto;
+	background-color: brown;
+}*/
+
+/* FINAL CABECERA */
+
+/* INICIO CUERPO DE LA PAGINA */
+.cuerpo {
+  width: 1240px;
+  min-height: 910px;
+  margin: 0px auto;
+  position: relative;
+  background-color: black;
+}
+
+.contCuerpoPagina {
+  width: 1100px;
+  min-height: 850px;
+  background-color: red;
+  margin: 0px auto;
+}
+
+.nosotros {
+  width: 1100px;
+  min-height: 350px;
+  background-color: green;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.contCuerpoPagina2 {
+  width: 1100px;
+  min-height: 500px;
+  background-color: silver;
+  float: left;
+}
+
+.columIzq {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  min-height: 500px;
+  background-color: pink;
+  float: left;
+}
+
+.categorias {
+  width: 250px;
+  min-height: 100px;
+  background-color: blue;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.buscar {
+  width: 250px;
+  min-height: 80px;
+  background-color: blue;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.ofertas {
+  width: 250px;
+  min-height: 200px;
+  background-color: brown;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.noticias {
+  width: 250px;
+  min-height: 200px;
+  background-color: tomato;
+  float: left;
+}
+
+.infoport {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 780px;
+  min-height: 520px;
+  background-color: gold;
+  float: left;
+}
+
+.venta {
+  width: 780px;
+  min-height: 300px;
+  background-color: aqua;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.contenidoPagina {
+  width: 780px;
+  min-height: 500px;
+  background-color: aqua;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.restauraciones {
+  width: 780px;
+  min-height: 200px;
+  background-color: blue;
+  float: left;
+}
+
+.formularioContacto {
+  width: 780px;
+  min-height: 350px;
+  background-color: blue;
+  float: left;
+}
+
+.comentarioForm {
+  margin-left: 20px;
+}
+
+/*  FINAL CUERPO PAGINA  */
+
+/*  INICIO PIE DE PAGINA  */
+.contenedorPiePagina {
+  width: 100%;
+  height: 400px;
+  float: left;
+  position: relative;
+  background-color: lawngreen;
+}
+.piepagina {
+  width: 1240px;
+  height: 400px;
+  margin: 0px auto;
+  position: relative;
+  background-color: white;
+}
+
+.dondeestamos {
+  box-sizing: border-box;
+  width: 365px;
+  min-height: 400px;
+  background-color: red;
+  float: left;
+}
+
+.mapdirection {
+  width: 365px;
+  min-height: 220;
+  background-color: green;
+  text-align: center;
+  font-size: 12px;
+}
+
+.direction {
+  width: 265px;
+  height: 220px;
+  background-color: tomato;
+  float: left;
+}
+.mapa {
+  width: 100px;
+  height: 100px;
+  background-color: silver;
+  margin-top: 120px;
+  float: right;
+}
+
+.horario {
+  width: 365px;
+  min-height: 180px;
+}
+
+.tituloHorario {
+  width: 100px;
+  min-height: 180px;
+  background-color: aqua;
+  float: left;
+}
+
+.contenidoHorario {
+  width: 265px;
+  min-height: 180px;
+  background-color: brown;
+  float: left;
+}
+
+.resultados {
+  width: 510px;
+  height: 400px;
+  background-color: blue;
+  left: 366.7px;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+}
+
+.contact {
+  width: 365px;
+  min-height: 400px;
+  background-color: gold;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+
+.gmail {
+  width: 20px;
+  height: 14px;
+  background-image: url(../img/logogmail.png);
+  float: left;
+  position: relative;
+  left: 100px;
+}
+
+.whatsapp {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/logowhatsapp.png);
+  float: left;
+  position: relative;
+  left: 100px;
+}
+
+/*   FINAL PIE DE PAGINA  */
+
+/*   INICIO CONDICIONES GENERALES */
+
+.backgroundGeneralCond {
+  width: 100%;
+  height: 3600px;
+  margin: 0px auto;
+  float: left;
+  padding: 50px 0px;
+  background-color: grey;
+}
+
+.cond {
+  width: 1100px;
+  height: 3550px;
+  margin: 0px auto;
+  position: relative;
+  padding: 30px 20px;
+  background-color: white;
+  align: center;
+  border-radius: 5px;
+  line-height: 25px;
+}
+
+.backgroundGeneralCond h2 {
+  text-indent: 20px;
+}
+
+.backgroundGeneralCond h3 {
+  text-indent: 35px;
+}
+
+/*    FINAL CONDICIONES GENERALES     */
