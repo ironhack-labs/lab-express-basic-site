@@ -1,0 +1,89 @@
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav {
+     width: 100%;
+     position: fixed;
+     background-color: white;
+     padding: 10px 20px 0px 0px
+} 
+
+.navigation-div {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkred;
+}
+nav a:hover {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.section-1 {
+    padding-top: 20px;
+    display: flex;
+}
+
+.section-1 article {
+    margin: auto;
+}
+
+.section-1 h1 {
+    text-align: center;
+    padding-left: 20px;
+    color: darkred;
+    font-weight: 700;
+}
+
+.about-description {
+    padding-top: 100px;
+}
+
+.first-paragrapgh-letter {
+    font-size: 2em;
+    font-weight: 900;
+    color: darkred;
+    padding: 0px;
+    line-height: 0;
+}
+
+p {
+    padding: 20px 100px;
+    text-align: justify;
+}
+
+.gallery {
+    padding: 200px 50px;
+    justify-content: center;
+}
+
+.gallery img { 
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gallery iframe { 
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.gallery.gallery-gif {
+    margin-left: 200px;
+}
