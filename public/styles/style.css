@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  font-family: 'Lexend Giga', sans-serif;
+  font-size: 10px;
+}
+
+#index {
+  background-image: url('/images/tree_background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+}
+
+.index_main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_name {
+  background-color: black;
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+.div_name h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.div_list {
+  display: flex;
+}
+.div_list a {
+  font-size: 1rem;
+  color: yellow;
+  background-color: black;
+  padding: 10px;
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+.owner_photo {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+
+.owner_photo img {
+  margin-top: 1%;
+  width: 20%;
+}
+
+.main_hobbies {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main_hobbies div {
+  border: 3px solid red;
+  border-radius: 8%;
+  width: 22%;
+  height: 40vh;
+}
+.about {
+  width: 90%;
+  margin: 2% 0 0 4%;
+}
+
+.ipn {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.return {
+  position: fixed;
+  bottom: 3%;
+  padding: 1% 2%;
+  border-top-right-radius: 5% 15%;
+  border-bottom-right-radius: 5% 15%;
+  background-color: black;
+}
+
+.return a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.img_project1 {
+  width: 100%;
+  margin: 2% 0;
+  display: flex;
+  justify-content: space-around;
+}
+.linksGitHub div {
+  width: 50%;
+  text-align: center;
+}
+
+.linksGitHub {
+  margin-top: 5%;
+  display: flex;
+}
+
+.linksGitHub a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  padding: 2.5%;
+  box-shadow: 7px 7px 5px grey;
+}
