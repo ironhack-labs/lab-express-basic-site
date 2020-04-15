@@ -35,14 +35,20 @@
 }
 
 main {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	padding-top: 20px;
 }
 
 h2 {
 	font-size: 2em;
-	padding-bottom: 10px;
+	text-align: center;
+	width: 20%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: red;
+	color: white;
+	border-radius: 6px;
 }
 
 main div {
@@ -54,12 +60,12 @@ main div {
 }
 
 blockquote {
-    margin: 10px;
+	margin: 10px;
 }
 
 blockquote p {
-    padding: 15px;
-    background: #eee;
+	padding: 15px;
+	background: #eee;
 	border-radius: 5px;
 	text-align: center;
 	font-size: 2em;

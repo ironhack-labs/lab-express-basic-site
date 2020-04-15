@@ -34,14 +34,16 @@
 }
 
 .img-size {
-	max-width: 300px;
-	max-height: 300px;
+	/* max-width: 300px;
+	max-height: 300px; */
 	border-radius: 6px;
 	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 .works {
-	margin: 20px;
+	margin: 30px;
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
@@ -64,6 +66,7 @@
 	padding: 20px;
 	background-color: white;
 	border-radius: 6px 6px 0 0;
+	height: 2em;
 }
 
 .picture-container {
