@@ -23,6 +23,8 @@ app.get("/", (request, response, next) => {
           </head>
           <body>
             <h1>Welcome, seeker of freedom, peace and love!</h1>
+            <a href="/about">About the legend</a>
+            <a href="/works">Work samples</a>
             <img src="/images/welcome.jpg" />
           </body>
         </html>
