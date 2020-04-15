@@ -1,10 +1,6 @@
 const express = require("express");
 const app = express();
-app.use(express.static("public")); //our static files gona be public
-//those 3 lines boilerplate template where all those lines are added
-app.get("/", (request, response) => {
-  response.send("<h1>home</h1>");
-});
+app.use(express.static("public"));
 app.listen(3000, () => {
   console.log("server listening");
 });
