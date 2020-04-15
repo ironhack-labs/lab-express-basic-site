@@ -1,0 +1,33 @@
+.jumbotron{
+    background-image: url("/carrot.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron{
+    height: 70vh;
+    padding: 20rem 2rem!important;
+}
+ h1{
+    font-size: 10vh;
+    color:#dd2c00;
+    font-weight: bold;
+}
+.jumbotron p{
+    font-size: 6vh;
+    color:white;
+    font-weight: bolder;
+}
+.jumbotron h1{
+    font-weight: 900;
+    color: white;
+}
+img{
+    height: 60vh;
+}
+.btn.btn-primary{
+    background-color:#ff5722!important;
+    border: #ff5722;
+    color: #dd2c00;
+    font-weight: bolder;
+    width: 45vh;
+}
