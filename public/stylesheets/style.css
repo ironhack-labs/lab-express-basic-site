@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(178,34,34);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+  }
+
+   a {
+    color: black;
+    font-size: 150%;
+  }
+div{
+    text-align: center;
+}
+
+.title{
+  text-align: center;
+  font-size: 300%;
+  color: black;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 200%;
+  color: black;
+}
+
+.topnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.about{
+  text-align: center;
+  font-size: 300%;
+  color: black;
+}
+
+.info{
+  text-align: center;
+  font-size: 150%;
+  color: black;
+  padding: 1% 20% 1% 20%;
+}
+
+
+#music {
+  padding: 1% 5% 1% 5%;
+  margin: 0 auto;
+}
+
+#music p {
+  width: 60%;
+  margin: 10px auto;
+}
+
+#music .section-text {
+  font-size: 150%;
+  text-align: center;
+}
+
+#music .album {
+  font-size: 100%;
+  font-weight: 300%;
+}
+
+#music img {
+  width: auto;
+  height: auto;
+}
+
+.works {
+  text-align: center;
+  font-size: 200%;
+  color: black;
+}
+
+#music hr {
+  margin: 20px auto 30px auto;
+  width: 80%;
+}
