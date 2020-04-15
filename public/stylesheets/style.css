@@ -1,0 +1,50 @@
+body {
+  background-color: #f8cc86;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 37pt;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18pt;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+img {
+  margin: auto;
+  padding: 0;
+}
+
+.gallery-friends {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.team-aang {
+  width: 80%;
+  text-align: center;
+  font-size: 25pt;
+  margin: auto;
+}
+
+p {
+  width: 80%;
+  font-size: 25pt;
+  margin: auto;
+}
