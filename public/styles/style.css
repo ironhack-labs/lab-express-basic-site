@@ -1,4 +1,9 @@
  body {
-  color: blue;
-  background-color:#8ec6c5;
+  color:#cae8d5;
+  background-color:#3b6978;
+}
+
+img {
+    max-width:100%;
+  height:auto;
 }
