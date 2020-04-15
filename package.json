@@ -1,0 +1,22 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "Ironhack basic site lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertbozsik/lab-express-basic-site.git"
+  },
+  "author": "Robert Bozsik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertbozsik/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/robertbozsik/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

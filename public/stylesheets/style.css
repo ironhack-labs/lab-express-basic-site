@@ -1,0 +1,15 @@
+body {
+  color: gray;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
