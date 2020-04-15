@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Home",
+    "class": "home",
+    "css": ["style.css", "home.css"],
+    "js": ["script.js"],
+    "home": true
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "class": "portfolio",
+    "css": ["style.css", "portfolio.css"],
+    "js": ["script.js"],
+    "portfolio": true
+  },
+  "photos": {
+    "title": "Photos",
+    "class": "photos",
+    "css": ["style.css", "photos.css"],
+    "js": ["script.js"],
+    "photos": true
+  }
+}

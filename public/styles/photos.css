@@ -1,0 +1,41 @@
+.container {
+  margin: auto;
+  display: flex;
+}
+
+.ratio {
+  flex-shrink: 1;
+  flex-grow: 1;
+  min-width: 10%;
+  margin: 2px 3px;
+}
+
+.ratio:first-child {
+  margin-left: 0;
+}
+
+.ratio:last-child {
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  padding-top: 80px;
+  font-family: "Gotu", "Lato", sans-serif;
+}
+
+img {
+  bottom: 0;
+  left: 0;
+}
+
+img:hover {
+  position: relative;
+  bottom: 1px;
+  /* left: 1px; */
+  transition: all 0.3s;
+  box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
+}

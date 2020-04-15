@@ -1,0 +1,7 @@
+.banner {
+  margin-bottom: 100px;
+}
+
+.banner a:hover {
+  color: darkblue;
+}

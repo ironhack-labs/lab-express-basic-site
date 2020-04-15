@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claire Littlefair »
+    {{#if home}}Editor, Writer{{else}}{{title}}{{/if}}
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+  {{#each css}}
+  <link rel="stylesheet" href="/styles/{{this}}">
+  {{/each}}
+  {{#each js}}
+  <script src="/scripts/{{this}}"></script>
+  {{/each}}
+</head>
+
+<body class="{{class}}">
+  <nav>
+    <div class="container">
+      <div class="logo"><a href="/">Claire Littlefair</a></div>
+      <div class="menu">
+        <a {{#unless home}} href="/" {{/unless}} class="home">About</a>
+        <a {{#unless portfolio}} href="/portfolio" {{/unless}} class="portfolio">Editorial</a>
+        <a {{#unless photos}} href="/photos" {{/unless}} class="photos">Photography</a>
+      </div>
+    </div>
+  </nav>
+  <div class="main">
+    {{{ body }}}
+  </div>
+</body>
+
+</html>
