@@ -21,3 +21,49 @@
     height: 100%;
     width: 100%;
 }
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.boxHeader {
+    padding: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boxHeader>h2 {
+    font-size: 64px;
+}
+
+.boxHeader>h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    padding-bottom: 5vh;
+}
+
+.projects {
+    font-size: 24px;
+}
+
+.projects>p {
+    padding-bottom: 2vh;
+}
+
+.projects>li {
+    padding-bottom: 2vh;
+}
+
+.links a {
+    font-size: 22px;
+    padding: 2vh;
+    text-decoration: none;
+}
