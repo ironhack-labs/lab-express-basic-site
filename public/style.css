@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f1c40f;
+}
+
+
+.mainBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageBox {
+    justify-content: end;
+    align-items: flex-end;
+    height: 100vh;
+    width: 70%;
+}
+
+.imageBox>img {
+    height: 100%;
+    width: 100%;
+}
