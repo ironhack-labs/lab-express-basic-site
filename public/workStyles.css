@@ -1,0 +1,21 @@
+body{
+    background-image: url(/public/kitschbg.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+.link1{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid rgb(190, 17, 233);
+    border-radius: 12%;
+    background-color: black;
+}
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(0, 255, 200);
+margin: 0 auto;
+}
