@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Raleway:wght@100&display=swap');
+
+body {
+    background-color: black;
+    color: cornsilk;
+    font-family: 'Raleway', sans-serif;
+}
+
+.greetings {
+    font-size: 9rem;
+}
+
+.nav-bar {
+    list-style-type: none;
+    font-size: 3rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:purple;
+}
+
+.description {
+    line-height: 2em;
+}
+
+.page-body {
+    margin: 12rem;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    width: 30%;
+    height: 50%;
+}
