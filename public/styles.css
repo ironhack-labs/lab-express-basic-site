@@ -1,0 +1,15 @@
+.home-styles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-image {
+    height: 350px;
+}
+
+.home-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
