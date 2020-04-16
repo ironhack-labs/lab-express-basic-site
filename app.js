@@ -22,6 +22,10 @@ server.get("/photos", function (request, response) {
   response.render("photos.hbs", data.photos);
 });
 
-server.listen(process.env.PORT, () => {
-  console.log(`Server listening on http://localhost:${process.env.PORT}`);
-});
+// server.listen(process.env.PORT, () => {
+//   console.log(`Server listening on http://localhost:${process.env.PORT}`);
+// });
+
+server.listen(process.env.PORT || 3000, () =>
+  console.log("Server is running...")
+);
