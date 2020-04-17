@@ -1,0 +1,53 @@
+#seasonList {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#seasonList a {
+	margin: 0 2em;
+	cursor: pointer;
+	font-size: 0.8em;
+	color: #000;
+	text-decoration: none;
+}
+
+table.tab {
+	font-size: 0.9em;
+	width: 80%;
+	padding: 1em;
+	background: #fff;
+	border-radius: 10px;
+	margin: 3em auto;
+}
+
+table.tab td {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 5px 1em;
+}
+
+table.tab tbody tr:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+table tbody td:nth-child(1) {
+	transition: font-weight 0.2s ease-in;
+	text-align: center;
+	width: 50px;
+}
+table tbody tr:hover td:nth-child(1) {
+	font-weight: 700;
+}
+table tbody tr td:nth-child(2) {
+	transition: padding 0.2s ease-in;
+}
+table tbody tr:hover td:nth-child(2) {
+	padding-left: 3em;
+}
+
+table.tab th {
+	line-height: 50px;
+}
+
+table.tab tr:last-child td {
+	border-bottom: none;
+}

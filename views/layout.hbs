@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Office</title>
+    <link rel="stylesheet" href="/styles/base.css" />
+    {{#if css}}
+    <link rel="stylesheet" href="/styles/{{css}}.css" />
+    {{/if}}
+    <script type="module" src="/js/main.js"></script>
+    {{#if isEpisodes}}
+    <script type="module" src="/js/episodes.js"></script>
+    {{/if}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 id="title">The Office</h1>
+        </header>
+        <nav>
+            <strong>{{title}}</strong>
+            <ul>
+                <li {{#if isHome}}class="active" {{/if}}><a href="/">Home</a></li>
+                <li {{#if isAbout}}class="active" {{/if}}><a href="/about">About</a></li>
+                <li {{#if isEpisodes}}class="active" {{/if}}><a href="/episodes">Episodes</a></li>
+                <li {{#if isGallery}}class="active" {{/if}}><a href="/gallery">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            {{{ body }}}
+        </main>
+    </div>
+</body>
+
+</html>

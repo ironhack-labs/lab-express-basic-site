@@ -1,0 +1,17 @@
+section {
+	display: flex;
+	padding-top: 20px;
+}
+
+.poster {
+	border: 20px solid #fff;
+	border-radius: 20px;
+}
+
+section p {
+	text-align: justify;
+}
+
+section h2 {
+	margin: 0;
+}

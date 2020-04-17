@@ -1,0 +1,21 @@
+.gallery {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.picture {
+	background: #fff;
+	border: 25px solid #fff;
+	border-radius: 5px;
+	padding-bottom: 3em;
+	margin: 1em;
+	transition: box-shadow 0.2s ease-in, margin-top 0.1s ease-in, margin-bottom 0.1s ease-in;
+}
+
+.picture:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	margin-top: -1em;
+	margin-bottom: 3em;
+}

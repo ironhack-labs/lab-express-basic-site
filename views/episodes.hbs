@@ -1,0 +1,19 @@
+<ul id="seasonList">
+    {{#each listEpisodes.seasons}}
+    <li data-type="tab" data-id="season-{{this}}"><a href="/episodes/season-{{this}}">Season {{this}}</a></li>
+    {{/each}}
+</ul>
+
+<table class="tab">
+    <thead>
+        <tr>
+            <th>Nb</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each listEpisodes.thisSeason}}
+        {{> tableSeason this}}
+        {{/each}}
+    </tbody>
+</table>

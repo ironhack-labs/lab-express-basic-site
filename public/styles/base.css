@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto300,500,700,900&display=swap');
+@font-face {
+	font-family: 'TheOffice';
+	src: url('../fonts/American Typewriter Regular.ttf');
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: radial-gradient(rgb(255, 255, 255), rgb(25, 192, 245));
+	background-attachment: fixed;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+#wrapper {
+	display: grid;
+	grid-template-rows: repeat(1, 2fr 1fr 10fr);
+	height: 100vh;
+	width: 80%;
+	margin: 0 auto;
+	animation: fadeIn ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'TheOffice', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+	transform: rotate(-5deg);
+}
+
+.rotate-transition {
+	transition: transform 0.3s ease-in;
+}
+
+header:hover h1 {
+	transform: rotate(0deg);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+nav strong {
+	text-transform: uppercase;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin: 0 2em;
+	transform: rotate(-5deg);
+}
+
+nav li:hover {
+	transform: rotate(0deg);
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+	font-weight: 700;
+}
+
+nav li.active {
+	transform: rotate(0);
+}
+
+article {
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	padding: 2em;
+	margin: 0 5em;
+}
+
+article em {
+	display: block;
+	text-align: right;
+}
