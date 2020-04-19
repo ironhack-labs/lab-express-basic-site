@@ -2,7 +2,7 @@
     height: 70vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
+    grid-template-areas:
         "left-column center-column right-column"
 }
 
@@ -12,9 +12,11 @@
 }
 
 #intro-text {
+    height: 70vh;
     font-size: 3.4vw;
     line-height: 1.2em;
     margin-top: 20px;
+    overflow: scroll;
 }
 
 .center-column {
@@ -26,17 +28,18 @@
 
 .center-column img {
     position: absolute;
-    width: 100%;
-    margin-top: 60px;
-    margin-left: 60px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .right-column {
+    margin-right: 40px;
     grid-area: right-column;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: flex-start;
     position: relative;
     text-align: right;
     font-size: 3vw;
@@ -63,5 +66,3 @@
     border-radius: 12px;
     padding: 10px;
 }
-
-

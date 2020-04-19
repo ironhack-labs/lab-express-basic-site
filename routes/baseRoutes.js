@@ -1,5 +1,6 @@
 const express = require('express');
-const router = new express.Router();
+const router = express.Router();
+const Newsletter = require('../models/newsletter.js');
 
 router.get('/', (req, res) => {
     res.render('index.hbs', {
@@ -16,8 +17,7 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/works', (req, res) => {
-    const videos = [
-        {
+    const videos = [{
             url: 'https://www.youtube.com/embed/D2U0q4lZiFg',
             caption: 'IMA Portrait documentary',
         },
@@ -30,7 +30,7 @@ router.get('/works', (req, res) => {
             caption: `L'entretien infini - Hans Ulrich Obrist - 2014`,
         }
     ];
-    
+
     res.render('works.hbs', {
         title: 'Sound works',
         styles: ['works.css'],
@@ -38,10 +38,15 @@ router.get('/works', (req, res) => {
     });
 });
 
-router.get('/gallery', (req, res) => {
-    res.render('gallery.hbs', {
-        title: 'A video gallery',
-    });
+router.post('/', (req, res, next) => {
+    Newsletter.create(req.body)
+        .then((dbResult) => {
+            console.log(req.body);
+        })
+        .catch((dbErr) => {
+            next();
+            return dbErr;
+        });
 });
 
 module.exports = router;

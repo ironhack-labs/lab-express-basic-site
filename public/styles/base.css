@@ -39,7 +39,7 @@ html {
 
 #back-button:hover {
     border: 3px solid lime;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     /* See with Nina | Button moving */
 }
 
@@ -53,6 +53,7 @@ html {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .footer ul {
