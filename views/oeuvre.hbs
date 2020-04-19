@@ -1,0 +1,28 @@
+<section>
+<h1>Oeuvre de Wajdi Mouawad</h1>
+<h2>Sa philosophie</h2>
+<p class="citation">"Le scarabée est un insecte qui se nourrit des excréments d’animaux autrement plus gros que lui. Les intestins de ces
+animaux ont cru tirer tout ce qu’il y avait à tirer de la nourriture ingurgitée par l’animal. Pourtant, le scarabée
+trouve, à l’intérieur de ce qui a été rejeté, la nourriture nécessaire à sa survie grâce à un système intestinal dont la
+précision, la finesse et une incroyable sensibilité surpassent celles de n’importe quel mammifère. De ces excréments
+dont il se nourrit, le scarabée tire la substance appropriée à la production de cette carapace si magnifique qu’on lui
+connaît et qui émeut notre regard : le vert jade du scarabée de Chine, le rouge pourpre du scarabée d’Afrique, le noir
+de jais du scarabée d’Europe et le trésor du scarabée d’or, mythique entre tous, introuvable, mystère des mystères.
+Un artiste est un scarabée qui trouve, dans les excréments mêmes de la société, les aliments nécessaires pour produire
+les œuvres qui fascinent et bouleversent ses semblables. L’artiste, tel un scarabée, se nourrit de la merde du monde
+pour lequel il œuvre, et de cette nourriture abjecte il parvient, parfois, à faire jaillir la beauté."
+</p>
+<p class="nom">Wajdi Mouawad</p>
+<h2>Ses livres</h2>
+<div id="livres">
+        {{#each livres}}
+        <div class="livre">
+        <img src="{{this.couverture}}" alt="">
+        <h3>{{this.titre}}</h3>
+        <p>1er éditeur : {{this.editeur}}</p>
+        <p>{{this.annee}}</p>
+        </div>
+        {{/each}}  
+</div>
+
+</section>

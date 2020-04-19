@@ -1,0 +1,16 @@
+
+
+#accueil{
+    background-image: url("../images/wm_portrait.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 94vh;
+}
+#accueil h1{
+    position: absolute;
+    bottom:1%;
+    left: 1%;
+    font-size: 10vh;
+}

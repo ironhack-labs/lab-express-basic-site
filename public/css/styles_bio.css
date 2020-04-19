@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+p {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+section {
+    margin: 50px;
+   
+}
+h1{
+    font-size: 2em
+}  
+
+
+img{
+    float: right;
+    width: 40vw;
+    padding: 10px 0 3% 3%;
+   
+}

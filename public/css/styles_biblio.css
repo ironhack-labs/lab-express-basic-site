@@ -1,0 +1,41 @@
+
+#livres {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    row-gap: 5vh;
+ 
+}
+img{
+    height: 25vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.livre{
+    text-align: center;
+}
+
+section{
+    padding:40px
+}
+h1{
+    font-size: 2em;
+    
+}
+
+h2{
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    color: darkred;
+}
+
+.citation{
+   text-align: justify;
+   font-style: italic;
+   font-size: 1.2em;
+   line-height: 1.2em;
+}
+.nom{
+font-size: 1.2em;
+margin-top: 10px;
+font-weight: bold;
+text-align: right;
+}

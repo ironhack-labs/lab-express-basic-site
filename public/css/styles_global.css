@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Arapey");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arapey;
+}
+
+
+#navbar{
+ height: 6vh; 
+ display: flex; 
+ background-color: black;
+ justify-content: space-around;
+}
+
+#navbar a {
+    text-decoration:none;
+    color: white;
+    font-size: 4vh;
+    width: max-content;
+    line-height: 6vh;
+}
