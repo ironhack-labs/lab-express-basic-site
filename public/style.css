@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  color: rgb(255, 245, 245);
+}
+
+a,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1536311312982-31ed42ebc0f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80");
+  background-size: cover;
+  height: 100%;
+}
+
+nav h1 {
+  padding-left: 15px;
+  position: relative;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #ec2222;
+  text-align: center;
+}
+
+nav h1:after {
+  content: "PKD";
+  position: absolute;
+  left: 17px;
+  top: 1px;
+  color: whitesmoke;
+}
+
+nav ul {
+  list-style: none;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+
+  color: #ec22229a;
+}
+
+nav ul a {
+  text-decoration: none;
+  box-shadow: -4px -2px #b11a1a;
+  padding-left: 2px;
+  letter-spacing: 2px;
+  font-size: 28px;
+  transition: 0.6s;
+}
+nav ul a:hover {
+  box-shadow: 4px 2px #b11a1a;
+  color: #ec2222;
+  transition: 0.6s;
+  -webkit-transform: scale(1);
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: #00000041;
+  width: 100%;
+  padding: 0;
+
+  color: whitesmoke;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 20px;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+}
+
+.window {
+  /* border:1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  height: 87vh;
+  width: 100vw;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 87vh;
+}
+.main {
+  /* border:1px solid red ; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85vw;
+}
+
+.main .image {
+  height: 50vh;
+  opacity: 0.95;
+  border-radius: 100%;
+}
+.text h2 {
+  letter-spacing: 7px;
+  font-size: 35px;
+  font-size: 60px;
+  color: #ffffff;
+}
+.text p {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.main-work {
+  /* border:1px solid red ; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.work-image {
+  /* border: 1px solid red; */
+  background-image: url("https://cdn.vox-cdn.com/thumbor/9NTPXT-XQdjsrdox2ZgWIo6-5JY=/97x0:922x550/2050x1367/cdn.vox-cdn.com/assets/1470889/pkd_lead2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 70%;
+}
+.DOM {
+  height: 90vh;
+  width: 80vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .black-background {
+  background-color: rgba(0, 0, 0, 0.664);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+} */
+.text-background {
+  background-color: rgba(0, 0, 0, 0.678);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  text-align:justify;
+  padding:25px;
+}
+.text-background h2{
+  font-size:40px;
+}
+.text-background p{
+  padding-top:20px;
+}
+.no-background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.work-image h2 {
+  font-size: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.arrow {
+  padding: 3rem; /* Arrow size */
+  box-shadow: 1px -1px 0 1px rgb(251, 251, 251) inset;
+  -webkit-box-shadow: 2px -2px rgb(255, 255, 255) inset;
+  border: solid transparent;
+  border-width: 0 0 2rem 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.arrow:hover {
+  box-shadow: 2px -2px 0 2px #b11a1a inset;
+  -webkit-box-shadow: 4px -4px #b11a1a inset;
+}
+.arrow-right {
+  transform: rotate(225deg);
+}
+.arrow-left {
+  transform: rotate(45deg);
+}
+
+#bio {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border:1px solid red; */
+}
+#inside-bio {
+  /* border:1px solid yellow; */
+  background-color: rgba(0, 0, 0, 0.562);
+}
+#bio p {
+  width: 80vw;
+  font-size: 13px;
+  text-align: justify;
+  padding: 10px;
+}
+
+#inside-bio img {
+  float: left;
+  height: 40vh;
+  padding: 10px;
+}
