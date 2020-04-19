@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <p>{{ information }}</p>
+    
+
+    
+        <div><img src="/images/txbrut-1.jpg" style="margin: 0px 25px 35px 0px;"></div>
+        {{#each bouleauxdez}}
+        {{this.name}} | {{this.type}}
+        {{/each}}
+        <div><img src="/images/txbrut-2.jpg" style="margin: 75px 0px 35px 0px;"></div>
+        {{#each bison}}
+        {{this.name}} | {{this.type}}
+        {{/each}}
+        <div><img src="/images/txbrut-3.jpg" style="margin: 75px 0px 35px 0px;"></div>
+        {{#each bouleauxparenf}}
+        {{this.name}} | {{this.type}}
+        {{/each}}
+        <div><img src="/images/txbrut-4.jpg" style="margin: 75px 0px 35px 0px;"></div>
+        {{#each autruche}}
+        {{this.name}} | {{this.type}}
+        {{/each}}
+    
+    <p style="padding: 85px 0px;"><a href="http://benjamin-h-dean.com/" class="button1" target="_blank">-  benjamin-h-dean.com  -</a></p>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: black;  
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 15px 15px 50px 15px; 
+  font-size: 28px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a  {
+  color: rgb(126, 126, 126);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0px 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.current {
+  color: white;
+  font-weight: bold;
+  padding: 0px 15px;
+  letter-spacing: 1px;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition-duration: 0.4s;
+  padding: 35px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  text-align: center;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
