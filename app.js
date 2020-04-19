@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const express = require("express");
 const hbs = require("hbs");
 const path = require("path");
-const bodyParser = require('body-parser');
 
 const app = express();
 
@@ -15,7 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 const baseRouter = require("./routes/baseRoutes");
 app.use("/", baseRouter);
 
-app.use(bodyParser.urlencoded({
+app.use(express.urlencoded({
     extended: true
 }));
 

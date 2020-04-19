@@ -5,8 +5,20 @@ const Newsletter = require('../models/newsletter.js');
 router.get('/', (req, res) => {
     res.render('index.hbs', {
         title: 'Eliane Radigue',
-        styles: ['index.css'],
+        styles: ['index.css']
     });
+});
+
+router.post('/', (req, res) => {
+    console.log(req.body);
+    console.log("Newsletter post route");
+    Newsletter.create(req.body)
+        .then((dbResult) => {
+            res.redirect('/');
+        })
+        .catch((dbErr) => {
+            console.log(dbErr);
+        });
 });
 
 router.get('/about', (req, res) => {
@@ -36,17 +48,6 @@ router.get('/works', (req, res) => {
         styles: ['works.css'],
         videos: videos,
     });
-});
-
-router.post('/', (req, res, next) => {
-    Newsletter.create(req.body)
-        .then((dbResult) => {
-            console.log(req.body);
-        })
-        .catch((dbErr) => {
-            next();
-            return dbErr;
-        });
 });
 
 module.exports = router;
