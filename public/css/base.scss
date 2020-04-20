@@ -1,0 +1,183 @@
+$primary: #E1FFF4;
+$lightGray: #F6F9FC;
+$darkGray: #4a4a4a;
+$white: #FFFFFF;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background: $primary;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Navbar styling
+nav {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: stretch;
+  background: $primary;
+
+  .nav-links {
+    margin: 30px 20px;
+  }
+
+  li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 16px;
+    color: $darkGray;
+    font-size: 16px;
+  }
+}
+
+.hero-section {
+  height: 50vh;
+  background: $primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 60px;
+
+  img {
+    width: 450px;
+  }
+
+
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+.gallery-section {
+  max-width: 1100px;
+  padding-top: 20px;
+  margin: 0 auto;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    .gallery-item {
+      margin: 10px;
+      text-align: center;
+      background-color: $white;
+      padding: 20px;
+      box-shadow: rgba(164, 84, 100, 0.1) 0 7px 25px 0;
+
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+
+.travels-section {
+  background: $primary;
+  max-width: 700px;
+  padding-top: 20px;
+  margin: 0 auto;
+
+  .travel-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0 20px;
+
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+
+.friends-section {
+  background: $primary;
+  max-width: 700px;
+  padding-top: 50px;
+  margin: 0 auto;
+
+  .container {
+
+
+    .friend-card {
+      // background: white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      padding: 20px;
+      margin: 20px 0 20px;
+    }
+
+    .image {
+      margin-right: 60px;
+    }
+
+    .presentation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .about {
+        margin-top: 10px;
+      }
+
+      .label {
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-top: 10px;
+      }
+
+      li {
+        display: inline;
+        list-style: none;
+      }
+
+      li:after {
+        content: ", ";
+      }
+
+      li:last-child:after {
+        content: ". ";
+      }
+    }
+
+    img {
+      max-width: 300px;
+      border-radius: 50%;
+    }
+  }
+}

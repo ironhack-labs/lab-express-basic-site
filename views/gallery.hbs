@@ -1,0 +1,26 @@
+{{> navbar }}
+
+<section class="hero-section">
+  <div class="img"><img src="/images/gallery.svg" alt=""></div>
+  <div class="title">
+    <h1>Våra resor</h1>
+    <h2>Här är bilder från några av våra resor.</h2>
+  </div>
+</section>
+
+
+<section class="gallery-section">
+  <div class="container">
+    {{#each travelImages }}
+    <div class="gallery-item">
+      <div class="image">
+        <img src="{{this.url}}">
+        <p>{{this.place}} | {{this.year}} </p>
+      </div>
+    </div>
+    {{/each}}
+
+  </div>
+
+
+</section>

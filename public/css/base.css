@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: #E1FFF4;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: stretch;
+  background: #E1FFF4;
+}
+nav .nav-links {
+  margin: 30px 20px;
+}
+nav li {
+  text-decoration: none;
+  display: inline;
+  margin-right: 16px;
+  color: #4a4a4a;
+  font-size: 16px;
+}
+
+.hero-section {
+  height: 50vh;
+  background: #E1FFF4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 60px;
+}
+.hero-section img {
+  width: 450px;
+}
+.hero-section h1 {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+.hero-section h2 {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.gallery-section {
+  max-width: 1100px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.gallery-section .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.gallery-section .container .gallery-item {
+  margin: 10px;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  box-shadow: rgba(164, 84, 100, 0.1) 0 7px 25px 0;
+}
+.gallery-section .container .gallery-item p {
+  margin-top: 10px;
+}
+
+.travels-section {
+  background: #E1FFF4;
+  max-width: 700px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.travels-section .travel-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 0 20px;
+}
+.travels-section .travel-card p {
+  margin-top: 10px;
+}
+
+.friends-section {
+  background: #E1FFF4;
+  max-width: 700px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.friends-section .container .friend-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 20px 0 20px;
+}
+.friends-section .container .image {
+  margin-right: 60px;
+}
+.friends-section .container .presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.friends-section .container .presentation .about {
+  margin-top: 10px;
+}
+.friends-section .container .presentation .label {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.friends-section .container .presentation li {
+  display: inline;
+  list-style: none;
+}
+.friends-section .container .presentation li:after {
+  content: ", ";
+}
+.friends-section .container .presentation li:last-child:after {
+  content: ". ";
+}
+.friends-section .container img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=base.css.map */
