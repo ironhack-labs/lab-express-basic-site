@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Index</title>
+</head>
+<body>
+    <h1 id="h1">Bienvenue sur le site perso de M. Pantoufle</h1>
+    <p><img src="/images/WelshCorgi.jpeg" alt="Chien Corgi"></p>
+    <b><figcaption>Pantoufle le Corgi</figcaption></b>
+
+    <p>{{age}}</p>
+
+    
+        {{#each creator}}
+        <li>
+            {{this}}
+        </li>
+        {{/each}}
+
+</body>
+</html>
