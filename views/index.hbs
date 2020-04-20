@@ -14,13 +14,13 @@
 
     <div class="right-column">
 
-        {{!-- <iframe width="1" height="1" scrolling="no" frameborder="no" allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/14432812&color=%2300ff00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe> --}}
+        <iframe width="1" height="1" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/14432812&color=%2300ff00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
         <div class="newsletter">
             <p>Subscribe to newsletter</p>
-            <form action='/' method='POST'>
-                <input type="text" placeholder="eliane@radigue.com" name="email">
+            <form action='/' method='POST' novalidate="true">
+                <input type="email" placeholder="Your email here" name="email">
                 <button type="submit" id="newsletter-button">OK!</button>
             </form>
         </div>
