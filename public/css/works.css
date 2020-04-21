@@ -1,0 +1,20 @@
+@font-face {
+  font-family: apple;
+  src: url("/fonts/SF-UI-Display-Regular.otf");
+}
+
+.text-center {
+  color: white;
+}
+
+body {
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #090b11, #383f6e);
+  background: linear-gradient(to right, #090b11, #636fa4);
+  min-height: 100vh;
+  font-family: apple;
+}
+
+.text-gray {
+  color: #999;
+}
