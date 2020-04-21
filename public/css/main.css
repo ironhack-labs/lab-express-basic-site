@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "cartoonish";
+    src: url("/css/fonts/beat_word_demo.ttf");
+}
+
+body {
+    font-family: cartoonish;
+
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(224, 153, 194);
+}
+
+#genius {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/28/PinkyandtheBrain.Pinky.png);
+}
+
+#insane {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/f/f4/PinkyandtheBrain.TheBrain.png);
+}
+
+a {
+   text-decoration: none;
+   color: rgb(224, 153, 194);
+}
+
+.img-link:hover {
+    /*position: relative;*/
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 347px;
+    width: 249px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+a:hover:after {
+    content: url(https://upload.wikimedia.org/wikipedia/en/2/28/PinkyandtheBrain.Pinky.png);
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+} */
+
+section { /*ok this is a bit dirty :D*/
+    text-align: center;
+}
