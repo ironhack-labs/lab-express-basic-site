@@ -1,0 +1,31 @@
+body {
+    background-color: #900C3F;
+}
+
+a {
+    text-decoration: none;
+    color: silver
+}
+
+a :hover {
+    color: tomato;
+}
+img {
+    width: 100%
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+    padding: 5px
+}
