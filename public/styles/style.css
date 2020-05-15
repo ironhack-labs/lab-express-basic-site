@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(124, 201, 201);
+    margin: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card img {
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.card {
+    max-width: 15vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards {
+    max-width: 75vw;
+    width: auto;
+    display: flex;
+}
+
+.about {
+    max-width: 75vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
