@@ -20,22 +20,4 @@ app.get('/photos', (req, res) =>
     res.sendFile(__dirname + '/views/photos-page.html'));
 
 
-/*app.get('/works', (req, res) => {
-    const datos = {
-        nombre: "Maria Luiza",
-        escuela: "Escuela de la esquina"
-    };
-
-    res.render("holamundo.hbs", datos);
-});
-
-app.get('/photogallery', (req, res) => {
-    const datos = {
-        nombre: "Maria Luiza",
-        escuela: "Escuela de la esquina"
-    };
-
-    res.render("holamundo.hbs", datos);
-});*/
-
 app.listen(3000);
