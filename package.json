@@ -1,0 +1,23 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "Basic personal web Ferran Adrià",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelavbc/lab-express-basic-site.git"
+  },
+  "author": "Marcela Vilas Boas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelavbc/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/marcelavbc/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
