@@ -25,5 +25,8 @@ app.get("/about", (req, res) => {
 app.get("/photo", (req, res) => {
   res.render("photo.hbs", data);
 });
+app.get("/works", (req, res) => {
+  res.render("works.hbs", data);
+});
 
 app.listen(3000);
