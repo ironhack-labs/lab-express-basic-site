@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <title>{{name}} {{surname}} tribute page</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            {{> navbar}}
+        </header>
+        <section id="jumbo">
+            <div class="wrapper">
+                <div class="left">
+                    <h1>Welcome to {{name}} {{surname}}'s tribute page</h1>
+                    <p class="sub-h1">{{positions.pos1}}, {{positions.pos2}} and {{positions.pos3}}</p>
+                    <div class="cta">
+                        <a href="/about" class="btn btn-l btn-dark">Read more...</a>
+                    </div>
+                </div>
+                <div class="right">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    {{> footer}}
+
+</body>
+
+</html>
