@@ -4,12 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>ABOUT</h1>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/home">{{ title }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/home">{{ home }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">{{ about }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/works">{{ works }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/photogallery">{{ photoGallery }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <main class="d-flex justify-content-end">
+        <div class="d-flex justify-content-center flex-column align-items-end mr-5" id="about-content">
+            <div>
+                <h1>About Elon</h1>
+            </div>
+            <div>
+                <p>
+                    Elon Reeve Musk (Pretoria, Sudáfrica; 28 de junio de 1971) es un físico, emprendedor, inventor y
+                    magnate
+                    sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, Tesla Motors, SpaceX,
+                    Hyperloop, SolarCity, The Boring Company, Neuralink, y OpenAI. Es director general de SpaceX, de
+                    Tesla
+                    Motors, presidente de SolarCity, y copresidente de OpenAI. En febrero de 2020 su fortuna se estimaba
+                    en
+                    43 300 millones de USD, lo que le convertía en la 19ª persona más rica del mundo. En diciembre de
+                    2016,
+                    Musk fue nombrado como la 21ª persona más poderosa del mundo por la revista Forbes
+                </p>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
