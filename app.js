@@ -32,23 +32,20 @@ let data = {
 }
 
 app.get('/', (req, res, next) => {
-    // res.sendFile(__dirname + '/views/home-page.html')
-    res.render("home-page.hbs",data)
+    res.render("home-page",data)
 });
 
 app.get('/about', (req, res, next) => {
-    // res.sendFile(__dirname + '/views/about-page.html')
-    res.render("about-page.hbs")
+    res.render("about-page")
 });
 
 app.get('/works', (req, res, next) => {
-    // res.sendFile(__dirname + '/views/works-page.html')
-    res.render("works-page.hbs")
+    res.render("works-page")
 });
 
 app.get('/gallery', (req, res, next) => {
     // res.sendFile(__dirname + '/views/gallery-page.html')
-    res.render("gallery-page.hbs",data)
+    res.render("gallery-page",data)
 });
 
 app.listen(3000);
