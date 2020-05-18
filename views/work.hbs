@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="headerDeLaPagina">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand" href="/">{{title}}</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link text-dark" href="/">{{home}}</a>
+                        <a class="nav-item nav-link text-dark" href="/about">{{about}}</a>
+                        <a class="nav-item nav-link text-dark" href="/work">{{work}}</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="mains container">
+        <p id="workText">
+            {{workText}}<span class="enItalica"> Fuente: </span><a href="https://www.goodreads.com/" target="_blank" class="enItalica">GoodReads.com</a>
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-9 d-flex align-items-center">
+                    <p class="workTextParagraphs">
+                        El título del ensayo introduce a los lectores a la física de los agujeros negros al explicar los detalles sangrientos de
+                        lo que sucedería a su cuerpo si cayera en uno. "Holy Wars" examina la fricción innecesaria entre la ciencia y la
+                        religión en el contexto de conflictos históricos. "La búsqueda de vida en el universo" explora la vida astral desde las
+                        fronteras de la astrobiología. Y "Hollywood Nights" ataca los débiles esfuerzos de la industria del cine para hacer que
+                        sus cielos nocturnos sean correctos.
+                    </p>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img src={{book1}} class="neilBooks">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src={{book2}} class="neilBooks">
+                </div>
+                <div class="col-9 d-flex align-items-end">
+                    <p class="workTextParagraphs">
+                        Cuando el Centro Rose para la Tierra y el Espacio en el Museo Americano de Historia Natural reclasificó a Plutón como un
+                        cometa helado, el New York Times proclamó en la página uno, "¿Plutón no es un planeta? Solo en Nueva York".
+                        Inmediatamente, el público, los profesionales y la prensa estaban eligiendo lados sobre los planetas de Plutón. Plutón
+                        está arraigado en nuestra visión cultural y emocional del cosmos, y Neil deGrasse Tyson, autor galardonado y director
+                        del Rose Center, está en una búsqueda para descubrir por qué. Se situó en el centro de la controversia sobre la
+                        degradación de Plutón y, en consecuencia, los plutófilos han compartido libremente sus opiniones con él, incluido el
+                        interminable correo de odio de los alumnos de tercer grado. Con su ingenio inimitable, Tyson ofrece una minihistoria de
+                        planetas, describe los personajes de gran tamaño de las personas que los estudian y relata cómo el planeta favorito de
+                        Estados Unidos fue expulsado del centro cósmico.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 d-flex align-items-center">
+                    <p class="workTextParagraphs">
+                        ¿Cuál es la naturaleza del espacio y el tiempo? ¿Cómo encajamos dentro del universo? ¿Cómo encaja el universo dentro de
+                        nosotros? No hay mejor guía a través de estas preguntas que expandan la mente que el aclamado astrofísico y autor de
+                        mayor venta Neil deGrasse Tyson. Pero hoy, pocos de nosotros tenemos tiempo para contemplar el cosmos. Entonces, Tyson
+                        trae el universo a la Tierra de manera sucinta y clara, con ingenio brillante, en capítulos sabrosos consumibles en
+                        cualquier momento y en cualquier lugar de su ajetreado día.
+                    </p>
+                </div>
+                <div class="col-3 d-flex align-items-center">
+                    <img src={{book3}} class="neilBooks">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src={{book4}} class="neilBooks">
+                </div>
+                <div class="col-9 d-flex align-items-center">
+                    <p class="workTextParagraphs">
+                        En esta colección cuidadosamente seleccionada de cien cartas, Tyson se basa en perspectivas cósmicas para abordar una
+                        amplia gama de preguntas sobre ciencia, fe, filosofía, vida y, por supuesto, Plutón. Sus respuestas sucintas,
+                        obstinadas, apasionadas y a menudo divertidas reflejan su popularidad y su posición como educador líder.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="unFooter">
+        <div>
+            <p>&copy2020 pagina sobre Neil 👍</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

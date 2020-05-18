@@ -1,0 +1,104 @@
+header#headerDeLaPagina {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+#headerIcon {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+h1#tituloHome {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+p#primerParrafo.container::first-letter {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+main.mains {
+    height: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+p#primerParrafo.container span{
+    font-weight: bold;
+}
+
+#mainHome {
+    width: 100%;
+    height: 90vh;
+}
+
+footer#unFooter {
+    background-color: white;
+    padding-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    font-size: small;
+}
+
+div#galaxia{
+    height: 600px;
+    margin: 100px 0 auto;
+    text-align: center;
+}
+
+div#galaxia > img {
+    animation: bounce 2s infinite alternate;
+    margin-top: 60px;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+
+.neilBooks {
+    margin-top: 50px;
+    height: 250px;
+    width: auto;
+}
+
+main.mains > p#workText {
+    margin-top: 50px;
+    font-size: 1.05rem;
+}
+
+.workTextParagraphs{
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.enItalica {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
