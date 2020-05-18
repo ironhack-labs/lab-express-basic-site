@@ -4,3 +4,8 @@ body {
     background-image: url('../images/pika-background.jpg');
 }
 
+.gallery-img {
+    height: 150px;
+    margin:10px;
+}
+
