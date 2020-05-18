@@ -5,30 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap" rel="stylesheet">
     <title>{{name}} {{surname}} tribute page</title>
 </head>
 
 <body>
+    <div id='overlay'></div>
     <main>
         <header>
             {{> navbar}}
         </header>
-        <section id="jumbo">
+        <section id="home">
             <div class="wrapper">
                 <div class="left">
-                    <h1>Welcome to {{name}} {{surname}}'s tribute page</h1>
-                    <p class="sub-h1">{{positions.pos1}}, {{positions.pos2}} and {{positions.pos3}}</p>
+                    <h1>👋, welcome to {{name}} {{surname}}'s tribute page</h1>
+                    <p>{{positions.pos1}}, {{positions.pos2}}<br> and {{positions.pos3}}</p>
                     <div class="cta">
-                        <a href="/about" class="btn btn-l btn-dark">Read more...</a>
+                        <a href="/about" class="btn btn-l btn-dark">const readAbout{{name}} = () => </a>
                     </div>
                 </div>
                 <div class="right">
-
+                    <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
                 </div>
-            </div>
         </section>
     </main>
     {{> footer}}
+
+    <script src="/js/functions.js"></script>
 
 </body>
 

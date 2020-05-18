@@ -5,20 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap" rel="stylesheet">
     <title>Works by {{name}} {{surname}}</title>
 </head>
 
 <body>
+    <div id='overlay'></div>
     <main>
         <header>
             {{> navbar}}
         </header>
-        <section>
+        <section id="works">
+            <div class="wrapper">
+                <div class="left">
+                    <h1>{{name}} {{surname}} Works</h1>
+                    <h2>Netscape and JavaScript</h2>
+                    <p>He started work at Netscape Communications Corporation in April 1995. Eich
+                        originally joined intending to put Scheme "in the browser", but his Netscape superiors insisted
+                        that the language’s syntax resemble that of Java. The result was a language that had much of the
+                        functionality of Scheme, the object orientation of Self, and the syntax of Java. The first
+                        version was completed in ten days in order to accommodate the Navigator 2.0 Beta release
+                        schedule, and was called Mocha, but renamed LiveScript in September 1995 and later JavaScript in
+                        December. Eich continued to oversee the development of SpiderMonkey, the specific implementation
+                        of JavaScript in Navigator.</p>
+
+                    <h2>Mozilla</h2>
+                    <p>In early 1998, Eich co-founded the Mozilla project with Jamie Zawinski and others,
+                        creating the mozilla.org website, which was meant to manage open-source contributions to the
+                        Netscape source code. He served as Mozilla's chief architect. AOL bought Netscape in 1999.
+                        After AOL shut down the Netscape browser unit in July 2003, Eich helped spin out the Mozilla
+                        Foundation.
+
+                        In August 2005, after serving as lead technologist and as a member of the board of directors of
+                        the Mozilla Foundation, Eich became chief technical officer of the newly founded Mozilla
+                        Corporation, meant to be the Mozilla Foundation's for-profit arm. Eich continued to "own"
+                        the Mozilla SpiderMonkey module, its JavaScript engine, until he passed on the ownership of it
+                        in 2011.
+
+                        On March 24, 2014, Eich was promoted to CEO of Mozilla Corporation. Gary Kovacs, John Lilly,
+                        and Ellen Siminoff resigned from the Mozilla board prior to the appointment, some
+                        anonymously expressing disagreements with Eich's strategy and their desire for a CEO with
+                        experience in the mobile industry.</p>
+
+                    <h2>Brave Software</h2>
+                    <p>Eich is the CEO of Brave Software, an Internet browser platform company that raised $2.5 million
+                        in early funding from angel investors. On January 20, 2016, the company released developer
+                        versions of its open-source Brave web browser, which blocks ads and trackers, and includes a
+                        micropayments system to offer users a choice between viewing selected ads or paying websites not
+                        to display them.
+
+                        At Brave Software, Eich co-created the Basic Attention Token (BAT), a cryptocurrency designed
+                        for use in the Brave browser. BAT launched its ICO on May 31, 2017 and raised $35 million.
+                    </p>
 
 
+                    <div class="cta">
+                        <a href="/gallery" class="btn btn-l btn-dark">const checkGallery = () =></a>
+                    </div>
+                </div>
+                <div class="right">
+
+                </div>
         </section>
     </main>
     {{> footer}}
+
+    <script src="/js/functions.js"></script>
 
 </body>
 

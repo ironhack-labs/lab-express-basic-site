@@ -5,20 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap" rel="stylesheet">
     <title>Gallery about {{name}} {{surname}}</title>
 </head>
 
 <body>
+    <div id='overlay'></div>
     <main>
         <header>
             {{> navbar}}
         </header>
-        <section>
+        <section id="gallery">
+            <div class="wrapper">
+                <div class="left">
+                    <h1>Random gallery 🖼️<br> related to {{name}} {{surname}}</h1>
+                    <div class="grid">
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
+                        <div class="item">
+                            <img src="/img/Brendan_Eich.jpg" alt="Picture of Brendan Eich">
+                        </div>
 
+                    </div>
 
+                </div>
         </section>
     </main>
     {{> footer}}
+
+    <script src="/js/functions.js"></script>
 
 </body>
 
