@@ -1,0 +1,46 @@
+.home-body{
+  background-color:#F5D5ED;
+}
+  
+.about-body{
+  background-color:#DED5F5;
+}
+
+.works-body{
+  background-color:#D5F5F3;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px;
+}
+
+button{
+  display: inline;
+  width: 100px;
+  font-size: 16px;
+}
+
+div{
+  float:none;
+	text-align:center;
+}
+
+p{
+  text-align: center;
+  font-size: 16px;
+  margin: 25px auto;
+  width: 50%;
+}
+
+ul {
+  float:none;
+  text-align:center;
+  list-style: none;
+  font-size: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+    <title>Work</title>
+</head>
+
+<body class="works-body">
+    <h1>Trabajos de {{nombre}} {{apellido}} </h1>
+    <h2>Inventos y descubrimientos destacables</h2>
+    <ul>
+        {{#each descubrimientos}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    <div>
+        <button>
+            <a href="/">Home</a>
+        </button>
+    </div>
+</body>
+
+</html>
