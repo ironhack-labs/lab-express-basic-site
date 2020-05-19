@@ -26,6 +26,20 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.works-section {
+  padding: 50px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+.home-section {
+  padding: 50px;
+  text-align: center;
   background-color: #474e5d;
   color: white;
 }
