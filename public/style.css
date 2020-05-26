@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-panel {
+    width: 500px;
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headshot {
+    width: 90%;
+}
+
+h1 {
+    color: white;
+}
+
+.main-info {
+    background-color: white;
+    padding: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    text-align: justify;
+}
