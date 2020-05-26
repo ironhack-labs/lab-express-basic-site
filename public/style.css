@@ -1,0 +1,46 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: tan
+
+}
+
+.navbar {
+    color: teal;
+}
+
+#home.container {
+    align-content: center;
+}
+h1 {
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+#carousel-slide {
+   padding-left: 200px;
+   padding-right: 200px;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 50px;  
+    color: grey;
+    font-size: 70px;
+    padding-bottom: 50px; 
+
+}
+
+
+p {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.aboutInfo {
+    
+    
+}
