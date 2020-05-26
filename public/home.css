@@ -1,0 +1,19 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.img {
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    color: white;
+}
