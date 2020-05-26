@@ -1,0 +1,28 @@
+body {
+    background-color: aliceblue;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: darkkhaki;
+    font-size: large;
+}
+#imgpage {
+    width: 250px;
+    height: 250px;
+   
+}
+.divhomepage {
+   margin: 5%;  
+}
+#divimg {
+    display: flex;
+    justify-content: space-evenly;
+}
+article {
+    font-size: 20px;
+}
