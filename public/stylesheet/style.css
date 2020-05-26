@@ -1,0 +1,18 @@
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+img{
+    width: 200px;
+}
+
+.game{
+    width: 500px;
+    height: 700px;
+}
