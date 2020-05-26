@@ -1,0 +1,66 @@
+body {
+    background-color: burlywood;
+}
+
+
+.front-photo{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height:520px;
+      
+}
+
+#about-img-div{
+    display:flex;
+    justify-content:space-around;
+    margin:20px;
+}
+
+#blackboard-img {
+width:209px;
+}
+
+#about-div {
+    margin:30px;
+    padding:20px;
+    text-align:center;
+}
+.name {
+    margin-bottom:30px;
+    text-align:center;
+    
+}
+
+.works-name{
+    text-align:center;
+    margin-top:40px;
+}
+
+.photos-name{
+    margin-top:40px;
+}
+
+.works-img {
+    margin:50px;
+}
+
+
+
+#gallery  {
+    margin:50px
+}
+
+.pic5 {
+    margin-top:-45px
+    }
+
+.pic8 {
+margin-top:-95px
+}
+
+.pic6{
+    margin-top:40px;
+}
