@@ -1,0 +1,17 @@
+body {
+    color : black;
+    background-color: darkgreen;
+}
+
+a{
+    background-color: orange;
+    color: black;
+    border: 2px solid dimgrey;
+    border-radius: 3px;
+}
+h1{
+    border : 5px solid blue;
+    background-color: blue;
+    color:rgb(23, 33, 5);
+    border-radius: 5px;
+}
