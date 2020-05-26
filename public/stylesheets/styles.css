@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.carousel-text {
+    /* background-color: rgba(59, 53, 53, 0.342);; */
+}
+
+.subtext {
+    margin: 20px;
+    text-align: center;
+}
+
+.books {
+    height: 250px;
+    width: 175px;
+}
