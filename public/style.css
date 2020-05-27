@@ -1,0 +1,90 @@
+body {
+    background-color: rebeccapurple;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
+    color: yellow;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    color:yellow;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+    color:yellow;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+p {
+    color: yellow;
+    width: 500px;
+    margin: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.michelle{
+    
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+          
+
+}
+  
