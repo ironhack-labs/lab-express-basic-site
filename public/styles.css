@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding:0px 70px 50px 70px ;
+    background-color:green;
+}
+
+#myVideo, .bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .content, #aboutPG {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .link , a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+p{
+  font-size: 40px;
+}
+
+#menu{
+  position: fixed;
+  top: 0;
+}
+
+.menuGall a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+h1{
+margin-left:50px ;
+}
+
+article{
+  margin: 10px 300px 10px 50px;
+  font-size: 20px;
+}
+
+
+li{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+a:hover{
+  list-style: none;
+  color:black;
+}
