@@ -1,15 +1,18 @@
-const express = require('express')
+const express   = require("express");
+const hbs       = require("hbs");
+const app       = express();
+const path      = require("path");
 
-const app = express()
+app.set("view engine", "hbs");
+app.set("views", path.join(__dirname, "views"));
+app.use(express.static(path.join(__dirname, "public")));
 
-app.use(express.static('public'));
+app.get('/', (request, response, next) => response.render('home'))
 
-app.get('/', (request, response, next) => response.sendFile(__dirname + '/views/home.html'))
+app.get('/about', (request, response, next) => response.render('about'))
 
-app.get('/about', (request, response, next) => response.sendFile(__dirname + '/views/about.html'))
+app.get('/works',  (request, response, next) => response.render('works'))
 
-app.get('/works',  (request, response, next) => response.sendFile(__dirname + '/views/works.html'))
-
-app.get('/gallery', (request, response, next) => response.sendFile(__dirname + '/views/gallery.html'))
+app.get('/gallery', (request, response, next) => response.render('gallery'))
 
 app.listen(3000, () => console.log('It´s running')) 
