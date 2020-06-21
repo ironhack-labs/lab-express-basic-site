@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Works</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Works of {{name}}</h1>
+      <div id="books" class="row">
+        <div class="col-8 card">
+          {{#each books}}
+            <ul> 
+              <li>{{this}}</li>
+            </ul>
+          {{/each}}
+          <a href="/home">Back to Home</a>
+          <a href="/about?{{id}}">Back to Author</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

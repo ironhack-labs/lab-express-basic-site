@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black, lightgrey) !important;
+    width: 100vw;
+}
+
+.container {
+    border: 2px solid lightgrey;
+    background-color: white !important;
+    min-height: 100vh;
+}
+
+#author-container {
+    justify-content: center;
+}
+
+#author {
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#books {
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#title {
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+
+.card {
+    margin: 20px;
+    padding: 10px;
+}
+
+.card a {
+    display: block;
+    text-align: center;
+}
+
+.card-img-author {
+    height: 209px; 
+    width: 140px;
+    margin: auto;
+}
