@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;600&display=swap');
+
+* {
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #333;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+h1 {
+  font-size: 6rem;
+  position: relative;
+  display: inline;
+  padding-top: 0.8rem;
+  font-weight: 600;
+
+  &::before {
+    content: 'Annie';
+    position: absolute;
+    width: 100%;
+    height: 3.8rem;
+    font-size: 4.5rem;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: #a5a5a5;
+    border-bottom: solid 0.1rem #333;
+    overflow: hidden;
+  }
+}
+
+h3 {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  border-top: solid 0.1rem #333;
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+#top {
+  margin-bottom: 10rem;
+  padding-top: 3rem;
+}
+
+nav {
+  width: 100%;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: inline;
+
+      a {
+        color: #333;
+        text-decoration: none;
+        transition: color 200ms ease-in-out;
+
+        &:hover {
+          color: #333;
+          text-decoration: none;
+          color: #a5a5a5;
+        }
+
+        &.active {
+          color: #a5a5a5;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.text {
+  padding-bottom: 8rem;
+}
+
+.portrait,
+.leo,
+.dance,
+.gallery {
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  filter: grayscale(1);
+}
+
+.portrait {
+  background: url(../images/al-self-portrait.jpg) no-repeat center center /
+    cover;
+}
+
+.leo {
+  background: url(../images/leo.jpg) no-repeat center right / contain;
+  position: relative;
+}
+
+.dance {
+  background: url(../images/dance.jpg) no-repeat center center / contain;
+  position: relative;
+}
+
+.gallery {
+  background: url(../images/gal-001.jpg) no-repeat center center / contain;
+  position: relative;
+}
+
+.image,
+.jhon {
+  height: 45rem;
+  position: relative;
+  margin-top: 1rem;
+  filter: grayscale(1);
+}
+
+.image {
+  background: url(../images/ellen-degeneres.jpg) no-repeat center center /
+    contain;
+
+  &:before {
+    content: '';
+    width: 100%;
+    bottom: -10px;
+    border-bottom: solid 0.1rem #333;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.jhon {
+  background: url(../images/jhon.jpg) no-repeat center center / contain;
+}
+
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+  color: #777;
+}
+
+[class*='gal-'] {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  border: 0;
+  filter: grayscale(1);
+
+  &.active,
+  &:focus {
+    position: relative;
+    outline: none;
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+.gal-001 {
+  background: url(../images/gal-001.jpg) no-repeat center center / contain;
+}
+
+.gal-002 {
+  background: url(../images/gal-002.jpg) no-repeat center center / contain;
+}
+
+.gal-003 {
+  background: url(../images/gal-003.jpg) no-repeat center center / contain;
+}
+
+.gal-004 {
+  background: url(../images/gal-004.jpg) no-repeat center center / contain;
+}
+
+.gal-005 {
+  background: url(../images/gal-005.jpg) no-repeat center center / contain;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    justify-content: center;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  .info {
+    justify-content: center !important;
+  }
+
+  .portrait {
+    margin-top: 2rem;
+  }
+}
+
+.gal-006 {
+  background: url(../images/gal-006.jpg) no-repeat center center / contain;
+}
