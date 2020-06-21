@@ -40,6 +40,10 @@ img {
     height: 200px;
 }
 
+img:hover {
+    height: 240px;
+}
+
 .books {
     margin: 20px 0;
 }
