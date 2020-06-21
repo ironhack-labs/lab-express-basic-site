@@ -292,7 +292,7 @@ h6,
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 35px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -1294,7 +1294,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-  padding-bottom: 60px;
+  padding-bottom: 110px;
 }
 
 .portfolio #portfolio-flters {
@@ -1329,8 +1329,13 @@ section {
   overflow: hidden;
   min-height: 200px;
   position: relative;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   margin: 0 0 30px 0;
+}
+
+.portfolio-div {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .portfolio .portfolio-item img {
@@ -1367,7 +1372,7 @@ section {
 }
 
 .portfolio .portfolio-item:hover img {
-  opacity: 0.6;
+  opacity: 0.3;
   transform: scale(1.1);
 }
 
