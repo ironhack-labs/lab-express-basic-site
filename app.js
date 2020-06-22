@@ -1,9 +1,9 @@
-const express = require("express");
-const app = express();
+const express = require("express")
+const app = express()
 
-app.set("views", __dirname + "/views");
-app.set("view engine", "hbs");
-app.use(express.static(__dirname + '/public'));
+app.set("views", __dirname + "/views")
+app.set("view engine", "hbs")
+app.use(express.static(__dirname + '/public'))
 
 
 app.get('/', (request, response, next) => response.render('home'))
