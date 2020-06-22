@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300;400&display=swap');
+
+/* font-family: 'Archivo Black', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-size: 24px;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 72px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: #ff7013;
+    text-decoration: none;
+  }
+
+.ham-container {
+    padding: 10px 10px 40px 40px;;
+}
+
+button:focus {
+    outline:0;
+}
+
+.hamburger-menu-button {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    display: block;
+    position: relative;
+    margin-top: 35px;
+    z-index: 100;
+    background: deeppink;
+    border: 5px solid white;
+    box-sizing: content-box;
+    border-radius: 50%;
+    text-indent: 100%;
+    color: transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.hamburger-menu-button-open {
+    top: 50%;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.hamburger-menu-button-open, 
+.hamburger-menu-button-open::before, 
+.hamburger-menu-button-open::after {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.hamburger-menu-button-open::before, 
+.hamburger-menu-button-open::after {
+    left: 0;
+    content: "";
+}
+
+.hamburger-menu-button-open::before {
+top: 6px;
+}
+
+.hamburger-menu-button-open::after {
+    bottom: 6px;
+}
+
+.hamburger-menu-button-close {
+    background: transparent;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.hamburger-menu-button-close::before {
+    -webkit-transform: translateY(-6px) rotate(45deg);
+            transform: translateY(-6px) rotate(45deg);
+}
+
+.hamburger-menu-button-close::after {
+    -webkit-transform: translateY(6px) rotate(-45deg);
+            transform: translateY(6px) rotate(-45deg);
+}
+
+.ham-menu {
+    position: absolute;
+    top: 54px;
+    left: 92px;
+    margin: auto;
+    max-width: 570px;
+    overflow: hidden;
+}
+
+.ham-menu ul {
+    -webkit-transform: translateX(-110%);
+            transform: translateX(-110%);
+    background-color: deeppink;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.ham-menu.on ul {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+}
+
+.ham-menu ul {
+    font-size: 0;
+}
+
+.ham-menu ul li {
+    display: inline-block;
+}
+
+.ham-menu ul li:first-child .ham-menu ul li a {
+    padding-left: 30px;
+}
+
+.ham-menu ul li a {
+    padding: 15px;
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 13px;
+}
+
+.ham-menu ul li.active a, .ham-menu ul li a:hover {
+    background-color: rgb(255, 104, 185);
+    color: #fff !important;
+} 
+
+.container-home {
+    background-image: url('/img/Kim-on-stage.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+}
+
+.text-home {
+    padding: 17em 0 0 40px;
+}
+
+.container-about {
+    background-color: #E8E8E8;
+}
+
+.container-bio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-bio img {
+    width: 50%;
+    margin-top: -57px;
+    padding: 0 40px;
+    z-index: 2;
+}
+
+.text-bio p {
+    color:black;
+    padding: 40px;
+
+}
+
+.text-bio h1 {
+    font-size: 115px;
+    padding: 0.2em 0 0.3em 40px;
+    color: black;
+    background-color: deeppink;
+}
+
+.text-works h1 {
+    font-size: 90px;
+    padding: 0.2em 0 0.3em 40px;
+    color: black;
+    background-color: deeppink;
+}
+
+.text-works p {
+    color:black;
+    padding: 40px;
+
+}
+
+.card-lp {
+    margin-top: 70px;
+    font-size: 16px;
+    text-align: center;   
+}
+
+.card-lp img {
+    width: 40%;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-lp img:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid deeppink;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.cards-works {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@keyframes example {
+    0%   {border-left: 2px solid #ffffff;}
+    25%  {border-left: 3px solid #ffe6e6;}
+    50%  {border-left: 4px solid #ff8080;}
+    100% {border-left: 5px solid deeppink;}
+}
+
+.gallery-wrap {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+  }
+
+  .item:hover {
+    flex: 7;
+  }
+
+  .item-1 { 
+    background-image: url('/img/kim_shattuck_muffs.jpg');
+  }
+
+  .item-2 { 
+    background-image: url('/img/kim-elsol.jpg');
+  }
+
+  .item-3 { 
+    background-image: url('/img/kim_bw2.jpg');
+  }
+
+  .item-4 { 
+    background-image: url('/img/kim-shout.jpg');
+  }
+
+  .item-5 { 
+    background-image: url('/img/kim_als.jpg');
+  }
+
+
+
