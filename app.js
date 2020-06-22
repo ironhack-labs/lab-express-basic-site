@@ -5,10 +5,6 @@ const app = express()
 app.use(express.static('public'));
 
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
-// app.get('/home', (request, response, next) => {
-//     console.log(request);
-//     response.send('<h1>Welcome Ironhacker. :)</h1>')
-//   });
 
 app.get('/home', (request, response, next) => response.sendFile(__dirname + '/views/index.html'))
 app.get('/about', (request, response, next) => response.sendFile(__dirname + '/views/about.html'))
