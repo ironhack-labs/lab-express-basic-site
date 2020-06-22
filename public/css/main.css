@@ -156,7 +156,7 @@ top: 6px;
 } 
 
 .container-home {
-    background-image: url('/img/Kim-on-stage.jpg');
+    background-image: url('https://fermarinsanchez.github.io/lab-express-basic-site/public/img/Kim-on-stage.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -269,23 +269,23 @@ top: 6px;
   }
 
   .item-1 { 
-    background-image: url('/img/kim_shattuck_muffs.jpg');
+    background-image: url('https://fermarinsanchez.github.io/lab-express-basic-site/public/img/kim_shattuck_muffs.jpg');
   }
 
   .item-2 { 
-    background-image: url('/img/kim-elsol.jpg');
+    background-image: url('https://fermarinsanchez.github.io/lab-express-basic-site/public/img/kim-elsol.jpg');
   }
 
   .item-3 { 
-    background-image: url('/img/kim_bw2.jpg');
+    background-image: url('https://fermarinsanchez.github.io/lab-express-basic-site/public/img/kim_bw2.jpg');
   }
 
   .item-4 { 
-    background-image: url('/img/kim-shout.jpg');
+    background-image: url('https://fermarinsanchez.github.io/lab-express-basic-site/public/img/kim-shout.jpg');
   }
 
   .item-5 { 
-    background-image: url('/img/kim_als.jpg');
+    background-image: url('https://fermarinsanchez.github.io/lab-express-basic-site/public/img/kim_als.jpg');
   }
 
 
