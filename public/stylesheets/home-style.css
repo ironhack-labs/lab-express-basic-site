@@ -1,0 +1,62 @@
+html,
+body {
+    background-color: red;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 0.4rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>article {
+    background-color: white;
+    padding: 0 5rem;
+    box-shadow: 5px 1px 4px 2px #eff31a;
+}
+
+#dis {
+    color: white;
+    text-decoration: underline;
+    background-color: purple;
+    padding: 0.3rem;    
+    border: medium solid #eff31a;
+    cursor: pointer; 
+}
+
+.caption {
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 5px 1px 4px 2px #eff31a;
+}
+
+img {
+    height: 16.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.active-caption {
+    display: flex !important;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#caption-div {
+    display: none;
+}
