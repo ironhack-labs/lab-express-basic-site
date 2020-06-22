@@ -1,0 +1,60 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Architects Daughter', cursive; */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ------HOME PAGE------- */
+
+/* #home {
+    padding-top: 200px;
+    background-image: url(../images/bg-jane-austen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    
+    margin-bottom: 0;
+}
+
+#home-html {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.silhouette-container {
+    width: 500px;
+    height: 500px;
+}
+
+.silhouette-proportion {
+    width: auto;
+    height: 100%;
+}
+
+.signature-container {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+.signature {
+    width: auto;
+    height: 100%;
+}
+
+#home-nav {
+    width: 500px;
+    height: 330px;
+    border: 2px solid black;
+}
+
+#home-nav ul {
+    margin: 80px 180px;
+    list-style: none;
+}
+
+#home-nav li {
+    margin-top: 20px;
+} */
+/* ------ABOUT PAGE----- */
