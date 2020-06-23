@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(RobotoCondensed-Regular.ttf);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    color: #646464;
+}
+
+.index {
+    background: url('/images/inicio.jpg') no-repeat center ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index > h2 {
+    font-size: 4rem;
+}
+
+.nav-link {
+    color: grey;
+    padding: .5em 2em;
+    border-right: 1px solid gray;
+}
+.nav-link:hover {
+    color: white;
+   background-color: #804000;
+}
+.nav-item:last-child .nav-link{
+    border-right:0;
+}
+
+.figure img {
+    width: 100vh;
+    height: 230px;
+    
+}
