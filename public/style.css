@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(49, 198, 224);
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -24,4 +26,25 @@
     background-color: rgb(230, 111, 0);
     color: white;
   }
-  
+  .stanleyFace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+.movieText {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+
+}
+.galleryImgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-flow: column;
+
+
+
+
+}
