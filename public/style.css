@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(https://static1.bigstockphoto.com/9/6/1/large1500/169266266.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.back {
+    background-color: teal;
+}
+h1 {
+    background-color: teal;
+}
+
+a{
+    color: whitesmoke;
+    background-color:maroon
+}
+
+.images img{
+    height: 300px;
+    width: 300px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
