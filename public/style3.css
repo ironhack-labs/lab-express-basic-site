@@ -1,0 +1,255 @@
+    /* Full-width input fields */
+    body {
+        background: black;
+    }
+
+    nav {
+        position: fixed;
+        top: -0.3em;
+        left: 20em;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a {
+        text-decoration: none;
+        color: blanchedalmond;
+        padding: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        transition: 1s;
+    }
+
+    li a:hover {
+        border-bottom: 1px solid wheat;
+
+    }
+
+    #load {
+
+        position: relative;
+        left: 31rem;
+        top: 20rem;
+        background: black;
+        color: wheat;
+        font-size: 3.5rem;
+        border: 0;
+        cursor: pointer;
+        opacity: 0.6;
+
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    #submit {
+        position: relative;
+        top: 2rem;
+        left: -0.4rem;
+        background: black;
+        color: white;
+        border-radius: 0.2em;
+    }
+
+    /* Set a style for all buttons */
+    button {
+        position: relative;
+        left: 20rem;
+        top: 20rem;
+        background-color: grey;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #4682b4;
+    }
+
+    /* Center the image and position
+the close button */
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+
+
+    .container {
+        padding: 16px;
+        height: 25rem;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 60px;
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 80%;
+        border-radius: 0.5em;
+    }
+
+    /* The Close Button (x) */
+    .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+    #globe {
+        width: 5.5rem;
+        height: 5.5rem;
+        position: fixed;
+        left: 26rem;
+        top: 21rem;
+        border-radius: 50%;
+    }
+
+    /* Add Zoom Animation */
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+        from {
+            -webkit-transform: scale(0)
+        }
+
+        to {
+            -webkit-transform: scale(1)
+        }
+    }
+
+    @keyframes animatezoom {
+        from {
+            transform: scale(0)
+        }
+
+        to {
+            transform: scale(1)
+        }
+    }
+
+
+    @media screen and (min-width:40px) and (max-width: 480px) {
+
+        body {
+            background: #000;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a:hover {
+            border-bottom: 1px solid wheat;
+            transition: 1s;
+    
+        }
+    
+        a {
+            text-decoration: none;
+            color: blanchedalmond;
+          
+            font-family: 'Roboto', sans-serif;
+            font-size: 1px;
+            transition: 1s;
+        }
+    
+        nav {
+            position: relative;
+            top: 4em;
+            left: -4em;
+            font-size: 9px;
+        }
+    
+        ul {
+            list-style-type: none;
+        }
+    
+        li {
+            display: inline;
+    
+        }
+        span.psw {
+            display: block;
+            float: none;
+        }
+
+        .cancelbtn {
+            width: 100%;
+        }
+   
+        #load {
+
+            position: relative;
+            left: 3rem;
+            top: 4rem;
+            background: black;
+            color: wheat;
+            font-size: 3.5rem;
+            border: 0;
+            cursor: pointer;
+            opacity: 0.6;
+    
+        }
+        #globe {
+            width: 2rem;
+            height: 2rem;
+            position: fixed;
+            left: 2rem;
+            top: 9rem;
+            border-radius: 50%;
+        }
+    }
+    
+   

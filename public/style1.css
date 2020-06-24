@@ -1,0 +1,387 @@
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 20%;
+    height: 16rem;
+    margin: 2%;
+    border-radius: 0.5em;
+}
+
+.sectionOpen {
+
+    width: 100%;
+    transform: translateX(-80rem);
+    transition: 0.7s;
+}
+
+.sectionClose {
+    width: 0;
+    transition-delay: 3s;
+    transform: translateX(80rem);
+    transition: 0.9s;
+}
+
+section {
+    position: relative;
+    left: 80rem;
+    top: 2em;
+    background: black;
+     height: 40rem; 
+    width: 0rem;
+}
+
+#group1,
+#group2 {
+    display: inline;
+}
+
+#group1 {
+    position: relative;
+    left: -50rem;
+}
+
+.group1OPen {
+    transform: translateX(50rem);
+    transition: 0.7s;
+    transition-delay: 2s;
+    z-index: 2;
+}
+
+#group2 {
+    position: relative;
+    left: 50rem;
+}
+
+.group2Open {
+    transform: translateX(-50rem);
+    transition: 0.7s;
+    transition-delay: 2.7s;
+    z-index: 2;
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4 {
+    position: relative;
+    top: -30rem;
+}
+
+#pic5,
+#pic6,
+#pic7,
+#pic8 {
+    position: relative;
+    top: -65rem;
+}
+
+.pic1Open {
+    transform: translateY(30rem);
+    transition: 0.7s;
+    transition-delay: 0.9s;
+}
+
+.pic2Open {
+    transform: translateY(30rem);
+    transition: 0.7s;
+    transition-delay: 1.2s;
+}
+
+.pic3Open {
+    transform: translateY(30rem);
+    transition: 0.7s;
+    transition-delay: 1.5s;
+}
+
+.pic4Open {
+    transform: translateY(30rem);
+    transition: 0.7s;
+    transition-delay: 1.8s;
+}
+
+.pic5Open {
+    transform: translateY(65rem);
+    transition: 0.7s;
+    transition-delay: 2.1s;
+}
+
+.pic6Open {
+    transform: translateY(65rem);
+    transition: 0.7s;
+    transition-delay: 2.4s;
+}
+
+.pic7Open {
+    transform: translateY(65rem);
+    transition: 0.7s;
+    transition-delay: 2.7s;
+}
+
+.pic8Open {
+    transform: translateY(65rem);
+    transition: 0.7s;
+    transition-delay: 3s;
+}
+
+.pic1C {
+    transform: translateY(-30rem);
+    transition: 0.7s;
+    transition-delay: 0.9s;
+}
+
+.pic2C {
+    transform: translateY(-30rem);
+    transition: 0.7s;
+    transition-delay: 1.2s;
+}
+
+.pic3C {
+    transform: translateY(-30rem);
+    transition: 0.7s;
+    transition-delay: 1.5s;
+}
+
+.pic4C {
+    transform: translateY(-30rem);
+    transition: 0.7s;
+    transition-delay: 1.8s;
+}
+
+.pic5C {
+    transform: translateY(-65rem);
+    transition: 0.7s;
+    transition-delay: 2.1s;
+}
+
+.pic6C {
+    transform: translateY(-65rem);
+    transition: 0.7s;
+    transition-delay: 2.4s;
+}
+
+.pic7C {
+    transform: translateY(-65rem);
+    transition: 0.7s;
+    transition-delay: 2.7s;
+}
+
+.pic8C {
+    transform: translateY(-65rem);
+    transition: 0.7s;
+    transition-delay: 3s;
+}
+
+nav {
+    position: fixed;
+    top: -0.3em;
+    left: 20em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    transition: 1s;
+}
+
+a:hover {
+    border-bottom: 1px solid wheat;
+    transition: 1s;
+}
+
+#openBtn {
+    position: relative;
+    left: 25rem;
+    top: 20rem;
+    background: black;
+    color: wheat;
+    font-size: 3.5rem;
+    border: 0;
+    cursor: pointer;
+    opacity: 0.6;
+    border-radius: 0.5em;
+}
+
+#globe {
+    width: 5.5rem;
+    height: 5.5rem;
+    position: fixed;
+    left: 17rem;
+    top: 17rem;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+@media screen and (min-width:40px) and (max-width: 480px) {
+    body{
+        background: #000000;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    img {
+        width: 13rem;
+        height: 7rem;
+        margin-left: 20%;
+        border-radius: 0.5em;
+    }
+
+    section {
+        position: relative;
+        left: 19%;
+        top: 0em;
+        background: black;
+        height: 70rem;
+        width: 0rem;
+
+    }
+
+    .sectionOpen {
+        padding-top: 10%;
+        width: 100%;
+        transform: translateX(-19%);
+        transition: 0.7s;
+    }
+
+
+    #pic1,
+    #pic2,
+    #pic3,
+    #pic4{
+        position: relative;
+        left: -31rem;
+        top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+
+    #pic5,
+    #pic6,
+    #pic7,
+    #pic8 {
+        position: relative;
+        left: -31rem;
+        top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .pic1Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 0.9s;
+    }
+
+    .pic2Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 1.2s;
+    }
+
+    .pic3Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 1.5s;
+    }
+
+    .pic4Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 1.8s;
+    }
+
+    .pic5Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 2.1s;
+    }
+
+    .pic6Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 2.4s;
+    }
+
+    .pic7Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 2.7s;
+    }
+
+    .pic8Open {
+        transform: translateX(30rem);
+        transition: 0.7s;
+        transition-delay: 3s;
+    }
+
+
+    #openBtn {
+        position: relative;
+        left: 1.7em;
+        top: 8em;
+        background: black;
+        color: wheat;
+        font-size: 1rem;
+        border: 0;
+        cursor: pointer;
+        opacity: 0.6;
+        border-radius: 0.5em;
+    }
+    #globe {
+        width: 1rem;
+        height: 1rem;
+        position: relative;
+        left:2em;
+        top: 8.6em;
+        border-radius: 50%;
+        opacity: 0.6;
+    }
+  
+    a:hover {
+        border-bottom: 1px solid wheat;
+        transition: 1s;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: blanchedalmond;
+      
+        font-family: 'Roboto', sans-serif;
+
+        transition: 1s;
+    }
+
+    nav {
+        position: relative;
+        top: 1em;
+        left: -4em;
+        font-size: 9px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+
+    }
+
+
+
+}

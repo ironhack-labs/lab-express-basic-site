@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Syria_By_A_Syrian</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img id="globe" src="images/globe.gif" alt="globe">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">contact</a></li>
+
+
+
+        </ul>
+    </nav>
+    <button onclick="document.
+getElementById('id01').style.display='block'" id="load" style="width:auto;">Contact
+    </button>
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="https://formspree.io/xgeeqpln" method="POST">
+            <div class="imgcontainer">
+                <span onclick="document
+.getElementById('id01').style.display='none'" class="close" title="Close Modal">
+                    &times;</span>
+            </div>
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required><label><b>Email</b></label>
+                <input type="email" placeholder="Enter email" name="email" required>
+                <label for="message">your message</label>
+                <textarea id="message" placeholder="Say something" name="message" required></textarea>
+
+                <button id="submit" type="submit">submit</button>
+
+
+            </div>
+            <!-- <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById
+('id01').style. display='none'" class="cancelbtn">
+                    Cancel</button> -->
+
+    </div>
+    </form>
+    </div>
+    <script>
+        var modal = document.getElementById('id01');
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

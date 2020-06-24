@@ -1,0 +1,211 @@
+body {
+    background: black;
+
+}
+
+#openBtn {
+    position: relative;
+    left: 15rem;
+    top: 20rem;
+    background: black;
+    color: wheat;
+    font-size: 3.5rem;
+    border: 0;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+section {
+    position: relative;
+    left: -80rem;
+    color: blanchedalmond;
+    top: 10rem;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionOpen {
+    transform: translateX(80rem);
+    transition: 0.7s;
+}
+
+
+
+
+
+nav {
+    position: fixed;
+    top: -0.3em;
+    left: 20em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    transition: 1s;
+}
+
+li a:hover {
+    border-bottom: 1px solid wheat;
+
+}
+
+
+
+
+#span1 {
+    position: relative;
+    left: -80rem;
+}
+
+.span1Open {
+    transform: translateX(80rem);
+    transition: 0.7s;
+    transition-delay: 0.2s;
+}
+
+#span2 {
+    position: relative;
+    top: -80rem;
+}
+
+.span2Open {
+    transform: translateY(80rem);
+    transition: 0.7s;
+    transition-delay: 0.4s;
+
+}
+
+#span3 {
+    position: relative;
+    left: -80rem;
+}
+
+.span3Open {
+    transform: translateX(80rem);
+    transition: 0.7s;
+    transition-delay: 0.6s;
+
+}
+
+
+#span4 {
+    position: relative;
+    top: -80rem;
+}
+
+.span4Open {
+    transform: translateY(80rem);
+    transition: 0.7s;
+    transition-delay: 0.8s;
+
+}
+
+#globe {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    left: 10rem;
+    top: 20rem;
+    border-radius: 50%;
+}
+
+
+@media screen and (min-width:40px) and (max-width: 480px) {
+    body {
+        background: #000000;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #openBtn {
+        position: relative;
+        left: 6em;
+        top: 8em;
+        height: 5em;
+      width: 7rem;
+        background: black;
+        color: wheat;
+        font-size: 1rem;
+        border: 0;
+        cursor: pointer;
+        opacity: 0.6;
+        border-radius: 0.5em;
+    }
+
+    #globe {
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        left: 6rem;
+        top: 9rem;
+        border-radius: 50%;
+        opacity: 0.6;
+        display: none;
+    }
+
+    a:hover {
+        border-bottom: 1px solid wheat;
+        transition: 1s;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: blanchedalmond;
+      
+        font-family: 'Roboto', sans-serif;
+        font-size: 1px;
+        transition: 1s;
+    }
+
+    nav {
+        margin-top: 0;
+        position: relative;
+        top: -5em;
+        left: -3em;
+        font-size: 9px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+
+    }
+
+    section {
+        position: relative;
+        left: -20rem;
+        color: blanchedalmond;
+        top: 0.3rem;
+        background: black;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 0.3em;
+        text-align: center;
+        font-size: 0.7em;
+
+    }
+
+    .sectionOpen {
+        transform: translateX(20rem);
+        transition: 0.7s;
+    }
+
+
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Syria_By_A_Syrian</title>
+    <link rel="stylesheet" href="/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+    <img id="globe" src="images/globe.gif" alt="globe">
+    <button id="openBtn">Load the Page</button>
+    <!-- <button id="clsBtn">&times;</button> -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">contact</a></li>
+
+
+
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <img id="pic1" src="images/1*YmHTr5oNMtjUCiIj8C3FCg.jpeg" alt="web">
+            <img id="pic2" src="images/126-1260822_photography-syria-wars.jpg" alt="web">
+            <img id="pic3" src="images/1536931266_2786362_1536931260_423849310302216-SyriaCivi_adCTTtL.jpg" alt="web">
+            <img id="pic4" src="images/aleppo-cat-gun-street-wallpaper-preview.jpg" alt="web">
+        </div>
+
+        <img id="pic5" src="images/maxresdefault-7.jpg" alt="web">
+        <img id="pic6" src="images/nina-yazidi.jpg" alt="web">
+
+
+        <img id="pic7" src="images/s1.reutersmedia.net.jpeg" alt="web">
+        <img id="pic8" src="images/syrian-migrant-boy-turkey-55e8-565b0e2018770.jpg" alt="web">
+
+    </section>
+    <script>
+        const openBtn = document.getElementById('openBtn');
+        openBtn.addEventListener('click', open);
+
+        function open() {
+            var section = document.querySelector('section');
+            var pic1 = document.getElementById('pic1');
+            var pic2 = document.getElementById('pic2');
+            var pic3 = document.getElementById('pic3');
+            var pic4 = document.getElementById('pic4');
+            var pic5 = document.getElementById('pic5');
+            var pic6 = document.getElementById('pic6');
+            var pic7 = document.getElementById('pic7');
+            var pic8 = document.getElementById('pic8');
+            var color1 = document.getElementById('color1');
+
+
+            pic1.classList = "pic1Open";
+            pic2.classList = "pic2Open";
+            pic3.classList = "pic3Open";
+            pic4.classList = "pic4Open";
+            pic5.classList = "pic5Open";
+            pic6.classList = "pic6Open";
+            pic7.classList = "pic7Open";
+            pic8.classList = "pic8Open";
+            section.classList = "sectionOpen";
+          
+        }
+        const clsBtn = document.getElementById('clsBtn');
+        clsBtn.addEventListener('click', close);
+
+        function close() {
+            var section = document.querySelector('section');
+            var pic1 = document.getElementById('pic1');
+            var pic2 = document.getElementById('pic2');
+            var pic3 = document.getElementById('pic3');
+            var pic4 = document.getElementById('pic4');
+            var pic5 = document.getElementById('pic5');
+            var pic6 = document.getElementById('pic6');
+            var pic7 = document.getElementById('pic7');
+            var pic8 = document.getElementById('pic8');
+
+            section.classList = "sectionClose";
+            pic1.classList = "pic1C";
+            pic2.classList = "pic2C";
+            pic3.classList = "pic3C";
+            pic4.classList = "pic4C";
+            pic5.classList = "pic5C";
+            pic6.classList = "pic6C";
+            pic7.classList = "pic7C";
+            pic8.classList = "pic8OC";
+
+        }
+    </script>
+</body>
+
+</html>

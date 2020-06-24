@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Syria_By_A_Syrian</title>
+    <link rel="stylesheet" href="/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+        <img id="globe" src="images/globe.gif" alt="globe">
+        <button id="openBtn">Read a bit about Syrian history </button>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">contact</a></li>
+
+
+
+        </ul>
+    </nav>
+    <section id="con">
+        <p id="span1">Syria (Arabic: سوريا‎, romanized: Sūriyā), officially the Syrian Arab Republic (Arabic:
+            الجمهورية العربية السورية‎, romanized: al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah), is a country in Western Asia,
+            bordering Lebanon to the southwest, the Mediterranean Sea to the west, Turkey to the north, Iraq to the
+            east, Jordan to the south, and Israel to the southwest. A country of fertile plains, high mountains, and
+            deserts, Syria is home to diverse ethnic and religious groups, including Syrian Arabs, Greeks, Armenians,
+            Assyrians, Kurds, Circassians,[8] Mandeans[9] and Turkemens. Religious groups include Sunnis, Christians,
+            Alawites, Druze, Isma'ilis, Mandeans, Shiites, Salafis, Yazidis, and Jews. Sunnis make up the largest
+            religious group in Syria. </p>
+        <p id="span2">Syria is a unitary republic consisting of 14 governorates and is the only country that
+            politically espouses Ba'athism. It is a member of one international organization other than the United
+            Nations, the Non-Aligned Movement; it has been suspended from the Arab League in November 2011[10] and the
+            Organisation of Islamic Cooperation,[11] and self-suspended from the Union for the Mediterranean.[12]</p>
+        <p id="span3">The name "Syria" historically referred to a wider region, broadly synonymous with the Levant,
+            and known in Arabic as al-Sham. The modern state encompasses the sites of several ancient kingdoms and
+            empires, including the Eblan civilization of the 3rd millennium BC. Aleppo and the capital city Damascus are
+            among the oldest continuously inhabited cities in the world.[13] In the Islamic era, Damascus was the seat
+            of the Umayyad Caliphate and a provincial capital of the Mamluk Sultanate in Egypt. The modern Syrian state
+            was established in the mid-20th century after centuries of Ottoman and a brief period French mandate, and
+            represented the largest Arab state to emerge from the formerly Ottoman-ruled Syrian provinces.</p>
+        <p id="span4">It gained de jure independence as a parliamentary republic on 24 October 1945, when Republic of
+            Syria became a founding member of the United Nations, an act which legally ended the former French Mandate –
+            although French troops did not leave the country until April 1946. The post-independence period was
+            tumultuous, with many military coups and coup attempts shaking the country from 1949 to 1971. In 1958, Syria
+            entered a brief union with Egypt called the United Arab Republic, which was terminated by the 1961 Syrian
+            coup d'état. </p>
+
+
+
+    </section>
+  <script>
+    const openBtn = document.getElementById('openBtn');
+    openBtn.addEventListener('click', open);
+    function open(){
+
+var section=document.getElementById('con');
+var span1=document.getElementById('span1');
+var span2=document.getElementById('span2');
+var span3=document.getElementById('span3');
+var span4=document.getElementById('span4');
+section.classList='sectionOpen';
+span1.classList="span1Open";
+span2.classList="span2Open";
+span3.classList="span3Open";
+span4.classList="span4Open";
+    }
+  
+  </script>
+</body>
+
+</html>
