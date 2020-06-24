@@ -30,8 +30,12 @@ body {
   }
   .stanleyFace {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:rgb(233, 112, 56);
+    width: 50vw;
+    padding: 50px;
 
   }
 .movietext {
@@ -67,5 +71,11 @@ body {
   padding: 50px;
   font-family: monospace;
 
+
+}
+
+.quote {
+  background-color:rgb(233, 112, 56);
+  padding: 50px;
 
 }
