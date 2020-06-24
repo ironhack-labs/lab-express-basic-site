@@ -1,0 +1,62 @@
+h1 {
+    color:#37123C;
+    
+    font-family: 'MuseoModerno', cursive;
+    text-align:center;
+    
+    background-color: #A99F96;
+}
+
+html {
+    
+    background-color: #A99F96;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    background-color: #A99F96;
+}
+
+p {
+}
+
+#menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+    
+    background-color: #A99F96;
+    margin-bottom: 20px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #37123C;
+    font-weight: 600;
+}
+
+img {
+     max-height: 400px; 
+     width:auto;
+     object-fit: cover;
+     
+}
+
+#image { 
+    display:flex;
+    justify-content: center;
+}
+
+#container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul > li {
+    font-weight: 600;
+}
