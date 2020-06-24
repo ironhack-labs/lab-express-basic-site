@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-pic {
+    width: 300px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+.works {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: palevioletred;
+}
+
+ h2 {
+    text-align: center;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
