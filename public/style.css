@@ -80,7 +80,7 @@ Slider Styles
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
-	color: white;
+	color: black;
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -112,7 +112,7 @@ Slider Styles
 }
 
 .numbertext {
-	color: #f2f2f2;
+	color:black;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
@@ -160,4 +160,55 @@ Slider Styles
 	to {
 		opacity: 1;
 	}
+}
+
+/*
+
+*/
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 25px;
+}
+
+#routing > li {
+	align-content: center;
+	margin: 25px;
+}
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-self: center;
+}
+#arundhati_roy {
+	width: 25%;
+}
+
+#quote {
+	width: 60%;
+
+}
+
+.bibliography{
+	display: flex;
+	flex-direction: column;
+}
+
+.works {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.container {
+	width: 20%;
+	margin: 25px;
+}
+
+.member-name {
+	align-content: center;
 }
