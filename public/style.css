@@ -1,5 +1,6 @@
 body {
     background-color: rgb(49, 198, 224);
+    font-family: monospace;
 }
 .topnav {
     background-color: #333;
@@ -13,6 +14,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: monospace;
   }
   
   
@@ -32,10 +34,16 @@ body {
     align-items: center;
 
   }
-.movieText {
+.movietext {
   display: flex;
   flex-direction: column;
   flex-flow: column;
+  background-color:rgb(233, 112, 56);
+  width: 50vw;
+  padding: 50px;
+  font: oblique;
+  font-size: larger;
+  font-family: monospace;
 
 }
 .galleryImgs {
@@ -43,8 +51,21 @@ body {
   align-items: center;
   flex-direction: column;
   flex-flow: column;
+  
 
-
+}
+.bio {
+  background-color:rgb(233, 112, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: column;
+  width: 50vw;
+  font: oblique;
+  font-size: larger;
+  padding: 50px;
+  font-family: monospace;
 
 
 }
