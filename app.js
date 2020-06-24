@@ -1,14 +1,16 @@
 const express = require ('express')
 var app = express()
 
+app.use(express.static('public'))
 
-app.get('/*', function(req, res){
-    res.send('/home/daniel/Documentos/IRONHACK/lab-express-basic-site/views/index.html')
-    res.end()
+
+app.get('/home', (req, res) => 
+    res.sendFile(__dirname + '/views/home.html'))
     
-})
+    
 
-app.listen (3100, function(){
-    console.log('Server listenng at port 3100')
+
+app.listen (3100, () => {
+    console.log('Server listening at port 3100')
 
 })
