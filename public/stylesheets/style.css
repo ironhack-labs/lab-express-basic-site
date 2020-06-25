@@ -1,5 +1,64 @@
-body{
-    background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    
+body {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.logo img{
+    padding: 20px
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 20px 10px;
+}
+
+main{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about img{
+    height: 180px;
+
+}
+
+
+.img-main-about{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.gallery{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
 }
