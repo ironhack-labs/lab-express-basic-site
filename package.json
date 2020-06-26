@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lupocordero/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
   }
 }
