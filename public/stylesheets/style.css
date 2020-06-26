@@ -26,3 +26,8 @@ nav a {
     text-decoration: none;
     color: black;
   }
+
+  .carousel-inner {
+    width: 75%;
+    margin: auto;
+  }
