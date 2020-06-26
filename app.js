@@ -16,7 +16,7 @@ app.get('/works', (request, response, next) => {
 });
 
 app.get('/gallery', (request, response, next) => {
-  response.render(__dirname + '/views/gallery.html');
+  response.sendFile(__dirname + '/views/gallery.html');
 });
 
 app.listen(3000, () => console.log('My first app listening on port 3000! '));
