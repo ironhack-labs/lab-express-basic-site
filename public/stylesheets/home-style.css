@@ -1,0 +1,16 @@
+.links {
+    font-size: 4em;
+    position: fixed;
+    left:47%;
+    top:47%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+a{
+    text-decoration:none;
+    color: white;
+}
