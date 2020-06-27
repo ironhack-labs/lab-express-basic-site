@@ -19,4 +19,4 @@ app.get('/gallery', (request, response, next) => {
     response.sendfile(__dirname + '/views/gallery-page.html');
 })
 
-app.listen(3000)
+app.listen(3000);
