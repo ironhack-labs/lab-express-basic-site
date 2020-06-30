@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+  }
+
+div#fondo{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/home.jpg');
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    height: 100%;
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+}
+
+nav {
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+  }
+nav ul{
+    display: flex;
+    font-size: 50px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+}
+
+nav#menu li {
+font-size: 40px;
+padding: 30px
+}
+  h1, span{
+      display:flex;
+justify-content: center;
+align-items: center;
+  }
+
+  p#about{
+      margin: 200px
+  }
+
+
+  /* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
