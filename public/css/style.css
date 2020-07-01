@@ -3,10 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-a:hover,
-a:active,
-a.active {
-    color: purple;
-    background-color: yellow;
-}
