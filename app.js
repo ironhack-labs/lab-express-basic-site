@@ -32,12 +32,12 @@ async function returnArray(path) {
     galleryPics = result;
 }
 
-returnArray("public/img/display/");
+returnArray("public/display/");
 
 hbs.registerHelper("displayGallery", (array) => {
     var images = "";
     for (let i = 0; i < array.length; i++) {
-        images += `<img src="./img/display/${array[i]}" alt="">`;
+        images += `<img src="display/${array[i]}" alt="">`;
     }
     return images;
 });
@@ -72,6 +72,6 @@ app.get("*", function (request, response) {
     response.send("not found sorry");
 });
 
-app.listen(3000, () => {
-    console.log("server is running @http://localhost:3000");
+app.listen(3030, () => {
+    console.log("server is running @http://localhost:3030");
 });

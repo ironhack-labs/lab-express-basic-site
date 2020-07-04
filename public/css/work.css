@@ -7,13 +7,12 @@
     margin-right: 10px;
 }
 
-.float-left.pic {
+.pic {
     width: 40%;
 }
 
 .float-right {
     float: right;
-    width: 40%;
 }
 
 figure {
@@ -34,7 +33,8 @@ figcaption {
     color: var(--header-color);
     font-size: 1.1rem;
     line-height: 1.3;
-    padding-left: 10%;
+    padding-left: 3%;
+    overflow: hidden;
 }
 
 #paris {

@@ -1,5 +1,7 @@
 #gallery img {
-    width: 30%;
+    max-width: 30%;
+    padding-bottom: 20px;
+    max-height: 300px;
 }
 
 #gallery {
