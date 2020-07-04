@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: left;
+    background-color: var(--color-secondary);
+    width: 100%;
+    padding: 20px 5% 20px 5%;
+    top: var(--header-height);
+    position: relative;
+    color: var(--color-main);
+}
+
+footer .link:hover {
+    color: var(--header-color);
+}
+
+footer div {
+    margin-right: 200px;
+}
+
+footer p {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: var(--color-main);
+}
+
+footer li {
+    font-size: 0.9rem;
+}
+
+#more-info {
+    margin-left: 40px;
+}

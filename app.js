@@ -1,5 +1,8 @@
 const express = require("express");
 const hbs = require("hbs");
+const fs = require("fs");
+const { rejects } = require("assert");
+const { resolve } = require("path");
 
 const app = express();
 
@@ -13,6 +16,31 @@ hbs.registerPartials(__dirname + "/views/partials"); // where the partials are l
 app.set("views", __dirname + "/views"); // where the views are located
 app.set("view engine", "hbs"); // which templating engine to be used
 
+let galleryPics = [];
+
+function picArray(path) {
+    return new Promise((res, rej) => {
+        fs.readdir(path, (err, files) => {
+            err ? rej(err) : res(files);
+            files.shift();
+        })
+    })
+}
+
+async function returnArray(path) {
+    let result = await picArray(path);
+    galleryPics = result;
+}
+
+returnArray("public/img/display/");
+
+hbs.registerHelper("displayGallery", (array) => {
+    var images = "";
+    for (let i = 0; i < array.length; i++) {
+        images += `<img src="./img/display/${array[i]}" alt="">`;
+    }
+    return images;
+});
 
 // routing
 app.get("/", (req, res) => {
@@ -36,6 +64,7 @@ app.get("/work", (req, res) => {
 app.get("/gallery", (req, res) => {
     res.render("gallery", {
         pageTitle: "Gallery",
+        galleryPics,
     });
 });
 

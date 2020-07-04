@@ -1,0 +1,22 @@
+#portrait {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#portrait-img {
+    max-height: 1000px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+#portrait a {
+    cursor: grab;
+}
+
+#portrait em {
+    font-weight: bold;
+}

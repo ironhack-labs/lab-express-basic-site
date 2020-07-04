@@ -1,0 +1,23 @@
+nav {
+    background-color: var(--header-color);
+    width: 100%;
+    padding: 20px 5% 20px 5%;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav img {
+    height: 30px;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 10%;
+}
