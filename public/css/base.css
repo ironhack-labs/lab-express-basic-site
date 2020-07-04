@@ -1,0 +1,20 @@
+@import url("./variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+body {
+    background-color: var(--main-bg-color);
+}
+*/
+
+#flim{
+    margin: 5vh 25vw;
+    width: 50vw;
+    height: 40vh;
+    
+}

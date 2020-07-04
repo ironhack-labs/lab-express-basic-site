@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title> {{this.title}} </title>
 </head>
+
 <body>
-    {{>navMain}}
+    <div class="container_row">
+        <div class="menu">
+            {{>navMain}}
+        </div>
+        <div id="attention_banner" class="attention">
+            <p class="attention"> Attention, ce site n'est pas un site sur le cyclimse.</p>
+            <aside class="attention">- Merci de votre compréhension</aside>
+        </div>
+    </div>
+
+
+
     {{{body}}}
+
 </body>
+
 </html>

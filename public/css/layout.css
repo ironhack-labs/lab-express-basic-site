@@ -1,0 +1,126 @@
+@import url("./variables.css");
+
+
+
+a {
+    text-decoration: none;
+    color: thistle;
+    line-height: 2.5vh;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+#attention_banner {
+    height: 10vh;
+    padding: 2vh 7vw;
+    font-size: larger;
+    font-variant: small-caps;
+}
+
+#attention_banner p {
+    font-size: 30px;
+}
+
+#attention_banner aside {
+    margin-left: 50vw;
+}
+
+.menu  nav{
+padding: 2vh 0 1vh 2vw;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.container_row {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: #1995e7;
+}
+
+h2 {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: medium;
+}
+
+#img_home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+  
+
+}
+
+#img_home img {
+    box-sizing: border-box;
+    width: 50vw;
+}
+
+#about {
+    margin: 5vh 15vw;
+}
+
+#about >li {
+    padding: 2vh 2vw;
+    text-align: justify;
+}
+
+li li {
+    list-style: none;
+}
+
+#container_gallery {
+    display: flex;
+    margin: 5vh 5vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#gallery {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img_gallery {
+    margin: 2vh 5vw;
+    width: 50vw;
+    
+}
+
+#legend_gallery {
+    width: 50vw;
+    margin-top: 1vh;
+    background-color: gainsboro;
+    color: goldenrod;
+    text-align: center;
+}
+
+.btn_gallery {
+    cursor: pointer;
+    font-size: xx-large;
+    color: goldenrod;
+    width: 3vw;
+    height: 5vh;
+}
+
+.btn_gallery:hover {
+color: indianred;
+}
+
+
+/* 
+
+
+*/

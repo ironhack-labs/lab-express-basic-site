@@ -1,6 +1,7 @@
 const express = require("express");
 const hbs = require("hbs");
 const app = express();
+require("dotenv").config();
 
 
 //BASIC CONFIG
@@ -25,15 +26,19 @@ app.get("/about", (req, res) => {
     });
 })
 
-app.get("/works", (req, res) => {
-    res.render("works", {
-        title : "works"
+app.get("/scenes", (req, res) => {
+    res.render("scenes", {
+        title : "scenes"
     });
+})
+
+app.get("/culture", (req,res) => {
+    res.render("culture", { title : "culture"});
 })
 
 
 
 //LOCAL SERVER
-app.listen(3000, (() => {
-    console.log('server is running @ http://localhost:3000')
+app.listen(process.env.PORT, (() => {
+    console.log(`server is running @ http://localhost:${process.env.PORT}`)
 }))
