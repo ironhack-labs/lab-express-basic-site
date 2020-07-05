@@ -16,22 +16,31 @@
         Chapter 3 – Parabellum.
     </div>
 </div>
-    <div id="characteristic-main">
-        <section class="characteristic-block">
-            <h2>Abilities</h2>
-            <div id="characteristic-list">
-                {{#each abilities}}
-                <li>{{this}}</li>
-                {{/each}}
-            </div>
-        </section>
+<div id="characteristic-main">
+    <section class="characteristic-block">
+        <h2>Abilities</h2>
+        <div id="characteristic-list">
+            {{#each abilities}}
+            <li>{{this.name}} <a class="fa fa-times fa-lg" href="/delete-ability/{{this._id}}"></a></li>
+            {{/each}}
+        </div>
 
-        <section class="characteristic-block">
-            <h2>Weaknesses</h2>
-            <div id="characteristic-list">
-                {{#each weaknesses}}
-                <li>{{this}}</li>
-                {{/each}}
-            </div>
-        </section>
-    </div>
+        <form method="post" action="/add-new-ability" class="form">
+            <label class="label" for="name">Add an ability:</label>
+            <input class="input" type="text" name="name" id="name" placeholder="Expert driver">
+
+            <input class="btn" type="submit" value="Submit your form !">
+        </form>
+    </section>
+
+
+
+    <section class="characteristic-block">
+        <h2>Weaknesses</h2>
+        <div id="characteristic-list">
+            {{#each weaknesses}}
+            <li>{{this}}</li>
+            {{/each}}
+        </div>
+    </section>
+</div>

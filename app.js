@@ -1,27 +1,54 @@
+require("dotenv").config(); // .env exposed
+require("./config/mongodb"); // databse connected
+
 const express = require("express");
 const hbs = require("hbs");
 const app = express();
 
 //Base configuration
 app.use(express.static(__dirname + "/public"));
+app.use(express.urlencoded({ extended: true })); // synchronous
 
-//Template conifguration
+//Template configuration
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
 
 //Routing
-app.get("/", (req,res) => {
-    res.render("homepage", {pageTitle: "Homepage"});
+app.get("/", (req, res) => {
+    res.render("homepage", { pageTitle: "Homepage" });
 })
 
-app.get("/about", (req,res) => {
-    res.render("about", {pageTitle: "Main character", abilities: ["Peak Human Strength", "Peak Human Durability", "Peak Human Speed", "Peak Human Agility", "Peak Human Stamina", "High Pain Tolerance", "Master Assassin", "Keen Intelligence"], weaknesses :["Vengeance", "Overconfidence","Anger", "Bullets & Mortality"]});
+const abilityModel = require("./models/abilities");
+
+app.get("/about", (req, res) => {
+    abilityModel.find()
+        .then((dbRes) => res.render("about.hbs", { pageTitle: "Main character", abilities: dbRes, weaknesses:["Bullets & Mortality", "Vengeance", "Overconfidence", "Anger"] }))
+        .catch((dbErr) => res.send(dbErr))
+});
+
+app.get("/add-new-ability", (req, res) => {
+    res.render("about.hbs");
+});
+
+app.post("/add-new-ability", (req, res) => {
+    abilityModel.create(req.body)
+        .then((dbRes) => res.redirect("/about"))
+        .catch((dbErr) => res.send(dbErr));
+});
+
+app.get("/delete-ability/:id", (req, res) => {
+    abilityModel.findByIdAndRemove(req.params.id)
+        .then((dbRes) => res.redirect("/about"))
+        .catch((dbError) => res.send(dbError));
+});
+
+app.get("/work", (req, res) => {
+    res.render("work", { pageTitle: "Chapters", images: ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"] });
 })
 
-app.get("/work", (req,res) => {
-    res.render("work", {pageTitle: "Chapters", images: ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"] });
-}) //ADD ALL IMAGES IN CHAPTERS PAGE
+//DATATBASE
 
-app.listen(3000, () => console.log("started at http://localhost:3000"));
+
+app.listen(process.env.PORT, () => console.log(`started at http://localhost:${process.env.PORT}`));
 

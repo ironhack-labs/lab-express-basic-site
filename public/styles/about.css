@@ -5,18 +5,28 @@
 #story{
     max-width: 1000px;
     text-align: justify;
-    margin:60px 0px 60px;
+    margin:120px 0px 60px;
 
+}
+
+#story h1{
+    margin-top:15px;
 }
 
 #characteristic-main{
     margin:60px 0px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .characteristic-block{
+    margin-top:20px;
     border: solid 1px;
     padding: 30px;
     border-radius: 20px;
+}
+
+.form{
+    margin-top:10px;
 }
