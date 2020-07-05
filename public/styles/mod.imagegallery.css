@@ -1,0 +1,11 @@
+.gallery{
+    margin-top:30px;
+    text-align: center;
+}
+
+.img{
+    margin: 20px;
+    min-height: 200px;
+    max-height:300px;
+    width: auto;
+}

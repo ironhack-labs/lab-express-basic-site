@@ -1,0 +1,22 @@
+#character-main{
+    display: flex;
+    justify-content: center;
+}
+#story{
+    max-width: 1000px;
+    text-align: justify;
+    margin:60px 0px 60px;
+
+}
+
+#characteristic-main{
+    margin:60px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.characteristic-block{
+    border: solid 1px;
+    padding: 30px;
+    border-radius: 20px;
+}

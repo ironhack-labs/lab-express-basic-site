@@ -1,0 +1,38 @@
+#chapter-main{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(400px, auto));
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+}
+.chapter-info{
+    margin: 50px 0px;
+    text-align: justify;
+    max-width: 1000px;
+} 
+
+#chapter-1{
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    /* grid-row-start: 1; 
+    grid-row-end: 2;  */
+}
+
+#chapter-2{
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+   /*  grid-row-start: 2; 
+    grid-row-end: 3;  */
+}
+
+#chapter-3{
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    /* grid-row-start: 3; 
+    grid-row-end: 4;  */
+}
+
+#chapter-4{
+    grid-column-start: 1; 
+    grid-column-end: 3;  
+}
