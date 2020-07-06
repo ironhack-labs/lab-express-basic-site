@@ -44,6 +44,11 @@ app.get("/vichy", (req,res) => {
     res.render("vichy");
 });
 
+app.get("/footer", (req,res) => {
+    res.render("footer");
+});
+
+
 app.listen(process.env.PORT, function () {
     console.log(`My app is ready to rock @ http://localhost:${process.env.PORT}!`);
   });

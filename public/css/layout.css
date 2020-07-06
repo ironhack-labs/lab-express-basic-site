@@ -10,7 +10,7 @@ body {
     margin:20px;
 }
 
-#navlinks, #submitbtn, button {
+#navlinks, #submitbtn, button, #seeproducts {
     border: 1px solid #d81159;
     border-radius:4px;
     box-shadow:1px;
@@ -104,6 +104,7 @@ h3 {
 
 #logo {
     margin:20px;
+    width:80px;
 }
 
 #welcome {
@@ -132,4 +133,27 @@ p {
 
 img {
     margin:15px;
+}
+
+.fa-heart {
+    color:#d81159;
+    width:10px;
+}
+
+#footer-main {
+background-color:#ffebe7;
+}
+
+input {
+    background-color:#ffebe7;
+    border: 1px solid #ffebe7;
+    border-radius:4px;
+    padding:5px;
+    color:white;
+
+}
+
+label {
+    font-weight:300;
+    font-size:20px;
 }
