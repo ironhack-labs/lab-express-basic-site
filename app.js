@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static('public'));
 
 // home route:
-app.get('/', (request, response, next) => response.sendFile(__dirname + '/views/index.html'));
+app.get('/', (req, res, next) => res.render('index'))
 
 // about route:
 app.get('/about', (request, response, next) => response.sendFile(__dirname + '/views/about.html'));
