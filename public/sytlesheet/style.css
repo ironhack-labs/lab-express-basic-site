@@ -2,3 +2,30 @@ body {
     color: yellow;
     background-color: orange;
   }
+
+.nav-bar{
+    background-color:	rgb(120, 181, 241);
+    color: white;
+    padding: 14px 0;
+    height:40px;
+    top: 0;
+    width: 100%;
+  }
+
+.nav-bar-ul{
+    width:1200px;
+    margin: 0 auto;
+  }
+
+.nav-bar li{
+    list-style-type:none;
+    text-align: center;
+    float:left;
+    width:33%;
+  }
+
+.nav-bar-item a{
+    text-decoration:none;
+    color:yellow;
+    font-size:2em;
+  }
