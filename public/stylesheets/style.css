@@ -1,0 +1,35 @@
+/* 0 GENERAL SETTINGS */
+
+html {
+margin: 0;
+padding: 0;
+background-color: rgba(190, 237, 243, 0.53);
+}
+    
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+    
+h1{
+color: #1b8593;
+}
+
+p{
+margin-left: 10em;
+margin-right: 10em;
+margin-bottom: 2em;
+}
+
+a{
+text-decoration: none;
+}
+
+.picture{
+width: 50em;
+padding-right:  1em;
+margin-bottom: 1em;
+}
+
