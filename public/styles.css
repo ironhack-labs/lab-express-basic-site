@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  color: #000;
+  background: url(images/background.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#three {
+  margin-top: 2%;
+}
+header {
+  background: darkslateblue;
+  color: skyblue;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 5px solid skyblue;
+}
+nav a {
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.parent {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ramdass {
+  margin-top: 20%;
+  border-radius: 205px;
+  width: 95%;
+}
+
+footer {
+  background: darkslateblue;
+  color: skyblue;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+  padding: 20px 0px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex div {
+  padding: 0 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  background: #000;
+}
+.flex div a {
+  color: #fff;
+  font-weight: bolder;
+}
+#one {
+  margin-top: 15%;
+}
+
+#two img,
+#one img {
+  width: 90%;
+}
+#two {
+  margin-top: 2%;
+}
+#two,
+#one {
+  display: flex;
+  justify-content: space-evenly;
+}
+.textbox {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  width: 50%;
+}
+.textbox2 {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  width: 50%;
+  margin-left: 2%;
+}
+
+.textbox p,
+.textbox2 p {
+  padding: 1%;
+}
+.flex div {
+  width: 100%;
+}
+.flex div img {
+  width: 94%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1025px) {
+  body {
+    background-color: darkslateblue;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #one {
+    flex-direction: column;
+  }
+  .textbox2 {
+    margin-left: 0;
+    width: 100%;
+  }
+  #two {
+    flex-direction: column-reverse;
+  }
+  .textbox {
+    width: 100%;
+  }
+  .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex div {
+    padding: 0px;
+  }
+  .flex div img {
+    width: 90%;
+  }
+}
