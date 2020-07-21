@@ -1,0 +1,119 @@
+@font-face {
+    font-family: omnibus;
+    src: url("/font/TT_OMNIB.ttf");
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    background-color: #FCD612;
+}
+
+html {
+    margin: 0 1rem 1rem 1rem;
+}
+
+body {
+    margin: 0;
+
+}
+
+.nav-bar {
+    width: 100%;
+    border-bottom: black solid 5px;
+}
+
+.nav-bar>ul {
+    background-color: #FCD612;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    color: red
+}
+
+
+#section-portrait {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 65%;
+
+}
+
+#section-works {
+    padding: 1rem;
+    width: 30%;
+}
+
+#section-portrait img {
+    width: 100%;
+    box-shadow: 2px 2px 6px black;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img-container img {
+    margin: 0.5rem;
+    width: 30%;
+    box-shadow: 2px 2px 6px black;
+}
+
+.img-container img:hover {
+    opacity: 0.75;
+}
+
+#welcome-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+#tarantino-draw {
+    padding: 2rem 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-self: center;
+}
+
+.text-container>p {
+    font-size: 1rem;
+    padding: 2rem;
+    border-right: 1.5px solid black;
+    width: 25%;
+}
+
+.text-container>div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+    border-right: 1.5px solid black;
+}
+
+.text-container h3 {
+    font-size: 1.3rem;
+
+}
+
+#section-container {
+    display: flex;
+    flex-direction: row;
+}
