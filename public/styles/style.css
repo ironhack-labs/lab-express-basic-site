@@ -1,0 +1,201 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    font-family: sans-serif;
+    --col-x1: grid-row-end: span 1;
+    --col-x2: grid-row-end: span 2;
+    --col-x3: grid-row-end: span 3;
+}
+
+.nav-bar {
+    background-color: black;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav-menu a {
+    color: #fff;
+    padding: 2rem;
+
+}
+
+.nav-menu a:hover {
+    background-color: rgba(167, 167, 167, 0.336);
+    color: rgb(75, 239, 245);
+    border-right: 1px solid #fff;
+}
+
+#header {
+    background-image: url(/images/darren-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    background-color: rgba(206, 206, 206, 0.356);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.548), rgba(255, 255, 255, 0.87), rgba(0, 0, 0, 0.548) 80%, transparent);
+    width: 80%;
+    padding: 4rem 0;
+    text-align: center;
+    transform: skewX(-45deg);
+}
+
+.title h1 {
+    transform: skewX(45deg);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+.main-title {
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+.main p {
+    padding: 2rem 0;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+
+.imgbox {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.imgbox:not(:nth-of-type(3)) {
+    margin-right: 1rem;
+}
+
+.imgbox p {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    border-bottom: 1px solid black;
+
+}
+
+.gallery-wrapper {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.col {
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img {
+
+    display: block;
+    line-height: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center center;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+.col--x1 {
+    grid-row-end: span 1;
+}
+
+.col--x2 {
+    grid-row-end: span 2;
+}
+
+.col--x3 {
+    grid-row-end: span 3;
+}
+
+.col--y2 {
+    grid-column-end: span 2;
+}
+
+.foot {
+    grid-column: span 2;
+
+}
+
+.foot img {
+    object-position: center top;
+}
+
+@media screen and (min-width:600px) {
+    .imgbox {
+        flex-basis: 30%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .gallery-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .foot {
+        grid-row-end: var(--col-x1);
+    }
+}
