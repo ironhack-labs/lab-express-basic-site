@@ -1,0 +1,10 @@
+body {
+  color: rgb(133, 19, 19);
+  background-color: bisque;
+}
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
