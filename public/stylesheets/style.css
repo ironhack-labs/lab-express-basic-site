@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  margin: 6rem 1rem 2rem;
+  text-align: center;
+}
+.last-section {
+  height: 80px;
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+  margin: 10px 0px;
+}
+.copy {
+  font-size: 0.85rem;
+}
+
+.mention,
+.mention a {
+  font-size: 10px;
+  color: rgba(112, 147, 182, 0.7);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+}
+.card-title,
+.about h1 {
+  padding: 3em 0em 0em;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.about {
+  height: 620px;
+}
+.about p {
+  text-align: center;
+  margin: 3em 17em;
+}
