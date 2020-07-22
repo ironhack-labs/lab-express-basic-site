@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color:rgba(230, 18, 177, 0.685);
+    
+}
+ul {
+    list-style: none;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 7rem;
+    text-align: center;
+}
+
+nav li {
+    margin-right: 10px;
+    width: 150px;
+    text-align: center;
+}
