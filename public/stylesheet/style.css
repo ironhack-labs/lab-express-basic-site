@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: rgb(221, 231, 236);
+}
+
+h1 {
+  color: slategray;
+  margin: 20px 30px;
+}
+
+h3 {
+  color: rgb(51, 141, 96);
+  margin: 10px 40px;
+}
+
+nav {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 20px 40px;
+}
