@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static("public"));
 
-app.get("/home", (request, response, next) =>
+app.get("/", (request, response, next) =>
   response.sendFile(__dirname + "/views/home.html")
 );
 
@@ -20,4 +20,4 @@ app.get("/gallery", (request, response, next) =>
   response.sendFile(__dirname + "/views/gallery.html")
 );
 
-app.listen(3000, () => console.log("My first app listening on port 3000! "));
+app.listen(3000, () => console.log("App is working "));

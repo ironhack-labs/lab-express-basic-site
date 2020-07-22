@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One&display=swap");
 body {
   text-align: center;
   color: #000;
@@ -7,6 +8,7 @@ body {
   margin: 0 auto;
   background-position: center;
   height: 100%;
+  font-family: "Kumar One", cursive;
 }
 ::-webkit-scrollbar {
   display: none;
