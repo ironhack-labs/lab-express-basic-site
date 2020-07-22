@@ -119,6 +119,11 @@ footer {
   }
 }
 @media only screen and (max-width: 600px) {
+  body a,
+  body {
+    font-size: 90%;
+  }
+
   #one {
     flex-direction: column;
   }
