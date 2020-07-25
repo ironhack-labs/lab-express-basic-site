@@ -22,7 +22,11 @@ header {
 
 #nav a {
     padding: 0 8px;
+    color: whitesmoke;
+}
 
+#nav a:hover {
+    color: black;
 }
 
 section {
@@ -33,6 +37,10 @@ section img {
     float: left;
     margin: 0 23px;
     width: 30vw;
+}
+
+#intro-image {
+    display: flex;
 }
 
 #intro-image img{
