@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: tomato;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15vw;
+}
+
+#nav a {
+    padding: 0 8px;
+
+}
+
+section {
+    margin: 0 20px;
+}
+
+section img {
+    float: left;
+    margin: 0 23px;
+    width: 30vw;
+}
+
+#intro-image img{
+    width: 60vw;
+    margin: 20px auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 400px;
+    margin: 5px;
+}
