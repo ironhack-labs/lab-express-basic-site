@@ -1,0 +1,10 @@
+#clickedButton{
+    background-color: lightblue;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
