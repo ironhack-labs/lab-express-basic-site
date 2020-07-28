@@ -1,0 +1,9 @@
+h1 {
+    color: blue;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
