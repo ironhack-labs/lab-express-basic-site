@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #383F38;
+    color: white;
+    font-size: 20px;;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+#ul-home {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    list-style: none;
+}
+
+.links-home {
+    font-size: 25px;
+}
+
+#group-picture {
+    width: 650px;
+}
+
+hr {
+    margin: 25px;
+}
+
+
+footer {
+    font-size: 15px;
+    text-align: center;
+}
