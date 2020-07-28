@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.photo-main {
+    width: 500px;
+    height: auto;
+}
+
+p {
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    margin: 10px;
+}
