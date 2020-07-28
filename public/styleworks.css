@@ -1,0 +1,57 @@
+html {
+    background-image: linear-gradient(#540454, #a83da8);
+    background-position: center;
+}
+
+body {
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    text-decoration: underline;
+}
+p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.destiny{
+    display: flex;
+    align-items: center;
+}
+
+.destiny img {
+    height: 200px;
+    margin: 20px;
+}
+
+.solo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.solo img {
+    height: 300px;
+    margin: 20px;
+}
+
+.list{
+    text-align: center;
+}
+
+.list ul{
+    list-style: none;
+}

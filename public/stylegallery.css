@@ -1,0 +1,22 @@
+body {
+    background-color: gold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #eb8de6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img{
+    height: 400px;
+}

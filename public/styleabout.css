@@ -1,0 +1,27 @@
+html {
+    background-image: linear-gradient(#540454, #a83da8);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+#about-pic {
+    width: 600px;
+}
