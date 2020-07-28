@@ -1,0 +1,98 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #aboutBg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 100%;
+  }
+
+  #workBg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    }
+  
+  #aboutText{
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #aboutText2{
+    position: relative;
+    text-align: center;
+    margin-top: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #workList{
+    position: relative;
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #title{
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+    font-size: 10vmax;
+    font-family: fantasy;
+  }
+
+  .content {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    width: 90vw;
+    padding: 20px;
+  }
+
+  #myBtn {
+    width: 150px;
+    font-size: 20px;
+    background:white;
+    color: yellowgreen;
+    cursor: pointer;
+    border-radius:10% ;
+  }
+
+  .btnText{
+    color:rgba(0, 0, 0, 0.75) ;
+    text-decoration:none;
+    font-size: 25px;
+    font-family: fantasy;
+  }
+
+  #myBtn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+  }
+  
