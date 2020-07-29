@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    text-align: center;
+     padding: 250px;
+    font-size: 5em;
+}
+
+.text {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+img {
+    padding-left: 470px;
+    height: 100px;
+}
+
+hr {
+    border-top: 2px solid grey;
+    margin: 0 auto;
+    width: 50%;
+
+}

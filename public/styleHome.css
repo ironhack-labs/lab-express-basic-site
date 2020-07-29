@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.heading {
+    height: 650px;
+    width: 100%; 
+}
+
+.heading h1 {
+    text-align: center;
+    padding: 250px;
+    font-size: 5em;
+}
+
+.heading h2 {
+    text-align: center;
+    padding: 250px;
+    font-size: 5em;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    }
+
+img {
+    padding-left: 470px;
+    height: 100px;
+}
