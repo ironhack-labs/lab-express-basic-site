@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+ul {
+  display: inherit;
+  align-items: center;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+header {
+  background: #fff url('https://source.unsplash.com/random/1600x900') no-repeat center center;
+  background-size: cover;
+
+  min-width: 100vw;
+  height: 50vh;
+}
