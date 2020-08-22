@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+body {
+    font-family: 'Libre Franklin',sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: darkgray;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+nav li {
+    margin: 0px 75px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.home {
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.container > div {
+    width: 33.33%;
+    height: 400px;
+}
+
+.container  a {
+color: white;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: 1.5em;
+text-decoration: none;
+position: absolute;
+padding: 200px 150px;
+}
+
+.chef {
+    background-image: url("./cyril-lignac.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.bar-des-pres {
+    background-image: url("./le-bar-des-pres.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.chardenoux {
+    background-image: url("./le-chardenoux.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.chardenoux a {
+    padding: 200px 125px;
+}
+.aux-pres {
+    background-image: url("./aux-pres.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url("./instagram.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.instagram a {
+    padding: 200px;
+}
+
+.fait-maison {
+    background-image: url("./fait-maison.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.fait-maison a {
+    padding: 200px;
+}
+
+.container div:hover {
+    background: gray;
+    opacity: 0.5;
+}
+
+.chef-section {
+    display: flex;
+    padding: 50px 75px;
+}
+
+.chef-intro {
+    padding: 50px;
+    text-align: justify;
+}
+
+h1 {
+    color: darkgray;
+}
+
+.chef-image {
+    width: 450px;
+}
+
+.restaurant-section {
+    display: flex;
+    padding: 50px 50px 0px 50px;
+}
+
+.restaurant-section img {
+    width: 700px;
+    padding: 50px;
+}
+
+.restaurant-description {
+    padding: 20px;
+    text-align: justify;
+}
+
+.restaurant-info {
+    margin-top: 30px;
+}
+
+.button {
+    margin: 30px 175px;
+}
+
+.button a {
+    padding: 10px;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+    background-color: darkgray;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.button a:hover {
+    background-color: black;
+    color: white;
+}
+
+.book-section {
+    display: flex;
+    padding: 100px;
+}
+
+.book-description {
+    padding: 50px 75px;
+    text-align: justify;
+}
+
+.book-image {
+    padding: 0px 100px;
+}
+
+.recipes {
+    display: flex;
+    padding-top: 50px;
+}
+
+.recipes img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.recipes img:hover {
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(3);
+    -ms-transform: scale(3);
+    /* IE 9 */
+    -webkit-transform: scale(3);
+     /* Safari and Chrome */
+}
+
+.button-buy {
+    margin: 75px 160px;
+}
+
+.button-buy a {
+    padding: 10px;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+    background-color: darkgray;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.button-buy a:hover {
+    background-color: black;
+    color: white;
+}
+
+.projects {
+    margin: 30px 100px;
+}
