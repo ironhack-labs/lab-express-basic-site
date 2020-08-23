@@ -14,10 +14,17 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+p {
+    font-family: 'Open Sans';
+    color: white;
 }
 
 /* styling home */
-#header-home {
+.header-home {
     background-image: url('arnold-black_background.jpeg');
     height: 100%;
     background-position: top;
@@ -30,9 +37,9 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-  }
+}
 
-#header-home  h1 {
+.header-home  h1 {
     font-family: 'Archivo Black', sans-serif;
     color: white;
     font-size: 18vw;
@@ -40,7 +47,7 @@ a {
     text-shadow: 6px 6px orange;
 }
 
-#header-home h2 {
+.header-home h2 {
     font-family: 'Archivo Black', sans-serif;
     color: white;
     font-size: 3vw;
@@ -48,8 +55,7 @@ a {
     letter-spacing: 0.2vw;
 }
 
-#header-home a {
-    font-family: 'Open Sans';
+.header-home a {
     font-size: 1.3rem;
     background-color: transparent;
     border: 1.5px solid #54c968;
@@ -58,10 +64,9 @@ a {
     font-weight: 500;
     border-radius: 30px;
     margin-right: 2%;
-    text-decoration: none;
 }
 
-#header-home span {
+.header-home span {
     font-family: 'Archivo Black', sans-serif;
     color: orange;
     font-size: 15vw;
@@ -70,29 +75,43 @@ a {
 }
 
 /* styling about page */
-/* #body-about{
-    background-color: black;
-} */
-
-#header-about nav {
-    width: 100%;
-    height: 55px;
-    overflow: hidden;
-    border-bottom: 1px solid orange;
+.body-about{
+    background-color: #030303;
 }
 
-#header-about ul {
+.header-about {
     display: flex;
-    align-items: flex-end;
-    list-style: none;
-    padding-right: 30px;
-    /* text-decoration: none; */
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-#section1-about div{
+.header-about ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.header-about h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 12vw;
+    margin: 2% 4% 2% 4%;
+    text-shadow: 5px 5px orange;
+    text-align: right;
+}
+
+.section1-about p {
+    
+}
+/* #section1-about div{
     width: 300px;
     height: 100px;
     border: 2px solid orange;
     background-color: orange;
-}
+} */
+
+
 
