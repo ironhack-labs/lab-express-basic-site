@@ -10,7 +10,7 @@ app.get('/', (request, response, next) => response.sendFile(`${__dirname}/views/
 app.get('/about', (request, response, next) => response.sendFile(`${__dirname}/views/about.html`));
 
 // works route:
-app.get('/works', (request, response, next) => response.sendFile(`${__dirname}/views/works.html`));
+app.get('/work', (request, response, next) => response.sendFile(`${__dirname}/views/work.html`));
 
 // photo route:
 app.get('/photo', (request, response, next) => response.sendFile(`${__dirname}/views/photo.html`));

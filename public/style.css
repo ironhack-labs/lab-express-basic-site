@@ -16,12 +16,27 @@ a {
     text-decoration: none;
     color: white;
     font-family: 'Open Sans';
+    font-style: italic;
 }
 
-p {
+p, 
+blockquote {
     font-family: 'Open Sans';
     color: white;
 }
+
+
+hr {
+    border-color: #54c968;
+    background-color:#54c968;
+    height: 1px;
+    width: 80%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+
 
 /* styling home */
 .header-home {
@@ -79,39 +94,206 @@ p {
     background-color: #030303;
 }
 
-.header-about {
+.header-about,
+.header-works,
+.header-photo {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.header-about ul {
+.header-about ul,
+.header-works ul,
+.header-photo ul {
     list-style: none;
     color: white;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     font-size: 1rem;
+    margin: 40px 40px;
+    padding: 0;
 }
 
-.header-about h1 {
+.header-about li,
+.header-works li,
+.header-photo li {
+    padding-bottom: 20px;
+}
+
+.header-about h1,
+.header-works h1,
+.header-photo h1 {
     font-family: 'Archivo Black', sans-serif;
     color: white;
     font-size: 12vw;
-    margin: 2% 4% 2% 4%;
+    line-height: 9vw;
+    margin: 40px 40px;
     text-shadow: 5px 5px orange;
     text-align: right;
 }
 
-.section1-about p {
-    
+.header-about span,
+.header-works span,
+.header-photo span {
+    font-family: 'Archivo Black', sans-serif;
+    color: orange;
+    font-size: 10vw;
+    margin: 0;
+    text-shadow: 4px 4px white;
 }
-/* #section1-about div{
-    width: 300px;
-    height: 100px;
-    border: 2px solid orange;
-    background-color: orange;
-} */
+
+.section-about div,
+.section-work div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    margin: 20px 40px 20px 120px;
+}
+
+.section-about p {
+    width: 80%;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+
+.section-about span {
+    font-size: 1.5rem;
+    color: orange;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.section-about div div {
+    margin-right: 100px;
+}
+.section-about blockquote {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    font-weight: 800;
+    font-style: italic;
+    text-align: right;
+    margin: 20px 0 0 0;
+}
+
+.section-about small{
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #54c968;
+    text-align: right;
+    margin-right: 28px;
+    margin-top: 20px;
+}
+
+#quote-span {
+    color: #54c968;
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+}
 
 
+/* photo page */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slideshow-container hr {
+      margin-bottom: 50px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    color: #54c968;
+  }
+  
+  /* Caption text */
+  .text {
+    color: white;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: white;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px 30px 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #54c968 ;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
