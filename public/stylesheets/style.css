@@ -1,0 +1,112 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+
+html {
+    margin: 0 1rem 1rem 1rem;
+}
+
+body {
+    margin:0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.nav-bar {
+    width:100%;
+    position: fixed;
+    top:0;
+    height:80px;
+    background-color: white;
+    padding-right:30px;
+}
+
+.nav-bar > ul {
+    background-color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+   
+}
+
+.nav-bar a:hover {
+    color:red;
+}
+
+#welcome-title {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:600px;
+    width:100%;
+    justify-content: center;
+    background-image: url(../images/michaeljordan-2.jpg);
+    background-size:cover;
+    background-position: center;
+    text-align:center;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+#welcome-title p , #welcome-title h2 {
+    margin-bottom: 10px;
+    color:white;
+    font-weight: 400;
+}
+
+#taranti {
+    padding : 2rem 0;
+   
+}
+
+.text-container {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    align-self:center;
+}
+
+.text-container>p {
+    font-size: 1rem;
+    padding: 2rem;
+    border-right: 1.5px solid black;
+    width: 25%;
+    
+
+}
+
+.text-container h2 {
+    font-size:1.3rem;
+}
+
+.text-container img {
+    width:90%;
+    padding-top:15px;
+    
+    
+}
+
+.text {
+    display:flex;
+    flex-direction:row-reverse;
+    width:100%;
+    align-self:center;
+}
+
+.text>p {
+    font-size: 1rem;
+    padding: 2rem;
+    border-left: 1.5px solid black;
+    width: 25%;
+    padding-top:90px;
+}
+
+.text img {
+    width:70%;
+    padding-top:15px;
+}
