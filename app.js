@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 
 app.use(express.static("public"))
-app.get("/kenouly", (req, res, next) => {
+app.get("/", (req, res, next) => {
     console.log(req.url)
     res.sendFile(`${__dirname}/views/index.html`)
 })
