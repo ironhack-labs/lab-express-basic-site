@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
  /* general */
  html, body {
@@ -17,6 +16,10 @@ a {
     color: white;
     font-family: 'Open Sans';
     font-style: italic;
+}
+
+a:hover {
+    color: orange;
 }
 
 p, 
@@ -59,6 +62,7 @@ hr {
     color: white;
     font-size: 18vw;
     margin: 0;
+    padding-top: 5%;
     text-shadow: 6px 6px orange;
 }
 
@@ -66,12 +70,12 @@ hr {
     font-family: 'Archivo Black', sans-serif;
     color: white;
     font-size: 3vw;
-    margin: 0 0 6% 0;
+    margin: 15px 0 80px 0;
     letter-spacing: 0.2vw;
 }
 
 .header-home a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     background-color: transparent;
     border: 1.5px solid #54c968;
     padding: 15px 30px;
@@ -79,6 +83,10 @@ hr {
     font-weight: 500;
     border-radius: 30px;
     margin-right: 2%;
+}
+
+.header-home a:hover {
+    color: orange;
 }
 
 .header-home span {
@@ -89,7 +97,7 @@ hr {
     text-shadow: 4px 4px white;
 }
 
-/* styling about page */
+/* styling nav about, work an photo page */
 .body-about{
     background-color: #030303;
 }
@@ -143,6 +151,8 @@ hr {
     text-shadow: 4px 4px white;
 }
 
+/* styling main content about and work page */
+
 .section-about div,
 .section-work div {
     display: flex;
@@ -152,13 +162,18 @@ hr {
     margin: 20px 40px 20px 120px;
 }
 
-.section-about p {
+/* styling text about and work page */
+.section-about p,
+.section-work p,
+.section-photo p {
     width: 80%;
     font-size: 1.1rem;
     line-height: 2.5rem;
 }
 
-.section-about span {
+.section-about span,
+.section-work span,
+.section-photo span {
     font-size: 1.5rem;
     color: orange;
     font-weight: 600;
@@ -168,6 +183,7 @@ hr {
 .section-about div div {
     margin-right: 100px;
 }
+
 .section-about blockquote {
     font-size: 2.2rem;
     line-height: 2.7rem;
@@ -195,27 +211,59 @@ hr {
     font-style: italic;
 }
 
+/* work page table*/
+.section-work table {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    margin-bottom: 100px;
+}
 
-/* photo page */
+.section-work caption{
+    margin: 60px 0;
+    font-size: 2rem;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
 
-/* Slideshow container */
+.section-work th {
+    color: #54c968;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.section-work td{
+    padding: 25px 100px 0 0;
+    vertical-align: top;
+}
+
+.section-work td:first-child {
+    font-style: italic;
+}
+
+/* photo page  */
+.section-photo {
+    margin: 25px 40px 20px 120px;
+}
+
+.section-photo p {
+    padding-top: 20px;
+}
+
+
+/* photoslider photo page */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
-  }
+}
 
-  .slideshow-container hr {
-      margin-bottom: 50px;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+    margin-top: 75px;
+}
+
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -228,21 +276,18 @@ hr {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
+}
+
+.prev:hover, .next:hover {
     color: #54c968;
-  }
-  
-  /* Caption text */
-  .text {
+}
+
+.text {
     color: white;
     font-size: 1.1rem;
     padding: 8px 12px;
@@ -252,19 +297,17 @@ hr {
     text-align: center;
     font-style: italic;
     font-weight: 600;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+.numbertext {
     color: white;
     font-size: 0.8rem;
     padding: 8px 12px;
     position: absolute;
-    top: 60px;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+    top: 2%;
+}
+
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -273,27 +316,43 @@ hr {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active, .dot:hover {
     background-color: #54c968 ;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
 
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@media (max-width: 745px ) {
+    .section-work td{
+        padding-right: 30px;
+    }
+
+    .header-home a {
+        font-size: 0.8rem;
+    }
+
+    .header-home h2 {
+        margin: 20px 0 75px 0;
+    }
+
+    .header-home h1 {
+        padding-top: 0px;
+    }
+}
