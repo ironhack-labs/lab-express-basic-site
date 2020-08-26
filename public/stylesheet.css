@@ -1,0 +1,123 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
+
+/* INDEX HTML */
+
+#background{
+    width: 100%;
+}
+
+.upper-text{
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+.upper-title{
+    background-color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.upper-title-black{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.upper-subtitle{
+    background-color: white;
+}
+
+nav{
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+/* ABOUT HTML */
+
+#back-arrow{
+    width: 30px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#about-background{
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+.container-in-blue{
+    display: flex;
+    margin: 20px;
+    width: 95%;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 10px 20px
+}
+
+.flex-container p{
+    margin: 10px;
+}
+
+#yale{
+    width: 400px;
+    margin: 10px;
+    border: 10px solid white;
+    border-radius: 3%;
+}
+
+.yale-image{
+    text-align: center;
+}
+
+/* WORK HTML */
+
+#work-background{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.container-in-white{
+    display: flex;
+    margin: 20px;
+    width: 95%;
+    flex-direction: column;
+}
+
+.stages-container{
+    display: flex;
+    justify-content: space-between;
+}
+.stage-container img{
+    height: 100px;;
+}
+
+.stage-container{
+    width: 30%;
+    text-align: center;
+}
