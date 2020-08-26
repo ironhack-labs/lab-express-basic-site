@@ -1,0 +1,31 @@
+header {
+    padding: 156px 0 100px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#me
+{
+    margin-bottom: 80px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+
+#p5R
+{
+    transform: scale(0.9);
+}
+
+i{
+    color: black;
+    margin-right: 40px;
+}
