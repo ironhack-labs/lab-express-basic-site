@@ -1,0 +1,73 @@
+.carousel-item img {
+  height: 45rem;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.background-div {
+  background: url("/images/brick-wall.png");
+  background-color: rgb(83, 83, 83);
+  z-index: 1;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.carousel-inner {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  z-index: 0;
+}
+
+.links-div {
+  position: relative;
+  bottom: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  text-align: center;
+  padding-top: 3px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.link-item:hover {
+  opacity: 1;
+}
+
+.home-name {
+  color: white;
+  text-align: end;
+  z-index: 2;
+  position: relative;
+  bottom: 70rem;
+  width: 40vw;
+  left: 3rem;
+}
+
+.links-div a {
+  color: black;
+}
+
+.home-name h1 {
+  font-size: 3rem;
+}
+
+.home-name p {
+  font-size: 2rem;
+}
