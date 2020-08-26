@@ -1,0 +1,218 @@
+*{
+  margin:0;
+  color:#333;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+h1{
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-family: 'Yeseva One', cursive;
+}
+
+a{
+  text-decoration: none;
+  font-size:24px;
+}
+
+p{
+  font-size:24px;
+  padding-bottom:1rem;
+  line-height: 40px;
+}
+
+h2{
+  font-size:28px;
+  margin-bottom: 60px;
+  font-family: 'Yeseva One', cursive;
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+/*header*/
+.logo img{
+  width: 40px;
+  margin-top: 3px;
+}
+
+header{
+  padding:5px 10px;
+  font-size:20px;
+  position: fixed;
+  width: 90%;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>ul{
+  padding:0;
+  width: 100%;
+  text-align: right;
+  list-style: none;
+  font-size:14px;
+  line-height: 23px;
+  margin-top:12px;
+}
+
+nav>ul>li{
+  display: inline-block;
+}
+
+nav>ul>li a:hover{
+  font-size: 48px;
+}
+
+
+nav>ul>li:first-child,
+nav>ul>li:nth-child(2){
+  margin-right:20px;
+}
+
+/*main*/
+.main-container{
+  display: flex;
+  flex-wrap:wrap;
+  padding-top:100px;
+}
+
+.main-text{
+  width:85%;
+  margin:0 auto;
+  padding:40px 0 20px 0;
+}
+
+.main-img{
+  width: 80%;
+  margin:0 auto;
+}
+
+.main-img img{
+  width:100%;
+}
+
+/*contact*/
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fafafa;
+  margin-top: 100px;
+}
+
+.findme{
+  margin:0 0 25px 0;
+  width: 100%;
+  text-align: left;
+  height: 260px;
+  background-color: #E9FFDC;
+  padding:0 150px 0 30px;
+}
+
+.findme h2{
+  margin-top:40px;
+  line-height: 40px;
+}
+
+.links{
+  width: 100%;
+  text-align: left;
+  margin-left:30px;
+}
+
+.links a:hover{
+  font-size:48px;
+}
+
+/*pantalla grande*/
+@media (min-width:768px) {
+  h2{
+    font-size:38px;
+  }
+
+  p{
+    font-size:
+  }
+
+  .logo img{
+    width: 60px;
+    margin-top: 10px;
+  }
+
+  nav>ul{
+    margin-top:24px;
+  }
+
+  header{
+    padding:20px 100px;
+    font-size: 32px;
+  }
+  nav>ul{
+    font-size:20px;
+  }
+  
+  .main-container{
+    justify-content: space-around;
+    padding: 200px 100px 100px;
+  }
+  
+  .main-text{
+    width:40%;
+    padding: 120px 0;
+    margin:0;
+  }
+  
+  .main-img{
+    width: 35%;
+    margin:0;
+  }
+
+  .contact{
+    display: flex;
+  }
+  
+  .findme{
+    margin:0;
+    height: 564px;
+    background-color: #E9FFDC;
+    padding:0 0 0 140px;
+    width: 38%;
+  }
+  
+  .findme h2{
+    margin-top:80px;
+    line-height: 50px;
+    width: 48%;
+  }
+  
+  .links{
+    width: 28%;
+    text-align: left;
+    margin-left:30px;
+    padding: 80px 0 0 140px;
+  }
+}
+
+
+/*work*/
+.imgs img{
+  width: 250px;
+}
+
+.imgs{
+  justify-content: space-evenly;
+}
+
+/*about*/
+.perfi img{
+  margin-top:100px
+}
