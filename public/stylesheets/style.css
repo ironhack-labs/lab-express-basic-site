@@ -1,0 +1,123 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    color: darkblue;
+    font-family: 'Bilbo', cursive;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+    z-index: -1;
+    background: url('https://wallpapercave.com/wp/plp1ETz.jpg');
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: darkred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 2;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1+p {
+    font-size: 1.9rem;
+    font-weight: bold;
+    width: 60%;
+    text-align: center;
+}
+
+.about {
+    justify-content: flex-start;
+}
+
+.facts {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.facts>div {
+    width: 30%;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0 0 5px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.works {
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.works>p {
+    width: 55%;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.works>p>span {
+    text-decoration: underline;
+}
+
+.carousel-item>img {
+    height: 70vh;
+}
+
+h5 {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: darkblue;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
