@@ -1,0 +1,32 @@
+body {
+    background-image: url(/images/Luis-Alberto-Spinetta-durante-un-ensayo-en-los-en-los-Estudios-Columbia-Recording-Studios-de-Nueva-York-City-MICHAEL-PUTLAND-GETTY-IMAGES.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    width: 50px;
+    font-size: 80px;
+    color: #FFF8DC;
+    padding-left: 70px;
+}
+
+a {
+    display: flex;
+    color: #5F9EA0;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 70px;
+}
+
+p {
+    width: 1000px;
+    font-size: 30px;
+    color: #FFF8DC;
+    padding-right: 100px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+}
