@@ -1,0 +1,55 @@
+/* Tipografía cursiva: font-family: 'Caveat', cursive;
+    Tipografía normal: font-family: 'Nunito Sans', sans-serif; */
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        
+    }
+
+nav{
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    background-color:rgba(0, 0, 0, .8);
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 95%;
+    margin-top: 0;
+}
+nav ul li{
+    padding: 1vw 2vw;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+nav a:visited,
+nav a:link{
+    color:white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+body>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 40vh;
+}
+div>div{
+    width: 40vw;
+    margin: 3vw;
+}
