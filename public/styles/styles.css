@@ -1,0 +1,46 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding-top: 200px;
+}
+
+p {
+  font-size: 16px;
+  color: gray;
+  padding: 50px 200px;
+  text-align: center;
+}
+
+#logo {
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+ol {
+  color: gray;
+  padding: 0 200px;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding-top: 10px;
+}
