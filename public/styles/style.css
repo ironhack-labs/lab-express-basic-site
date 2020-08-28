@@ -1,0 +1,58 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  border: 1px red solid;
+}
+
+h2 {
+  color: darkmagenta;
+  background-image: linear-gradient(red, yellow);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+
+/* https://jsfiddle.net/LukaszWiktor/4qpcqymp/ */
+/* Start */
+#gear1, #gear2, #gear3 {
+  color: #888;
+  display: block;
+  float: left;
+  position: absolute;
+}
+          
+#gear1 {
+  top: 45px;
+}
+          
+#gear2 {
+  left: 60px;
+}
+
+#gear3 {
+  top: 45px;
+  left: 110px;
+}
+
+.spin {
+  animation:spin 4s linear infinite;
+}
+
+.spin-back {
+  animation:spin-back 4s linear infinite;
+}
+
+@keyframes spin { 100% { transform:rotate(360deg); } }
+
+@keyframes spin-back { 100% { transform:rotate(-360deg); } }
+/* End */
