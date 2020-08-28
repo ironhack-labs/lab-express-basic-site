@@ -1,7 +1,3 @@
-body {
-  background-color: red;
-}
-
 h1 {
   border: 1px red solid;
 }
@@ -20,7 +16,6 @@ nav {
 a:hover {
   font-weight: bolder;
 }
-
 
 /* https://jsfiddle.net/LukaszWiktor/4qpcqymp/ */
 /* Start */
