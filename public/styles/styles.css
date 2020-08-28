@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+a{
+    
+    color: white;
+    
+}
