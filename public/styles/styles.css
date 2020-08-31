@@ -1,12 +1,57 @@
 nav{
     display: flex;
-    background-color: darkblue;
+    background-color: brown;
     justify-content: space-evenly;
     padding: 20px;
 }
 
 a{
-    
     color: white;
-    
 }
+
+h1 {
+    color: brown;
+    padding: 40px;
+    /*border-bottom: brown 1px solid;*/
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    /*padding: 20px;*/
+}
+
+.img-init{
+    align-content: center;
+    padding: 20px;
+    border: brown 1px solid;*/
+}
+
+div {
+    text-align: center;
+}
+
+.newtitle {
+    border-bottom: brown 1px solid;
+    text-align: left;
+}
+
+.align-justify{
+    text-align: justify;
+    padding: 20px;
+}
+
+.div-works{
+    display: flex;
+}
+
+.div-works .card{
+    border: white 1px solid; 
+    padding: 20px;
+}
+
+.div-works span{
+    color: gray;
+}
+
