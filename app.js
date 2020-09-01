@@ -5,23 +5,25 @@ const express = require('express');
 const app = express();
 
 app.use(express.static(`${__dirname}/public`));
+app.set('views', `${__dirname}/views`);
+app.set('view engine', 'hbs');
 
 app.get('/', (request, response, next) => {
     console.log(`We recieved a new request in route ${request.url}`);
 
-    response.sendFile(`${__dirname}/views/home.html`);
+    response.render('home');
 });
 
 app.get('/about', (request, response, next) => {
     console.log(`We recieved a new request in route ${request.url}`);
 
-    response.sendFile(`${__dirname}/views/about.html`);
+    response.render('about');
 });
 
 app.get('/works', (request, response, next) => {
     console.log(`We recieved a new request in route ${request.url}`);
 
-    response.sendFile(`${__dirname}/views/works.html`);
+    response.render('works');
 });
 
 app.get('/phrases.js', (request, response, next) => {
