@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-
 const express = require('express');
+const books = require('./public/js/books.js');
 
 const app = express();
 
@@ -23,19 +23,9 @@ app.get('/about', (request, response, next) => {
 app.get('/works', (request, response, next) => {
     console.log(`We recieved a new request in route ${request.url}`);
 
-    response.render('works');
-});
-
-app.get('/phrases.js', (request, response, next) => {
-    console.log(`We recieved a new request in route ${request.url}`);
-
-    response.sendFile(`${__dirname}/phrases.js`);
-});
-
-app.get('/alert.js', (request, response, next) => {
-    console.log(`We recieved a new request in route ${request.url}`);
-
-    response.sendFile(`${__dirname}/alert.js`);
+    response.render('works', {
+        books,
+    });
 });
 
 app.listen(3000, () => {
