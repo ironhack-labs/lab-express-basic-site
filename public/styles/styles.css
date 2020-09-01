@@ -82,3 +82,25 @@
     border-radius: 10px;
     padding: 0px 10px;
 }
+
+#works {
+    display: flex;
+    border: 3px solid darkgrey;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.book {
+    width: 20%;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+#book {
+    width: 100%;
+    height: 80%;
+}
