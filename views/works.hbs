@@ -12,5 +12,15 @@
         <a href="/about">About</a>
         <a href="/works">Works</a>
 </nav>
+<section id="works">
+    {{#each books}}
+        <div class="book">
+            <img id="book" src="{{this.imgSauce}}">
+            <h2>{{this.name}}</h2>
+            <p>{{this.year}}</p>
+        </div>
+    {{/each}}
+</section>
+<script src="js/books.js"></script>
 </body>
 </html>
