@@ -97,7 +97,15 @@
 .book {
     width: 20%;
     text-align: center;
-    padding: 20px 5px;
+    padding: 30px 5px;
+}
+
+.book h2 {
+    font-size: 2.5rem;
+}
+
+.book p {
+    font-size: 2rem;
 }
 
 #book {
