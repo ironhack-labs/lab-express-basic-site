@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
 
 body {
-    color: black;
+    color: white;
+    font-weight: bold;
     background-color: bisque;
     font-family: Gayathri;
-    background-image: url();
+    background-image: url(/images/mona-lisa.png);
 }
 
 
@@ -13,16 +14,16 @@ ul {
     margin: 100px;
     list-style: none;
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: space-between;
-  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
+
 }
 
 
 
 a {
-    color: black
+    color: white
 }
