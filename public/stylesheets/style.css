@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+
+body {
+    color: black;
+    background-color: bisque;
+    font-family: Gayathri;
+    background-image: url();
+}
+
+
+ul {
+
+    margin: 100px;
+    list-style: none;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-between;
+  
+}
+
+
+
+a {
+    color: black
+}
