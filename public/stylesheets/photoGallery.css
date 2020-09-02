@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: white;
+    background-color: #FFFFFF;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    font-size: 50px;
+    transition-duration: 1s;
+}
+
+.box:hover {
+    flex: 3;
+}
+
+.box:nth-of-type(1) {
+    background-image: url('https://media.wired.com/photos/5f2c4e757055a2aa4e463797/191:100/w_2400,h_1256,c_limit/Science_BillGates_1174744356.jpg');
+}
+
+.box:nth-of-type(2) {
+    background-image: url('https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X.jpg');
+}
+
+.box:nth-of-type(3) {
+    background-image: url('https://i.insider.com/5e86f1050b3c9b0e937c3192?width=1100&format=jpeg&auto=webp');
+}
+
+.box:nth-of-type(4) {
+    background-image: url('https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76b4b84bbe6f24ad99c370%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4000%26cropY1%3D0%26cropY2%3D4000');
+}
+
+.box:nth-of-type(5) {
+    background-image: url('https://m.media-amazon.com/images/I/41LfL5cJvML.jpg');
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .box {
+        width: 80vw;
+    }
+}
