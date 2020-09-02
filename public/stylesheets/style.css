@@ -1,0 +1,18 @@
+body {
+    background-color:#F6F0ED;
+    color:#28536B;
+    background-image: url('../images/sky.jpeg') 
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+
+}
