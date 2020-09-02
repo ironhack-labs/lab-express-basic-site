@@ -1,0 +1,20 @@
+body {
+    background-color: darkcyan;
+    color: white;
+}
+a {
+    color:white
+}
+ img {
+    width: 300px;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+}
+.videos {
+    display: flex;
+    flex-direction: row;
+}
+
