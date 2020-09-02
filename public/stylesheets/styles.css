@@ -1,0 +1,33 @@
+body {
+    background: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border: solid 2px darkorange
+}
+
+h1 {
+    color: #c64021;
+}
+
+p {
+    color: black;
+    width: 30%;
+    display: block;
+}
+
+span {
+    color: lightcoral;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #9c351d;
+    font-weight: bold;
+}
