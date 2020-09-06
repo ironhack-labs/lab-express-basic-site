@@ -1,0 +1,77 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font: 70px;
+}
+
+.initial-phrase {
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.initial-page {
+    height: 1000px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.obras {
+    padding: 30px;
+}
+
+.obras-titulo {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.about {
+    padding: 0 30px 30px 30px;
+}
+
+.about-title {
+    color: black;
+    font-weight: bold;
+}
+
+.images {
+    width: 50%;
+    text-align: center;
+}
+
+.images-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.image-subtitle {
+    padding-top: 20px;
+    text-align: center;
+}
