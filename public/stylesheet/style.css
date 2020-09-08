@@ -1,0 +1,59 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  margin: 0 1rem 1rem 1rem;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 20px;
+  background-color: white;
+  padding-right: 30px;
+  color: rgb(40, 23, 61);
+  padding-top: 10px;
+}
+
+.nav-bar > ul {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(40, 23, 61);
+}
+
+.nav-bar a:hover {
+  color: rgb(40, 23, 61);
+}
+
+#welcome-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+#welcome-title p,
+#welcome-title h1 {
+  margin-bottom: 10px;
+  color: rgb(40, 23, 61);
+  font-weight: 400;
+}
