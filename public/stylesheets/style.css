@@ -26,30 +26,21 @@ nav > ul {
 
 nav > ul > li {
   margin-bottom: 0px;
-  /* border: 5px solid #1C6EA4;
-    border-radius: 10px 10px 40px 40px; */
   padding: 20px;
   display: inline;
 }
 nav > ul > li > a {
   margin-bottom: 0px;
   color: #00aaea;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 nav > ul > li > a:hover {
-  /* background-color: yellow; */
   color: #00729e;
 }
 
-#mid-body {
-  /* display: flex;
-    flex-direction: column;
-     */
-}
-
 #title {
-  margin: auto;
+  margin: 50px 0 0;
   padding: 0 10%;
   height: 650px;
   color: #008fc3;
@@ -71,35 +62,6 @@ nav > ul > li > a:hover {
   color: #00aaea;
   margin-top: 250px;
 }
-#description {
-  margin: 20px;
-  font-size: 2em;
-  padding: 50px 100px;
-  text-align: justify;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 5px solid #1c6ea4;
-  border-left: 5px solid #1c6ea4;
-  border-bottom: 5px solid #1c6ea4;
-  border-right: 5px solid #1c6ea4;
-  border-radius: 26px 26px 26px 26px;
-}
-
-#description > img {
-  padding-left: 70px;
-}
-
-#description > p {
-  width: 55%;
-  padding-right: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-/* color: #00AAEA;
-color: #00729E;
-color: #000000; */
 
 footer {
   padding: 15px 100px 30px;
@@ -131,31 +93,68 @@ footer {
 .fa:hover {
   color: #00729e;
 }
-/* footer{
-  padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:white;
-    width: 100%;
-    position: fixed;
-} */
-/* #follow{
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:white;
-    width: 100%;
-    position: fixed;
+/* color: #00AAEA;
+color: #00729E;
+color: #000000; */
+#about-title {
+  margin-top: 75px;
+  margin-bottom: 70px;
+  padding-top: 75px;
+  font-size: 4em;
+  color: #00729e;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  /* background-image: url("https://cdn.hswstatic.com/gif/nikola-tesla-orig.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: cover; */
 }
 
-#follow > ul > li {
-    padding: 10px;
-    display: inline;
+#about-text {
+  font-size: 1.5em;
+  margin: 0px 5% 5%;
+  padding: 10px 5%;
+  text-align: justify;
+  border-top: 5px solid #1c6ea4;
+  border-left: 5px solid #1c6ea4;
+  border-bottom: 5px solid #1c6ea4;
+  border-right: 5px solid #1c6ea4;
+  border-radius: 26px 26px 26px 26px;
 }
-#follow > ul > li > a {
-    color: #1a1a1a;
-    font-size: 1.5rem;
-    text-decoration: none;
-} */
+
+#description {
+  margin: 20px 15px;
+  font-size: 1em;
+  padding: 50px 100px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+#description > img {
+  padding-left: 70px;
+}
+
+#description > p {
+  width: 55%;
+  padding-right: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.works-text {
+  font-size: 1.5em;
+  margin: 0px 5% 5%;
+  padding: 10px 5%;
+  text-align: justify;
+  border-top: 5px solid #1c6ea4;
+  border-left: 5px solid #1c6ea4;
+  border-bottom: 5px solid #1c6ea4;
+  border-right: 5px solid #1c6ea4;
+  border-radius: 26px 26px 26px 26px;
+}
