@@ -1,0 +1,22 @@
+body {
+background-color:#e2b1bc;
+}
+
+h1 {
+ color: #545354;
+ padding: 1rem; 
+}
+
+h3 {
+    color: #545354;
+    padding: 1rem;
+}
+
+ul {
+    color: #545354;
+    padding: 2rem;
+}
+
+.images {
+    padding: 1.5rem;
+}

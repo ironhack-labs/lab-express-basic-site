@@ -1,0 +1,31 @@
+body {
+    background-color:#e2b1bc ;
+}
+
+h1 {
+ color: #545354;
+ padding: 1rem;
+ font-size: 4rem;
+ text-decoration-line: underline;
+ 
+}
+
+p {
+    color: #545354;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+p a {
+    color: #545354;
+}
+
+#container {
+    display: flex;
+}
+
+img {
+width: 700px;
+height: 400px;
+margin-right: 1rem;
+}

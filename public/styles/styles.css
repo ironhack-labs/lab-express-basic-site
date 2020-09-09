@@ -1,0 +1,30 @@
+
+body {
+    background-color:#e2b1bc;
+margin-bottom: auto; 
+}
+
+h1 {
+    color:#e2b1bc;
+    margin-left: 1rem;
+    padding: 1rem;
+    
+}
+
+p {
+    color: #e2b1bc;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+#container {
+    background-image: url('../images/brenebrown.png');
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
