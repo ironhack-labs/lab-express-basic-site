@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: "Open Sans";
+  background-color: #dfe6e9;
+}
+
+nav {
+  margin: 0;
+  height: 60px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: +1;
+}
+
+nav > ul {
+  margin-right: 50px;
+}
+
+nav > ul > li {
+  margin-bottom: 0px;
+  /* border: 5px solid #1C6EA4;
+    border-radius: 10px 10px 40px 40px; */
+  padding: 20px;
+  display: inline;
+}
+nav > ul > li > a {
+  margin-bottom: 0px;
+  color: #00aaea;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  /* background-color: yellow; */
+  color: #00729e;
+}
+
+#mid-body {
+  /* display: flex;
+    flex-direction: column;
+     */
+}
+
+#title {
+  margin: auto;
+  padding: 0 10%;
+  height: 650px;
+  color: #008fc3;
+  font-size: 2em;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  position: relative;
+  background-image: url("https://aventurasnahistoria.uol.com.br/media/_versions/tesla9s8ddd_widelg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+#title > h1 {
+  color: #00aaea;
+  margin-top: 250px;
+}
+#description {
+  margin: 20px;
+  font-size: 2em;
+  padding: 50px 100px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid #1c6ea4;
+  border-left: 5px solid #1c6ea4;
+  border-bottom: 5px solid #1c6ea4;
+  border-right: 5px solid #1c6ea4;
+  border-radius: 26px 26px 26px 26px;
+}
+
+#description > img {
+  padding-left: 70px;
+}
+
+#description > p {
+  width: 55%;
+  padding-right: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* color: #00AAEA;
+color: #00729E;
+color: #000000; */
+
+footer {
+  padding: 15px 100px 30px;
+  background-color: black;
+  font-size: 1.25em;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#follow {
+  padding-top: 20px;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  color: #00aaea;
+  display: inline-block;
+  margin: 2px 0px;
+  font-size: inherit;
+  text-rendering: auto;
+  justify-content: center;
+}
+.fa:hover {
+  color: #00729e;
+}
+/* footer{
+  padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    width: 100%;
+    position: fixed;
+} */
+/* #follow{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 100%;
+    position: fixed;
+}
+
+#follow > ul > li {
+    padding: 10px;
+    display: inline;
+}
+#follow > ul > li > a {
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    text-decoration: none;
+} */

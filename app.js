@@ -14,13 +14,18 @@ app.use(express.static("public"));
 // });
 
 // our first Route:
-app.get("/home", (request, response, next) =>
-  response.sendFile(__dirname + "/views/home-page.html")
+app.get("/home", (request, response, next) => {
+  console.log(__dirname);
+  response.sendFile(__dirname + "/public/views/index.html");
+});
+app.get("/about", (request, response, next) =>
+  response.sendFile(__dirname + "/public/views/about.html")
+);
+app.get("/works", (request, response, next) =>
+  response.sendFile(__dirname + "/public/views/works.html")
+);
+app.get("/gallery", (request, response, next) =>
+  response.sendFile(__dirname + "/public/views/gallery.html")
 );
 
-// cat route:
-app.get("/cat", (request, response, next) =>
-  response.sendFile(__dirname + "/views/cat-page.html")
-);
-
-app.listen(3000, () => console.log("My first app listening on port 3000! "));
+app.listen(3000, () => console.log("ITS ALIVE"));
