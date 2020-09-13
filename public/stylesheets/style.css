@@ -1,0 +1,56 @@
+/* All pages*/
+
+nav {
+    background-color: #776A52;
+    font-weight: 500;
+}
+
+/*Home page*/
+#home-info {
+    width: 1536px;
+    height: 697px;
+    background-image: url("/images/angelina-home.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.signature {
+    padding: 500px 0 0 60px;
+    color: #776A52;
+}
+
+/* About page */
+#about-info {
+    width: 1536px;
+    height: 697px;
+    background-image: url("/images/angelina-about.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about {
+    width: 700px; 
+    height: 600px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.about > h1 {
+    padding: 100px 0 20px 0;
+    font-weight: bold;
+}
+
+.about > h4 {
+    font-size: 16px;
+}
+
+.carousel-inner {
+    width: 1519px; 
+    height: 697px;
+}
+
+.carousel-caption {
+    height: 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 50px;
+}
