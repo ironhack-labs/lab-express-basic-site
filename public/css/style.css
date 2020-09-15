@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#brand {
+  height: 2%;
+}
+
+.jumbotron {
+  margin-bottom: 1%;
+  height: 32vh;
+  justify-content: center;
+}
+
+#author {
+  height: auto;
+  width: auto;
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-center {
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.container {
+  height: 25vh;
+}
+
+.v-center {
+  align-items: center;
+}
+
+#footer {
+  margin-top: 30vh;
+}
+
+.margin-top {
+  margin-top: 20%;
+}
+
+.boder-bottom {
+  border-bottom: 2px solid grey;
+  margin-right: 30px;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.margin-bottom {
+    margin-bottom: 23%;
+}
