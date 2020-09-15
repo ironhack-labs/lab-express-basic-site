@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav a {
+  margin: 0px 30px 0px 30px;
+}
+
+.nav a:hover {
+  /* border-bottom: 2px solid black; */
+  color: green;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container.home {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.flex-container.home p {
+  margin-top: 15px;
+}
+
+.flex-container.goodthings {
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructions ul {
+  text-align: center;
+}
+
+.instructions h3 {
+ padding-bottom: 25px;
+}
+
+#teach-btn {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#teach-btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+.instructions ul {
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.instructions p {
+  margin-top: 30px;
+}
+
+.flex-container.about {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.flex-container.about p {
+  margin-top: 15px;
+}
+
+#martin {
+  max-width: 300px;
+  padding: 10px;
+}
