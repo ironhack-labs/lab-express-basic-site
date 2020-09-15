@@ -1,0 +1,17 @@
+<h1>Welcome On Board, are you ready to travel with us ?</h1>
+
+<button class="yesIDo">
+    YES
+</button>
+<a href="/"><button>
+    NO
+</button></a>
+
+<ul>
+    {{#each listOfPlaces}}
+<li class="visible">{{name}} - {{country}} <br>
+    <img src="{{image}}"> <br>
+    <p>Before leaving {{name}} please make sure to try the typical food in {{country}}, {{food}}. It may be not your stuff, but who knows before trying ?</p>
+</li>
+{{/each}}
+</ul>
