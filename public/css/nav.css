@@ -1,0 +1,29 @@
+nav {
+	background-color: var(--primary-dark);
+	height: 10vh;
+}
+
+nav ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: white;
+}
+
+nav li {
+	display: inline;
+	margin-right: 50px;
+}
+
+nav li:last-of-type {
+	margin-right: 0;
+}
+
+nav h3 {
+	display: inline;
+	color: white;
+}

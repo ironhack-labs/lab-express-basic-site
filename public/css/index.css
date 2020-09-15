@@ -1,0 +1,53 @@
+@import url('./hero.css');
+@import url('./nav.css');
+@import url('./footer.css');
+
+:root {
+	--primary-dark: #4A6670;
+	--primary-light: #668f80;
+	--secondary-dark: #d6a2ad;
+	--text: #333;
+}
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	color: var(--text)
+}
+
+.primary-dark {
+	color: var(--primary-dark)
+}
+
+.flex-container {
+	display: flex;
+} 
+
+.center-content {
+	align-items: center;
+	justify-content: center;
+} 
+
+.flex-dir-col {
+	flex-direction: column;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+.secondary-dark {
+	color: var(--secondary-dark)
+}
+
+.justified-text {
+	text-align: justify;
+}
+
+.padding-100 {
+	padding: 100px 100px;
+}
+

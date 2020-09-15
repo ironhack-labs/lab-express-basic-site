@@ -1,0 +1,14 @@
+.hero {
+	height: 90vh;
+	width: 100vw;
+	max-width: 100%;
+	padding: 0 200px;
+	background-image: url('/img/hero.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.hero h1 {
+	font-size: 5rem;
+	color: var(--primary-dark)
+}
