@@ -19,12 +19,8 @@ app.get("/about", (req, res) => {
 
 app.get("/goodthings", (req, res) => {
   res.render("goodthings", {
-      js: ["dom-goodthings"]
+    js: ["dom-goodthings"],
   });
-});
-
-app.get("/works", (req, res) => {
-  res.render("works");
 });
 
 app.listen(8888, () => {
