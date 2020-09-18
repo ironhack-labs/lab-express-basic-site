@@ -3,6 +3,7 @@ console.log(navlinks);
 
 function addDecoration(currentlink) {
     console.log(currentlink);
+    currentlink.classList.add(".orange");
 }
 
 navlinks.forEach((link) => {
@@ -11,3 +12,5 @@ navlinks.forEach((link) => {
       addDecoration(currentlink);
   });
 });
+
+// try to do it on page load!!
