@@ -6,10 +6,16 @@ router.get("/", (req, res) => {
   res.send("test");
 });
 
-// My API calling open weather map api 
+// My API calling open weather map api
 //localhost:8080/weather?address=xxx
 router.get("/weather", (req, res) => {
   const address = req.query.address;
+
+  if (!address) {
+    return res.send({
+      error: "you must enter an address",
+    });
+  }
 
   weatherData(address, (err, { temperature, description, cityName }) => {
     if (err) {
