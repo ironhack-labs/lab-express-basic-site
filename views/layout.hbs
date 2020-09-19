@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <script src="js/app.js" type="module"></script> <!-- absolute path -->
+    <script src="js/appDOM.js" type="module"></script> <!-- absolute path -->
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="css/styles.css" /> <!-- static path for public folder is already set in app.js -->
 </head>
 
 <body>
-        {{!-- {{> navbar}} --}}
+    <div class="main-content">
+        {{> navbar}}
         {{{body}}}
+    </div>
 </body>
 
 </html>

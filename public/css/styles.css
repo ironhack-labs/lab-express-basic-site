@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+/* @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css); */
 /* $border-radius: 20px; */
 /* body {
   color: #333333;
@@ -172,6 +172,17 @@ body {
   height: 400px;
 }
 
+.header {
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px;
+}
+
 .weather-side {
   position: relative;
   height: 100%;
@@ -192,7 +203,7 @@ body {
 
 .weather-side:hover {
   -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
-  transform: scale(1.1) perspective(1500px) rotateY(10deg);
+  transform: scale(1.1) perspective(1500px) rotateY(6deg);
 }
 
 .weather-gradient {
@@ -338,6 +349,31 @@ body {
 
 .location-container {
   padding: 25px 35px;
+  display: flex;
+  align-items: center;
+}
+
+.location-input {
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 25px 0px 0px 25px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  /* background-image: var(--gradient); */
+  /* color: #ffffff; */
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  -o-transition: transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
 }
 
 .location-button {
@@ -373,3 +409,32 @@ body {
   width: auto;
   margin-right: 5px;
 }
+
+.search-btn {
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0px 25px 25px 0px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  background-image: var(--gradient);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  /* -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  -o-transition: transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease; */
+}
+/* 
+.search-btn:hover {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+} */
