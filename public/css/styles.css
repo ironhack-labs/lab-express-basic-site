@@ -42,9 +42,22 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
   color: white;
   text-align: center;
 }
+
+/* .header a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 5px 0px 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+} */
 
 .header h1 {
   font-size: 3rem;
@@ -120,6 +133,7 @@ body {
 
 .weather-icon {
   font-size: 80px;
+  padding-bottom: 5px;
 }
 
 .weather-temp {
@@ -160,8 +174,10 @@ body {
 }
 
 .week-list {
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
-  padding: 0;
+  padding: 10px 20px 10px 20px;
   margin: 10px 35px;
   -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
@@ -170,6 +186,7 @@ body {
 }
 
 .week-list > li {
+  text-align: center;
   float: left;
   padding: 15px;
   cursor: pointer;
@@ -189,11 +206,11 @@ body {
   box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2);
 }
 
-.week-list > li.active {
+/* .week-list > li.active {
   background: #fff;
   color: #222831;
   border-radius: 10px;
-}
+} */
 
 .week-list > li .day-name {
   display: block;
@@ -202,10 +219,7 @@ body {
 }
 
 .week-list > li .day-icon {
-  display: block;
-  height: 30px;
-  width: auto;
-  margin: 0 auto;
+  font-size: 28px;
 }
 
 .week-list > li .day-temp {
@@ -221,8 +235,13 @@ body {
   align-items: center;
 }
 
+#location-form {
+  margin-bottom: 20px;
+}
+
 .location-input {
   outline: none;
+  color:  #343d4b;
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -251,7 +270,7 @@ body {
   box-sizing: border-box;
   border: none;
   border-radius: 25px;
-  padding: 10px;
+  padding: 13px;
   font-family: "Montserrat", sans-serif;
   background-image: var(--gradient);
   color: #ffffff;
@@ -294,15 +313,4 @@ body {
   -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  /* -webkit-transition: -webkit-transform 200ms ease;
-  transition: -webkit-transform 200ms ease;
-  -o-transition: transform 200ms ease;
-  transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease; */
 }
-/* 
-.search-btn:hover {
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  transform: scale(0.95);
-} */

@@ -12,12 +12,19 @@ const weatherData = (address, callback) => {
     if (error) {
       callback("cannnot fetch data from open weather map api", undefined);
     } else if (!body.main || !body.main.temp || !body.weather || !body.name) {
-      callback("Cannot find required data for this city, please try another one");
+      callback(
+        "Cannot find required data for this city, please try another one"
+      );
     } else {
       callback(undefined, {
         temperature: body.main.temp,
         description: body.weather[0].main,
         cityName: body.name,
+        humidity: body.main.humidity,
+        wind: body.wind.speed,
+        sunrise: body.sys.sunrise,
+        sunset: body.sys.sunset
+        // maxtemp: body.main.temp_max
       });
     }
   });

@@ -19,19 +19,24 @@ router.get("/weather", (req, res) => {
     });
   }
 
-  weatherData(address, (error, { temperature, description, cityName } = {}) => {
-    if (error) {
-      return res.send({ error });
+  weatherData(
+    address,
+    (error, { temperature, description, cityName, humidity, wind, sunrise, sunset } = {}) => {
+      if (error) {
+        return res.send({ error });
+      }
+      console.log(temperature, description, cityName, humidity, wind, sunrise, sunset);
+      res.send({
+        cityName,
+        temperature,
+        description,
+        humidity,
+        wind,
+        sunrise,
+        sunset
+      });
     }
-    console.log(temperature, description, cityName);
-    res.send({
-      cityName,
-      temperature,
-      description,
-    });
-  });
-
-  //   res.render("weatherWidget");
+  );
 });
 
 router.get("*", (req, res) => {

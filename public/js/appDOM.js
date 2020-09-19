@@ -10,6 +10,10 @@ const weatherIcon = document.querySelector(".weather-container i");
 const temperature = document.querySelector(".weather-temp");
 const dayName = document.querySelector(".date-dayname");
 const fullDate = document.querySelector(".date-day");
+const humidity = document.getElementById("humidity");
+const wind = document.getElementById("wind");
+const sunrise = document.getElementById("sunrise");
+const sunset = document.getElementById("sunset");
 
 console.log(weatherIcon.className);
 
@@ -46,6 +50,7 @@ function constructURL() {
   cityName.textContent = "Loading...";
   temperature.textContent = "";
   weatherCondition.textContent = "";
+  weatherIcon.className = "";
   const locationApi = `${fetchWeather}?address=${input.value}`;
   console.log(locationApi);
   fetchWeatherAPI(locationApi);
@@ -62,13 +67,15 @@ function fetchWeatherAPI(locationApi) {
 function displayData(data) {
   if (data.error) {
     cityName.textContent = "nowhere";
-    temperature.textContent = "";
-    weatherIcon.innerHTML = "";
     weatherCondition.textContent = data.error;
   } else {
     cityName.textContent = data.cityName;
     temperature.textContent = getCelsiusTemperature(data.temperature);
     weatherCondition.textContent = data.description;
+    humidity.textContent = `${data.humidity} %`;
+    wind.textContent = `${(data.wind * 3.6).toFixed()} km/h`;
+    sunrise.textContent = data.sunrise;
+    sunset.textContent = data.sunset;
     displayWeatherIcon(data.description);
   }
 }
@@ -90,6 +97,10 @@ function displayWeatherIcon(condition) {
     weatherIcon.className = "wi wi-fog weather-icon";
   } else if (condition === "Rain") {
     weatherIcon.className = "wi wi-rain weather-icon";
+  } else if (condition === "Snow") {
+    weatherIcon.className = "wi wi-snow weather-icon";
+  } else {
+    weatherIcon.className = "wi wi-day-cloudy weather-icon";
   }
 }
 
