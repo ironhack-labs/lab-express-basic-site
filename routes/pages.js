@@ -15,13 +15,13 @@ router.get("/weather", (req, res) => {
 
   if (!address) {
     return res.send({
-      error: "you must enter an address",
+      error: "please enter a city",
     });
   }
 
-  weatherData(address, (err, { temperature, description, cityName }) => {
-    if (err) {
-      return res.send({ err });
+  weatherData(address, (error, { temperature, description, cityName } = {}) => {
+    if (error) {
+      return res.send({ error });
     }
     console.log(temperature, description, cityName);
     res.send({
