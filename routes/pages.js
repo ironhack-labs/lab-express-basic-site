@@ -3,7 +3,9 @@ const router = new express.Router();
 const weatherData = require("../public/js/weatherData");
 
 router.get("/", (req, res) => {
-  res.send("test");
+  res.render("home", {
+    title: "Weather App",
+  });
 });
 
 // My API calling open weather map api
@@ -28,10 +30,12 @@ router.get("/weather", (req, res) => {
       description,
     });
   });
+
+  //   res.render("weatherWidget");
 });
 
 router.get("*", (req, res) => {
-  res.send("page not found");
+  res.render("404", { title: "page not found" });
 });
 
 module.exports = router;
