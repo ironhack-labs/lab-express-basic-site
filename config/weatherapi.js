@@ -1,9 +1,7 @@
-require("dotenv").config();
-// pas sure de pouvoir utiliser .env
 const constants = {
   openWeatherMap: {
     BASE_URL: "https://api.openweathermap.org/data/2.5/weather?q=",
-    API_KEY: WEATHER_API_KEY,
+    API_KEY: "5f53873c40e0016f74072a264344c35e",
   },
 };
 
