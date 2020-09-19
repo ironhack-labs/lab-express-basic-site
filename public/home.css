@@ -1,0 +1,90 @@
+/* @import url("./var.css"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  color: white;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right top,
+    #2b00ff,
+    #0066ff,
+    #0098ff,
+    #85c2fb,
+    #e1e5e8
+  );
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+#nav {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li {
+  padding-left: 30px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 650px;
+}
+
+#intro p {
+  font-size: 100px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 20px;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#texte1 {
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  padding-top: 70px;
+}
+
+#texte2 {
+  animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+#texte3 {
+  animation: tracking-in-expand 4s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}

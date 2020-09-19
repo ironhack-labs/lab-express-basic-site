@@ -1,0 +1,75 @@
+#pagewhatIdo {
+  display: flex;
+}
+
+#pagewhatIdo > div {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+#image2 {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+#ido {
+  background-image: url("/images/desk.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+  animation: fade-in-fwd 4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes text-shadow-drop-tr {
+  0% {
+    text-shadow: 0 0 0 transparent;
+  }
+  100% {
+    text-shadow: 6px -6px 18px rgba(0, 0, 0, 0.35);
+  }
+}
+
+#experience {
+  animation: text-shadow-drop-tr 1s both;
+}
+
+#skills {
+  animation: text-shadow-drop-tr 1s both;
+}
+
+#titlekills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ptitle {
+  margin-left: 9px;
+  margin-right: 90px;
+  padding-top: 50px;
+  line-height: 30px;
+  text-align: justify;
+}
