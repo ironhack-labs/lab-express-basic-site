@@ -4,15 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first express app : Welcome to J²</title>
-    <link rel="stylesheet" href="/css/index.css">
-    <script src="/js/home-DOM.js" type="module"></script>
+    <title>Ceramics Jo</title>
+    {{!-- <link rel="stylesheet" href="/css/index.css"> --}}
+    {{#each css}}
+    <link rel="stylesheet" href="/css/{{this}}.css">
+    {{/each}}
+    {{#each js}}
+    <script src="/js/{{this}}.js" type="module"></script>
+    {{/each}}
+
+    {{!-- <script src="/js/home-DOM.js" type="module"></script> --}}
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
- 
+    {{>header }}
     {{{body}}}
-   
+    {{>footer }}
 </body>
 
 </html>

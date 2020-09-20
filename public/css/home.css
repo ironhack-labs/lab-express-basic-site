@@ -1,0 +1,13 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/jo002.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.main {
+    height: 800px;
+}

@@ -1,0 +1,44 @@
+.imgxs {
+    width: 33.18%;
+    margin: 1px;
+}
+
+#portfolio {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+.imgpop {
+    position: absolute;
+    top: -60px;
+    left: calc(100%2);
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: 3px solid whitesmoke;
+    display: flex;
+}
+
+#header, #footer {
+    background-image: url(/img/backg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.imgpop div {
+    padding: 20px;
+}
+
+.black-cross {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
