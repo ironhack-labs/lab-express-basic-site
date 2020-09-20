@@ -1,0 +1,16 @@
+header {
+    position: relative;
+    font-size: 50px;
+    color: rgb(65, 62, 62);
+    display: flex;
+    margin-left: 50px; /* flex properties didn't work here*/
+    margin-top: 150px;
+}
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    color: grey;
+    display: flex;
+    margin-left: 50px;
+}

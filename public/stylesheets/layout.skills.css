@@ -1,0 +1,38 @@
+.skills > div > h2 {
+    font-size: 17px;
+    line-height: 60px;
+}
+
+.skills > div > h3 {
+    font-size: 15px;
+    line-height: 50px;
+    color: rgb(65, 62, 62);
+}
+
+.skills > div > img {
+    height: 40px;
+}
+
+.skills > div > ul >li {
+    color: rgb(65, 62, 62);
+    line-height: 25px;
+    margin-left: 0px;
+    font-size: 13px;
+    list-style-type: none;
+    text-indent: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: left;
+    margin-left: 150px;
+}
+
+.skills > div {
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+#tech-skills ul {
+    margin-bottom: 0px;
+}

@@ -1,0 +1,19 @@
+#nav-bar {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    color: grey;
+}
+
+#nav-bar > a {
+    margin: 50px;
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(105, 4, 4);
+  }
+  
+  a:visited {
+    color: rgb(105, 4, 4);
+  }
