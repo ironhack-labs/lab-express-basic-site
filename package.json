@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js -e .hbs,.js"
+    "dev": "nodemon app.js -e .hbs,.js",
+    "seed-cities": "node ./bin/cities.seed.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "i": "^0.3.6",
+    "mongoose": "^5.10.6",
     "request": "^2.88.2"
   }
 }

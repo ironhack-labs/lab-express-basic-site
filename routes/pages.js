@@ -4,7 +4,14 @@ const weatherData = require("../public/js/weatherData");
 
 router.get("/", (req, res) => {
   res.render("home", {
-    title: "Weather App",
+    title: "WEATHER APP",
+  });
+});
+
+router.get("/favorites", (req, res) => {
+  res.render("favorites", {
+    title: "FAVORITE CITIES",
+    css: "mod.favorites",
   });
 });
 
@@ -21,11 +28,30 @@ router.get("/weather", (req, res) => {
 
   weatherData(
     address,
-    (error, { temperature, description, cityName, humidity, wind, sunrise, sunset } = {}) => {
+    (
+      error,
+      {
+        temperature,
+        description,
+        cityName,
+        humidity,
+        wind,
+        sunrise,
+        sunset,
+      } = {}
+    ) => {
       if (error) {
         return res.send({ error });
       }
-      console.log(temperature, description, cityName, humidity, wind, sunrise, sunset);
+      console.log(
+        temperature,
+        description,
+        cityName,
+        humidity,
+        wind,
+        sunrise,
+        sunset
+      );
       res.send({
         cityName,
         temperature,
@@ -33,7 +59,7 @@ router.get("/weather", (req, res) => {
         humidity,
         wind,
         sunrise,
-        sunset
+        sunset,
       });
     }
   );

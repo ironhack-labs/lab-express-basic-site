@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css");
+@import url("mod.favorites.css");
 
 :root {
   --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
