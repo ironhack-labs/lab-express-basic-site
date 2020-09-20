@@ -26,6 +26,15 @@ router.get("/favorites/:id/delete", async (req, res, next) => {
   }
 });
 
+router.post("/add-city", async (req, res, next) => {
+  try {
+    await CityModel.create(req.body);
+    res.redirect("/favorites");
+  } catch (dbError) {
+    next(dbError);
+  }
+});
+
 router.get("/add-city", (req, res) => {
   res.render("addCity", {
     title: "ADD A NEW CITY",
