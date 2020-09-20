@@ -98,6 +98,7 @@ p {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
 }
 
 a {
@@ -198,24 +199,30 @@ a:hover:after {
 }
 
 .bar.front::before{
-  background-color: #ffcc33;
+  background-color: violet;
 }
 .bar.back::before{
-  background-color: #a6cfe3;
+  background-color: blue;
 }
 
-.bar.learning::before{
-  width: calc(20% - 10px);
+.bar.yes::before{
+  background-color: rebeccapurple;
 }
+
 .bar.basic::before{
   width: calc(40% - 10px);
 }
 .bar.intermediate::before{
-  width: calc(60% - 10px);
+  width: calc(50% - 10px);
 }
 .bar.advanced::before{
-  width: calc(80% - 10px);
+  width: calc(70% - 10px);
 }
 .bar.expert::before{
-  width: calc(100% - 10px);
+  width: calc(80% - 10px);
+}
+
+input {
+  width: 100%;
+  height: 100%;
 }

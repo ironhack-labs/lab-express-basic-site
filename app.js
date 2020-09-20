@@ -1,3 +1,9 @@
+// ENV VARIABLES
+require("dotenv").config();
+
+// DATABASE CONNECTION
+require("./config/mongodb");
+
 const express = require("express");
 const app = express();
 const hbs = require("hbs");
@@ -15,10 +21,20 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/works", (req, res) => {
-  res.render("works");
+app.get("/contact", (req, res) => {
+  res.render("contact");
 });
 
 app.listen(8080, () => {
     console.log(`server is running at http://localhost:8080`);
   });
+
+
+
+//BODY PARSER
+  app.use(express.urlencoded({ extended: false }));
+  // below mandatory to expose the posted data in req.body (async => AJAX)
+  app.use(express.json());
+  app.use(require("./routes/messageRoute"));
+  
+  module.exports = app;
