@@ -1,0 +1,60 @@
+#general h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+  }
+  #general .bg {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #general h1 {
+    background: linear-gradient(90deg, #b9a6aa, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 10s 1s infinite;
+    background-clip: text;
+    -webkit-text-fill-color: rgb(255, 255, 255, 0.5);
+  }
+  
+  @keyframes shine {
+    0%,
+    10% {
+      background-position: -1000px;
+    }
+    20% {
+      background-position: top left;
+    }
+    90% {
+      background-position: top right;
+    }
+    100% {
+      background-position: 1000px;
+    }
+  }
+  
+  .container {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+  }
+  .container img {
+    height: 60vh;
+    margin: 20px 30px 20px 20px;
+  }
+  
+  .container p {
+    margin: 30px;
+  }
+  
+  .why {
+    margin: 30px;
+  }
+  .why h4,
+  ul {
+    margin: 20px;
+  }
+  

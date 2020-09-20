@@ -1,0 +1,19 @@
+.works {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .works li {
+    margin: 30px;
+  }
+  
+  .works img {
+    display: block;
+    width: 100%;
+  }
+  .collection h2 {
+    margin: 30px;
+    text-align: center;
+    color: rgba(94, 66, 66);
+  }

@@ -1,0 +1,30 @@
+<div id="general">
+    <div class="bg">
+        <h1>Terry Pratchett's works</h1>
+    </div>
+    <section class="collection">
+        <h2>Discworld series</h2>
+        <ul class="works">
+            {{#each listOfBooks}}
+            <li>
+                <h3>{{title}}</h3> <br>
+                <img src="{{image}}" alt="books images">
+            </li>
+
+            {{/each}} </ul>
+
+    </section>
+    <section class="collection">
+        <hr>
+        <h2>Others</h2>
+        <ul class="works">
+            {{#each listOfOthers}}
+            <li>
+                <h3>{{title}}</h3><br>
+                <img src="{{image}}" alt="books images">
+            </li>
+            {{/each}}
+        </ul>
+    </section>
+
+</div>

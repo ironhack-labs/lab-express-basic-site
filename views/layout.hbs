@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kiwi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    {{#each css}}
+    <link rel="stylesheet" type="text/css" href="/css/{{this}}.css">
+    {{/each}}
+    <script type="module" src="../app.js"></script>
+</head>
+
+<body>
+<header class="row">
+        <img class="logo" src="./img/discworldLogo.png" alt="I don't know yet" />
+        <nav id="main-nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/works">Books</a>
+        </nav>
+    </header>
+    {{{body}}}
+</body>
+<footer>
+    <div class="link">
+        <h3>If you wanna learn more about him:</h3>
+        <a href="https://www.terrypratchettbooks.com/"> Official website of the author</a>
+        <a href="https://www.imdb.com/name/nm0695332/">Terry Pratchett IMDb page</a>
+        <a href="https://en.wikipedia.org/wiki/Terry_Pratchett#Other_writing">Wikipedia page</a>
+    </div>
+
+</footer>
+</html>
