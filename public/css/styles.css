@@ -7,7 +7,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizÒing: border-box;
   box-sizing: border-box;
   line-height: 1.25em;
 }
@@ -292,11 +292,6 @@ body {
   transform: scale(0.95);
 }
 
-.location-button .feather {
-  height: 1em;
-  width: auto;
-  margin-right: 5px;
-}
 
 .search-btn {
   outline: none;

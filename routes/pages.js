@@ -1,6 +1,8 @@
 const express = require("express");
 const router = new express.Router();
 const weatherData = require("../public/js/weatherData");
+const CityModel = require("./../models/City")
+
 
 router.get("/", (req, res) => {
   res.render("home", {
@@ -8,10 +10,11 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get("/favorites", (req, res) => {
+router.get("/favorites", async (req, res) => {
   res.render("favorites", {
+    cities: await CityModel.find(),
     title: "FAVORITE CITIES",
-    css: "mod.favorites",
+    css: ["mod.favorites"],
   });
 });
 

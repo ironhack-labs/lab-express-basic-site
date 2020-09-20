@@ -1,16 +1,37 @@
-{{!-- <ul>
-    {{#each users}}
-    <li class="item">
-        <h2 class="title">Hacker {{@index}}</h2>
-        {{this.name}} - {{this.email}}
-        <a href="/my-dev-squad/profile/{{this._id}}">see profile</a>
-        <a href="/ironhacker/{{this._id}}/delete">X</a>
+<div class="buttons-container">
+    <a href="/">
+        <button class="btn white">
+            <span>
+                < back</span>
+        </button>
+    </a>
+    <a href="/favorites">
+        <button class="btn blue-gradient add-city">
+            <span>+ add a city</span>
+        </button>
+    </a>
+</div>
+
+{{!-- <div class="container"> --}}
+<ul class="cities-list">
+    {{#each cities}}
+    <li class="city-item">
+        <div class="city-info">
+            <i class="location-icon" data-feather="map-pin"></i>
+            <span>{{this.name}}, {{this.country}}</span>
+        </div>
+        {{!-- <span class="day-name">{{this.language}}</span> --}}
+        <div class="action-container">
+            <a class="action" href="/city/{{this._id}}/delete">
+                <i class="action-icon" data-feather="x"></i>
+            </a>
+            {{!-- <a class="action" href="/city/{{this._id}}/weather">
+                <i class="action-icon" data-feather="eye"></i>
+            </a> --}}
+            {{!-- <a class="action" href="/city/{{this._id}}/edit">✏️ edit</a> --}}
+        </div>
     </li>
     {{/each}}
-</ul> --}}
+</ul>
 
-<a href="/">
-    <button class="location-button">
-        <span> find weather</span>
-    </button>
-</a>
+{{!-- </div> --}}

@@ -24,36 +24,3 @@ app.listen(process.env.PORT, () => {
 });
 
 module.exports = app;
-
-// -----------------
-
-// const path = require("path");
-// const hbs = require("hbs");
-
-// app.set("views", path.join(__dirname, "views")); // where are the actual pages (./views) ?
-// app.set("view engine", "hbs"); // which template engine will we use ? hbs
-// app.use(express.static(path.join(__dirname, "public"))); // static files (public for browsers)
-// hbs.registerPartials(path.join(__dirname, "views/partials"));
-
-// app.get("/", (req, res) => {
-//   //middleware
-//   res.render("home");
-// });
-
-// app.get("/about", (req, res) => {
-//   res.render("about");
-// });
-
-// app.get("/goodthings", (req, res) => {
-//   res.render("goodthings", {
-//     js: ["dom-goodthings"],
-//   });
-// });
-
-// app.listen(8888, () => {
-//   console.log(`server is running at http://localhost:8888`);
-// });
-
-// // TO DO:
-// // - make it responsive!!
-// // - add decoration on clik on nav link
