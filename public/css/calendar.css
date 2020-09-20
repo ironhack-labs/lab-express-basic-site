@@ -1,0 +1,100 @@
+#moonCalendar {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(20vw, 20vw));
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  grid-column: 3;
+  grid-row: 1;
+  width: 40vw;
+}
+
+#yearMonth {
+  margin: 20px 0px 20px;
+  width: 30vw;
+}
+
+.calendar {
+  grid-column: 3;
+  grid-row: 2/3;
+}
+
+#days {
+  justify-content: space-around;
+  display: flex;
+  width: 100vw;
+  grid-row: 4;
+}
+
+#years {
+  width: 38px;
+}
+
+.day {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 3vw;
+  padding: 20px 0px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#moons {
+  grid-column: 3;
+  grid-row: 6;
+  display: grid;
+  margin-top: 40px;
+}
+
+#moon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 0px #ffbb11;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#dark-moon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 0px black;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 450px) {
+  #days {
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .day {
+    padding: 0px 0px 10px;
+    margin-left: 10px;
+  }
+  #moons {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  #yearMonth {
+    width: 60vw;
+    margin: 20px 0px 20px;
+  }
+  h1 {
+    width: 80vw;
+    grid-column: 2;
+  }
+}

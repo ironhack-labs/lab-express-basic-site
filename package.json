@@ -1,0 +1,32 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "app.js",
+  "bin": {
+    "lab-express-basic-site": "planets.seed.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/www -e .hbs,.js",
+    "seed-planets": "node ./bin/planets.seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nenault/lab-express-basic-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nenault/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/nenault/lab-express-basic-site#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.10.5"
+  }
+}

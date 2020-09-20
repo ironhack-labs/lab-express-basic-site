@@ -1,0 +1,25 @@
+<div id="create-planet">
+    <h1 class="title">Planet update</h1>
+
+   
+
+    <form method="post" action="/planet/{{planet._id}}/update" class="form">
+         
+        <label class="label" for="name">Name</label>
+        <input class="input" id="name" type="text" name="name" value="{{planet.name}}">
+
+        <label class="label" for="img">Image</label>
+        <input class="input" id="img" type="text" name="img" value="{{planet.img}}">
+
+        <label class="label" for="surface">Surface</label>
+        <input class="input" id="surface" type="text" name="surface" value="{{planet.surface}}">
+
+        <label class="label" for="volume">Volume</label>
+        <input class="input" id="volume" type="text" name="volume" value="{{planet.volume}}">
+
+        <label class="label" for="mass">Mass</label>
+        <input class="input" id="mass" type="text" name="mass" value="{{planet.mass}}">
+        <button class="btn">Update</button>
+
+    </form>
+</div>

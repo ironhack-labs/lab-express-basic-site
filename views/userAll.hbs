@@ -1,0 +1,12 @@
+<h1 class="title">My dev squad</h1>
+<hr>
+<ul class="list grid users">
+    {{#each users}}
+    <li class="item">
+        <h2 class="title">Hacker {{@index}}</h2>
+        {{this.name}} - {{this.email}}
+        <a href="/my-dev-squad/profile/{{this._id}}">see profile</a>
+        <a href="/ironhacker/{{this._id}}/delete">X</a>
+    </li>
+    {{/each}}
+</ul>

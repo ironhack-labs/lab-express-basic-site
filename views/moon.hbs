@@ -1,0 +1,38 @@
+<section id="moonCalendar">
+
+    <h1 class="title">Moon phase</h1>
+
+    <div class="calendar">
+
+        <div id="yearMonth">
+            <label for="name">Year :</label>
+            <input type="text" placeholder="2020" id="years" name="years" required minlength="4" maxlength="4"
+                size="10">
+
+
+            <select name="months" id="months" class="datefield">
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09" selected>September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </div>
+    </div>
+
+    
+    <div id="days" class="days"></div>
+    <div id="moons">
+        <h2 class="moonPhase"></h2>
+        
+        <div id="moon"></div>
+        <div id="dark-moon"></div>
+    </div>
+</section>

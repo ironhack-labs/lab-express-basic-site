@@ -1,0 +1,23 @@
+@import 'mod.nav-main.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-color:black;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0px;
+}

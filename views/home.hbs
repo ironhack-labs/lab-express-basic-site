@@ -1,0 +1,20 @@
+<div id="planets">
+    <h1 class="title">Solar system</h1>
+    <ul class="planet-list">
+        {{#each planets}}
+        <li class="item">
+            <img class="planet-img" src="{{this.img}}">
+            <h2 class="title">{{this.name}}</h2>
+            <div class="planet-data">
+            <i>Surface >> </i> {{this.surface}}<br>
+            <i>Volume >> </i> {{this.volume}}<br>
+            <i>Mass >> </i> {{this.mass}}<br>
+            </div>
+            <div class="planet-action">
+            <a href="/profile/{{this._id}}">Edit</a> /
+            <a href="/planet/{{this._id}}/delete">Delete</a>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>
