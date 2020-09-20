@@ -64,7 +64,7 @@
   -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  background: #222831;
+  background-color: #222831;
   color: white;
   transition: 200ms ease;
   cursor: pointer;
@@ -86,10 +86,10 @@
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
-  background: #fff;
-  color: #222831;
-  -webkit-box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2);
+  /* background-color: #fff; */
+  color: #222831 !important;
+  /* -webkit-box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2); */
 }
 
 .city-info {

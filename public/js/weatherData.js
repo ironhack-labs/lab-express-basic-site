@@ -11,7 +11,7 @@ const weatherData = (address, callback) => {
   request({ url, json: true }, (error, { body }) => {
     if (error) {
       callback("cannnot fetch data from open weather map api", undefined);
-    } else if (!body.main || !body.main.temp || !body.weather || !body.name) {
+    } else if (!body.main || !body.weather || !body.wind || !body.sys || !body.name) {
       callback(
         "Cannot find required data for this city, please try another one"
       );

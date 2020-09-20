@@ -71,10 +71,20 @@ function displayData(data) {
     weatherCondition.textContent = data.description;
     humidity.textContent = `${data.humidity} %`;
     wind.textContent = `${(data.wind * 3.6).toFixed()} km/h`;
-    sunrise.textContent = data.sunrise;
-    sunset.textContent = data.sunset;
+    sunrise.textContent = getTime(data.sunrise);
+    sunset.textContent = getTime(data.sunset);
     displayWeatherIcon(data.description);
   }
+}
+
+function getTime(data) {
+  let timestamp = data;
+  var date = new Date(timestamp * 1000);
+  var hours = date.getHours();
+  var minutes = "0" + date.getMinutes();
+  var formattedTime = `${hours} : ${minutes.substr(-2)}`;
+
+  return formattedTime;
 }
 
 function getCelsiusTemperature(temperature) {
@@ -105,3 +115,7 @@ weatherForm.addEventListener("submit", (event) => {
   constructURL();
 });
 
+window.onload = () => {
+  const locationApi = `${fetchWeather}?address=Paris`;
+  fetchWeatherAPI(locationApi);
+};
