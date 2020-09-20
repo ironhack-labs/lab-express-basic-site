@@ -36,5 +36,4 @@ app.listen(8080, () => {
   // below mandatory to expose the posted data in req.body (async => AJAX)
   app.use(express.json());
   app.use(require("./routes/messageRoute"));
-  
   module.exports = app;
