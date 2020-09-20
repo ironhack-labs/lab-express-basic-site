@@ -26,6 +26,13 @@ router.get("/favorites/:id/delete", async (req, res, next) => {
   }
 });
 
+router.get("/add-city", (req, res) => {
+  res.render("addCity", {
+    title: "ADD A NEW CITY",
+    css: ["mod.form"],
+  });
+});
+
 // My API calling open weather map api
 //localhost:8080/weather?address=xxx
 router.get("/weather", (req, res) => {

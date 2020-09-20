@@ -1,0 +1,61 @@
+.container.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 250ms ease-in;
+}
+
+.input {
+  outline: none;
+  color: #343d4b;
+  width: 70%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0px 25px 25px 0px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.label {
+  outline: none;
+  text-align: start;
+  width: 30%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 25px 0px 0px 25px;
+  padding: 10px 30px 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  background-image: var(--gradient);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.city-name-input,
+.country-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  transition: 200ms ease;
+}
+
+.btn.add {
+  width: 50%;
+  transition: 250ms ease-in;
+}
+
+.back-to-favorites {
+  justify-content: center;
+}

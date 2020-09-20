@@ -32,6 +32,10 @@
   transform: scale(0.95);
 }
 
+#back-btn {
+  color: white;
+}
+
 .blue-gradient {
   background-image: var(--gradient);
 }
