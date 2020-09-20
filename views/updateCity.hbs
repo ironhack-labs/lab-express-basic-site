@@ -4,22 +4,22 @@
     </a>
 </div>
 
-<form method="post" action="/add-city" class="form">
+<form method="post" action="/update-city/{{city._id}}" class="form">
 
     <div class="container flex">
 
         <div class="city-name-input">
             <label class="label" for="name">City</label>
-            <input class="input" id="name" type="text" name="name" required>
+            <input class="input" id="name" type="text" name="name" value="{{city.name}}" required>
         </div>
 
         <div class="country-input">
             <label class="label" for="country">Country</label>
-            <input class="input" id="country" type="text" name="country" required>
+            <input class="input" id="country" type="text" name="country" value="{{city.country}}" required>
         </div>
 
         <button class="btn blue-gradient add">
-            <span> + add now</span>
+            <span>update now</span>
         </button>
     </div>
 </form>

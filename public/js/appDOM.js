@@ -15,8 +15,6 @@ const wind = document.getElementById("wind");
 const sunrise = document.getElementById("sunrise");
 const sunset = document.getElementById("sunset");
 
-console.log(weatherIcon.className);
-
 //DISPLAY DATE
 const months = [
   "January",
@@ -52,7 +50,6 @@ function constructURL() {
   weatherCondition.textContent = "";
   weatherIcon.className = "";
   const locationApi = `${fetchWeather}?address=${input.value}`;
-  console.log(locationApi);
   fetchWeatherAPI(locationApi);
 }
 
@@ -88,7 +85,6 @@ function getCelsiusTemperature(temperature) {
 }
 
 function displayWeatherIcon(condition) {
-  console.log(condition);
   if (condition === "Clouds") {
     weatherIcon.className = "wi wi-cloud weather-icon";
   } else if (condition === "Clear" || condition === "Sunny") {
@@ -108,3 +104,4 @@ weatherForm.addEventListener("submit", (event) => {
   event.preventDefault();
   constructURL();
 });
+

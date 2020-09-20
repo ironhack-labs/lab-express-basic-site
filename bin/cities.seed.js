@@ -7,17 +7,14 @@ const cities = [
   {
     name: "Paris",
     country: "France",
-    language: "French",
   },
   {
     name: "Bangkok",
     country: "Thailand",
-    language: "Thai",
   },
   {
     name: "Stockholm",
     country: "Sweden",
-    language: "Swedish",
   },
 ];
 

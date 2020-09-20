@@ -77,6 +77,11 @@
   text-align: end;
 }
 
+.favorite-city {
+  text-decoration: none;
+  color: white;
+}
+
 .city-item:hover {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);

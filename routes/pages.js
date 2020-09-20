@@ -42,6 +42,27 @@ router.get("/add-city", (req, res) => {
   });
 });
 
+router.get("/update-city/:id", (req, res, next) => {
+  CityModel.findById(req.params.id)
+    .then((city) => {
+      res.render("updateCity", {
+        city,
+        css: ["mod.form"],
+        title: "UPDATE THIS CITY",
+      });
+    })
+    .catch(next);
+});
+
+router.post("/update-city/:id", async (req, res, next) => {
+  try {
+    await CityModel.findByIdAndUpdate(req.params.id, req.body);
+    res.redirect("/favorites");
+  } catch (err) {
+    next(err);
+  }
+});
+
 // My API calling open weather map api
 //localhost:8080/weather?address=xxx
 router.get("/weather", (req, res) => {
