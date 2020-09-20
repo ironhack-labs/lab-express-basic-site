@@ -1,33 +1,32 @@
+// ENV VARIABLES
+require("dotenv").config();
+
+// DATABASE CONNECTION
+require("./config/mongodb");
+
+// REQUIRED DEPENDENCIES
 const express = require("express")
 const app = express()
-const path = require("path")
 const hbs = require("hbs");
-const get = require("http");
 
 // Exported Data
-const oeuvre = require("./data.js").oeuvre
-console.log(oeuvre[1])
+
+
 // create path to public and views which are the website ''data''
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 hbs.registerPartials(__dirname + "/views/partials");
-console.log('----------------');
 
 
-app.get("/", (request, response) => {
-    response.render("home");
-});
 
-app.get("/about", (request, response) => {
-    response.render("about")
-});
+// BODY PARSER HERE:
+// below mandatory to expose the posted data in req.body (sync)
+app.use(express.urlencoded({ extended: false }));
+// below mandatory to expose the posted data in req.body (async => AJAX)
+app.use(express.json());
 
-app.get("/works", (request, response) => {
-    response.render("work", {
-        oeuvre
-    })
-});
-app.listen(8080, () => {
-    console.log('Yoo the server is ready poulet !')
-});
+app.use(require("./routes/pages"));
+app.use("api", require("./routes/api"));
+
+module.exports = app;
