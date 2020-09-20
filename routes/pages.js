@@ -1,8 +1,7 @@
 const express = require("express");
 const router = new express.Router();
 const weatherData = require("../public/js/weatherData");
-const CityModel = require("./../models/City")
-
+const CityModel = require("./../models/City");
 
 router.get("/", (req, res) => {
   res.render("home", {
@@ -16,6 +15,15 @@ router.get("/favorites", async (req, res) => {
     title: "FAVORITE CITIES",
     css: ["mod.favorites"],
   });
+});
+
+router.get("/favorites/:id/delete", async (req, res, next) => {
+  try {
+    await CityModel.findByIdAndRemove(req.params.id);
+    res.redirect("/favorites");
+  } catch (err) {
+    next(err);
+  }
 });
 
 // My API calling open weather map api
