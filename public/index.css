@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#home-page {
+	background-image: url("/img/DarkSideOfTheMoon.jpg");
+	background-size: 100vw 100vh;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav {
+	background-color: black;
+	height: 6vh;
+	border: 1px solid black;
+	box-shadow: 3px 1px 1px 1px gray;
+}
+
+.links {
+	display: flex;
+	justify-items: center;
+	margin-top: 1vh;
+}
+a {
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font: bold;
+	font-size: 3vh;
+	text-decoration: none;
+	margin-right: 3vw;
+}
+
+footer {
+	background-color: black;
+	height: 6vh;
+	border: 1px solid black;
+	box-shadow: 0px 0px 3px 0px gray;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	text-align: right;
+}
+
+footer div {
+	margin-top: 1vh;
+	margin-right: 1vh;
+}
+
+.body {
+	height: 88vh;
+	width: 100vw;
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 5px 5px 0;
+	display: inline-block;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+#sample-page {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+#sample-page .body {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#sample-page .body img {
+    width: 30vw;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+
+#sample-page .body .hidden {
+	display: none;
+}
+ 
+#sample-page .body .covers {
+    margin: 0px 10px;
+    color: white;
+}
+ 
