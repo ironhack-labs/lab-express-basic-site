@@ -23,6 +23,7 @@
 	display: flex;
 	justify-items: center;
 	margin-top: 1vh;
+	margin-left: 2vw;
 }
 a {
 	color: white;
@@ -93,8 +94,34 @@ footer div {
 	display: none;
 }
  
-#sample-page .body .covers {
+#sample-page .body .covers a {
     margin: 0px 10px;
     color: white;
 }
- 
+
+#sample {
+	background-color: black;
+}
+
+#sample .body{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#sample .body div{
+	margin: 20px
+}
+
+#sample h1{
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#sample .biography p{
+	font-size: 25px;
+	color: white;
+
+}

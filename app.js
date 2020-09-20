@@ -17,11 +17,26 @@ app.get("/sample", (req, res) => {
     res.render("sample", {
         js: ["sample"]
     });
-
 });
 
-app.get("/info", (req, res) => {
-	res.render("info");
+app.get("/trilogy", (req, res) => {
+	res.render("trilogy");
+});
+
+app.get("/eminem", (req, res) => {
+	res.render("eminem");
+});
+
+app.get("/goodkid", (req, res) => {
+	res.render("goodkid");
+});
+
+app.get("/kidcudi", (req, res) => {
+	res.render("kidcudi");
+});
+
+app.get("/kanyewest", (req, res) => {
+	res.render("kanyewest");
 });
 
 app.listen(8080, () => {

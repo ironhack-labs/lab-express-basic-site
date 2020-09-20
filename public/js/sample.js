@@ -1,8 +1,9 @@
 const arrowRight = document.querySelector(".right");
 const arrowLeft = document.querySelector(".left");
-const imgs = document.querySelectorAll("img");
+const imgs = document.querySelectorAll("#sample-page .covers a");
 
-console.log(imgs[1].classList);
+// console.log(imgs[1].classList);
+console.log(imgs);
 
 let count = 0 ;
 
