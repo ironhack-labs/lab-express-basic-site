@@ -34,6 +34,11 @@ body {
   justify-content: center;
 }
 
+input::placeholder {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
 .container {
   border-radius: 25px;
   -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
@@ -75,8 +80,8 @@ body {
 }
 
 .weather-side:hover {
-  -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
-  transform: scale(1.1) perspective(1500px) rotateY(6deg);
+  -webkit-transform: scale(1.05) perspective(1500px) rotateY(10deg);
+  transform: scale(1.05) perspective(1500px) rotateY(6deg);
 }
 
 .weather-gradient {
