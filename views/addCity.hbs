@@ -1,10 +1,11 @@
 <div class="buttons-container back-to-favorites">
     <a href="/favorites">
-        <button class="btn white">< back to favorites</button>
+        <button class="btn white">
+            < back to favorites</button>
     </a>
 </div>
 
-<form method="post" action="/add-city" class="form">
+<form method="post" action="/add-city" class="form" enctype="multipart/form-data">
 
     <div class="container flex">
 
@@ -17,6 +18,11 @@
             <label class="label" for="country">Country</label>
             <input class="input" id="country" type="text" name="country" required>
         </div>
+
+
+        {{!-- <div class="country-input">
+            <input class="input" id="image" type="file" name="image">
+        </div> --}}
 
         <button class="btn blue-gradient add">
             <span> + add now</span>

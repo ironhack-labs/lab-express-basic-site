@@ -2,6 +2,7 @@ const express = require("express");
 const router = new express.Router();
 const weatherData = require("../public/js/weatherData");
 const CityModel = require("./../models/City");
+const uploader = require("../config/cloudinary");
 
 router.get("/", (req, res) => {
   res.render("home", {
@@ -26,9 +27,15 @@ router.get("/favorites/:id/delete", async (req, res, next) => {
   }
 });
 
-router.post("/add-city", async (req, res, next) => {
+router.post("/add-city", uploader.single("image"), async (req, res, next) => {
+  const newImage = req.body;
+  console.log(req.file);
+  if (req.file) {
+    newImage.image = req.file.path;
+  }
   try {
-    await CityModel.create(req.body);
+    // pass newImage to Citymodel.create to use the image
+    const dbResult = await CityModel.create();
     res.redirect("/favorites");
   } catch (dbError) {
     next(dbError);
@@ -41,6 +48,17 @@ router.get("/add-city", (req, res) => {
     css: ["mod.form"],
   });
 });
+
+// router.post("/add-city", uploader.single("image"), async (req, res, next) => {
+//   console.log(req.body);
+//   try {
+//     const dbResult = await CityModel.create(newImage);
+//     console.log(dbResult)
+//     res.redirect("/favorites");
+//   } catch (error) {
+//     next(error);
+//   }
+// });
 
 router.get("/update-city/:id", (req, res, next) => {
   CityModel.findById(req.params.id)
