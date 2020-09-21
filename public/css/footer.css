@@ -1,0 +1,23 @@
+#footer {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      11deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(63, 129, 140, 1) 0%,
+      rgba(93, 64, 84, 1) 75%
+    );
+    height: 7vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer {
+    color: rgb(204, 199, 199);
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    {{#each js}}
+    <script src="/js/{{this}}.js" type="module"></script>
+    {{/each}}
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <title>My first express app</title>
+</head>
+
+<body>
+    {{> navBar}}
+
+
+
+    {{{body}}}
+
+
+    {{> footer}}
+</body>
+
+</html>

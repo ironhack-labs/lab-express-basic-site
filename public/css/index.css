@@ -1,0 +1,17 @@
+@import url("./galeryStyle.css");
+@import url("./discoverStyle.css");
+@import url("./aboutStyle.css");
+@import url("./navBar.css");
+@import url("./footer.css");
+@import url("./homeStyle.css");
+@import url("./doc.css");
+@import url("./img-css.css");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+

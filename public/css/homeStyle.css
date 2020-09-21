@@ -1,0 +1,23 @@
+#bgCessna {
+  width: 150%;
+  height: 690px;
+  background-image: url("/images/CessnaClouds.jpg");
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 20s linear infinite;
+
+}
+
+@keyframes slide {
+    from { background-position:0 0; }
+    to { background-position: -500px 0; }
+}
+
+#sky {
+  position: relative;
+  top: 100px;
+  left: 0px;
+  font-family: cursive;
+}
