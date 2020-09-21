@@ -176,7 +176,7 @@ input::placeholder {
   padding: 10px 10px 10px 10px;
   margin: 10px 35px;
   /* -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25); */
-  box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.02);
 }
@@ -291,7 +291,7 @@ input::placeholder {
 
 .btn.white.favorites {
   margin-top: 10px;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   font-size: 0.8em;
   margin-bottom: 20px;
 }
