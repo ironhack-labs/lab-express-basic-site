@@ -22,10 +22,9 @@ a:hover {
 /*
  * Base structure
  */
-
 html,
 body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Vincent_Willem_van_Gogh_037.jpg");
+  background-image: url("https://bit.ly/34sEXgM");
 }
 
 body {
@@ -80,8 +79,20 @@ body {
   }
 }
 
+/*
+ * Everything else
+ */
 .jumbotron {
+  color: #333 !important;
   padding: 2rem 1rem;
   margin-bottom: 10rem;
   border-radius: 0.3rem;
+}
+
+.lead {
+  color: #333 !important;
+}
+
+.card-text {
+  color: #333 !important;
 }
