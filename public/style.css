@@ -1,0 +1,26 @@
+body {
+  background-color: green;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body h1 {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
