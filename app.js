@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 })
 
 app.get('/home', function(req, res){
-    res.sendFile(__dirname+'/views/home.html')
+    res.sendFile(__dirname+'/views/landing.html')
 })
 app.get('/works', function(req, res){
     res.sendFile(__dirname+'/views/works.html')
@@ -16,8 +16,11 @@ app.get('/works', function(req, res){
 app.get('/gallery', function(req, res){
     res.sendFile(__dirname+'/views/gallery.html')
 })
+app.get('/about', function(req, res){
+    res.sendFile(__dirname+'/views/about.html')
+})
 
 
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log('Working')
 })

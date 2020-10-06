@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 body{
+    font-family: 'Marcellus SC', serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: blueviolet;
+    background-image: url("./images/papyrus1.jpg");
 }
 
 
@@ -22,12 +24,30 @@ a{
     text-align: center;
 }
 
+header{
+    margin-top: 50px;
+}
 .container{
     width: 500px;
     background-color: white;
     border: 5px groove grey;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.box{
+    background-color: white;
+    width: 400px;
+    padding:30px;
+    border: 5px groove white;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+.about-container > img{
+    width:475px;
 }
