@@ -1,0 +1,27 @@
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #C9D1B4;
+}
+
+button {
+    background-color: rgba(0, 255, 242, 0.253);
+    color: white;
+}
+
+a{
+    color: white;
+    font-style: none;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    height: 200;
+    width: 100;
+    float: right;
+}
