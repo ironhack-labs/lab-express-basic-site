@@ -1,0 +1,130 @@
+/* Generals */
+
+html,
+body {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+
+.navigation_bar {
+  padding: 1.5rem 1rem;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.navbar_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.navbar_item {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/* Home page */
+
+.hero {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero_title_text {
+  color: black;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.hero_subtitle_text {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.hero_image_jobs {
+  width: 30rem;
+}
+
+/* About Page */
+
+.about_title {
+  margin: 2rem;
+}
+
+.about_title_text {
+  font-weight: 350;
+}
+
+.about_description_text {
+  margin: 2rem;
+  letter-spacing: 0.5;
+  font-weight: 300;
+}
+
+.more_info {
+  margin-top: 4rem;
+}
+
+.more_info a {
+  margin: 2rem;
+  color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: black;
+}
+
+/* Works Page */
+
+.works_description {
+  margin: 2rem;
+}
+
+.description_title_text {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.description_text {
+  margin-right: 2rem;
+  text-align: justify;
+  letter-spacing: 0.5;
+  font-weight: 300;
+}
+
+/* Gallery Page */
+
+.gallery_photo {
+  margin: 3rem 0;
+  align-items: center;
+  text-align: center;
+}
+
+.photo_item {
+  width: 280px;
+  margin: 0.5rem;
+}
