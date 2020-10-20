@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(92, 85, 85);
+    color: rgb(255, 255, 255);
+}
+
+.body-home{
+    background: url(/img/2011-07-01_REPORTAJE_CESPED_CAMP_NOU_003.jpg)no-repeat center center fixed; ;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 9px 20px;
+    font-size:20px;
+}
+
+.h1-home{
+    display: flex;
+    justify-content: center;
+    padding: 30% 10%;
+    color: black;
+}
+.h1-about-gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 25%;
+}
+
+.container-img-gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img-gallery img{
+    width: 100%;
+}
