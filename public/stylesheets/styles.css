@@ -1,0 +1,71 @@
+body {
+    background: url('../img/cover.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .h1-cover {
+    margin-top: 15px;
+    background-color:rgba(33,37,41, .8);
+    padding: 15px;
+    color: #f0f0f0;
+  }
+
+  .p-cover {
+    background-color:rgba(33,37,41, .8);
+    padding: 30px;
+    text-align: justify;
+    color: #f0f0f0;
+  }
+
+  .card {
+    background-color:rgba(33,37,41, .8);
+  }
+
+.btn-link:hover, .btn-link:active {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.btn-link   {
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+}
+
+.btn-link:focus {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+
+#accordion {
+  padding-left: 0;
+}
+
+.card-body {
+  color: #f0f0f0;
+}
+
+.card {
+  margin-bottom: 10px; 
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.top {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.gallery-row {
+  margin-bottom: 15px;
+}
