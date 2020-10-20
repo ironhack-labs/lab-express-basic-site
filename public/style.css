@@ -1,0 +1,21 @@
+h1{
+    color:yellow;
+    text-align: center;
+}
+h2{
+    color:violet
+}
+h3{
+    color:orangered
+}
+h4{
+    color:green
+}
+.homepage{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGulhNaND-edlhNAakCNjbrIb70ivv7MYjPQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-align: center;
+}
