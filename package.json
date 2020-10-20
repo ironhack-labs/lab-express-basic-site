@@ -19,5 +19,6 @@
   "homepage": "https://github.com/EBM90/lab-express-basic-site#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
