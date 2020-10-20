@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-image: url("/img/home-img.jpg");
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+}
+
+header h1{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    left: 16%;
+    top:61%;
+    transform: translate(-50%, -50%);
+    line-height: 100px;
+
+}
+
+header h3{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 15%;
+    top:83%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    color: black;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 30%;
+}
+
+.nav-bar{
+    width: 20%;
+    font-size: 16px;
+    position: absolute;
+    left: 15%;
+    top:20%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-bar ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    font-size: 1.5em; 
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar ul a:hover{
+    color: grey;
+}
