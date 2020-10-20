@@ -1,0 +1,33 @@
+body {
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #2D3142;
+    background-color: #F6F4D2;
+  }
+  
+  .navbar {
+    background-color: #2D3142 !important;
+  }
+  
+  .nav-link {
+    color: #F6F4D2 !important;
+  }
+  
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #880D1E;
+  }
