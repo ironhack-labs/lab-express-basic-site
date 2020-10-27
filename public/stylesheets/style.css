@@ -1,0 +1,25 @@
+body {
+    color: blue;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+img {
+    width: 500px;
+    height: auto; 
+
+}
+
+.about {
+    margin-right: 200px;
+    margin-left: 200px;
+    
+}
+
+
+
+.works {
+    text-decoration: none;
+    color: plum;
+}
