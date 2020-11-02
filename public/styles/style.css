@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-image: url('../img/background-01.png');
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 6em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.wlcm-txt {
+    font-size: 2em;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Pacifico';
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.about-txt {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-top: 2em;
+}
+
+.outside-box {
+    margin: 10px;
+}
+
+.cards-box {
+    margin: 10px;
+    padding-top: 10px;
+}
