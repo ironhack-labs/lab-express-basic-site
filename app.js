@@ -3,14 +3,16 @@ const app = express();
 
 app.use(express.static("public"));
 
-app.get('/home', (request, response, next) => 
+app.get('/home', (request, response) => 
     response.sendFile(__dirname + '/views/home-page.html')); 
 
-app.get('/about', (request, response, next) => 
+app.get('/about', (request, response) => 
     response.sendFile(__dirname + '/views/about-page.html'));
 
-app.get('/works', (request, response, next) => 
+app.get('/works', (request, response) => 
     response.sendFile(__dirname + '/views/works-page.html'));
 
-app.listen(3000, () => console.log('App works on port 3000'));
+app.listen(3000, () => {
+    console.log('App works on port 3000')
+});
 
