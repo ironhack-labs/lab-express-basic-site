@@ -1,0 +1,65 @@
+body {}
+
+hr {
+    width: 90%;
+    background-color: #CD3239;
+}
+
+footer {
+    height: 50px;
+    background-color: #CD3239;
+}
+
+.navbar {
+    background-color: #CD3239;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #FFF !important;
+}
+
+.solskjaer-img {
+    max-width: 100%;
+    filter: grayscale(100%);
+}
+
+.solskjaer-img:hover {
+    filter: none;
+}
+
+#about-section {}
+
+#about-section>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#about-section>div>div {
+    padding: 25px;
+    text-align: justify;
+}
+
+#about-section>div>div>img {
+    filter: none;
+}
+
+#about-section>div>div>img:hover {
+    filter: grayscale(100%);
+}
+
+#stats-section {
+    padding: 25px;
+}
+
+#stats-section>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#stats-section>div>div>img {
+    object-fit: cover;
+}
