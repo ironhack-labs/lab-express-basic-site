@@ -31,7 +31,6 @@
 }
 .text{
     padding: 30px;
-    line-height: 4px;
     justify-content: center;
 }
 .button1{
@@ -49,7 +48,10 @@
 .about-text{
     padding: 50px;
     justify-content: center;
-    line-height: 50px;
+    line-height: 70px;
     font-size: 1.5em;
-    text-align: justify ;
+    
+}
+.text-align1{
+    text-align: justify;
 }

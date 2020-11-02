@@ -13,3 +13,7 @@ app.get('/about', function(req, res) {
   app.get('/works', function(req, res) {
     res.send("works");
   });
+
+  app.listen(port,()=>{
+    console.log(`my app is listening at http://localhost:${port}`)
+  });
