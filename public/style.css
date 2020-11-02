@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+}
+
+hr {
+    border: 0.5px solid white;
+}
+
+.single-img {
+    max-width: 400px;
+    height: auto;
+}
+
+button {
+    border: 2px solid white;
+    color: white;
+    width: 200px;
+    font-weight: 300;
+    padding: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel {
+    width: 100%;
+    height: 500px;
+}
+
+img {
+    margin: auto;
+}
