@@ -12,10 +12,48 @@ main {
     color: white;
     font-family: 'Josefin Sans',
         sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 4px 4px black;
+}
+
+nav {
+    height: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: black;
 }
 
 .main-img {
-    width: 90%;
+    width: 80%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
 }
 
 section {
@@ -23,4 +61,5 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2%;
 }
