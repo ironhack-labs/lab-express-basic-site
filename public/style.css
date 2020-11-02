@@ -1,0 +1,48 @@
+*{
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
+}
+.img-fluid{
+    height: 500px;
+}
+.home-title{
+    padding: 30px;
+    font-size: 5rem;
+    text-shadow: 2px 2px #ff0000;
+}
+.who{
+    padding: 20px 0px 40px 0px;
+    font-size: 2em;
+}
+.Edgar{
+    font-size: 2em;
+    text-shadow: 2px 2px #1323fb;
+}
+.titles{
+    padding: 30px;
+    font-size: 5rem;
+    text-shadow: 2px 2px #29b4b4;
+}
+.self-portrait{
+    padding-top: 30px;
+    width: 70px;
+    border-radius: 50%;
+}
+.text{
+    padding: 30px;
+    line-height: 4px;
+    justify-content: center;
+}
+.button1{
+    margin: 30px;
+}
+.button1 a{
+    color: cyan;
+}
+.button1:hover{
+    background-color: cyan;
+}
+.button1:hover a{
+    color: black;
+}
