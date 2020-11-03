@@ -20,5 +20,5 @@ app.get("/works", (req, res) => {
 
 // module.exports = app;
 
-app.listen(5500, () => console.log(`My first app listening on ${port}`));
+app.listen(port, () => console.log(`My first app listening on ${port}`));
 
