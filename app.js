@@ -4,6 +4,7 @@ const port = 5500;
 
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/views"));
+// app.use("/views/")
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/views/index.html");
