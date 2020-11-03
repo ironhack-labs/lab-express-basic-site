@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 5500;
 
-
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/views"));
 
@@ -25,4 +24,3 @@ app.get("/gallery", (req, res) => {
 // module.exports = app;
 
 app.listen(5500, () => console.log(`My first app listening on ${port}`));
-
