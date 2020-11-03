@@ -9,13 +9,13 @@ app.use(express.static("views"));
 
 
 app.get("/home", (req, res) => {
-    res.sendFile(__dirname + "index.html");
+    res.sendFile(__dirname + "/views/index.html");
 });
 app.get("/about", (req, res) => {
-    res.sendFile(__dirname + "About.html");
+    res.sendFile(__dirname + "/views/About.html");
 });
 app.get("/works", (req, res) => {
-    res.sendFile(__dirname + "Works.html");
+    res.sendFile(__dirname + "/views/Works.html");
 });
 
 // module.exports = app;
