@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#principal{
+width: 90vh;
+background-image:url("https://www.lavanguardia.com/r/GODO/LV/p7/Cultura/2020/08/30/Recortada/img_tamiguet_20200828-140832_imagenes_lv_otras_fuentes_no_archivables_rs_-_ghs_2020_photo_-_credit_aubrey-powell-hipgnosis-rs_7_3-kwgH-U483201612700YYH-992x558@LaVanguardia-Web.jpg");
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+
+}
+
+#redprincipal{
+    width: 60vh;
+    margin: 30vh 20vh 20vh 20vh;
+    padding-top: 1vh;
+    font-size: 1.5em;
+    color: white;
+    background-color: red;
+}
+
+#band{
+    width: 90vh;
+    background-image: url("https://static.dw.com/image/17611721_303.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#worktext{
+    width: 60vh;
+    margin: 25vh 20vh 20vh 20vh;
+    padding-top: 1vh;
+    font-size: 1.2em;
+    color: white;
+    background-color: red;
+
+}
+
+#about {
+    width: 90vh;
+    background-image: url("https://experience.rollingstones.com/wp-content/uploads/2020/08/tin-of-goats-head-soup-317x412.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#blackLetters{
+    width: 60vh;
+    margin: 50vh 20vh 20vh 15vh;
+    padding-top: 1vh;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+}
