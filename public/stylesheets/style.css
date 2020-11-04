@@ -1,0 +1,61 @@
+
+body {
+    color: #C6AADB;
+    font-family: sans-serif;
+    background-color: white;
+    margin:0;
+    padding:0;
+    /* position: absolute; */
+  }
+/* home*/
+  h1{
+      display:flex;
+      justify-content: center;
+      margin-top:30px;
+      color: #9F87B1;
+  }
+
+
+  #img-chin-home {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    margin-left: 250px;
+  }
+
+  /*about*/
+
+  .header-about {
+      /* display: flex;
+      justify-content: center;
+      align-content: center; */
+      text-align: center;
+  }
+
+  .caracteristics {
+      text-align: center;
+      padding-top:20px;
+  }
+
+  .caracteristics2{
+      text-align: center;
+      padding-top:20px;
+  }
+
+  .curiosity{
+      text-align: center;
+      padding-top:20px;
+  }
+
+  h2 {
+    color: #9F87B1;
+  }
+
+  /*gallery*/
+
+  .img-chin{
+      height: 300px;
+      width: 300px ;
+  }
