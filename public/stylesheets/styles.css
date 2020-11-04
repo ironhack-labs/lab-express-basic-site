@@ -1,0 +1,100 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    align-items: center;
+}
+
+#main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color:grey;
+    color: white;
+    margin: 50px;
+    text-decoration: none;
+    padding: 20px
+}
+
+#aboutdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color:white;
+    align-items: center;
+    font-size: 30px;
+}
+
+#aboutpar{
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h4{
+    color: white;
+}
+
+#artistsmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#artistdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.artistrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.artistfoto{
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+h5{
+    color: white;
+    text-align: center;
+}
+
+#worksfotos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.obrafoto{
+    width: 300px;
+    margin: 20px;
+
+}
