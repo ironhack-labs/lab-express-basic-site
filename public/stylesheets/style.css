@@ -1,0 +1,35 @@
+html{
+    font-family: sans-serif;
+}
+
+#menu{
+display: flex;
+flex-direction: row;
+text-decoration: none;
+align-items: center;
+background-color:gray;
+width: 100%;
+}
+
+#menu ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+h2, h1, p{
+    text-align: center;
+}
+
+#imageChacas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#quotes{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
