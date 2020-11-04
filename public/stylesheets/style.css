@@ -1,0 +1,23 @@
+body {
+    color: #999999;
+    background-color: black;
+  }
+
+h1{
+    color: burlywood;
+}
+
+#homeKurt{
+    width: 50%;
+}
+
+#photos{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#photos img{
+    width: 40%;
+}
+
