@@ -1,0 +1,78 @@
+body {
+  background-color: #f5f3e4;
+}
+
+.section1 {
+  background-image: url("/images/cacahuate\ 2_Mesa\ de\ trabajo\ 1\ copia\ 3.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #a85a1a;
+}
+
+header {
+  background-color: #f5f3e4;
+}
+
+.color-1 {
+  color: #f5f3e4;
+}
+
+.color-2 {
+  color: #d27342;
+}
+
+.color-3 {
+  color: #a85a1a;
+}
+
+.bg-color-1 {
+  background-color: #f5f3e4;
+}
+
+.bgcolor-2 {
+  background-color: #d27342;
+}
+
+.bgcolor-3 {
+  background-color: #a85a1a;
+}
+
+.footer {
+  font-size: 1.9rem;
+  text-align: center;
+  padding: 40px 100px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 3.5rem;
+}
+
+.address {
+  font-size: 0.8em;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+/* h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+} */
+
+.map-frame {
+  height: 375px;
+  width: 60%;
+}
