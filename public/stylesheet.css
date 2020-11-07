@@ -1,0 +1,26 @@
+html {
+    display: table;
+    margin: auto;
+}
+body{
+   background-color: #046203;
+   vertical-align: middle;
+}
+p{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border: 3px solid rgb(187, 60, 60);
+    color: plum;
+    margin: 20%;
+}
+img{
+    margin-left: 10%;
+}
+h1{
+    color: hotpink;
+    text-align: center;
+}
+a{
+    color: hotpink;
+}
