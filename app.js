@@ -15,6 +15,10 @@ app.get("/main", (request, response, next) => {
     response.sendFile(__dirname + "/public/views/main-page.html")
 })
 
+app.get("/works", (request, response, next) => {
+    response.sendFile(__dirname + "/public/views/works-page.html")
+})
+
 app.listen(3003, () => {
     console.log("This app is listening on port 3000.")
 });
