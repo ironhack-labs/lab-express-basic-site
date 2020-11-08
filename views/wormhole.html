@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/charts.css">
+
+</head>
+<body>
+
+  <script type="module">
+    import {
+        Scene, WebGLRenderer, PerspectiveCamera, 
+        InstancedMesh, InstancedBufferAttribute,
+        CylinderBufferGeometry, MeshBasicMaterial, CanvasTexture, BackSide
+    } from 'https://unpkg.com/three@0.121.1/build/three.module.js';
+    
+    const time = {value: 0};
+    
+    const renderer = new WebGLRenderer({
+        antialias: true
+    });
+    
+    const scene = new Scene();
+    
+    const camera = new PerspectiveCamera();
+    camera.position.set(3,3,3);
+    camera.lookAt(0,0.7,0);
+    
+    const geom = new CylinderBufferGeometry(1, 1, 1, 64, 64, true);
+
+    const mat = new MeshBasicMaterial({
+         // map: gridTexture(),
+         // side: BackSide,
+       wireframe: true
+    });
+    
+    const vertexCode = `
+        float y = mvPosition.y+0.5;
+        
+        mvPosition.xz *= 0.1+pow(y, 10.+sin(time/3.)*7.)*20.;
+        mvPosition.y *= 5.;
+    `;
+    
+    scene.add( createInstancedMesh(1, geom, mat, vertexCode) );
+    
+    document.body.appendChild(renderer.domElement);
+    
+    requestAnimationFrame(function render(t) {
+        if (renderer.width !== innerWidth || renderer.height !== innerHeight){
+            renderer.setSize(innerWidth, innerHeight);
+            camera.aspect = innerWidth/innerHeight;
+            camera.updateProjectionMatrix();
+        }
+        time.value = t/1000;
+        renderer.render(scene, camera);
+        requestAnimationFrame(render);
+    });
+    
+    function gridTexture() {
+        const canvas = document.createElement('canvas');
+        const s = canvas.height = canvas.width = 4096;
+        const ctx = canvas.getContext('2d');
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 10;
+        for (let i=0;i<20;i++) {
+            for (var j=0;j<2;j++) {
+                ctx.beginPath();
+                ctx.moveTo(i*s/10-s, j?0:s)
+                ctx.lineTo(i*s/10,   j?s:0)
+                ctx.stroke();    
+            }
+        }
+        const map = new CanvasTexture(canvas);
+        map.anisotropy = 8;
+        return map;
+    }
+    
+    function createInstancedMesh(instanceCount, geometry, material, vertesShaderPart){
+        
+        let indexes = [...Array(instanceCount)].map((_,i) => i);
+        indexes = new Float32Array(indexes);
+        indexes = new InstancedBufferAttribute(indexes, 1);
+        geometry.setAttribute( 'index',  indexes);
+ 
+        material.onBeforeCompile = (shader) => {
+            shader.uniforms.time = time;
+            shader.vertexShader = shader.vertexShader
+                .split('#include <common>').join(`
+        uniform float time;
+        attribute float index;
+        #include <common>
+                `)
+                .split('#include <project_vertex>').join(`
+        vec4 mvPosition = vec4( transformed, 1.0 );
+        ${vertesShaderPart}
+        mvPosition = modelViewMatrix * mvPosition;
+        gl_Position = projectionMatrix * mvPosition;
+                `);
+        }
+        
+        return new InstancedMesh( geometry, material, instanceCount )
+    }
+ 
+</script>
+</body>
+
+</html>
