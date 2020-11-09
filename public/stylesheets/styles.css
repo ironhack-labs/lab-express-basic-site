@@ -1,0 +1,48 @@
+.main-img {
+    width: 700px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pics-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic-card {
+    background-color: lightsteelblue;
+    border-radius: 10px;
+}
+
+.pic-card > h4 {
+    text-align: center;
+}
+
+.pic-card > img {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.bio {
+    width: 20%;
+    text-align: justify;
+}
+
+
