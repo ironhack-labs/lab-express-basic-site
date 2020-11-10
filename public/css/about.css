@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#tarantino-image {
+    width: 40%;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+}
+
+#profile-div {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+}
+
+#about-bio {
+    font-family: 'Mukta', sans-serif;
+}
