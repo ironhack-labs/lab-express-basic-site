@@ -1,0 +1,44 @@
+h1 {
+  margin: 10px;
+}
+p {
+  margin: 10px 30px;
+  text-align: justify;
+}
+hr {
+  width: 90%;
+  margin: 30px;
+}
+.social {
+  margin: 10px;
+  padding: 10px;
+}
+.social ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+/* HOME */
+.home-header {
+  width: 100%;
+}
+
+/* WORKS */
+
+.album-cover {
+  width: 20%;
+  margin: 10px;
+  box-shadow: 1px 1px 3px 3px grey;
+}
+
+.albums {
+  display: flex;
+  align-items: center;
+}
+
+/* ABOUT */
+.about-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
