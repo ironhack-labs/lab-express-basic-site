@@ -164,7 +164,10 @@ h1 {
 
 p {
   font-size: 20px;
-  padding: 30px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid white;
+  text-align: center;
 }
 
 main {
