@@ -1,0 +1,60 @@
+/* CSS RESET */
+/* DEFAULT STYLES */
+
+/* MEDIA QUERIES */
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap");
+
+h1 {
+  font-family: "Xanh Mono", monospace;
+  font-size: 42px;
+  text-align: center;
+}
+
+h2 {
+    font-family: "Xanh Mono", monospace;
+    font-size: 32px;
+    text-align: center;
+  }
+
+a {
+  font-family: "Xanh Mono", monospace;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Xanh Mono", monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a {
+    color: white; 
+    text-decoration: none;
+    padding: 10px; 
+    margin: 5px;
+    display: flex; 
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a:hover {
+    color: white; 
+    text-decoration: none;
+}
+
+.container { 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book {
+    height: 300px;
+    margin: 5px;
+}
