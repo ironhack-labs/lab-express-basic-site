@@ -15,15 +15,15 @@ app.get("/", (req, res, next) => {
 });
 
 app.get("/about", (req, res, next) => {
-  res.sendFile(__dirname + "/public/views/index.html");
+  res.sendFile(__dirname + "/public/views/about.html");
 });
 
 app.get("/works", (req, res, next) => {
-  res.sendFile(__dirname + "/public/views/index.html");
+  res.sendFile(__dirname + "/public/views/works.html");
 });
 
 app.get("/gallery", (req, res, next) => {
-  res.sendFile(__dirname + "/public/views/index.html");
+  res.sendFile(__dirname + "/public/views/gallery.html");
 });
 
 // START SERVER
