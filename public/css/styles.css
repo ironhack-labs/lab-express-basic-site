@@ -133,14 +133,14 @@ body a {
 }
 
 a {
-  font-size: large;
-  font-weight: 700px;
+  font-size: x-large;
+  font-weight: 900px;
+  color: black;
 }
 
 a:hover {
   color: darkgray;
 }
-
 
 .nav {
   margin-top: 20px;
@@ -148,26 +148,22 @@ a:hover {
   padding: 20px 10px 10px;
   display: flex;
   flex-direction: row;
-  justify-content: right;
-  width: 80vw;
+  justify-content: flex-end;
+  width: 90vw;
 }
 
-
 li {
-  padding: 0 5px 5px 0;
+  padding: 0 15px 0 0;
 }
 
 .section-text {
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 20px;
-    padding: 50px 100px;
-    text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+  padding: 50px 180px;
+  text-align: justify;
 }
 
-
-
 .photo {
-    width: auto;
-    margin: auto;
+  text-align: center;
+  display: block;
 }
