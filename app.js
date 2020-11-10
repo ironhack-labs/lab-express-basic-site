@@ -24,9 +24,7 @@ app.get("/", (req, res, next) => {
     res.sendFile(__dirname + '/public/views/photo-gallery.html');
   })
 
-  app.get()
-  
-  
+//   app.get()
   
   app.listen(3000, () => {
     console.log("Server is running at port 3000");
