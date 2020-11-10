@@ -125,6 +125,10 @@ table {
 
 /*----------------------------*/
 
+body {
+	background-color: pink;
+}
+
 main {
   margin: 20px;
   height: 1000px;
