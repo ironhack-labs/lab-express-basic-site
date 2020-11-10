@@ -1,0 +1,98 @@
+body {
+    font-family: 'Syne Tactile', cursive;
+    background-color: #DFE2CC;
+}
+
+#home {
+    background-image: url(../images/dali.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+  }
+
+
+  h1 {
+      color: #3DB5FF;
+      font-size: 7rem;
+      padding-left: 50px;
+      padding-top: 50px;
+  }
+
+  #sub-title {
+      font-size: 4rem;
+      padding-left: 50px;
+      padding-top: 50px;
+      color: #3DB5FF;
+    font-family: 'Syne Tactile', cursive;
+  }
+
+
+  h3 {
+      color: #0A1321;
+      margin-top: 30px;
+      line-height: 35px;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  #fact-title {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 50px;
+      color: #3DB5FF;
+  }
+
+  #about-container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  #clock-img {
+      width: 450px;
+  }
+
+  li {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 1.5rem;
+    line-height: 45px;
+    color: #0A1321;
+  }
+
+
+
+
+
+  #works-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   
+  }
+
+  #works-container img {
+    height: 400px;
+    width: auto;
+    text-align: center;
+  }
+
+  #works-container div {
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+    flex-direction: column;
+      
+  }
+
+  #works-container h3 {
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+  }
+  
