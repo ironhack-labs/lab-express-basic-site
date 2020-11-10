@@ -1,0 +1,22 @@
+.works-img {
+    width: 300px;
+}
+
+.works-div {
+    width: 20%;
+    text-overflow: ellipsis;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.works-headline {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.works-article {
+    font-family: 'Mukta', sans-serif;
+}
