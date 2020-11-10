@@ -1,0 +1,62 @@
+body {
+  background-color: #cf939b;
+  font-size: 10px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  font-size: 1.3rem;
+}
+#section-one {
+  background-image: url("../images/main-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 650px;
+}
+h1 {
+  font-size: 4rem;
+}
+.main-header {
+  position: relative;
+  color: #fff;
+  left: 50px;
+  top: 100px;
+}
+#image-steve {
+  width: auto;
+  height: 400px;
+}
+#about-me-section {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  padding: 20px 0px;
+  text-align: center;
+}
+#about {
+  width: 50%;
+}
+#about-me-section p {
+  font-size: 1.5rem;
+}
+.main-section {
+  margin: 20px;
+  text-align: justify;
+}
+#famous-scenes-heading {
+  text-align: center;
+}
+#movie-scenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#movie-scenes p {
+  width: 600px;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+}
