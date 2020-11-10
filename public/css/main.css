@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home-page {
+  background: center url("../images/home-page.jpg") no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  height: 700px;
+}
+
+.title-info {
+  position: relative;
+  top: 200px;
+  left: -200px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+}
+nav a {
+  color: white;
+}
+
+#about-page {
+  background: center url("../images/about.jpg") no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  height: 700px;
+}
+#about-page p {
+  width: 50%;
+}
+
+.about-info {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.works-info {
+  position: relative;
+  top: 200px;
+  left: 120px;
+}
+
+#about-paragraph {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#about-paragraph p {
+  width: 70%;
+}
+
+#works-page {
+  background: center url("../images/works.webp") no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  height: 700px;
+}
+
+#works-page p {
+  width: 50%;
+}
