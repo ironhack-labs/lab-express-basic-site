@@ -1,0 +1,24 @@
+body {
+
+    background-color: tomato;
+    opacity: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+   
+      height: 50px;
+      width: 500px;
+      justify-content: center;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 200px;
+  }
+.nav-link {
+   color: white;
+   font-size: xx-large;
+}
