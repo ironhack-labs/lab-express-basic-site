@@ -1,0 +1,55 @@
+body{
+      background-color: #f6d6ad;
+      font-family: 'Roboto Mono', monospace;
+
+}
+
+.kitty{
+      text-align: right;
+      position: absolute;
+      right: 80px;
+      top: 80px;
+      height: 40px;
+      width:40px;
+    }
+
+.works-title{
+      margin-left: 90px;
+      
+}
+
+
+
+/*  button  */
+.btn {
+      border: solid;
+      cursor: pointer;
+      padding: 25px 80px;
+      display: inline-block;
+      margin: 15px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+     
+      }
+     
+    
+      /* Button 1 */
+      .btn{
+      color: black;
+      }
+      
+      .btn:hover {
+      background: #f9c0c0;
+      }
+    
+      .image {
+            height: 500px;
+            width:200px
+      }
+      
+      .caroline{
+            padding-top: 50px;
+      }

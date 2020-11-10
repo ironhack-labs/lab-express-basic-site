@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/index.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500&display=swap" rel="stylesheet">
+      <title>Home</title>
+</head>
+
+<body>
+      <img class="kitty" src="images/cat.jpeg" alt="">
+
+      <h1 class="title">Haruki Murakami</h1>
+      <hr>
+
+<!-- navbar -->
+
+      <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="views/about.html">About</a>
+            <a href="views/works.html">Works</a>
+            <!-- <a href="views/gallery.html">Gallery</a> -->
+
+           
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()">開いた Menu</span>
+         
+<h2 class="quote">“If you only read the books that everyone else is reading, you can only think what everyone else is thinking.”
+      ― Haruki Murakami, Norwegian Wood</h2>
+          <script>function openNav() {
+            document.getElementById("mySidenav").style.width = "500px";
+          }
+          
+          /* Set the width of the side navigation to 0 */
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }</script>
+</body>
+</html>
