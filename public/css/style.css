@@ -1,0 +1,29 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbar ul {
+  position: sticky;
+  color: black;
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#gallery {
+  width: fit-content;
+}
