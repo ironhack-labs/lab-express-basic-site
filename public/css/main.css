@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap');
+html, body {
+
+margin: 0;
+padding: 0;
+}
+body{
+font-family: 'Lusitana', serif;
+font-size: 20px;
+font-weight: 300;
+color: #3b2a21;
+height: 100vh;}
+
+h1{
+    font-size:60px;
+    color:#3b2a21;
+}
+
+.eames{
+   position: absolute;
+    margin: 100px 300px;
+    z-index: 1;
+}
+
+.chair{
+    position:absolute;
+    margin:40px 400px;
+    width: 1200px;
+}
