@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: red;
+}
+img{
+    width: 30vw;
+}
+.narrow{
+    width: 40vw;
+}
+a{
+    margin-bottom: 200px;
+}

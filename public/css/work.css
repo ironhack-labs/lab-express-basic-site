@@ -1,0 +1,16 @@
+img{
+    width: 30rem;
+}
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work{
+    width: 40vw;
+}
+h1,a{
+    display: table;
+    margin: 30px auto;
+}
