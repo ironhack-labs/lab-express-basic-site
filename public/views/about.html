@@ -18,10 +18,10 @@
 <body>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-film hamburger"></i>
+            <span class="navbar-toggler-icon"></span>
+
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -33,6 +33,7 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="/works">Famous Scenes</a>
+
                 </li>
             </ul>
         </div>
@@ -40,13 +41,13 @@
 
     <!-- main section  -->
     <main class="main-section">
-        <div class="heading">
-            <h1>Knowing Me... Knowing You!</h1>
-
-
-        </div>
-        <div id="about-me-section">
-
+        <div class="about-section">
+            <div class="heading">
+                <h1>Knowing Me... Knowing You!</h1>
+            </div>
+            <div id="image-steve">
+                <img src="../images/portrait-steve.jpg" alt="Steve Coogan">
+            </div>
             <section id="about">
                 <p>Stephen John Coogan (born 14 October 1965) is an English actor, voice artist, comedian,
                     screenwriter and producer. He began his career in the 1980s as a voice actor on the satirical puppet
@@ -76,11 +77,16 @@
                     Golden Globes and BAFTAs, and at the Academy Awards for Best Adapted Screenplay and Best Picture.
                 </p>
             </section>
-            <div id="image-steve">
-                <img src="../images/portrait-steve.jpg" alt="">
-            </div>
         </div>
     </main>
+
+    <!-- bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
 </body>
 
