@@ -1,0 +1,17 @@
+header {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4vw;
+    color: saddlebrown;
+}
+
+main {
+    width: 70%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
