@@ -1,0 +1,23 @@
+.paragraph-text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+.background-image-1 {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.background-image {
+  background-size: cover;
+}
