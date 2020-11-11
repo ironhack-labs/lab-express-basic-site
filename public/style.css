@@ -1,0 +1,22 @@
+body {
+    color:black;
+    background-color: bisque;
+    text-align: center;
+    position: flex;
+    font-size: 25px;
+     
+}
+
+h1 {
+
+    color: royalblue;
+    text-align: center;
+}
+
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
