@@ -1,0 +1,53 @@
+body {
+    background-color : lightgrey;
+
+}
+
+h1, h2{
+    font-family: Helvetica;
+    color: blue;
+    text-align: center;
+}
+
+.text {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    text-align: center;
+    margin: auto;
+    font-family: Helvetica;
+    width: 50%;
+    height: 50%;
+
+    /* text-align: center; */
+}
+
+.nav {
+    text-align: center;
+    margin: auto;
+    font-family: Helvetica;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.tove {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    padding: 20px;
+}
+.img {
+    width: 400px;
+}
