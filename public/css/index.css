@@ -1,0 +1,28 @@
+
+
+#lou {
+  width: 100vw;
+  /* background-color: hotpink; */
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 50vh;
+  margin-top: -56px;/* -6rem; */
+  
+}
+h1 {
+  font-size: 12rem;
+  font-weight: 900;
+  /* text-shadow: 0px 0px 20px black */
+}
+
+#bigman {
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+

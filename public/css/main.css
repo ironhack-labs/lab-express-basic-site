@@ -1,0 +1,50 @@
+@import "/css/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800;900&display=swap");
+
+body {
+  background-color: black;
+  /* background-image: url("/images/loulong.jpg"); */
+  /* background-position: 0%; */
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+  text-decoration: none;
+  
+}
+
+/* ------TOPNAV------- */
+
+.top-nav {
+  width: 100vw;
+  height: 100px;
+  /* background-color: hotpink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+#menu {
+  display: contents;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+/* ---END---TOPNAV------- */
