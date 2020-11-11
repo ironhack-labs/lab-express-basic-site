@@ -21,11 +21,11 @@ const galleryArr = [
     "Velvet-Underground-the-velvet-underground-25381466-500-337.jpg"
 ]
 const gallerySpace = document.querySelector(".gallery");
-const galleryPic = document.createElement("div");
+
 
 for (let i=0; i<galleryArr.length; i++){
-    
-    galleryPic.innerHTML =`<img src="/images/gallery/${galleryArr[1]}" />`;
+    const galleryPic = document.createElement("div"+i);
+    galleryPic.innerHTML =`<img src="/images/gallery/${galleryArr[i]}" />`;
     gallerySpace.appendChild(galleryPic);
     galleryPic.className = "gallery-pic";
 }
