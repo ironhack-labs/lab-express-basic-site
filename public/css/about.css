@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: center / cover no-repeat
+    url("https://upload.wikimedia.org/wikipedia/commons/8/8d/Visoke.jpg");
+}
+h1 {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: white;
+}
