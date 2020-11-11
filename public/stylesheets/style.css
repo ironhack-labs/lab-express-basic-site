@@ -1,0 +1,23 @@
+body {
+    color: blueviolet;
+    background-color: #F0F0EC;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50vw;
+}
+
+img {
+    max-width: 5vw;
+    height: auto;
+}
