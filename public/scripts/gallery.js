@@ -25,7 +25,8 @@ const galleryPic = document.createElement("div");
 
 for (let i=0; i<galleryArr.length; i++){
     
-    galleryPic.innerHTML =`<img src="/images/gallery/${galleryArr[0]}" />`;
+    galleryPic.innerHTML =`<img src="/images/gallery/${galleryArr[1]}" />`;
     gallerySpace.appendChild(galleryPic);
+    galleryPic.className = "gallery-pic";
 }
 
