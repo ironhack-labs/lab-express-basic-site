@@ -13,8 +13,8 @@ app.get('/mujica', (req, res) => {
     res.sendFile(__dirname + '/views/mujica.html');
 });
 
-app.get('/workofmujica', (req, res) => {
-    res.sendFile(__dirname + '/views/mujicawork.hmtl');
+app.get('/mujicawork', (req, res) => {
+    res.sendFile(__dirname + '/views/section.html');
 }); 
 
 app.listen(3000, () => {
