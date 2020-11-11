@@ -9,11 +9,16 @@ app.get('/', (request, response) => {
     // response.send('<h1>Hello from Express</h1>')
     response.sendFile(__dirname + '/views/home.html')
 })
-app.get('/hamster', (request, response) => {
-    console.log("This is the hamu page");
-    // response.send('<h1>Hello from Express</h1>')
-    response.sendFile(__dirname + '/views/hamster.html')
+app.get('/about', (request, response) => {
+    response.sendFile(__dirname + '/views/about.html')
 })
+app.get('/works', (request, response) => {
+    response.sendFile(__dirname + '/views/works.html')
+})
+app.get('/gallery', (request, response) => {
+    response.sendFile(__dirname + '/views/gallery.html')
+})
+
 
 app.listen(3000, () => {
     console.log("Server listening on port 3000");
