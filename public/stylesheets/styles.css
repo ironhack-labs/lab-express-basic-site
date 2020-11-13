@@ -1,0 +1,63 @@
+body {
+    color: red;
+    background-color: pink;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title {
+    padding: 30px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.page-text {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 30px 10px 10px 10px;
+}
+
+.card,
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    padding-top: 30px;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-deck {
+    padding: 0px 30px;
+    width: 100%
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+
+}
+
+.card-container {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
