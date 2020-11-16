@@ -1,0 +1,37 @@
+body{
+
+    font-family: Impact;
+    color: rosybrown;
+    font-size: 7em;;
+
+    background-color: royalblue;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    display: flex;
+    background-color: rgb(111, 0, 255);
+    width: 100vw;
+
+}
+
+a{
+    margin: .5em;
+    color: snow;
+
+    text-decoration: none;
+}
+
+p{
+    color: grey;
+    font-size: .4em;
+    margin: 25px;
+}
+
+img {
+    width: max-content;
+    margin: 0 3em;
+}

@@ -1,27 +1,24 @@
 const express = require('express');
 const { request } = require('http');
 const app = express();
-
-
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (request, response)=>{
-    response.send('<h1>home page</h1>');
-    //response.sendFile(__dirname + 'views/home-page.html');
-});
+    response.sendFile(__dirname + '/views/home.html');
+}); 
 
 app.get('/about', (request, response)=>{
-    response.send('<h1>about</h1>')
+    response.sendFile(__dirname + '/views/about.html');
     //
 });
 
 app.get('/works', (request, response)=>{
-    response.send('<h1>works</h1>')
+    response.sendFile(__dirname + '/views/works.html');
     //
 });
 
 app.get('/gallery', (request, response)=>{
-    response.send('<h1>gallery</h1>')
+    response.sendFile(__dirname + '/views/gallery.html');
     //
 });
 
