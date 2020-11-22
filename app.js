@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 
-app.use(express.static("public"));
+app.use(express.static('public'));
 
-app.get("/homepage", (request, response, next) => {
+app.get("/homepage",(request, response, next) => {
   response.sendFile(__dirname + "/views/homepage.html");
   next();
 });
