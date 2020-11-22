@@ -4,19 +4,23 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/homepage", (request, response, next) => {
-  res.sendFile(__dirname + "/views/homepage.html");
+  response.sendFile(__dirname + "/views/homepage.html");
+  next();
 });
 
 app.get("/about", (request, response, next) => {
-  res.sendFile(__dirname + "/views/about.html");
+  response.sendFile(__dirname + "/views/about.html");
+  next();
 });
 
 app.get("/works", (request, response, next) => {
-  res.sendFile(__dirname + "/views/works.html");
+  response.sendFile(__dirname + "/views/works.html");
+  next();
 });
 
 app.get("/gallery", (request, response, next) => {
-  res.sendFile(__dirname + "/views/gallery.html");
+  response.sendFile(__dirname + "/views/gallery.html");
+  next();
 });
 
 app.listen(3000, () => console.log("My first app listening on port 3000!"));
