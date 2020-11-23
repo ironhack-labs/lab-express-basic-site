@@ -2,9 +2,11 @@ const express = require("express");
 const app = express()
 const pathPages = `${__dirname}/views`
 
-app.get("/", (request, response, next) => response.sendFile(`${pathPages}/intro.html`));
-app.get("/page1", (request, response, next) => response.sendFile(`${pathPages}/page1.html`));
-app.get("/page2", (request, response, next) => response.sendFile(`${pathPages}/page2.html`));
-app.get("/final", (request, response, next) => response.sendFile(`${pathPages}/finalPage.html`))
+app.use(express.static("public"))
 
-app.listen(3000)
+app.get("/", (request, response, next) => response.sendFile(`${pathPages}/home.html`));
+app.get("/about", (request, response, next) => response.sendFile(`${pathPages}/about.html`));
+app.get("/works", (request, response, next) => response.sendFile(`${pathPages}/works.html`));
+
+
+app.listen(4000,() => console.log('🏃‍ on port 4000 '))

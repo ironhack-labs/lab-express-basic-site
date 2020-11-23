@@ -1,0 +1,37 @@
+body{
+    background-image: url("/images/Aracataca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    margin-top: 400px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    height:800px; 
+}
+
+p{
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+    margin-top: 80px;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
