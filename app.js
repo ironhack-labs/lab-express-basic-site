@@ -3,6 +3,9 @@ const app = express();
 
 app.use(express.static('public'))
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/view/home.html')
+})
 app.get('/home', (req, res) => {
     res.sendFile(__dirname + '/public/view/home.html')
 })
