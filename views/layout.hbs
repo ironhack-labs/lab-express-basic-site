@@ -16,17 +16,20 @@
     <script type="module" src="/js/{{this}}.js"></script>
     {{/each}}
 </head>
+<header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/argentina">Argentina</a>
+        <a href="/china">China</a>
+        <a href="/france">France</a>
+    </nav>
+</header>
 
 <body>
-    <nav>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-    </nav>
     {{{body}}}
-
-    <footer>
-        {{copyright}}
-    </footer>
 </body>
+<footer>
+    {{copyright}}
+</footer>
 
 </html>
