@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+#navbar {
+width: 100vw;
+display: flex;
+text-decoration: none;
+background: rgb(22, 22, 59);
+padding: 20px;
+}
+
+#navbar a {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    }
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.psg {
+    width: 100vw;
+}
+
+.dates {
+    /* position: absolute;
+    top: 100vw;
+    right: 40px; */
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100vw;
+    height: 50vh;
+}
+
+.dates li {
+    list-style: none;
+}
+
+.articles {
+    display: flex;
+    /* justify-items: space-around;*/
+    /* align-items: center;  */
+    border: 1px solid;
+    width: 100vw;
+    height: 50vh;
+}
+
+.item {
+    flex: 1;
+    color: black;
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+;
+}
+
+.image {
+    width: 277px;
+    height: 184px;
+}
+
+.e-commerce {
+    display: flex;
+    /* justify-items: space-around;*/
+    /* align-items: center;  */
+    border: 1px solid;
+    width: 100vw;
+    height: 50vh;
+}
+
+.clothes {
+    flex: 1;
+    color: black;
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+;
+}
+
+.clothesImg {
+    width: 277px;
+    height: 184px;
+}
