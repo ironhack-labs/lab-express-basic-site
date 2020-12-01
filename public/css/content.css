@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Spicy+Rice&display=swap');
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+nav li {
+    list-style-type: none;
+}
+
+nav li:hover{
+    color: pink;
+} 
+
 body {
     margin : 0;
     padding: 0;

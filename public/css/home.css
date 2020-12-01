@@ -33,7 +33,7 @@ main h1 {
 }
 
 .header {
-    background-image: url("/public/assets/ice-wallpaper.jpg");
+    background-image: url("/assets/ice-wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
