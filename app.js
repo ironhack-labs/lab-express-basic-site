@@ -7,7 +7,7 @@ app.use(express.static(__dirname + "/public"));
 app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 
-app.get("/", (req, res) => {
+app.get(["/", "/home"], (req, res) => {
   res.render("home");
 });
 
