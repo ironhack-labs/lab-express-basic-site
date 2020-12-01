@@ -1,11 +1,17 @@
 <h1>Name {{name}}</h1>
-<img src="" alt="" class="flag">
-<p>capital{{capital}}</p>
-<p>language{{language}}</p>
-<p>Population{{population}}</p>
-<p>Religion{{religion}}</p>
-<p>Area{{area}}</p>
-<p>GDP{{GDP}}</p>
-<p>Currency{{currency}} </p>
-<p>Time zone{{timeZone}}</p>
-<p>Culture{{culture}}</p>
+<img src="/img/argentina.png" alt="argentina-flag" class="flag">
+<p>capital {{capital}}</p>
+<p>language {{language}}</p>
+<p>Population {{population}}</p>
+<p>Religion
+<ul>
+    {{#each religion}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+</p>
+<p>Area {{area}}</p>
+<p>GDP {{GDP}}</p>
+<p>Currency {{currency}} </p>
+<p>Time zone {{timeZone}}</p>
+<p>Culture {{culture}}</p>
