@@ -66,3 +66,11 @@ nav a {
 .flag-page {
   width: 50vw;
 }
+
+.culture {
+  display: none;
+}
+
+.culture.is-active {
+  display: block;
+}
