@@ -16,6 +16,10 @@ nav {
   background-color: white;
 }
 
+#main-block {
+  margin-top: 20px;
+}
+
 #home {
   margin-left: 10px;
 }
@@ -24,11 +28,41 @@ nav {
   margin-right: 10px;
 }
 
-.flag {
-  width: 30vw;
-}
-
 #welcome {
   text-align: center;
   margin-bottom: 50px;
+}
+
+#home a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#countries {
+  text-transform: uppercase;
+}
+
+#countries a {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#flags-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flags-home img {
+  margin: 10px;
+  width: 30vw;
+}
+
+/* SPECIFIC TO COUNTRIES */
+
+.flag-page {
+  width: 50vw;
 }
