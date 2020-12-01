@@ -65,3 +65,9 @@ nav a {
   font-size: 20px;
   right: 40vw;
 }
+
+h2 {
+  text-decoration: underline #b90765;
+  text-underline-position: under;
+  left: 40 px;
+}
