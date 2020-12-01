@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Spicy+Rice&display=swap');
+
+body {
+    margin : 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+nav li {
+    list-style-type: none;
+}
+
+nav li:hover{
+    color: pink;
+} 
+
+main h1,
+main article {
+    text-align: center;
+}
+
+main h1 {
+    font-family:'Spicy Rice', cursive;
+    font-size: 3rem;
+    text-shadow: rgb(53, 53, 42) 1px 0 10px;
+    color: white;
+}
+
+.header {
+    background-image: url("/public/assets/ice-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.judges {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 235, 231);
+    margin: 0;
+}
+
+.first-judge,
+.second-judge {
+    text-align: center;
+}
+
+.fun-fact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fact-txt {
+    text-align: center;
+}
+
+.btn {
+    display:flex;
+    justify-content: center;
+}
+#next-btn {
+    text-decoration: none;
+    border: 3px;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.3rem;
+    background-color: rgb(241, 235, 231);
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    background-color: rgb(241, 235, 231);
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
