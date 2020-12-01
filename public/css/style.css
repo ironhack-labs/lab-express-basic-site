@@ -40,13 +40,17 @@ nav {
 
 nav a {
   padding: 50px 100px;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 30px;
+  text-decoration: underline #b90765;
+  text-underline-position: under;
 }
 
 #title {
   position: relative;
   left: 40px;
+  text-decoration: underline #b90765;
+  text-underline-position: under;
 }
 
 #bio {
@@ -72,16 +76,18 @@ nav a {
 .top-album {
   position: relative;
   align-items: center;
-  left: 40vw;
+  /* left: 40vw; */
   line-height: 20px;
   font-size: 20px;
   margin: 10px;
+  text-align: center;
 }
 
 h2 {
   position: relative;
   text-decoration: underline #b90765;
   text-underline-position: under;
-  left: 30vw;
+  /* left: 30vw; */
+  text-align: center;
   margin: 10px;
 }
