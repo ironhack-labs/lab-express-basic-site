@@ -1,0 +1,10 @@
+.phil-images {
+  width: 50vw;
+}
+
+.phil-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
