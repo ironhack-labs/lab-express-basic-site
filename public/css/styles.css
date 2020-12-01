@@ -1,10 +1,35 @@
-.phil-images {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
   width: 50vw;
 }
 
-.phil-page {
+div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+nav{
+  padding: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: chartreuse;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color:chocolate;
+}
+
+p{
+  margin: 15px;
+  width: 60vw;
 }

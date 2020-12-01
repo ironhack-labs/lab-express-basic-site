@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
       images: "Diana-home",
       captions: "caption 1",
     },
+    // audio: []
   });
 });
 
