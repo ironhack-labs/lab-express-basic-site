@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country intro - {{ pageTitle }}</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    {{#each css}}
+    <link rel="stylesheet" href="/css/{{this}}.css">
+    {{/each}}
+
+    {{#each js}}
+    <script type="module" src="/js/{{this}}.js"></script>
+    {{/each}}
+</head>
+
+<body>
+    <nav>
+        <a href="/">home</a>
+        <a href="/about">about</a>
+    </nav>
+    {{{body}}}
+
+    <footer>
+        {{copyright}}
+    </footer>
+</body>
+
+</html>
