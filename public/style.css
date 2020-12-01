@@ -1,0 +1,20 @@
+* {
+  margin: 20px;
+  padding: 0;
+
+  font-family: "Roboto";
+}
+
+html,
+body {
+  font-size: 10px;
+
+  background-color: rgb(15, 15, 15);
+}
+
+.text {
+  text-decoration: none;
+  color: rgba(207, 204, 30, 0.849);
+  border-bottom: 2px solid transparent;
+  font-size: 50px;
+}
