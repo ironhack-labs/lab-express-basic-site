@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  margin-left: 2%;
 }
 
 nav {
@@ -14,6 +22,8 @@ nav {
   -webkit-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.15);
   background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
 
 #main-block {
@@ -73,4 +83,22 @@ nav a {
 
 .culture.is-active {
   display: block;
+}
+
+
+h1 {
+  margin: 1%;
+}
+
+p {
+  font-weight: 300;
+  padding: 2px;
+  margin-left: 2%;
+}
+
+
+ul li {
+  font-weight: 100;
+  margin-left: 4%;
+  list-style-type: square;
 }
