@@ -12,22 +12,56 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.photo-homepage {
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.home > .photo-homepage {
   height: 70vh;
   width: auto;
+  position: absolute;
+  margin: 30px;
 }
 
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 10vh;
+  height: 15vh;
 }
 
 nav a {
-  padding: 0 100px;
+  padding: 50px 100px;
   text-decoration: none;
+  font-size: 30px;
+}
+
+#title {
+  position: relative;
+  left: 40px;
+}
+
+#bio {
+  position: relative;
+  text-align: left;
+  line-height: 40px;
+  padding: 40px;
+}
+
+.sing a {
+  position: absolute;
+  color: #b90765;
+  background-color: transparent;
+  bottom: 10px;
+  size: 30px;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  right: 40vw;
 }

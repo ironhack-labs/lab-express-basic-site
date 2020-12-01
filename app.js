@@ -16,3 +16,4 @@ app.get("/about", (req, res) => {
 app.listen(3000, () => {
   console.log("server is reeady! : http://localhost:3000");
 });
+
