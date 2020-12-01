@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   background-image: url(/images/stars.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,6 +54,7 @@ nav a {
   text-align: left;
   line-height: 40px;
   padding: 40px;
+  font-size: 20px;
 }
 
 .sing a {
@@ -64,4 +67,12 @@ nav a {
   text-decoration: none;
   font-size: 20px;
   right: 40vw;
+}
+
+.top-album {
+  position: relative;
+  align-items: center;
+  left: 40vw;
+  line-height: 40px;
+  font-size: 20px;
 }
