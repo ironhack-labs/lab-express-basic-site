@@ -5,27 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country intro - {{ pageTitle }}</title>
-
     <link rel="stylesheet" href="/css/styles.css">
-
-    {{#each css}}
-    <link rel="stylesheet" href="/css/{{this}}.css">
-    {{/each}}
-
-    {{#each js}}
-    <script type="module" src="/js/{{this}}.js"></script>
-    {{/each}}
 </head>
-<header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/argentina">Argentina</a>
-        <a href="/china">China</a>
-        <a href="/france">France</a>
-    </nav>
-</header>
 
 <body>
+    <nav>
+        <div id="home"><a href="/">Home</a></div>
+        <div id="countries">
+            <a href="/argentina">Argentina</a>
+            <a href="/china">China</a>
+            <a href="/france">France</a>
+        </div>
+    </nav>
     {{{body}}}
 </body>
 <footer>
