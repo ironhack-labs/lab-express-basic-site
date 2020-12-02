@@ -1,5 +1,9 @@
 const btn = document.getElementById("next-btn");
 
+const body = document.querySelector("body");
+
+const funFact = document.getElementById("fun-click");
+
 btn.onclick = function handler () {
     location.href = "/content";
 };
@@ -15,14 +19,15 @@ var iceQuotes = [
     "You can find ice cream commonly flavored with octopus, cow tongue, and shrimp in Tokyo, Japan"
 ]
 
+// HANDLER
 // function shuffleQuote () {
 //     if (document.location.reload()) {
         
 //     }
 // }
 
-btn.addEventListener("DOMContentLoaded", () => {
+funFact.addEventListener("click", () => {
     var randomNumber = Math.floor(Math.random() * (iceQuotes.length));
-    document.getElementById("fun-quote").innerHTML = iceQuotes[randomNumber];
+    document.getElementById("fun-quote").innerHTML = ` "${iceQuotes[randomNumber]}" `;
 });
 

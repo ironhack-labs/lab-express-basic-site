@@ -22,9 +22,21 @@ nav li {
     list-style-type: none;
 }
 
-nav li:hover{
+nav ul:visited {
+    list-style-type: none;
     color: pink;
 } 
+
+nav li:visited {
+    list-style-type: none;
+    color: pink;
+} 
+
+nav li:hover {
+    color: pink;
+} 
+
+
 
 main h1,
 main article {
@@ -44,6 +56,8 @@ main h1 {
 main article {
     text-shadow: rgb(238, 17, 138) 6px 0 6px;
     font-weight: 1000;
+    color: white;
+    font-size: 1.3rem;
 }
 
 main h1:hover {
@@ -87,6 +101,22 @@ main h1:hover {
     border: white 1px;
     padding: 0;
 }
+
+#judge-one:hover,
+#judge-two:hover {
+    animation: wiggle 1s ease-in;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    } 45% {
+        transform: rotate(-8deg);
+    }100% {
+        transform: rotate(8deg);
+    }
+}
+
 #judge-two {
     width: 40%;
     border: white 1px;
@@ -105,6 +135,7 @@ main h1:hover {
 .fact-txt p:first-child {
     font-family: 'Spicy Rice', cursive;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .fact-txt p:last-child {
