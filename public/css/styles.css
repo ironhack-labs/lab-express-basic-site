@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Texturina;
+  background-color: black;
+  background-image: url("/img/background.jpg");
+}
+
+nav a {
+  color: red;
+  font-size: 1.3em;
+  margin: 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: blue;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: orange;
+}
+
+.homeText {
+  color: white;
+  margin: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.aboutText {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  width: 400px;
+}
+
+.titleHome h1 {
+  color: white;
+  font-size: 4em;
+  margin: 50px;
+  text-align: center;
+  border: 10px double yellow;
+  max-width: 600px;
+  min-width: 300px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+.titleHome {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .titleHome {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* 
+.subHome {
+  display: flex;
+  justify-content: center;
+} */
+
+.kanyeImg {
+  height: 300px;
+  width: auto;
+  background: transparent;
+  border: none;
+  animation: move infinite 3s linear;
+}
+
+@keyframes move {
+  0% {
+    height: 180px;
+  }
+  50% {
+    height: 200px;
+  }
+
+  100% {
+    height: 180px;
+  }
+}
+
+.titleAbout {
+  margin: 50px auto 50px 15px;
+  border: white solid 2px;
+  background-color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.titleAbout h2 {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.albumImg {
+  width: 350px;
+  height: auto;
+  margin: 20px;
+  border: dotted 10px red;
+}
+
+.albumPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .albumPart {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.int {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  .int {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.albumTitle {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}

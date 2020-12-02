@@ -1,0 +1,26 @@
+{
+  "name": "gitconflict",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "nodemon ./app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lepfau/gitconflict.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lepfau/gitconflict/issues"
+  },
+  "homepage": "https://github.com/lepfau/gitconflict#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
