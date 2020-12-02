@@ -7,6 +7,9 @@
     <title>Footbal website - {{pageTitle}}</title>
     <link rel="stylesheet" href="/css/style.css">
 
+    {{#each js}}
+    <script type="module" src="/js/{{this}}.js"></script>
+    {{/each}}
 </head>
 
 <body>

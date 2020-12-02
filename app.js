@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
   res.render("home", {
     pageTitle: "homepage",
     logo: "/image/logo.png",
+    js: ["index"],
     image: "/image/psg.jpg",
     manchester: "/image/manchester.png",
     montpellier: "/image/montpellier.png",
@@ -32,6 +33,7 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     pageTitle: "about page",
+    js: ["index"],
     image2: "/image/psg-2.jpg",
     facts: "Facts",
     sumup: [
@@ -47,8 +49,10 @@ app.get("/about", (req, res) => {
     name: "Thomas Tuchel",
     property: "Property",
     name2: "Qatar Sports Investments",
-    pdg: "PDG",
+    pdg: "CEO",
     name3: "Nasser al-Khelaïfi",
+    calypso: "Calypso Asline",
+    menhaj: "Menhaj Safi",
   });
 });
 

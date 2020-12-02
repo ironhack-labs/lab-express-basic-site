@@ -1,124 +1,184 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 16px;
-background: rgb(238, 230, 230);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: rgb(238, 230, 230);
 }
 
 #navbar {
-width: 100vw;
-display: flex;
-text-decoration: none;
-background: rgb(22, 22, 59);
-padding: 20px;
+  width: 100vw;
+  display: flex;
+  text-decoration: none;
+  background: rgb(22, 22, 59);
+  padding: 20px;
 }
 
 #navbar a {
-    width: 20vw;
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    color: white;
-    }
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+}
 
 #main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 
 .psg {
-    width: 100vw;
+  width: 100vw;
 }
 
 #dates-container {
-    margin: 20px;
-    width: 100vw;
-    height: 40vh;
-
+  margin: 20px;
+  width: 100vw;
+  height: 40vh;
 }
 
 .team {
-    width: 30px;
+  width: 30px;
 }
 
 .date {
-    padding: 10px;
+  padding: 10px;
 }
 
 .date ul {
-    list-style: none;
+  list-style: none;
 }
 
 .articles {
-    display: flex;
-    width: 100vw;
-    height: 50vh;
-    background: rgb(238, 230, 230);
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  background: rgb(238, 230, 230);
 }
 
 .item {
-    flex: 1;
-    text-align: center;
-    background: white;
-    box-shadow: 1px 1px 3px black;
+  flex: 1;
+  text-align: center;
+  background: white;
+  box-shadow: 1px 1px 3px black;
 }
 
 .item img {
-    width: 298px;
-    height: 184px;
+  width: 298px;
+  height: 184px;
 }
 
 .item h4 {
-    padding: 30px;;
+  padding: 30px;
 }
 
 .itemDiff {
-    background: rgb(22, 22, 59);
-    text-align: center;
-    flex: 1;
-    color: white;
-    box-shadow: 1px 1px 3px black;
+  background: rgb(22, 22, 59);
+  text-align: center;
+  flex: 1;
+  color: white;
+  box-shadow: 1px 1px 3px black;
 }
 
 .itemDiff img {
-    width: 298px;
-    height: 184px;
+  width: 298px;
+  height: 184px;
 }
 
 .itemDiff h4 {
-    padding: 30px;;
+  padding: 30px;
 }
 
 #container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .it {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .paragraph {
-display: flex;
-flex-direction: column;
-padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .it ul {
-    list-style: none;
+  list-style: none;
 }
 
+.btn {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+  background: rgb(22, 22, 59);
+  border: none;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 7px;
+  }
+  .close-button:hover {
+    color: #fff8db;
+    background: #eb4d4d;
+    box-shadow: 0 0 10px #eb4d4d;
+    transition-delay: 0.1s;
+  }
+  .modal-body {
+    padding: 10px 15px;
+  }
+
+  #modal {
+    background: white);
+    box-shadow: 0px 10px 50px rgb(255, 0, 0);
+  }
