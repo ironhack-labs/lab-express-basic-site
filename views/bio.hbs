@@ -1,13 +1,13 @@
 <h1>Diana's bio</h1>
 <div class="all-images">
-    <div class="each-image-and-caption">
-        {{#each imageCaptions}}
+    {{#each imageCaptions}}
+        <div class="each-image-and-caption">
         <img src="./img/{{this.images}}.jpg" alt="">
-        <p>{{this.captions}}</p>
-        {{/each}}
-    </div>
+        <p>Caption {{@index}}</p>
+        </div>
+    {{/each}}
 </div>
-    <p>Diana Frances Spencer was born on 1 July 1961 at Park House, Sandringham, Norfolk. 
+    <p class="paragraphs">Diana Frances Spencer was born on 1 July 1961 at Park House, Sandringham, Norfolk. 
         She was the fourth of five children of John Spencer, Viscount Althorp (1924–1992), and 
         Frances Spencer, Viscountess Althorp (née Roche; 1936–2004).
         The Spencer family had been closely allied with the British royal family for several generations; 
@@ -17,7 +17,7 @@
         mother and after Lady Diana Spencer, a many-times-great-aunt who was also a prospective Princess of Wales. 
         Within the family, she was also known informally as "Duch", a reference to her duchess-like attitude in 
         childhood</p>
-    <p>Diana was initially home-schooled under the supervision of her governess, Gertrude Allen. 
+    <p class="paragraphs">Diana was initially home-schooled under the supervision of her governess, Gertrude Allen. 
         She began her formal education at Silfield Private School in Gayton, Norfolk, and moved to 
         Riddlesworth Hall School, an all-girls boarding school near Thetford, when she was nine.
         She joined her sisters at West Heath Girls' School in Sevenoaks, Kent, in 1973.

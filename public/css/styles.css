@@ -4,24 +4,41 @@
   box-sizing: border-box;
 }
 
+#home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1 {
   text-align: center;
+  margin: 20px 0px;
 }
 
 img {
   /* width: 50vw; */
 }
 
+.carlos {
+  margin: 30px;
+}
+
 .all-images {
   display: flex;
+  flex-wrap: wrap;
   /* flex-direction: column;
   justify-content: center;
   align-items: center; */
 }
 
 .each-image-and-caption {
-  display: flex;
-  flex-direction: column;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phil-images {
+  width: 40vw;
 }
 
 nav {
@@ -39,6 +56,14 @@ a {
 }
 
 p {
-  margin: 15px;
-  width: 60vw;
+  text-align: center;
+}
+
+.paragraphs {
+  margin: 30px 50px;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: firebrick;
 }
