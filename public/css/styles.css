@@ -23,6 +23,9 @@ nav a:hover {
 }
 
 nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
   display: flex;
   justify-content: flex-start;
   background-color: orange;
