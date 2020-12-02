@@ -99,7 +99,7 @@ nav {
   width: auto;
   background: transparent;
   border: none;
-  animation: move infinite 3s linear;
+  animation: move infinite 3s ease;
 }
 
 @media (max-width: 800px) {
@@ -155,7 +155,7 @@ nav {
 }
 
 .albumImg:hover {
-  animation: grow 1s ease;
+  animation: grow 1s ease-in;
   animation-fill-mode: forwards;
 }
 
