@@ -4,6 +4,7 @@ const app = express();
 app.use(express.static(__dirname + "/public"));
 
 app.set("view engine", "hbs");
+app.locals.copyright = "copy@fanofmylene";
 
 app.get("/", (req, res) => {
   res.render("home");
@@ -19,6 +20,10 @@ app.get("/about", (req, res) => {
       { titre: "Point de suture", annee: 2008 },
     ],
   });
+});
+
+app.get("/videos", (req, res) => {
+  res.render("videos");
 });
 
 app.listen(3000, () => {
