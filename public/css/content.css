@@ -61,4 +61,10 @@ body {
     height: 35vh;
 }
 
+footer p {
+    text-align: center;
+    background-color: rgb(241, 235, 231);
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
 
