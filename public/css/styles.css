@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap");
 
 * {
   padding: 0;
@@ -57,6 +57,7 @@ nav {
 }
 
 .titleHome {
+  padding-top: 40px;
   margin: 40px;
   display: flex;
   justify-content: center;
@@ -75,12 +76,40 @@ nav {
   justify-content: center;
 } */
 
-.kanyeImg {
+.kanyeImg1 {
+  position: absolute;
+  left: 250px;
+  top: 200px;
   height: 300px;
   width: auto;
   background: transparent;
   border: none;
   animation: move infinite 3s linear;
+}
+
+.kanyeImg2 {
+  position: absolute;
+  right: 250px;
+  top: 200px;
+  height: 300px;
+  width: auto;
+  background: transparent;
+  border: none;
+  animation: move infinite 3s linear;
+}
+
+@media (max-width: 800px) {
+  .kanyeImg1 {
+    top: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  .kanyeImg2 {
+    left: 20px;
+    top: 0px;
+    margin-top: 50px;
+  }
 }
 
 @keyframes move {
