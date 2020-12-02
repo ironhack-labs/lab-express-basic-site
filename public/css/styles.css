@@ -1,21 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-img {
-  width: 50vw;
+h1 {
+  text-align: center;
 }
 
-div {
+img {
+  /* width: 50vw; */
+}
+
+.all-images {
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.each-image-and-caption {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-nav{
+nav {
   padding: 10px;
   margin-bottom: 50px;
   display: flex;
@@ -23,13 +32,13 @@ nav{
   background-color: chartreuse;
 }
 
-a{
+a {
   font-size: 20px;
   text-decoration: none;
-  color:chocolate;
+  color: chocolate;
 }
 
-p{
+p {
   margin: 15px;
   width: 60vw;
 }
