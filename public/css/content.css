@@ -9,6 +9,13 @@ nav li {
     list-style-type: none;
 }
 
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: white;
+}
+
 nav li:hover{
     color: pink;
 } 
@@ -20,10 +27,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 #content-header {
-    margin-bottom: 5vw;
+
+    margin: 5vw 0vw 5vw 0vw;
 }
 
 .icecream {
@@ -66,5 +75,6 @@ footer p {
     background-color: rgb(241, 235, 231);
     margin-top: 7rem;
     margin-bottom: 7rem;
+    width: 100%;
 }
 
