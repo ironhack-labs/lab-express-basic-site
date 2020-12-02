@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+}
+
+nav {
+    padding: 0;
+    margin: O;
+    border: none;
+}
+
+#logo {
+    height: 50px;
+    width: 50px
 }
 
 #container {
@@ -14,9 +24,41 @@
 
 }
 
-
+#nav-box {
+    border: blanchedalmond;
+}
 
 img {
     width: 500px;
     height: 300px;
+}
+
+.display {
+    display: flex;
+}
+
+footer {
+    background-color: blanchedalmond;
+  text-align: center;
+  font-size: 1.9em;
+  padding: 40px 100px 40px 100px;
+  marging-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100VW;
+  
+}
+
+.adresse {
+  margin-bottom: 30px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+.map-frame {
+  height: 375px;
+  width: 60%;
 }

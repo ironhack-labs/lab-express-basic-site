@@ -15,6 +15,10 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
+app.get("/map", (req, res) => {
+  res.render("map");
+});
+
 app.listen(3000, () => {
   console.log("The cool server ! http://localhost:3000");
 });
