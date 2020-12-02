@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 
 app.get("/argentina", (req, res) => {
   res.render("argentina", {
+    js: ["gallery"],
     pageTitle: "Argentina",
     name: "Argentina",
     capital: "Buenos Aires",
@@ -40,6 +41,7 @@ app.get("/argentina", (req, res) => {
 
 app.get("/china", (req, res) => {
   res.render("china", {
+    js: ["gallery"],
     pageTitle: "China",
     name: "China",
     capital: "Beijing",
@@ -56,6 +58,7 @@ app.get("/china", (req, res) => {
 
 app.get("/france", (req, res) => {
   res.render("france", {
+    js: ["gallery"],
     pageTitle: "France",
     name: "France",
     capital: "Paris",
