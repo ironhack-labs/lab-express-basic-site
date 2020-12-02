@@ -58,6 +58,7 @@ body {
 
 .text p {
     font-size: 1.2rem;
+    text-align: justify;
 }
 
 #leb-ice {
@@ -107,4 +108,5 @@ footer p {
     font-size: 1rem;
     outline: none;
     transition: all .2s ease-in-out; 
+    padding: 0;
 }
