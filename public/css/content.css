@@ -33,6 +33,8 @@ body {
 #content-header {
 
     margin: 5vw 0vw 5vw 0vw;
+    font-size: 2rem;
+    border-bottom: rgb(187, 186, 186) solid 1px;
 }
 
 .icecream {
@@ -50,24 +52,36 @@ body {
     width: 45vw;
 }
 
+.text h2 {
+    font-size: 2rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
+
 #leb-ice {
-    width: 25vw;
-    height: 65vh;
+    max-width: 25vw;
+    width: 100%;
+    height: auto;
 }
 
 #ita-ice {
-    width: 25vw;
-    height: 65vh;
+    max-width: 25vw;
+    width: 100%;
+    height: auto;
 }
 
 #sundae-ice {
-    width: 25vw;
-    height: 55vh;
+    max-width: 25vw;
+    width: 100%;
+    height: auto;
 }
 
 #jap-ice {
-    width: 25vw;
-    height: 35vh;
+    max-width: 25vw;
+    width: 100%;
+    height: auto;
 }
 
 footer p {
@@ -78,3 +92,19 @@ footer p {
     width: 100%;
 }
 
+.recipe-link:hover {
+    text-shadow: rgb(128, 128, 126) 1px 5px 5px;
+    color: rgb(197, 150, 21);
+    border: none;
+    transform: scale(1.03); 
+    
+}
+
+.recipe-link {
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+    transition: all .2s ease-in-out; 
+}
