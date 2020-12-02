@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 20px;
+}
+
 nav {
     padding: 0;
     margin: O;
@@ -20,9 +24,26 @@ nav {
     justify-content: space-between  ;
     flex-direction: row;
     flex-wrap: wrap;
+    /* background-image: url(/img/violences_conjuguales_5e96efe7a6b00.webp);
+    background-size: cover;
+    background-repeat: no-repeat; */
     /* width: 100vw; */
 
 }
+
+#page-about {
+    padding: 20px;
+    background-image: url(/img/LaFourchette-guide-restaurant-Strasbourg-4.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+}
+
 
 #nav-box {
     border: blanchedalmond;
