@@ -4,7 +4,8 @@ const app = express();
 app.use(express.static(__dirname + "/public"));
 
 app.set("view engine", "hbs");
-app.locals.copyright = "copy@fanofmylene";
+
+// app.locals.copyright = "copy@fanofmylene";
 
 app.get("/", (req, res) => {
   res.render("home");
