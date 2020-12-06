@@ -1,0 +1,23 @@
+.li {
+  text-decoration: none;
+  text-decoration-style: none;
+}
+.btn {
+  border: black solid 1px;
+  width: 75px;
+  margin: 1%;
+  border-radius: 25px;
+  text-align: center;
+}
+.btn a {
+  text-decoration: none;
+}
+
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  height: 250px;
+  margin: 1%;
+}
