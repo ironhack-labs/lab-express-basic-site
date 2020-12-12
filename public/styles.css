@@ -18,15 +18,17 @@
   width: 100%;
 }
 
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.leftSide {
+  background-color: #0a2458;
+}
+
 .victoryPicture {
   width: 100%;
 }
 
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-/* color
-
-dark blue = 0a2458 */
+/* dark blue = 0a2458 */
