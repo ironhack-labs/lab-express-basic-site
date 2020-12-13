@@ -64,3 +64,19 @@ footer {
   text-align: center;
   padding: 30px;
 }
+
+#img-1 {
+  margin-left: 120px;
+  width: 30%;
+  height: 30%;
+}
+
+#img-2 {
+  width: 28%;
+  height: 28%;
+}
+
+#img-3 {
+  width: 340px;
+  height: 15%;
+}
