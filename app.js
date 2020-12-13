@@ -1,24 +1,33 @@
 const express = require('express');
 
+const hbs = require('hbs');
+
+hbs.registerPartials(__dirname + '/views/partials');
+
 const app = express();
 
-// Making files in "public" directory available to the browser
+app.set('view engine', 'hbs');
+
+app.set('views', __dirname + '/views');
+
+app.locals.pageTitle = 'The Bill Gates Blog';
+
 app.use(express.static('public'));
 
-app.get('/home', function (request, response) {
-  response.sendFile(__dirname + '/views/home.html');
+app.get('/home', (request, response) => {
+  response.render('home', { pageTitle: 'Home' });
 });
 
-app.get('/about', function (request, response) {
-  response.sendFile(__dirname + '/views/about.html');
+app.get('/about', (request, response) => {
+  response.render('about', { pageTitle: 'About' });
 });
 
-app.get('/work', function (request, response) {
-  response.sendFile(__dirname + '/views/work.html');
+app.get('/work', (request, response) => {
+  response.render('work', { pageTitle: 'Work' });
 });
 
-app.get('/gallery', function (request, response) {
-  response.sendFile(__dirname + '/views/gallery.html');
+app.get('/gallery', (request, response) => {
+  response.render('gallery', { pageTitle: 'Photo Gallery' });
 });
 
 app.listen(3000);

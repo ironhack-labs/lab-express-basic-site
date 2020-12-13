@@ -1,0 +1,49 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+  width: 100%;
+  padding: 200px 0;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-image: url('/images/bill-gates-1280x720.jpg');
+  
+  text-align: center;
+}
+
+section {
+    width: 720px;
+    margin: 0 auto;
+  }
+
+h3 {
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
