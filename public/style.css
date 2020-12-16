@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: maroon;
+}
+
+header {
+    position: fixed;
+    background-color: firebrick;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.guitars {
+    width: 30%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.intro p {
+    font-size: 2em;
+    text-align: justify;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.guitars2 {
+    width: 30%;
+    height: 100%;
+}
+
+.bands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
