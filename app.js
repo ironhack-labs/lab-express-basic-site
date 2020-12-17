@@ -12,7 +12,7 @@ app.get("/bands", (req, res, next) => {
     res.sendFile(__dirname + '/views/bands.html')
 });
 
-app.get("/jimmy", (req, res, next) => {
+app.get("/biografia", (req, res, next) => {
     res.sendFile(__dirname + '/views/biografia.html')
 });
 
