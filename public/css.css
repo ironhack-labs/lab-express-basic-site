@@ -1,0 +1,51 @@
+* {
+    box-sizing: content-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+
+}
+
+
+body {
+    background: url('/images/logo2.png') no-repeat ;
+    background-size: 7%;     
+    margin:10px 0 0 10px;        
+    background-color: rgba(0,122,51);
+      
+    
+    
+   
+    
+}
+
+header {
+    display: flex; 
+    flex-direction: column; 
+    text-align: justify;    
+    margin: 30px 80px 20px 70px;
+    
+    
+
+}
+P {
+    margin: 30px 80px 20px 70px;
+    text-align: justify;  
+}
+
+h1, h2 {
+    text-align: center;
+} 
+ul {
+    margin-left: 70px;
+    list-style-position: inside;
+    list-style: square inside;
+
+} 
+
+.stats {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
