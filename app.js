@@ -11,13 +11,17 @@ app.use(function (req, res, next){
 });
 
 app.get('/',(req, res)=>{
-     res.render('./views/home.html');
+     res.render('/views/index.html');
     });
 app.get('/about',(req, res)=>{
-    return res.render('./views/about.html');
+     res.render('/views/about.html');
     });
 app.get('/works',(req, res)=>{
-    return res.render('./views/works.html');
+     res.render('/views/works.html');
+    });
+
+    app.get('*', (req, res) => {
+        res.end('File not found ');
     });
 
 app.listen(3000, () => {
