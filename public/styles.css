@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    border-radius: 4px;
+  }
+  
+  .header-div {
+    background-color: #1c5380;
+  }
+  
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+ 
+  .top-banner {
+    background-color: #1c5380;
+    width: 30%;
+    padding-top: 15px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    width: 700px;
+    padding: 5% 35% 0 35%;
+    justify-content: space-between;
+    color: #6e706c;
+  }
+  
+  
+  
+  li {
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+    font-size: 10px;
+    text-decoration: none;
+  }
