@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.centerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBQ {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.centerHomeCl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-right: 50px;
+}
+
+.ImageSz {
+    height: 100px;
+    width: 300px;
+}
