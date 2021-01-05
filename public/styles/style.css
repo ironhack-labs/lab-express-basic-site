@@ -22,7 +22,9 @@
     margin-right: 50px;
 }
 
-.ImageSz {
-    height: 100px;
-    width: 300px;
+.centerGallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
