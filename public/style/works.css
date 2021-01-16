@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html { 
+    height: 100%;
+    margin:0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    height:70px;
+    background-color: #090b13;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.pages-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    width: 45%;
+    margin-right: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-size: 1rem;
+    border: 1px solid white;
+    background: rgba(0,0,0,.6);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    font-size: 1rem;
+    width: 9vw;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    color: black;
+    background-color: rgba(255,255,255,1)
+}
+
+.logo-container{
+    margin-left: 2%;
+}
+
+h3{
+    color: white;
+}
+
+/* STARTING WORK ON SECTION1 OF WORKS PAGE */
+
+#section1{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#main-text{
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+.works-list{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+}
+
+img{
+    width: 150px;
+    height: 300px;
+}
+
+
+
