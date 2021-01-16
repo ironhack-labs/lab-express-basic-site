@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+  }
+header {
+    color: lightgray;
+}
+  header, main{
+      padding: 10px;
+  }
