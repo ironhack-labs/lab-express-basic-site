@@ -1,0 +1,23 @@
+
+.hero {
+    position: relative;
+}
+
+.hero > .container {
+    height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-height: calc(100vh - 56px);
+    min-width: 100vw;
+    background-image: linear-gradient(#0000007e 0%, #000000c7 100%), url('/assets/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
