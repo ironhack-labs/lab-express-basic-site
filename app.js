@@ -5,7 +5,7 @@ const app= express();
 //Add Public forlder for static files
 app.use(express.static('public'));
 
-//Routes to htmls
+//Routes to html
 app.get('/home', (request, response, next) => {
     response.sendFile(__dirname + '/views/home.html')
   });
