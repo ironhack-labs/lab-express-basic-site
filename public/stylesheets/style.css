@@ -1,4 +1,120 @@
 body {
-    color: blue;
-    background-color: bisque;
+    color: black;
+    background-image: url('../images/fondop.webp');
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,Arial, Helvetica;
   }
+
+
+.nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2% 10%;
+    
+
+}
+
+.nav ul li{
+    padding: 0 2%;
+    list-style-type: none;
+    background-color: rgba(65, 143, 223, 0.9);
+    margin:1%;
+    border-radius: 25%;
+    height: 50px;
+
+}
+.nav ul li:hover{
+    background-color: rgba(59,40,125,0.8);
+    cursor: pointer;
+}
+.nav ul li {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+
+.titleWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainTitle{
+    
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 40px 4%;
+    background-color: rgba(59,40,125,0.6);
+    border: 3px solid purple;
+    color: white;
+    border-radius: 3%;
+    
+}
+
+.mainImg{
+    display: flex;
+    justify-content: center;
+    margin: 2% 40px 4%;
+    border-radius: 25%;
+    width: auto;
+}
+
+.mainImg div{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30%;
+    background-color: rgba(65, 143, 223, 0.3);
+}
+
+.mainExplanation{
+    text-align: center;
+    margin: 3% 10%;
+    padding: 20px 50px;
+    background-color: rgba(59,40,125,0.8);
+    color:white ;
+    border-radius: 3%;
+}
+
+.explanation h3{
+    font-weight: bold; 
+    font-size: 3em; 
+}
+.explanation{
+    margin: 3% 10%;
+    padding: 20px 50px;
+    background-color: rgba(59,40,125,0.8);
+    color:white  
+}
+
+/* Galeria */
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.container img{
+    width: 550px;
+    padding: 5px;
+    border: dotted 3px black;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: rgba(59,40,125,0.8);
+    padding-right: 20px;
+}
