@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static('public'));
 
 //routes
-app.get('/', (request, response, next) => {
+app.get('/home', (request, response, next) => {
     console.log(request);
     response.sendFile(__dirname + '/views/home.html')
   });
