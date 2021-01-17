@@ -26,7 +26,12 @@ body {
 
 }
 .nav ul li:hover{
-    background-color: rgba(59,40,125,0.8);
+    background-color: rgba(176, 171, 190, 0.8);
+    cursor: pointer;
+}
+
+.nav ul li a:hover{
+    color: rgba(59,40,125,0.8);
     cursor: pointer;
 }
 .nav ul li {
@@ -38,6 +43,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     color:white;
+    font-size: 1.3em;
 }
 
 .titleWrapper{
@@ -116,5 +122,12 @@ footer{
     justify-content: flex-end;
     color: white;
     background-color: rgba(59,40,125,0.8);
-    padding-right: 20px;
+    padding: 0 20px;
 }
+
+@media (max-width: 895px) { 
+    
+    .mainImg div img{
+        display: none;
+    }
+ }
