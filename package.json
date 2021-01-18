@@ -19,5 +19,8 @@
   "homepage": "https://github.com/luisga32/lab-express-basic-site#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
