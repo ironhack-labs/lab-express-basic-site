@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap');
 
+main {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: darkgray;
     font-family: 'Oswald';
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 20px;    
 
     text-align: justify;
 }
+
 
 header {
     width: auto;
@@ -71,14 +78,43 @@ h1{
     font-weight: 500;
 
     padding: 0 20px;
+    align-self: center;
 
 }
 
-#home-intro {
+.intro {
     padding: 20px;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 800px;
 }
+
+
+
+about-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#works-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#works-intro > ul {
+    flex-direction: column;
+    list-style-type: circle;
+    padding-left: 30px;
+}
+
+#works-intro > p {
+    padding: 0;
+}
+
+    
+
+
 
 .container {
 display: flex;
@@ -88,7 +124,18 @@ flex-wrap: wrap;
 }
 
 .image{
-    max-width:100%
+    max-width:100%;
+    height: auto;
+}
+
+.gallery{
+    max-width: 400px;
+    min-width: 200px;
+    width: 100%;
+    padding: 0;
+    margin: 20px;
+    border-radius: 50px;
+    border: black solid;
 }
 
 #batman-logo{
@@ -100,9 +147,17 @@ flex-wrap: wrap;
 #home-logo{
     width: 60px;
     padding: 0;
+    
+}
+#home-logo:hover{
+    filter: invert(100%) sepia() saturate(10000%) hue-rotate(0deg);
+}
+#batman-img-home{
+    padding: 20px;
+    border-radius: 50px;
 }
 
-#batman-img{
+#batman-img-about {
     padding: 20px;
     border-radius: 50px;
 }
