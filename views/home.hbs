@@ -1,0 +1,42 @@
+
+<h1 class="display-3 m-3">Welcome fans of Bill Gates</h1>
+
+<img src="./assets/welcome.jpg" class="img-fluid" alt="Bill Gates">
+
+<div class="container">
+{{#each quotes as |quote|}}
+    <p class="display-6 mt-3"><em>"{{quote}}"</em><br></p>
+{{/each}}
+</div>
+
+<div class="card-group mx-auto">
+    <div class="row">
+    <div class="col-sm-4">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Know Bill better</h5>
+            <p class="card-text">His real name, his hobbies, his fam...</p>
+            <a href="/about" class="btn btn btn-warning">About Bill</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Amazing work</h5>
+            <p class="card-text">His CV is great. Not only Microsoft...</p>
+            <a href="/work" class="btn btn btn-warning">Bill's job</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Photo album</h5>
+            <p class="card-text">See Gates in a lot of places and wi...</p>
+            <a href="/gallery" class="btn btn btn-warning">See Bill</a>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

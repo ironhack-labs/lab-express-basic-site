@@ -1,0 +1,52 @@
+<h1 "display-4 m-4">{{name}} {{lastName}} aka <b>{{nickname}}</b></h1>
+<div class="row">
+<img src="./assets/arrested.jpg" class="img-fluid mt-3 mb-4 col-6" alt="Bill Gates arrested">
+
+<div class="col-5">
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <b>Personal</b>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+            {{#with birth}}
+            Born on the {{28th}} of {{month}} of {{year}}, he is a {{zodiac}} and {{age}} years old. He was educated in {{../education}} but never graduated as he said: <em>My friend passed his examse. Now he works for me as an engenier at Microsoft</em><br>
+            {{/with}}
+            {{#with family}}
+            He is happily married to {{spouse}}, an executive from Microsoft, and have three children: {{children}}.
+            {{/with}}
+            </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <b>Hobbies</b>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+          {{#each hobbies as |hobby|}} 
+           <li>{{hobby}}</li>
+          {{/each}}
+          </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        <b>Extra</b>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">He was arrested in 1977 on reckless driving charges for a second time in New Mexico after speeding in his Porsche, running a stop sign and driving without a license.</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
