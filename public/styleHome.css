@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Oswald',sans-serif;
+    background-image: url('/img/home/Salvador-dali.jpg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: left top;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 30px;
+    font-size: 1.3em;
+}
+
+nav a {
+    margin-left: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    list-style: none;
+    color: #1A1A1A;
+}
+
+.intro{
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 500px;
+    line-height: 10px;
+}
+
+img{
+    width: 50px;
+}
