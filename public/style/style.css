@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Texturina', serif;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+}
+
+#logo{
+    height: 110px;
+    margin-left: 40%;
+}
+
+.navbar{
+    padding-top:20px ;
+}
+
+.navbar-brand{
+    color: #8b1d21;
+    display: inline-block;
+    margin: 0 80px;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+.card-title{
+    color: #e2cc4d;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-body{
+    background-image: url('../images/background-about.png');
+}
+
