@@ -1,9 +1,7 @@
 console.log('hola')
 
 const express = require("express")
-//const hbs = require('hbs') 
-const info = require("./data/profile")
-// const bootstrap = require('bootstrap') 
+
 
 const app = express();
 app.use('/public', express.static(__dirname + '/public'));
