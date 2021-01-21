@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #ebe6c7;
+}
+
+img {
+    width: 100 vw;
+    margin-left: 25%;
+    vertical-align: middle;
+    margin-top: 10%;
+   
+}
+
+.card-title{
+    margin-top: 5%;
+}
+.card-text {
+        margin-right: 15%;
+
+    }
+    .navbar-nav, .navbar-brand {
+        margin-left: 10%;
+    }

@@ -14,6 +14,6 @@ app.get('/works', (request, response, ext) => response.sendFile(__dirname + '/vi
 app.get('/photo-gallery', (request, response, ext) => response.sendFile(__dirname + '/views/partials/photoGallery.html'));
 
 
-app.listen(3000, () => console.log("Listening on port 3000!"));
+app.listen(3000, () => console.log("Listening on port 3000!"))
 
 

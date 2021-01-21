@@ -2,15 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-margin-left: 10%;
 font-family: 'Roboto', sans-serif;
+background-color: #f9f8f0;
 }
 
 h1 {
 text-align: center;
-margin-bottom: 10%;
 margin-top: 4%;
 }
+
+h2 {
+    text-align: center;
+    margin-bottom: 4%;
+    text-shadow: 0.5px 1px grey;
+
+}
+
 img {
     width: 100%;
+   
 }
+
+.navbar-nav, .navbar-brand {
+    margin-left: 10%;
+}
+
+#cards{
+    margin-left: 10%;
+
+}
+

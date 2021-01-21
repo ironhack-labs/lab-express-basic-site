@@ -1,16 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #f9f8f0;
+}
+
 #carouselExampleIndicators {
     max-width: 80%;
-    max-height: 600px;
     position: relative;
     margin: 0 auto;
 }
 
-img {
-    max-height:600px;
-}
+
 
 h1 {
     text-align: center;
-    margin-bottom: 10%;
     margin-top: 4%;
+    }
+
+    h2{
+        text-align: center;
+        margin-bottom: 2%;
+        text-shadow: 0.5px 1px grey;
+
+    }
+    .navbar-nav, .navbar-brand {
+        margin-left: 10%;
     }
