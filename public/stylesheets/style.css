@@ -87,3 +87,7 @@ body {
 background-image : url("/images/chevron-up.svg")
 }
 
+.inverted{
+  filter:invert(100%)
+}
+
