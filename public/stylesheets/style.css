@@ -54,7 +54,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255,  255,.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -70,3 +70,20 @@ body {
   color:#fff;
   border-color: #fff;
 }
+
+.accordion-button::after{
+  background-image: url("/images/down.svg")
+}
+
+.accordion-button::before{
+  background-image: url("/images/up.svg")
+}
+
+.accordion-button:not(.collapsed){
+  color:#212529
+}
+
+.accordion-button:not(.collapsed)::after{
+background-image : url("/images/chevron-up.svg")
+}
+
