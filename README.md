@@ -1,6 +1,6 @@
 
-You can see the live demo of my ironBeer lab version here :
------------------------------------------------------------
+You can see the live demo of my Express basic website lab version here :
+------------------------------------------------------------------------
 
 
 :link: https://iron-beers.herokuapp.com/
