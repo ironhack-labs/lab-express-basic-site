@@ -1,0 +1,34 @@
+body{
+    background-image: url(/img/foto1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-style: italic;
+    font-size:100px;
+}
+nav {
+  
+}
+
+nav ul a{
+   
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}

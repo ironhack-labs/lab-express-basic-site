@@ -1,0 +1,16 @@
+body{
+    background-image: url(/img/woodstock.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 600;
+   
+}
+div {
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    font-style: italic;
+    margin: auto;
+}

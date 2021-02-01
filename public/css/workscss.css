@@ -1,0 +1,23 @@
+
+
+body{
+    background-image: url(/img/psych.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+
+}
+div {
+    margin: auto;
+
+}
+div img {
+    height: 220px;   
+}
+
+h1{
+    font-style: italic;
+}
