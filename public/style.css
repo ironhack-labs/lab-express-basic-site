@@ -1,0 +1,14 @@
+* {
+  color: rgb(0, 0, 80);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+}
