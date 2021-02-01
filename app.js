@@ -17,6 +17,10 @@ app.get("/works", (req, res, next) => {
   res.sendFile(__dirname + "/views/works.html");
 });
 
+app.get("/gallery", (req, res, next) => {
+  res.sendFile(__dirname + "/views/gallery.html");
+});
+
 app.listen(PORT, () => {
   console.log(`server is running at PORT ~${PORT}`);
 });

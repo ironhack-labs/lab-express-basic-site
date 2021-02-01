@@ -4,20 +4,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foo Fighters</title>
 
-    <link rel="stylesheet" href="/public/index.css" />
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
     <nav class="nav-bar">
+      <img id="logo-nav" src="/logo-nav.png" />
       <ul>
-        <li>About the band</li>
-        <li>Works</li>
+        <li><a href="/about">About the band</a></li>
+        <li><a href="/works">Works</a></li>
         <!-- Connect to works.html-->
-        <li>Youtube</li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A"
+            >Youtube Channel</a
+          >
+        </li>
+        <li><a href="/gallery">Gallery</a></li>
+
         <!--Link de youtube -->
       </ul>
     </nav>
-    <h1>Welcome to Foo Fighters</h1>
-
-    <img src="/public/img/" alt="" />
+    <!-- <h1 id="main-title">Welcome to Foo Fighters</h1>  -->
+    <div id="img-container">
+      <img id="logo" src="/foo-fighters.png" />
+    </div>
   </body>
 </html>
