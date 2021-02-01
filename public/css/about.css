@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+​
+body {
+  font-family: "Lora", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/flag.jpeg");
+  background-size: cover;
+}
+​
+.biden-about {
+  background-color: rgb(129, 154, 228);
+  width: 40%;
+  height: fit-content;
+  padding: 50px;
+  text-align: justify;
+}
