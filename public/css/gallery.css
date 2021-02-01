@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7eb6ac;
+  margin: -9px;
+  height: 250px;
+}
+nav {
+  width: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+a {
+  font-size: 22x;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-weight: 900;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
