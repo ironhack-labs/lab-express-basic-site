@@ -1,0 +1,82 @@
+* {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#index {
+  height: 100vh;
+  background-image: url("https://cdn.wallpapersafari.com/77/30/MGAzL2.jpg");
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about {
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/cf/70/17/cf701732ece053881825d9ae9b96129c.jpg");
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#works {
+  height: 100vh;
+  background-image: url("https://img1.goodfon.com/original/1920x1080/c/5d/colorful-abstract-background-4031.jpg");
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery {
+  height: 100vh;
+  background-image: url("https://lpsingenieria.com/wp-content/uploads/2019/10/abstract-background-lines-and-dots-PQGEFRJ.jpg");
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#julian {
+  width: 20vw;
+  height: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+a {
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#gallery-img {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#gallery-img img {
+  width: 15vw;
+  height: auto;
+  margin: 0 10px 0 10px;
+}
