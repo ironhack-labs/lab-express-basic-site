@@ -1,0 +1,20 @@
+body {
+    color: #5a057c; 
+    background-color: bisque;
+}
+
+#imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#uno {
+    width: 200px;
+    height: 300px;
+}
+
+#dos {
+    width: 300px;
+    height: 200px;
+}
