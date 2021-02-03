@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#discos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+
+#iron{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#iron img{
+    width: 350px;
+}
+
+#run{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#run img{
+    width: 350px;
+}
+
+#goldenAge{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#goldenAge img{
+    width: 350px;
+}
+
+#textAbout{
+    width: 400px;
+    margin-left: 60px;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
