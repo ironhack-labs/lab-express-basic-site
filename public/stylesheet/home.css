@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: dashed;
+    text-shadow: 20px;
+    font-size: 50px;
+}
+
+
+.nav-bar-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: rgb(133, 156, 255);
+    align-items: center;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#cover {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cover-intro {
+    width: 60%;
+    text-align: center;
+}
