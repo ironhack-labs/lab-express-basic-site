@@ -1,0 +1,66 @@
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.anchorDiv {
+ display: flex;
+ flex-direction: column;
+ height: 60px;
+ justify-content: space-between;
+}
+
+p {
+    font-size: 20px;
+    width: 60%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Limelight', cursive;
+}
+
+.youtubeLinks a {
+    font-family: 'Limelight', cursive;
+    font-size: 20px;
+}
+
+.youtubeLinks ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.youtubeLinks li {
+    padding-bottom: 5px;
+}
+
+.imgFlex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+}
+
+.flexImg {
+    margin: 5px;
+}
+
+.flexImg:hover {
+    transform: scale(1.5);
+    margin: 80px;
+}
+
+#img3 {
+    width: 300px;
+}
+

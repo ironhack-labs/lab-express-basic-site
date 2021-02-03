@@ -1,0 +1,27 @@
+body {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.homePageImg {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 0.5;
+}
