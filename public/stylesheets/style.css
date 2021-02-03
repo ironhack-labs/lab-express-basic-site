@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(15, 186, 43);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color:rgb(40, 33, 33)
+}
+
+.imgageZA {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black
+}
+
+p {
+ font-size:1.2em;
+ line-height: 2em;
+}
+
+a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: black;
+  margin: 50px;
+}
+
+.container-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-imgs img {
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container-albums img {
+  width: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 80px;
+  font-family: "Coda capption", sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  padding-left: 50px;
+}
+
+article {
+padding: 0px 50px;
+}
+
+p {
+padding-bottom: 50px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+} 
+
+nav {
+  font-size: 2em;
+}
+
+.works {
+  margin: 0 auto;
+  font-size: 2em;
+  font-family: "Coda capption", sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  padding-left: 50px;
+}
