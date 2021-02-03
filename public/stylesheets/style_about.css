@@ -1,0 +1,36 @@
+#hist {
+    display: flex;
+    flex-direction: column;
+}
+
+#hist h1{
+    text-align: center;
+    font-size: 60px
+}
+
+#hist article {
+    display: flex;
+    flex-direction: row;
+}
+
+#hist article img{
+    width: 300px;
+    margin-left: 120px;
+}
+
+#hist article p {
+    padding-left: 60px;
+    padding-right: 120px;
+    font-size: 20px;
+    line-height: 1.2
+}
+
+#link {
+    margin-top: 30px;
+    text-align: center;
+}
+#link a {
+    text-decoration: none;
+    text-transform: none;
+    font-size: 25px;
+}

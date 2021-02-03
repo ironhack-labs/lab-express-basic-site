@@ -1,0 +1,13 @@
+div{
+    background-image:url("/images/202371-dogecoin-mini-5816741625543626464.png")
+}
+
+canvas {
+    border: solid;
+    position:relative
+}
+
+img{
+    width:300px
+}
+

@@ -1,0 +1,28 @@
+#works {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    align-content: space-around;
+    justify-content: space-between;
+
+}
+
+#works img {
+  width: 300px;
+padding: 10px;
+}
+
+#works div {
+    margin-top: 30px;
+    border-top: olivedrab solid ;
+    border-bottom: olivedrab solid;
+    padding: 10 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#works h2,p {
+    text-align: center;
+}

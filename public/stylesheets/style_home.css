@@ -1,0 +1,96 @@
+#welcome {
+position: relative;
+}
+
+#welcome img {
+    position: absolute;
+    width: 600px;
+    position: relative;
+    left: 23%;
+    right: 35%;
+
+}
+
+#welcome > h1 {
+    position: absolute;
+    top: 1%;
+    font-size: 60px;
+    text-align: center;
+    left: 25%;
+}
+
+hr {
+    border: solid  darkolivegreen 2px;
+    background-color: darkolivegreen;
+    width: 50%;
+    margin-top: 25px;
+}
+
+#more  {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start ;
+    align-content: flex-start;
+}
+
+#store {
+    
+    display: flex;
+    height: 400px;
+    margin-bottom: 70px;
+    flex-direction: column;
+    align-content: center;
+}
+
+#store h2 {
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 20px;
+   
+}
+
+#store .ahoraNo {
+
+
+    width: 400px;
+
+
+}
+
+
+#friends {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+#friends h2 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#friends div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+
+} 
+
+#friends img {
+    width: 180px;
+}
+
+.dogs{
+    text-align: center;
+    font-size: 30px;
+    padding:0 20px;
+    margin: 0;
+}
+
+
