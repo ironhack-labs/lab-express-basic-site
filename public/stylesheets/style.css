@@ -1,0 +1,95 @@
+/* General settings */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  box-sizing:border-box; 
+  padding:0; 
+  margin: 0; 
+}
+
+h1 { 
+  text-align: center;
+  margin-bottom:1rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size:1rem;
+}
+
+ul li {
+  list-style-type: none;
+  padding:10px;
+  font-size:0.875rem;
+  font-weight:bold;
+}
+
+a {
+  text-decoration: none;
+  color:#333;
+}
+
+.flexbox {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Header*/ 
+
+#header {
+  padding: 0 2rem;
+}
+
+.main-header {
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+#header-home {
+  height:600px;
+  align-items:center;
+  flex-direction: column;
+  margin-bottom:2rem;
+  background-image: url('https://lithub.com/wp-content/uploads/2017/06/july-31.png');
+  background-position: center;
+  background-size: cover;
+  background-color: blue;
+}
+
+#header-about{
+  height:600px;
+  align-items:center;
+  flex-direction: column;
+  margin-bottom:2rem;
+  background-image: url('https://static.geo.de/bilder/a2/b7/68056/article_image_big/der-kleine-prinz-auf-dem-mond-illustration-buch-2017-querformat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: blue;
+}
+
+#section-two {
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  margin-top:2rem;
+}
+
+#section-two article p{
+  width: 70%;
+  font-size:1.3rem;
+  text-align: center;
+  line-height:1.8;
+  margin:0 auto 1rem auto;
+}
+
+
+footer { 
+  background-color: rgb(255, 203, 92);
+  height:4rem;
+  margin: auto 0;
+  margin-top:4rem;
+}
+
