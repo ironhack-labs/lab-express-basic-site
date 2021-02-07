@@ -1,0 +1,10 @@
+.card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .title {
+      color:brown;
+      border-style: dotted;
+      text-align: center;
+  }
