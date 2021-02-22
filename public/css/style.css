@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 *{
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -36,6 +37,7 @@ a:before{
 header{
     background: #000;
     padding: 15px 20px;
+    /* position: fixed; */
 }
 
 nav {
@@ -47,4 +49,12 @@ nav {
     position: absolute;
     right: 20px;
     top: 40px;
+}
+
+vintage-adv{
+    width: 100%;
+    padding-top: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(calc(-50% -50%));
 }
