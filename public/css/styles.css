@@ -1,0 +1,12 @@
+* {
+    font-family: Roboto;
+}
+
+nav {
+    background-color: rgb(56, 52, 52);
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
