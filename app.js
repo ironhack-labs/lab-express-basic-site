@@ -4,7 +4,7 @@ const hbs = require ("hbs");
 const app = express();
 
 // Set up
-app.set(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/public"));
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
@@ -30,7 +30,7 @@ app.get("/tokyo", (request, response) => {
     response.render("tokyo")
 });
 
-app.get("/tokyo", (request, response) => {
+app.get("/kyoto", (request, response) => {
     response.render("kyoto");
 });
 
@@ -42,7 +42,7 @@ app.get("/florence", (request, response) => {
     response.render("florence");
 });
 
-app.get("*", (request, response) => console.log("Page not found"));
+app.get("*", (request, response) => response.send("Page not found"));
 
 app.listen(3000, () => {
     console.log("Server is up: http://localhost:3000");
