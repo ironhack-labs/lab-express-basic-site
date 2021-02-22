@@ -2,20 +2,43 @@
     font-family: Roboto;
 }
 
+body {
+    margin: 0;
+    background-color: rgb(243, 147, 112);
+}
+
 nav {
     background-color: rgb(56, 52, 52);
+    display: flex;
+    justify-content: space-between;
+}
+
+#fish-logo {
+height: 50px;
+width: 50px;
 }
 
 footer {
     background-color: rgb(56, 52, 52);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    color: whitesmoke;
 }
 
 .logo-rs {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 
 nav a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.chicken {
+    height: 40%;
+    width: 40%;
 }

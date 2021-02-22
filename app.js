@@ -7,7 +7,7 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
 app.get("/", (req, res) => {
-    res.render("layout");
+    res.render("home");
 });
 
 app.get("/about", (req, res) => {
