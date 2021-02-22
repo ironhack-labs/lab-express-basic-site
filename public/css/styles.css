@@ -1,0 +1,22 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size:30px;
+    text-align:center;
+    border:1px solid black;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+
+.box{
+    border:1px solid black;
+    padding:10px;
+    text-align: center;
+    
+}
