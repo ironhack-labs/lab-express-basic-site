@@ -1,0 +1,24 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "Lab building a basic site with Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js -e .js,.hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zelumine/lab-express-basic-site.git"
+  },
+  "author": "Mélusine Rey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zelumine/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/zelumine/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background: #684798;
+  height: 60px;
+}
+
+header > nav {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white ;
+  font-size: 1.1em;
+  padding: 20px;
+}
+
+nav > a:hover {
+  background: #583786;
+}
+
+main, footer {
+  margin: 20px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+/* ABOUT PAGE */
+#about-img {
+  width: 20%;
+  margin: 10px;
+  float: right;
+}
+
+/* MOVIES PAGE */
+#movies, #kevin-pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#movies img {
+  width: 50%;
+}
+
+.movie-box {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #583786;
+}
+
+.movie-box > * {
+  pointer-events: none;
+}
+
+.movie-year {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.movie-active {
+  box-shadow: 5px 5px 9px #583786;
+}
+
+/* GALLERY PAGE */
+#gallery img {
+  width: 80%;
+}
+
+#movie-pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
