@@ -1,0 +1,16 @@
+
+nav{
+    height: 70px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
