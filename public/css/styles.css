@@ -6,6 +6,15 @@ nav {
     background-color: rgb(56, 52, 52);
 }
 
+footer {
+    background-color: rgb(56, 52, 52);
+}
+
+.logo-rs {
+    height: 40px;
+    width: 40px;
+}
+
 nav a {
     color: whitesmoke;
     text-decoration: none;
