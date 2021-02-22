@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+    border: 1px solid black;
+    background: green;
+}
+
+#bottom-nav {
+    margin: 4%;
+}
+
+.images-container {
+    border: 1px solid black;
+    width: 75vw;
+    display: flexbox;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tasty {
+    width: 99px;
+    height: 99px;
+    border: 1px, solid, black;
+}
+
+.restaurant {
+    width: 99px;
+    height: 99px;
+    border: 1px, solid, black;
+}
+
