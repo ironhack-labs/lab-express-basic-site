@@ -23,6 +23,7 @@ header nav {
 
 #page-name {
     position: absolute;
+    justify-content:left;
     left: 0px;
     width: 300px;
     font-size: 30px;
@@ -69,10 +70,49 @@ h2 {
 }
 
 footer {
-    position: fixed;
+    margin-top: 50px;
     background-color: #2CDA96;
     width: 100%;
     bottom: 0%;
     font-size: 7px;
     padding: 5px;
 }
+
+
+/*DESTINATIONS*/
+
+#destinations {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.dest-photo {
+    width: 500px;
+    margin: 10px 0;
+    box-shadow:rgba(0, 0, 0, 0.445) 0.5px 2px 8px;
+}
+
+div.photo {
+    border: solid 2px black;
+    padding: 15px;
+    margin: 15px;
+    width: 550px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: black 1px 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//RESP
+@media only screen and (max-width: 848px){
+    #page-name {
+        display: none;
+    }
+}
+
