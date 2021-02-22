@@ -1,0 +1,9 @@
+.dish img {
+    width: 40%;
+    height: 50%;
+}
+
+.dish {
+    display: flex;
+    height: 300px;
+}

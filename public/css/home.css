@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(/public/images/background.jpg);
+}
+
