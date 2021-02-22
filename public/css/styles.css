@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: "PT Serif";
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(86,86,86,0.6);
+}
+
+.tribute-title {
+    margin-left: 60px;
+}
+
+.about-heath-photo {
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.hommage-logo {
+    max-height: 120px;
+    max-width: 66px;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.pages-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 0px;
+    color: black;
+}
+
+.batman-photo {
+    max-width: 320px;
+    max-height: 430px;
+}
+
+.batman-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
