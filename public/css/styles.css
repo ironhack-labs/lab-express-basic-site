@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    font-family:'Rubik',Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #fcf7fb;
+}
+.my-works, .about-me, .gallery, .home {
+    height: 700px;
+    width: auto;
+}
+
+p {
+    line-height: 60px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left:20px;
+}
+
+a {
+    text-decoration: none;    
+}
+
+
+.gallery.bretagne {
+    width:340px;
+    height:460px;
+}
+
+.gallery.paris {
+    width:340px;
+    height:480px;
+}
+.gallery.pull-vert {
+    width:300px;
+    height:480px;
+}
+
+.logo {
+    width:40px;
+    height:40px;
+}
+
+a {
+    color:#068a8f;
+    font-weight: bold ;
+}
+
+
