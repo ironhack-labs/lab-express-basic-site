@@ -5,23 +5,27 @@ html, body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
 /* NAVBAR */
-nav {
+#nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 40px;
 }
-nav > a {
+#nav > a {
     padding-right: 40px;
     text-decoration: none;
     color: rgb(155, 89, 155);
 }
-nav > a:hover {
+#nav > a:hover {
     color: rgb(116, 116, 116);
 }
 
@@ -50,7 +54,39 @@ header {
     padding-bottom: 10px;
     font-size: 2em;
     font-weight: 1000;
-    color: rgb(155, 89, 155)
+    color: rgb(155, 89, 155);
+    /* text-shadow: 2px 1px rgb(62, 47, 68); */
 }
 
+/* DOCUMENTAIRES  */
 
+/* CLIPS  */
+
+/* DIGITAL  */
+
+/* A PROPOS  */
+#a-propos {
+    max-width: 450px;
+    background-color: rgba(255, 188, 188, 0.692);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#a-propos > img {
+    max-width: 400px;
+    padding: 0 10px 10px 0;
+    background-color: lightcoral;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.a-propos {
+}
+
+/* FOOTER */
+/* footer {
+
+} */
