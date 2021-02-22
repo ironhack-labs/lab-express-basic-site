@@ -18,7 +18,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 #nav > a {
     padding-right: 40px;
@@ -61,6 +61,11 @@ header {
 /* DOCUMENTAIRES  */
 
 /* CLIPS  */
+#clips > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* DIGITAL  */
 
