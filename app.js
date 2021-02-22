@@ -2,12 +2,10 @@ const express = require("express");
 const hbs = require("hbs");
 const app = express();
 
-// do app config
 app.use(express.static(__dirname + "/public"));
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
-// setup app routes
 app.get("/", (req, res) => {
   res.render("home");
 });
