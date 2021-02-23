@@ -1,0 +1,11 @@
+<div class="d-flex flex-row flex-wrap justify-content-center">
+    {{#each discography}}
+  <div class="col-lg-3 card m-2" style="width: 18rem">
+       <img src="{{ this.picture }}" class="card-img-top" alt="{{ this.name }}" />
+    <div class="card-body">
+      <h5 class="card-title text-center">{{ this.name }}</h5>
+      <p class="card-text text-center"><strong>{{ this.with }} </strong>{{ this.year }}</p>
+    </div>
+  </div>
+  {{/each}}
+</div>
