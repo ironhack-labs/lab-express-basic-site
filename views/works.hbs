@@ -1,0 +1,32 @@
+<div>
+    <div class="main container-lg text-secondary text-center">
+    <h1 class="title">
+    Filmography
+    </h1>
+    </div>
+<div class="full-box container-sm">
+    <h5 class="text-main lh-lg fw-bold text-secondary text-center">
+    Film
+    </h5>
+</div>
+<hr />
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Year</th>
+      <th scope="col">Title</th>
+      <th scope="col">Role</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each films}}
+    <tr>
+      <td>{{ this.year }}</td>
+      <th scope="row">{{ this.name }}</th>
+      <td>{{ this.role }}</td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
+</div>
+</div>
