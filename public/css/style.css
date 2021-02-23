@@ -1,0 +1,70 @@
+
+
+body {
+  
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(0,0,0,1) 40%); */
+  background-image: url("/img/bg.png");
+  background-size: 100%;
+  background-repeat: none;
+  
+}
+
+*{
+  box-sizing: border-box;
+  /* background-color: rgb(14, 14, 14); */
+  
+  font-family: 'Sunflower', sans-serif;
+  color: white;
+}
+.nav-list {
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in;
+}
+
+.nav-item a:hover {
+  color: var(--clr-primary-dark);
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.container {
+  width: 700px;
+  margin: 128px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Sen', sans-serif;
+  line-height: 0.9em;
+}
+
+
+
+h1 {
+  font-size: 100px;
+}
+
+
+p {
+  line-height: 24px;
+  font-weight: 18px;
+}
+
+
