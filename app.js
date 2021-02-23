@@ -3,17 +3,27 @@ const express = require("express") ;
 const hbs = require("hbs") ;
 const app = express() ;
 
+const db = require("./module/db.js") ;
+
 // settings
 app.use(express.static(__dirname + "/public")) ;
 app.set("views", __dirname + "/views") ;
-app.set("view engine", "hbs")
+app.set("view engine", "hbs") ;
+hbs.registerPartials(__dirname + "/views/partials");
+
+// objects
+const bloodborneBosses = db.bloodborneBosses ;
+const bloodborneBossesArray = Object.values(bloodborneBosses).sort((boss1, boss2) => boss1.name > boss2.name ? 1 : -1) ;
+
+// routings
 
 app.get("/", (req, res) => {
     res.render("home")
 })
 
 app.get("/bloodborne", (req, res) => {
-    res.render("bloodborne")
+    const data = {bloodborneBossesArray: bloodborneBossesArray} ; 
+    res.render("bloodborne", data)
 })
 
 app.get("/dark-souls-1", (req, res) => {
@@ -30,45 +40,23 @@ app.get("/Guyn", (req, res) => {
     res.render("ds1-boss", data)
 })
 
-app.get("/Lady-Maria", (req, res) => {
+// <a href="/bloodborn/lady-maria">go</a>
+// /:game/:boss
+app.get("/lady-maria", (req, res) => {
     data = {
-        hpNG: 14081, 
-        hpNGP: 20514,
-        echoNG: 39000,
-        echoNGP: 123669,
-        physDef: 0,
-        vsTrust: 0,
-        vsBlunt: 0,
-        fire: 0,
-        bolt: 0,
-        arcane: 0,
-        slowPoison: 0,
-        rapidPoison: 0,
-        blood: 0,
-        bossImage: "/images/lady-maria.png"} ;
-    res.render("bloodborne-boss", data)
+        stat: bloodborneBosses.ladyMaria,
+        bloodborneBossesArray: bloodborneBossesArray,
+    } ;
+    res.render("bloodborne-boss", data) ;
 })
 
 app.get("/Kos", (req, res) => {
     data = {
-        hpNG: 14081, 
-        hpNGP: 20514,
-        echoNG: 39000,
-        echoNGP: 123669,
-        physDef: 0,
-        vsTrust: 0,
-        vsBlunt: 0,
-        fire: 0,
-        bolt: 0,
-        arcane: 0,
-        slowPoison: 0,
-        rapidPoison: 0,
-        blood: 0,
-        bossImage: "/images/kos.jpg"} ;    
-        res.render("bloodborne-boss", data)
+        stat: bloodborneBosses.kos,
+        bloodborneBossesArray: bloodborneBossesArray,
+    } ;
+    res.render("bloodborne-boss", data) ;
 })
-
-
 
 const port = 3000;
 
