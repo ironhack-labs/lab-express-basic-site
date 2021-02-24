@@ -1,0 +1,11 @@
+<h2><strong>Works</strong></h2>
+<div class="d-flex">
+{{#each albuns}}
+  <div class="card m-2" style="width: 18rem">
+    <img src="{{ this.cover }}" class="card-img-top" alt="{{ this.name }}" />
+    <div class="card-body">
+      <h5 class="card-title text-center">{{ this.name }}</h5>
+    </div>
+    </div>
+{{/each}}
+</div> 
