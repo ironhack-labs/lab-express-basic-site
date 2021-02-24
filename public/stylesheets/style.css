@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(224, 218, 209);
+}
+
+#container {
+    text-align: center;
+}
+
+#container div {
+    margin-bottom: 50px;
+}
+
+#container img {
+    border: 2px solid black;
+}
+
+#text {
+    text-align: justify;
+}
+
+.card {
+    margin: 10px;
+}
+
+#center {
+    text-align: center;
+}
