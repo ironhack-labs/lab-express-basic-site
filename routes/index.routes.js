@@ -4,7 +4,7 @@ const { album } = require("../work-data")
 
 const router = express.Router();
 
-router.get("/home", (request, response) => {
+router.get("/", (request, response) => {
     response.render("index")
 });
 
