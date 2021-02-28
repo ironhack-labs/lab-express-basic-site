@@ -1,5 +1,7 @@
+require("dotenv").config();
 const express = require("express");
 const hbs = require("hbs");
+const MovieModel = require("./models/Movie.model");
 
 const app = express();
 
@@ -8,28 +10,14 @@ app.use(express.static(__dirname + "/public"));
 app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
+require("./config/mongodb");
 
 // ROUTES
-app.get("/", (req, res) => {
-  res.render("home");
-});
+const indexRoute = require("./routes/index");
+const moviesRoute = require("./routes/movies");
+app.use('/', indexRoute);
+app.use('/movies', moviesRoute);
 
-app.get("/about", (req, res) => {
-  res.render("about");
-})
-
-app.get("/movies", (req, res) => {
-  res.render("movies");
-});
-
-app.get("/gallery", (req, res) => {
-  res.render("gallery");
-});
-
-app.get("*", (req, res) => {
-  res.send("Sorry, this page doesn't exist!");
-});
-
-app.listen(3000, () => {
-  console.log("Server is running on http://localhost:3000 !");
+app.listen(process.env.PORT, () => {
+  console.log(`Server is running on http://localhost:${process.env.PORT} !`);
 })

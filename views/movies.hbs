@@ -1,45 +1,22 @@
 <h1>Kevin Smith's movies</h1>
-<p>Most of them are awesome!!!</p>
-<figure>
-  <img src="img/movies-feature.jpg" alt="Image with several Kevin Smith movies">
-  <figcaption>These are probably his most known movies but there are others! (image stolen from <a href="https://sagaofsteverogers.com/">https://sagaofsteverogers.com/</a>)</figcaption>
-</figure>
-<h2>Here are my favourites</h2>
+<p>Most of them are awesome, funny and touching! The ones with the larger border are my favourites.</p>
+<em>NB: he also wrote them, except for Cop Out!</em>
 <div id="movies">
-  <div class="movie-box">
-    <h3>Dogma</h3>
-    <img src="img/dogma.jpeg" alt="Dogma movie poster">
-    <p class="movie-year">1999</p>
-    <p class="movie-desc">An abortion clinic worker with a special heritage is called upon to save the existence of humanity from being negated by two renegade angels trying to exploit a loop-hole and reenter Heaven.</p>
-    <a href="https://youtu.be/20CRw3XdETA">Watch trailer</a>
-    <br><em>Bonus: Alanis Morissette (you'll see)</em>
-  </div>
-  <div class="movie-box">
-    <h3>Chasing Amy</h3>
-    <img src="img/amy.jpg" alt="Chasing Amy movie poster">
-    <p class="movie-year">1997</p>
-    <p class="movie-desc">Holden and Banky are comic book artists. Everything's going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.</p>
-    <a href="https://youtu.be/7K-z0EdVm2c">Watch trailer</a>
-    <br><em>Bonus: there's a very cool (and wise) monologue</em>
-  </div>
-  <div class="movie-box">
-    <h3>Clerks II</h3>
-    <img src="img/clerks-2.jpg" alt="Clerks II movie poster">
-    <p class="movie-year">2006</p>
-    <p class="movie-desc">A calamity at Dante and Randal's shops sends them looking for new horizons - but they ultimately settle at the fast food empire Mooby's.</p>
-    <a href="https://youtu.be/lNXMB5FwSUc">Watch trailer</a>
-    <br><em>Bonus: there's a cool dance scene</em>
-  </div>
-  <div class="movie-box">
-    <h3>Jay & Silent Bob strike back</h3>
-    <img src="img/jay-bob-strike.jpeg" alt="Jay & Silent Bob strike back movie poster">
-    <p class="movie-year">1995</p>
-    <p class="movie-desc">The comic "Bluntman and Chronic" is based on real-life stoners Jay and Silent Bob, so when they get no profit from a big-screen adaptation, they set out to wreck the movie.</p>
-    <a href="https://youtu.be/HjDSFna_LXQ">Watch trailer</a>
-    <br><em>Bonus: this one has an amazing cast</em>
-  </div>
+  {{#each movies}}
+    <div class="movie-box {{#if isFavorite}}movie-favorite{{/if}}">
+      <h3>{{this.title}}</h3>
+      <img src="{{this.image}}" alt="{{this.title}} movie poster">
+      <p class="movie-year">{{this.year}}</p>
+      <p class="movie-desc">{{this.description}}</p>
+      <a href="{{this.trailer}}">Watch trailer</a>
+      <br>
+      {{#if this.bonus}}
+      <br><em>Bonus: {{this.bonus}}</em>
+      {{/if}}
+    </div>
+  {{/each}}
 </div>
 <br>
-<p>He also directed a few episodes of the tv shows <b>Supergirl</b> and <b>The Flash</b> AND he has a small part in Die Hard 4, which makes it, in my un-biased opinion, a good movie.</p>
-<p><a href="https://www.imdb.com/name/nm0003620">Here is his iMDb page</a></p>
+<p>He also directed a few episodes of the tv shows <b>Supergirl</b> and <b>The Flash</b> AND he has a small part in <b>Die Hard 4</b>, which makes it, in my un-biased opinion, a good movie.</p>
+<p><a href="https://www.imdb.com/name/nm0003620" target="_blank">Here is his iMDb page</a></p>
 

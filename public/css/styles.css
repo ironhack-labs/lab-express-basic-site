@@ -19,7 +19,7 @@ body {
 header {
   width: 100%;
   background: #684798;
-  height: 60px;
+  height: 62px;
 }
 
 header > nav {
@@ -50,7 +50,7 @@ main, footer {
 }
 
 footer {
-  margin-top: 20px;
+  margin: 30px auto;
 }
 
 /* ABOUT PAGE */
@@ -63,12 +63,12 @@ footer {
 /* MOVIES PAGE */
 #movies, #kevin-pics {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 #movies img {
-  width: 50%;
+  width: 30%;
 }
 
 .movie-box {
@@ -88,6 +88,10 @@ footer {
 
 .movie-active {
   box-shadow: 5px 5px 9px #583786;
+}
+
+.movie-favorite {
+  border: 3px solid #583786;
 }
 
 /* GALLERY PAGE */
