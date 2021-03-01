@@ -45,7 +45,7 @@ button {
 
 #burger {
   position: fixed;
-  top: 20px;
+  top: 30px;
   left: calc(100vw / 2 - 50px);
   width: 100px;
   height: 30px;
@@ -58,7 +58,7 @@ button {
   width: 100px;
   height: 8px;
   background-color: black;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 #burger span:first-child {
   top: 0px;
@@ -138,33 +138,32 @@ button {
     margin: 0 15%;
     margin-top: 60vh;
 }
-.col-left {
+div.photographers {
     grid-column: 1/ span 3;
+    grid-row: span 3;
 }
-.col-right {
+div.photographers:nth-of-type(2n) {
     grid-column: 5/ span 3 ;
 }
-.row-1 {
-    grid-row: 1/ span 3;
-}
-.row-2 {
+
+div.photographers:nth-of-type(2)  {
     grid-row: 2/ span 3;
 }
-.row-3 {
+div.photographers:nth-of-type(3) {
     grid-row: 5/ span 3;
 }
-.row-4 {
+div.photographers:nth-of-type(4) {
     grid-row: 6/ span 3;
 }
-section img {
+.photographers img {
     width: 100%;
     transition: all 0.3s ease-out;
 }
-section:hover img {
+.photographers:hover img {
     transform: scale(1.02) rotate(3deg);
     
 }
-section .name {
+.photographers .name {
     padding: 3px 10px;
     font-size: 2rem;
     font-weight: 700;

@@ -3,7 +3,11 @@
 </div>
 
 <div id="main-container" class="margin-home">
-    <section class="photographers col-left row-1" class="flex">
+    {{#each photographers}}
+        {{> photographersCards }}
+    {{/each}}
+
+    {{!-- <section class="photographers col-left row-1" class="flex">
         <a href="#"><img src="img/brassai_main.jpg" alt="brassai photo paris" ></a>
         <a href="#" class="name">Brassaï</a>
     </section>
@@ -21,5 +25,5 @@
     <section class="photographers col-right row-4" class="flex">
         <a href="#"><img src="img/joel-meyerowitz.jpg" alt="joelmeyerowitz photo" ></a>
         <a href="#" class="name">Joel Meyerowitz</a>
-    </section>
+    </section> --}}
 </div>
