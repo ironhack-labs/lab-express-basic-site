@@ -1,0 +1,27 @@
+
+[
+    {
+        "title": "Meditations",
+        "author": "Marcus Aurelius",
+        "image": "img/books/Frame1.png",
+        "link": "https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_1?dchild=1&keywords=meditation+marcus&qid=1614871647&sr=8-1"
+    },
+    {
+        "title": "Art of Living",
+        "author": "Epictetus",
+        "image": "img/books/Frame2.png",
+        "link": "https://www.amazon.com/Art-Living-Classical-Happiness-Effectiveness/dp/0061286052/ref=sr_1_1?dchild=1&keywords=Art+of+Living&qid=1614871671&sr=8-1"
+    },
+    {
+        "title": "Letters from a Stoic",
+        "author": "Lucius Annaeus Seneca",
+        "image": "img/books/Frame3.png",
+        "link": "https://www.amazon.com/Letters-Penguin-Classics-Lucius-Annaeus/dp/0140442103/ref=sr_1_1?crid=10KVF4QYZ95WS&dchild=1&keywords=letters+from+a+stoic&qid=1614871695&sprefix=letters+fr%2Caps%2C284&sr=8-1"
+    },
+    {
+        "title": "The Obstacle Is the Way",
+        "author": "Ryan Holiday",
+        "image": "img/books/Frame4.png",
+        "link": "https://www.amazon.com/The-Obstacle-Is-Way-Ryan-Holiday-audiobook/dp/B00K5JUNSU/ref=sr_1_1?dchild=1&keywords=the+obstacle+is+the+way&qid=1614871869&sr=8-1"
+    }
+]

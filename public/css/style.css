@@ -1,21 +1,17 @@
 
-
-body {
-  
-  /* background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(0,0,0,1) 40%); */
-  background-image: url("/img/bg.png");
-  background-size: 100%;
-  background-repeat: none;
-  
-}
-
 *{
   box-sizing: border-box;
   /* background-color: rgb(14, 14, 14); */
   
   font-family: 'Sunflower', sans-serif;
-  color: white;
+  color: black;
 }
+
+
+body{
+  
+}
+
 .nav-list {
   
   display: flex;
@@ -30,12 +26,12 @@ body {
 
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: black
   transition: all 100ms ease-in;
 }
 
 .nav-item a:hover {
-  color: var(--clr-primary-dark);
+  color: rgb(0, 4, 255);
 }
 
 .nav-item:first-child {
@@ -43,12 +39,19 @@ body {
   margin-left: 2rem;
 }
 
+#bg {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url("/img/bg.png");
+}
 .container {
   width: 700px;
   margin: 128px;
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
+
 
 .title {
   font-family: 'Sen', sans-serif;
@@ -68,3 +71,56 @@ p {
 }
 
 
+img .square {
+  width: 150px;
+  height: 150px;
+}
+
+img .amazon {
+  width: 40px;
+}
+
+.books-container{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: rgb(0, 4, 255);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+.input {
+  border: 1px rgb(139, 139, 139) solid;
+  height: 30px;
+  border-radius: 5px;
+  width: 180px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.btn {
+  height: 32px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: rgb(0, 4, 255);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

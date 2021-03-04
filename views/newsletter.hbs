@@ -1,1 +1,13 @@
-<p>This should be a modal</p>
+<div class="container">
+    <h1>Newsletter</h1>
+    <h3>I will send you occasionaly some emails with some quotes from the Stoics</h3>
+
+    <form method="post" action="/newsletter/subscribe" class="form" enctype="multipart/form-data">
+        <label for="name">Name</label>
+        <input class="input" type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email</label>
+    <input id="email" class="input" type="email" name="email" placeholder="Enter your Email" required>
+
+    <button class="btn">Subscribe</button>
+</form>
+</div>
