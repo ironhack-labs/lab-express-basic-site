@@ -1,0 +1,13 @@
+<h2>Title</h2>
+<ul>
+    {{#each hot-sauces}}
+    <li class="{{#if this.isRegistered}}is-registered{{/if}}">
+        <h2>{{this.name}}</h2>
+        <p>
+            <a href="/hot-sauces/{{this._id}}">See details</a><br>
+            <a href="/hot-sauces/edit/{{this._id}}">Update</a><br>
+            <a href="/hot-sauces/delete/{{this._id}}">Delete</a>
+        </p>
+    </li>
+    {{/each}}
+</ul>

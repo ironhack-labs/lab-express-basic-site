@@ -1,0 +1,20 @@
+[
+    {
+      "hsName": "Cholula",
+      "spiceRating": 3,
+      "flavorRating": 5,
+      "comments": "Nice balance of spice and flavor."
+    },
+    {
+      "hsName": "Tabasco Sauce",
+      "spiceRating": 3,
+      "flavorRating": 2,
+      "comments": "Good, generic spice that goes on a number of foods."
+    },
+    {
+      "hsName": "Siracha (Cock Brand)",
+      "spiceRating": 3,
+      "flavorRating": 5,
+      "comments": "The original is hard to find. But the original Cock Brand Californian hot sauce gives a nice spice to many Asian dishes."
+    }
+  ]

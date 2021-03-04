@@ -1,0 +1,26 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "Pick a person that you admire and build a website that shares some basic information about them. They can be a writer, a musician, a celebrity, or someone you know personally.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js -e .hbs,.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mackenzie27/lab-express-basic-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mackenzie27/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/Mackenzie27/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.11.18"
+  }
+}

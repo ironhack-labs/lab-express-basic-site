@@ -1,0 +1,14 @@
+
+
+
+.form-button {
+    width: 100%;
+    max-width: 220px;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    margin-bottom: 10px;
+    background: black;
+    color: whitesmoke;
+  }
+  
