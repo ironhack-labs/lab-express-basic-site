@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  color: #fff;
 }
 
 header {
@@ -17,18 +16,24 @@ header a {
   text-decoration: none;
   font-size: 20px;
   text-align: right;
+  color: #fff;
 }
 
 main {
-  background-image: url('../img/michelle-obama.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin: 0;
-  width: auto;
-  padding: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+article{
+  width: 50%;
 }
 
 h1 {
-  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
 }
