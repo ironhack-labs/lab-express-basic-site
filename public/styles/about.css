@@ -1,0 +1,25 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #4a4063;
+}
+
+#nav_item{
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+    background-color: #bfacc8;
+    color: white;
+    padding: 100px;
+}

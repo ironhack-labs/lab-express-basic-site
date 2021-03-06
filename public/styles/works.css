@@ -1,0 +1,43 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #4a4063;
+    color: white;
+}
+
+#nav_item{
+    padding: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.works {
+    background-color: #bfacc8;
+    color: white;
+    padding: 100px;
+    
+}
+
+.second{
+    margin-top: 50px
+}
+
+.buttons {
+    background-color: #c8c6d7;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_content {
+    background-color: #4a4063;
+    color: white;
+    border: 2px solid white;
+}
