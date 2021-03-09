@@ -1,0 +1,37 @@
+body {
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+main {
+    margin-top: 130px;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    list-style: none;
+}
+
+.navbar > ul > li {
+    border: 2px solid black;
+}
+
+.navbutton {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
