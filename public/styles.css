@@ -1,0 +1,21 @@
+body {
+    background-color: darkred;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#home{
+    background-image: url('/images/big-head-zo.png');
+    background-size: 50%;
+}
+
+#about{
+    background-image: url('/images/post-up-zo.png');
+    background-size: 30%;
+}
+
+#works{
+    background-image: url('/images/fist-pump-zo.png');
+    background-size: 60%;
+}
