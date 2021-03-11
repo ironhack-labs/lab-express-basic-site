@@ -56,7 +56,7 @@ app.use(
     secret: process.env.SESSION_SECRET,
     saveUninitialized: true,
     resave: true,
-    store: MongoStore.create( {mongooseConnection: mongoose.connection} )
+    store: MongoStore.create( { mongoUrl:MONGO_URI } )
   })
  
 );
