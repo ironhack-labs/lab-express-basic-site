@@ -10,14 +10,14 @@ const path = require("path");
 const protectRoute = require("./middlewares/protectRoute");
 const MongoStore = require('connect-mongo').default;
 
-mongoose
-  .connect('mongodb://localhost/Friend', {useNewUrlParser: true})
-  .then(x => {
-    console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
-  })
-  .catch(err => {
-    console.error('Error connecting to mongo', err)
-  });
+// mongoose
+//   .connect('mongodb://localhost/Friend', {useNewUrlParser: true})
+//   .then(x => {
+//     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
+//   })
+//   .catch(err => {
+//     console.error('Error connecting to mongo', err)
+//   });
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
