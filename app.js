@@ -9,7 +9,7 @@ const flash = require("connect-flash");
 const session = require("express-session");
 const path = require("path");
 const protectRoute = require("./middlewares/protectRoute");
-const MongoStore = require('connect-mongo').default;
+const MongoStore = require('connect-mongo');
 
 
 // mongoose
