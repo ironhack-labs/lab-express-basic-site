@@ -1,4 +1,5 @@
 require("dotenv").config();
+require("./config/mongo");
 const express = require("express");
 const hbs = require("hbs");
 const mongoose = require('mongoose');
@@ -9,6 +10,7 @@ const session = require("express-session");
 const path = require("path");
 const protectRoute = require("./middlewares/protectRoute");
 const MongoStore = require('connect-mongo').default;
+
 
 // mongoose
 //   .connect('mongodb://localhost/Friend', {useNewUrlParser: true})
