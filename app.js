@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
   app.get("/profile", (req, res) => {
     res.render("profile");
   });
-  app.listen(8888, () => {
+  app.listen(process.env.PORT, () => {
     console.log("ready @ http://localhost:8888");
   });
 
