@@ -1,0 +1,24 @@
+<form method="post" action="/auth/signup" class="form">
+    {{> flashMessage }}
+
+    <label for="name">name</label>
+    <input class="input" type="text" id="name" name="name" value="test name">
+    <label for="lastname">lastname</label>
+    <input class="input" type="text" id="lastname" name="lastname" value="test lastname">
+    <label for="email">email</label>
+    <input class="input" type="email" id="email" name="email" value="test@email.com">
+    <label for="password">password</label>
+    <input class="input" type="password" id="password" name="password" value="12345">
+    <label for="select-family">family</label>
+     <select id="select-family" name="family" class="input">
+        
+         {{#each family}}
+        <option value="{{this._id}}">{{this.nickname}}</option>
+        {{/each}}
+        
+    </select>
+    <button class="btn">signup</button>
+</form>
+<p>
+    Already got an account ? <a href="/auth/signin">signin</a>
+</p>

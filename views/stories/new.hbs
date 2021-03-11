@@ -1,0 +1,26 @@
+<h2>Share a story about your beloved Nonna</h2>
+
+{{!-- action represents the ROUTE you wanna target --}}
+<form method="post" action="/stories/new" class="form" enctype="multipart/form-data" >
+    <label for="title">title</label>
+    <input class="input" type="text" id="title" name="title"  >
+    <label for="place">place</label>
+    <input class="input" type="text" id="place" name="place"  >
+    <label for="date">date</label>
+    <input class="input" type="date" id="date" name="date"  >
+    <label for="story">story</label>
+    <input class="input" type="text" id="story" name="story"  >
+    <label for="select-family">type</label>
+     <select id="select-family" name="family" class="input">
+        
+         {{#each family}}
+        <option value="{{this._id}}">{{this.nickname}}</option>
+        {{/each}}
+        
+    </select>
+     <label for="image" class="label">Image</label>
+    <input type="file" name="picture" id="image" >
+    
+   
+    <button class="btn">ok !</button>
+</form>

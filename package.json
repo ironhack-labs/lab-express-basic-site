@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js -e .js,.hbs"
+    "dev": "nodemon ./bin/www -e .hbs,.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,18 @@
   },
   "homepage": "https://github.com/clsayart/lab-express-basic-site#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.25.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.3.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "hbs": "^4.1.1"
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0"
   }
 }

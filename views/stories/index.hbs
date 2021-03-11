@@ -1,0 +1,18 @@
+<section id="stories">
+    <h2>stories</h2>
+    <a href="/stories/new">Add a story!</a>
+{{#each stories}}
+<article class="article-stories">
+
+    <p>{{this.title}}</p>
+    <img src="{{this.picture}}"  class="story-pic"alt="people"> <br>
+    <a href="/stories/{{this._id}}">See Details</a> <br>
+    <a href="/stories/delete/{{this._id}}">delete this story</a> <br>
+    <a href="/stories/edit/{{this._id}}">edit this story</a>
+    
+    
+</article>
+{{/each}}
+</section>
+
+
