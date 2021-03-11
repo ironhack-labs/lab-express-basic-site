@@ -40,7 +40,7 @@ router.get('/stories', (req, res, next) => {
     if (req.file) {
       picture = req.file.path;
     }
-    let author = req.session.currentUser.name;
+    
     let user = req.session.currentUser._id;
    
    try {
@@ -50,8 +50,8 @@ router.get('/stories', (req, res, next) => {
       date, 
       story, 
       family,
-      author,
       user,
+      picture
     });
     res.redirect("/stories");
   } catch (err) {
@@ -91,6 +91,7 @@ router.get('/stories', (req, res, next) => {
   
   router.post('/stories/edit/:id', async (req, res, next) => {
     const { title, place, date, story } = req.body;
+    console.log(req.body)
     try {
       await StoryModel.findByIdAndUpdate(req.params.id, {
         title,
