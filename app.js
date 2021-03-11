@@ -54,7 +54,7 @@ app.use(
     secret: process.env.SESSION_SECRET,
     saveUninitialized: true,
     resave: true,
-    store: MongoStore.create({ mongoUrl: 'mongodb://localhost/Friend' })
+    store: MongoStore.create({ mongoUrl: process.env.MONGO_URI })
   })
  
 );
