@@ -39,10 +39,6 @@ app.get("/", (req, res) => {
     res.render("about");
   });
   
- 
- 
-  
-  
   app.get("/profile", (req, res) => {
     res.render("profile");
   });
@@ -53,10 +49,14 @@ app.get("/", (req, res) => {
 
 app.use(
   session({
+    store: MongoStore.create( { mongoUrl:process.env.MONGO_URI } ),
+    cookie: {
+maxAge: 25 * 60 * 60 * 1000,
+    },
     secret: process.env.SESSION_SECRET,
     saveUninitialized: true,
     resave: true,
-    store: MongoStore.create( { mongoUrl:process.env.MONGO_URI } )
+    
   })
  
 );
