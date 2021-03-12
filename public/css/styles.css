@@ -7,9 +7,17 @@
 }
 .my-works,
 .about-me,
-#home #your-family {
+#home
+{
   height: 700px;
   width: auto;
+}
+
+#show-family
+ {
+  height: 550px;
+  width: auto;
+  
 }
 
 #gallery {
@@ -44,6 +52,7 @@ p {
 
 a {
   text-decoration: none;
+  color:black;
 }
 
 #about .book-un {
@@ -61,7 +70,7 @@ a {
   height: 40px;
 }
 
-a {
+nav a {
   color: #48c787;
   font-weight: bold;
 }
@@ -71,7 +80,7 @@ a {
   height: 80px;
 }
 
-.show-story {
+.show-one-story {
   text-transform: capitalize;
 }
 
@@ -81,7 +90,8 @@ a {
 }
 
 #gallery > div,
-#stories > div {
+#stories > div,
+#show-story > div {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -89,7 +99,8 @@ a {
 }
 
 .article-about,
-.article-stories {
+.article-stories,
+.one-story {
   font-size: 1.5em;
   text-align: center;
   border: 2px solid #eee;
@@ -104,25 +115,63 @@ a {
 .quote {
   font-size: 2.5em;
   position: absolute;
-  left: 10%;
-  bottom: 100px;
+  right: 10%;
+  top: 80px;
+  background-color: transparent;
 }
 
 #family-book {
-    height: 200px;
-    width: 200px;
-    background-image: url("../img/book-fond-un.png");
-    background-position: 0px 0px;
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/book-fond-deux.jpg");
+  background-position: 0px 0px;
   background-repeat: repeat;
   background-size: cover;
   padding-top: 50px;
   position: relative;
-    
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 20px;
+ 
 }
 
 .family-name {
-
-    position: absolute;
-
+  position: absolute;
+  left: 10px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
+.family-title {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.story-title {
+  margin-left: 60px;
+  font-size: 2em;
+}
+
+.story-link {
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.date {
+  font-size: 0.5em;
+}
+
+#space-story {
+  margin-bottom: 100px;
+}
+
+#stories {
+  margin-bottom: 100px;
+}

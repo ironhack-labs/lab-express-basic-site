@@ -1,9 +1,15 @@
-<h2 class="show-story">{{dbRes.title}} </h2> <p>in {{dbRes.place}} on the {{dbRes.date}}</p>
+<section id="show-story">
+    <div id="space-story">
+        <article class="one-story">
+            <h2 class="show-one-story">{{dbRes.title}} </h2>
+            <p>Author: {{dbRes.user.name}} - {{dbRes.family.nickname}}</p>
+            <img class="story-pic" src="{{dbRes.picture}}" alt="people">
+            <p>in {{dbRes.place}} </p>
+            <p class="date">on the {{dbRes.date}}</p>
+        </article>
 
-<p>author:{{dbRes.user.name}} - {{dbRes.family.nickname}}</p>
-
-<p><img class="story-pic" src="{{dbRes.picture}}"  alt="people"> {{dbRes.story}}</p>
-
-
-
-
+        <article class="one-story">
+            <p> {{dbRes.story}}</p>
+        </article>
+    </div>
+</section>

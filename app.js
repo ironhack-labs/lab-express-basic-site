@@ -70,10 +70,10 @@ app.use(require("./middlewares/exposeLoginStatus"));
 
 
 const familyRoutes = require('./routes/families');
-app.use('/', familyRoutes);
+app.use('/',familyRoutes);
 
 const storyRoutes = require('./routes/stories');
-app.use('/',storyRoutes);
+app.use('/', storyRoutes);
 
 const authRouter = require("./routes/auth")
 app.use("/auth", authRouter);
