@@ -33,6 +33,7 @@
   padding-top: 50px;
   border-radius: 10px;
 }
+
 header {
   display: flex;
   justify-content: left;
@@ -43,6 +44,7 @@ header {
 nav {
   display: flex;
 }
+
 nav a {
   margin-left: 5px;
   margin-right: 5px;
@@ -67,6 +69,10 @@ a {
   color: black;
 }
 
+a:hover {
+color: #3ee68f;
+}
+
 #about .book-un {
   width: 252px;
   height: 160px;
@@ -88,8 +94,8 @@ nav a {
 }
 
 .story-pic {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .show-one-story {

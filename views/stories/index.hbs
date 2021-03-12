@@ -4,7 +4,7 @@
     {{#each stories}}
     <article class="article-stories" >
 
-        <p>{{this.title}}</p>
+        <p class="show-one-story">{{this.title}}</p>
         <img src="{{this.picture}}" class="story-pic" alt="people"> <br>
         <a href="/stories/{{this._id}}">See Details</a> <br>
         <a href="/stories/delete/{{this._id}}">delete</a> <br>
