@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #CDD5D1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: #B4A6AB;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+main {
+    height: 92vh;
+}
+
+p {
+    margin: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    opacity: .9;
+}

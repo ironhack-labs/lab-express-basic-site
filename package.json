@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bit-sahti/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
   }
 }
