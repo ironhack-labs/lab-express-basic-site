@@ -1,0 +1,10 @@
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-img{
+    height: 250px;
+    margin: 15px 15px;
+    border: 1px solid white;
+}
