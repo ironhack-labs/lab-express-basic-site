@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+}
+
+.exh {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 150px;
+
+}
+
+.par {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+}
