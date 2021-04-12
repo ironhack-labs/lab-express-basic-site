@@ -1,3 +1,84 @@
 body{
-    background-color: aqua;
+    background-color: #f0e5d8;
+    font-family: 'Roboto', sans-serif;
+    color: #4a3933;
+}
+header h1{
+    font-size: 4em;
+    margin: 20px 20px 0 20px;   
+}
+h1 a{
+    text-decoration: none;
+    color: #f0b261;
+    transition: color 0.9s;
+}
+h1 a:hover{
+    color: #75cfb8; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f0b261;
+}
+header nav{
+    width: 40%;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: #f0b261;
+    transition: color 0.9s;
+    font-size: calc(1vw + 0.7em);
+}
+nav a:hover{
+    color: #75cfb8; 
+}
+.profile-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 90px 5px 20px;
+}
+.profile-div h2{
+    font-size: 4em;
+    margin: 80px 0 0 90px;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+.about-div{
+    width: 60%;
+    margin: 60px 10px 0 15%;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: justify;
+}
+.img-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.iconos{
+    height: 45px;
+    padding: 7px;
+}
+.icon-css{
+    height: 50px;
+}
+.ironhack-img{
+    width: 17%;
+    padding: 9%;
+}
+.work-div{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
 }
