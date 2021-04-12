@@ -82,3 +82,10 @@ nav a:hover{
     align-items: center;
     font-size: 1.3em;
 }
+.not-found-div{
+    margin-top: 35px;
+    text-align: center;
+}
+.not-found{
+    width: 40%;
+}
