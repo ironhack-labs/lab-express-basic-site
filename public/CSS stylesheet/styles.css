@@ -5,7 +5,8 @@
 }
 
 html {
-    box-shadow: inset 10px 25px 100px 0px black;
+    background-color: #0b006b;
+    box-shadow: inset 15px 10px 207px -74px black;
 }
 
 body {
@@ -30,45 +31,66 @@ header {
     justify-content: flex-start;
 }
 
-nav {
+nav ul {
     background-color:#3048d3;
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     border-radius: 7px;
     
 }
 
-nav ul {
-    display: flex;
-    flex-grow: row nowrap;
+nav ul a {
+    padding: 10px 20px 10px 20px;
     justify-content: flex-end;
-    color: rgb(224, 1, 139);
+    color: #02061E;
     text-decoration: none;
-    font-size: larger;
+    font-size: 22px;
+    font-weight: 100;
+    border: 1px solid #02061E;
+    border-radius: 32px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
 }
- h1 {
 
-     font-family: cursive;
-     text-align: center;
-     font-size: 50px;
-     line-height: 65px;
- }
+ h1 {
+    color: #baf8ff;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    align-self: center;
+    font-size: 70px;
+    line-height: 65px;
+    border: 6px dotted #baf8ff;
+    border-radius: 47px;
+    width: 640px;
+    padding: 27px 50px 20px 50px;
+}
+
 
  p {
-     width: 400px;
-     margin:100px;
-     box-shadow: inset 10px 25px 230px 0px rgb(231, 210, 220);
-     border-radius: 7px;
-     padding: 60px 30px;
- }
-
-button {
+    width: 400px;
+    margin: 100px;
+    box-shadow: inset 7px -5px 108px 32px rgb(231 210 220);
     border-radius: 28px;
+    color: #baf8ff;
+    padding: 61px 65px;
+    font-size: x-large;
+    line-height: 35px;
+}
+
+.btn {
+    border-radius: 28px;
+    align-self: flex-end;
     padding: 15px 76px 15px 76px;
     background-color: whitesmoke;
     font-size: 25px;
     mix-blend-mode: color-dodge;
     color: #272727;
-    align-content: baseline;
-    align-self: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
 }
