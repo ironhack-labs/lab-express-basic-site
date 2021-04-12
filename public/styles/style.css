@@ -1,0 +1,115 @@
+@font-face {
+    font-family:"rudeMetal";
+    src: url("/fonts/rudeMetal.ttf");
+}
+body{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(216, 63, 46
+    );
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    font-family: "rudeMetal";
+    color: rgb(216, 63, 46
+    );
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(216, 63, 46
+    );
+}
+.portada{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%
+}
+.portada div{
+    margin-top: 2rem;
+    font-weight: 500;
+
+}
+.titulo{
+    border-bottom: solid black 0.1rem;
+}
+.portada img{
+    width: 180px;
+    height: 278px;
+    border: rgb(216, 63, 46
+    ) solid 0.5rem;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%
+}
+.author div{
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.autor{
+    border-bottom: solid black 0.1rem;
+}
+.author img{
+    width: 180px;
+    height: 278px;
+    border: rgb(216, 63, 46
+    ) solid 0.5rem;
+}
+.carousel{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    border: rgb(216, 63, 46
+    ) solid 1rem;
+    border-radius: 1rem;
+    margin-left: 5%;
+    color: rgb(216, 63, 46
+    );
+}
+.carousel-caption button{
+    background-color: rgb(216, 63, 46
+    );
+    color: white;
+}
+.contenedor{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor img{
+    width: 180px;
+    height: 278px;
+    border: rgb(216, 63, 46
+    ) solid 0.5rem;
+}
+
+.otherBook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.otherBook>div{
+    margin-top: 1rem;
+    font-weight: bold;
+}
