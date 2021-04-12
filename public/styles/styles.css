@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://media.gettyimages.com/photos/closeup-of-water-drops-on-blue-surface-picture-id1069768516?k=6&m=1069768516&s=612x612&w=0&h=tZ0gtc27ii8BpMZFBifXms7m2i54V9PVt56ui2F1Cu4=);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none; 
+}
+
+li{
+    list-style: none;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.title>p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+
+.description {
+  
+    display: flex;  
+    justify-content: center;
+    align-content: flex-end;
+}
+.presentation{
+    text-align: center;
+}
