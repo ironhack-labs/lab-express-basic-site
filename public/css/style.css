@@ -18,5 +18,13 @@ body {
   justify-content: space-between;
 }
 .navbar a{
+  font-family: 'Fredoka One', cursive;
   text-decoration: none;
+}
+.counter{
+  display: flex;  
+  align-items: center;
+  width:100%; 
+  justify-content: space-around;
+  
 }
