@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(166, 192, 207);
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+}
+.banner{
+  align-self: center;
+}
+.navbar a{
+  text-decoration: none;
+}
