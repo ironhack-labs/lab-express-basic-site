@@ -1,0 +1,6 @@
+body {
+    background-image: src="/public/images/background.gif";
+    background-position: 0.0;
+    background-repeat:inherit;
+    background-size: cover;
+}
