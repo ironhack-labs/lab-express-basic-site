@@ -2,42 +2,73 @@
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 20px;
-    padding: 10px;
-    
+}
+
+html {
+    box-shadow: inset 10px 25px 100px 0px black;
 }
 
 body {
     display: flex;
-    background-color: rgb(245, 245, 201);
-    background-image: url("/images/sunset.png");
-    background-size:inherit;
+    flex-direction: column;
+    background-color: #3048d3;
+    box-shadow: inset 10px 25px 100px 0px black;
+    background-blend-mode: hard-light;
+    background-image: url(/images/sunset.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: inset 1px 0px 200px 4px rgb(245, 245, 201);
     height: 100vh;
     border-radius: 7px;
+    border: 3px ridge rgb(25, 0, 255);
     line-height: 30px;
+}
+header {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 nav {
-    background-color: rgb(245, 245, 201, 0.5);
-    display: flex;
-    flex-direction: flex-end;
+    background-color:#3048d3;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 7px;
+    
 }
 
-nav ul a {
+nav ul {
     display: flex;
     flex-grow: row nowrap;
-    color: black;
+    justify-content: flex-end;
+    color: rgb(224, 1, 139);
     text-decoration: none;
     font-size: larger;
 }
  h1 {
-     box-shadow: rgb(0, 236, 225);
+
+     font-family: cursive;
+     text-align: center;
+     font-size: 50px;
+     line-height: 65px;
+ }
+
+ p {
+     width: 400px;
+     margin:100px;
+     box-shadow: inset 10px 25px 230px 0px rgb(231, 210, 220);
+     border-radius: 7px;
+     padding: 60px 30px;
  }
 
 button {
-    border-radius: 7px;
-    color:black;
-    align-self: flex-end;
+    border-radius: 28px;
+    padding: 15px 76px 15px 76px;
+    background-color: whitesmoke;
+    font-size: 25px;
+    mix-blend-mode: color-dodge;
+    color: #272727;
+    align-content: baseline;
+    align-self: center;
 }
