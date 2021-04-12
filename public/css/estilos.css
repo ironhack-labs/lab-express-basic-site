@@ -1,0 +1,35 @@
+.ul-nav {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.li-nav {
+    display: inline;
+    padding-right: 150px;
+}
+
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+.nav-bar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2em;
+    z-index: 3;
+    display: inline;
+    font-weight: 300;
+    padding-left: 60px;
+}
+
+.nav-bar a:hover {
+    color: rgb(99, 177, 244);
+    transition: 0.2s;
+}
