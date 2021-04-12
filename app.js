@@ -7,7 +7,7 @@ app.use(express.static('public'));
 //Server routes
 app.get('/', (request, response) => response.sendFile(__dirname + '/views/index.html'));
 app.get('/about', (request, response) => response.sendFile(__dirname + '/views/about.html'));
-app.get('/works', (request, response) => response.sendFile(__dirname + '/views/works.html'));
+app.get('/abilities', (request, response) => response.sendFile(__dirname + '/views/abilities.html'));
 app.get('/gallery', (request, response) => response.sendFile(__dirname + '/views/gallery.html'));
 
 //Server started
