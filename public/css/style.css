@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(135, 189, 221);
+  background-color:#78bbcb;
 }
 .navbar{
   display: flex;
@@ -8,6 +8,7 @@ body {
 }
 .banner{
   align-self: center;
+  padding-top: 20px;
 }
 .navbar ul{
   width: 500px;
