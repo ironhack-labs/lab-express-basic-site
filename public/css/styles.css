@@ -27,7 +27,7 @@ html, body {
     transition: margin 0.3s;
 }
 h1{
-    font-size: 5rem;
+    font-size: 4.8rem;
 }
 #about-main h2{
     font-size: 3rem;
@@ -68,7 +68,7 @@ nav ul > li > a:hover{
     border-radius: 20px;
 }
 #home-main p{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* ABOUT STYLES */
@@ -131,7 +131,13 @@ hr{
     border-radius: 10px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
+    h1{
+        font-size: 4rem;
+    }
+    #home-main p{
+        font-size: 1.4rem;
+    }
     #about-main p{
         font-size: 1.4rem;
     }
