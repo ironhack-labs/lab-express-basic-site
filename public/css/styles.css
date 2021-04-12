@@ -16,16 +16,19 @@ html, body {
 
 #home-main,
 #about-main,
-#works-main{
+#works-main,
+#gallery-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px 100px;
+    transition: margin 0.3s;
 }
 #home-main h1,
 #about-main h1,
-#works-main h1{
+#works-main h1,
+#gallery-main h1{
     font-size: 5rem;
 }
 #about-main h2{
@@ -108,4 +111,29 @@ hr{
 
 .box-disc img{
     width: 250px;
+}
+
+/* GALLERY STYLES */
+#gallery-main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-pic{
+    height: 200px;
+    margin: 10px 10px;
+    transition: transform 0.3s;
+}
+.gallery-pic:hover{
+    transform: scale(2);
+}
+
+@media (max-width: 500px){
+    #about-main p{
+        font-size: 1.4rem;
+    }
+    #about-main{
+        margin: 0px 50px;
+    }
+
 }
