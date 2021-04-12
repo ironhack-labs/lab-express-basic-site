@@ -1,0 +1,34 @@
+body {
+    font-family: Courier, "Lucida Console", monospace ;
+    background-color: rgb(228, 228, 228);
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin:auto;
+    width: 250px;
+    height: 300px;
+padding-top: 30px;
+
+}
+
+p {
+    font-size: 18px;
+    ;
+}
