@@ -2,6 +2,7 @@
 html,
 body,
 h1,
+h2,
 h3,
 input,
 p,
@@ -12,6 +13,12 @@ ul {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+/* BODY */
+body {
+    height: 100vh;
+    padding-bottom: 20px;
 }
 
 /* HEADER */
@@ -40,9 +47,12 @@ li > a{
     margin: 40px;
 }
 
+li > a:hover{
+    text-shadow: 1px 1px 0px #4d8386;
+}
+
 /* MAIN */
 main {
-    height: 100vh;
     background-image: url('/images/sylvanas-background-transparent.png');
     background-position: center;
     background-repeat: no-repeat;

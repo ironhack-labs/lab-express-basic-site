@@ -1,0 +1,16 @@
+main h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5rem;
+    color: #69565f;
+}
+
+main section{
+    width: 60vw;
+    margin: 40px auto;
+}
+
+section p{
+    font-size: 2rem;
+    padding: 15px;
+}
