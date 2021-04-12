@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#nav-bar {
+    display: inline;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 1.4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border: 1px grey solid;
+    padding: 8px;
+    margin: 10px;
+
+}
+
+section p {
+    font-size: 1.2em;
+    padding: 10px 30px;
+}
+
+#home-title {
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+#home-title + p {
+    font-size: 2em;
+}
+
+#work p{
+    font-size: 1.2em;
+    padding: 8px 30px;
+}
+
+#gallery div img{
+    width: 400px;
+}
