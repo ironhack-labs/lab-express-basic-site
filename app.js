@@ -9,6 +9,9 @@ app.get('/works', (request, response) => response.sendFile(__dirname + '/views/w
 app.get('/about', (request, response) => response.sendFile(__dirname + '/views/about.html'));
 app.get('/gallery', (request, response) => response.sendFile(__dirname + '/views/gallery.html'));
 
+app.get('*', (request, response) => response.sendFile(__dirname + '/views/404.html', 404));
+
+
 
 // Server started
 app.listen(3000, () => console.log('Listening on port 3000'));

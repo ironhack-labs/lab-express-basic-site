@@ -17,7 +17,8 @@ html, body {
 #home-main,
 #about-main,
 #works-main,
-#gallery-main{
+#gallery-main,
+#error-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,10 +26,7 @@ html, body {
     margin: 0px 100px;
     transition: margin 0.3s;
 }
-#home-main h1,
-#about-main h1,
-#works-main h1,
-#gallery-main h1{
+h1{
     font-size: 5rem;
 }
 #about-main h2{
@@ -126,6 +124,11 @@ hr{
 }
 .gallery-pic:hover{
     transform: scale(2);
+}
+
+/* 404 STYLES */
+#error-main img{
+    border-radius: 10px;
 }
 
 @media (max-width: 500px){
