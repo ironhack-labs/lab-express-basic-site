@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-div {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    height: 50px;
+}
+
+.links {
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+}
+
+.links:hover {
+    color: darkslategrey;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 3rem;
+    color: chocolate;
+    text-align: center;
+    padding: 30px;
+}
+
+.welcome-img {
+    width: 50%;
+}
+
+.list {
+    font-size: 1.2em;
+}
+
+.carousel {
+    width:640px;
+    height:360px;
+  }
+
+  .img-container {
+      display: flex;
+      justify-content: center;
+  }
