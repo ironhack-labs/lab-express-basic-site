@@ -99,4 +99,26 @@
 
 .work {
     background-color: black;
+    width: 100%;
+}
+
+.work-album-cover{
+    width: 300px;
+    border: 2px solid #fd6ba4;
+    border-radius: 5%;
+}
+
+.work-album{
+    padding: 30px 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-bottom: 1px solid #f1e87d;
+}
+
+.work-list{
+    list-style: none;
 }
