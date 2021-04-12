@@ -15,7 +15,8 @@ html, body {
 }
 
 #home-main,
-#about-main{
+#about-main,
+#works-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +24,8 @@ html, body {
     margin: 0px 100px;
 }
 #home-main h1,
-#about-main h1{
+#about-main h1,
+#works-main h1{
     font-size: 5rem;
 }
 #about-main h2{
@@ -76,4 +78,34 @@ hr{
     border: 1px solid var(--grey-light-color);
     width: 90%;
     margin: 30px 0px;
+}
+
+/* WORKS STYLES */
+#works-main{
+    margin: 0 50px;
+}
+#works-main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-disc{
+    margin: 8px 8px;
+    border: 1px solid var(--grey-dark-color);
+    border-radius: 5px;
+}
+.box-disc p{
+    text-align: center;
+}
+.year-disc{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 5px 0px;
+}
+.title-disc{
+    font-size: 1.6rem;
+}
+
+.box-disc img{
+    width: 250px;
 }
