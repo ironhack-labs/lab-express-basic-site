@@ -1,0 +1,15 @@
+/* MAIN */
+main {
+    height: 100vh;
+    background-image: url('/images/sylvanas-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h1 {
+    color: #c3c7c8;
+    font-size: 8rem;
+    text-shadow: 3px 3px 20px #69565f;
+    text-align: right;
+    padding: 60px 20px;
+}
