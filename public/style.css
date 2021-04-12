@@ -1,0 +1,102 @@
+.navbar-img{
+    margin-left: 30px;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: black;
+    border-bottom: 2px solid #f1e87d;
+}
+
+.navbar-div {
+    font-family: 'Michroma', sans-serif;
+    margin-right: 30px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-link:link, .navbar-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-link:hover, .navbar-link:active {
+    color: #f1e87d;
+    text-decoration: none;
+}
+
+.welcome-page {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wp-fntme-banner {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding: 40px 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.wp-text{
+    padding-left: 100px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.wp-text h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #fd6ba4;
+}
+
+.wp-fntme{
+    width: 500px;
+    border: 2px solid #fd6ba4;
+    border-radius: 5%;
+}
+
+.about{
+    background-color: black;
+}
+
+.about-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 0px;
+    margin-left: 35px;
+}
+
+.about-section-text{
+    line-height: 1.5;
+    text-indent: 50px;
+    font-size: 20px;
+    padding: 0px 40px;
+    text-align: justify;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.dua-about{
+    width: 600px;
+    border: 2px solid #f1e87d;
+    border-radius: 5%;
+}
+
+.work {
+    background-color: black;
+}
