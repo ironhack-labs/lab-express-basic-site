@@ -1,12 +1,20 @@
 body {
-  background-color: rgb(166, 192, 207);
+  background-color: rgb(135, 189, 221);
 }
 .navbar{
   display: flex;
   flex-direction: column;
+  
 }
 .banner{
   align-self: center;
+}
+.navbar ul{
+  width: 500px;
+  list-style: none;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
 }
 .navbar a{
   text-decoration: none;
