@@ -1,10 +1,10 @@
 @font-face {
   font-family: pokemon;
-  src: url(/public/font/Pokemon\ Solid.ttf);
+  src: url(/font/Pokemon\ Solid.ttf);
 }
 
 body {
-  background-image: url("/public/images/background.gif");
+  background-image: url("/images/background.gif");
   background-repeat: inherit;
   background-size: inherit;
   margin: 0;
