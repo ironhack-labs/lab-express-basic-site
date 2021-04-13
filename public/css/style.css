@@ -1,23 +1,88 @@
-.work-body {
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-around;
+@font-face {
+    font-family: 'Lobster', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+}
+body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-bar {
+    background-color: black;
+    padding: 15px 0px;
+    margin: -10px;
     
 }
 
-.content-list article {
-    padding: 50px 0px 50px 0px;
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
 }
 
-.img-container {
+.nav-bar ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;    
+    font-family: 'Lobster', cursive; 
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em; 
+}
+
+header {
+    background-image: url(/images/chiquito_vargas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: 20px;
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    color:white;
+    font-size: 2em;
+    text-shadow: black 8px 15px 7px;
+}
+header h1{
+    padding-top: 500px;  
 
 }
+
+/*WORK HTML*/
+.work-body {
+    padding-top: 25px;
+}
+.work-articles{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.work-body p{
+    padding: 0 100px;
+    display: flex;
+    text-align: justify;
+    
+}
+.work-body h2 {
+    text-align: center;
+   
+}
+
+.content-list article {
+    padding-bottom: 10px;
+    
+    font-size: 1.5em;
+}
+
 
 .img-container article {
     padding: 10px;
+    padding-top: 150px;
 }
 
 .work-body img {
@@ -25,16 +90,34 @@
     width: auto;
 }
 
-.biography {
-    padding-right: 50px;
-    padding-left: 5px;
+/*ABOUT HTML*/
+.about-body div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     text-align: justify;
 }
 
+hr {
+    border: 1px solid grey;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.about-body img {
+    padding-top: 15px;
+    height: auto;
+}
+
+.about-body h3, p {
+    padding: 0px 100px;
+    font-size: 1.2em;
+    
+}
+
 .about-body {
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-around;  
+    padding-top: 25px;
 }
 
 .japan-picture {
