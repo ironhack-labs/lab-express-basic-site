@@ -41,4 +41,11 @@ main{
 
 img{
     width: 200px; 
+    padding: 0rem 2rem;
+}
+
+div{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
