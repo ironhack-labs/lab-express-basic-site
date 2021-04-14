@@ -1,0 +1,21 @@
+header div {
+  display: flex;
+}
+header div a {
+  text-decoration: none;
+  color: red;
+}
+nav {
+  background-color: yellow;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
