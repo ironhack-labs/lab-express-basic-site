@@ -1,0 +1,65 @@
+body {
+    font-size: 16px;
+    background-color: yellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    text-align: justify;
+    align-content: center;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+.danny {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    color: purple;
+}
+
+h3  {
+    font-size: 2em;
+    font-weight: 900;
+    color: purple;
+}
+
+h4 {
+    font-size: 1em;
+    color: purple;
+    font-weight: 400;
+}
+
+a, p{
+    text-decoration: none;
+    color: purple;
+    font-size: 1.5em;
+}
+
+#worksbtn {
+    border: 1px solid purple;
+    margin: 40px;
+    padding: 40px;
+}
+
+#dorothy {
+    width: 300px;
+}
+
+#movies {
+    border: 1px solid purple;
+    margin: 40px;
+    padding: 40px;
+    text-decoration: none;
+    color: purple;
+    font-size: 1.5em;
+}
