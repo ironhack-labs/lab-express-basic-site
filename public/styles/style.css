@@ -1,0 +1,15 @@
+.content{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+.content > img {
+    width: 50%;
+}
+.image-container > img {
+    width: 25%;
+}
