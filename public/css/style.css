@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Press Start 2P', monospace;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    height: 600px;
+    filter: invert(1);
+}
