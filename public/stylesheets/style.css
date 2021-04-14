@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:ital@1&family=Roboto:ital@0;1&display=swap');
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) ,url(/images/doc-background.jpeg);
+    background-size: cover;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 80vw;
+    margin-bottom: 100px;
+}
+
+nav {  
+    padding: 20px;
+}
+
+nav ul {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+.text {
+    margin: 20px;
+    transform: translateY(50px);
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
