@@ -12,7 +12,7 @@ app.get('/about', (require, response) => {
 })
 
 app.get('/gallery', (require, response) => {
-    response.sendFile(__dirname + '/views/works.html');
+    response.sendFile(__dirname + '/views/gallery.html');
 })
 
 app.listen(3000, () => {
