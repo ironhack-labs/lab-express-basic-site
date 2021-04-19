@@ -17,7 +17,6 @@ body p{
   width: 100%;
    background-color: gray;
    overflow: auto;
-   /* position: fixed; */
 }
 .nav-bar a {
   float: left;
