@@ -13,6 +13,7 @@ h1 {
   font-size: 3rem;
   letter-spacing: .75rem;
   text-align: center;
+  line-height: 3rem;
 }
 
 p {
@@ -43,12 +44,40 @@ background-color: white;
   max-height: 100px;
 }
 
+.main_nav {
+  margin-right: .5rem;
+}
+
 .main_nav a {
   text-decoration: none;
-  font-size: 2.5rem;
   color: #00004f;
   margin-right: 1rem;
-  font-family: 'Amatic SC', cursive;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .15rem;
+  position: relative;
+}
+
+.main_nav a.active {
+  color: #de8203;
+  pointer-events: none;
+}
+
+.main_nav a::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background-color: #00004f;
+  transition: width 0.2s ease-out;
+}
+
+.main_nav a:hover::after {
+  width: 100%;
 }
 
 main {
@@ -104,7 +133,7 @@ main {
   border-radius: 0;
   box-shadow: inset 0 0 0 var(--border-size) currentcolor;
   transition: background 0.8s ease;
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 3rem;
 }
 .button:hover {
   background: rgba(100, 0, 0, .03);
@@ -154,6 +183,9 @@ main {
 
 .button a {
   text-decoration: none;
+}
+
+a.nav__button {
   color: #de8203;
 }
 
@@ -196,12 +228,13 @@ main {
 }
 
 footer {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
-  color: #00004f;
+  color: white;
   font-weight: 700;
   font-size: .75rem;
-  border: #00004f solid 2px;
+  background-color: #010125;
+  letter-spacing: .25rem;
 }
 
 .logo__wrapper {
