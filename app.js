@@ -9,6 +9,8 @@ app.use(express.static(__dirname + "/public"));
 app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 
+hbs.registerPartials(__dirname + "/views/partials");
+
 // step 3 : routes handling
 app.get("/", (req, res) => {
   res.render("home.hbs", {pageTitle: "Au revoir, Paris !"});
