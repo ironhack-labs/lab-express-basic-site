@@ -11,12 +11,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <!--My style sheet-->
   <link rel="stylesheet" href="/css/style.css"></link>
-  <title>Au Revoir, Paris !</title>
+  <title>{{pageTitle}}</title>
 </head>
 <body>
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#"><i class="fas fa-plane-departure"></i></a>
+    <a class="navbar-brand" href="/"><i class="fas fa-plane-departure"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,43 +24,26 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="/">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Selling</a>
+          <a class="nav-link" href="/items">Items</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Free stuff!</a>
+          <a class="nav-link" href="/about">About</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse by category</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Appliances</a>
-            <a class="dropdown-item" href="#">Small furniture</a>
-            <a class="dropdown-item" href="#">Clothes & Linens</a>
-            <a class="dropdown-item" href="#">Workout equipment</a>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
       </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
     </div>
   </nav>
 
-  {{!-- <!--Jumbotron-->
-  <div class="jumbotron">
-    <h1 class="display-3">Salut les amis !</h1>
-    <p class="lead">The time has come to close our Paris chapter.</p>
-    <hr class="my-4">
-    <p>Help us find a new home for the things we'll leave behind.</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Find your treasure <i class="fas fa-gift"></i></a>
-    </p>
-  </div>
+{{{body}}}
 
-  <!-- Cards for all items -->
+  {{!-- <!-- Cards for all items -->
   <div class="card-deck">
     <div class="card">
       <img class="card-img-top" src="images/kettle" alt="Electric kettle">

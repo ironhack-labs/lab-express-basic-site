@@ -1,6 +1,6 @@
 .jumbotron {
   height: 400px;
-  background-image: url("images/moving.jpg");
+  background-image: url("/assets/images/moving.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -11,13 +11,20 @@ app.set("views", __dirname + "/views");
 
 // step 3 : routes handling
 app.get("/", (req, res) => {
-  res.render("home.hbs");
+  res.render("home.hbs", {pageTitle: "Au revoir, Paris !"});
 });
 
+app.get("/items", (req, res) => {
+  res.render("items.hbs", {pageTitle: "Items"});
+});
+
+app.get("/about", (req, res) => {
+  res.render("about.hbs", {pageTitle: "About"});
+});
 
 app.get("/contact", (req, res) => {
-  res.render("contact.hbs");
+  res.render("contact.hbs", {pageTitle: "Contact"});
 });
 
 // step 4 : app listen to kickstart
-app.listen(3000);
+app.listen(5000);
