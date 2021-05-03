@@ -1,15 +1,16 @@
 <!-- Cards for all items -->
   <div class="card-deck">
+    {{#each items}}
     <div class="card">
-      <img class="card-img-top" src="images/kettle" alt="Electric kettle">
+      <img class="card-img-top" src={{this.photo}} alt={{this.alt}}>
       <div class="card-body">
-        <h5 class="card-title">HEMA Electric Kettle</h5>
-        <p class="card-text">Color: Pink</p>
-        <p class="card-text">Get the specs <a href="https://www.hema.com/fr-be/manger-cuisiner/cuisiner/electromenager/bouilloire-sans-fil-1.7l-80010105.html" target="_blank">here</a>.</p>
+        <h5 class="card-title">{{this.name}}</h5>
+        <p class="card-text">Color: {{this.color}}</p>
+        <p class="card-text">Get the specs <a href="{{this.specs}}" target="_blank">here</a>.</p>
         <a class="btn btn-primary" href="#" role="button">Reserve</a>
       </div>
     </div>
-    <div class="card">
+    {{!-- <div class="card">
       <img class="card-img-top" src="images/microwave.jpg" alt="Microwave">
       <div class="card-body">
         <h5 class="card-title">Proline 700W Microwave</h5>
@@ -35,4 +36,7 @@
         <p class="card-text">Get the specs <a href="https://www.decathlon.fr/p/tapis-yoga-light-5-mm/_/R-p-15228?mc=8576009&c=ORANGE" target="_blank">here</a>.</p>
         <a class="btn btn-primary" href="#" role="button">Reserve</a>
       </div>
-    </div>
+    </div> --}}
+  {{/each}}
+  </div>
+
