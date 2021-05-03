@@ -26,6 +26,27 @@ app.get("/items", (req, res) => {
         alt: "Kettle",
         color: "Pink",
         specs: "https://www.hema.com/fr-be/manger-cuisiner/cuisiner/electromenager/bouilloire-sans-fil-1.7l-80010105.html"
+      },
+      {
+        name: "Proline 700W Microwave",
+        photo: "https://image.darty.com/gros_electromenager/micro_ondes-micro_ondes/micro_ondes_compact/proline_ke17w_c0208223178536_1273217089366.jpg",
+        alt: "Microwave",
+        color: "White",
+        specs: "https://www.darty.com/nav/achat/gros_electromenager/micro_ondes-micro_ondes/micro_ondes_compact/avis_2__proline_ke17w.html"
+      },
+      {
+        name: "3kg Dumbbells",
+        photo: "https://contents.mediadecathlon.com/p1833678/k$168d080066100efbb7cc019eead03d17/sq/paire-dhalteres-fitness-3-kg-gris.jpg?format=auto&f=864x864",
+        alt: "Dumbells",
+        color: "Black",
+        specs: "https://www.decathlon.fr/p/paire-d-halteres-fitness-3-kg-gris/_/R-p-130442?mc=8336581&c=GRIS"
+      },
+      {
+        name: "Yoga Mat",
+        photo: "https://contents.mediadecathlon.com/p1782821/k$b668dcf0390ea592e9596883abbbdc79/sq/tapis-yoga-light-5mm-corail.jpg?format=auto&f=864x864",
+        alt: "YogaMat",
+        color: "Pink",
+        specs: "https://www.decathlon.fr/p/tapis-yoga-light-5-mm/_/R-p-15228?mc=8576009&c=ORANGE"
       }
     ]
   });
