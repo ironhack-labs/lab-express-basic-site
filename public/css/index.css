@@ -1,0 +1,103 @@
+@import url("./gallery.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 90%;
+  background-image: url(/assets/img/scenario.jpeg);
+  background-repeat: none;
+  background-position-x: left;
+  background-position-y: left;
+}
+nav {
+  background: #222;
+  padding: 0 15px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.submenu {
+  display: flex;
+  flex-direction: row;
+}
+nav,
+footer {
+  background: whitesmoke;
+  padding: 0 15px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.siteLogo {
+  font-size: 20px;
+  padding: 7.5px 10px 7.5px 0;
+}
+.item {
+  padding: 10px;
+}
+h1 {
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color: rgba(101, 101, 204, 0.979);
+}
+img {
+  width: 30vh;
+}
+.sideLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer {
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.modal {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.5;
+    max-width: 60%;
+    padding: 1rem 2rem;
+  }
+  
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .modal {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.5);  
+    }
+    .warning {
+      display: none;
+    }
+  }
+.rightColumn{
+    background-color: wheat;
+    height: 120vh;
+    width: 20px;
+}
