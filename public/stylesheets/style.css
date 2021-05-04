@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*
+    2. ETIQUETAS
+*/
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    height: 300px;
+    background-image: url("https://live.staticflickr.com/4126/4841476469_a6f53ec574_b.jpg");
+
+}
+nav{
+    color: white;
+    text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em white;
+    padding-right:  20px;
+    padding-left:  20px;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-between
+
+}
+.content{
+    margin: 20px;
+
+}
+ul{
+    text-align: center;
+}
