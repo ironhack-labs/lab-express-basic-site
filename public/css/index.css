@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-style: averta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    font-family: larsseit, -apple-system, system-ui, BlinkMacSystemFont, SegoeUI, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+  }
+  
+  section{
+      padding: 72px 18px;
+      width: auto;
+  }
+  
+  .title{
+      font-size: 67px;
+      font-family: larsseit, -apple-system, system-ui, BlinkMacSystemFont, SegoeUI, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .sub-T{
+      font-size: 40px;
+      font-family: larsseit, -apple-system, system-ui, BlinkMacSystemFont, SegoeUI, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  h3{
+      font-size: 20px;
+      font-weight: 400;
+  }
+  
+  h4 {
+      font-size: 18px;
+      font-weight: 400;
+  }
+  
+  p {
+      font-size: 12px;
+      font-weight: 400;
+  }
+  
+  .bg{
+      background-color: #f8fafc;
+  }
+  
+  .job-title{
+      color: royalblue;
+      font-weight: bolder;
+  }
+  
+  .menu{
+      display: flex;
+      list-style-type: none;
+  }
+  
+  .menu li{
+      padding: 0px 20px;
+  }
+  
+  header{
+      display: flex;
+      justify-content: space-between;
+      height: 54px;
+      flex-direction: row;
+      align-items: center;
+      padding: 20px;
+  
+  }
+  
+  .contact{
+      border-radius: 20px;
+      background-color: royalblue;
+      color: white;
+      list-style: none;
+  }
+  
+  .btn{
+      color: white;
+      background-color: royalblue;
+      border-radius: 150px;
+      padding: 10px 20px;
+      border: none;
+      font-weight: 600;
+      letter-spacing: 2px;
+  
+  }
+  
+  .home{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row-reverse;
+      align-items: center;
+  }
+  
+  .home-div img{
+      width: 500px;
+  }
+  
+  .home-p, .title{
+      padding: 20px 0px;
+  }
+  
+  .title-txt {
+      width: 700px;
+  }
+  
+  .about-div{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  
+  .about-div img{
+      width: 500px;
+  }
+  
+  h2 {
+      text-align: center;
+  }
+  
+  .about-div h3{
+      width: 700px;
+  }
+  
+  .edu-div{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      height: auto;
+  
+  }
+  
+  .edu-div img{
+      width: 500px;
+  }
+  
+  .edu-board {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 500px;
+      
+  }
+  
+  .edu-exp{
+      width: 600;
+      box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.74);
+      padding: 10px 20px;
+      border-radius: 10px;
+      height: auto;
+  }
