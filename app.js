@@ -13,7 +13,7 @@ hbs.registerPartials(__dirname + "/views/partials");
 
 // step 3 : routes handling
 const homeRouter = require('./routes/home.js');
-app.get('/', homeRouter);
+app.use(homeRouter);
 
 const itemsRouter = require('./routes/items.js');
 app.get('/items', itemsRouter);

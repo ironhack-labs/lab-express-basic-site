@@ -1,8 +1,8 @@
 const express = require('express');
-const contactRouter = express.Router();
+const router = new express.Router();
 
-contactRouter.get("/contact", (req, res) => {
+router.get("/contact", (req, res) => {
   res.render("contact.hbs", {pageTitle: "Contact"});
 });
 
-module.exports = contactRouter;
+module.exports = router;

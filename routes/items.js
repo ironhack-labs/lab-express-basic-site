@@ -1,5 +1,5 @@
 const express = require('express');
-const itemsRouter = express.Router();
+const itemsRouter = new express.Router();
 
 itemsRouter.get("/items", (req, res) => {
   res.render("items.hbs", {
