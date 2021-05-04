@@ -1,0 +1,49 @@
+
+.nav-space {
+    border-bottom: 1px black solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    flex-grow: 1;
+    margin: 5px;
+    margin-top: 100px;
+
+}
+
+.image-container {
+
+    background: url(../images/library.png);
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#video {
+    margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 1400px){
+
+    .container {
+        flex-direction: column;
+        width: 60%;
+
+    }
+
+    .card {
+        width: auto !important;
+    }
+}
+
+.card-text {
+    line-height: 35px;
+}

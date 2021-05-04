@@ -1,0 +1,31 @@
+
+.nav-space {
+    border-bottom: 1px black solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.card{
+
+    margin: 5px;
+    width: auto !important;
+}
+
+.image-container {
+
+    background: url(../images/library.png);
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card-text {
+    line-height: 35px;
+}

@@ -1,0 +1,47 @@
+body {
+
+    background-color: rgb(238, 229, 216);
+}
+
+
+.nav-space {
+    border-bottom: 1px black solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    background-color: white ;
+ 
+
+
+}
+
+.card{
+    padding: 20px;
+    margin: 30px;
+    border: none;
+
+
+}
+
+.image-container {
+
+    display: flex;
+    height:400px;
+    background-size: contains;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+
+.card-text {
+    line-height: 35px;
+}
