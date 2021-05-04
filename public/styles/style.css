@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h2{
+    font-size: 3.5rem;
+    color:black;
+    text-transform: uppercase;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+    border: 1px rgba(0, 0, 0, 0.034);
+    border-radius: 50px;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    padding: 40px;
+    margin: 15px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    margin: 15px;
+    height: 20rem;
+}
