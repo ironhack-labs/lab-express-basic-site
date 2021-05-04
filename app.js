@@ -16,13 +16,13 @@ const homeRouter = require('./routes/home.js');
 app.use(homeRouter);
 
 const itemsRouter = require('./routes/items.js');
-app.get('/items', itemsRouter);
+app.use(itemsRouter);
 
 const aboutRouter = require('./routes/about.js');
-app.get('/about', aboutRouter);
+app.use(aboutRouter);
 
 const contactRouter = require('./routes/contact.js');
-app.get('/contact', contactRouter);
+app.use(contactRouter);
 
 // step 4 : app listen to kickstart
 app.listen(5000);
