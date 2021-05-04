@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(252, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar ol{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.nav-bar a:visited {
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: grey;
+}
+
+li {
+    list-style: square;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 100%;
+}
+
+.pp-img {
+    display: flex;
+    justify-content: center;
+}
+
+.pp-img img{
+    width: 200px;
+}
+
+h2{
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+}
+
+.header-tittle{
+    border-top: 5px black solid;
+}
+
+.img-about{
+    display: flex;
+    justify-content: center;
+}
+
+.img-about img{
+    width: 60%;
+}
+
+.bio{
+    margin-top: 50px;
+}
+
+.bio h2{
+    font-size: 16px;
+}
+
+.bio p{
+    text-align: justify;
+    margin: 0 20%;
+    color: rgb(141, 141, 141);
+}
+
+.links:visited{
+    color: black;
+}
+
+a{
+   text-decoration: none; 
+}
+
+#work{
+
+
+}
+
+.header-work{
+    display: flex;
+    justify-content: center;
+}
+
+.header-work h2{
+    margin: 50px 0px;
+    left: 0;
+}
+
+.header-content div{
+    display: flex;
+    justify-content: center;
+}
+
+.header-content img{
+    width: 60%;
+    border:rgb(235, 235, 235) solid 1.5px;
+    border-radius: 15px;
+    margin: 50px 0;
+}
