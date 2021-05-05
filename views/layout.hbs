@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evike WebSite</title>
+    <link rel="stylesheet" href="/css/index.css">
+    {{#each css}}
+    <link rel="stylesheet" href="/css/{{this}}">
+    {{/each}}
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="evikelogo" src="/assets/img/LOGO evike blanc.png" alt="logo">
+            <div>
+                <h1>EVI:KE</h1>
+            </div>
+
+
+            <nav>
+                <a href="/">home</a>
+                <a href="/about">about</a>
+                <a href="/contact">contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    {{{ body }}}
+
+</body>
+
+</html>

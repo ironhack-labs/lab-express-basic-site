@@ -1,0 +1,47 @@
+@import url("/form.css");
+@import url("/reset.css");
+@import url("/widgets.css");
+
+body {
+  background-color: rgb(142, 142, 247);
+}
+
+header div {
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+h1 {
+  color: rgb(88, 68, 239);
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+h2 {
+  color: rgb(246, 245, 253);
+  align-items: center;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.evikelogo {
+  width: 150px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav {
+  width: 700px;
+}
+.nav a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(246, 245, 253);
+  align-items: center;
+  font-size: 30px;
+  margin-left: 210px;
+}
