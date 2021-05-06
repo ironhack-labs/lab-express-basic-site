@@ -1,0 +1,30 @@
+@import url("./home.css");
+@import url("./about.css");
+@import url("./works.css");
+
+body {
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+#main-header {
+    background-color: dimgrey;
+    width: 800px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   font-size: 3em;
+}
+

@@ -1,0 +1,20 @@
+.display {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+
+.slide {
+    width: 800px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(8,100%);
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+}
