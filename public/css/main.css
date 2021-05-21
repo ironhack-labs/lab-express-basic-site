@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{display: flex; background-color: #000; }
+
+nav a:link, nav a:visited{color: #fff; text-decoration: none; text-transform: uppercase; font-weight: bold; }
+
+nav a:hover{color: coral;}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    box-sizing: border-box;
+}
+
+nav li{
+    padding: 2%;
+}
+
+main {
+    margin: 10%
+}
+
+#gallery{
+    display: flex;
+    width:100% ; max-width: 900px;
+    flex-wrap: wrap;
+}
+
+#gallery img{width: 100%; margin: 2% ;}
