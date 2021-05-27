@@ -24,4 +24,4 @@ app.get('/gallery', (req, res, next) => {
     res.render('gallery')
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
