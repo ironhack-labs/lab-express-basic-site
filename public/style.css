@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("/agarothLogo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d-block.carousel-item {
+    width: 100%;
+  height: auto;
+
+
+}
+
+.home {
+    background-color: black;
+}
+
+.concert {
+color: white;
+text-align: center;
+}
+
+body {
+    background-color: #f7f6f6
+}
+
+.biobody{
+    background-color: black;
+}
+.bio {
+    color: white;
+    font-size: 1.2em;
+}
+
+.bio ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.agar {
+    width: 35%;
+    height: 35%;
+    margin-left: 700px;
+    margin-top: -680px;
+}
+
+.social-list {
+    display: inline-flex;
+    margin-top: 500px;
+}
+
+.social-list li {
+    list-style: none;
+    margin-right: 10px
+}
+
+.maincard {
+    position: relative;
+    width: 120px;
+    height: 80px
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 4px
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 4px
+}
+
+.social-text small {
+    font-size: 20px
+}
+
+@media (max-width:700px) {
+    .social-list {
+        display: block
+    }
+}
+
+.facebook {
+    background: rgb(32, 31, 31)
+}
+
+.instagram {
+    background: rgb(32, 31, 31)
+}
+
+.youtube {
+    background: rgb(32, 31, 31)
+}
+
+.whatsapp {
+    background: rgb(32, 31, 31)
+}
+
