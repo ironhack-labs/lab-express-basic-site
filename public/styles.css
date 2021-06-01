@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+body{
+    background-color: palevioletred;
+    font-family: Kalam;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    color:black;
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px 30px 10px 30px;
+    text-align: justify;
+}
+
+.nav-link{
+    color:palevioletred;
+}
+
+.inicio{
+    margin: 20px 10px 20px 150px;
+    width: 78%;
+    height: 30%;
+}
+
+.card{
+    margin: 20px 10px 20px 520px;
+    width: 20%;
+    height: 10%;
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.video-fluid{
+    margin-top: 30px;
+    margin-left: 30% ;
+   
+}
+
+.pe{
+    margin-left: 600px;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
