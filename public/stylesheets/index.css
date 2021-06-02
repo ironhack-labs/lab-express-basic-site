@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(70, 70, 70);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3.5%;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    filter: grayscale(80%);
+    border: 5px solid white;
+}
+
+.thumbnail:hover{
+    filter: grayscale(0%);
+    border: 5px solid gold
+}
+
+.thumbnail h2 {
+    position: absolute;
+    color:white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: rgba(0, 0, 0, 0.8);
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.thumbnail:hover h2 {
+    color:black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
