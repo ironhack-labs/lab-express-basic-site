@@ -2,7 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-a{
+.nav-link a{
     font-size: 2.5em;
     font-weight: bold;
     text-decoration: none;
