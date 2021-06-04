@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(15, 179, 165);
+}
+
+h1, p{
+    font-size: 3.5rem;
+    color:black;
+    text-transform: uppercase;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    padding: 15px;
+    margin: 15px;
+    border: 1px rgba(145, 10, 10, 0.034);
+    border-radius: 50px;
+    height: 6rem;
+    width: 6rem;
+    background-color: rgba(187, 154, 154, 0.479);
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
