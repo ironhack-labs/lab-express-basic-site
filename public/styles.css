@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url("../public/csm_digiworld-VIS11-2_ab27a60c27.jpg");
+    background-repeat: repeat;
+    color:ivory;
+}
+
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 2rem;    
+}
+.mainMenuImg{
+    height: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text {
+    font-size: 1.25rem;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 1.5rem;
+    background-color: rgb(32, 32, 32)
+}
+
+.aboutInfo{
+    background-color: rgb(32, 32, 32);
+}
+
+.careerParagraph{
+    background-color: rgb(32, 32, 32);
+}
