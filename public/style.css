@@ -1,0 +1,35 @@
+body {
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.image1 {
+  width: 500px;
+  height: auto;
+}
+
+.image-2 {
+  width: 500px;
+  height: auto;
+}
+
+.home-links {
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  color: darkgray;
+}
