@@ -1,0 +1,7 @@
+.blackLetter {
+    color: black;
+}
+
+.blackWhite {
+    filter: grayscale(100%);
+}
