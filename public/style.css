@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+body{
+    background-color: blue;
+}
+
+.first-title{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+}
+
+.Twitter{
+    background-image: url("/images/facebook.png");
+}
+
