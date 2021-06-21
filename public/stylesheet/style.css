@@ -1,0 +1,22 @@
+.images{
+    margin-top: 50px;
+}
+
+.images img{
+    width: 200px;
+    height: 150px;
+}
+
+.home-btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.table{
+    width: 350px;
+    text-align: center;
+}
