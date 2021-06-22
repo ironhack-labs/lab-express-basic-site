@@ -89,6 +89,26 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* recipe log */
+
+
+#recipe-log ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px 300px;
+}
+
+#recipe-log a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    border: black 1px solid;
+    padding: 20px;
+    margin: 0;
+}
+
+
 
 /* home image */
 
@@ -100,4 +120,29 @@ body {
 }
 
 
-/* recipes image */
+
+/* recipes */
+
+#recipe-images {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px 300px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.recipe-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.recipe-divs img {
+    border-radius: 1%;
+    border: 1px solid #ddd;
+    width: 450px;
+    padding: 10px;
+    margin: 0;
+}

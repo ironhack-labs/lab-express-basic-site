@@ -28,12 +28,6 @@ function recipesRouteHandler(request, response) {
     response.sendFile(path.join(__dirname, './views/recipes.html'))
 }
 
-app.all('/gallery', galleryRouteHandler)
-
-function galleryRouteHandler(request, response) {
-    response.sendFile(path.join(__dirname, './views/gallery.html'))
-}
-
 //6. start the express.app() so that it "listens" to a port
 app.listen(5000)
 
