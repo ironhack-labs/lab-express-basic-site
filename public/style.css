@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Bebas+Neue&family=Fjalla+One&family=Pathway+Gothic+One&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif; */
+
+body {
+  font-family: 'Poppins';
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0f171e;
+  color: white;
+}
+
+header {
+    padding-left: 25px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-top: 7px;
+    height: 50px;
+}
+
+header nav {
+    width: 70%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+/* HOME PAGE */
+#home-main {
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    background-image: url('./images/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* SEASON ONE */
+
+#first-season-main {
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("./images/fleabag-tea.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#first-season-main article{
+    width: 30%;
+}
+
+
+
+
+/* SEASON TWO */
+
+#second-season-main {
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("./images/fleabag-blood.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#second-season-main q{
+    width: 20%;
+}
+
+/* CAST */
+
+#cast-main-section {
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url("./images/35-milimetros-fleabag-cena.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#cast-images {
+    margin-right: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cast-images div {
+    width: 130px;
+    height: 130px;
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#cast-images a {
+    font-size: x-small;
+}
+
+#phoebe {
+    background-image: url("./images/phoebe-waller-bridge.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#olivia{
+    background-image: url("./images/olivia-colman.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#brett{
+    background-image: url("./images/brett-gelman.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#andrew{
+    background-image: url("./images/andrew-scott.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#jenny{
+    background-image: url("./images/jenny-rainsford.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sian{
+    background-image: url("./images/sian-clifford.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
