@@ -1,0 +1,29 @@
+body{
+     background-color: bisque;
+}
+
+div{
+          justify-content: space-around;
+          display: flex;
+        flex-direction: row;
+}
+
+h1{
+          text-align: center;
+            color: rgb(197, 74, 30);
+        font-size: 60px;
+}
+
+img{
+          width: 400px;
+          height: 600px;
+}
+
+a{
+
+display: block;
+text-align: center;
+text-decoration: none;
+color: cornflowerblue;
+font-size: 20px;
+}
