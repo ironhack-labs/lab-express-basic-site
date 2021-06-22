@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#mainPagePhoto, #mainPagePhotoLive, #mainPagePhotoLive2{
+    width: 100%;
+    display: block;
+}
+
+#header{
+    font-size: 30px;
+    color: blue;
+    background-color: rgb(203,203,203);
+    border: 1px solid rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around; 
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#aboutHeader{
+    background-color: rgb(203,203,203);
+    border: 1px solid rgb(2, 2, 2);
+    padding: 10px 0;
+    margin: 0;
+}
+
+#aboutbody {
+    background-image: url("./images/verticleImage.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: block;
+    margin: 0;
+    line-height: 1.6;
+}
+
+#aboutPhoto1{
+    width: 300px;
+    float: left;
+    margin: 5px 20px 20px 20px;
+}
+
+#aboutPhoto2{
+    width: 300px;
+    float: right;
+    margin: 5px 20px 20px 20px;
+}
+
+#worksHeader{
+    background-color: rgb(203,203,203);
+    border: 1px solid rgb(2, 2, 2);
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+#wordcloud{
+    width: 100%;
+}
+
+#photoGalleryHeader{
+    background-color: rgb(203,203,203);
+    border: 1px solid rgb(2, 2, 2);
+    padding: 10px 0;
+    margin: 0 0 5px 0;
+}
+
+.gallery{
+    height: 250px;
+    text-align: center;
+}
