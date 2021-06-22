@@ -1,0 +1,16 @@
+body{
+     background-color: bisque;
+       text-align: center;
+}
+
+
+h1{
+        color: rgb(197, 74, 30);
+        font-size: 60px;
+}
+
+a{
+text-decoration: none;
+color: cornflowerblue;
+font-size: 36px;
+}
