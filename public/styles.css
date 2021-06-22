@@ -1,0 +1,103 @@
+body {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*header home page*/
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header h1 {
+    font-size: 6em;
+    padding: 0;
+    margin: 50px 0 0 0;
+}
+
+#header h2 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*header about page*/
+
+#header-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header-about h1 {
+    font-size: 6em;
+    padding: 0;
+    margin: 50px 0 0 0;
+}
+
+#header-about h2 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*nav bar all pages */
+
+#nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px 300px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+
+
+/* info about page */
+
+#about-background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+#about-background h2 {
+    font-size: 3em;
+}
+
+#about-background p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* home image */
+
+#home-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+/* recipes image */
