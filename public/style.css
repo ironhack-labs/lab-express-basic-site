@@ -1,0 +1,19 @@
+body {
+    background-color:beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+h1 {
+    font-family:Verdana;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}
+
