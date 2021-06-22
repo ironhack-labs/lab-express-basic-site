@@ -8,8 +8,8 @@ app.all("/", homePageHandler)
 
 
 function homePageHandler(request, response) {
-    response.sendFile(path.join(__dirname, "/public/index.html"))
+    response.sendFile(path.join(__dirname, "/views/home.html"))
 }
 
 
-app.listen(3000)
+app.listen(4000)
