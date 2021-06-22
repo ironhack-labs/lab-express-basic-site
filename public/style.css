@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+body {
+    background-color: #EDEDED;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px
+}
+
+.topnav {
+    background-color: #444444;
+    padding: 20px 0px
+}
+
+a {
+    text-decoration: none ;
+    color: #DA0037;
+    font-weight: bold;
+}
+
+
+
+
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+};
+
+.about-h2{
+    font-weight: 40px;
+    padding: 50px;
+};
+
+.about-h6{
+    font-weight: 30px;
+    
+}
+
+.about-p{
+    font-weight: 30px;
+    background-color: white;
+}
+
+
+
+
