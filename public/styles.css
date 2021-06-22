@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Add a black background color to the top navigation */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu a {
+    color: #e7dada;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .menu a:hover {
+    background-color: rgb(202, 214, 158);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu a.active {
+    background-color: #04AA6D;
+    color: rgb(233, 152, 152);
+  }
+
+  li {
+    display: inline;
+  }
+
+  h1 {
+      font-family: 'Courier New', Courier, monospace;
+  }
