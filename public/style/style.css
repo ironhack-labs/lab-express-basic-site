@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(213, 213, 213);
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
