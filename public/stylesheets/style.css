@@ -6,25 +6,35 @@
     text-shadow: darkgoldenrod;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
   }
 
-  img {
-    width: 100%;
+  body {
+    background-color: tan;
+  }
+
+  img  {
+    width: 70%;
     height: auto;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid black;
   }
 
   img {
       width: 25%;
-  }
-
-  {box-sizing:border-box}
-
+  };
 
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
+};
 
 
 .mySlides {
@@ -89,4 +99,15 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+}
+
+a:-webkit-any-link {
+  color: orangered;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration: rgb(10, 10, 10);
+  font-size: 200%;
+  background-color: lightcoral;
 }
