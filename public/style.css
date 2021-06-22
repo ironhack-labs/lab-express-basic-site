@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.buttons {
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px
+}
+
+.container {
+    padding: 10px 20px 10px 20px
+}
