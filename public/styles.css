@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around; 
+    list-style: none;
+    
+}
+li {
+    padding: 2px;
+}
+.header {
+    background: url("rock-pop-musica_152747011_15427354_1706x960.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+  }
+
+  .header p{
+      color:white;
+  }
+  .header h1{
+      text-align: center;
+      color:white;
+  }
+
+  .nav-bar{
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .nav-bar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;  
+  }
+  table, td, th {border:1px solid;}
+  table {border-collapse:collapse;}
+  td, th {padding:20px;}
+  thead {background:white;}
+  td {background:white;}
+
