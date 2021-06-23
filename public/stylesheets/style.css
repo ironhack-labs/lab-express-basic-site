@@ -1,0 +1,9 @@
+.carousel-caption {
+  postion: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.shadow-hero {
+  text-shadow: 4px 4px #222;
+}
