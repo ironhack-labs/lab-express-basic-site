@@ -1,0 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.longtext {
+    width: 600px;
+}
+.text {
+    text-align: center;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+li p {
+    text-align: center;
+    font-size: 18px;
+}
+
+li img {
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+#cover-img {
+    height: 500px;
+}
