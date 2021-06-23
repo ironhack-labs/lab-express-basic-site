@@ -1,0 +1,39 @@
+body{
+    background-color: lightcoral;
+    color: black;
+}
+h1{
+    text-align:center;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+p{
+    text-align:center;
+    font-size: 30px;
+}
+
+.nav-bar a {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+  }
+  
+    .nav-bar {
+    background-color: rgb(25, 33, 41);
+    padding: 14px 0;
+    margin-bottom: 20px;
+  }
+  
+  .nav-bar-ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    margin: 0 auto;
+  }
+  
+  .nav-bar-ul li {
+    list-style-type: none;
+    text-align: center;
+  }
+  
