@@ -1,0 +1,57 @@
+body {
+  margin: 0 auto;
+}
+.container {
+  background-image: url("/bck.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(252, 245, 238, 0.2),
+      rgba(252, 245, 237, 0.2),
+      rgba(252, 245, 235, 0.2),
+      rgba(251, 246, 234, 0.2),
+      rgba(250, 246, 233, 0.2)
+    ),
+    url("/bck.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  /* position: absolute;
+  top: 40%;
+  left: 40%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.btn-container {
+  min-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  background-color: white;
+}
+
+a {
+  color: #5e8b7e;
+  text-decoration: none;
+}
