@@ -1,0 +1,82 @@
+html, body {
+    background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline; 
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+#first-work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+#first-work p {
+    border: 3px solid black;
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 120px;
+}
+
+#second-work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+#second-work p {
+    border: 3px solid black;
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 120px;
+}
+
+#last-work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+#last-work p {
+    border: 3px solid black;
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 120px;
+}
+
+#link a {
+    position:relative;
+    border: 3px solid black;
+    color: black;
+    right: 700px;
+    background-color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 40px;
+}
