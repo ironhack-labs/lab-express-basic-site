@@ -20,14 +20,10 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  /* position: absolute;
-  top: 40%;
-  left: 40%; */
+.welcome {
   display: flex;
   align-items: center;
   justify-content: center;
-
   font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: 700;
@@ -54,4 +50,38 @@ h1 {
 a {
   color: #5e8b7e;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.aboutMe {
+  background-color: #5e8b7e;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+.name {
+  position: absolute;
+  left: 150;
+  top: 300;
+  font-size: 40px;
+}
+.content {
+  position: absolute;
+  right: 50;
+  top: 130;
+  max-width: 50%;
+  margin-left: 100px;
+}
+.about {
+  max-width: 60%;
+  max-height: 60%;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+p {
+  margin-right: 20px;
+  max-width: 50%;
+  text-align: center;
 }
