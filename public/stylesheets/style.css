@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px 2px white;
+}
+
+h2 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px white;
+}
+
+.bttn {
+    text-decoration: none;
+    background-color: #feb829;
+    color: rgb(119, 92, 17);
+    text-shadow: 1px 1px 1px white;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+    font-size: 2rem;
+}
+
+header {
+    width: 100vw;
+    height: 550px;
+    background-image: url('/images/headingbg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color : rgb(119, 92, 17);
+}
+
+.introSection {
+    width: 100vw;
+    height: 300px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introSection p {
+    width: 800px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.aboutSection {
+    width: 95vw;
+}
+
+.aboutSection img {
+    width: 20vw;
+    border-radius: 200px;
+}
+
+.aboutSection p {
+    width: 600px;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    background-color: #fcd995;
+    margin-top: 50px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pFormat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.album img {
+    width: 300px;
+    height: 300px;
+}
+
+.album div {
+    width: 60vw;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.worksSection {
+    width: 95vw;
+}
