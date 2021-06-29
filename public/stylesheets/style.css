@@ -1,0 +1,163 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: rgb(99, 150, 169);
+
+}
+
+.nav {
+    align-items: center;
+    
+}
+
+.nav ul{
+    list-style: none;
+    
+}
+
+.nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    text-align: center;
+
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    
+}
+
+.line{
+
+    height:5px;
+    border-width:0;
+    color:rgb(243, 29, 10);
+    background-color:rgb(243, 29, 10);
+
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container{
+
+    display: flex;
+    width: 100%;
+    
+}
+
+.felix{
+
+    height: 600px;
+    width: 40%;
+}
+
+.felix img{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.felix figcaption{
+
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+
+
+}
+
+.h3-div{
+
+    height: 600px;
+    width: 40%;
+
+}
+
+.h3-div h3{
+
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+
+}
+
+.first-table{
+
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(186, 206, 206);
+}
+
+.first-table th{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.first-table td{
+    font-size: 1.2em;
+}
+
+.tablas{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(186, 206, 206);
+}
+
+.first-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    margin-top: 50px;
+}
+
+.first-images img{
+    height: 370px;
+    width: 370px;
+}
+
+.second-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    margin-top: 50px;
+}
+
+.second-images img{
+    height: 370px;
+    width: 370px;
+}
+
+.first-images figcaption{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.second-images figcaption{
+    font-size: 1.1em;
+    font-weight: 700;
+}
