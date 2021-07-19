@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+* {
+    font-family: "Righteous";
+}
+
+body {
+    background-color: pink;
+}
+
+
+#aboutme {
+    font-size: 80px;
+    color:salmon;
+    text-align: center;
+}
+#welcome {
+    font-size: 100px;
+    color:salmon;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+}
+
+a {
+   text-decoration: none;
+    font-size: 30px;
+    color: rgb(123, 178, 197)
+}
+
+a:hover {
+    color: hotpink;
+  } 
+
+
+#home {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#about .title{
+    font-size: 3rem;
+    color: dodgerblue;
+    text-align: center;
+}
+
+#about .about{
+    font-size: 1rem;
+}
+
+#about p {
+    color: dodgerblue;
+    text-align: center;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #work .work {
+       width: 1000px;
+       margin: 150px;
+   }
+
+   #photoG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+   }
