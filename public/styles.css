@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-size: 10px;
-  line-height: 3.5em;
+  line-height: 1.5;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
 }
@@ -44,12 +44,10 @@ h1 {
 h2 {
   font-size: 3em;
   text-transform: uppercase;
-  line-height: 2em;
 }
 
 p {
   font-size: 2em;
-  line-height: 2em;
 }
 
 img {
