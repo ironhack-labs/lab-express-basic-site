@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('./fonts/GameofThrones.woff2') format('woff2'),
+        url('./fonts/GameofThrones.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Game of Thrones';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titles {
+    font-size: 2.5rem;
+    color: darkblue;
+    letter-spacing: 0.3rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+ color: lightgray;
+}
+
+
+
+.mainpage {
+    background-image: url(lab-express-basic-site/public/images/arya-stark.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%vh;
+}
+
+.mainpage .titles {
+    font-size: 2.5rem;
+    color: white;
+}
