@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: whitesmoke;
+    background-color: black;
+    font-size: 10px;
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 35rem;
+    max-width: 35rem;
+}
+
+.nav-item {
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1rem;
+    background-color: whitesmoke;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
+}
+
+nav a:hover::after, a:focus::after {
+    transform: translate3d(0, 0, 0);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10.3rem);
+}
+
+/*HOME*/
+
+#circle {
+    position: relative;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+#circle h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-transform: uppercase;
+    font-size: 8rem;
+    white-space: nowrap;
+    filter: invert(1);
+    mix-blend-mode: difference;
+}
+
+/*ABOUt*/
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .img-wrapper {
+    width: 40rem;
+}
+
+#about .img-wrapper img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#about .text-wrapper {
+    width: 26rem;
+    font-size: 1.05rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    padding: 0 5rem;
+    margin-right: 6rem;
+}
+
+/*COMPANIES*/
+
+#companies {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#companies .card {
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid whitesmoke;
+    transition: 300ms ease-in-out;
+}
+
+#companies .card:hover {
+    transform: scale(1.1);
+}
+
+#companies .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*GALLERY*/
+
+#carouselExampleControls {
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 50rem;
+}
