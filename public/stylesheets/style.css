@@ -1,0 +1,57 @@
+body{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2D936C;
+    color:white;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+h1{
+
+    color: #BFAE48;
+    font-size:3em;
+}
+
+h3{
+
+    color:#BFAE48;
+    font-size:2em;
+}
+
+
+.photos{
+
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  
+}
+
+.item{
+
+    margin-left: 20px;
+    margin-right:20px
+
+}
+
+.mainpic{
+
+    margin-top:50px;
+}
+
+
+a{
+    text-decoration: none;
+    padding:30px
+}
+
+ul{
+    list-style-type: none;
+}
