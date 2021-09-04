@@ -1,0 +1,93 @@
+body{
+    background-color: grey;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#welcome{
+margin-top: -4rem;
+font-size: 4rem;
+
+}
+.button-home{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+
+}
+.homeCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.card{
+    background-color: black;
+    width: 40rem;
+    height: 40rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px white;
+}
+.bio{
+    width: 28rem;
+    font-size: 1.2rem;
+}   
+.button{
+    width: 8rem;
+    height: 2.5rem;
+    margin: 1rem;
+}
+.tag{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.img{
+    border-radius: 30px;
+    padding-top: 15px;
+}
+.about-name-years{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.works-cards{
+width: 20rem;
+height: 20rem;
+background-color: black;
+margin: 3rem;
+color: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.works-button{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    background-image: url("https://img2.gratispng.com/20180625/jsy/kisspng-arrow-computer-icons-symbol-5b31469e4baea9.21620719152995599831.jpg");
+    background-position: center;
+    background-size: cover;
+}
