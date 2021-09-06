@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+
+.landing-img{
+    width: 100%;
+}
+
+.landing-img{
+    background-image: url(../public/landing-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-title{
+    font-size: 112px;
+}
+
+.main-subtitle{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.desc-title{
+    margin-top: 80px;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.mb-4{
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+
+    padding-bottom: 50px;
+}
+
+.mb-3{
+
+    font-size: 18px;
+    font-weight: 200;
+    width: 90%;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.ref{
+    color: black;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.about-title{
+    font-size: 82px;
+}
+
+.breadcrumb-item{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+}
+
+.about-img{
+    margin-top: 105px;
+    width: 400px;
+}
+
+.album-flex{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-text{
+    text-align: center;
+}
