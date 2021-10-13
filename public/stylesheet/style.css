@@ -1,0 +1,35 @@
+body {
+    background-color:antiquewhite;
+
+}
+
+h1{
+    font-size: 16px;
+}
+
+img {
+    width: 300px;
+
+}
+
+.wraper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.artist{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pages {
+    list-style-type: none;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
