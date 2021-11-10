@@ -1,0 +1,18 @@
+ .image {
+
+    width: 300px;
+ }
+
+ .movies{
+    width: 300px;
+    height: 400px; 
+    
+ }
+
+ .container {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    /* align-items: center; */
+ }
+    
