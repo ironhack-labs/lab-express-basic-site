@@ -1,0 +1,18 @@
+body {
+    background: url("bodybg.png");
+    background-size: contain; 
+}
+
+#main {
+    width:45%
+}
+
+#photos {
+    padding:0 5%;
+    display:flex;
+    flex-wrap:wrap;
+    }
+#photos img {
+    width: 48%;
+    padding: 1%;
+}
