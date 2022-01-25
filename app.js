@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use(express.static("public"));
+app.use(express.static(__dirname + '/node_modules/bootstrap/dist'));
 
 app.get("/home", (req, res, next) =>
   res.sendFile(__dirname + "/views/index.html")
