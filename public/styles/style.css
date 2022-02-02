@@ -1,0 +1,18 @@
+
+img{
+    width: 200px;
+}
+.virginia-woolf{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-gallery{
+    text-align: center;
+}
