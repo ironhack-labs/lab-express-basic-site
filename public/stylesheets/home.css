@@ -1,0 +1,20 @@
+section {
+    height: 589px;
+    background-image: url("/images/image1.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 589px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+h3 {
+    color: blue
+}
