@@ -9,19 +9,19 @@ section {
 }
 
 #section1 {
-    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1625246156%2Ffixed-images%2Fvideo-bg-image_olj4nd.jpg&w=1080&q=75");
+    background-image: url("/images/image2.webp");
 }
 
 #section2 {
-    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1628976046%2Ffixed-images%2F1975-color_l9klpr.jpg&w=1920&q=75");
+    background-image: url("/images/image3.webp");
 }
 
 #section3 {
-    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1631321927%2Ffixed-images%2Fcidades-e-lendas-divulgacao-restored_tkxxgq.png&w=1080&q=75");
+    background-image: url("/images/image4.webp");
 }
 
 #section4 {
-    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1630805073%2Ffixed-images%2FMPB-80-restored_snxtkj.png&w=1080&q=75");
+    background-image: url("/images/image5.webp");
 }
 
 #header {
