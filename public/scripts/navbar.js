@@ -1,17 +1,15 @@
 const navbar = document.createElement("nav");
 navbar.innerHTML = `
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/works">Works</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/works">Works</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+    </ul>
 `;
 
 const navSpace = document.createElement("div");
-navSpace.setAttribute("style", "height: 26px;");
+navSpace.setAttribute("style", "height: 51px;");
 
 const body =  document.body;
 body.prepend(navSpace);
