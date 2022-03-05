@@ -1,15 +1,30 @@
 section {
     height: 589px;
-    padding: 0 75px;
-    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1625246156%2Ffixed-images%2Fvideo-bg-image_olj4nd.jpg&w=1080&q=75");
+    padding: 0 50px;
     background-repeat: no-repeat;
     background-size: 100% 589px;
     text-justify: distribute;
     text-align: justify;
-    color: white;
+    color: magenta;
 }
 
-p {
+#section1 {
+    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1625246156%2Ffixed-images%2Fvideo-bg-image_olj4nd.jpg&w=1080&q=75");
+}
+
+#section2 {
+    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1628976046%2Ffixed-images%2F1975-color_l9klpr.jpg&w=1920&q=75");
+}
+
+#section3 {
+    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1631321927%2Ffixed-images%2Fcidades-e-lendas-divulgacao-restored_tkxxgq.png&w=1080&q=75");
+}
+
+#section4 {
+    background-image: url("https://www.zeramalho.com.br/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodigo-fluente%2Fimage%2Fupload%2Fv1630805073%2Ffixed-images%2FMPB-80-restored_snxtkj.png&w=1080&q=75");
+}
+
+#header {
     padding-top: 20px;
     margin: 0;
 }
