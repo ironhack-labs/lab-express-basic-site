@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    width: 200px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+}
