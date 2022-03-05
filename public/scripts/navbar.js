@@ -3,7 +3,7 @@ navbar.innerHTML = `
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/works">Works</a></li>
+        <li><a href="/albums">Albums</a></li>
         <li><a href="/gallery">Gallery</a></li>
     </ul>
 `;
