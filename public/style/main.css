@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("/images/wimbeldon.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+.bodyover{
+    background: rgba(255,255,255,0.8);
+    overflow: hidden;
+    height: 100%;
+    width: 50vw;
+    z-index: 2;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    font-size: 2rem;
+}
+
+
+h1 {
+   font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display'
+}
