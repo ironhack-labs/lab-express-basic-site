@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
@@ -7,4 +9,4 @@ app.get("/about", (request, response) => response.sendFile(__dirname + '/views/a
 app.get("/albums", (request, response) => response.sendFile(__dirname + '/views/works.html'));
 app.get("/gallery", (request, response) => response.sendFile(__dirname + '/views/photo-gallery.html'));
 
-app.listen(3000, () => console.log('My first app listening on port 3000! '));
+app.listen(process.env.PORT, () => console.log(`My first app listening on port ${process.env.PORT}!`));
