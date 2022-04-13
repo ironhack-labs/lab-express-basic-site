@@ -1,0 +1,75 @@
+footer {
+    background-color: #212429;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-size: .7em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    padding: 0%;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.link2:visited,
+.link2:hover,
+.link2:active {
+    color: grey;
+
+    text-decoration: none;
+}
+
+.card {
+    color: black;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.accordion {
+    color: black
+}
+
+.works {
+    color: black;
+}
+
+.card {
+    margin: 20px;
+}
+
+.titleLink {
+    color: rgb(65, 21, 21);
+    text-decoration: rgb(105, 12, 12);
+    font-size: 5em;
+    font-weight: bolder;
+
+}
+
+.titleLink:link,
+.titleLink:visited,
+.titleLink:hover,
+.titleLink:active {
+    color: rgb(105, 12, 12);
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+img {
+    width: 100%;
+}
