@@ -3,6 +3,7 @@ body{
     background-image: url('../img/rene-sad.gif');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 80px;
 }
 img {
     height: 500px;
@@ -16,10 +17,13 @@ img {
 
 footer {
     position: fixed;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
     width: 100%;
     bottom: 0;
     background-color: black;
-    color: white
+    color: white;
 }
 
 .generalbio {
@@ -36,6 +40,16 @@ iframe {
 
 .navbar {
     margin-bottom: 50px;
+    height: 70px;
+}
+.navbar-brand{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand img{
+    width: auto;
+    height: 80px;
 }
 
 .carousel-inner img {
@@ -44,4 +58,104 @@ iframe {
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: black;
+}
+
+/* COMPLETAMENTE HECHO DESDE 0 POR EL GRUPO DE JESÚS Y JC #TRUSTUS */
+
+.bouncing-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+.b,
+.o,
+.u,
+.n,
+.c,
+.e,
+.x,
+.y,
+.z {
+    position: relative;
+    color: white;
+    text-shadow: 0 3px #404769, 0 5px #9199b9, 0 7px #264aed;
+}
+
+.b {
+    animation: bounce 1s ease infinite;
+}
+
+.o {
+    animation: bounce 1s ease infinite .1s;
+}
+
+.u {
+    animation: bounce 1s ease infinite .2s;
+}
+
+.n {
+    animation: bounce 1s ease infinite .3s;
+}
+
+.c {
+    animation: bounce 1s ease infinite .4s;
+}
+
+.e {
+    animation: bounce 1s ease infinite .5s;
+}
+.x {
+    animation: bounce 1s ease infinite .6s;
+}
+.y {
+    animation: bounce 1s ease infinite .7s;
+}
+.z {
+    animation: bounce 1s ease infinite .8s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-55px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    58% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    65% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+
+.bouncing-text:before,
+.bouncing-text:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    border-radius: 50%;
+    top: 82px;
+    z-index: -1;
 }
