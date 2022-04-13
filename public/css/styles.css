@@ -1,0 +1,18 @@
+* {}
+
+img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.home-content {
+    display: block;
+    margin:auto;
+}
+footer{
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color:white
+}
