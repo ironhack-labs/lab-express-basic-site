@@ -1,30 +1,6 @@
 body {
   margin: 0;
 }
-.container {
-  margin: 0 3em;
-}
-nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-nav h1 {
-  align-self: flex-start;
-}
-nav ul {
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-  list-style-type: none;
-}
-nav ul a {
-  text-decoration: none;
-  color: black;
-}
-nav ul a:hover {
-  color: lightgrey;
-}
 #hero {
   padding: 3em 1em;
   color: white;
