@@ -1,0 +1,21 @@
+body {
+    color: rgb(35, 35, 35);
+    background-color: rgb(114, 206, 196);
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+a {
+  font-size:20px;
+  text-decoration: none;
+  color: rgb(16, 15, 15);
+  padding-top: 20px;
+  display: flex;
+  width: 50px;
+  }
+  a:hover {
+    color: rgb(4, 133, 88);
+  }
+ 
