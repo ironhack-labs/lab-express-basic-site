@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+h1{
+    color:red;
+}
+li{
+    display: inline-flex;
+}
+#bulala{
+    background-image: url(/public/pictures/Creature.jpg);
+    background-size: 100%;
+}
