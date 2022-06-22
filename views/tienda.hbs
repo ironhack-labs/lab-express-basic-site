@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        {{#each prod}}
+        <div class="card col-md-4 d-flex justify-content-center" style="width: 18rem;">
+            <img src="{{images.[0]}}" class="card-img-top" alt="product img">
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <h6>{{price}}€</h6>
+                <p class="card-text">{{description}}</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
