@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/CrisArranz/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

@@ -1,13 +1,17 @@
 const express = require('express');
+const hbs = require('hbs');
 
 const app = express();
 const port = 3000;
 
 app.use(express.static(`${__dirname}/public`));
 
-app.get('/', (req, res) => res.sendFile(`${__dirname}/views/index.html`));
-app.get('/about', (req, res) => res.sendFile(`${__dirname}/views/about.html`));
-app.get('/works', (req, res) => res.sendFile(`${__dirname}/views/works.html`));
-app.get('/photo-gallery', (req, res) => res.sendFile(`${__dirname}/views/photo-gallery.html`));
+app.set("views", `${__dirname}/views`);
+app.set("view engine", "hbs");
+
+app.get('/', (req, res) => res.render("index"));
+app.get('/about', (req, res) => res.render("about"));
+app.get('/works', (req, res) => res.render("works"));
+app.get('/photo-gallery', (req, res) => res.render("photo-gallery"));
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
