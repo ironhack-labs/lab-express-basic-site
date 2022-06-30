@@ -1,0 +1,39 @@
+body {
+	background-image: url(/images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	font-weight: 300;
+}
+
+.container {
+	position: relative;
+}
+
+.main p {
+	max-width: 50rem;
+}
+
+.main {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 7rem;
+}
+
+.images {
+	display: flex;
+	gap: 4rem;
+	margin-bottom: 2.5rem;
+}
+
+img {
+	height: 15rem;
+}
+
+a {
+	color: #fff;
+	font-weight: 300;
+	position: relative;
+	letter-spacing: 2px;
+}

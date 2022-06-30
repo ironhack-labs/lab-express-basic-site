@@ -1,0 +1,22 @@
+body {
+	background-image: url(/images/bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	height: 15rem;
+}
+
+.container {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-top: 7rem;
+	transform: translateX(-50%);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 3rem;
+}

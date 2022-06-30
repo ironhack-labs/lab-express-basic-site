@@ -1,0 +1,34 @@
+body {
+	background-image: url(/images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	height: 15rem;
+	margin-bottom: 2rem;
+}
+
+.container {
+	position: absolute;
+	display: flex;
+	gap: 2rem;
+	left: 50%;
+	margin-top: 7rem;
+	transform: translateX(-50%);
+}
+
+.works-card {
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 1.5rem;
+}
+
+.works-card p {
+	min-width: 25rem;
+}
