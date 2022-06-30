@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+body{
+    background-color: black;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-image: url('../images/denzelroses.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding: 2%;
+    font-size: 5rem;
+}
+#mainLinks{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5% 10%;
+}
+#mainLinks a{
+    font-size: 3rem;
+    margin: 50px;
+    color: white;
+}

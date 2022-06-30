@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+body{
+    background-color: #1c2e4a;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+h1{
+    padding-left: 2%;
+    font-size: 5rem;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.works{
+    display:flex;
+    justify-content: space-around;
+}
+.works div{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    height: 60%;
+    width: auto;
+}
