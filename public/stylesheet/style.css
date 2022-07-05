@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Gentium+Book+Plus&family=Gravitas+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#about {
+    background-image: url(/images/home-image-cropped.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+#about p {
+    position: relative;
+    color: white;
+    padding: 5vw 5vw 0vw 5vw;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 2vw;
+    line-height: 4vw;
+}
+
+#about footer {
+    color: white;
+    font-size: 1vw;
+    padding: 5vw;
+} 
+
+.back {
+    text-decoration: none;
+    border: 2vw white;
+    background-color: white;
+    padding: 1vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    border-radius: 10px;
+    color: black;
+}
+
+#home {
+    background-image: url(/images/home-alt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gravitas One', cursive;
+    display:flex;
+    justify-content: space-between;
+}
+
+#home div {
+    margin: 10vw;
+}
+
+#home h1 {
+    font-size: 4vw;
+}
+
+#home p {
+    margin: 10vw 30vw 0 0vw;
+    font-size: 1.5rem;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+#home ul {
+    margin: 30vw 5vw 0 0;
+    line-height: 3vw;
+    font-size: 2vw;
+}
+
+#home span {
+    line-height: 3vw;
+}
+
+#works {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px 100px 100px;
+}
+
+.container {
+    display: flex;
+    border: solid;
+    border-radius: 20px;
+    padding: 5%;
+    margin-top: 2%;
+    font-family: 'Gentium Book Plus', serif;
+    line-height: 200%;
+    font-size: 1.5vw;
+}
+
+.container h1 {
+    font-size: 2.5vw;
+    font-family: 'Gravitas One', cursive;
+    margin-bottom: 4%;
+}
+
+.container img {
+    height: 20vw;
+    order: -1;
+}
+
+.container article {
+    margin-left: 20%;
+}
+.backWorks {
+    text-decoration: none;
+    border: 2vw black;
+    background-color: black;
+    padding: 1vw;
+    text-align: center;
+    margin-right: 90%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+#photos {
+    margin: 4vw;
+}
+
+#photos img{
+    /* width: 20vw; */
+    height: 20vw;
+    margin: 4vw 2vw 0 0 ;
+
+
+}
