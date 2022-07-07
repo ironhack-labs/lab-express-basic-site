@@ -74,6 +74,10 @@
     font-size: 2vw;
 }
 
+#home a {
+    color: white;
+}
+
 #home span {
     line-height: 3vw;
 }
