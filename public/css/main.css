@@ -27,9 +27,20 @@ h1 {
     font-size: 1.6rem;
 }
 
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
 .hero {
     background-image: url("/images/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.page-header {
+    height: 400px;
+    color: #fff;
+}
+
