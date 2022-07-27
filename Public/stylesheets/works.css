@@ -1,0 +1,43 @@
+/* works */
+
+#workstitle{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #dac292;
+    color: white;
+    width: 100%;
+}
+#worksbody{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px;
+}
+body{
+    background-color: beige;
+    margin: 0%;
+}
+#homebunnie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+#workstext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1%;
+}
+#workimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#worksub{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
