@@ -1,0 +1,53 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 20px 20px;
+}
+
+p {
+    max-width: 70vw;
+    font-size: 2rem;
+    margin: 20px 20px;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 20px 20px;
+    font-weight: 100;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 20px 20px;
+    color: black;
+    font-weight: 100;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin: 20px 20px;
+    background-color:black;
+    color: aliceblue;
+    font-weight: 100;
+  }
+
+  img {
+    margin: 20px 20px;
+  }
+
+  span {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .capti {
+    margin: 20px 20px;
+    font-size:  1em;
+  }
