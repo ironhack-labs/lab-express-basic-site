@@ -1,0 +1,39 @@
+
+
+body{
+    text-align: center;
+    background-color: fuchsia;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+#image-1{
+    width: 400px;
+    height: auto;
+}
+
+#body-about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: fuchsia;
+
+}
+
+#div-about{
+    width: 600px;
+    height: 300px;
+    left: 200px;
+    margin: 20px solid black;
+}
