@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    color: white;
+}
+
+/* home */
+#home p, #home h1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.home-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    padding: 14px 0;
+  }
+.nav-bar a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+.nav-bar-ul {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar-ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* works page */
+#works {
+    background-color: rgb(25, 33, 41);
+    padding: 3% 17%;
+}
+#works p {
+    font-size: 1.2rem;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#works h2 {
+    font-weight: 400;
+}
+.container {
+    display: flex;
+    gap: 2%;
+}
+.works-pic {
+    width: 25%;
+    padding-bottom: 2%;
+}
+
+/* about */
+#about{
+    background-color: rgb(25, 33, 41);
+    padding: 3% 17%;
+}
+#about h1{
+    text-align: left;
+    font-size: 1.2rem;
+    padding-bottom: 3%;
+
+}
+#about p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* gallery */
+#gallery{
+    background-color: rgb(25, 33, 41);
+}
+.pic-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.gallery-pic {
+    width: 25%;
+    padding: 0.5%;
+    object-fit: cover;
+}
+.gallery-pic:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
