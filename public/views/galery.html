@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/galery.css" />
+    <title>Photo Galery</title>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h2>DORAEMON'S FRIENDS :D</h2>
+      <p>Click on the images below:</p>
+    </div>
+
+    <!-- The four columns -->
+    <div class="row">
+      <div class="column">
+        <img
+          src="/images/nobita.png"
+          alt="Nobita"
+          style="width: 100%"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="/images/gigante.jpeg"
+          alt="Gigante"
+          style="width: 100%"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="/images/shizuka.jpeg"
+          alt="Shizuka"
+          style="width: 100%"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="/images/suneo.png"
+          alt="Suneo"
+          style="width: 100%"
+          onclick="myFunction(this);"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn"
+        >&times;</span
+      >
+      <img id="expandedImg" style="width: 100%" />
+      <div id="imgtext"></div>
+    </div>
+    <div id="homelist">
+      <ul id="homeul">
+        <li><a href="/home">Go back home and navigate somewhere else</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/about"
+            >Go to About Me and learn something new... about me.</a
+          >
+        </li>
+      </ul>
+      <ul>
+        <li><a href="/works">Go to works and enjoy my portfolio</a></li>
+      </ul>
+    </div>
+
+    <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
