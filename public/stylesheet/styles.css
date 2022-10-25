@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Roboto+Mono:wght@100&family=Roboto:wght@100&family=Silkscreen&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: antiquewhite;
+    color: #252422;
+    font-size: 20px;
+}
+
+/*.imgheader img {
+    width: 375px;
+    height: 200px;
+    text-align: center;
+}*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.galleryphotos {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    .responsive-div img {
+        text-align: center;
+        width: 375px;
+        height: 200px;
+    }
+
+    .listnav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-evenly;
+    }
+  }
