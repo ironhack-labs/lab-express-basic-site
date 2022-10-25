@@ -1,0 +1,33 @@
+html {
+    background-image: url(/images/galaxyBackground.jpg);
+    border: 0;
+}
+
+* {
+    color: white;
+}
+
+#homeNyanCat,
+#aboutNyanCat,
+#worksNyanCat {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+.div-line,
+.article-line,
+.header-line,
+.h1-line {
+    border-bottom: 1px solid #7A7A7A;
+}
+
+/* article {
+    padding-top: 3px;
+    padding-bottom: 10px;
+} */
+
+/* article > p {
+    padding-top: 1.5px;
+    padding-bottom: 2.5px;
+} */
