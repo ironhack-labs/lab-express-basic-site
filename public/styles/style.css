@@ -1,0 +1,231 @@
+@font-face{font-family:poppins;font-style:normal;font-weight:400;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Regular.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:400;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Italic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:250;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Thin.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:250;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-ThinItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:275;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-ExtraLight.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:275;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-ExtraLightItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:300;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Light.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:300;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-LightItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:500;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Medium.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:500;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-MediumItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:600;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-SemiBold.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:600;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-SemiBoldItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:700;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Bold.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:700;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-BoldItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:800;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-ExtraBold.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:800;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-ExtraBoldItalic.woff) format('woff')}@font-face{font-family:poppins;font-style:normal;font-weight:900;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-Black.woff) format('woff')}@font-face{font-family:poppins;font-style:italic;font-weight:900;src:local('Poppins'),url(https://fonts.cdnfonts.com/s/16009/Poppins-BlackItalic.woff) format('woff')}
+@font-face {
+    font-family: 'Mexcellent';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mexcellent'), url('https://fonts.cdnfonts.com/s/1971/mexcellent.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mexcellent 3D';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mexcellent 3D'), url('https://fonts.cdnfonts.com/s/1971/mexcellent 3d.woff') format('woff');
+}
+@font-face {
+    font-family: 'Alba';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alba'), url('https://fonts.cdnfonts.com/s/1939/ALBA____.woff') format('woff');
+}
+
+
+body {
+    color: beige;
+    background-color: black;
+    font-family: 'Mexcellent', sans-serif;
+}
+
+h1 {
+    font-family: 'Alba', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: -1px 0px 0px coral,
+    1px 0px 0px coral,
+    0px -1px 0px brown,
+    0px 4px 0px coral;color: beige;
+}
+
+h3 {
+    font-family: 'Mexcellent', sans-serif;
+}
+
+p {
+   font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: darkcyan;
+    overflow: hidden;
+    position: fixed;
+    align-items: baseline;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: beige;
+    color: brown;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .home {
+    background-image: url('/images/tropicalretro.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.home h1 {
+    font-size: 120px;
+    margin: 0px 40px ;
+}
+
+.home h3 {
+    font-family: 'Alba', sans-serif;
+    margin: 0px 20vw ;
+    color: rgb(239, 208, 186);
+}
+
+.header {
+    background-color: rgba(255, 148, 71, 0.481);
+    border-radius: 75px;
+    margin: 40px 200px;
+    padding: 40px;
+}
+
+#intro_text {
+    font-size: 14px;
+    background-color: darkcyan;
+    margin: 40px 40px;
+    padding: 40px;
+
+}
+
+.about {
+    background-image: url('/images/tropicalretro.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 80px;
+}
+
+#about2 {
+    margin: 0px 400px;
+}
+
+.about h1 {
+    margin: 0px 50px;
+}
+
+.gallery {
+    background-image: url('/images/tropicalretro.jpeg');    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 5px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.album {
+    background-image: url('/images/tropicalretro.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.works {
+    align-items: center;
+    margin: 0px 40px 10px 40px;
+}
+
+.works h1 {
+    margin: 40px 60px 1px 50px;
+}
+
+.works h3 {
+    font-family: 'Alba', sans-serif;
+    margin: 0px 20vw ;
+    color: rgb(239, 208, 186);
+}
+
+
+.album img {
+    height: 30vw;
+    width: 30vw;
+    margin: 10px 30px;
+}
+
+iframe {
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style: none;
+}
+
+
