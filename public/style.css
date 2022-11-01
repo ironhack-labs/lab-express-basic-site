@@ -326,6 +326,8 @@ a {
   justify-content: space-between;
 }
 
+/* NEO TRAD */
+
 .neoTrad {
   height: 70%;
   width: 100%;
@@ -337,7 +339,24 @@ a {
   overflow-x: scroll;
 }
 
+.container-neo {
+  height: 70%;
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.container-neo h2 {
+  padding: 20px;
+}
+
 img {
-  height: 300px;
-  width: 600px;
+  height: 500px;
+  width: 1000px;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1;
 }
