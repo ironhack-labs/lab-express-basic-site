@@ -6,15 +6,118 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
-/* MENU */
+/* HOME */
 
 .container-home {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  height: 800px;
+  font-family: "Roboto", sans-serif;
 }
 
-/* .menu {
+.container-home a {
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  position: relative;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.container-home a span {
+  position: absolute;
+  display: block;
+}
+
+.container-home a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, white);
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.container-home a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, white);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.container-home a span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, white);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.container-home a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, white);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+/* MENU */
+
+.menu {
   display: flex;
   align-items: center;
   background-color: black;
@@ -71,4 +174,154 @@
 
 .easing-variables:hover {
   transform: rotate(30deg);
-} */
+}
+
+/* ABOUT */
+
+.container-about {
+  width: 1300px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.navigation {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1220px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+  letter-spacing: 4px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.about {
+  height: 700px;
+  width: 1000px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  margin: 200px 200px;
+}
+
+.about h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  position: relative;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.navigation-about {
+  padding: 50px 0px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+/* WORKS */
+
+.container-works {
+  width: 1300px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.navigation {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1220px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+  letter-spacing: 4px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.works {
+  height: 700px;
+  width: 1000px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  margin: 200px 200px;
+}
+
+.works h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  position: relative;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.navigation-works {
+  padding: 50px 0px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}

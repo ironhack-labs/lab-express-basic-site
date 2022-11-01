@@ -4,24 +4,16 @@ app.use(express.static("public"));
 /////////////////////////////////
 
 // Route home
-app.get("/home", (req, res, next) =>
-  response.sendFile(__dirname + "/views/index.html")
-);
+app.get("/", (req, res) => res.sendFile(__dirname + "/views/index.html"));
 
 // Route menu
-app.get("/menu", (req, res, next) =>
-  response.sendFile(__dirname + "/views/menu.html")
-);
+app.get("/menu", (req, res) => res.sendFile(__dirname + "/views/menu.html"));
 
 // Route about
-app.get("/about", (req, res, next) =>
-  response.sendFile(__dirname + "/views/about.html")
-);
+app.get("/about", (req, res) => res.sendFile(__dirname + "/views/about.html"));
 
 // Route works
-app.get("/works", (req, res, next) =>
-  response.sendFile(__dirname + "/views/works.html")
-);
+app.get("/works", (req, res) => res.sendFile(__dirname + "/views/works.html"));
 
 //404
 app.all("*", function (req, res) {
