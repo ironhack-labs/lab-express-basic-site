@@ -1,19 +1,33 @@
 const express = require("express");
+const hbs = require("hbs");
+
 const app = express();
+app.set("view engine", "hbs");
 app.use(express.static("public"));
 /////////////////////////////////
 
 // Route home
-app.get("/", (req, res) => res.sendFile(__dirname + "/views/index.html"));
 
+app.get("/", (req, res) => {
+  res.render("index");
+});
 // Route menu
-app.get("/menu", (req, res) => res.sendFile(__dirname + "/views/menu.html"));
+
+app.get("/menu", (req, res) => {
+  res.render("menu");
+});
 
 // Route about
-app.get("/about", (req, res) => res.sendFile(__dirname + "/views/about.html"));
+
+app.get("/about", (req, res) => {
+  res.render("about");
+});
 
 // Route works
-app.get("/works", (req, res) => res.sendFile(__dirname + "/views/works.html"));
+
+app.get("/works", (req, res) => {
+  res.render("works");
+});
 
 //404
 app.all("*", function (req, res) {

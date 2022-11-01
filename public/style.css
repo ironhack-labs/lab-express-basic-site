@@ -325,3 +325,19 @@ a {
   width: 40%;
   justify-content: space-between;
 }
+
+.neoTrad {
+  height: 70%;
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+img {
+  height: 300px;
+  width: 600px;
+}

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/maurinecornillon/lab-express-basic-site#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "hbs": "^4.2.0",
     "nodemon": "^2.0.20"
   }
 }
