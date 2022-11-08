@@ -1,0 +1,35 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+    font-size: 54px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+
+img {
+    width: 25%;
+    height: fit-content;
+    float:left;
+    margin: calc(10%/6);
+    transition: 0.2s;
+}
+
+img:hover {
+    transform: translateY(-0.25em);
+}
