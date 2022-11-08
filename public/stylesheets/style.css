@@ -1,0 +1,21 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+</style>
+
+
+* {
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+}
+
+body {
+
+    background-color: red;
+    color: black;
+    text-align: center;
+    }
+
+a {
+    color: black;
+}

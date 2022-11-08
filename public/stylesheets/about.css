@@ -1,0 +1,10 @@
+* {
+    background-color: blueviolet;
+    text-align: left;
+    align-items: right;
+}
+
+img {
+    border-radius: 8px;
+    width: 300px;
+}
