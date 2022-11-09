@@ -1,0 +1,23 @@
+<h1 class="text-center">Nuestros productos</h1>
+<a href="/" class="btn btn-dark d-flex justify-content-center">Volver</a>
+<hr>
+<div class="container">
+    <div class="row row-cols-4  text-center">
+        {{#each products}}
+        <div class="col card" style="width: 22rem;">
+            <img class="card-img-top" src="{{thumbnail}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <p class="card-text">{{description}}</p>
+                <p class="card-text">{{price}}€</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+        {{/each}}
+
+
+
+
+    </div>
+
+</div>
