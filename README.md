@@ -27,20 +27,22 @@ You should use `express` to create your app, build the routing logic with the bu
 
 ## Instructions
 
-**Your Website should have (at least) 3 pages:**
+Iteraciones Madrid - Express Basic Site Shop
 
-1. A **Home** page, that welcomes the visitor and links to the other pages on the website.
-2. An **About** page, that shares some basic information about the person.
-3. A **Works** page, where you showcase some of the work of the person you chose.
-4. Bonus: A **Photo Gallery** page, displaying some pictures of the person/their work.
+##Iteración 1
+Crea una página de inicio:
 
-You should go through the following steps:
+Crea una vista de HBS que incluya información de presentación de la tienda.
+Muéstrala bajo la URL /
 
-1. Run `npm init -y` to create a package.json file.
-2. Run `npm install express` to install the Express package.
-3. Create a `views/` directory that will hold your `.html` files.
-4. Create a `public/` directory that will hold other static files, such as your CSS stylesheets, scripts and images.
-5. Build your Express app in `app.js`.
-6. Polish your HTML, stylesheets and scripts.
+##Iteración 2
+Crea una página de tienda:
 
-Happy coding! 💙
+Descárgate el JSON products.json que encontrarás en este mismo repo.
+Crea mediante MongoDB Compass una BBDD de nombre ironshop y una colección products en la que importar los datos del JSON.
+Crea en tu aplicación el directorio models con el modelo Product.model.js y configúralo siguiendo la estructura de los productos del JSON.
+Crea en tu aplicación el directorio db con la conexión a tu base de datos (recuerda, el nombre del string de conexión debe coincidir con el nombre de la base de datos).
+Crea una vista de HBS e implementa, a través del patrón MVC, un sistema que permita enviar todos los productos desde la BBDD hasta la vista, mostrándolos de la forma que creas conveniente (columnados, con botón Comprar no funcional, etcétera). La transacción de la base de datos debe estar:
+Proyectada: omite todos los datos de los productos que no muestres en la vista.
+Ordenada: muestra los productos ordenados por su precio, de menor a mayor.
+Muéstrala bajo la URL /tienda
