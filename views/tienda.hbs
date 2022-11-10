@@ -1,0 +1,20 @@
+<h1>Tienda</h1>
+<hr>
+
+<div class="container">
+    {{#each products}}
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="{{thumbnail}}" class="card-img-top" alt="product image">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text">{{description}}</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+
+</div>
