@@ -108,6 +108,21 @@ li a {
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 800px;
     flex-direction: column;
 }
+
+/* #info-ctn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    flex-direction: column;
+} */
+
+h1 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
