@@ -19,6 +19,6 @@ app.get("/gallery", (req, res) => {
   res.sendFile(__dirname + "/views/gallery.html");
 });
 
-app.listen(3000, () => console.log("server connected"));
+app.listen(3001, () => console.log("server connected"));
 
 console.log(__dirname);

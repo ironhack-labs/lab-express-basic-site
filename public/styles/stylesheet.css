@@ -1,7 +1,53 @@
+body {
+    background: black;
+    color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+ul { 
+    list-style-type: none; 
+    text-align: center; 
+    margin: 0auto; 
+    padding: 0px; 
+    display: block; 
+    overflow: hidden; 
+    background: #dddddd;}   
+ 
+li { 
+    display: inline-block;
+    list-style: none;
+}
+  
+li a {
+    display:block; 
+    padding:8px; 
+    text-decoration: none;
+    /* background-color: #dddddd; */
+}
+
 #video {
     text-align: center;
+    margin: 50px;
 }
 
 #welcome-info {
     text-align: center;
 }
+
+.gallery-img {
+    height: 200px;
+    max-width: 100%;
+} 
