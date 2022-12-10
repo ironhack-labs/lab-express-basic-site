@@ -50,4 +50,64 @@ li a {
 .gallery-img {
     height: 200px;
     max-width: 100%;
+    padding: 20px;
 } 
+
+#album-ctn {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#albums {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#albums h1 {
+    font-size: 1.5rem;
+    font-weight: 100; 
+}
+
+.works-img {
+    height: 200px;
+    max-width: 100%;   
+    padding: 20px;
+}
+
+#photo-ctn {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#photos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#photos h1 {
+    font-size: 1.5rem;
+    font-weight: 100; 
+}
+
+#history {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    flex-direction: column;
+}
