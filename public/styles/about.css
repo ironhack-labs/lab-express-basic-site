@@ -1,7 +1,18 @@
+body {
+  background-color: #ffe7cc;
+}
+
 h1 {
   text-align: center;
 }
 
-p {
-  margin: 15px;
+body p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 25px;
+}
+
+.gallery-footer {
+  font-weight: bold;
+  text-align: center;
 }
