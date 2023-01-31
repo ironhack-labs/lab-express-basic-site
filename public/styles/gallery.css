@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+.img-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-gallery img {
+  margin: 10px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}

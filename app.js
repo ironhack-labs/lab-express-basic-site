@@ -17,6 +17,11 @@ app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/views/about.html");
 });
 
+app.get("/gallery", (req, res) => {
+  "use strict";
+  res.sendFile(__dirname + "/views/gallery.html");
+});
+
 app.listen(port, () => {
   "use strict";
   console.log(`Listening on port ${port}`);
