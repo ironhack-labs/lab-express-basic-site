@@ -14,6 +14,17 @@
 
     <link rel="stylesheet" href="/styles/gallery.css">
 
+    <script>
+        window.onload = () =>
+        {
+            let images = document.getElementsByTagName("img");
+
+            for (let item of images) {
+                item.setAttribute("title", item.getAttribute("alt"));
+            }
+        } 
+    </script>
+
 </head>
 
 <body>
@@ -25,13 +36,13 @@
         <div class="img-row">
             <img src="images/young-kurt.jpeg" alt="Young Kurt Gödel">
             <img src="images/kurt-wife.png" alt="Kurt Gödel with his wife">
+            <img src="images/at-ias.jpeg" alt="Kurt Gödel at IAS">
         </div>
 
         <div class="img-row">
             <img src="images/kurt-godel-albert-einstein-princeton.jpg" alt="Kurt Gödel with Albert Einstein">
             <img src="images/book-incompleteness.jpeg" alt="Book with incompleteness thorems">
         </div>
-
 
     </div>
 
