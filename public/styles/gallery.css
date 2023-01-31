@@ -6,17 +6,21 @@ h1 {
   text-align: center;
 }
 
-.img-gallery {
+.img-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+.img-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
 .img-gallery img {
-  margin: 10px;
   width: auto;
   height: auto;
-  object-fit: cover;
+  margin: 20px;
 }
