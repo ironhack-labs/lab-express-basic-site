@@ -1,0 +1,28 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  #main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
