@@ -1,26 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-nav {
-    background-color: skyblue;
-    height: 30px;
-}
-
-li {
-    float: left;
-    list-style: none;
-}
-
-li a {
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    
+  }
+  
+  nav a {
     text-decoration: none;
-    padding: 5px 20px;
-}
-h1{
-    display: inline;
-}
-img {
-    float: left;
-}
-
+    color: black;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  #main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  

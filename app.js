@@ -1,22 +1,37 @@
-const express = require('express');
-const app = express();
+////// App configuration
 
-app.use(express.static('starter-code/public'));
-  //Rutas
-app.get('/', (request, response, next) => {
+const express = require('express')
+const app = express()
 
-    response.sendFile(__dirname + '/views/home.html');
+const path = require('path');
+const router = express.Router();
+
+const port = process.env.PORT || 8000
+
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
+
+
+//////// Routing
+
+app.use(express.static(path.join(__dirname, 'views')));
+app.use('/', router);
+
+router.get('/',function(req,res){
+  res.sendFile('/home.html');
 });
-app.get('/about', (request, response, next) => {
 
-    response.sendFile(__dirname + '/views/about.html');
+router.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname +'/views/about.html'));
 });
-app.get('/gallery', (request, response, next) => {
 
-    response.sendFile(__dirname + '/views/gallery.html');
+router.get('/works',function(req,res){
+  res.sendFile(path.join(__dirname +'/views/works.html'));
 });
-  
-  // Server
+
+
+//////// App listening
+
 app.listen(3000, () => {
-    console.log('Port 3000')
-});
+  console.log("Aplicacion lista en puerto http//localhost:3000")
+})
