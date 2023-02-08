@@ -1,0 +1,163 @@
+* {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+}
+
+html{
+  background-color: white;
+  height: 100%;
+
+}
+
+body{
+  background-color: rgb(237, 237, 237);
+  margin-right: 7%;
+  margin-left: 7%;
+  height: 100%;
+}
+
+header{
+  justify-content: space-between;
+  text-align:left
+}
+
+h1, h2 {
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+p{
+  padding: 5px;
+  line-height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  padding-left: 20px;
+  font-weight: 400px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.house{
+  width: 800px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  border: 10px;
+  border-color: black;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 200px;
+  font-size: 18px;
+  line-height: 40px;
+  background-color: grey;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+#objects {
+  margin-top: 60px;
+  background-color: rgb(237, 237, 237);
+  border: 10px;
+}
+
+.houseLogo{
+  height: 200px;
+  width: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-self: flex-end;
+  border-radius: 5px;
+  float: right;
+}
+
+#houseLogoHome{
+  height: 120px;
+  width: 160px;
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+
+#services {
+  display: flex;
+  font-size: 20px;
+  line-height: 40px;
+  justify-content: space-between;
+  background-color: rgb(237, 237, 237);
+}
+
+#locations {
+  flex-direction: row;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+
+#contacts {
+  font-size: 15px;
+  font-style: italic;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+  width: 250px;
+  border-radius: 5px;
+  line-height: 30px;
+  background-color: white;
+
+}
+
+#about {
+  background-color: rgb(237, 237, 237);
+  margin-top: 3%;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+#socialMedia {
+  font-size: 15px;
+  font-style: italic;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+  width: 250px;
+  border-radius: 5px;
+  line-height: 30px;
+  background-color: white;
+}
+
+#testimonials {
+  margin-top: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.review {
+  font-style: italic;
+}
+
+#impressumContacts {
+  display: flex;
+  flex-direction: row;
+  font-weight: 100;
+  justify-content: space-between;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  background-color: white;
+  
+}
