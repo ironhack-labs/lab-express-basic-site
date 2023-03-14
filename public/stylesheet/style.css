@@ -21,6 +21,9 @@ nav {
 }
 .links{
     padding: 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 #box{
     width: 90vw;
