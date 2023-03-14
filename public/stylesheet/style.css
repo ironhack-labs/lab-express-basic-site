@@ -1,0 +1,70 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 16%, rgba(148,187,233,1) 100%);
+    text-align: center;
+}
+
+#cr-img{
+    height: 70vh;
+}
+
+.club-img{
+    height: 30vh;
+   
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+.links{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#box{
+    width: 90vw;
+    background-color: rgba(238,174,202,1);
+    opacity: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#galery-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+
+}
+.galery-img{
+    height: 30vh;
+    width: 17vw;
+}
+#clubs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-img{
+    height: 26vh;
+}
+#about-box{
+ margin-bottom: 20px;
+}
