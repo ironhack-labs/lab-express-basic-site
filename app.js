@@ -13,4 +13,8 @@ app.get('/about', (request, response) => {
   response.sendFile(__dirname + '/views/about.html')
 })
 
+app.get('/movies', (request, response) =>{
+  console.log(request)
+  response.sendFile(__dirname + "/views/movies.html")
+})
 app.listen(3000, () => console.log('My first app listening on port 3000'))
