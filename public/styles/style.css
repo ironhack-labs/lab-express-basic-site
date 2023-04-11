@@ -1,0 +1,39 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+#links {
+    display: flex;
+    align-items: end;
+    justify-content:space-around
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
