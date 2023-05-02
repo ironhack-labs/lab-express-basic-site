@@ -1,0 +1,74 @@
+body{
+    background-color: pink;
+}
+
+#imagem{
+    text-align: center;
+    margin: 9% 29%;
+}
+
+#homepage{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Lucida Sans';
+}
+
+
+#pagetwo{
+    background-color: rgb(255, 255, 85);
+}
+
+h2{
+    color: rgb(255, 53, 87);
+    text-align: left;
+    font-size: 60px;
+}
+
+ul{
+    color: rgb(42, 16, 16);
+    font-size: 40px;
+}
+
+a{
+    color: green;
+    font-size: 70px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#pagethree{
+    background-color: orangered;
+}
+
+h4{
+    color:aqua;
+    font-size: 80px;
+    text-align: center;
+}
+
+p{
+    color:rgb(45, 26, 30);
+    font-size: 50px;
+}
+
+#vogue{
+    text-align: center;
+    color: white;
+
+}
+
+#pagefour{
+    background-color: rgb(172, 0, 29);
+}
+
+#imagesOfBrit{
+    display: flex;
+
+}
+
+#imagesOfBrit img{
+    height: 450px;
+    width: 450px;
+}
