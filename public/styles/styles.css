@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+#header-wrapper {
+    border-bottom: 2px solid #000;
+    background-color: rgba(158, 158, 158, 0.2);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#home-main-header {
+    color: #c90600;
+    font-size: 5vw;
+    text-align: right;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 1px 2px #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+#self-portrait {
+    width: 60%;
+    height: 60%;
+}
+
+#home-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10vw;
+  }
+  
+.nav-item{
+    display: block;
+    color: #000;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+.nav-item:hover {
+    background-color: #c90600;
+    text-decoration: underline;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+  }
+
+  #about-main-header {
+    color: #c90600;
+    background-color: rgba(158, 158, 158, 0.2);
+    font-size: 5vw;
+    text-align: right;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 1px 2px #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+#about-header-wrapper {
+    border-bottom: 2px solid #000;
+    background-color: rgba(158, 158, 158, 0.2);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#about-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+}
+
+#about-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+}
+
+.about-text {
+    padding: 1% 1% 0% 1%;
+    margin: 1% 1% 0% 1%;
+}
+
+.publication-list {
+    display: block;
+    list-style-type: none;
+    color: #000;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: none;
+}
