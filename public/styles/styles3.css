@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    width: 150px;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+nav a{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+nav a:hover {
+    background-color: #ce0606;
+  }
+  
+nav a:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+  .main{
+    margin-left: 15vw;
+
+  }
+  img{
+    width: 50vw;
+  }

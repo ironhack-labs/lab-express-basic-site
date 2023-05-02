@@ -1,0 +1,42 @@
+.img-gallery{
+width: 80%;
+margin: 100px auto 50px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr ));
+grid-gap:  30px;
+}
+
+.img-gallery img{
+    width: 100%;
+    cursor:  ;
+     
+}
+.img-gallery img:hover{
+transform: scale(0.8) rotate(-15deg);
+border-radius: 20px;
+box-shadow: 0 32px 75px rgb(149, 146, 146);
+}
+body{
+    background-color: cadetblue;
+}
+nav a{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-right: 85vw;
+  }
+  
+nav a:hover {
+    background-color: #ce0606;
+  }
+  
+nav a:active {
+    box-shadow: none;
+    top: 5px;
+  }

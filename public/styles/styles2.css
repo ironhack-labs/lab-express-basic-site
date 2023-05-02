@@ -1,0 +1,62 @@
+body{
+    background-color: tan;
+    text-align: center;
+    display: flex;
+}
+.main-image{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  /*   text-align: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soundCloudImg{
+  margin-top: 50px;
+    width: 900px;
+    height: 600px;
+  /*   text-align: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    width: 150px;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+nav a{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+nav a:hover {
+    background-color: #ce0606;
+  }
+  
+nav a:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+  .main{
+    margin-left: 12vw;
+}
+
