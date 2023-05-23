@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.navbar{
+    position: relative;
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    font-family: "Roboto";
+    border-bottom: 0.5px groove gray
+    
+}
+.navbar a{
+    text-decoration: none; 
+    color: rgb(175, 111, 111);; 
+    background-color: whitesmoke; 
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    margin-right: 10px; 
+
+}
+.navbar a:hover {
+    background-color: gray; 
+}
+
+.indexImg{
+    background: url('../images/main.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit';
+    color: rgb(175, 111, 111);
+    
+}
+.indexImg h1{
+    font-size: 3rem;
+    font-family: 'Kanit';
+    color: rgb(175, 111, 111);
+}
+.indexImg h3{
+    font-size: 20px;
+    color: rgb(175, 111, 111);
+    line-height: 0px;
+    font-weight: 800;
+    
+}
+.mid-section{
+    font-family: "Roboto";
+    color: rgb(175, 111, 111);
+    text-align: center;
+    padding-top: 30px;
+}
+.mid-section>div{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px 10px;
+    padding: 30px;
+    color: whitesmoke;
+
+}
+.row h1{
+    font-size: 1rem;
+}
+.row .column img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    
+    color: rgb(175, 111, 111);
+}
+#image1{
+    width: 47%;
+}
+#image2{
+   width: 70%;
+}
+#image3{
+    width: 45%;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:normal;
+    margin: 30px 30px;
+    padding: 50px;
+    color: whitesmoke;
+    width: auto;
+    position: relative;
+    color: gray;
+}
+.ride{
+    position:absolute;
+    top: 52%;
+    left: 20%;
+}
+#bigger{
+     font-size: 40px;
+     flex: 1;
+     text-align: end;
+}
+.footer-section{
+    flex: 1;
+    text-align: center;
+}
+
+#about{
+    text-align: center;
+}
