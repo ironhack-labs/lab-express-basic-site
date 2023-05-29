@@ -1,0 +1,204 @@
+
+#welcome-text{
+text-align: center;
+margin-top: 16%;
+}
+
+h1 {
+font-weight: normal;
+font-family: 'Roboto Slab', serif;
+size: 22px;
+color: rgba(142, 154, 161, 0.521);;
+}
+
+h2 {
+font-family: 'Roboto Slab', serif;
+size: 20px;
+color: rgb(91, 106, 116);
+}
+
+p {
+color: rgb(55, 72, 84);
+font-size: medium;
+font-weight: bold;
+line-height: 1.5; 
+}
+nav {
+background-color: #5791ac;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 10px;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+nav ul li a {
+color: rgb(3, 56, 88);
+text-decoration: underline;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a:hover {
+background-color: #6171c9;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.container-images {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 4%;
+}
+
+
+#bookCover1 {
+width: 20%;
+height: auto;
+padding-right: 20px;
+}
+
+#bookCover2 {
+width: 20%;
+height: auto;
+padding-right: 20px;
+}
+
+#bookCover3 {
+width: 20%;
+height: auto;
+padding-right: 20px;
+}
+
+#bookCover4 {
+width: 20%;
+height: auto;
+padding-right: 20px;
+}
+    
+#ilustration1 {
+width: 30%;
+height: auto;
+}
+
+
+.buttonReturnHome {
+position:relative;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.buttonReturnHome button {
+display: inline-block;
+padding: 10px 20px;
+color: white;
+background-color: rgb(119, 107, 107);
+font: bold;
+
+}  
+
+.returnText {
+color: black
+}
+
+.container-smallPaintings {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-around;
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.p1 {
+width: 15%;
+height: auto;
+}
+
+
+
+/*.bckgd {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+background-image: url ("/images/selfPortrait.png");
+background-size: cover;
+background-position: center;
+opacity: 1;
+}*/
+
+.about-container {
+display: flex;
+flex-wrap: wrap;
+align-items:flex-start;
+
+}
+
+.about-image-container {
+flex: 0 0 50;
+}
+  
+.about-text-container {
+flex: 1;
+text-align: justify;
+position: absolute;
+margin-right: 15%;
+margin-left: 30%;
+}
+  
+.about-image-container img {
+max-width: 35%;
+height: 70%;
+opacity: 0.9;
+background-size: cover;
+}
+
+.work-books-text-container {
+margin-left: 10% ;
+margin-right: 10%;
+margin-top: 5%;
+margin-bottom: 5%;
+text-align: justify;
+}
+
+.type-work-title{
+text-align: center;
+}
+
+.container-gallery{
+display: grid;
+grid-template-columns: repeat(2, 1fr); /* Two columns */
+grid-gap: 20px; 
+justify-content: center; 
+margin-top: 80px;
+}
+
+.img-gallery{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 0px;
+}
+
+.img-gallery img {
+max-width: 90%;
+height: auto;
+}
+
+.subtitles{
+font-size: 10px;
+font-weight: bold;
+margin-top:10px ;
+margin-bottom: 10px;
+}
