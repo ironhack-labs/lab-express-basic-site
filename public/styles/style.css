@@ -1,0 +1,166 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  font-family: verdana;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 10px 0;
+  height: 60px;
+}
+nav a {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  background-color: gray;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+nav a:hover {
+  border: 2px solid gray;
+  background-color: white;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  justify-content: center;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+}
+main section p {
+  text-align: justify;
+  margin: 5px 40px;
+}
+main section ol {
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+}
+main section ol li {
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#works section{
+  width: 80%;
+}
+
+#works h3 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#works img {
+  height: 400px;
+}
+#works p {
+  padding: 5px;
+}
+#works em {
+  font-weight: bold;
+}
+#works ol {
+  margin: 10px;
+}
+#works ol > li {
+  padding: 10px 0;
+}
+#works main section ol li p {
+  margin: 0;
+  padding: 0;
+}
+#works ol li ul {
+  padding: 0 0 0 15px;
+  list-style: disc;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.gallery div {
+  flex: 0 0 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 5px;
+  height: 180px;
+  transition: height 400ms;
+}
+.gallery img:hover {
+  z-index: 1;
+  height: 225px;
+}
+
+nav a img {
+  height: 20px;
+}
+
+#works nav img {
+  height: 20px;
+}
+#works header img{
+  transition: height 400ms;
+}
+#works header img:hover {
+  height: 90vh;
+}
+
+#michael-img {
+  height: 100px;
+  animation: increaseSize 1s forwards;
+}
+@keyframes increaseSize {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(3);
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
