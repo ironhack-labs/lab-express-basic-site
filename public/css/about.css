@@ -1,0 +1,19 @@
+body {
+  background-image: url(/images/backgroundAbout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  margin: 20px;
+  height: 85vh;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.391);
+  border-radius: 10px;
+}
+
+img {
+  width: 700px;
+  height: auto;
+  border-radius: 20px;
+}
