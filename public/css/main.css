@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+h1{
+ color: fuchsia;   
+}
+
+.title-work{
+    color: darkblue;
+}
+
+p{
+    text-align: justify;
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+nav a {
+    padding: 0 1rem;
+}
+
