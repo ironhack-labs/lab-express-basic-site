@@ -1,0 +1,26 @@
+body {
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+}
+
+img {
+    width: 30vw;
+    height: 40vh;
+}
+
+nav a {
+    color:white;
+    font-size: medium;
+    background-color: blueviolet;
+    text-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 5%;
+}
