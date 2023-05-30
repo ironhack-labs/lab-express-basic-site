@@ -1,0 +1,58 @@
+body {
+    color: #fff;
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+  }
+  
+  .home-page {
+    position: relative;
+    background-image: url('/images/0.jpeg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-page div,
+  .home-page h1,
+  .home-page nav {
+    text-align: center;
+  }
+  
+  .home-page h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  
+  .home-page nav {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .home-page nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+    margin-right: 10px;
+  }
+  
+  .home-page nav a:last-child {
+    margin-right: 0;
+  }
+  
+  .home-page nav a::after {
+    content: "|";
+    margin-left: 10px;
+  }
+  
+  .home-page nav a:last-child::after {
+    content: "";
+    margin-left: 0;
+  }
+  
