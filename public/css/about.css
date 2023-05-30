@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-class{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    padding: 1.5em;
+
+}
+
+.nav-class a{
+    color: white;
+    text-decoration: none;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+article div{
+    width: 45vw;
+    margin: 0em 0.8em;
+    padding: 0em 1em;
+}
+
+h1 {
+    margin: 0.8em;
+}

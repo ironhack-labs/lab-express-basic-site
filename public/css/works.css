@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-class{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    padding: 1.5em;
+
+}
+
+.nav-class a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin: 2em 0em 3em;
+}
+
+#spotify-link{
+    border-radius:12px;
+    width :80vw; 
+    height: 60vh;
+    margin: 1em 8em 8em; 
+}
+
+#youtube-link{
+    border-radius:20px;
+    margin: 1em 8em 6em;
+    width:80vw;
+    height: 60vh;
+}
+
+article h2{
+    margin: 0em 6em;
+}

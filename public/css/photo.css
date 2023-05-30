@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-class{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    padding: 1.5em;
+}
+
+.nav-class a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+article{
+    margin: 5em 0em;
+}
+
+article div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+article img{
+    width: 40%;
+    padding: 1em;
+
+}

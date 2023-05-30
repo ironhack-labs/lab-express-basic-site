@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#cover-img{
+    position: absolute;
+    height: 120vh;
+    width: 100vw;
+    opacity: 0.7;
+}
+
+.nav-class{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    padding: 1.5em;
+
+}
+
+.nav-class a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    position: relative;
+    text-align: center;
+    margin-top: 6em;
+    font-size: 4em;
+}
