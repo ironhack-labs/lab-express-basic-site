@@ -1,0 +1,164 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Neil deGrasse Tyson</title>
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav>
+			<a href="/home">Home</a>
+			<a href="/about">About</a>
+			<a href="/podcasts">Podcasts</a>
+			<a href="/gallery">Meme Gallery</a>
+		</nav>
+
+		<div class="gallery-headers">
+			<h2>Memes and gifs</h2>
+			<h4>...you can copy them and send them to your friends</h4>
+		</div>
+
+		<div class="gallery-container">
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/tBb19f4wJXJNBEDJmbS/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/yH44qh8DpNyfK/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/urZvVFIs7faso/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/oYTYkxAnzrp2E/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/CuU9hvQfoTaXC/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/l3vRogb0QxBlyo4Pm/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/D8SsyjjmqoUfu/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/Wyt6sLEjKjaFjzybth/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/3oKIPEoPsxu6lev7S8/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/FWMyo7xL0Yk0a9thju/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/NPFD7Wz28yr46aBrCq/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/3o7ZeoHrOtqif5U3Ek/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/l2QDP2wLUd6eMP4WY/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/iaBaSFCwOA384/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/jEirVKZl0JytW/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+			<div class="gallery-item">
+				<img
+					src="https://media.giphy.com/media/26gR1NFrSpet7oHdu/giphy.gif"
+					alt="asdasjd"
+				/>
+				<button class="copy-button" onclick="copyImageSrc(this)">Copy</button>
+			</div>
+		</div>
+
+		<script>
+			function copyImageSrc(button) {
+				let imageSrc = button.previousElementSibling.src;
+
+				let tempInput = document.createElement("input");
+				document.body.appendChild(tempInput);
+
+				tempInput.value = imageSrc;
+				tempInput.select();
+				document.execCommand("copy");
+
+				document.body.removeChild(tempInput);
+
+				alert("Image URL copied to clipboard!");
+			}
+		</script>
+	</body>
+</html>
