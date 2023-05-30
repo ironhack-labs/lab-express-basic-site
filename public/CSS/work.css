@@ -1,0 +1,70 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+nav {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5d4f9b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.list {
+    list-style-type: decimal;
+    font-size: 16px;
+    text-align: justify;
+    display: inline-block;
+    padding-top: 20px;
+    
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    vertical-align: middle;
+    padding: 10px 42%;
+    
+}
+.img2 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    vertical-align: middle;
+    padding: 10px 42%;
+}
+
+footer {
+    margin: 10px;
+    padding: 40px 20px;
+}
+

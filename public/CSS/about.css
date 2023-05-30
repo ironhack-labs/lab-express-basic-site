@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5d4f9b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+nav a:hover {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 45px;
+    text-align: justify;
+    padding: 40px 40px;
+}
+
+.sub-title {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 40px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px 40px;
+    text-rendering: optimizeLegibility;
+}
+
+footer {
+    margin: 10px;
+    padding: 40px 20px;
+}
