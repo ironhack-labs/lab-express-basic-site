@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("https://img.freepik.com/free-photo/top-view-wooden-desk-empty-cream-colored-isolated_140725-22535.jpg?w=1380&t=st=1685458231~exp=1685458831~hmac=7c53622ec4a946ab5581aba9fda18a451351ca24353f3a43fc2c8a03983552b1");
+	min-height: 3vh;
+	border: 2px black solid;
+}
+
+nav a {
+	display: flex;
+	text-align: center;
+	background-color: rgb(204, 193, 193);
+	padding: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: solid black 1px;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+}
+
+#home-background {
+	display: flex;
+	/* background-color: bisque; */
+	background-image: url("/images/chicken-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 97vh;
+	justify-content: space-evenly;
+}
+
+#home-background .left-panel img {
+	max-width: 50vw;
+	max-height: 60vh;
+	border: solid 2px black;
+}
+
+#works-background {
+	display: flex;
+	background-color: bisque;
+	background-image: url("/images/lemon-chicken.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 97vh;
+}
+
+#works-background .left-panel img {
+	max-width: 30vw;
+	max-height: 60vh;
+	border: solid 2px black;
+}
+
+#about-background {
+	display: flex;
+	background-color: bisque;
+	background-image: url("/images/vegetables.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 97vh;
+}
+
+#about-background .left-panel img {
+	max-width: 30vw;
+	max-height: 60vh;
+	border: solid 2px black;
+}
+
+#photo-gallery-background {
+	display: flex;
+	background-color: bisque;
+	/* background-image: url("/images/chicken-background.jpg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 97vh;
+}
+
+.right-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	justify-content: center;
+	margin: 50px;
+	width: 50vw;
+	gap: 100px;
+	/* background-color: rgba(177, 156, 37, 0.259); */
+	/* border: solid 2px black; */
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.right-panel h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.right-panel p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.site-map {
+	display: flex;
+	flex-direction: column;
+}
+
+.site-map div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
+}
+
+.site-map p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.left-panel {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: white;
+	width: 40vw;
+	font-size: 20px;
+}
