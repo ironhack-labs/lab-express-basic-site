@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /*Ajusta el espacio entre las imágenes*/
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /*Evita que las imagenes se distorsionen*/
+    margin-bottom: 20px;
+    border: 2px solid #333; /*Agrega un borde a las imágenes*/
+    transition: transform .3s ease-in-out; /*Efecto de transición al pasar el cursor sobre las imágenes*/
+  }
+  
+  img:hover {
+    transform: scale(1.03); /*Agrega un efecto de zoom a las imágenes*/
+  }
