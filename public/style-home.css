@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, black, red);
+    background-size: 200% 100%;
+    background-position: left center;
+    transition: background-position 0.8s;
+  }
+
+  .content {
+    height: 2000px;
+  }
