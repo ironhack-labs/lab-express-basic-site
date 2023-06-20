@@ -1,0 +1,97 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+
+
+    background-color: rgb(162, 231, 241);
+}
+
+h1 {
+
+color: rgba(77, 125, 186, 0.695);
+
+
+}
+
+button {
+
+background-color: rgba(77, 125, 186, 0.695);
+outline: dotted;
+border: none;
+outline-width: 10px;
+border-radius: 40px 10px 10px 40px;
+margin: 40px;
+padding: 30px;
+width: 260px;
+outline-color: rgba(240, 255, 255, 0.502);
+
+
+
+}
+
+button:hover{
+
+background-color: rgba(215, 116, 204, 0.73);
+
+
+}
+
+img {
+
+border-radius: 100%;
+width: 20%;
+height: 250px;
+object-fit: cover;
+
+
+}
+
+p {
+
+    margin: 1% 20%;
+    line-height: 30px;
+    text-align:justify;
+    text-indent: 80px;
+    font-size: large;
+    position: relative;
+    bottom: 130px;
+}
+
+.conference {
+
+    width: 30%!important;
+    height: 200px !important;
+    border-radius: 5px !important;
+    position: relative;
+    bottom: 100px;
+
+
+}
+
+.button1, .button2 {
+
+width: 100px;
+position: relative;
+left: -650px;
+display: flex;
+
+
+
+}
+
+
+a {
+
+    display: inline;
+}
+
+.contributionTitle {
+
+    position: relative;
+    bottom: 150px;
+}
