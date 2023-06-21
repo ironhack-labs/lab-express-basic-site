@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: cursive;
+}
+
+.top-bar {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+  background-color: black;
+  padding: 1rem;
+}
+
+/* .container {
+  background-color: black;
+} */
+
+p {
+  margin-top: 5rem;
+}
+
+.menu-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-logo > h3 {
+  color: white;
+}
+
+.menu-links {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.menu-links ul li {
+  display: inline;
+  margin: 1rem;
+  list-style: none;
+}
+
+.menu-button {
+  border: none;
+  height: 4rem;
+  padding: 1rem;
+  width: 6rem;
+  border-radius: 0.1rem;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.works-container {
+  display: grid;
+  /* max-width: 900px; */
+  position: relative;
+  margin: 5rem;
+  grid-template-areas:
+    "dap lr clf"
+    "clr nlp wdv";
+
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.card {
+  width: 20rem;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 3rem;
+  height: 27rem;
+  padding: 2rem;
+}
+
+.dap {
+  grid-area: dap;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
