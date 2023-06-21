@@ -1,0 +1,53 @@
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #f4a460;
+  padding: 20px;
+}
+
+header h1 {
+  margin: auto;
+  padding: auto;
+  font-size: 24px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 10 10px;
+}
+
+header nav ul li a {
+  color: #f4a460;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+
+/* picture styling */
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 500px; /* Adjust the desired height for the image container */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

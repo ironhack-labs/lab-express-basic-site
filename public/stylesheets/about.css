@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/Gil-headshot.jpeg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #f4a460;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #f4a460;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h2 {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #fff;
+  /* background-color: #333; */
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+main h2:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+main p {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #fff;
+  /* background-color: #333; */
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+main p:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
