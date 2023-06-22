@@ -1,0 +1,166 @@
+body {
+  color: white;
+  background-image: url(/images/background-albums.png);
+  background-size: no-repeat;
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: -1px 0 #c41468, 0 1px #c41468, 1px 0 #c41468, 0 -1px #c41468;
+  letter-spacing: 1.5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content-container {
+  margin: 0 auto;
+  background-color: #2259a4;
+  border: 5px solid #c41468;
+  border-radius: 10px;
+  width: 60%;
+  overflow-x: hidden;
+  margin-top: 40px;
+  height: 90vh;
+}
+
+.main-paras {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 85%;
+  background-color: white;
+  color: #2259a4;
+  border: 5px solid #c41468;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.paragraphs {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 28px;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.about-paragraphs {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.escapology-h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+}
+
+.expecting-h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+}
+
+.sing-h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+}
+
+.albums {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  padding-left: 5%;
+}
+
+.escapology-pic {
+  max-width: 75%;
+  max-height: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sing-when-win-pic {
+  max-width: 75%;
+  max-height: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ive-been-expecting-you-pic {
+  max-width: 75%;
+  max-height: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.escapology {
+  width: 30%;
+}
+
+.ive-been-expecting-you {
+  width: 30%;
+}
+
+.sing-when-win {
+  width: 30%;
+}
+
+.album-paragraphs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  text-decoration: none;
+  background-color: white;
+  color: #2259a4;
+  text-align: center;
+  border: 2px solid #c41468;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+#home-page-pic {
+  width: 25%;
+  height: 40%;
+  margin-left: 37%;
+}
