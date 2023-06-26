@@ -1,0 +1,85 @@
+h1 {
+  font-size: 30px;
+  color: rgb(23, 112, 214);
+}
+
+h5 {
+  color: rgb(23, 112, 214);
+}
+
+/* h2 {
+  font-size: 20px;
+  color: rgb(23, 112, 214);
+} */
+
+.container-fluid {
+  font-weight: bold;
+  background-color: rgb(23, 112, 214);
+}
+
+#header {
+  background-image: url("/images/tapia_home.png");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+#header h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 200px;
+  margin-left: 80px;
+  width: 350px;
+}
+
+#about-container {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#works-container {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#champion {
+  color: green;
+  font-weight: bold;
+}
+
+#gallery-title {
+  color: rgb(23, 112, 214);
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#gallery-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#video1 {
+    width: 450px;
+    height: 300px;
+}
+
+#video2 {
+    width: 450px;
+    height: 300px;
+}
+
+#video3 {
+    width: 450px;
+    height: 300px;
+}
