@@ -8,9 +8,7 @@ app.get("/homepage", (req, res, next) => {
   res.sendFile(__dirname + "/views/index.html");
 });
 
-// app.get("/image", (req, res) => {
-//   res.sendFile(__dirname + "/public/images/Aristotle.jpg");
-// });
+// git s
 
 app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/views/about.html");
