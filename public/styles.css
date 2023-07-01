@@ -1,0 +1,37 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+}
+
+nav ul:last-child {
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* About page */
+.p-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Works page */
+
+.works-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-works {
+  width: 250px;
+}
