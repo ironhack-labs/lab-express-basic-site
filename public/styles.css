@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
+body {
+
+    font-family: "Raleway", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background: black;
+    display: block;
+}
+
+h1,
+h2,
+p {
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: linen;
+    z-index: 1;
+    top: 100px;
+}
+
+h1 {
+    font-size: 6rem;
+    
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+p {
+    color: whitesmoke;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+}
+
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+        justify-content: center;
+    }
+
+}
+
+.nav-list {
+    margin: 0 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: #1b1b32;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+
+.nav-list a:hover {
+    color: #1b1b32;
+    
+    background-color: linen;
+}
