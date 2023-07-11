@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body>div>p{
+    width: 50vw;
+
+}
+body>div>a{
+    text-decoration: none;
+    color: red;
+    border-radius: 7px;
+    box-shadow: 20px white;
+    padding: 10px;
+    background-color: black;
+}
