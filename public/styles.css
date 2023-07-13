@@ -1,0 +1,75 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
