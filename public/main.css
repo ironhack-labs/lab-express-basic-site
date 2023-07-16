@@ -1,0 +1,19 @@
+a {
+    color: red;
+    font-size: 25px;
+}
+
+body {
+    color: white;
+    background-color: blue;
+
+}
+
+.links {
+    direction: none;
+    color: aqua;
+}
+
+ul {
+    background-color: white;
+}
