@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0px;
+}
+
+#header {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#header img {
+  width: 140px;
+  height: auto;
+  margin: 20px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 20px;
+}
+
+#nav li {
+  margin: 60px;
+}
+
+#nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#banner {
+  position: relative;
+  margin-bottom: 500px;
+}
+
+#banner img {
+  position: absolute;
+  width: 100vw;
+}
+
+.top {
+  animation-name: bannerfade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+@keyframes bannerfade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#content {
+  margin: 0 50px;
+}
+
+#content h1 {
+  color: green;
+}
+
+#content article {
+  margin: 30px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+#content ul {
+  list-style: none;
+}
+
+#content span {
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+#gallery img {
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+}
