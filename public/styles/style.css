@@ -1,0 +1,138 @@
+@import url(https://db.onlinewebfonts.com/c/bf9940413066bf65037e293ebc4c068e?family=ITC+American+Typewriter+Medium);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: black;
+  background-color: white;
+  font-family: "ITC American Typewriter Medium";
+}
+
+.nav-bar {
+  background-color: #333;
+  overflow: hidden;
+  height: 80px;
+}
+
+.nav-bar a {
+  float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.nav-bar a.active {
+  background-color: white;
+  color: black;
+}
+
+.main-div {
+display: flex;
+gap: 50px;
+align-items: center;
+background-color: #DED6D1;
+margin: 10px
+
+}
+
+
+.sc-img {
+ 
+  width: 400px;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+  margin-left: 20px;
+  
+}
+
+.principal-text-div h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.principal-text-div p {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 40px;
+  margin-right: 10px;
+
+}
+
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.home-div > img {
+  width: 1200px;
+  
+}
+
+.home-div h1 {
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 50px 100px 0;
+}
+
+.ms-career-img {
+  margin-bottom: 40px;
+}
+
+.career h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+
+.general-paragraph {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.movies > h1 {
+  margin: 50px 0 20px 120px;
+}
+
+.container {
+  background-color: #333;
+  overflow: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.container > img {
+  object-fit: cover;
+  padding: 10px;
+  width: 300px;
+  height: 533px;
+}
+
