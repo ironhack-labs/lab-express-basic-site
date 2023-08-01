@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>CR7 - The GOAT</title>
+</head>
+<body>
+    <audio id="menuClickSound">
+        <source src="/sounds/siuuu.mp3" type="audio/mpeg">
+    </audio>
+    <section id="nav-bar">
+        <div>
+            <img id="cr-symbol" src="/images/cr-symbol.jpg" alt="cr7-symbol">
+        </div>
+        <div>
+            <ul>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/works">ACHIEVEMENTS</a></li>
+                <li><a href="/photo-gallery">PHOTO GALLERY</a></li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <div id="photos-gallery">
+        <div class="row">
+            <div><img src="/images/cr7-1.png"></div>
+            <div><img src="/images/cr7-2.jpeg"></div>
+        </div>
+        <div class="row">
+            <div><img src="/images/cr7-3.jpg"></div>
+            <div><img src="/images/cr7-4.jpg"></div>
+        </div>
+        <div class="row">
+            <div><img src="/images/cr7-5.jpeg"></div>
+            <div><img src="/images/cr7-6.jpg"></div>
+        </div>
+    </section>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuClickSound = document.getElementById('menuClickSound');
+        var menuItems = document.querySelectorAll('#nav-bar ul li a');
+        for (let i = 0; i < menuItems.length; i++) {
+            menuItems[i].addEventListener('click', function(event) {
+
+            event.preventDefault();
+            menuClickSound.play();
+
+            const link = this.getAttribute('href');
+                setTimeout(function() {
+                     window.location.href = link;
+                }, 1000);
+            });
+        }
+    });
+</script>
+</html>

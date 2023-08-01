@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>CR7 - The GOAT</title>
+</head>
+<body>
+    <audio id="menuClickSound">
+        <source src="/sounds/siuuu.mp3" type="audio/mpeg">
+    </audio>
+    <section id="nav-bar">
+        <div>
+            <img id="cr-symbol" src="/images/cr-symbol.jpg" alt="cr7-symbol">
+        </div>
+        <div>
+            <ul>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/works">ACHIEVEMENTS</a></li>
+                <li><a href="/photo-gallery">PHOTO GALLERY</a></li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <sections id="about-menu">
+        <h3>ABOUT</h3>
+        <p>Cristiano Ronaldo's story is a remarkable tale of talent, determination, and perseverance. Born on February 5, 1985, in Funchal, Madeira, Portugal, Cristiano Ronaldo dos Santos Aveiro grew up in a modest family with his parents, Maria Dolores dos Santos Aveiro and José Dinis Aveiro, and three siblings.</p>
+
+        <p>From an early age, Ronaldo displayed a passion for football and began playing for local clubs in Madeira. His exceptional skills caught the attention of scouts, and at the age of 12, he moved to the mainland of Portugal to join the renowned Sporting Lisbon youth academy. Ronaldo's time at Sporting Lisbon's academy helped him refine his abilities and set the stage for his professional career.</p>
+
+        <p>In 2003, at the age of 18, Cristiano Ronaldo caught the eye of Manchester United manager Sir Alex Ferguson during a pre-season friendly match. Impressed by his talent, Ferguson signed Ronaldo for Manchester United, marking the beginning of a spectacular journey in English football. Ronaldo's time at Manchester United saw him grow into one of the most promising young talents in the world.</p>
+
+        <p>During his six-year tenure at Manchester United, Ronaldo achieved numerous milestones and won several accolades. He played a pivotal role in helping Manchester United win three English Premier League titles, one FA Cup, two League Cups, and the UEFA Champions League in the 2007-2008 season. His incredible dribbling skills, pace, and ability to score from any position on the field made him a true force to be reckoned with.</p>
+
+        <p>In 2009, Ronaldo made a highly-publicized move to Spanish giants Real Madrid for a then-world record transfer fee. His time at Real Madrid would cement his status as one of the greatest footballers in history. With Real Madrid, Ronaldo reached unprecedented heights, breaking numerous records and winning four Champions League titles, two La Liga titles, and multiple individual honors.</p>
+
+        <p>In 2018, after nine illustrious years at Real Madrid, Ronaldo made a surprising move to the Italian club Juventus. Even in his 30s, he continued to showcase his skills, leading Juventus to consecutive Serie A titles and contributing significantly to their success.</p>
+
+        <p>Aside from his club achievements, Cristiano Ronaldo has also been an integral part of the Portuguese national team. He has represented Portugal in multiple UEFA European Championships and FIFA World Cups, winning the UEFA European Championship in 2016 and the UEFA Nations League in 2019. Ronaldo has consistently demonstrated his leadership on the international stage, becoming Portugal's all-time top scorer and one of the highest-scoring players in international football history.</p>
+
+        <p>Beyond his sporting prowess, Cristiano Ronaldo is known for his philanthropy and humanitarian efforts. He has been involved in various charitable initiatives and donated significant amounts to causes related to children's hospitals, cancer research, and disaster relief efforts.</p>
+
+        <p>Throughout his career, Cristiano Ronaldo's dedication to excellence, relentless work ethic, and desire to continually improve have earned him the admiration and respect of fans and fellow athletes worldwide. His story serves as an inspiration to countless aspiring footballers and showcases the transformative power of talent, hard work, and perseverance in achieving greatness.</p>
+    </sections>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuClickSound = document.getElementById('menuClickSound');
+        var menuItems = document.querySelectorAll('#nav-bar ul li a');
+        for (let i = 0; i < menuItems.length; i++) {
+            menuItems[i].addEventListener('click', function(event) {
+
+            event.preventDefault();
+            menuClickSound.play();
+
+            const link = this.getAttribute('href');
+                setTimeout(function() {
+                     window.location.href = link;
+                }, 1000);
+            });
+        }
+    });
+</script>
+</html>

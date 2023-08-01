@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>CR7 - The GOAT</title>
+</head>
+<body>
+    <audio id="menuClickSound">
+        <source src="/sounds/siuuu.mp3" type="audio/mpeg">
+    </audio>
+    <section id="nav-bar">
+        <div>
+            <img id="cr-symbol" src="/images/cr-symbol.jpg" alt="cr7-symbol">
+        </div>
+        <div>
+            <ul>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/works">ACHIEVEMENTS</a></li>
+                <li><a href="/photo-gallery">PHOTO GALLERY</a></li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <sections id="achievements-menu">
+        <h2 class="achieve-type">Club Achievements</h2>
+
+        <h3 class="club">Sporting CP:</h3>
+        <p>Portuguese Cup: 2002</p>
+
+        <h3 class="club">Manchester United:</h3>
+        <p>Premier League: 2006–07, 2007–08, 2008–09</p>
+        <p>FA Cup: 2003–04</p>
+        <p>Football League Cup: 2005–06, 2008–09</p>
+        <p>FA Community Shield: 2007</p>
+
+        <h3 class="club">Juventus</h3>
+        <p>Serie A: 2018–19, 2019–20</p>
+
+
+        <h2 class="achieve-type">Individual Achievements</h2>
+
+        <p>>Ballon d'Or (FIFA World Player of the Year) Awards: 5 times (2008, 2013, 2014, 2016, 2017)</p>
+        <p>FIFA World Player of the Year: 1 time (2008)</p>
+        <p>UEFA Best Player in Europe Award: 4 times (2008, 2014, 2016, 2017)</p>
+        <p>The Best FIFA Men's Player: 3 times (2008, 2016, 2017)</p>
+        <p>PFA Players' Player of the Year: 2 times (2007–08, 2013–14)</p>
+        <p>UEFA European Championship Golden Boot: 1 time (2016)</p>
+        <p>FIFA World Cup Golden Boot: 1 time (2014)</p>
+        <p>FIFA Puskás Award: 1 time (2009)</p>
+        <p>UEFA European Championship Winner: 1 time (2016)</p>
+        <p>UEFA Nations League Winner: 1 time (2019)</p>
+        <p>Footballer of The Year: Multiple times </p>
+        <p>FIFPro World XI: Multiple times</p>
+        <p>UEFA Team of the Year: Multiple times</p>
+        <p>UEFA Champions League Top Scorer: Multiple times</p>
+
+
+        <h2 class="achieve-type">All-Time Records:</h2>
+
+        <p>All-time top scorer in UEFA Champions League history</p>
+        <p>All-time top scorer in UEFA European Championship history</p>
+        <p>All-time top scorer for the Portuguese national team</p>
+        <p>Most hat-tricks in La Liga history</p>
+        <p>Most hat-tricks in UEFA Champions League history </p>  
+
+    </sections>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuClickSound = document.getElementById('menuClickSound');
+        var menuItems = document.querySelectorAll('#nav-bar ul li a');
+        for (let i = 0; i < menuItems.length; i++) {
+            menuItems[i].addEventListener('click', function(event) {
+
+            event.preventDefault();
+            menuClickSound.play();
+
+            const link = this.getAttribute('href');
+                setTimeout(function() {
+                     window.location.href = link;
+                }, 1000);
+            });
+        }
+    });
+</script>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>CR7 - The GOAT</title>
+</head>
+<body>
+    <audio id="menuClickSound">
+        <source src="/sounds/siuuu.mp3" type="audio/mpeg">
+    </audio>
+    <section id="nav-bar">
+        <div>
+            <img id="cr-symbol" src="/images/cr-symbol.jpg" alt="cr7-symbol">
+        </div>
+        <div>
+            <ul>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/works">ACHIEVEMENTS</a></li>
+                <li><a href="/photo-gallery">PHOTO GALLERY</a></li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <sections id="intro-menu">
+        <h1>Welcome to the home page dedicated to Cristiano Ronaldo, one of the greatest footballers of all time!</h1>
+
+        <h2>About Cristiano Ronaldo:</h2>
+
+        <p>Cristiano Ronaldo, often referred to simply as CR7, is a Portuguese professional footballer who has earned worldwide recognition for his exceptional skills, athleticism, and dedication to the sport. Born on February 5th, 1985, in Madeira, Portugal, Ronaldo's journey from a young talent to a global superstar has been nothing short of extraordinary.</p>
+
+
+        <h2>Works:</h2>
+
+        <p>Explore the illustrious career of Cristiano Ronaldo, spanning his time at various clubs, national team achievements, and individual accolades. From his early days at Sporting Lisbon to his legendary stints with Manchester United, Real Madrid, and Juventus, discover the unforgettable moments and records that have cemented Ronaldo's status as a footballing icon.</p>
+
+        <h2>Photo Gallery:</h2>
+
+        <p>Immerse yourself in a captivating collection of images showcasing Ronaldo's iconic moments on the field, his charity work, and glimpses into his personal life. From breathtaking goals to heartwarming interactions with fans, these photographs capture the essence of his brilliance both on and off the pitch.</p>
+    </sections>
+
+    <section id="footer">
+        <div>
+            Follow Cristiano Ronaldo on his official social media channels to get real-time updates on his activities, interact with him, and be a part of his ever-expanding fan base.
+
+            Explore the website to discover more about the footballing legend and experience the magic of Cristiano Ronaldo both on and off the pitch. Thank you for visiting and supporting our dedication to celebrating the remarkable career of this iconic athlete!
+        </div>
+    </section>
+    <hr>
+    <section id="socials">
+        <a href="https://www.instagram.com/cristiano/" target="_blank">
+            <img id="socials-img" src="/images/instagram-image.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/Cristiano/" target="_blank">
+            <img id="socials-img" src="/images/facebook-image.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/Cristiano" target="_blank">
+            <img id="socials-img" src="/images/twitter-image.png" alt="Twitter">
+        </a>
+    </section>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuClickSound = document.getElementById('menuClickSound');
+        var menuItems = document.querySelectorAll('#nav-bar ul li a');
+        for (let i = 0; i < menuItems.length; i++) {
+            menuItems[i].addEventListener('click', function(event) {
+
+            event.preventDefault();
+            menuClickSound.play();
+
+            const link = this.getAttribute('href');
+                setTimeout(function() {
+                     window.location.href = link;
+                }, 1000);
+            });
+        }
+    });
+</script>
+</html>
