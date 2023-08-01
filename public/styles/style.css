@@ -1,0 +1,69 @@
+body {
+  background-color: bisque;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  padding: 0 10%;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-weight: bold;
+  color: #222;
+}
+
+.homepage-title {
+    display: flex;
+    justify-content: center;
+}
+
+.home-intro {
+    display: flex;
+    justify-content: center;
+}
+
+.the-about{
+    display: flex;
+    justify-content: left;
+}
+
+p {
+  padding: 0 10%;
+  font-family: "Helvetica", sans-serif;
+  font-weight: thin;
+  color: #222;
+}
+
+.home-img img {
+  width: 400px;
+  height: 500px;
+  padding: 0 30%
+}
+
+.about-img {
+  width: 450px;
+  height: 600px;
+  padding: 0 30%
+}
+
+.nav-bar {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: thin;
+    font-stretch: extra-condensed;
+}
+
+.pics {
+    width: 5px;
+  height: 5px;
+  padding: 0 5%
+}
+
+.art {
+    color: white;
+    padding: 0 10%;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-weight: bold;
+  
+}
