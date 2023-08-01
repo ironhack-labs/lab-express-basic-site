@@ -1,0 +1,157 @@
+* {
+    font-family: Helvetica, sans-serif;
+    line-height: 24px;
+}
+body {
+    background-color: #3F3F3F;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent
+}
+
+header li{
+    float: right;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about img {
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#about h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #D8C4A4;
+}
+
+#about table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+
+#info {
+    margin-top: -30px;
+}
+
+#home-body {
+    background-image: url(../images/fernando-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black
+}
+
+#home-body a {
+    color: black;
+}
+
+#home-body h1 {
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#home-body h2 {
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+#home-body p {
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 300px;
+    text-shadow: #2b5eac 3px 2px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+a {
+    color: white;
+}
+
+#works {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#works h2 {
+    color: #D8C4A4;
+}
+
+#achievements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#achievements img {
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#achievements h1 {
+    color: #D8C4A4;
+}
+
+#body-works {
+    display: flex;
+    flex-direction: row;
+}
+
+#home-body a:hover {
+    background-color: #ffffff;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#images img {
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#gallery-title {
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+#gallery-title h1 {
+    color: #D8C4A4;
+}
