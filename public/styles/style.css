@@ -1,0 +1,174 @@
+body{
+    background-color: #E6F3FF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 85%;
+    background-color: #D3B683;
+    border: solid 2px #D3B683;
+    border-radius: 15px;
+    border-style: outset;
+}
+
+.nav-bar-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.nav-bar-ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    padding-top: 60px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.header p{
+    font-size: 30px;
+}
+
+.header span{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#headerimg{
+    width: 350px;
+    border: 5px solid black;
+    border-style: inset;
+    border-radius: 15px;
+}
+
+hr{
+    width: 85%;
+    color: balck;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+section {
+    width: 75%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(211, 182, 131, 0.5)
+}
+
+.quotes{
+    margin-top: 7.5px;
+    font-weight: bold;
+}
+
+.homesecs{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titles{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#author{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#gallerysec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: transparent;
+}
+
+#gallerysec div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallerysec h4{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#fampic{
+    width: 650px;
+    border: 5px solid rgba(211, 182, 131, 0.5);
+    border-style: inset;
+    border-radius: 15px;
+}
+
+#wifepic{
+    width: 650px;
+    border: 5px solid rgba(211, 182, 131, 0.5);
+    border-style: inset;
+    border-radius: 15px;
+}
+
+#resistancepic{
+    width: 650px;
+    border: 5px solid rgba(211, 182, 131, 0.5);
+    border-style: inset;
+    border-radius: 15px;
+}
+
+#charkhapic{
+    width: 650px;
+    border: 5px solid rgba(211, 182, 131, 0.5);
+    border-style: inset;
+    border-radius: 15px;
+}
+
+#martinpic{
+    width: 650px;
+    border: 5px solid rgba(211, 182, 131, 0.5);
+    border-style: inset;
+    border-radius: 15px;
+}
+
+#gandhipic{
+    width: 650px;
+    border: 5px solid rgba(211, 182, 131, 0.5);
+    border-style: inset;
+    border-radius: 15px;
+}
+
