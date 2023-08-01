@@ -1,0 +1,96 @@
+#cover {
+    color: white;
+    background-color: tan;
+    font-size: 30px;
+    text-align: center;
+    padding-left: center;
+}
+
+#name {
+    color: rgba(255, 255, 0, 0.884);
+}
+
+#about {
+    font-size: 50px;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+#works {
+    font-size: 50px;
+    text-align: center;
+    padding-left: 200px;
+}
+
+#pika {
+    background-color: tan;
+    height: 500px;
+    width: 1200px;
+    margin-left: 350px;
+}
+
+#pika-2 {
+    background-color: tan;
+    height: 500px;
+    width: 1200px;
+    margin-left: 350px;
+}
+
+#pika-text {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#pika-text-1 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#pika-text-2 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#pika-text-3 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#go-pika-1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#go-pika-2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#title-work {
+    color: rgba(255, 255, 0, 0.884);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: center;
+}
+
+#title-about {
+    color: rgba(255, 255, 0, 0.884);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: center;
+}
+
+#body-about {
+    background-color: tan;
+}
+
+#body-work {
+    background-color: tan;
+}
