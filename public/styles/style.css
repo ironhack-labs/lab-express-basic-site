@@ -1,0 +1,379 @@
+@import url(https://db.onlinewebfonts.com/c/5f3d7d8d3c0816db9846f501d86dc762?family=Maison+Neue+Red+Bull+Bold);
+* {
+    font-family: "Maison Neue Red Bull Bold";
+}
+
+#bodyHome {
+    background-image: url("../images/background.jpg");
+    background-color: rgb(224, 97, 14);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bodyAbout {
+    background-color: #000b8d;
+}
+
+#bodyWorks {
+    background-image: url("../images/work.jpeg");
+    background-color: rgb(224, 97, 14);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bodyGallery {
+    background-color: #000b8d;
+}
+
+.navbar-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-btn {
+    display: flex;
+    justify-content: start;
+}
+
+.otherPages {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
+}
+
+.button {
+    background-color: transparent; /* Green */
+    border: 2px solid rgb(224, 97, 14);
+    border-radius: 50px;
+    color: #e0610e;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: 20px;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.468),
+        0 17px 50px 0 rgba(255, 255, 255, 0.468);
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(224, 97, 14);
+    color: white;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;
+}
+
+.home-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 90%;
+}
+
+.first-div {
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.firstPhoto-div {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    border: 2px solid rgb(224, 97, 14);
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+    background-image: url("../images/verstappenWin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 85%;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.photo-div {
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    width: 30%;
+    height: 550px;
+    border-radius: 100px;
+    background-image: url("../images/perfil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border: 2px solid rgb(224, 97, 14);
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px #e0610e;
+    text-transform: uppercase;
+}
+
+.bio p {
+    color: white;
+}
+
+.aboutTitles h3 {
+    color: white;
+    text-shadow: 2px 2px #e0610e;
+    text-transform: uppercase;
+}
+
+.aboutText h3 {
+    color: #e0610e;
+    text-shadow: 1px 1px #000000;
+    text-transform: uppercase;
+}
+
+/*--------------------------------- WORKS ---------------------------------*/
+
+.alignWorks {
+    display: flex;
+    justify-content: center;
+}
+
+.container-works {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.text-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.trophyText-div {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 20px;
+    width: 70%;
+    background-image: url("../images/trophy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 50px;
+}
+
+.achieves-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-right: 90px;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px #e0610e;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #e0610e;
+
+    text-transform: uppercase;
+}
+
+/*--------------------------------- GALLERY ---------------------------------*/
+.allign-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.container-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 90%;
+    height: 350px;
+}
+
+.image1 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image2 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image3 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image4 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image5 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image6 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image7 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
+
+.image8 {
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-image: url("../images/gallery9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 32px 16px 80px rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+}
