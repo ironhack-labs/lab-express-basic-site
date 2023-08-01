@@ -1,0 +1,20 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,237,3,1) 0%);
+}
+
+h1{
+    margin-top: 1.25rem; 
+ font-size: 3rem;
+line-height: 1; 
+font-weight: 800; 
+color: #000000; 
+}
+
+h4 {
+    margin-top: 1.25rem; 
+font-size: 1.125rem;
+line-height: 1.75rem; 
+color: #4B5563; 
+}
+
