@@ -1,0 +1,53 @@
+body{
+    color: bisque;
+    background-color: #CFC9B3;
+    width: 100%;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.listText {
+    color: #483d8b;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.homeBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeBullets{
+    font-size: 25px;
+    list-style: none;
+}
+
+.listText li {
+  margin-bottom: 10px;
+}
+
+.portrait {
+    width: 400px;
+    height: 550px;
+}
+
+.returnHome{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
