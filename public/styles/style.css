@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin-bottom: 10%;
+    background-color: rgb(0, 255, 255, 0.4);
+    color: rgb(0, 102, 255);
+    line-height: 1.2;
+
+    
+    
+}
+p {
+    padding: 0 10%;
+    font-size: 1.5em;
+    
+}
+ul {
+    padding: 0 25%;
+    font-size: 1.3em;
+}
+ul li {
+    margin-bottom: 1em;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+img {
+    padding: 0 15%;
+    border-radius: 20%;
+    width: 70%;
+}
+
+.aAbout {
+    padding: 0 auto;
+}
+.aWorks{
+    padding-top: 3.2em;
+}
+
+footer {
+    padding-top: 5em;
+    font-size: 1.3em;
+    
+}
+.drSeuss {
+   width: 35%;
+   height: 35vh;
+   padding: 0 30%;
+}
+
+
