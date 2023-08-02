@@ -1,0 +1,137 @@
+.img{    
+    background-image: url("https://w.forfun.com/fetch/19/19cdc360fe3ac47cf69da8aab16ec43b.jpeg");
+   }
+.intro{
+    text-align: center;
+    font-family: shrek;
+  src: url("/public/font/Shrek.ttf") format('woff2');
+}
+.intro >h1{
+    color: green;
+    font-style: bold;
+    font-size: 150px;
+    margin-bottom: 50px;
+}
+.intro >h2{
+    font: 100px;
+    color: greenyellow;
+    margin-bottom: 10px;
+}
+
+.button {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #040d15;
+    background-image: url("https://w.forfun.com/fetch/19/19cdc360fe3ac47cf69da8aab16ec43b.jpeg");
+    
+}
+
+a {
+
+    position: relative;
+
+    display: inline-block;
+
+    padding: 12px 36px;
+
+    margin: 0 30px;
+
+    color: #ffffff;
+
+    background: rgba(30, 152, 6, 0.589);
+
+    border-radius: 40px;
+
+    font-size: 18px;
+
+    text-decoration: none;
+
+    letter-spacing: 2px;
+
+    overflow: hidden;
+
+}
+
+span {
+
+    position: absolute;
+
+    background: #ffffff;
+
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+
+    border-radius: 50%;
+
+    animation: animate 1s linear infinite;
+
+}
+
+@keyframes animate {
+
+    0% {
+
+        width: 0;
+
+        height: 0;
+
+        opacity: .2;
+
+    }
+
+    100% {
+
+        width: 500px;
+
+        height: 500px;
+
+        opacity: 0;
+
+    }
+
+}
+
+.sec {
+    border-radius: 5px;
+    border-style:double;
+    border-color: white;
+    text-align: left;
+    position: relative;
+    padding: 100px;
+    margin-right: 1200px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background: #124e0490;
+}
+
+.sec h2 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    color: #fff;
+}
+
+.sec p {
+    font-size: 22px;
+    color: #fff;
+}
+.homeButton{
+    margin-top: 100px;
+}
+.imgShrek{
+    margin-top: 10px;
+
+}
