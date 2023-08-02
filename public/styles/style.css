@@ -1,0 +1,37 @@
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 13, 39);
+}
+
+p {
+  padding: 0 10%;
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 150;
+}
+
+.photoNrbg {
+  width: 400px;
+  height: 600px;
+  margin-left: 40%;
+}
+
+.photoRBG {
+  width: 550px;
+  height: 700px;
+  margin-left: 36%;
+}
+
+.workRBG {
+  width: 1000px;
+  height: 600px;
+  margin-left: 24%;
+  border-radius: 5%;
+}
+
+footer {
+  padding: 1em;
+}
