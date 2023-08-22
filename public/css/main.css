@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to top,
+      red 0%,
+      red 50%,
+      black 50%,
+      black 100%
+    );
+   
+  } 
+
+  a{
+   
+    text-decoration: none;
+    color:red;
+    font-size: 35px;
+  }
+
+  #menu{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    
+
+  }
+  
+  h1{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+  #gabigoltaca{
+    width: 500px;
+    display: flex;
+    margin-left: 700px;
+  }
+  p{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    
+    margin-top: 100px;
+  }
+  ol{ color:white;
+    text-align: center;
+    font-size: 40px;
+    
+    margin-top: 50px;
+
+  }
+  #galeria{
+    display: flex;
+    max-width:  auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
