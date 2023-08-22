@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    display: inline;
+    padding: 15px;
+    margin: 20px;
+    position: sticky;
+    text-decoration: none;
+    color: crimson;
+}
+
+#divName {
+    text-align: center;
+}
+
+#divName img {
+    border-radius: 10px;
+}
+
+#divBio {
+    text-align: justify;
+    padding: 40px 40px;
+}
+
+#divBio hr {
+    width: 40%;
+}
+
+h3 {
+    text-align: justify;
+    padding: 40px 40px;
+}
+
+.div {
+    text-align: center;
+}
+
+.div img {
+    border-radius: 10px;
+}
+
+.div p {
+    text-align: justify;
+    padding: 40px 40px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+    align-content: space-between;
+}
+
+#gallery img {
+    border-radius: 10px;
+}
+
+#p {
+    text-align: center;
+    padding: 20%;
+}
