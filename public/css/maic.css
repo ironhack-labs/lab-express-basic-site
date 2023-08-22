@@ -1,0 +1,134 @@
+body {
+    background-color: #228B22;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #F0E68C;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    margin-bottom: 2rem;
+    background-color: #BDB76B;
+}
+
+a {
+    padding: 1rem;
+    font-family: Helvetica, sans-serif;
+    color: #F0E68C;
+    background-color: #BDB76B;
+}
+
+a:visited {
+
+    font-family: Helvetica, sans-serif;
+    color: #F0E68C;
+}
+
+a:hover {
+    border: 1px solid #F0E68C;
+}
+
+.banner {
+    border: 1px solid #666;
+    background-color: rgb(180, 153, 206);
+    padding: 1rem 0 2rem;
+    margin: 2rem;
+    border: 2px, solid, #F0E68C;
+}
+
+#home-image {
+    max-height: 550px;
+    width: auto;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+q {
+    font-style: italic;
+}
+
+/*Biography page styles*/
+
+#biography {
+    margin-bottom: 50px;
+}
+
+#text {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    height: 250px;
+    padding: 20px;
+}
+
+#bio-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 300px;
+    width: auto;
+    margin-bottom: 100px;
+  }
+
+  /*Achievements page styles*/
+  #container {
+    display: flex;
+    align-items: flex-start;
+  }
+  ol.list {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+
+  ol.list li {
+    
+    margin: 20px 0;
+    margin-left: 35px;
+    padding-left: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  #work-image {
+    max-height: 300px;
+    width: auto;
+    margin-left: 200px;
+    margin-top: 80px;
+
+  }
+
+  .img-container {
+    max-height: 550px;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #gallery-image {
+    width: 500px;
+    height: 300px;
+  }
