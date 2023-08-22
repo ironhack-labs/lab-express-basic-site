@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+#about-body {
+    line-height: 3vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+nav a {
+    padding: 0 1rem;
+}
+
+.banner {
+    border: 1px solid #666;
+    background-color: rgb(180, 153, 206);
+    padding: 1rem 0 2rem;
+    margin: 2rem;
+}
+
+#home-image {
+    max-height: 350px;
+    width: auto;
+}
+
+.list {
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav-bar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#main-title {
+    text-align: center;
+    padding: 20px;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.social-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+.social-networks {
+    padding-top: 5rem;
+}
+.content {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.box {
+    flex: 1 1 90vw;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    max-width: 90vw;
+}
+.box1 {
+    background-color: #f1c40f;
+}
+.box2 {
+    background-color: #e74c3c;
+}
+.box3 {
+    background-color: #3498db;
+}
+.box4 {
+    background-color: #2ecc71;
+}
+.box5 {
+    background-color: #9b59b6;
+}
+.box6 {
+    background-color: #f39c12;
+}
+.box7 {
+    background-color: #1abc9c;
+}
+.box8 {
+    background-color: #e67e22;
+}
+.box9 {
+    background-color: #27ae60;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+#contact-body {
+    text-align: center;
+}
+#images-home {
+    height: 30vh;
+    width: auto;
+    border-radius: 7px;
+    display: inline-block;
+}
+.home-title {
+    display: inline-block;
+    position: absolute;
+    left: 35vw;
+}
+.home-text {
+    width: 60vw;
+    padding: 2vw;
+    font-size: 1.2rem;
+    line-height: 2.5vh;
+}
