@@ -1,0 +1,30 @@
+h1 {
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#info {
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+#hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#hero-section {
+    position: relative;
+    overflow: hidden;
+}
