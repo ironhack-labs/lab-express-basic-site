@@ -1,0 +1,119 @@
+body {
+    color: blue;
+    background-color: rgb(240, 209, 240);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    padding: 2em;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.grid {
+    --size: 80vmin;
+    display: grid;
+    width: var(--size);
+    aspect-ratio: 1;
+    grid-template-columns: repeat(var(--n), 1fr);
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+    top: -50%;
+    /* Center the grid horizontally */
+}
+
+.cell {
+    --abs-i: max(var(--ki, 0) - var(--i), var(--i) - var(--ki, 0));
+    --abs-j: max(var(--kj, 0) - var(--j), var(--j) - var(--kj, 0));
+    --rel-i: calc(var(--abs-i)/var(--n));
+    --rel-j: calc(var(--abs-j)/var(--n));
+    --sum: calc(var(--rel-i)*var(--rel-i) + var(--rel-j)*var(--rel-j));
+    --sqr: var(--sum);
+    display: grid;
+    transform-style: preserve-3d;
+    animation: m1 .4s calc(var(--sqr)*.6s) both;
+}
+
+.cell:before,
+.cell:after {
+    content: "";
+    grid-area: 1/1;
+    background: var(--img1) calc(var(--i)/var(--n)*100%) calc(var(--j)/var(--n)*100%)/var(--size) var(--size);
+    backface-visibility: hidden;
+}
+
+.cell:after {
+    background-image: var(--img2);
+    transform: rotateY(180deg);
+}
+
+input:checked+label .cell {
+    animation-name: m2;
+}
+
+@keyframes m1 {
+    0% {
+        transform: perspective(300px) scale(1.05) rotateY(0deg)
+    }
+
+    to {
+        transform: perspective(300px) scale(1.05) rotateY(180deg)
+    }
+}
+
+@keyframes m2 {
+    0% {
+        transform: perspective(300px) scale(1.05) rotateY(180deg)
+    }
+
+    to {
+        transform: perspective(300px) scale(1.05) rotateY(0deg)
+    }
+}
+
+@supports (z-index: sqrt(4)) {
+    .cell {
+        --sqr: sqrt(var(--sum));
+    }
+}
+
+input {
+    display: none;
+}
+
+.links {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: blue;
+    font-size: 40px;
+}
+
+.back {
+    position: absolute;
+    top: 10%;
+    color: blue;
+    font-size: 40px;
+}
+
+
+.cell.image1 {
+    background-image: url(https://i.pinimg.com/1200x/7d/b8/a0/7db8a0ce89698c53d220020f9da66799.jpg);
+}
+
+.cell.image2 {
+    background-image: url(https://www.mad-eyes.net/career/img-00s/2000_mondino06.jpg);
+}
+
+.cell.image3 {
+    background-image: url(https://3.bp.blogspot.com/-SJvwFOUNI0w/TyrPiLUyOpI/AAAAAAAADCM/XddKzTKsVM8/s1600/madonna3.jpg);
+}
+
+.cell.image4 {
+    background-image: url(https://todayinmadonnahistory.files.wordpress.com/2018/08/music-shoot-mondino-19.png);
+}
+
+/* Add more .cell.imageX classes for additional images */
+
+/* Rest of your CSS styles for .cell and other elements */

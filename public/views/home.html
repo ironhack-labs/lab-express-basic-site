@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>mAdoNNa tHe qUEEN Of PoP</h1>
+    <a class="links" href="/about">About</a>
+    <a class="links" href="/works">Albums</a>
+
+
+
+    <input type="checkbox" id="image">
+    <label class="grid" for="image" style="--n: 14;
+    --img1: url(https://i.pinimg.com/1200x/7d/b8/a0/7db8a0ce89698c53d220020f9da66799.jpg);
+    --img2: url(https://www.mad-eyes.net/career/img-00s/2000_mondino06.jpg);
+    --img3: url(https://3.bp.blogspot.com/-SJvwFOUNI0w/TyrPiLUyOpI/AAAAAAAADCM/XddKzTKsVM8/s1600/madonna3.jpg);
+    --img4: url(https://todayinmadonnahistory.files.wordpress.com/2018/08/music-shoot-mondino-19.png);">
+
+
+        <script>
+            const n = 14;
+            const label = document.querySelector('.grid');
+            for (let j = 0; j < n; j++) {
+                for (let i = 0; i < n; i++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    cell.style = `--i: ${i}; --j: ${j};`;
+                    label.appendChild(cell);
+                }
+            }
+        </script>
+    </label>
+    <!-- - let n = 14;
+        - let p = n*n;
+        - let img1 = "https://picsum.photos/id/152/1200/1200";
+        - let img2 = "https://picsum.photos/id/360/1200/1200";
+        
+        style
+        - for(let x = 0; x < n; x++) | .grid:has(.cell[style*="--i: #{x}" ]:hover) { --ki: #{x} } |
+            .grid:has(.cell[style*="--j: #{x}" ]:hover) { --kj: #{x} } input(type="checkbox" )(id="image" )
+            label.grid(style=`--n: ${n};--img1: url(${img1});--img2: url(${img2})`)(for="image" ) - for(let j=0; j < n; j++) -
+            for(let i=0; i < n; i++) .cell(style=`--i: ${i};--j: ${j};`) -->
+
+</body>
+
+</html>
