@@ -27,7 +27,7 @@ You should use `express` to create your app, build the routing logic with the bu
 
 ## Instructions
 
-**Your Website should have (at least) 3 pages:**
+**Your Website should have (at lexast) 3 pages:**
 
 1. A **Home** page, that welcomes the visitor and links to the other pages on the website.
 2. An **About** page, that shares some basic information about the person.
