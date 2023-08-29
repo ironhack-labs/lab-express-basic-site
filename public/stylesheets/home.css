@@ -1,0 +1,65 @@
+body {
+    color: #4f6c8a;
+    background-color: rgb(245, 238, 229);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+  }
+  
+  h1 {
+    padding: 0px;
+    font-family: serif;
+    font-size: 2.5em;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/header-fredrikbackman.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 1.5em;
+  }
+  
+  div {
+    padding: 60px;
+  }
+  
+  img {
+    height: 550px;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
