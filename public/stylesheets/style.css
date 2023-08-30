@@ -1,0 +1,97 @@
+@import url ('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lilita+One&family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville';
+    text-align: center; 
+    background-color: rgb(238, 232, 232);
+   
+}
+
+h1 {
+font-size:60px;
+text-align: center;
+}
+
+.main-image {
+display:block;
+margin: 0 auto;
+width: 60%;
+}
+/* Navbar  */
+
+.navbar-items {
+    font-size: 36px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.navbar-items ul {
+    list-style-type: none;
+    text-decoration: none 
+}
+
+.navbar-items li {
+    display: inline;
+    padding: 0 120px 0 70px;
+  }
+
+.navbar-items a {
+    color:white;
+    font-weight:lighter;
+    background-color: red;
+}
+
+.about-box {
+    width: 80%;
+    border: solid rgb(176, 18, 18) 2px;
+    display: inline-block;
+    background-color:blanchedalmond;
+    margin-bottom: 25px;
+    padding: 10px 14px 14px 90px;
+    box-shadow: 0px 1px 5px #999;
+}
+
+.about-box p {
+    text-align:left;
+    font-size: 25px;
+    line-height: 140%;
+    color:black;
+}
+
+.about-box a {
+    color:red;
+    font-style: italic;
+}
+.home-about a {
+font-size:x-large;
+text-align:center;
+color:black;
+}
+
+.gallery {
+    margin: 20px;
+    padding:5px;
+    width: auto;
+    display: flex;
+    
+    border: 2px solid #9b2525;
+  }
+  
+
+  .gallery:hover {
+    border: 5px solid #d70b0b;
+  }
+
+  .desc {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom:70px;
+    padding-left: 50px;
+    margin-top:100px;
+    text-align: left;
+}
