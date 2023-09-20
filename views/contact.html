@@ -1,0 +1,67 @@
+    <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="././style.css" />
+      </head>
+      <body>
+        <nav>
+          <h1><a href="/">Shanija Perera</a></h1>
+          <ul class="navigation">
+            <li><a href="/projects" class="nav-link">Projects</a></li>
+            <li><a href="/skills" class="nav-link">Skills</a></li>
+            <li><a href="/contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <section class="contact" id="contact">
+            <h2>Get In Touch With Me</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                <form action="" method="POST">
+                    <div class="form-control">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="sender-name"
+                        placeholder="Enter Your Name"
+                        class="input-field"
+                        required
+                    />
+                    </div>
+                    <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="sender-email"
+                        placeholder="Enter Your Email"
+                        class="input-field"
+                        required
+                    />
+                    </div>
+                    <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        cols="60"
+                        rows="10"
+                        placeholder="Enter Your Message"
+                        name="message"
+                        class="input-field"
+                        required
+                    ></textarea>
+                    </div>
+                    <input
+                    type="submit"
+                    value="Submit"
+                    id="submit-btn"
+                    class="submit-btn"
+                    />
+                </form>
+                </div>
+            </div>
+        </section>
+      </body>
+    </html>
