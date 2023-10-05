@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+    background-color:blanchedalmond;
+}
+
+.image-1 {
+    width: 400px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style:none;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 60px;
+    text-decoration :underline
+}
+
+span {
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.background {
+    background-image: url("../public/images/second-image.jpg");
+    color: burlywood;
+    text-shadow: 5px 5px 7px black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
