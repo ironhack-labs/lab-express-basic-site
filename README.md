@@ -8,6 +8,11 @@ Pick a person that you admire and build a website that shares some basic informa
 
 You should use `express` to create your app, build the routing logic with the built-in app routing methods, and serve static content for every request.
 
+## About Neri Oxman 
+I have a profound admiration for Neri Oxman, a distinguished figure in the fields of engineering and design. She is renowned for her pioneering work at the Massachusetts Institute of Technology (MIT), where she seamlessly merges the realms of engineering and design in a truly remarkable manner.
+One of the most striking aspects of Oxman's work is her adeptness at harmonizing two seemingly disparate domains. This fusion of engineering and design represents a brilliant convergence of technical precision and artistic vision, demonstrating the immense potential that arises when these disciplines are brought together.
+At the forefront of her innovative approach is the utilization of cutting-edge technologies such as 3D printing and advanced fabrication techniques. Oxman's ingenuity in employing these methods is particularly evident in her ventures into hybrid structures, where she marries unconventional materials like textiles and glass. This not only showcases her technical prowess but also highlights her visionary thinking, as she pushes the boundaries of what is conventionally thought possible in both engineering and design.
+In sum, Neri Oxman's groundbreaking work stands as a testament to her extraordinary ability to meld engineering and design, and her exploration of 3D printing and fabrication techniques for the creation of hybrid structures is nothing short of visionary.
 ## Requirements
 
 - Fork this repo
