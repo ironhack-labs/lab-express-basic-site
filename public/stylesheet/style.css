@@ -1,0 +1,30 @@
+*{
+
+    background-color: lightblue;
+}
+h1{
+    color: blueviolet;
+}
+
+li{
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+
+}
+
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.image-container{
+    flex: 1;
+    max-width:400px;
+}
+.image-container img{
+    width: 100%;
+}
