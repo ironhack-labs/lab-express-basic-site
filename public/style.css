@@ -1,0 +1,30 @@
+.navbar {
+    background-color: yellowgreen;
+    padding: 20px;
+ }
+
+ .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 15px;
+    font-weight: 700;
+ }
+
+body {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+body li {
+    list-style: none;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+body p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 100px;
+}
