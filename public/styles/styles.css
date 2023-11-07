@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(224, 224, 224);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  color: #1c6ea4;
+  text-align: center;
+  display: block;
+  margin-bottom: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 2em;
+  font-size: 2em;
+  border: 2px solid #1c6ea4;
+}
+
+img {
+  width: 350px;
+  margin: 0 3em;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: 3em 20em;
+}
