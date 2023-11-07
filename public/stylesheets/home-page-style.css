@@ -1,0 +1,44 @@
+body {
+  margin: 40px;
+  overflow: hidden;
+  font-family: Monaco, monospace;
+  background-color: #fffff1;
+  background-image: url("/images/arthur.jpeg");
+  background-repeat: no-repeat;
+  background-size: 60% 100vh;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.nav-links {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.albums {
+  padding-left: 140px;
+}
+
+.photos {
+  padding-left: 300px;
+}
+
+.artist-image {
+  width: max-content;
+}
+
+
+/* ================================================================= */
+/* ====================ABOUT PAGE=================================== */
+/* ================================================================= */
+
+.about-page {
+    padding: 30px;
+
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 80px;
+  overflow: hidden;
+  font-family: Monaco, monospace;
+  background-color: #d7d8bf;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2;
+}
