@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    gap: 0 16px;
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: coral;
+    text-align: center;
+}
