@@ -1,0 +1,32 @@
+#works{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+
+#works img{
+    width: 250px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.artwork{
+    margin: 20px 100px 40px 0px;
+    width: 500px;
+}
+
+.description{
+    font-size: 18px;
+    background-color: white;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.title-work{
+    font-size:25px;
+    font-weight: 900;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:pink;
+}
+
+nav{
+    background-color: aqua;
+    width: 100vw;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 3px solid darkblue;
+}
+
+nav a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
