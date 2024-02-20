@@ -1,0 +1,53 @@
+.wrap {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.background {
+    opacity: 0.4;
+    position: absolute;
+    width: 90%;
+    height: auto;
+
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    align-items: center;
+}
+
+.content img {
+    width: 500px;
+    margin: 20px;
+    
+}
+
+a {
+    color:black;
+    font-size: x-large;
+}
+
+body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: x-large;
+
+}
