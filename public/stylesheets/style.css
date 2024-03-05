@@ -1,0 +1,44 @@
+body {
+    color:darkslateblue;
+    background-color:antiquewhite;
+    text-align:center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly; 
+    
+  }
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; 
+}
+
+a {
+  color: black;
+  padding: 15px;
+  background-color:chocolate;
+  text-decoration: none;
+  border: 1px solid yellow;  
+}
+
+a:hover {
+  background-color:goldenrod
+}
+
+#jkr, #hpbooks {
+  color: black;
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+}
+  
+#jkr-pic {
+  width: 30%;
+  margin: auto;
+}
+
+#hp-pic {
+  width: 60%;
+  margin: auto;
+}
