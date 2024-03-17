@@ -1,0 +1,13 @@
+#info {
+
+    width: 60%;
+    height: 500px;
+    align-items: center;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+
+}

@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#works {
+
+    display: flex;
+    width: 100%; 
+    flex-direction: row;
+    justify-content: center;
+   
+
+    
+
+}
+
+#literature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%; 
+    padding: 20px;
+}
+
+#paitnings {
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -50px;
+  
+  
+
+}
+
+#book {
+ width: 100%; 
+ height: 400px; 
+ justify-content: center ;
+
+}
+
+#painting-img {
+    width: 100%; 
+    height: 400px; 
+    justify-content: center;
+
+}
+
+p {
+    text-align: justify;
+}
