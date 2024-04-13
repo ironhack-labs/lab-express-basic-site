@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    padding: 2em;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
