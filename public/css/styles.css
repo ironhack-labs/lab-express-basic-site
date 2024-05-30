@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Bangers", cursive;
+  font-size: 16px;
+}
+
+img {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+a {
+  font-size: 1rem;
+  text-align: center;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+}
+
+li {
+  font-size: 1rem;
+  text-align: center;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  font-size: 1.5rem;
+}
+
+#navbar a:hover {
+  color: #007bff;
+}
+
+#navbar a.active {
+  color: #007bff;
+}
+
+#navbar a.active::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  transition: width 0.3s;
+}
+
+#navbar a.active:hover::after {
+  width: 100%;
+}
+
+#hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#landing-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+
+#landing-container h1 {
+  font-size: 5rem;
+}
+
+#landing-container img {
+  width: 50vw;
+}
+
+#personality-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#achievements-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#about-container img {
+  width: 50vw;
+}
+
+.line {
+  border-bottom: 1px solid #888;
+}
+
+#team-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#team-containers p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#works-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#works-container img {
+  width: 50vw;
+}
