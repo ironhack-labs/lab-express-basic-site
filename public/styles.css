@@ -1,0 +1,20 @@
+body {
+    font-family: "Roboto";
+    background-image: linear-gradient(225deg, rgb(0, 76, 255), white);
+    background-repeat: no-repeat;
+}
+
+#hero {
+    width: 100%;
+    height: 660px;
+    background-image: url('./images/hero.jpg');
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-style: italic;
+}
