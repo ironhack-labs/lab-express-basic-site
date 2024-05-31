@@ -1,0 +1,25 @@
+body{
+    background-image: url(/images/bean-wallpaper.webp);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.robert-image{
+    width:15rem;
+    margin-bottom:  1rem;
+}
+.about-container{
+    background-color: rgba(240, 229, 235, 0.79);
+    border-radius: 5px;
+    width: 80%;
+}
+p{
+    font-size: 1.4rem;
+    text-align: center;
+}

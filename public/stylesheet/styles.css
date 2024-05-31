@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(/images/bean-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.nav-links{
+    position: absolute;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 2.3rem;
+}
+li{
+    position: relative;
+    left: 20rem;
+    font-size: 4rem;
+    list-style: none;
+    margin-top: 8rem;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+.bean{
+    position:relative;
+    left: 50rem;
+    top: 15rem;
+    width: 50rem;
+}
