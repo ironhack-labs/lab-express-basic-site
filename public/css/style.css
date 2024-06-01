@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+    background-color: cyan;
+}
+
+#homeContent {
+    text-align: center;
+    border: 3px black solid;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    
+  }
+
+#homeContent img {
+    width: 15vw;
+    height: auto;
+}
+
+h1 {
+    font-weight: normal;
+}
