@@ -1,0 +1,46 @@
+#nav-list {
+    display: flex;
+    color: black;
+    background-color: brown;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+}
+
+body {
+background-color: black;
+color: beige;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#discs {
+    display: flex;
+    flex: row;
+    width: 100%;
+    height: 100vh;
+}
+
+#disc1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+#disc2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-end;
+}

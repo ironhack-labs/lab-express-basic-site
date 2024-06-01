@@ -1,0 +1,55 @@
+#nav-list {
+    display: flex;
+    color: black;
+    background-color: brown;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+}
+
+body {
+    background-color: black;
+    color: beige;
+}
+
+h1 {
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#celebrity {
+background-color: black;
+color: beige;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+#celebrity {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+}
+
+h2 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#info {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
