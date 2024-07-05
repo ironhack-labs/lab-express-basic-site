@@ -1,0 +1,131 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("/images/1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-weight: 300;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.container {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.project-section {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.project-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.project-section h2,
+.project-section p,
+.project-section ul {
+  position: relative;
+  z-index: 2;
+}
+
+.project-section h3 {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(134, 134, 134, 0.8);
+  font-weight: 300; /* 細めのフォントに設定 */
+}
+
+.project-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-section li {
+  margin-bottom: 10px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.brand-name {
+  font-weight: 700;
+}
+
+.brand-name .lastname {
+  font-weight: 300;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.thin-text {
+  font-weight: 300;
+}
+
+.gallery-title,
+.projects-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.about-content {
+  padding: 0 20px;
+}
+
+.project-description {
+  font-weight: 300;
+}
+
+.highlighted-work {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #fff;
+}

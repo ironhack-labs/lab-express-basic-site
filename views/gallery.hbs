@@ -1,0 +1,29 @@
+{{!-- gallery.hbs --}}
+{{> layout}}
+<div class="container gallery-title">
+    <h1 class="thin-text">Gallery of</h1>
+    <h1><a class="navbar-brand brand-name" href="/">
+                Shada <span class="lastname">Mustafa</span>
+            </a></h1>
+</div>
+<div class="container">
+    <div class="row">
+        {{#each artworks}}
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="{{this.image}}" class="card-img-top img-fluid" alt="{{this.title}}">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p class="card-text flex-grow-1">
+                        <strong>Artist:</strong> Shada Mustafa<br>
+                        <strong>Year:</strong> {{this.year}}<br>
+                        <strong>Medium:</strong> {{this.medium}}<br>
+                        <strong>Dimensions:</strong> {{this.dimensions}}<br>
+                        <strong>Description:</strong> {{this.description}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
