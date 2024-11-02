@@ -1,0 +1,76 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Ensure the body takes the full height of the viewport */
+}
+
+body {
+  display: flex; /* Make the body a flex container */
+  flex-direction: column; /* Arrange children in a column */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background: #444;
+  transition: background 0.3s;
+}
+
+/* Main content styles */
+main {
+  flex: 1; /* Allow main to grow and fill available space */
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+  width: 100%; /* Make sure it stretches the full width */
+}
+
