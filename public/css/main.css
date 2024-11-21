@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(216, 227, 220);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 'vw';
+}
+
+#about{
+background-color: rgb(232, 225, 218);
+text-align: center;
+}
+
+#tricks{
+    background-color:rgb(221, 209, 210);
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: small;
+
+}
+
+nav a {
+    padding: 0 1rem;
+}
+
+.container{
+    display:flex;
+    justify-content: flex-start;
+    width: "vw";
+    position: fixed;
+    
+}
+.paragraph{
+    font-size: small;
+    width: 35%;
+    margin-left: 15px;
+}
+
+.images {
+    
+    width: 200px;
+}
