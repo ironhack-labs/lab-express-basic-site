@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid #2e7d32;   /* 👈 borde visible */
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
